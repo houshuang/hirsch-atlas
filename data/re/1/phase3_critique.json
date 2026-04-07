@@ -1,0 +1,93 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the persistence of scientifically invalid 'readability' measures is due to their function as an ideological 'prop' for the romantic/progressive educational tradition.",
+        "source_passage": "Nonetheless, despite their invalidity, these readability 'levels' and classroom libraries are so central to the child-centric tradition that those elaborate 'measures' of reading levels persist. They have been used as props to progressivism for so long that we now have accepted these fictions of general 'reading levels' as being facts.",
+        "importance": "significant",
+        "suggested_claim": "The institutional persistence of readability metrics is driven by ideological necessity within child-centric pedagogy rather than empirical validity.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author makes a critical linguistic distinction between 'development' (natural growth) and 'ontogeny' (cultural accommodation) to argue that education is an artificial, human-made process.",
+        "source_passage": "Current evolutionary psychologists want you to notice that they use a different noun than 'development.' They use the term 'ontogeny.' It simply means: 'the life-course of an individual.'... Evolutionists use the noun 'culture,' not 'nature.'",
+        "importance": "critical",
+        "suggested_claim": "The substitution of 'ontogeny' for 'development' signifies that education is a process of human-made cultural accommodation rather than a natural biological unfolding.",
+        "suggested_claim_level": "methodological"
+      },
+      {
+        "description": "The author argues that literacy actually increases voter independence, directly rebutting the objection that a common curriculum is 'brainwashing'.",
+        "source_passage": "Under Shanker's 'curriculum framework,' individual districts and schools can use different versions... Hence there would not be a dictatorial propagandistic 'brainwashing' effect of commonly shared information. It would have the opposite effect. Making voters more literate makes them more, not less, independent-minded.",
+        "importance": "significant",
+        "suggested_claim": "Universal literacy achieved through a common curriculum enhances democratic independence and voter autonomy rather than facilitating state indoctrination.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C103",
+        "problem": "The claim omits the specific reason the author limits the metaphor: to distinguish between successful and failing 'theories' of education.",
+        "source_passage": "Note, however, that some ratchets fail to work. They slip. The ratchet metaphor holds only for successful tribes. Similarly, not every child successfully achieves the gains needed to advance... especially if the ratchet is based on a slippery romantic educational theory.",
+        "suggested_fix": "The 'ratchet' metaphor is exclusive to successful cultural groups and students; it specifically fails to describe outcomes when schools employ 'slippery' romantic educational theories."
+      },
+      {
+        "claim_id": "C22",
+        "problem": "The claim overstates Shanker's position as a 'requirement' for democratic education, whereas Shanker presents it as a minimal necessary condition ('at the very least').",
+        "source_passage": "What we really need at the very least are statewide curriculum frameworks and statewide assessment systems.",
+        "suggested_fix": "Statewide curriculum frameworks and assessment systems represent the minimum necessary infrastructure to ensure students and teachers know what is required for grade-to-grade advancement."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E8",
+        "claim_id": "C25",
+        "missing_warrant": "The use of a 'blind lottery' for school admissions ensures that the success of the students is attributable to the school's curriculum rather than 'creaming' or selecting high-potential students from the outset."
+      },
+      {
+        "evidence_id": "E7",
+        "claim_id": "C29",
+        "missing_warrant": "Successful debate requires the ability to anticipate and satisfy the 'unstated knowledge' of judges; therefore, defeating wealthy peers proves that disadvantaged students have successfully assimilated the shared 'adult' background knowledge."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C86",
+        "counter_argument": "A 'common curriculum' defined by the state may reflect the biases and values of the dominant social class, potentially alienating or excluding the cultural heritage of minority groups.",
+        "why_important": "This addresses the central political tension of the 'Norway Principle'—who decides what knowledge is 'common'?"
+      },
+      {
+        "targets_claim": "C74",
+        "counter_argument": "Tennessee's reading score improvements might be attributed to other factors, such as the duration of school closures, specific uses of federal relief funds, or teacher training initiatives unrelated to the 'Core Knowledge' content.",
+        "why_important": "It challenges the author's causal attribution in his strongest recent empirical example."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C34",
+          "C40",
+          "C41",
+          "C44"
+        ],
+        "action": "merge",
+        "explanation": "These claims are redundant; they all express the single core idea that readability formulas are scientifically invalid because they ignore the primary role of background knowledge."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is very high-quality and captures the major theoretical moves (Ratchet vs. Norway Principle). However, it misses the author's subtle linguistic shifts (ontogeny vs. development) and the meta-argument regarding 'readability' as an ideological prop. The warrants for Jeff Litt's success (the lottery) and the specific logic connecting debate to 'tribal knowledge' need explicit articulation."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0026078000000000004,
+    "input_tokens": 20530,
+    "output_tokens": 1387,
+    "duration_s": 20.13835597038269,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

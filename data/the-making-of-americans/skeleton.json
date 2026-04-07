@@ -1,0 +1,160 @@
+{
+  "result": {
+    "book_thesis": "To fulfill the American experiment's founding ideals of equity and civic unity, public schools must replace the scientifically flawed 'skills-based' educational model with a specific, common subject-matter curriculum in the early grades to create a shared public sphere.",
+    "core_frameworks": [
+      {
+        "id": "common_school_ideal",
+        "name": "The Common School Ideal",
+        "description": "An educational model designed to create a transethnic civic core that allows individuals from diverse backgrounds to participate as equals in the public sphere.",
+        "components": [
+          {
+            "id": "civic_core",
+            "name": "Civic Core",
+            "description": "A shared body of knowledge and values that enables political and social unity across different ethnicities."
+          },
+          {
+            "id": "public_sphere_participation",
+            "name": "Public Sphere Participation",
+            "description": "The ability of all citizens to engage in national discourse and economic life regardless of their private origin."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "how_to_pedagogy",
+        "name": "The How-To Conception of Schooling",
+        "description": "The dominant 20th-century educational theory that emphasizes abstract skills like 'critical thinking' and 'reading strategies' over specific subject-matter content.",
+        "components": [
+          {
+            "id": "skill_transcendence",
+            "name": "Skill Transcendence",
+            "description": "The belief that thinking skills can be taught independently of factual knowledge."
+          },
+          {
+            "id": "content_neutrality",
+            "name": "Content Neutrality",
+            "description": "The rejection of a specific, grade-by-grade subject-matter curriculum."
+          }
+        ],
+        "stance": "author_opposes"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "1. The Inspiring Idea of the Common School",
+        "predicted_main_argument": "The American founders envisioned public education as the primary tool for perpetuating political institutions and ensuring the success of the American experiment.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "historical documents",
+          "political philosophy"
+        ]
+      },
+      {
+        "chapter": "2. Sixty Years without a Curriculum",
+        "predicted_main_argument": "The decline of American educational quality is directly linked to the 1930s rejection of specific subject-matter requirements.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "educational history",
+          "curriculum analysis"
+        ],
+        "connects_to": [
+          "1"
+        ]
+      },
+      {
+        "chapter": "3. Transethnic America and the Civic Core",
+        "predicted_main_argument": "A shared curriculum is the only mechanism that can effectively bridge ethnic and group differences to create a unified American identity.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "political theory",
+          "social philosophy"
+        ]
+      },
+      {
+        "chapter": "4. Linguistic America and the Public Sphere",
+        "predicted_main_argument": "Literacy and effective communication in the public sphere require a foundation of shared background knowledge rather than just abstract linguistic skills.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "linguistics",
+          "cognitive science"
+        ]
+      },
+      {
+        "chapter": "5. Competence and Equality Narrowing the Two Achievement Gaps",
+        "predicted_main_argument": "Achievement gaps between demographic groups can only be closed by providing all students with the same high-quality core content in early grades.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "statistical data",
+          "educational outcomes"
+        ]
+      },
+      {
+        "chapter": "6. Competence and Community Renewing Public Education",
+        "predicted_main_argument": "Restoring the common school model is essential for renewing the social bond and the efficacy of American democracy.",
+        "role_in_book": "synthesizes",
+        "expected_evidence_types": [
+          "policy recommendations",
+          "sociological analysis"
+        ]
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Transethnic",
+        "definition": "A character of a society that accommodates diverse groups and ethnicities in harmony without requiring the abandonment of private identities.",
+        "source_passage": "I stress that they have special aims also that arise from our country's transethnic character."
+      },
+      {
+        "term": "Social union of social unions",
+        "definition": "A philosophical concept describing a macro-society that functions as a harmonious collection of diverse sub-communities.",
+        "source_passage": "America remains the most successful experiment so far in creating what the philosopher John Rawls called 'a social union of social unions.'"
+      },
+      {
+        "term": "Achievement gap",
+        "definition": "The disparity in educational performance and literacy rates between different demographic and socioeconomic groups.",
+        "source_passage": "It concerns itself... with overcoming low literacy rates and narrowing the achievement gaps between demographic groups."
+      },
+      {
+        "term": "Common public sphere",
+        "definition": "The shared space of national life, commerce, and politics where citizens participate as equals based on their virtues and talents.",
+        "source_passage": "it is the institution that prepares children to participate effectively in the common public sphere."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Albert Shanker",
+        "relationship": "builds_on",
+        "contribution": "A 'tough liberal' who championed the common school, assimilation, and content-based education to overcome left-right polarization."
+      },
+      {
+        "name": "Thomas Jefferson",
+        "relationship": "historical_predecessor",
+        "contribution": "Provided the foundational idea that education should allow citizens to participate based on 'talents and virtues' rather than birthright."
+      },
+      {
+        "name": "Horace Mann",
+        "relationship": "historical_predecessor",
+        "contribution": "Propagandist for public education who argued that 'competence brings community' and that schooling should equalize opportunity."
+      },
+      {
+        "name": "John Rawls",
+        "relationship": "builds_on",
+        "contribution": "Philosophical framework for a pluralistic society defined as a 'social union of social unions.'"
+      },
+      {
+        "name": "Abraham Lincoln",
+        "relationship": "historical_predecessor",
+        "contribution": "Identified the role of civic education in the 'perpetuation of our political institutions.'"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0007989000000000001,
+    "input_tokens": 1493,
+    "output_tokens": 1624,
+    "duration_s": 13.87545394897461,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

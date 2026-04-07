@@ -1,0 +1,100 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The 'Unpredictability' argument for identical education: Hirsch argues that because a democracy cannot predict social mobility (who will be a pauper or a president), an 'identical' early education is a logical prerequisite for fair competition.",
+        "source_passage": "They reasoned that in a democracy, we can’t predict who will end up as a pauper and who as a president. Jefferson therefore proposed giving children an identical early education at state expense.",
+        "importance": "significant",
+        "suggested_claim": "Identical early education is required in a democracy because the future socioeconomic status of children is unpredictable.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The 'Devil’s Pact' logic: The author explains that the shift to process-oriented education is not just a pedagogical choice but a political compromise ('gentlemen’s agreement') to avoid ideological conflict.",
+        "source_passage": "Educationist, process ideas thrive on the liberal-conservative standoff, and our schools and school boards operate under a gentlemen’s agreement that unites these groups behind the process-oriented creed. ... That is the devil’s pact that is being made in American education.",
+        "importance": "critical",
+        "suggested_claim": "The adoption of process-oriented curricula is a political compromise intended to avoid ideological conflict, which sacrifices educational effectiveness for social peace.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The 'Diagnostic Test' for empty standards: Hirsch provides a specific logical test (the Japanese/Finnish test) to prove that current standards lack content.",
+        "source_passage": "Can you take another country’s guidelines that really do define grade-by-grade content ... and, excluding the subject of local history, teach that curriculum and at the same time follow your local guidelines? Usually the answer is yes.",
+        "importance": "significant",
+        "suggested_claim": "If a school can satisfy local standards while following the specific content of a foreign nation's curriculum, those local standards are functionally empty of content.",
+        "suggested_claim_level": "methodological"
+      },
+      {
+        "description": "The distinction between 'technical' and 'aspirational' curriculum: Hirsch clarifies that his proposal for 'taken-for-granted knowledge' is a floor (technical necessity), not a ceiling (ethical/civic goals).",
+        "source_passage": "It does not include our ethical, civic, and aesthetic aspirations for education. But the technical principle is a big start.",
+        "importance": "minor",
+        "suggested_claim": "The technical principle of teaching taken-for-granted knowledge is a necessary baseline for literacy but does not encompass the entirety of educational goals.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C7",
+        "problem": "The claim overstates Hirsch's position. Hirsch says 'some' polarization has 'less' to do with ideology; the claim asserts polarization is caused 'more' by lack of knowledge than ideology generally.",
+        "source_passage": "But some of the polarization has less to do with ideology than with the inherent suspicion and lack of solidarity among people who fail to share a common basis of knowledge",
+        "suggested_fix": "A significant portion of American polarization is driven by the lack of a shared knowledge base rather than fundamental ideological differences."
+      },
+      {
+        "claim_id": "C24",
+        "problem": "While the claim accurately reflects the text's figure (45%), it likely misinterprets the census data Hirsch is citing (which usually refers to five-year mobility or a specific subset), making the claim sound like an annual national rate for all Americans, which is statistically improbable.",
+        "source_passage": "According to the most recent census, every year 45 percent of Americans change their residence.",
+        "suggested_fix": "Annual residential mobility in the United States is high enough to affect over 20 million schoolchildren, according to census reports."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E17",
+        "claim_id": "C43",
+        "missing_warrant": "Repeated exposure to the same content (e.g., Charlotte's Web) across grades is an indicator of systemic coordination failure rather than a valid pedagogical strategy of 'spiraling'."
+      },
+      {
+        "evidence_id": "E21",
+        "claim_id": "C59",
+        "missing_warrant": "Teacher job satisfaction is primarily dependent on the ability to deliver a coherent lesson to a group with uniform preparation, which outweighs the benefit of individual curriculum autonomy."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C37",
+        "counter_argument": "Centralized grade-by-grade specifications create a 'single point of failure' for state-sponsored indoctrination. While a secret curriculum is harder to track, a national core is easier for a single political faction to capture and impose at scale.",
+        "why_important": "It directly addresses the 'indoctrination' fear Hirsch tries to mitigate by suggesting transparency is the only defense."
+      },
+      {
+        "targets_claim": "C64",
+        "counter_argument": "A national sequencing convention may fail to account for regional or local histories and the 'funds of knowledge' relevant to specific immigrant or minority communities.",
+        "why_important": "It challenges the 'fairness' claim by suggesting that standardized timing might marginalize local cultural relevance."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C27",
+          "C44",
+          "C72",
+          "C75"
+        ],
+        "action": "merge",
+        "explanation": "These claims all state the same thing: that American curriculum guidelines are so vague they effectively do not exist as mandated content."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally thorough regarding empirical data (mobility stats) and general conclusions. However, it misses several of Hirsch's intermediate logical moves, such as the diagnostic 'test' of standards and the 'unpredictability' argument for identical education. It also repeats several claims about the 'non-existence' of local curricula across different IDs."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0024993000000000003,
+    "input_tokens": 18945,
+    "output_tokens": 1512,
+    "duration_s": 24.64340090751648,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

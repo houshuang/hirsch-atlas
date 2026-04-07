@@ -1,0 +1,1431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Concepts &mdash; Hirsch Argument Atlas</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* ── Evolution & Timeline ── */
+.evo-badge { display: inline-block; padding: 0.15em 0.5em; border-radius: 3px; color: #fff;
+  font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; }
+.timeline-dots { display: inline-flex; gap: 2px; align-items: center; }
+.book-dot { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px;
+  border-radius: 50%; font-family: var(--font-ui); font-size: 0.55rem; font-weight: 700;
+  color: #fff; transition: transform 0.15s; cursor: default; flex-shrink: 0; }
+.book-dot:hover { transform: scale(1.3); z-index: 1; }
+
+.evo-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1em 1.2em; margin-bottom: 0.8em; }
+.evo-card-header { display: flex; align-items: center; gap: 0.6em; flex-wrap: wrap; margin-bottom: 0.4em; }
+.evo-card-claim { font-family: var(--font-body); font-size: 0.92rem; line-height: 1.5; color: var(--text); }
+.evo-card-summary { font-family: var(--font-ui); font-size: 0.8rem; color: var(--text-secondary);
+  margin-top: 0.3em; font-style: italic; }
+.evo-card-members { margin-top: 0.5em; padding-left: 1em; border-left: 2px solid var(--border-light); }
+.evo-card-member { font-family: var(--font-ui); font-size: 0.78rem; color: var(--text-secondary);
+  padding: 0.15em 0; line-height: 1.4; }
+.evo-card-member .member-book { font-weight: 600; color: var(--text); min-width: 4em; display: inline-block; }
+.evo-card details summary { cursor: pointer; font-family: var(--font-ui); font-size: 0.78rem;
+  color: var(--text-tertiary); }
+
+/* ── Book timeline grid ── */
+.book-timeline { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.8em; margin: 1.5em 0; }
+.book-tile { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 0.8em; text-align: center; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
+.book-tile:hover { border-color: var(--accent); }
+.book-tile-year { font-family: var(--font-ui); font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+.book-tile-title { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-secondary);
+  margin-top: 0.2em; line-height: 1.3; }
+.book-tile-stats { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  margin-top: 0.4em; }
+
+/* ── Book page ── */
+.book-header { margin-bottom: 1.5em; }
+.book-header h1 { font-size: 1.6rem; }
+.book-header .book-year { font-family: var(--font-ui); font-size: 1.1rem; color: var(--accent); font-weight: 600; }
+.chapter-grid { display: grid; grid-template-columns: 1fr; gap: 0.6em; }
+
+/* ── Filter bar ── */
+.filter-bar { display: flex; gap: 0.4em; flex-wrap: wrap; margin: 1em 0; }
+.filter-btn { font-family: var(--font-ui); font-size: 0.75rem; padding: 0.3em 0.7em;
+  border: 1px solid var(--border); border-radius: 3px; background: var(--bg-surface);
+  color: var(--text-secondary); cursor: pointer; transition: all 0.15s; }
+.filter-btn:hover, .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ── Corpus stats bar ── */
+.corpus-stats { display: flex; flex-wrap: wrap; gap: 1.5em; margin: 1em 0; padding: 1em;
+  background: var(--bg-aside); border-radius: 6px; }
+.corpus-stat { text-align: center; }
+.corpus-stat-number { font-family: var(--font-ui); font-size: 1.6rem; font-weight: 700; color: var(--accent); display: block; }
+.corpus-stat-label { font-family: var(--font-ui); font-size: 0.7rem; color: var(--text-tertiary); }
+
+/* ── Entity cards (multi-book) ── */
+.entity-books { display: flex; gap: 3px; margin-top: 0.3em; flex-wrap: wrap; }
+.entity-book-tag { font-family: var(--font-ui); font-size: 0.62rem; padding: 0.1em 0.35em;
+  border-radius: 2px; background: var(--accent-light); color: var(--accent); font-weight: 600; }
+
+/* ── External research (blue/cool layer) ── */
+.ext-card { background: var(--bg-surface); border: 1px solid #c4d4e4; border-left: 3px solid #4a6080;
+  border-radius: 6px; padding: 0.8em 1em; margin-bottom: 0.6em; }
+.ext-card-text { font-size: 0.85rem; color: var(--text); line-height: 1.5; }
+.ext-card-meta { display: flex; gap: 0.5em; flex-wrap: wrap; margin-top: 0.3em; align-items: center; }
+.ext-badge { display: inline-block; padding: 0.1em 0.4em; border-radius: 2px;
+  font-family: var(--font-ui); font-size: 0.65rem; font-weight: 600; }
+.ext-badge-type { background: #eef2f7; color: #4a6080; }
+.ext-badge-strength { background: #e8f5e8; color: #2d6a2e; }
+.ext-badge-critique { background: #fdf0f0; color: #9a2e2e; }
+.ext-provenance { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  font-style: italic; padding: 0.5em 0; border-top: 1px solid var(--border-light); margin-top: 0.8em; }
+
+/* ── Entry paths (landing page) ── */
+.entry-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; margin: 1.5em 0; }
+@media (max-width: 40em) { .entry-paths { grid-template-columns: 1fr; } }
+.entry-path { display: block; padding: 1.5em; border-radius: 8px; text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s; }
+.entry-path:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.entry-path-hirsch { background: var(--accent-light); border: 2px solid var(--accent); color: var(--text); }
+.entry-path-context { background: #eef2f7; border: 2px solid #4a6080; color: var(--text); }
+.entry-path h2 { font-family: var(--font-ui); font-size: 1.1rem; margin-bottom: 0.3em; }
+.entry-path-hirsch h2 { color: var(--accent); }
+.entry-path-context h2 { color: #4a6080; }
+.entry-path p { font-size: 0.85rem; color: var(--text-secondary); margin: 0; }
+.entry-path .entry-stat { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-tertiary); margin-top: 0.5em; }
+
+/* ── Topic section ── */
+.topic-section { margin-bottom: 2em; }
+.topic-header { display: flex; align-items: baseline; gap: 0.8em; margin-bottom: 0.5em; }
+.topic-header h2 { font-size: 1.1rem; margin: 0; }
+.topic-split { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; }
+@media (max-width: 50em) { .topic-split { grid-template-columns: 1fr; } }
+.topic-col-label { font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5em; padding-bottom: 0.3em;
+  border-bottom: 2px solid; }
+.topic-col-hirsch .topic-col-label { color: var(--accent); border-color: var(--accent); }
+.topic-col-ext .topic-col-label { color: #4a6080; border-color: #4a6080; }
+
+/* ── Sidebar book list ── */
+.sidebar-book { font-size: 0.78rem; }
+.sidebar-book-year { font-weight: 600; min-width: 2.5em; display: inline-block; }
+</style>
+
+</head>
+<body>
+<header class="page-header">
+  <div class="header-inner">
+    <div class="site-title"><a href="index.html">Hirsch Argument Atlas</a></div>
+    <nav class="header-nav">
+      <a href="evolution.html">Evolution</a>
+      <a href="debates.html" style="color:var(--counter)">Debates</a>
+      <a href="thinkers.html">Thinkers</a>
+      <a href="concepts.html">Concepts</a>
+      <a href="cases.html">Cases</a>
+      <a href="context.html" style="color:#4a6080">Scholarly Context</a>
+    </nav>
+    <nav class="breadcrumb"><a href="index.html">Atlas</a><span class="sep">/</span>Concepts</nav>
+  </div>
+</header>
+
+<div class="main-grid full-width">
+<main class="content">
+
+  <h1>Key Concepts (1412)</h1>
+  <p class="lead">The vocabulary of Hirsch's argument across 10 books. Sorted by how many books each concept appears in.</p>
+
+  <div class="section-label" style="margin-top:1em">Multi-Book Concepts (206)</div>
+  <div class="entity-grid">
+<a class="entity-card" href="entity.html#concept:Received_Views_in_the_American_Educational_Community" style="text-decoration:none;color:inherit;display:block">
+  <h3>Received Views in the American Educational Community</h3>
+  <div class="entity-card-detail">Includes proficiency in reading and forming letters, as well as the ability to write extended, communicative discourse.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Coherence_of_the_Wider_System" style="text-decoration:none;color:inherit;display:block">
+  <h3>Coherence of the Wider System</h3>
+  <div class="entity-card-detail">The failure of a curriculum to ensure that a clear pattern of shared, enabling knowledge emerges from instruction.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Domain_specificity_of_skills" style="text-decoration:none;color:inherit;display:block">
+  <h3>Domain specificity of skills</h3>
+  <div class="entity-card-detail">The precise identification of the actual facts, places, and works that students are expected to learn, as opposed to abstract skill descriptions.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Jane_Austen_speech_community" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jane Austen speech community</h3>
+  <div class="entity-card-detail">The national or broad cultural group, as opposed to a local or familiar group, characterized by shared unspoken systems of association.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Constructivism_(Pedagogical)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Constructivism (Pedagogical)</h3>
+  <div class="entity-card-detail">A psychological theory of memory and learning holding that students are not passive vessels but active participants who construct knowledge, often based on prior knowledge and expectations.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Religion_of_natural_development" style="text-decoration:none;color:inherit;display:block">
+  <h3>Religion of natural development</h3>
+  <div class="entity-card-detail">The theory, derived from Rousseau and Dewey, that children develop intellectually through natural growth rather than the accumulation of specific cultural information.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Standards-based_education_(without_content)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Standards-based education (without content)</h3>
+  <div class="entity-card-detail">Educational goals grouped into blocks like K-4 or 5-8, which the author argues lack the specificity needed for effective accountability.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Procedural_and_substantive_schemata" style="text-decoration:none;color:inherit;display:block">
+  <h3>Procedural and substantive schemata</h3>
+  <div class="entity-card-detail">An existing, productive form of practical knowledge in the learner&#x27;s mind upon which new learning is built.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Developmental,_child-centered_individualism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Developmental, child-centered individualism</h3>
+  <div class="entity-card-detail">A belief originating in European Romanticism that values the unique, &#x27;divine&#x27; natural instincts of the child over communal knowledge or learned rules.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Child-Centered_Romanticism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Child-Centered Romanticism</h3>
+  <div class="entity-card-detail">A conception of the child that emphasizes natural development and innate goodness, shifting education from &#x27;molding&#x27; the child to &#x27;following&#x27; the child&#x27;s nature.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Core_Knowledge_(Success_Academy_Definition)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Core Knowledge (Success Academy Definition)</h3>
+  <div class="entity-card-detail">The refined name for the educational reform movement focusing on introducing solid, coherent knowledge into the elementary curriculum.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Developmentally_Appropriate_Practice" style="text-decoration:none;color:inherit;display:block">
+  <h3>Developmentally Appropriate Practice</h3>
+  <div class="entity-card-detail">A label Hirsch claims is often used as a &#x27;dogmatic gut reaction&#x27; to justify withholding academic content from young children, particularly the disadvantaged.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Guide_on_the_side_vs._Sage_on_the_stage" style="text-decoration:none;color:inherit;display:block">
+  <h3>Guide on the side vs. Sage on the stage</h3>
+  <div class="entity-card-detail">A shift in the teacher&#x27;s role from a lecturer/instructor to a facilitator of student-led discovery, mandated by progressive education colleges.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Mental_Situation_Model" style="text-decoration:none;color:inherit;display:block">
+  <h3>Mental Situation Model</h3>
+  <div class="entity-card-detail">An integrated cognitive structure formed by combining prior knowledge with textual information that allows a reader to understand how sentences hang together.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Nontransfer_of_training" style="text-decoration:none;color:inherit;display:block">
+  <h3>Nontransfer of training</h3>
+  <div class="entity-card-detail">A standardized form of education that provides workers with general skills and a common culture, allowing them to be retrained from one specialization to another.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Association_and_Assimilation" style="text-decoration:none;color:inherit;display:block">
+  <h3>Association and Assimilation</h3>
+  <div class="entity-card-detail">The process of integrating diverse individuals into a shared American civic identity through schooling.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Learning-to-learn_principle" style="text-decoration:none;color:inherit;display:block">
+  <h3>Learning-to-learn principle</h3>
+  <div class="entity-card-detail">The pedagogical belief that schools should prioritize teaching students how to find data and solve problems over teaching them specific content knowledge.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Phlogiston_theory_of_fire" style="text-decoration:none;color:inherit;display:block">
+  <h3>Phlogiston theory of fire</h3>
+  <div class="entity-card-detail">The psychological finding that readers remember the meaning (semantic content) of a text rather than its specific verbal forms.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Theological_institutes_for_progressivism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Theological institutes for progressivism</h3>
+  <div class="entity-card-detail">The natural tendency of languages to evolve by shortening words that are used frequently.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tier-three_words" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tier-three words</h3>
+  <div class="entity-card-detail">Rare or specialized words (e.g., halide, nullification) typically gained through the study of specific subjects.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Shared_Intellectual_Currency" style="text-decoration:none;color:inherit;display:block">
+  <h3>Shared Intellectual Currency</h3>
+  <div class="entity-card-detail">A metaphor for literate culture as a shared medium of social and economic exchange in a democracy.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Unitizing_(Chunking)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Unitizing (Chunking)</h3>
+  <div class="entity-card-detail">The process by which multiple words are grouped into single semantic-syntactic units held in memory suspension.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Blank_Slate_(Tabula_Rasa)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Blank Slate (Tabula Rasa)</h3>
+  <div class="entity-card-detail">The brain area where identity and ethnicity reside, which is blank at birth and is written upon by parents, schools, and surrounding culture.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Developmentalism_(Professional_Version)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Developmentalism (Professional Version)</h3>
+  <div class="entity-card-detail">The educational consensus that academic tasks must be delayed until a child is naturally &#x27;ready,&#x27; often dismissing early structured training as &#x27;inappropriate.&#x27;</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Anti-Matthew_effect" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anti-Matthew effect</h3>
+  <div class="entity-card-detail">The cumulative advantage where those who start with knowledge/capital gain more, while those who lack it fall further behind.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Project_method_of_instruction" style="text-decoration:none;color:inherit;display:block">
+  <h3>Project method of instruction</h3>
+  <div class="entity-card-detail">An instructional method where knowledge is organized around a &#x27;big idea&#x27; or common principle through student-planned activities, rather than traditional academic subjects.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Child-Centered_Education_(French_context)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Child-Centered Education (French context)</h3>
+  <div class="entity-card-detail">An educational philosophy where students elaborate their own curricula based on personal aspirations, capacities, and home cultures rather than a national standard.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Citizenship-Patriotism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Citizenship-Patriotism</h3>
+  <div class="entity-card-detail">A form of patriotism that is cosmopolitan and accommodating to all groups but rooted in specific common principles and language learned in childhood.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Consequential_Invalidity" style="text-decoration:none;color:inherit;display:block">
+  <h3>Consequential Invalidity</h3>
+  <div class="entity-card-detail">The standard of effectiveness for readability formulas, measuring how consistently a formula predicts reading difficulty.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Naturalism_in_Education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Naturalism in Education</h3>
+  <div class="entity-card-detail">A focus on &#x27;natural&#x27; development rather than structured academic instruction, which Hirsch argues has led to the disparagement of subject matter.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Centers_(Work_Centers)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Centers (Work Centers)</h3>
+  <div class="entity-card-detail">Classroom work stations designed for independent, exploratory student activity.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Child-centered_schooling" style="text-decoration:none;color:inherit;display:block">
+  <h3>Child-centered schooling</h3>
+  <div class="entity-card-detail">A self-description of progressive education that prioritizes the &#x27;child&#x27; over the &#x27;subject,&#x27; which Hirsch characterizes as an anti-intellectual dichotomy that fails to teach necessary skills.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Development_(as_Unfolding)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Development (as Unfolding)</h3>
+  <div class="entity-card-detail">The romantic concept of education as an unfolding in time of potential traits children are born with, similar to biological development.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Developmental_growth_principle" style="text-decoration:none;color:inherit;display:block">
+  <h3>Developmental growth principle</h3>
+  <div class="entity-card-detail">A romantic concept derived from Rousseau suggesting children have an inborn tendency to follow their own proper development, making education a process of following the child&#x27;s natural instincts.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Intellectual_Monopoly" style="text-decoration:none;color:inherit;display:block">
+  <h3>Intellectual Monopoly</h3>
+  <div class="entity-card-detail">The dominance of a single ideological framework (romantic-progressive education) across all teacher training institutions and school districts, which prevents structural reforms like school choice ...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:School-transmitted_culture" style="text-decoration:none;color:inherit;display:block">
+  <h3>School-transmitted culture</h3>
+  <div class="entity-card-detail">A formal culture taught through the education system, as opposed to folk culture transmitted locally; it is necessary for dignity and usability in industrial society.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Social_Determinism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Social Determinism</h3>
+  <div class="entity-card-detail">The cycle that condemns children from poor and illiterate homes to remain in the same social and educational condition as their parents.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Cultural_Essentialism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cultural Essentialism</h3>
+  <div class="entity-card-detail">A romantic or &#x27;tribal&#x27; view of language and culture that treats social groups as separate, unchanging &#x27;cells&#x27; that cannot or should not be integrated into a common public sphere.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Expanding_horizons" style="text-decoration:none;color:inherit;display:block">
+  <h3>Expanding horizons</h3>
+  <div class="entity-card-detail">A curriculum design that starts with the student&#x27;s personal experience and slowly moves to the neighborhood, town, and state, often neglecting historical or distant geographical knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Literature_(Current_pedagogical_usage)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Literature (Current pedagogical usage)</h3>
+  <div class="entity-card-detail">A narrow conception of poems and fictional stories used as &#x27;inoffensive vehicles&#x27; for teaching formal reading skills rather than for their truth-telling or knowledge-enhancing value.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Pocketed,_isolated_learning" style="text-decoration:none;color:inherit;display:block">
+  <h3>Pocketed, isolated learning</h3>
+  <div class="entity-card-detail">A critique of child-centered curricula where learning is fragmented into disconnected subjects and activities without a unifying knowledge framework.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Standardized_linguistic_medium" style="text-decoration:none;color:inherit;display:block">
+  <h3>Standardized linguistic medium</h3>
+  <div class="entity-card-detail">A shared and uniform system of speech and script that allows for context-free, impersonal communication across a distance.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Commonality_of_discourse" style="text-decoration:none;color:inherit;display:block">
+  <h3>Commonality of discourse</h3>
+  <div class="entity-card-detail">A shared basis of knowledge that enables mutual comprehension and social solidarity through shared allusion.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Decoding_vs._Comprehension" style="text-decoration:none;color:inherit;display:block">
+  <h3>Decoding vs. Comprehension</h3>
+  <div class="entity-card-detail">The technical ability to translate written marks on a page into spoken words; a necessary foundation but not the essence of reading.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Economy_of_the_Readers_Attention" style="text-decoration:none;color:inherit;display:block">
+  <h3>Economy of the Reader&#x27;s Attention</h3>
+  <div class="entity-card-detail">A principle derived from Herbert Spencer, defining prose quality as the minimization of the mental effort required for the reader to apprehend the writer&#x27;s meaning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Knowledge-based_instructional_school" style="text-decoration:none;color:inherit;display:block">
+  <h3>Knowledge-based instructional school</h3>
+  <div class="entity-card-detail">A school that utilizes a coherent, explicit, and content-rich curriculum where subjects carry equal weight and literacy is integrated into all content areas.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Elaborated_vs._Restricted_Codes" style="text-decoration:none;color:inherit;display:block">
+  <h3>Elaborated vs. Restricted Codes</h3>
+  <div class="entity-card-detail">A distinction introduced by Bernstein regarding the degree to which a speaker must be explicit (elaborated) or can rely on shared context (restricted).</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Functional_Prerequisites_of_Industrial_Society" style="text-decoration:none;color:inherit;display:block">
+  <h3>Functional Prerequisites of Industrial Society</h3>
+  <div class="entity-card-detail">The &#x27;court of last resort&#x27; consisting of educated professionals (lawyers, scientists, editors, etc.) whose collective judgment determines the social standard for good writing.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Nuts-and-bolts_classroom_effectiveness" style="text-decoration:none;color:inherit;display:block">
+  <h3>Nuts-and-bolts classroom effectiveness</h3>
+  <div class="entity-card-detail">A standard of prose quality based on how efficiently meaning is conveyed in the absence of interpersonal, situational contexts.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Short-term_memory_(Primary_memory)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Short-term memory (Primary memory)</h3>
+  <div class="entity-card-detail">A narrow psychological limit of approximately five unitary items (words or phrases) that can be stored before their semantic-syntactic properties are fully determined.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Social_Continuity_/_Transmission" style="text-decoration:none;color:inherit;display:block">
+  <h3>Social Continuity / Transmission</h3>
+  <div class="entity-card-detail">The foundational aim of education as defined by Dewey: the process of rendering new generations cognizant of and interested in the aims and habits of the group to prevent a relapse into barbarism.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Civil_Religion" style="text-decoration:none;color:inherit;display:block">
+  <h3>Civil Religion</h3>
+  <div class="entity-card-detail">A nonsectarian, &#x27;big-tented&#x27; system of broad religious principles, values, and rituals (like patriotism and tolerance) that provides social bonding and civic virtue in a secular, diverse democracy.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Cross-checking_among_inferences" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cross-checking among inferences</h3>
+  <div class="entity-card-detail">A feature of higher-order thinking where multiple internal cues and richly connected concepts are used to verify a conclusion or estimate.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Developmentally_Inappropriate" style="text-decoration:none;color:inherit;display:block">
+  <h3>Developmentally Inappropriate</h3>
+  <div class="entity-card-detail">A phrase used by the educational community to characterize academic interventions or constraints as &#x27;forced-feeding&#x27; that goes against a child&#x27;s natural growth.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Genetic_Fallacy" style="text-decoration:none;color:inherit;display:block">
+  <h3>Genetic Fallacy</h3>
+  <div class="entity-card-detail">The logical error of confusing the end goal of a process (constructed understanding) with the method used to achieve it (discovery learning).</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Political_Religion" style="text-decoration:none;color:inherit;display:block">
+  <h3>Political Religion</h3>
+  <div class="entity-card-detail">A secular devotion to democracy, law, and shared civic principles that should be taught in schools to transcend sectarian and ethnic divisions.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Spilt_Religion" style="text-decoration:none;color:inherit;display:block">
+  <h3>Spilt Religion</h3>
+  <div class="entity-card-detail">The displacement of religious concepts and trust into the secular sphere where they do not belong, resulting in the romanticization of human nature.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tacit/Unspoken_Knowledge" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tacit/Unspoken Knowledge</h3>
+  <div class="entity-card-detail">The unstated, background information assumed to be known by a particular speech community (e.g., Americans) which is essential for understanding formal discourse.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tokenistic_multiculturalism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tokenistic multiculturalism</h3>
+  <div class="entity-card-detail">A curricular approach recognizing minority achievements; beneficial for social respect and group self-esteem, but often mistakenly endowed with &#x27;quasi-magical&#x27; academic effects.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Universalistic_Tribalism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Universalistic Tribalism</h3>
+  <div class="entity-card-detail">An innate, evolutionary instinct for group commitment and hostility toward &#x27;the other&#x27; that civilization must work to counteract.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Whole-class_instruction" style="text-decoration:none;color:inherit;display:block">
+  <h3>Whole-class instruction</h3>
+  <div class="entity-card-detail">A mode of teaching where the teacher directs the entire class together, obtaining responses and checking for understanding from all students simultaneously.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Whole-language_instruction" style="text-decoration:none;color:inherit;display:block">
+  <h3>Whole-language instruction</h3>
+  <div class="entity-card-detail">An approach to reading instruction that treats literacy as a &#x27;psycholinguistic guessing game&#x27; acquired through exposure to meaningful literature rather than direct instruction in sounds.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Compartmentalization" style="text-decoration:none;color:inherit;display:block">
+  <h3>Compartmentalization</h3>
+  <div class="entity-card-detail">A characteristic of child-centered schools where learning is disconnected, self-contained within a single school year, and varies from student to student.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Cradle_of_Civilization" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cradle of Civilization</h3>
+  <div class="entity-card-detail">A term referring to Mesopotamia, specifically the region between the Tigris and Euphrates rivers, where early advancements like writing and law codes developed.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Curricular_particularism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Curricular particularism</h3>
+  <div class="entity-card-detail">The principle that each local community must have its own unique curriculum, viewed by &#x27;ruling experts&#x27; as an inviolable absolute.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Erudition_(Chess)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Erudition (Chess)</h3>
+  <div class="entity-card-detail">Deep domain knowledge that experts use to perform tasks that novices mistake for general skill.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Knowledge_Gaps" style="text-decoration:none;color:inherit;display:block">
+  <h3>Knowledge Gaps</h3>
+  <div class="entity-card-detail">The discrepancy in background information and vocabulary between children of different economic strata.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Pragmatism_(Educational)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Pragmatism (Educational)</h3>
+  <div class="entity-card-detail">An approach to educational policy that avoids dogmatic &#x27;traditional&#x27; or &#x27;progressive&#x27; labels in favor of observing large-scale successful outcomes.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Progressive_Education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Progressive Education</h3>
+  <div class="entity-card-detail">An early-nineteenth-century Middle European ideology (the &#x27;new education&#x27;) that took root in the US in the 1870s and focuses on natural development over shared social curricula.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Pseudoaccountability" style="text-decoration:none;color:inherit;display:block">
+  <h3>Pseudoaccountability</h3>
+  <div class="entity-card-detail">Accountability measures that transcend individual students and teachers, yielding no-fault results that typically only advocate for increased spending rather than individual improvement.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Reality_Principle" style="text-decoration:none;color:inherit;display:block">
+  <h3>Reality Principle</h3>
+  <div class="entity-card-detail">The use of good, replicated research as a connection to what actually happens in the world, serving as a check against educational &#x27;hunches.&#x27;</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Score_reliability" style="text-decoration:none;color:inherit;display:block">
+  <h3>Score reliability</h3>
+  <div class="entity-card-detail">Consistency in results, such that different users of the same method will reach &#x27;highly correlated&#x27; scores.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Big_Three" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Big Three</h3>
+  <div class="entity-card-detail">The foundational skills of reading, writing, and arithmetic, which in child-centered schools are often taught in isolation from disciplinary knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tribal_language_and_lore" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tribal language and lore</h3>
+  <div class="entity-card-detail">The specific background knowledge, beyond grammar and syntax, that allows members of a group to communicate effectively and fast.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:der_PISA_Schock" style="text-decoration:none;color:inherit;display:block">
+  <h3>der PISA Schock</h3>
+  <div class="entity-card-detail">The national scandal and policy soul-searching in Germany following the release of poor PISA results in 2000, which led to the adoption of aligned, specific curricula.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Near_and_far_transfer" style="text-decoration:none;color:inherit;display:block">
+  <h3>Near and far transfer</h3>
+  <div class="entity-card-detail">The ability to master closely analogous knowledge based on common reference points.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Intellectual_Capital" style="text-decoration:none;color:inherit;display:block">
+  <h3>Intellectual Capital</h3>
+  <div class="entity-card-detail">A sociological concept expressing the socioeconomic value of the knowledge and skills acquired through schooling, necessary for participation in the modern workplace.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Typicality_/_Prototypes" style="text-decoration:none;color:inherit;display:block">
+  <h3>Typicality / Prototypes</h3>
+  <div class="entity-card-detail">The minimal set of vague or superficial traits associated with a word that a speaker must know to be considered competent in using that word within a culture.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Statewide_curriculum_frameworks" style="text-decoration:none;color:inherit;display:block">
+  <h3>Statewide curriculum frameworks</h3>
+  <div class="entity-card-detail">A specific, detailed sequence of topics that ensures transparency regarding what students are responsible for learning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Cultivation_of_the_imagination" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cultivation of the imagination</h3>
+  <div class="entity-card-detail">In the Romantic sense, a &#x27;synthetic and magical power&#x27; that brings the &#x27;whole soul of man into activity,&#x27; used in education as a justification for prioritizing creativity over specific knowledge.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Implication,_disambiguation,_and_amplification" style="text-decoration:none;color:inherit;display:block">
+  <h3>Implication, disambiguation, and amplification</h3>
+  <div class="entity-card-detail">Purely formal logical inferences (like syllogisms) that lack the contextual weight or probability of real-world problems.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Implicit_Word_Learning" style="text-decoration:none;color:inherit;display:block">
+  <h3>Implicit Word Learning</h3>
+  <div class="entity-card-detail">The indirect mode of vocabulary acquisition through hearing, reading, and understanding text in context, rather than through focused study.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Nationalism_(Functional)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Nationalism (Functional)</h3>
+  <div class="entity-card-detail">The specific historical shred, patch, or cultural invention that nationalism happens to select as its representative embodiment.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Shanker_Principle" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Shanker Principle</h3>
+  <div class="entity-card-detail">The necessity of a common curriculum framework for the nation&#x27;s schools to ensure equity and quality.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Universal_Communicability" style="text-decoration:none;color:inherit;display:block">
+  <h3>Universal Communicability</h3>
+  <div class="entity-card-detail">A domain of shared understanding and language that allows diverse citizens to communicate and learn from one another in the marketplace and public sphere.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Biculturalism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Biculturalism</h3>
+  <div class="entity-card-detail">The state of possessing both the specific culture of the home and the shared literate culture of the school/nation.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Complementarity_of_social_communication" style="text-decoration:none;color:inherit;display:block">
+  <h3>Complementarity of social communication</h3>
+  <div class="entity-card-detail">Communication within a group that relies on shared unspoken implications and background knowledge to convey meaning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Drill_and_Kill" style="text-decoration:none;color:inherit;display:block">
+  <h3>Drill and Kill</h3>
+  <div class="entity-card-detail">A disparaging term used by the progressive tradition to describe the necessary and frequent practice of procedural skills like decoding or math algorithms.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Either-or_proposition" style="text-decoration:none;color:inherit;display:block">
+  <h3>Either-or proposition</h3>
+  <div class="entity-card-detail">A unit of content analysis used by Kintsch to quantify the informational density of a passage independently of word count or sentence difficulty.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Elaborated_Code" style="text-decoration:none;color:inherit;display:block">
+  <h3>Elaborated Code</h3>
+  <div class="entity-card-detail">A form of speech that is explicit, individualized, and no longer context-tied, where the burden of meaning is carried primarily by the verbal channel.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Individual_Differences" style="text-decoration:none;color:inherit;display:block">
+  <h3>Individual Differences</h3>
+  <div class="entity-card-detail">A concept used to justify tracking and varied curricula; Hirsch identifies a &#x27;high-minded&#x27; romantic side (unique value of the soul) and a &#x27;practical&#x27; side (belief that some students are naturally s...</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Intention_to_Treat_(ITT)_vs._Treatment_On_Treated_(TOT)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Intention to Treat (ITT) vs. Treatment On Treated (TOT)</h3>
+  <div class="entity-card-detail">A statistical measure of an intervention&#x27;s effect specifically on the students who actually received and experienced the curriculum, rather than just those who were intended to receive it.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Kindergarten_(as_metaphor)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Kindergarten (as metaphor)</h3>
+  <div class="entity-card-detail">Literally &#x27;children garden&#x27;; a Romantic concept of education where children are nurtured like plants to grow naturally without formal external designs.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Limited_channel-capacity" style="text-decoration:none;color:inherit;display:block">
+  <h3>Limited channel-capacity</h3>
+  <div class="entity-card-detail">A finite, built-in human limit (generally four to ten categories) for making unidimensional judgments or discriminating between sequence items.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Lockstep_education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lockstep education</h3>
+  <div class="entity-card-detail">A pejorative term used by reformers to describe traditional, uniform, grade-by-grade curricula that required all students to learn the same content at the same time.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Loi_Jospin_(1989)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Loi Jospin (1989)</h3>
+  <div class="entity-card-detail">A 1989 French education law that replaced the national curriculum with locally determined, individualized curriculums focused on student-centered pedagogy.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Meddling_Intellect" style="text-decoration:none;color:inherit;display:block">
+  <h3>Meddling Intellect</h3>
+  <div class="entity-card-detail">A phrase from Wordsworth describing the analytical, scientific mind which Romantics believe destroys the natural beauty and truth of things.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Mere_Facts_vs._True_Knowledge" style="text-decoration:none;color:inherit;display:block">
+  <h3>Mere Facts vs. True Knowledge</h3>
+  <div class="entity-card-detail">A rhetorical dichotomy where &#x27;mere facts&#x27; are disparaged as dry and disconnected, while &#x27;true knowledge&#x27; is elevated as meaningful and morally beneficial, though often left undefined.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Metacognitive_skills" style="text-decoration:none;color:inherit;display:block">
+  <h3>Metacognitive skills</h3>
+  <div class="entity-card-detail">The self-conscious monitoring and evaluation of one&#x27;s own mental strategies during performance.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:National_Literate_Culture" style="text-decoration:none;color:inherit;display:block">
+  <h3>National Literate Culture</h3>
+  <div class="entity-card-detail">A classless, non-exclusive body of shared knowledge and symbols that serves as the functional medium for public discourse in a democratic nation.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:National_print_language" style="text-decoration:none;color:inherit;display:block">
+  <h3>National print language</h3>
+  <div class="entity-card-detail">A shared vocabulary of associations and cultural references (like Abraham Lincoln or Benedict Arnold) that enables communication across a diverse nation.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Premature_Polarization" style="text-decoration:none;color:inherit;display:block">
+  <h3>Premature Polarization</h3>
+  <div class="entity-card-detail">The reflex to align educational methods (pedagogy) with political identities (liberal vs. conservative), leading to the rejection of effective methods if they are perceived as politically &#x27;conserva...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Pure_Discovery_Learning" style="text-decoration:none;color:inherit;display:block">
+  <h3>Pure Discovery Learning</h3>
+  <div class="entity-card-detail">A method where students solve problems and make decisions through independent inquiry and real-world projects; equated by the author to the 1920s project method.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Religion_of_Nature" style="text-decoration:none;color:inherit;display:block">
+  <h3>Religion of Nature</h3>
+  <div class="entity-card-detail">A pejorative characterization of developmentalism as a non-scientific, dogmatic belief system that worships natural instincts.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Rote_learning" style="text-decoration:none;color:inherit;display:block">
+  <h3>Rote learning</h3>
+  <div class="entity-card-detail">A pejorative term used by progressives to describe memorization and drill, which Hirsch argues has been successfully but unnecessarily eradicated from schools.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Skills_Delusion_(Technology)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Skills Delusion (Technology)</h3>
+  <div class="entity-card-detail">The false belief that technology and computers can transform primary education by replacing the need for a knowledge-coherent curriculum.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Small-scale_constraints" style="text-decoration:none;color:inherit;display:block">
+  <h3>Small-scale constraints</h3>
+  <div class="entity-card-detail">The functional operation of context that reduces the number of semantic-syntactic candidates at any point in discourse by increasing the subjective probability of a few signals.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Social_union_of_social_unions" style="text-decoration:none;color:inherit;display:block">
+  <h3>Social union of social unions</h3>
+  <div class="entity-card-detail">A philosophical description of the American experiment&#x27;s success in accommodating different groups and ethnicities in a peaceful and harmonious unity without requiring them to abandon their private...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Myth_of_the_Local_Curriculum" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Myth of the Local Curriculum</h3>
+  <div class="entity-card-detail">The false assumption that local control of schools results in a specific, agreed-upon set of content that children learn at each grade level.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tradition_of_Accommodation" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tradition of Accommodation</h3>
+  <div class="entity-card-detail">The psychological process of learning something new by connecting it to and fitting it within previously known information.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Unitary_School_(la_scuola_unitaria)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Unitary School (la scuola unitaria)</h3>
+  <div class="entity-card-detail">Gramsci&#x27;s concept of a common school providing a general humanistic culture to all children, intended to empower the lower classes.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Working_Memory" style="text-decoration:none;color:inherit;display:block">
+  <h3>Working Memory</h3>
+  <div class="entity-card-detail">A limited cognitive resource used to process information; in beginners, it is fully occupied by foundational tasks like decoding or basic math.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Accretive_process_of_word_learning" style="text-decoration:none;color:inherit;display:block">
+  <h3>Accretive process of word learning</h3>
+  <div class="entity-card-detail">A slow, incremental process of building knowledge or vocabulary through small, often imperceptible additions over time.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Ad_hoc_tokenism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ad hoc tokenism</h3>
+  <div class="entity-card-detail">Sporadic and consumes school time, this refers to current unsuccessful attempts at multiculturalism that lack curricular coherence.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Age-appropriate" style="text-decoration:none;color:inherit;display:block">
+  <h3>Age-appropriate</h3>
+  <div class="entity-card-detail">A term used by child-centrists to limit content, which the author argues is scientifically invalid because appropriateness actually depends on prior knowledge.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Anti-Intellectualism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anti-Intellectualism</h3>
+  <div class="entity-card-detail">Specifically, the American scorn for academic knowledge (lectures and books) in favor of knowledge gained through direct experience, rather than a general contempt for curiosity.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Benign_Conspiracy" style="text-decoration:none;color:inherit;display:block">
+  <h3>Benign Conspiracy</h3>
+  <div class="entity-card-detail">An informal but effective consensus among 19th-century schoolbook writers to standardize American curriculum in the absence of a national policy.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Bourdieu-Gros_Report" style="text-decoration:none;color:inherit;display:block">
+  <h3>Bourdieu-Gros Report</h3>
+  <div class="entity-card-detail">The 1989 report, co-authored by Pierre Bourdieu and Jacques Derrida, which served as the intellectual foundation for the decentralization and skill-centrism of the Jospin Law.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Coherent,_cumulative,_sequenced_curriculum" style="text-decoration:none;color:inherit;display:block">
+  <h3>Coherent, cumulative, sequenced curriculum</h3>
+  <div class="entity-card-detail">An organized body of knowledge that builds upon itself over time, allowing students to &#x27;tie knowledge onto&#x27; previous learning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Command_of_fundamental_processes" style="text-decoration:none;color:inherit;display:block">
+  <h3>Command of fundamental processes</h3>
+  <div class="entity-card-detail">Defined by the 1918 report as reading, writing, and arithmetical computations; Hirsch argues these were wrongly treated as formal, content-neutral skills.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Common_Reader" style="text-decoration:none;color:inherit;display:block">
+  <h3>Common Reader</h3>
+  <div class="entity-card-detail">A person who possesses the shared background knowledge and symbols known by other literate members of the culture.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Common_curriculum" style="text-decoration:none;color:inherit;display:block">
+  <h3>Common curriculum</h3>
+  <div class="entity-card-detail">A strong, community-defined set of knowledge that is systematically imparted to all students to ensure social justice and civic competence.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Common_reference_points" style="text-decoration:none;color:inherit;display:block">
+  <h3>Common reference points</h3>
+  <div class="entity-card-detail">A shared set of specific facts and concepts known by all members of a class, which a teacher can use as a foundation for communication and further instruction.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Communitarian_approach" style="text-decoration:none;color:inherit;display:block">
+  <h3>Communitarian approach</h3>
+  <div class="entity-card-detail">An educational model that emphasizes shared knowledge and collective identity to encourage allegiance and mutual communication.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Constructing_Knowledge" style="text-decoration:none;color:inherit;display:block">
+  <h3>Constructing Knowledge</h3>
+  <div class="entity-card-detail">A paradigm where students are credited with the capacity to create and critique knowledge themselves, rather than acquiring it from a teacher.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Constructive_Hypothesis" style="text-decoration:none;color:inherit;display:block">
+  <h3>Constructive Hypothesis</h3>
+  <div class="entity-card-detail">The theory that language comprehension involves building an elaborated mental model of what a text implies, including information not explicitly stated, and storing that model in memory.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Content-constituted_skills" style="text-decoration:none;color:inherit;display:block">
+  <h3>Content-constituted skills</h3>
+  <div class="entity-card-detail">The idea that reading comprehension is not an abstract skill but a collection of specific abilities to read about particular topics, such as the Civil War or the Appalachian Mountains.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Cortical_Plasticity" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cortical Plasticity</h3>
+  <div class="entity-card-detail">The modern scientific term for &#x27;blank slate,&#x27; referring to the brain&#x27;s ability to be &#x27;molded&#x27; or &#x27;rewired&#x27; by experience and education.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Cultural_Commons" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cultural Commons</h3>
+  <div class="entity-card-detail">A shared public domain of knowledge and values, intentionally stripped of sectarian divisiveness to promote general welfare and civility.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Curricular_Disintegration" style="text-decoration:none;color:inherit;display:block">
+  <h3>Curricular Disintegration</h3>
+  <div class="entity-card-detail">The process by which a coherent national curriculum is broken down into random, non-cumulative, or localized subject matter, compromising student success.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Curriculum-based_tests" style="text-decoration:none;color:inherit;display:block">
+  <h3>Curriculum-based tests</h3>
+  <div class="entity-card-detail">Tests designed to measure specific knowledge taught in the classroom, proposed as a better measure of school progress than general reading tests.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Developmental_appropriateness" style="text-decoration:none;color:inherit;display:block">
+  <h3>Developmental appropriateness</h3>
+  <div class="entity-card-detail">An ideological construct used by educators to claim certain academic subjects or facts are psychologically harmful or unsuitable for young children, regardless of evidence from other cultures.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Dictée" style="text-decoration:none;color:inherit;display:block">
+  <h3>Dictée</h3>
+  <div class="entity-card-detail">A traditional French classroom exercise requiring students to write spoken text with perfect spelling and punctuation; cited by Hirsch as an effective tool for teaching standard language forms.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Differentiated_Instruction_(DI)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Differentiated Instruction (DI)</h3>
+  <div class="entity-card-detail">A practice that attempts to match materials to each student&#x27;s presumed ability level or &#x27;learning style,&#x27; which Hirsch argues results in a &#x27;dumbed down&#x27; and incoherent curriculum.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Differentiation" style="text-decoration:none;color:inherit;display:block">
+  <h3>Differentiation</h3>
+  <div class="entity-card-detail">The practice of tailoring instruction to individual student needs, which the author argues is often overused or used performatively in child-centered models.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Domain-based_read-alouds" style="text-decoration:none;color:inherit;display:block">
+  <h3>Domain-based read-alouds</h3>
+  <div class="entity-card-detail">A pedagogical practice where reading instruction is centered around a specific knowledge domain (e.g., Vikings or Mesopotamia) rather than generic reading skills.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Dormative_power" style="text-decoration:none;color:inherit;display:block">
+  <h3>Dormative power</h3>
+  <div class="entity-card-detail">A critique of using the word &#x27;skill&#x27; as a circular explanation that describes a phenomenon without explaining its cause.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:E_pluribus_unum" style="text-decoration:none;color:inherit;display:block">
+  <h3>E pluribus unum</h3>
+  <div class="entity-card-detail">The tension and necessary balance between national unity (&#x27;the one&#x27;) and local diversity (&#x27;the many&#x27;).</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Encyclopedism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Encyclopedism</h3>
+  <div class="entity-card-detail">A derogatory term used by French progressives (Jospin, Bourdieu) to describe a knowledge-rich curriculum focused on &#x27;piling up facts.&#x27;</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Enlightenment_(Educational_View)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Enlightenment (Educational View)</h3>
+  <div class="entity-card-detail">The view that human nature is unreliable if left to its own devices and that the role of education is to guide and shape impulses toward humane and worthy ends.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Equality-oriented_centralism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Equality-oriented centralism</h3>
+  <div class="entity-card-detail">A national policy where a common curriculum is mandated for all children, supplemented by extra resources for low-achieving students to ensure small differences in performance between schools.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Equivalence" style="text-decoration:none;color:inherit;display:block">
+  <h3>Equivalence</h3>
+  <div class="entity-card-detail">A legislative principle in Sweden that replaced the common curriculum, mandating that education be adapted to each individual child&#x27;s unique circumstances, background, and earlier experiences.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Expanding_Environments" style="text-decoration:none;color:inherit;display:block">
+  <h3>Expanding Environments</h3>
+  <div class="entity-card-detail">A curriculum model based on the belief that children&#x27;s learning should start with their immediate personal environment and gradually expand outward, which Hirsch argues is based on ideology rather ...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Factitious_distinctions" style="text-decoration:none;color:inherit;display:block">
+  <h3>Factitious distinctions</h3>
+  <div class="entity-card-detail">Artificial social divisions or class-based separations that education has the power to overcome.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Founding_aims_of_democratic_education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Founding aims of democratic education</h3>
+  <div class="entity-card-detail">The original purposes for public schooling in a democracy, pursued by educational activists.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Fragmented_School_Curriculum" style="text-decoration:none;color:inherit;display:block">
+  <h3>Fragmented School Curriculum</h3>
+  <div class="entity-card-detail">A curriculum that lacks a coherent, shared core of academic knowledge, often containing many nontraditional or vocational electives.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Geist" style="text-decoration:none;color:inherit;display:block">
+  <h3>Geist</h3>
+  <div class="entity-card-detail">The German term for &#x27;Spirit&#x27; (specifically the Holy Spirit in Hegel&#x27;s original theological context), later translated as &#x27;Mind&#x27; to sound more secular.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:General_Mental_Discipline" style="text-decoration:none;color:inherit;display:block">
+  <h3>General Mental Discipline</h3>
+  <div class="entity-card-detail">The traditional belief that studying specific difficult subjects (like Latin or Greek) strengthens the mind generally, a concept rejected by 1918 reformers based on Thorndike&#x27;s work.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:General_communal_principle" style="text-decoration:none;color:inherit;display:block">
+  <h3>General communal principle</h3>
+  <div class="entity-card-detail">A theoretical law that remains true across all cases, such as the principle of psychological economy, providing a more reliable foundation for judgment than situational maxims.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Hidden_Curriculum_(French_Context)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Hidden Curriculum (French Context)</h3>
+  <div class="entity-card-detail">The secret, incoherent, and unexamined set of topics currently taught in schools in the absence of open, specific content standards.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Independent_Convergence_(Intellectual_Triangulation)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Independent Convergence (Intellectual Triangulation)</h3>
+  <div class="entity-card-detail">A scientific pattern where different, independent experimental or theoretical methods lead to the same result, making that result nearly impossible to overturn.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Industrial_man" style="text-decoration:none;color:inherit;display:block">
+  <h3>Industrial man</h3>
+  <div class="entity-card-detail">A term for individuals living within the modern, industrial social order whose dignity and usability depend on school-transmitted culture.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Infantile_Pabulum" style="text-decoration:none;color:inherit;display:block">
+  <h3>Infantile Pabulum</h3>
+  <div class="entity-card-detail">Overly simplified and academically weak curriculum materials that are mistakenly labeled as &#x27;developmentally appropriate&#x27; for young children.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Inflected_Language" style="text-decoration:none;color:inherit;display:block">
+  <h3>Inflected Language</h3>
+  <div class="entity-card-detail">A language (like Latin or Old English) that indicates grammatical relationships through changes in word forms rather than word order.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Informationally_deprived_people" style="text-decoration:none;color:inherit;display:block">
+  <h3>Informationally deprived people</h3>
+  <div class="entity-card-detail">Individuals who lack the necessary cultural background knowledge (referential clues) to construct the mental models required for literacy.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Initial_Arbitrariness" style="text-decoration:none;color:inherit;display:block">
+  <h3>Initial Arbitrariness</h3>
+  <div class="entity-card-detail">The principle that the specific linguistic or physical standards chosen (like the length of a meter or a spelling) are initially arbitrary, as utility arises from the commonality of the choice rath...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Instructivism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Instructivism</h3>
+  <div class="entity-card-detail">The view that education is primarily the transmission of knowledge from the surrounding culture into the child&#x27;s mind.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Internal_Empire" style="text-decoration:none;color:inherit;display:block">
+  <h3>Internal Empire</h3>
+  <div class="entity-card-detail">A view of the United States as a vast, diverse territory held together by shared principles and language rather than a narrow ethnic identity.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Invented_Spelling" style="text-decoration:none;color:inherit;display:block">
+  <h3>Invented Spelling</h3>
+  <div class="entity-card-detail">A practice allowing children to use their own phonetic spelling under the belief that correct spelling will be eventually acquired naturally.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Invention_of_Tradition" style="text-decoration:none;color:inherit;display:block">
+  <h3>Invention of Tradition</h3>
+  <div class="entity-card-detail">A major subject of composition study, omitted from this volume, traditionally referring to the process of developing ideas for writing.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Isoglosses" style="text-decoration:none;color:inherit;display:block">
+  <h3>Isoglosses</h3>
+  <div class="entity-card-detail">Lines on a dialect map marking off domains of mutual unintelligibility between speakers.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Kim_Transfer_Effect" style="text-decoration:none;color:inherit;display:block">
+  <h3>Kim Transfer Effect</h3>
+  <div class="entity-card-detail">The principle showing that students who have received shared knowledge gain collectively more shared knowledge on their own.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Knowledge_Deficit" style="text-decoration:none;color:inherit;display:block">
+  <h3>Knowledge Deficit</h3>
+  <div class="entity-card-detail">The gap between the knowledge possessed by American students versus those in more coherent international schooling systems.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Knowledge_of_the_World" style="text-decoration:none;color:inherit;display:block">
+  <h3>Knowledge of the World</h3>
+  <div class="entity-card-detail">Jeanne Chall&#x27;s term for the background information essential to the development of reading and writing skills; equated by the author with cultural literacy.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Knowledge-drenched_skills" style="text-decoration:none;color:inherit;display:block">
+  <h3>Knowledge-drenched skills</h3>
+  <div class="entity-card-detail">The concept that reading skills are not formal, abstract strategies but are actually composed of and dependent on the reader&#x27;s background knowledge.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:La_nouvelle_education" style="text-decoration:none;color:inherit;display:block">
+  <h3>La nouvelle education</h3>
+  <div class="entity-card-detail">The French term for progressive education, characterized by child-centeredness, naturalistic teaching, and the deemphasis of rote memorization.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Language_Conservatism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Language Conservatism</h3>
+  <div class="entity-card-detail">The phenomenon where a language becomes resistant to change in its core grammar and syntax once its standard forms are codified in dictionaries and taught in schools.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Language_Normalizers" style="text-decoration:none;color:inherit;display:block">
+  <h3>Language Normalizers</h3>
+  <div class="entity-card-detail">Seventeenth- to nineteenth-century figures, often government-directed, who fixed national languages into their standardized forms.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Language_Purification" style="text-decoration:none;color:inherit;display:block">
+  <h3>Language Purification</h3>
+  <div class="entity-card-detail">The ideology or metaphor under which the historical process of language standardization and dialect elimination was carried out.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Learning_by_doing" style="text-decoration:none;color:inherit;display:block">
+  <h3>Learning by doing</h3>
+  <div class="entity-card-detail">A progressivist pedagogy claiming that students learn best through natural, real-life activities rather than verbal instruction or drill.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Lingua_Franca" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lingua Franca</h3>
+  <div class="entity-card-detail">A common language used for communication between people of different regional or social dialects, made possible by the stabilization of the written grapholect.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Linguistic_Conservatism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Linguistic Conservatism</h3>
+  <div class="entity-card-detail">The resistance to grammatical and phonetic change imposed by the structural requirements of mass literacy and standard written forms.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Localism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Localism</h3>
+  <div class="entity-card-detail">The principle that educational content should be determined by local authorities rather than a central or state body, often defended as a safeguard against tyranny but criticized by the author as a...</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Long-term_Memory_(Modern_Cognitive_View)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Long-term Memory (Modern Cognitive View)</h3>
+  <div class="entity-card-detail">The storage of information that lasts from a few seconds to a lifetime.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Länder" style="text-decoration:none;color:inherit;display:block">
+  <h3>Länder</h3>
+  <div class="entity-card-detail">Political divisions in Germany, similar to US states, that were previously responsible for individual educational standards.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:L’élève_au_centre_de_l’école_(Child-centered_learning)" style="text-decoration:none;color:inherit;display:block">
+  <h3>L’élève au centre de l’école (Child-centered learning)</h3>
+  <div class="entity-card-detail">A &#x27;progressive&#x27; educational approach that avoids content-specific standards in favor of general skills; characterized by Hirsch as &#x27;mush&#x27;.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Master_Narrative" style="text-decoration:none;color:inherit;display:block">
+  <h3>Master Narrative</h3>
+  <div class="entity-card-detail">A pejorative term used by critics to label the Core Knowledge curriculum as tendentious or culturally biased/white supremacist.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Mental_Shorthand" style="text-decoration:none;color:inherit;display:block">
+  <h3>Mental Shorthand</h3>
+  <div class="entity-card-detail">The cognitive efficiency gained when a single surface element of a schema represents an entire complex of subterranean elements, allowing the mind to treat the whole complex as a single item in sho...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Middle_Categories_/_Basic-Level_Terms" style="text-decoration:none;color:inherit;display:block">
+  <h3>Middle Categories / Basic-Level Terms</h3>
+  <div class="entity-card-detail">Classifications that are neither overly specific (oak) nor overly general (flora), which serve as the primary, most efficient way humans categorize experience.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Mobility_(Student)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Mobility (Student)</h3>
+  <div class="entity-card-detail">The act of students moving from one school to another in the middle of a school year, a phenomenon Hirsch calls &#x27;social and academic incoherence.&#x27;</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Nation-centered_curriculum" style="text-decoration:none;color:inherit;display:block">
+  <h3>Nation-centered curriculum</h3>
+  <div class="entity-card-detail">A curriculum focused on shared national history, foundational documents, and common cultural facts intended to unify the student body.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:New_Civil_Rights_Frontier" style="text-decoration:none;color:inherit;display:block">
+  <h3>New Civil Rights Frontier</h3>
+  <div class="entity-card-detail">The contemporary struggle for equality of educational opportunity, characterized as the primary modern mechanism for social and economic justice.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Open_classroom" style="text-decoration:none;color:inherit;display:block">
+  <h3>Open classroom</h3>
+  <div class="entity-card-detail">An ungraded classroom where children of different ages learn at their own pace without walls or lockstep instruction; characterized by Hirsch as an ineffective naturalistic pedagogy.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Orthoepy" style="text-decoration:none;color:inherit;display:block">
+  <h3>Orthoepy</h3>
+  <div class="entity-card-detail">The teaching of a single &#x27;correct&#x27; form of pronunciation, often carried to unnecessary extremes by prescriptive educators.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Predestination_Theology_(Educational)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Predestination Theology (Educational)</h3>
+  <div class="entity-card-detail">The author&#x27;s framing of Naturalism and Formalism as a set of rigid, unchallenged dogmas drilled into prospective teachers in education schools.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Primary_Associations" style="text-decoration:none;color:inherit;display:block">
+  <h3>Primary Associations</h3>
+  <div class="entity-card-detail">The distinctive system of traits and cultural information commonly associated with a term (e.g., a canary&#x27;s yellowness or use in cages) that must be retrieved instantly during communication.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Print_Code" style="text-decoration:none;color:inherit;display:block">
+  <h3>Print Code</h3>
+  <div class="entity-card-detail">The formal language of reading and writing, often distinct from spoken dialects, which must be explicitly learned for literacy.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Republican_Machines" style="text-decoration:none;color:inherit;display:block">
+  <h3>Republican Machines</h3>
+  <div class="entity-card-detail">Benjamin Rush&#x27;s term for citizens who have been educationally prepared to prioritize the common good and republican virtues over local interests.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Rules_of_Thumb" style="text-decoration:none;color:inherit;display:block">
+  <h3>Rules of Thumb</h3>
+  <div class="entity-card-detail">Stylistic maxims that are generally sound but contain implicit exceptions based on the writer&#x27;s specific semantic purpose.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Scientific_punctilio" style="text-decoration:none;color:inherit;display:block">
+  <h3>Scientific punctilio</h3>
+  <div class="entity-card-detail">A high standard of research quality and exactness, as exemplified by the work of David Grissmer.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Social_Reproduction" style="text-decoration:none;color:inherit;display:block">
+  <h3>Social Reproduction</h3>
+  <div class="entity-card-detail">The theory by Bourdieu that education systems function to maintain and transmit existing social class structures and inequalities.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Social_Studies" style="text-decoration:none;color:inherit;display:block">
+  <h3>Social Studies</h3>
+  <div class="entity-card-detail">A curriculum that replaced history, directed toward &#x27;activities of life&#x27; rather than the logical demands of a scientific subject, leading to a lack of shared historical knowledge.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Social,_nonegocentric_speech" style="text-decoration:none;color:inherit;display:block">
+  <h3>Social, nonegocentric speech</h3>
+  <div class="entity-card-detail">Nonegocentric communication that successfully conveys meaning by utilizing shared associations known to the listener.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Standard_Instrument_of_Knowledge" style="text-decoration:none;color:inherit;display:block">
+  <h3>Standard Instrument of Knowledge</h3>
+  <div class="entity-card-detail">The national literate language, used to give and receive complex information over time and space.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Supertribe" style="text-decoration:none;color:inherit;display:block">
+  <h3>Supertribe</h3>
+  <div class="entity-card-detail">The &#x27;imagined community&#x27; of the American nation, which transcends smaller ethnic or local tribal identities.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Surface_form" style="text-decoration:none;color:inherit;display:block">
+  <h3>Surface form</h3>
+  <div class="entity-card-detail">The precise, literal wording and grammatical structure of a sentence, which is lost rapidly during processing.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Great_Conversation" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Great Conversation</h3>
+  <div class="entity-card-detail">The communal classroom discourse where students share and build upon shared knowledge, prioritized by students over individualized tasks.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Lamp" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Lamp</h3>
+  <div class="entity-card-detail">A metaphor for the Romantic view of the child as having an innate, God-given genius or nature that illuminates the world from within.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Mirror" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Mirror</h3>
+  <div class="entity-card-detail">A metaphor for the Enlightenment view of education as accurately reflecting cultural reality and providing direct induction into national language and mores.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Most_Decisive_Educational_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Most Decisive Educational Experiment</h3>
+  <div class="entity-card-detail">The French shift in the 1980s from a national, knowledge-based curriculum to an American-style child-centered, developmental model.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:The_Platform_(socle)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Platform (socle)</h3>
+  <div class="entity-card-detail">The national standards document established by the Jospin law, characterized by Hirsch as being too short and vague to provide practical educational guidance.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tour_guide" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tour guide</h3>
+  <div class="entity-card-detail">A metaphor for the teacher in the Enlightenment tradition who guides students through the established systems of language, knowledge, and morality.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Universalism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Universalism</h3>
+  <div class="entity-card-detail">The educational principle of offering every child the exact same curriculum and educational opportunities in their early years to ensure equity.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Willingham_doctrine" style="text-decoration:none;color:inherit;display:block">
+  <h3>Willingham doctrine</h3>
+  <div class="entity-card-detail">The principle that &#x27;A reading test is a knowledge test in disguise.&#x27;</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:quintile_graphs" style="text-decoration:none;color:inherit;display:block">
+  <h3>quintile graphs</h3>
+  <div class="entity-card-detail">A statistical visualization tool where an audience is divided into five groups based on reading rate to measure the impact of variables (like style) on performance.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Écoles_Maternelles" style="text-decoration:none;color:inherit;display:block">
+  <h3>Écoles Maternelles</h3>
+  <div class="entity-card-detail">Genuine academic schools for very young children in France, distinguished from day care centers (crèches).</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+</div>
+
+  <div class="section-label" style="margin-top:1.5em">Single-Book Concepts (showing 50 of 1206)</div>
+  <div class="entity-grid">
+<a class="entity-card" href="entity.html#concept:Distributed_Practice" style="text-decoration:none;color:inherit;display:block">
+  <h3>Distributed Practice</h3>
+  <div class="entity-card-detail">Learning efforts repeated over time (e.g., an hour a day for seven days) to solidify neural networks.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Thoughtworld" style="text-decoration:none;color:inherit;display:block">
+  <h3>Thoughtworld</h3>
+  <div class="entity-card-detail">A self-reinforcing ideological framework, specifically the &#x27;progressive&#x27; consensus in educational colleges that resists factual content and procedural training.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Anti-curriculum_movement" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anti-curriculum movement</h3>
+  <div class="entity-card-detail">Hirsch&#x27;s term for the modern American educational tradition combining child-centered and skills-based (how-to) ideas, characterized by an antipathy to a set curriculum.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Domain_Immersion" style="text-decoration:none;color:inherit;display:block">
+  <h3>Domain Immersion</h3>
+  <div class="entity-card-detail">A strategy where instruction is sustained within a complex knowledge domain for several weeks to enhance comprehension, vocabulary, and engagement.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Ontogeny" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ontogeny</h3>
+  <div class="entity-card-detail">The life-course of an individual, used by evolutionary psychologists to replace the term &#x27;development&#x27; to avoid romantic connotations of natural growth.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Shared_Intentionality" style="text-decoration:none;color:inherit;display:block">
+  <h3>Shared Intentionality</h3>
+  <div class="entity-card-detail">A unique human empathetic ability, starting in infancy, that serves as the key to human language ability.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Syntactic-semantic_closure" style="text-decoration:none;color:inherit;display:block">
+  <h3>Syntactic-semantic closure</h3>
+  <div class="entity-card-detail">The span of text required for a reader to resolve a syntactic or meaningful pattern; the primary metric for psychological sentence length.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Thematic_Tags" style="text-decoration:none;color:inherit;display:block">
+  <h3>Thematic Tags</h3>
+  <div class="entity-card-detail">A small number of repeated verbal markers that represent the holistic meaning of a text, aiding the reader&#x27;s memory integration.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Transdialectal_Correctness" style="text-decoration:none;color:inherit;display:block">
+  <h3>Transdialectal Correctness</h3>
+  <div class="entity-card-detail">The descriptively accurate doctrine that every dialect is correct according to its own internal, rule-governed grammaticality.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:professional_status_of_composition" style="text-decoration:none;color:inherit;display:block">
+  <h3>professional status of composition</h3>
+  <div class="entity-card-detail">A specific linguistic skill, distinct from speaking and reading, that involves producing effective written discourse that meets the functional requirements of the medium.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Banking_Theory_of_Schooling" style="text-decoration:none;color:inherit;display:block">
+  <h3>Banking Theory of Schooling</h3>
+  <div class="entity-card-detail">A pejorative term used by Paulo Freire to describe traditional education where teachers &#x27;deposit&#x27; information into students, which progressives argue numbs critical faculties.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Emphasis_on_Metacognition_(EOM)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Emphasis on Metacognition (EOM)</h3>
+  <div class="entity-card-detail">The educational practice of explicitly teaching and prioritizing self-monitoring and abstract problem-solving strategies over subject-matter content.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Hermeneutics_of_Being" style="text-decoration:none;color:inherit;display:block">
+  <h3>Hermeneutics of Being</h3>
+  <div class="entity-card-detail">The theory of verbal interpretation that explains how to disambiguate statements and identify an author&#x27;s intended implications.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Metacognitive_comprehension_strategies" style="text-decoration:none;color:inherit;display:block">
+  <h3>Metacognitive comprehension strategies</h3>
+  <div class="entity-card-detail">Formal procedures such as questioning the author, finding the main idea, and making inferences, which are mistakenly taught as isolated skills to improve test scores.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:National_acculturation" style="text-decoration:none;color:inherit;display:block">
+  <h3>National acculturation</h3>
+  <div class="entity-card-detail">The process of teaching knowledge that allows a citizen to communicate with anyone across the entire country, prioritized over local knowledge.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:National_vocabulary" style="text-decoration:none;color:inherit;display:block">
+  <h3>National vocabulary</h3>
+  <div class="entity-card-detail">The specific set of cultural information and terms unique to a particular country that its citizens must know to be literate.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Opportunity_costs" style="text-decoration:none;color:inherit;display:block">
+  <h3>Opportunity costs</h3>
+  <div class="entity-card-detail">The loss of valuable instructional time that could be spent on general knowledge acquisition when schools focus instead on formalistic reading strategies.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Secondary_Learnings" style="text-decoration:none;color:inherit;display:block">
+  <h3>Secondary Learnings</h3>
+  <div class="entity-card-detail">Non-natural learnings necessary to particular cultures that do not develop automatically and must be explicitly taught (e.g., reading, writing, base-ten system).</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Tool_metaphor_of_education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Tool metaphor of education</h3>
+  <div class="entity-card-detail">The belief that education should provide content-neutral skills (critical thinking, love of learning) rather than specific factual knowledge.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Word_fields" style="text-decoration:none;color:inherit;display:block">
+  <h3>Word fields</h3>
+  <div class="entity-card-detail">A set of words that typically occur together in a given context, which help determine the specific nuances of a word&#x27;s meaning through their co-occurrence.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Academic_intensity" style="text-decoration:none;color:inherit;display:block">
+  <h3>Academic intensity</h3>
+  <div class="entity-card-detail">A persistent, goal-directed focus on academics that ensures classroom time is used productively for learning.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Accessing_Skills" style="text-decoration:none;color:inherit;display:block">
+  <h3>Accessing Skills</h3>
+  <div class="entity-card-detail">Techniques for looking up, organizing, and analyzing information rather than possessing the information internally.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Adequate_Yearly_Progress_(AYP)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Adequate Yearly Progress (AYP)</h3>
+  <div class="entity-card-detail">The central requirement of the No Child Left Behind law requiring all demographic groups to show progress to qualify for federal funding.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Anti-curriculum_creed" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anti-curriculum creed</h3>
+  <div class="entity-card-detail">The dominant educational ideology that rejects a specific grade-by-grade content curriculum in favor of abstract skills.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Anti-curriculum_theory" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anti-curriculum theory</h3>
+  <div class="entity-card-detail">The dominant educational theory that de-emphasizes specific subject-matter content in favor of abstract skills or &#x27;free development,&#x27; which Hirsch blames for the American academic decline.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Arnoldian_figure" style="text-decoration:none;color:inherit;display:block">
+  <h3>Arnoldian figure</h3>
+  <div class="entity-card-detail">A style or persona characterized by social purpose, integrity, eloquence, and a specific sense of style, modeled after Matthew Arnold.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Artificiality" style="text-decoration:none;color:inherit;display:block">
+  <h3>Artificiality</h3>
+  <div class="entity-card-detail">Non-instinctual, culturally-transmitted activities and knowledge that allow humans to adapt to diverse environments and outwit competitors.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Authentic_assessment" style="text-decoration:none;color:inherit;display:block">
+  <h3>Authentic assessment</h3>
+  <div class="entity-card-detail">A policy alternative to standardized testing that requires students to construct answers or perform tasks rather than select from alternatives; touted by reformers as measuring &#x27;higher-order skills.&#x27;</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Automation" style="text-decoration:none;color:inherit;display:block">
+  <h3>Automation</h3>
+  <div class="entity-card-detail">The process of turning basic operations into habits that can be performed without conscious thought, thereby freeing up working memory for complex problem solving.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Child-Centeredness_(French_Context)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Child-Centeredness (French Context)</h3>
+  <div class="entity-card-detail">The &#x27;Americanization&#x27; of schooling focusing on individual special needs and developmental theories, which the author argues is anti-egalitarian.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Common_Essentials" style="text-decoration:none;color:inherit;display:block">
+  <h3>Common Essentials</h3>
+  <div class="entity-card-detail">The specific body of knowledge all children need to know to flourish in American society, as defined by Carleton Washburne.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Communal_Curriculum" style="text-decoration:none;color:inherit;display:block">
+  <h3>Communal Curriculum</h3>
+  <div class="entity-card-detail">An educational approach that emphasizes building socialization and shared conventions (language, knowledge, vocabulary) necessary for participation in the public sphere, often through shared topics...</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Communicative_Efficiency" style="text-decoration:none;color:inherit;display:block">
+  <h3>Communicative Efficiency</h3>
+  <div class="entity-card-detail">The ratio of meaning conveyed to the effort required by the reader to understand that meaning.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Conservative_Influence_of_Written_Speech" style="text-decoration:none;color:inherit;display:block">
+  <h3>Conservative Influence of Written Speech</h3>
+  <div class="entity-card-detail">A specific use of language (parole) as opposed to the abstract system (langue); for example, the definition in a dictionary is written speech, while the word itself is written language.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Content_Rehearsal" style="text-decoration:none;color:inherit;display:block">
+  <h3>Content Rehearsal</h3>
+  <div class="entity-card-detail">The active process of repeating and engaging with information (e.g., through question-and-answer) to fix it into long-term memory.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Criterion-referenced_tests" style="text-decoration:none;color:inherit;display:block">
+  <h3>Criterion-referenced tests</h3>
+  <div class="entity-card-detail">Tests where students are measured against a definite criterion or learning goal (e.g., &#x27;proficient&#x27;) rather than against each other.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Democratic_version_of_the_cumulative_principle" style="text-decoration:none;color:inherit;display:block">
+  <h3>Democratic version of the cumulative principle</h3>
+  <div class="entity-card-detail">The rule of learning where small early advantages or deficits in knowledge grow exponentially over time, leading to massive differences in achievement.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Ecumenical_National_Culture" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ecumenical National Culture</h3>
+  <div class="entity-card-detail">A national identity that transcends ethnic and local divisions through shared values and shared language/knowledge.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Educational_Revolution_of_1989_(France)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Educational Revolution of 1989 (France)</h3>
+  <div class="entity-card-detail">A sudden nationwide shift in French educational policy that moved toward constructivist/romantic ideas, which the author links to a decline in egalitarianism.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Factory-model_schools" style="text-decoration:none;color:inherit;display:block">
+  <h3>Factory-model schools</h3>
+  <div class="entity-card-detail">A pejorative term used by reformers to describe traditional, teacher-led instruction that supposedly produces passive students who parrot facts.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:General_Knowledge" style="text-decoration:none;color:inherit;display:block">
+  <h3>General Knowledge</h3>
+  <div class="entity-card-detail">The broad set of information students acquire; Hirsch argues this term is too vague and needs to be replaced with a specific, communal curriculum to be educationally effective.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Holistic_Learning_(Natural_Pedagogy)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Holistic Learning (Natural Pedagogy)</h3>
+  <div class="entity-card-detail">The doctrine that learning should always be lifelike, project-based, or thematic rather than structured, formal, or based on drill.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Home_Disadvantage" style="text-decoration:none;color:inherit;display:block">
+  <h3>Home Disadvantage</h3>
+  <div class="entity-card-detail">The educational and communicative gap experienced by children from low-income families that a communal curriculum is designed to bridge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:How-to_conception_of_schooling" style="text-decoration:none;color:inherit;display:block">
+  <h3>How-to conception of schooling</h3>
+  <div class="entity-card-detail">An educational approach focused on supposedly transferable skills (reading, writing, arithmetic, &#x27;critical thinking&#x27;) rather than specific, grade-by-grade factual content.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Instincts_and_powers" style="text-decoration:none;color:inherit;display:block">
+  <h3>Instincts and powers</h3>
+  <div class="entity-card-detail">A John Dewey phrase describing the internal, natural drives of a student that developmentalists believe should replace external book learning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Knowledge_Plus" style="text-decoration:none;color:inherit;display:block">
+  <h3>Knowledge Plus</h3>
+  <div class="entity-card-detail">A buzzword used by administrators to suggest that schools are providing something more valuable than &#x27;mere&#x27; subject matter, often masking a neglect of factual curriculum.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Less-is-more_theory" style="text-decoration:none;color:inherit;display:block">
+  <h3>Less-is-more theory</h3>
+  <div class="entity-card-detail">The educational theory that teaching a single example in great depth is more effective than teaching a broad range of facts.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Linguistic_Inertness" style="text-decoration:none;color:inherit;display:block">
+  <h3>Linguistic Inertness</h3>
+  <div class="entity-card-detail">The slow rate of change in the foundations of mass literacy and standard national languages due to the stabilizing influence of the written word.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Linguistic_pluralism" style="text-decoration:none;color:inherit;display:block">
+  <h3>Linguistic pluralism</h3>
+  <div class="entity-card-detail">The policy of encouraging or allowing multiple competing languages to flourish within a single nation&#x27;s borders, which Hirsch views as a threat to national unity.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#concept:Literate,_ethical_patriots" style="text-decoration:none;color:inherit;display:block">
+  <h3>Literate, ethical patriots</h3>
+  <div class="entity-card-detail">Citizens who possess the shared knowledge, reason, and moral rectitude necessary to maintain a democracy and resist political passion.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+</div>
+
+</main>
+</div>
+
+<footer class="page-footer">
+  Hirsch Argument Atlas &mdash; 10 books (1977&ndash;2024), 10,312 claims extracted and analyzed
+  &middot; Built with care, not with frameworks
+</footer>
+</body>
+</html>

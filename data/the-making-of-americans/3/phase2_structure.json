@@ -1,0 +1,937 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "Child-centered theories explain why schools have shifted away from the explicit goal of forming American citizens."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The non-tribal nature of American nationalism depends on the successful maintenance of a distinct public sphere."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C11",
+        "relationship": "instantiates",
+        "explanation": "Lincoln's historical call for political religion serves as a specific instance of the general need for a common creed to sustain solidarity."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C13",
+        "relationship": "refines",
+        "explanation": "The need for a common creed is refined into the specific proposal of a secular religion of 'Democracy'."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The historical revulsion against sectarian violence provides a normative basis for excluding belief systems from the public sphere."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The duty to form competent citizens is contingent upon shifting to a community-centered approach that can actually deliver that competency."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The empirical observation that factional diversity encourages mutual accommodation provides the mechanism for the theoretical claim that diversity creates social solidarity."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C22",
+        "relationship": "depends-on",
+        "explanation": "The generalization that prioritizing the whole applies to all groupings depends on the prior claim that diversity in those groupings (like religion) actually produces harmony."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "If constitutional commitment is more ultimate than theology, it follows that the peace of the whole is a higher value than the faction."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C24",
+        "relationship": "instantiates",
+        "explanation": "The existence of an emotional civil religion is a concrete manifestation of the theoretical idea of America as a political religion."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "The ritual of the Pledge replacing chapel serves as evidence for the belief of 19th-century leaders that schools should teach the dominance of the national creed."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "If the Founders prioritized ethics and politics over theology, it supports the view of the political religion as a formal structure of principles rather than specific cultural content."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The ability to detach the polity from Anglo-Protestant origins is a necessary condition for the political religion to be a 'formal structure' rather than 'specific cultural content'."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The normative conclusion that curriculum must balance both sides requires first establishing that these two sides (formalist vs traditionalist) constitute the fundamental debate."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a minimal consensus curriculum is predicated on the pragmatic requirement to accommodate both liberal and conservative viewpoints in a pluralistic society."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "Commonality of content is required because communication in a standard language across a large community depends on shared, concrete knowledge."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C46",
+        "relationship": "depends-on",
+        "explanation": "The sustainability of private divergence depends on the theoretical claim that a robust public sphere renders such divergence non-threatening to national unity."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C47",
+        "relationship": "instantiates",
+        "explanation": "The specific principles of liberty and equality are the concrete content needed for the broader requirement of content knowledge for civic life."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C49",
+        "relationship": "depends-on",
+        "explanation": "The ability of a core curriculum to avoid tribalism depends on the conceptualization of America as a 'world' rather than a traditional ethnically-defined nation-state."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The historical failure of German immigrants to integrate without English supports the claim that a common language is central to the social scheme."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The practical difficulties created by non-English documents in the colonial era provide empirical evidence for the necessity of a common tongue."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "The concept of a federation as a covenant between diverse entities provides the theoretical basis for treating nationalities with the same private-autonomy/public-accommodation model as religions."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "Washington's view of education as a tool to eliminate local prejudices justifies the claim that schools are the primary institutions for public sphere accommodation."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "The 'federated ideal' of nationalism is structurally dependent on the bifurcation of the American system into private polarities and a public core."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "The hybrid nature of American individuals supports the idea that the nation can exist as a federation of cultures rather than a monolithic ethnic block."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "A federated whole that allows for diverse cultures requires the core to provide 'negative liberty' (freedom from) rather than a 'thick' cultural identity."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C72",
+        "relationship": "depends-on",
+        "explanation": "The claim that the American experiment is 'artificial' relies on the premise that human nature is 'naturally' tribal and hostile to outsiders."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C74",
+        "relationship": "supports",
+        "explanation": "Because the experiment is an artificial construct to counteract tribalism, it requires specific 'agencies' (language/education) to maintain it."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic necessity of schooling follows from the theoretical claim that education is one of the two primary agencies for maintaining solidarity."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The normative goal of overcoming caste distinctions through shared social groups provides the moral justification for systematic schooling."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C86",
+        "relationship": "depends-on",
+        "explanation": "If talents are distributed equally across classes, then unequal outcomes in school performance suggest the institution is failing to develop that latent talent."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C86",
+        "relationship": "supports",
+        "explanation": "The ideal of a 'natural aristocracy' based on virtue/talent serves as the benchmark against which the current school failure is measured."
+      },
+      {
+        "from_id": "C87",
+        "to_id": "C88",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic need for general competence is driven by the theoretical claim that educational inequality fuels tribalism."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C91",
+        "relationship": "depends-on",
+        "explanation": "The failure to promote a shared sense of history (C89) is the specific failure that creates the 'psychological vacuum' mentioned in C91."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C91",
+        "relationship": "supports",
+        "explanation": "Replacing shared history with 'remote cultures' provides the specific content for the neotribalism that fills the vacuum."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C94",
+        "relationship": "refines",
+        "explanation": "C94 specifies the broad theoretical claim of C91 by identifying Lincoln's 'super-tribe' creed as the specific missing element for youth."
+      },
+      {
+        "from_id": "C95",
+        "to_id": "C94",
+        "relationship": "supports",
+        "explanation": "Educator complacency about community feeling explains why schools stopped promoting the unifying creed."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C97",
+        "relationship": "supports",
+        "explanation": "Optimistic views of human nature provided the ideological cover for moving toward individualistic progressive education."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C105",
+        "relationship": "supports",
+        "explanation": "The claim that American patriotism is uniquely cosmopolitan and global provides the basis for it being commodious rather than tribal."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C105",
+        "relationship": "depends-on",
+        "explanation": "A commodious patriotism must still fulfill the fundamental human need for group attachment to be viable."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C109",
+        "relationship": "supports",
+        "explanation": "Because American patriotism is commodious and based on ideals, schools should focus on loyalty to those ideals rather than tribal jingoism."
+      },
+      {
+        "from_id": "C112",
+        "to_id": "C110",
+        "relationship": "depends-on",
+        "explanation": "Loyalty to an imagined community depends on language because language is the medium through which such fellowships are imagined."
+      },
+      {
+        "from_id": "C110",
+        "to_id": "C103",
+        "relationship": "refines",
+        "explanation": "C103 generalizes the technical necessity stated in C110 into a broad principle of national solidarity."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "If language is the indispensable vehicle for solidarity, it follows that language must be at the center of the core curriculum."
+      },
+      {
+        "from_id": "C109",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "If the aim of schools is to foster loyalty to American ideals, those ideals must be centered in the curriculum."
+      },
+      {
+        "from_id": "C117",
+        "to_id": "C120",
+        "relationship": "supports",
+        "explanation": "The 'meta-church' structure of American political religion explains why the invoked 'God' must be supra-sectarian."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "The existence of specific content in American cosmopolitanism justifies a specific core curriculum rather than a content-neutral one."
+      },
+      {
+        "from_id": "C119",
+        "to_id": "Introduction.C15",
+        "relationship": "supports",
+        "explanation": "If anti-Americanism stems from the nation's failure to meet its own ideals, then schooling that effectively promotes those ideals and provides the means to achieve them (equity) is necessary to produce 'loyal citizens'."
+      },
+      {
+        "from_id": "1.C54",
+        "to_id": "C119",
+        "relationship": "depends-on",
+        "explanation": "The claim that failure to meet standards causes anti-Americanism assumes that the educational system's failure to provide 'enabling knowledge' is a primary instance of the nation failing its promise of equal opportunity."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C5",
+        "warrant_text": "If official educational guidelines use content-free abstractions, they are likely doing so to avoid concrete ideological conflicts inherent in specific content.",
+        "is_explicit": true,
+        "vulnerability": "The abstractions could be the result of bureaucratic incompetence or a focus on transferable skills rather than a deliberate avoidance of political dispute."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E26",
+        "claim_id": "C11",
+        "warrant_text": "If tribalism is a natural biological adaptation, then social peace in a large diverse nation is an artificial state that must be actively constructed and maintained.",
+        "is_explicit": false,
+        "vulnerability": "Human cooperation may be achievable through other means, such as economic interdependence, without requiring a shared 'creed'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E2",
+        "claim_id": "C10",
+        "warrant_text": "The public addresses of key historical leaders like Lincoln are authoritative indicators of the intended civic principles of the nation.",
+        "is_explicit": true,
+        "vulnerability": "Political speeches may be rhetorical or situational rather than expressions of a permanent educational philosophy."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E10",
+        "claim_id": "C2",
+        "warrant_text": "The replacement of religious rituals (chapel) with civic rituals (Pledge) in schools signifies a historical shift in the state's role in citizen formation.",
+        "is_explicit": false,
+        "vulnerability": "The change could represent secularization rather than a specific intent to form a 'national' identity."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C21",
+        "claim_id": "C22",
+        "warrant_text": "Principles of social organization that successfully manage the most volatile human affiliation (religion) are logically extensible to less volatile affiliations (economics and social interests).",
+        "is_explicit": true,
+        "vulnerability": "Economic or social factions may follow different psychological or power dynamics than religious ones, making the analogy potentially false."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C27",
+        "claim_id": "C24",
+        "warrant_text": "When a state adopts the rituals, symbols, and ultimate-loyalty claims of a religion (substitution of Pledge for Chapel), it is functioning as a 'political religion' that claims supremacy over sects.",
+        "is_explicit": false,
+        "vulnerability": "Ritual replacement may be a pragmatic tool for social order in a diverse society rather than a philosophical claim to ontological supremacy."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C39",
+        "claim_id": "C32",
+        "warrant_text": "The personal philosophical leanings of a nation's founders (Deism) define the intended structural nature of that nation's public identity (Formalism).",
+        "is_explicit": true,
+        "vulnerability": "Founders' personal beliefs do not necessarily dictate the permanent character of a nation, which evolves through the beliefs of its subsequent citizens."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C54",
+        "claim_id": "C53",
+        "warrant_text": "If historical linguistic isolation led to political and legal fragmentation in early America, then a shared language is a functional requirement for national cohesion.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that the fragmentation was caused by language alone rather than economic or social exclusion of the German-speaking population."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C60",
+        "claim_id": "C58",
+        "warrant_text": "Founding-era perspectives on education provide a normative blueprint for the role of modern public institutions.",
+        "is_explicit": true,
+        "vulnerability": "Appeal to authority; the Founders' intentions for education may not align with modern pedagogical or democratic needs."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C45",
+        "claim_id": "C47",
+        "warrant_text": "Civic life requires effective communication, and effective communication requires specific shared content.",
+        "is_explicit": false,
+        "vulnerability": "One could argue for a 'thin' civic core (just laws) without a 'thick' knowledge core (specific history/culture)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C71",
+        "claim_id": "C72",
+        "warrant_text": "If a social system successfully produces peace among diverse groups despite an innate biological drive for tribal hostility, that system must be an intentional, 'artificial' intervention rather than a natural development.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that 'natural' tribalism is static and cannot be mitigated by economic interdependence or other non-governmental social evolutions."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C78",
+        "claim_id": "C75",
+        "warrant_text": "The original design and intent of the political founders regarding educational institutions are relevant and authoritative for determining the current necessary functions of those institutions.",
+        "is_explicit": false,
+        "vulnerability": "Originalist fallacy; the Founders' intentions for an 18th-century agrarian society may not apply to a 21st-century digital, globalized society."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C77",
+        "claim_id": "C73",
+        "warrant_text": "Symbols that evoke emotional allegiance (like the flag) serve to move group identity from narrow tribal affiliations to an expansive 'political religion' that spans a diverse population.",
+        "is_explicit": false,
+        "vulnerability": "Symbols can be contested or co-opted by specific sub-groups, potentially increasing tribalism rather than diminishing it."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C82",
+        "claim_id": "C86",
+        "warrant_text": "In a meritocratic society, if the input (talent) is equal across groups, but the output (educational achievement) is stratified by wealth, the intervening system (schooling) must be the primary source of the disparity.",
+        "is_explicit": false,
+        "vulnerability": "Ignores non-school factors like environmental stressors, nutrition, or extracurricular resources that also correlate with wealth."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C89",
+        "claim_id": "C91",
+        "warrant_text": "Human psychology possesses an inherent 'tribal instinct' for group belonging that will latch onto narrower identities if a broad national identity is not provided.",
+        "is_explicit": true,
+        "vulnerability": "The rise of neotribalism could be a reaction to globalization or technology rather than a failure of school curriculum."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C92",
+        "claim_id": "C94",
+        "warrant_text": "If students identify with 'imagined ancestral pasts' because schools stopped teaching a 'shared American past,' then school curriculum is a primary driver of social identity formation.",
+        "is_explicit": false,
+        "vulnerability": "Cultural identity is often formed in the home or through media, which may override school curriculum regardless of its content."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C112",
+        "claim_id": "C110",
+        "warrant_text": "If a community is not based on physical proximity or kinship (an 'imagined community'), its existence depends entirely on the shared communication tools used to construct that imagination.",
+        "is_explicit": true,
+        "vulnerability": "Shared language may facilitate communication without necessarily fostering shared identity or loyalty; civil wars often occur between people speaking the same language."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C106",
+        "claim_id": "C105",
+        "warrant_text": "A political identity founded on Enlightenment universalism (cosmopolitanism) is structurally incompatible with exclusive tribalism.",
+        "is_explicit": false,
+        "vulnerability": "Universalist rhetoric can be used to mask or enforce a new form of tribalism or cultural hegemony."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C108",
+        "claim_id": "C109",
+        "warrant_text": "Education is the primary mechanism for socializing the 'natural' tribal instinct into the 'artificial' construct of the nation-state.",
+        "is_explicit": true,
+        "vulnerability": "The 'natural' need for group attachment might be better served by local or ethnic communities than by a large, abstract national ideal."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C119",
+        "claim_id": "Introduction.C17",
+        "warrant_text": "Citizen loyalty in a liberal democracy is contingent upon the state's perceived integrity in upholding its founding moral and political principles.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that anti-Americanism is fueled by ideological disagreement with the standards themselves, not just a failure to meet them."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C15",
+        "to_id": "C19",
+        "missing_step": "The sectarian conflicts of the 17th century are sufficiently analogous to modern identity politics to justify the same solution (exclusion from the public sphere).",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C7",
+        "to_id": "C13",
+        "missing_step": "A secular religion can successfully inspire the same level of loyalty and social cohesion as the 'tribal' nationalism it replaces.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C1",
+        "to_id": "C9",
+        "missing_step": "A community-centered approach is the only or most effective way to produce 'competent participants in the information economy'.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C37",
+        "to_id": "C40",
+        "missing_step": "Even if the polity can be detached from Anglo-Protestant traditions, those traditions still provide the specific 'truth' and cultural continuity needed for patriotic education.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C28",
+        "to_id": "C29",
+        "missing_step": "The 19th-century vision of 'creedal dominance' shifted from a Protestant-inflected nationalism to a more purely formalist legal structure over time.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C42",
+        "missing_step": "Liberals and conservatives must agree that 'liberty' and 'equality' are the specific principles that constitute the 'minimum' consensus.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C53",
+        "to_id": "C49",
+        "missing_step": "A common language must be shown to be culturally neutral enough that it does not impose a 'tribal' identity on those whose private language is different.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C61",
+        "to_id": "C63",
+        "missing_step": "The political federation of states is a sufficient and accurate model for the psychological and cultural federation of diverse ethnic groups.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C74",
+        "to_id": "C75",
+        "missing_step": "Systematic, state-managed schooling is the only social institution capable of delivering the 'common education' required for solidarity in a diverse society.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C82",
+        "to_id": "C86",
+        "missing_step": "Establishing that the 'talent' distributed by nature corresponds directly to the specific types of academic achievement measured by schools.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C88",
+        "to_id": "C87",
+        "missing_step": "Proving that 'general competence' is sufficient to overcome the emotional/psychological drivers of group resentment.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C91",
+        "to_id": "C98",
+        "missing_step": "Demonstrating that an 18th-century Enlightenment 'political religion' can still effectively compete with modern, tech-enabled niche identity groups.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C110",
+        "to_id": "C103",
+        "missing_step": "A common language is the only or most effective way to solve the coordination problem of an imagined community.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C104",
+        "to_id": "C115",
+        "missing_step": "Political rivals can agree on a specific interpretation of 'freedom' and 'equality' sufficient to form a grade-by-grade curriculum.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C112",
+        "to_id": "C103",
+        "missing_step": "The cognitive benefits of a 'mother tongue' can be transferred to a 'national tongue' without losing the emotional resonance required for loyalty.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C119",
+        "to_id": "Introduction.C3",
+        "missing_step": "A common core curriculum is a sufficient mechanism to close the gap between American ideals (equity) and reality.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C13",
+        "objection": "Teaching a secular religion of 'Democracy' in schools violates the very principle of the 'autonomous private sphere' by imposing a state-mandated belief system on children.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C19",
+        "objection": "The 'public sphere' is never truly neutral; excluding religious or ethnic belief systems merely allows the dominant cultural ideology to masquerade as 'common sense' or 'neutrality'.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C11",
+        "objection": "Solidarity in a diverse nation can be achieved through 'thin' procedural agreements and legal frameworks without requiring the 'thick' common creed Hirsch advocates.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C25",
+        "objection": "For many religious citizens, a commitment to a transcendent God must inherently be more ultimate than a commitment to any temporal nation; to claim otherwise is to demand idolatry.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C32",
+        "objection": "A 'formal structure of principles' is an empty abstraction; liberty and equality are only intelligible through the specific historical and cultural traditions (Anglo-Protestant) that produced them.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C22",
+        "objection": "Economic interests and social groupings do not act as self-correcting factions in the same way religions do; they often consolidate into dominant classes that suppress rather than accommodate.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "A curriculum based only on a 'minimum' consensus between opposing ideologies may be so sanitized and abstract that it fails to provide the rich content necessary for true literacy.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C53",
+        "objection": "Mandating English as the sole public language marginalizes linguistic minorities and constitutes an ethnic 'tribal' imposition of its own, contradicting the claim of an 'antiparticularist' state.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C57",
+        "objection": "The analogy between nationality and religion fails because ethnicity and language are often more tied to public identity and economic access than private religious belief.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C63",
+        "objection": "A 'transnational' nation lacking a core 'native' culture may lack the social glue necessary to withstand periods of extreme economic or political stress, leading to balkanization rather than federation.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C75",
+        "objection": "Systematic schooling designed to create a 'shared transtribal construct' inevitably prioritizes the values and language of the dominant group, thereby suppressing the private cultures it claims to protect.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C72",
+        "objection": "Human cooperation is as 'natural' and evolutionarily adaptive as tribal hostility; the American experiment might be an extension of natural cooperative instincts rather than an artificial counteractant.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C86",
+        "objection": "The failure to develop the talents of the poor may stem from economic segregation and school funding models rather than the 'skills-based' curriculum itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C91",
+        "objection": "Multiculturalism and neotribalism may be a healthy corrective to a 'shared history' that previously excluded or marginalized minority experiences.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C99",
+        "objection": "If universalistic principles lack the 'emotional power' of tribal loyalties, then no 'artificial' American creed—including Lincoln's—can ever truly replace ethnic or religious identity.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C110",
+        "objection": "Stable democratic polities (e.g., Switzerland, Canada, Belgium) maintain national loyalty and 'imagined communities' across multiple official languages.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C105",
+        "objection": "The 'commodious' American patriotism has historically been a thin veneer for Anglo-Protestant cultural dominance, effectively excluding those who do not assimilate to that specific 'core'.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C115",
+        "objection": "The divide between the political left and right regarding American ideals is not over the words themselves, but over their fundamental definitions (e.g., equality of outcome vs. equality of opportunity), making 'basic agreement' an empty goal.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C119",
+        "objection": "Anti-American sentiments may be rooted in structural or historical critiques of the founding ideals themselves (e.g., as inherently exclusionary) rather than merely a failure to implement them.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C119",
+        "objection": "Disaffection might be caused by external cultural influences or global political trends that have little to do with domestic educational or policy failures.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Civic Peace Chain",
+        "chain": [
+          "C20",
+          "C11",
+          "C10",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Enlightenment Logic Chain",
+        "chain": [
+          "C15",
+          "C16",
+          "C8",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "strong"
+      },
+      {
+        "name": "The Educational Reorientation Chain",
+        "chain": [
+          "C1",
+          "C2",
+          "C3",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Supremacy of the Civic Whole",
+        "chain": [
+          "C21",
+          "C23",
+          "C22",
+          "C24",
+          "C25"
+        ],
+        "conclusion_id": "C24",
+        "strength": "strong"
+      },
+      {
+        "name": "The Formalist Origin of America",
+        "chain": [
+          "C39",
+          "C31",
+          "C30",
+          "C37",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Curricular Synthesis Requirement",
+        "chain": [
+          "C29",
+          "C38",
+          "C40"
+        ],
+        "conclusion_id": "C40",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Stability Through Commonality Chain",
+        "chain": [
+          "C44",
+          "C47",
+          "C45",
+          "C53",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political Consensus Chain",
+        "chain": [
+          "C43",
+          "C41",
+          "C42",
+          "C59",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Institutional Purpose Chain",
+        "chain": [
+          "C60",
+          "C58",
+          "C44",
+          "C49"
+        ],
+        "conclusion_id": "C49",
+        "strength": "strong"
+      },
+      {
+        "name": "The Transnational Federation Chain",
+        "chain": [
+          "C61",
+          "C62",
+          "C67",
+          "C69",
+          "C63"
+        ],
+        "conclusion_id": "C63",
+        "strength": "strong"
+      },
+      {
+        "name": "The Artificiality of Peace Chain",
+        "chain": [
+          "C71",
+          "C72",
+          "C73",
+          "C77"
+        ],
+        "conclusion_id": "C72",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Educational Imperative Chain",
+        "chain": [
+          "C72",
+          "C74",
+          "C79",
+          "C78",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "strong"
+      },
+      {
+        "name": "The Meritocratic Failure Chain",
+        "chain": [
+          "C81",
+          "C82",
+          "C83",
+          "C84",
+          "C85",
+          "C86"
+        ],
+        "conclusion_id": "C86",
+        "strength": "strong"
+      },
+      {
+        "name": "The Tribalism/Curriculum Chain",
+        "chain": [
+          "C89",
+          "C90",
+          "C91",
+          "C94"
+        ],
+        "conclusion_id": "C91",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Psychological Vacuum Chain",
+        "chain": [
+          "C95",
+          "C96",
+          "C97",
+          "C91",
+          "C94"
+        ],
+        "conclusion_id": "C94",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Linguistic Basis of Solidarity",
+        "chain": [
+          "C112",
+          "C111",
+          "C110",
+          "C103"
+        ],
+        "conclusion_id": "C103",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cosmopolitan Patriotism Model",
+        "chain": [
+          "C106",
+          "C108",
+          "C105",
+          "C109"
+        ],
+        "conclusion_id": "C109",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Curricular Mandate for Unity",
+        "chain": [
+          "C103",
+          "C109",
+          "C107",
+          "C104"
+        ],
+        "conclusion_id": "C104",
+        "strength": "strong"
+      },
+      {
+        "name": "The Civic Loyalty Chain",
+        "chain": [
+          "1.C6",
+          "1.C54",
+          "C119",
+          "Introduction.C15"
+        ],
+        "conclusion_id": "Introduction.C15",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0080306,
+    "duration_s": 104.62880349159241
+  }
+}

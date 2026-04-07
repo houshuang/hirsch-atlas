@@ -1,0 +1,1898 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The fact that writers can be proficient without knowing theory (C1) justifies focusing exclusively on the functional outcome (the act of reading) rather than the writer's process (C2)."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "If the only thing that matters is the conveyance of meaning during reading (C2), then the principles governing that conveyance must be the psychological principles of reception (C3)."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If psychological principles govern effectiveness, then those principles are the ultimate authority for resolving contradictory rhetorical maxims."
+      },
+      {
+        "from_id": "C251",
+        "to_id": "C3",
+        "relationship": "refines",
+        "explanation": "The claim that psychological principles govern prose (C3) is qualified by the admission that our current understanding of those principles is limited (C251)."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "To claim that psychological principles govern 'actual prose' (C3), one must acknowledge that processing discourse is different from processing isolated words (C5)."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The correlation between the Cloze method and standard formulas requires a theoretical explanation of what the Cloze method actually measures (Gestalt completion)."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "Because Cloze measures deep psychological processing (redundancy/Gestalt), it logically follows that it would be a better predictor of actual comprehension than superficial word-counts."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C16",
+        "relationship": "supports",
+        "explanation": "If technical 'informativeness' (unpredictability) makes assimilation harder, then texts with lower information (higher predictability) must be easier to learn from."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C16",
+        "relationship": "supports",
+        "explanation": "The reductio ad absurdum that total informativeness equals nonsense reinforces the idea that effective learning requires low technical information density."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C18",
+        "relationship": "instantiates",
+        "explanation": "The example of the relative pronoun 'that' serves as a specific instance where more words (higher redundancy) create easier processing (small leaps)."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The pragmatic observation that explicit and repetitious prose is easier to predict provides a foundation for the conclusion that small, predictable leaps enhance readability."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "Using a measurement like Cloze or reading formulas to define 'ease' assumes that the ultimate indicator of success is the speed or efficiency of processing."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C29",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that readability is defined by effort at a fixed rate relies on the empirical existence of that fixed physiological rate."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "If predictability speeds up processing toward the fixed limit, it validates that 'effort' is the variable determining readability."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The cloze test can only measure absolute readability if it is first established as a valid measure of local predictability."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "Establishing local predictability as superior to word-frequency lists strengthens the claim that the cloze test captures the 'absolute' reality of processing."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The theoretical definition of communication as uncertainty reduction is predicated on the claim that efficiency is driven by the reduction of reader uncertainty."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The matching process of reading is the mechanical manifestation of uncertainty reduction."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C52",
+        "relationship": "depends-on",
+        "explanation": "If interpretation involves matching against candidates, then reducing those candidates is the necessary mechanism for speeding up interpretation (reducing uncertainty)."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "Empirical evidence that increased predictability (fewer surprising candidates) reduces reaction time supports the theoretical need to reduce candidate sets."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C56",
+        "relationship": "depends-on",
+        "explanation": "Context serves to impose constraints, and it is through these constraints that the number of possibilities (uncertainty) is limited."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "If constraint reduces uncertainty, and reduced uncertainty reduces processing time (C52), then high constraint leads to low processing effort."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "The fact that natural constraints are weakest at the beginning of a discourse suggests a pragmatic need for the author to artificially increase constraint there."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "The high psychological impact and memory retention of beginnings make them the most efficient location to establish the constraints that will guide the rest of the reading process."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "Short-term expectancy is treated as a reliable force because local probabilities in a specific context are often more accurate than general language probabilities."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C68",
+        "relationship": "instantiates",
+        "explanation": "The isochronous nature of speech is a specific instance of the general human tendency to maintain rhythmical patterns."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "The lack of situational context in writing necessitates that the internal large-scale context do the work of reducing uncertainty."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "If most constraints are invisible and covert, they constitute a large-scale framework that outweighs local, visible constraints."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C75",
+        "relationship": "depends-on",
+        "explanation": "If large-scale context is the primary factor in readability, then managing the audience's tacit knowledge (a key part of that context) is the writer's most critical task."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "depends-on",
+        "explanation": "The writer's decision is only important if the invisible context actually consists of the audience's tacit knowledge."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "By ruling out large-scale context neglect as the primary cause of bad writing, the author clears the way for local uncertainty as the main cause."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C78",
+        "relationship": "depends-on",
+        "explanation": "Uncertainty only slows processing if the mind cannot handle multiple matching operations at once."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C78",
+        "relationship": "depends-on",
+        "explanation": "The linear relationship between stimulus uncertainty and reaction time provides the empirical basis for the claim that uncertainty determines processing speed."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C81",
+        "relationship": "instantiates",
+        "explanation": "The 'bottleneck' of the one-thing-at-a-time monitor is what creates the absolute processing limit of twenty items per second."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C95",
+        "relationship": "depends-on",
+        "explanation": "Effective readability (C95) requires minimizing attention shifts between words and sentences (C90) as its first constraint."
+      },
+      {
+        "from_id": "C92",
+        "to_id": "C95",
+        "relationship": "depends-on",
+        "explanation": "Effective readability (C95) must also account for the fact that high predictability and monotony lead to attention deterioration (C92)."
+      },
+      {
+        "from_id": "C94",
+        "to_id": "C95",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that readability requires a compromise (C95) relies on the premise that stylistic variety can actually reduce reader effort (C94)."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "C96",
+        "relationship": "supports",
+        "explanation": "Experimental evidence showing clauses are more directly perceived than words (C99) supports the theory that the clause is the primary unit (C96)."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C96",
+        "relationship": "depends-on",
+        "explanation": "The primacy of the clause (C96) is a specific instance of the general principle that the whole is prior to the parts in perception (C102)."
+      },
+      {
+        "from_id": "C100",
+        "to_id": "C98",
+        "relationship": "refines",
+        "explanation": "The suspension of syntactic decisions (C98) is the specific cognitive mechanism described in C100."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "C98",
+        "relationship": "depends-on",
+        "explanation": "To conclude that readers suspend final decisions (C98), it must be true that words only take on definite meaning after semantic closure (C101)."
+      },
+      {
+        "from_id": "C104",
+        "to_id": "C103",
+        "relationship": "supports",
+        "explanation": "The fact that reading speed is exactly half of the processing rate (C104) is the primary empirical evidence for a two-pass reviewing procedure (C103)."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C103",
+        "relationship": "depends-on",
+        "explanation": "If the clause acts as a universal bracketing mechanism (C107), it provides the necessary units for a systematic reviewing procedure (C103)."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C113",
+        "relationship": "supports",
+        "explanation": "If humans perceive language primarily through clauses rather than words, there must be a mechanism to store constituent parts until the clause is completed."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The claim of a direct connection between memory and readability depends on the fact that short-term memory has a specific, limited capacity."
+      },
+      {
+        "from_id": "C113",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The connection between memory and readability assumes that clauses require a 'consolidating function' to be processed."
+      },
+      {
+        "from_id": "C123",
+        "to_id": "C120",
+        "relationship": "supports",
+        "explanation": "The firm limitation on simultaneous mental elements provides the boundary that restricts permissible grammatical complexity."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C124",
+        "relationship": "refines",
+        "explanation": "Claim 124 provides a specific metric for the general concept of grammatical 'depth' introduced in Claim 121."
+      },
+      {
+        "from_id": "C124",
+        "to_id": "C125",
+        "relationship": "supports",
+        "explanation": "If depth is defined by hierarchical steps, then non-hierarchical (same plane) elements must logically be less taxing."
+      },
+      {
+        "from_id": "C132",
+        "to_id": "C131",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that progressive structures involve fewer suspensions depends on the theoretical premise that each hierarchical step equals an additional item in memory."
+      },
+      {
+        "from_id": "C136",
+        "to_id": "C131",
+        "relationship": "supports",
+        "explanation": "Establishing that regressive structures increase load supports the preference for progressive structures."
+      },
+      {
+        "from_id": "C134",
+        "to_id": "C138",
+        "relationship": "depends-on",
+        "explanation": "The need for compromise (C138) follows from the fact that simply reducing subordination (C134) is not always effective."
+      },
+      {
+        "from_id": "C135",
+        "to_id": "C138",
+        "relationship": "depends-on",
+        "explanation": "If hierarchical structures improve cohesion (C135), they must be weighed against memory load, necessitating a compromise."
+      },
+      {
+        "from_id": "C142",
+        "to_id": "C145",
+        "relationship": "depends-on",
+        "explanation": "The effectiveness of chunking depends on the claim that memory capacity is determined by unitized groups rather than raw word count."
+      },
+      {
+        "from_id": "C145",
+        "to_id": "C140",
+        "relationship": "supports",
+        "explanation": "Unitizing or chunking is the mechanism that enables the speedy semantic closures which enhance readability."
+      },
+      {
+        "from_id": "C141",
+        "to_id": "C139",
+        "relationship": "supports",
+        "explanation": "The ability of speedy closure to keep load small supports the principle that reducing memory load is paramount for readability."
+      },
+      {
+        "from_id": "C144",
+        "to_id": "C147",
+        "relationship": "depends-on",
+        "explanation": "Predictability correlates with readability because uncertainty (unpredictability) prevents the formation of stable word-groupings necessary for processing."
+      },
+      {
+        "from_id": "C148",
+        "to_id": "C147",
+        "relationship": "refines",
+        "explanation": "Standardization is presented as the social mechanism that ensures the predictability required for readability."
+      },
+      {
+        "from_id": "C163",
+        "to_id": "C162",
+        "relationship": "supports",
+        "explanation": "Empirical evidence showing reduced processing time and memory load provides a physical basis for the theoretical claim that readability is enhanced by closure."
+      },
+      {
+        "from_id": "C162",
+        "to_id": "C161",
+        "relationship": "supports",
+        "explanation": "If rapid/stable closure improves readability, it follows that closure is the central factor in reading clauses."
+      },
+      {
+        "from_id": "C161",
+        "to_id": "C157",
+        "relationship": "depends-on",
+        "explanation": "The definition of readability as closure requires establishing closure as the primary functional factor in clause perception."
+      },
+      {
+        "from_id": "C150",
+        "to_id": "C151",
+        "relationship": "depends-on",
+        "explanation": "Predictability in periodic sentences is achieved specifically through the sub-clausal groupings that allow for closure."
+      },
+      {
+        "from_id": "C151",
+        "to_id": "C152",
+        "relationship": "supports",
+        "explanation": "The achievement of semantic closure within sentence parts allows a long sentence to function as a cohesive paragraph-like unit."
+      },
+      {
+        "from_id": "C152",
+        "to_id": "C167",
+        "relationship": "instantiates",
+        "explanation": "The successful periodic sentence serves as an example of how easing links between clauses mirrors the easing of integration within a clause."
+      },
+      {
+        "from_id": "C166",
+        "to_id": "C167",
+        "relationship": "depends-on",
+        "explanation": "Scaling from the clause to discourse requires the prior establishment of the clause as the primary unit of perception."
+      },
+      {
+        "from_id": "C167",
+        "to_id": "C115",
+        "relationship": "supports",
+        "explanation": "If links between units are functionally similar across scales, then readability at the discourse level is determined by the connection between present perceptions and stored memory."
+      },
+      {
+        "from_id": "C153",
+        "to_id": "C160",
+        "relationship": "supports",
+        "explanation": "The psychological strain of the German verb-at-the-end rule is used to argue that the rule harms the language's effectiveness as prose."
+      },
+      {
+        "from_id": "C169",
+        "to_id": "C168",
+        "relationship": "depends-on",
+        "explanation": "The ability of working memory to hold items in suspension is a necessary cognitive mechanism for the transformation of sequences into structures."
+      },
+      {
+        "from_id": "C168",
+        "to_id": "C170",
+        "relationship": "supports",
+        "explanation": "If the goal of processing is transformation into nontemporal meaning, then facilitating that transformation logically improves readability."
+      },
+      {
+        "from_id": "C173",
+        "to_id": "C172",
+        "relationship": "supports",
+        "explanation": "The rapid loss of specific syntactic and lexical forms provides empirical evidence that the long-term model is not syntactic."
+      },
+      {
+        "from_id": "C175",
+        "to_id": "C174",
+        "relationship": "supports",
+        "explanation": "The loss of syntactic structure within seconds necessitates that discourse meaning be stored in an abstract, nonlinguistic form."
+      },
+      {
+        "from_id": "C179",
+        "to_id": "C181",
+        "relationship": "depends-on",
+        "explanation": "The recommendation to use thematic tags is a pragmatic response to the empirical constraint of the twelve-second memory decay."
+      },
+      {
+        "from_id": "C180",
+        "to_id": "C181",
+        "relationship": "supports",
+        "explanation": "Insecure memory after twelve seconds justifies the need for tags to provide stable semantic anchors."
+      },
+      {
+        "from_id": "C184",
+        "to_id": "C187",
+        "relationship": "supports",
+        "explanation": "The general principle of representation (using a part for a whole) explains how thematic tags bridge the gap between working and long-term memory."
+      },
+      {
+        "from_id": "C190",
+        "to_id": "C189",
+        "relationship": "supports",
+        "explanation": "Experimental data showing a direct time increase (1.5s) per proposition provides empirical weight to the claim that propositions predict reading rate."
+      },
+      {
+        "from_id": "C196",
+        "to_id": "C189",
+        "relationship": "depends-on",
+        "explanation": "Predicting retention via propositional analysis requires that the method of counting propositions is itself feasible and reliable."
+      },
+      {
+        "from_id": "C195",
+        "to_id": "C194",
+        "relationship": "supports",
+        "explanation": "The specific percentage increases in reading time associated with higher tag counts serve as the evidence for the theoretical claim that unique tags determine speed."
+      },
+      {
+        "from_id": "C194",
+        "to_id": "C129",
+        "relationship": "supports",
+        "explanation": "If more tags increase processing time (C194), it implies a higher cognitive load on memory (C129)."
+      },
+      {
+        "from_id": "C129",
+        "to_id": "C198",
+        "relationship": "supports",
+        "explanation": "Reduced memory load is the mechanism by which reducing thematic tags improves the practical outcome of readability."
+      },
+      {
+        "from_id": "C200",
+        "to_id": "C198",
+        "relationship": "refines",
+        "explanation": "Specifies that the reduction of unique tags is achieved through the specific practice of repeating existing tags in contiguous sequences."
+      },
+      {
+        "from_id": "C203",
+        "to_id": "C201",
+        "relationship": "supports",
+        "explanation": "Empirical evidence that forecasting reduces uncertainty provides the basis for the claim that explicit links facilitate integration."
+      },
+      {
+        "from_id": "C201",
+        "to_id": "C204",
+        "relationship": "supports",
+        "explanation": "The psychological function of verbal links provides the functional explanation for traditional rhetorical principles like 'coherence'."
+      },
+      {
+        "from_id": "C208",
+        "to_id": "C209",
+        "relationship": "refines",
+        "explanation": "While reducing thematic tags enhances integration, the author notes this same action risks leaving meaning too implicit."
+      },
+      {
+        "from_id": "C209",
+        "to_id": "C210",
+        "relationship": "depends-on",
+        "explanation": "The necessity of compromise (C210) is logically dependent on the fact that efficiency (reducing tags) creates a danger of insecurity (C209)."
+      },
+      {
+        "from_id": "C213",
+        "to_id": "C214",
+        "relationship": "supports",
+        "explanation": "Reader fatigue and boredom (C213) provide the psychological mechanism that explains why processing time increases when following simple rules (C214)."
+      },
+      {
+        "from_id": "C214",
+        "to_id": "C211",
+        "relationship": "supports",
+        "explanation": "The empirical claim that processing time increases due to boredom is the primary evidence that formulas do not achieve maximum readability."
+      },
+      {
+        "from_id": "C222",
+        "to_id": "C223",
+        "relationship": "depends-on",
+        "explanation": "The summary of conflicts uses the specific technical definition of 'speed of closure' established in C222."
+      },
+      {
+        "from_id": "C218",
+        "to_id": "C223",
+        "relationship": "refines",
+        "explanation": "The broad conflict identified in C218 is systematized into the dual oppositions presented in C223."
+      },
+      {
+        "from_id": "C233",
+        "to_id": "C228",
+        "relationship": "supports",
+        "explanation": "Syntactic-semantic pauses assist in semantic integration, allowing longer sentences to be processed efficiently if they are properly structured."
+      },
+      {
+        "from_id": "C235",
+        "to_id": "C217",
+        "relationship": "depends-on",
+        "explanation": "The necessity of the compromise depends on the fact that complex meanings cannot always be simplified into rapid-closure units."
+      },
+      {
+        "from_id": "C236",
+        "to_id": "C217",
+        "relationship": "supports",
+        "explanation": "The demand for both rapid closure (memory) and explicit constraint (adequacy) creates the fundamental conflict that must be compromised."
+      },
+      {
+        "from_id": "C237",
+        "to_id": "C236",
+        "relationship": "supports",
+        "explanation": "The failure of legal-style writing (excessive constraint) demonstrates why rapid closure is a necessary constraint on explicit guidance."
+      },
+      {
+        "from_id": "C239",
+        "to_id": "C238",
+        "relationship": "depends-on",
+        "explanation": "The claim that writing is more explicit than talk rests on the assumption that writers must account for a wider, less intimate gap in shared implications."
+      },
+      {
+        "from_id": "C241",
+        "to_id": "C238",
+        "relationship": "refines",
+        "explanation": "Clarifies that while writing is generally more explicit, the degree of explicitness is inversely proportional to the shared implications of the audience."
+      },
+      {
+        "from_id": "C242",
+        "to_id": "C240",
+        "relationship": "supports",
+        "explanation": "The necessity of difficult styles for certain meanings justifies the claim that lucidity is not always the highest goal."
+      },
+      {
+        "from_id": "C243",
+        "to_id": "C240",
+        "relationship": "supports",
+        "explanation": "The trade-off between clarity and factual truth supports the idea that lucid style can be undesirable in specific contexts."
+      },
+      {
+        "from_id": "C246",
+        "to_id": "C244",
+        "relationship": "depends-on",
+        "explanation": "If linguistic form decays rapidly, then the need to constantly re-examine that form (rereading) will inevitably lead to memory failure for the meaning."
+      },
+      {
+        "from_id": "C244",
+        "to_id": "C245",
+        "relationship": "supports",
+        "explanation": "The failure of the reader to manage non-linear movement (rereading) is what defines the boundary of unreadability."
+      },
+      {
+        "from_id": "C247",
+        "to_id": "C249",
+        "relationship": "supports",
+        "explanation": "If non-linear prose causes readers to focus on the difficulty of the process rather than the meaning (the gist), then linearity becomes a functional necessity for communication."
+      },
+      {
+        "from_id": "C248",
+        "to_id": "C249",
+        "relationship": "supports",
+        "explanation": "By arguing that linearity is 'capacious' and allows for complex periodic sentences, the author defends linearity against the charge that it is too restrictive for sophisticated intellectual discourse."
+      },
+      {
+        "from_id": "C249",
+        "to_id": "C250",
+        "relationship": "depends-on",
+        "explanation": "The requirement for linearity (forward movement) is the foundational constraint that creates the need to balance closure, expectation, and contextualization."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "Functional success in a performance-based craft is defined by the quality of the interaction with the target (ball/reader), regardless of the idiosyncratic methods used to achieve it.",
+        "is_explicit": true,
+        "vulnerability": "Prose involves complex cognitive internalizations that tennis strokes (physical mechanics) do not; the 'preparation' of the writer's mind might be intrinsically linked to the 'impact' on the reader."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E18",
+        "claim_id": "C3",
+        "warrant_text": "If a sentence remains grammatically stable but fluctuates in clarity due to semantic ambiguity, the cause of the difficulty must reside in cognitive processing rather than linguistic structure.",
+        "is_explicit": false,
+        "vulnerability": "Ambiguity can be a deliberate rhetorical strategy or a logical flaw rather than a psychological reception failure."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E45",
+        "claim_id": "C4",
+        "warrant_text": "When two descriptions of the same visual object produce different memory outcomes, the difference is attributable to the linear psychological processing of information.",
+        "is_explicit": false,
+        "vulnerability": "Differences in memory might be due to the aesthetic 'vividness' of the language rather than structural psychological principles."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C8",
+        "warrant_text": "A high statistical correlation (0.96) between different testing modes (listening vs. reading) implies that the underlying cognitive mechanism for both is functionally identical.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not prove identity; two processes can produce similar scores while utilizing different neural pathways or cognitive strategies."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E27",
+        "claim_id": "C16",
+        "warrant_text": "If interpretation time increases linearly with uncertainty, then maximizing certainty (reducing technical information) is the most direct way to facilitate learning.",
+        "is_explicit": true,
+        "vulnerability": "Highly certain texts may fail to stimulate the attention levels necessary for long-term memory retention."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E15",
+        "claim_id": "C27",
+        "warrant_text": "The existence of hard biological limits on processing (50ms per item) implies that 'ease' in a psychological sense is fundamentally a function of how close the stimuli push the reader to that temporal limit.",
+        "is_explicit": false,
+        "vulnerability": "Speed and effort are distinct; a task can be performed slowly with great ease, or quickly with intense but sustainable effort."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C28",
+        "claim_id": "C29",
+        "warrant_text": "When a biological system operates against a fixed maximum speed, the 'ease' or 'efficiency' of a task is defined by the reduction of cognitive load required to maintain that speed.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that reading is a continuous linear process rather than a process of saccades and regressions where 'average rate' might not capture cognitive strain."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C34",
+        "claim_id": "C40",
+        "warrant_text": "A reader's ability to reconstruct a missing word (cloze) simulates the same 'matching and decision-making' activities used during normal fluid reading.",
+        "is_explicit": false,
+        "vulnerability": "The cloze test is a conscious, problem-solving task (reconstruction), whereas reading is often an unconscious, automatic process; the two may involve different psychological mechanisms."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C48",
+        "claim_id": "C41",
+        "warrant_text": "If stimulus recognition time is logarithmic to the number of possibilities, then information processing is fundamentally a mathematical resolution of probability.",
+        "is_explicit": false,
+        "vulnerability": "Linguistic stimuli are not independent, equal-probability tokens like those in simple reaction-time experiments; syntax and context provide non-linear constraints."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C50",
+        "claim_id": "C52",
+        "warrant_text": "Linguistic interpretation is a cognitive subset of general signal processing, governed by the same laws of probability and reaction time (Hick's Law).",
+        "is_explicit": true,
+        "vulnerability": "Linguistic meaning involves semantic depth and synthesis that simple signal-selection experiments (like reaction to a light flash) may not fully model."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C51",
+        "claim_id": "C57",
+        "warrant_text": "If a test of word-predictability (cloze) correlates with readability, then the reduction of uncertainty is the primary driver of reading ease.",
+        "is_explicit": false,
+        "vulnerability": "Cloze tests measure local predictability; they may fail to measure high-level conceptual difficulty or the 'effort' of synthesized comprehension."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C65",
+        "claim_id": "C64",
+        "warrant_text": "Physical rhythm in speech production and reception creates a physiological 'short-term expectancy' that functions as a constraint, making succeeding sounds more predictable.",
+        "is_explicit": true,
+        "vulnerability": "Poetic rhythm might be predictable, but poetic diction and syntax are often intentionally deviant, potentially increasing uncertainty rather than reducing it."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C79",
+        "claim_id": "C78",
+        "warrant_text": "If cognitive processes are serial rather than parallel, the total time required for a task is the sum of the time required for each individual step (matching operation).",
+        "is_explicit": true,
+        "vulnerability": "Cognitive science research into parallel processing (connectionism) suggests many linguistic sub-tasks occur simultaneously."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C76",
+        "claim_id": "C77",
+        "warrant_text": "If a necessary condition for successful communication (large-scale context) is usually met by speakers/writers due to common sense, then remaining failures must stem from insufficient mastery of less intuitive conditions (small-scale constraints).",
+        "is_explicit": false,
+        "vulnerability": "Assumes that common sense regarding 'explaining to strangers' translates effectively into technical prose structure."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C80",
+        "claim_id": "C81",
+        "warrant_text": "Reaction time data in stimulus interpretation can be directly extrapolated to define the hard physical limits of the human linguistic processing apparatus.",
+        "is_explicit": false,
+        "vulnerability": "Linguistic items (morphemes, words) may have different 'matching' costs than the simple stimuli used in 19th-century reaction-time experiments."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C93",
+        "claim_id": "C95",
+        "warrant_text": "If monotony independently causes attention failure, then even a 'least effort' style must incorporate variety to remain functional.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that stylistic variety is the only or best way to counteract monotony, rather than content-based interest."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C99",
+        "claim_id": "C96",
+        "warrant_text": "Experimental measurements of perceptual directness (speed/accuracy) are valid indicators of the hierarchical organization of mental processing.",
+        "is_explicit": false,
+        "vulnerability": "Experimental 'directness' might reflect post-perceptual reconstruction rather than the initial stage of perception."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C104",
+        "claim_id": "C103",
+        "warrant_text": "If a cognitive system consistently operates at exactly half its maximum capacity, the most likely explanation is that it is performing a dual-pass operation on each piece of data.",
+        "is_explicit": true,
+        "vulnerability": "The difference between processing limits and actual speed may be due to noise, physiological buffers, or multi-tasking rather than a literal 'double-check'."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C110",
+        "claim_id": "C112",
+        "warrant_text": "To perceive a unified whole from a sequence of discrete frames, a system must possess a mechanism to integrate sensory input across time.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that integration happens via a 'depository' rather than through parallel processing or persistence of vision/sensation."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C117",
+        "claim_id": "C116",
+        "warrant_text": "If a specific limit exists for a specific domain (language), it validates the existence of a general capacity limit for the cognitive system (short-term memory).",
+        "is_explicit": false,
+        "vulnerability": "Individual differences in cognitive capacity or linguistic expertise might significantly vary this 'definite' limit."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C122",
+        "claim_id": "C120",
+        "warrant_text": "Biological constraints on a temporal processing system necessarily dictate the maximum complexity of the signals that system can decode.",
+        "is_explicit": true,
+        "vulnerability": "Readers can pause and review written text, potentially mitigating the biological temporal limit that applies to oral speech."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Yngve's examples ('a certainly... color')",
+        "claim_id": "C131",
+        "warrant_text": "If a linguistic structure requires the mind to refer back to previous elements to grasp current ones, it creates open mental 'files' that consume finite short-term memory capacity.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'mind's eye' processes words in a strictly linear-temporal sequence without parallel processing."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Rommetveit's 'jagged curve' experiment",
+        "claim_id": "C138",
+        "warrant_text": "Experimental evidence showing that a 'theoretically easier' structure (low hierarchy) results in poorer comprehension (failed integration) proves that factors other than pure memory load are at play.",
+        "is_explicit": false,
+        "vulnerability": "The failure to communicate might be due to the specific adjectives used rather than the lack of hierarchical structure."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "Rommetveit's 'secretary' experiment",
+        "claim_id": "C139",
+        "warrant_text": "If people remember twice as much information when it is presented in a way that allows immediate semantic closure, then closure/load reduction must be the primary drivers of communicative efficiency.",
+        "is_explicit": false,
+        "vulnerability": "Recall volume (quantity) is used as a proxy for readability (quality), which may not account for nuance or depth of understanding."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "Miller's research on chunking",
+        "claim_id": "C145",
+        "warrant_text": "General psychological principles of information processing (like chunking) apply directly to the specific cognitive task of processing grammatical sequences.",
+        "is_explicit": true,
+        "vulnerability": "Language processing may involve specialized modular cognitive systems that don't follow general-purpose chunking rules."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C163",
+        "claim_id": "C162",
+        "warrant_text": "Linguistic features that minimize cognitive load (short-term memory and time) are by definition more 'readable' in a functionalist framework.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that efficiency is the primary or only metric for readability, ignoring aesthetic or depth-of-processing benefits from 'difficult' text."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C156",
+        "claim_id": "C159",
+        "warrant_text": "If a linguistic feature is abandoned in oral speech but retained in writing, it is likely an 'artificial' imposition rather than a natural psychological development.",
+        "is_explicit": false,
+        "vulnerability": "Written language has different functional requirements (context-free) than oral language; what is a 'dinosaur' in speech might be a useful tool in complex written discourse."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C149",
+        "claim_id": "C157",
+        "warrant_text": "The historical decline of a stylistic form (the periodic sentence) serves as empirical proof that the form violated universal psychological constraints.",
+        "is_explicit": false,
+        "vulnerability": "Stylistic shifts may be driven by cultural fashion or social changes rather than just psychological efficiency."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C175",
+        "claim_id": "C174",
+        "warrant_text": "If the specific linguistic vehicle (syntax) is discarded while the meaning is retained, the meaning must be stored in a form independent of that vehicle.",
+        "is_explicit": false,
+        "vulnerability": "Meaning might be stored in 'mentalese' which, while non-English, might still possess its own internal syntax or sequentiality."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C179",
+        "claim_id": "C181",
+        "warrant_text": "To maintain continuity in a system with rapid decay, the system must use condensed, recurring symbols to reactivate decaying information.",
+        "is_explicit": true,
+        "vulnerability": "Thematic tags themselves take up processing power; if the reader already has high prior knowledge, tags might be redundant or distracting."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C173",
+        "claim_id": "C172",
+        "warrant_text": "Observation of memory failure regarding form, contrasted with memory success regarding content, indicates that the underlying storage format is not formal.",
+        "is_explicit": true,
+        "vulnerability": "Memory for form might not be 'lost' but simply become less accessible (latent), yet still influence interpretation."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C190",
+        "claim_id": "C189",
+        "warrant_text": "If a quantitative measure (propositions) correlates with a processing metric (time) while other variables are constant, that measure is a valid predictor of the processing outcome.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that the 'number of propositions' is the causal factor rather than an unmeasured variable that correlates with propositional density."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C195",
+        "claim_id": "C194",
+        "warrant_text": "In a controlled experiment, the variable that accounts for significant variance in performance is the determinant of that performance.",
+        "is_explicit": true,
+        "vulnerability": "Experimental settings for reading rate may not account for deeper comprehension or aesthetic engagement."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C203",
+        "claim_id": "C201",
+        "warrant_text": "Lowering cognitive uncertainty regarding the structure of a message increases the speed and efficiency of processing that message's content.",
+        "is_explicit": true,
+        "vulnerability": "Over-forecasting could lead to redundancy, which might eventually increase processing time due to wordiness."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C213",
+        "claim_id": "C211",
+        "warrant_text": "Readability is a psychological state of the reader rather than a static property of the text; therefore, cognitive factors like attention and engagement are more decisive than mechanical factors like word length.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'boredom' threshold is constant across all reading levels and genres; some readers may prefer the predictability of simple formulas for technical tasks."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C227",
+        "claim_id": "C223",
+        "warrant_text": "Explicit structural markers speed up semantic uptake by reducing the mental effort required to determine grammatical relationships, which directly impacts the speed of closure.",
+        "is_explicit": false,
+        "vulnerability": "Explicit markers (like 'which') also increase word count and syntactic complexity, which might paradoxically slow down closure for some readers."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C219",
+        "claim_id": "C218",
+        "warrant_text": "A text widely regarded as a masterpiece of communication that uses complex language indicates that 'adequacy of meaning' often requires sacrificing the simplest possible closure.",
+        "is_explicit": true,
+        "vulnerability": "Lincoln's address is a formal oration; its principles might not transfer to utilitarian prose where 'majesty' is not a semantic intention."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C237",
+        "claim_id": "C236",
+        "warrant_text": "Evidence of failure in one extreme (excessive local constraint) proves the necessity of its opposite (rapid closure) to maintain psychological balance.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the failure of legal writing is solely due to memory tax rather than specific jargon or logical density."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C232",
+        "claim_id": "C229",
+        "warrant_text": "If a psychological effect (disunity) is triggered by the removal of a structural feature (pauses), then the excessive use of those structures without pauses is the cause of the effect.",
+        "is_explicit": false,
+        "vulnerability": "The effect of disunity might be caused by the logical density of the information rather than the syntactic structure."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C246",
+        "claim_id": "C244",
+        "warrant_text": "Because human cognition prioritized meaning over form, any process that requires sustained attention to form (rereading) distracts from the primary task of semantic storage.",
+        "is_explicit": true,
+        "vulnerability": "Skilled readers may develop the ability to reread while maintaining a semantic buffer in working memory."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C247",
+        "claim_id": "C249",
+        "warrant_text": "The primary objective of communicative prose is the transfer of the 'gist' or meaning; any stylistic feature that shifts the reader's attention from the meaning to the decoding process is a communicative failure.",
+        "is_explicit": true,
+        "vulnerability": "Aesthetic or literary prose may intentionally prioritize the 'process' of reading or defamiliarization over the efficient transfer of gist."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C248",
+        "claim_id": "C249",
+        "warrant_text": "A stylistic principle can only be considered a universal 'minimal requirement' if it does not inherently limit the depth or complexity of the ideas being expressed.",
+        "is_explicit": false,
+        "vulnerability": "The definition of 'linearity' might be stretched so far to include 'intricate periodic sentences' that it loses its objective diagnostic power."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C251",
+        "to_id": "C4",
+        "missing_step": "A bridge explaining how an 'imperfect and limited' science can reliably 'resolve' centuries of pedagogical contradictions.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C2",
+        "to_id": "C3",
+        "missing_step": "The establishment that 'meaning' is a psychological entity rather than a logical or social one.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C15",
+        "missing_step": "Sensitivity in a measurement tool is only valuable if the subtle differences it detects are pedagogically or communicatively significant.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C8",
+        "to_id": "C9",
+        "missing_step": "Evidence of shared processing (readability vs listenability) justifies the erasure of functional boundaries between the two media.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C18",
+        "to_id": "C27",
+        "missing_step": "Greater comprehensibility (the result of small leaps) always manifests empirically as increased processing speed.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C45",
+        "to_id": "C29",
+        "missing_step": "The 50ms per minimal item limit in perception directly dictates the 200ms per word limit in semantic processing.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C39",
+        "to_id": "C40",
+        "missing_step": "A text long enough to establish its own abnormal 'norm' does not introduce a secondary layer of cognitive fatigue that offsets the benefits of predictability.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C52",
+        "to_id": "C57",
+        "missing_step": "High constraint must not reach a point of diminishing returns where the density of information becomes overwhelming.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C59",
+        "to_id": "C60",
+        "missing_step": "Establishing that 'high psychological impact' (memory) is functionally identical to, or facilitates, 'readability' (processing speed).",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C66",
+        "to_id": "C67",
+        "missing_step": "The threshold at which 'explicit' constraint transitions from helpful context-building to 'unreadable' legalese.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C74",
+        "to_id": "C75",
+        "missing_step": "Audience knowledge is the only part of invisible context that is highly variable and requires a conscious 'decision' by the writer.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C78",
+        "to_id": "C77",
+        "missing_step": "Because processing speed is determined by local uncertainty, and processing speed is the primary component of readability, local uncertainty is the primary cause of 'bad' (unreadable) writing.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C91",
+        "to_id": "C95",
+        "missing_step": "A bridge explaining why 'thematic focus' specifically allows for the 'loose variety' required by the compromise.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C103",
+        "to_id": "Introduction.C47",
+        "missing_step": "Evidence that the 'two-pass' reviewing procedure specifically optimizes 'relative readability' more than other processing models.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C116",
+        "to_id": "C117",
+        "missing_step": "Why linguistic items (words/phrases) specifically reduce the limit from Miller's seven items to five items.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C110",
+        "to_id": "C108",
+        "missing_step": "Establishing that the 20-frame-per-second attention-monitor limit is the specific cause for the scanning-and-review process in reading.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C138",
+        "to_id": "C139",
+        "missing_step": "A metric or hierarchy that determines when 'memory load' should be prioritized over 'cohesiveness'.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C147",
+        "to_id": "C148",
+        "missing_step": "Evidence that idiosyncratic or non-standard syntax actually prevents the formation of stable word-groupings for experienced readers.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C157",
+        "to_id": "C115",
+        "missing_step": "A mechanism that explains how 'closure' (a localized event in the clause) transforms into the 'connection of perceptions' in long-term memory across discourse.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C158",
+        "to_id": "C160",
+        "missing_step": "Proof that the absence of a rule in oral dialects necessarily renders it harmful to written prose effectiveness.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C179",
+        "to_id": "C181",
+        "missing_step": "Thematic tags must be shown to be more resistant to 12-second decay than other types of lexical items to be effective aids.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C172",
+        "to_id": "C181",
+        "missing_step": "Establishing that 'thematic tags' in written prose are the specific linguistic correlate to the 'abstract' entities stored in memory.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C198",
+        "to_id": "C204",
+        "missing_step": "A bridge linking the reduction of tags to the aesthetic and logical definitions of 'unity' and 'emphasis'.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C194",
+        "to_id": "C198",
+        "missing_step": "Establishing that reducing thematic tags does not lead to semantic ambiguity that would require more effort to resolve.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C213",
+        "to_id": "C214",
+        "missing_step": "The increase in processing time caused by boredom must exceed the time saved by the simplicity of the words and syntax.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C225",
+        "to_id": "C210",
+        "missing_step": "Clear syntactic boundaries ('that' clauses) act as the specific mechanism that allows a writer to achieve both speed and security simultaneously.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C238",
+        "to_id": "C240",
+        "missing_step": "The increase in explicitness required by writing often pushes sentences beyond the threshold of 'easy' processing.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C244",
+        "to_id": "C245",
+        "missing_step": "A forward-moving, linear processing of text is the only way to avoid the memory decay of linguistic form.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C247",
+        "to_id": "C249",
+        "missing_step": "Linearity is the only structural arrangement that prevents the reader from focusing on the difficulty of the process over the gist.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C248",
+        "to_id": "C250",
+        "missing_step": "Establishing that complex periodic sentences are 'linear' as long as they don't force rereading requires a specific cognitive threshold for when 'complexity' becomes 'non-linearity'.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "The effectiveness of prose is often determined by its social and ideological context (who is speaking to whom) rather than just the universal mechanics of meaning-conveyance during the act of reading.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C3",
+        "objection": "Psychological 'universals' of reception may be conditioned by literacy levels and cultural training, meaning there are no stable psychological principles that apply to 'actual prose' across all audiences.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C16",
+        "objection": "A text with the 'least information' might be the easiest to read, but it may also be cognitively vapid, providing no new conceptual material for the reader to actually 'learn.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C18",
+        "objection": "Excessive redundancy and 'small leaps' can lead to prose that is so repetitive and wordy that it causes reader boredom and fatigue, which actually decreases overall comprehensibility.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C27",
+        "objection": "In certain contexts, such as poetic or highly complex philosophical prose, 'ease' of processing (aesthetic pleasure/smoothness) may be intentionally decoupled from 'speed' (rapid data extraction).",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C29",
+        "objection": "The 200ms per word limit may be a bottleneck for decoding, but 'readability' often involves conceptual integration that happens over larger spans of text and at varying speeds unrelated to word-processing hardware.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C40",
+        "objection": "High cloze scores may correlate with clichés and highly conventionalized writing; therefore, the test measures 'conventionality' rather than 'readability' or 'quality.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C41",
+        "objection": "Literary and sophisticated prose often deliberately increases uncertainty (ambiguity, irony, subversion of expectation) to create meaning; reducing communication to uncertainty reduction ignores aesthetic and rhetorical depth.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C57",
+        "objection": "The 'Least Effort' principle ignores the 'Aesthetic Surprise'—readers often find highly constrained, highly predictable prose boring or 'invisible,' which can actually lead to mind-wandering and reduced comprehension.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C60",
+        "objection": "In many complex subjects, an overly constraining 'beginning' requires a level of prior knowledge the reader may not yet have, actually making the start of the text the most difficult part to process.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C52",
+        "objection": "Uncertainty can be reduced not just by limiting candidates, but by enhancing the salience of the correct candidate through rhetorical emphasis or emotional resonance, which does not necessarily reduce the count of 'plausible' alternatives.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C76",
+        "objection": "The 'Curse of Knowledge' suggests that writers consistently overestimate what their audience knows, meaning neglect of large-scale covert constraints is actually a pervasive and primary cause of unreadability.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C77",
+        "objection": "Bad writing often results from global structural failures (poor organization of ideas) that cannot be reduced to word-to-word local uncertainty.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C86",
+        "objection": "Highly skilled readers may automate lower-level linguistic decoding to the point where it does not pass through the conscious 'attention' bottleneck, allowing for faster-than-serial processing.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C95",
+        "objection": "Stylistic variety might increase the 'cognitive load' of deciphering symbols, violating the principle of least effort and potentially reducing readability for struggling readers.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C98",
+        "objection": "Incremental processing models in psycholinguistics suggest that readers make immediate, tentative syntactic assignments for each word to manage memory, rather than waiting for the end of the clause.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C103",
+        "objection": "The 300 wpm limit might be a physical bottleneck of eye movements (saccades) or subvocalization rather than a result of an attention-monitor reviewing procedure.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C116",
+        "objection": "The concept of 'chunking' allows individuals to organize information into larger units, effectively increasing the functional capacity of short-term memory beyond a fixed number of items.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C125",
+        "objection": "Long sequences of elements on the same plane (e.g., extremely long lists) can be just as taxing as moderate hierarchy due to the cumulative decay of the first items in memory.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C119",
+        "objection": "While word count isn't the only factor, it remains the most reliable statistical proxy for complexity because longer clauses statistically correlate with deeper hierarchical structures.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C131",
+        "objection": "Regressive structures, by delaying closure, may create a psychological state of 'productive tension' that increases reader attention and leads to better long-term encoding of information.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C140",
+        "objection": "Constant 'speedy closures' can create a 'staccato' style that lacks the rhythmic and logical flow necessary to sustain interest in long-form academic or literary prose.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C147",
+        "objection": "High predictability (and thus high readability) often correlates with clichés and simplistic thought; 'difficult' prose may be necessary to force the reader out of habitual, superficial processing.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C157",
+        "objection": "Rapid closure might actually reduce comprehension for complex philosophical or technical subjects where 'suspension' and 'delayed closure' force the reader to hold multiple possibilities in mind, leading to deeper synthesis.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C160",
+        "objection": "The German verb-at-the-end rule might improve the 'stability' of closure once it occurs by ensuring all arguments are presented before the action is defined, providing a different type of clarity.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C174",
+        "objection": "The aesthetic and rhetorical impact of prose (tone, rhythm, nuance) often depends entirely on the specific linguistic form, suggesting that for high-quality prose, the form is not 'discarded' but essential to the meaning.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C181",
+        "objection": "A 'small number of thematic tags' could lead to extreme stylistic monotony and may fail to capture the nuance of complex philosophical or scientific arguments that require varied terminology.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C168",
+        "objection": "Certain forms of discourse, such as narrative or poetry, are inherently temporal experiences where the 'goal' is the sequence of processing itself rather than a final nonsequential structure.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C198",
+        "objection": "Reducing thematic tags could result in 'lexical poverty', making prose repetitive and boring, which might decrease reader motivation and overall long-term retention.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C201",
+        "objection": "Highly skilled readers may find explicit verbal links (like 'thus') redundant and distracting, potentially slowing their reading speed compared to a more concise style that assumes the reader can infer logical connections.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C189",
+        "objection": "Propositions are not equal in difficulty; some concepts are more abstract and require more 'psychic energy' to process than others, regardless of their count.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C211",
+        "objection": "For functional, instructional, or emergency-use documents, simple formulas (short sentences, limited vocabulary) are objectively superior because the reader's goal is rapid, error-free extraction of facts, where 'boredom' is irrelevant to task performance.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C218",
+        "objection": "The perceived conflict between speed and adequacy may be a byproduct of poor writing rather than an inherent psychological limit; highly skilled writers can often convey deep meaning with extreme simplicity (e.g., Hemingway).",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C209",
+        "objection": "Reducing thematic tags can actually increase 'security' of communication by preventing the reader from becoming lost in a forest of redundant nouns, provided the logical sequence is sound.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C240",
+        "objection": "If readability is the universal principle of 'good' prose, then any meaning that cannot be expressed lucidly is, by definition, poorly expressed or improperly conceived.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C238",
+        "objection": "Certain forms of 'ordinary talk' (like academic lectures or legal arguments) can be far more explicit than informal written notes or 'shorthand' prose between experts.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C245",
+        "objection": "Non-linear reading strategies (skimming, jumping ahead, referencing) are essential for high-level comprehension and do not always result in failure of understanding.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C249",
+        "objection": "In certain types of technical or philosophical discourse, 'recursive' reading (forcing the reader to circle back and re-evaluate previous segments) is necessary for the reader to grasp the non-linear logic of the subject matter.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C250",
+        "objection": "The 'forward movement of the mind' might be less important for retention than 'cognitive friction'—the idea that material that is slightly more difficult to process is actually remembered better than material that is perfectly transparent.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Functionalist Argument for Readability",
+        "chain": [
+          "C1",
+          "E1",
+          "C2",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "strong"
+      },
+      {
+        "name": "The Psychological Resolution of Rhetoric",
+        "chain": [
+          "C5",
+          "C6",
+          "C3",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Information Theory Paradox",
+        "chain": [
+          "C17",
+          "C20",
+          "C16"
+        ],
+        "conclusion_id": "C16",
+        "strength": "strong"
+      },
+      {
+        "name": "Validation of Predictive Readability",
+        "chain": [
+          "C11",
+          "C12",
+          "C13",
+          "C15",
+          "C23"
+        ],
+        "conclusion_id": "C18",
+        "strength": "moderate"
+      },
+      {
+        "name": "Processing Speed as Efficiency Metric",
+        "chain": [
+          "C22",
+          "C26",
+          "C18",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Physiological Hardware Chain",
+        "chain": [
+          "C45",
+          "C28",
+          "C44",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cloze Validation Chain",
+        "chain": [
+          "C34",
+          "C31",
+          "C37",
+          "C40"
+        ],
+        "conclusion_id": "C40",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Information Theory Chain",
+        "chain": [
+          "C48",
+          "C46",
+          "C42",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "strong"
+      },
+      {
+        "name": "The Information Theory Chain",
+        "chain": [
+          "C49",
+          "C50",
+          "C51",
+          "C52",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "strong"
+      },
+      {
+        "name": "The Contextual Constraint Chain",
+        "chain": [
+          "C54",
+          "C55",
+          "C56",
+          "C58",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Rhythmical Expectancy Chain",
+        "chain": [
+          "C61",
+          "C62",
+          "C63",
+          "C65",
+          "C68",
+          "C64"
+        ],
+        "conclusion_id": "C64",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Primacy of Context Chain",
+        "chain": [
+          "C71",
+          "C73",
+          "C74",
+          "C70",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cause of Bad Writing Chain",
+        "chain": [
+          "C76",
+          "C77"
+        ],
+        "conclusion_id": "C77",
+        "strength": "weak"
+      },
+      {
+        "name": "The Cognitive Bottleneck Chain",
+        "chain": [
+          "C79",
+          "C80",
+          "C81",
+          "C78",
+          "C86",
+          "C88"
+        ],
+        "conclusion_id": "C78",
+        "strength": "strong"
+      },
+      {
+        "name": "The Attention Optimization Chain",
+        "chain": [
+          "C90",
+          "C92",
+          "C93",
+          "C94",
+          "C95"
+        ],
+        "conclusion_id": "C95",
+        "strength": "strong"
+      },
+      {
+        "name": "The Perceptual Primacy Chain",
+        "chain": [
+          "C99",
+          "C102",
+          "C106",
+          "C96"
+        ],
+        "conclusion_id": "C96",
+        "strength": "strong"
+      },
+      {
+        "name": "The Semantic Closure Chain",
+        "chain": [
+          "C96",
+          "C100",
+          "C101",
+          "C98"
+        ],
+        "conclusion_id": "C98",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Two-Pass Monitor Chain",
+        "chain": [
+          "C43",
+          "C104",
+          "C107",
+          "C103"
+        ],
+        "conclusion_id": "C103",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Clause-Storage Chain",
+        "chain": [
+          "C108",
+          "C113",
+          "C111",
+          "C116",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "strong"
+      },
+      {
+        "name": "The Structural Complexity Chain",
+        "chain": [
+          "C122",
+          "C123",
+          "C121",
+          "C124",
+          "C120"
+        ],
+        "conclusion_id": "C120",
+        "strength": "strong"
+      },
+      {
+        "name": "The Plane vs. Hierarchy Chain",
+        "chain": [
+          "C121",
+          ""
+        ],
+        "conclusion_id": "C125",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Mechanics of Depth",
+        "chain": [
+          "C132",
+          "C136",
+          "C131"
+        ],
+        "conclusion_id": "C131",
+        "strength": "strong"
+      },
+      {
+        "name": "The Chunking Solution",
+        "chain": [
+          "C142",
+          "C145",
+          "C140",
+          "C139"
+        ],
+        "conclusion_id": "C139",
+        "strength": "strong"
+      },
+      {
+        "name": "The Stylistic Balancing Act",
+        "chain": [
+          "C134",
+          "C135",
+          "C137",
+          "C138"
+        ],
+        "conclusion_id": "C138",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Definition of Readability",
+        "chain": [
+          "C163",
+          "C162",
+          "C161",
+          "C157"
+        ],
+        "conclusion_id": "C157",
+        "strength": "strong"
+      },
+      {
+        "name": "Scaling Clause Processing to Discourse",
+        "chain": [
+          "C150",
+          "C151",
+          "C152",
+          "C166",
+          "C167",
+          "C115"
+        ],
+        "conclusion_id": "C115",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Psychological Pathology of the Grapholect",
+        "chain": [
+          "C153",
+          "C156",
+          "C158",
+          "C159",
+          "C160"
+        ],
+        "conclusion_id": "C160",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Basis of Tagging",
+        "chain": [
+          "C168",
+          "C174",
+          "C179",
+          "C181"
+        ],
+        "conclusion_id": "C181",
+        "strength": "strong"
+      },
+      {
+        "name": "The Argument for Non-Syntactic Storage",
+        "chain": [
+          "C173",
+          "C175",
+          "C176",
+          "C172"
+        ],
+        "conclusion_id": "C172",
+        "strength": "strong"
+      },
+      {
+        "name": "The Principle of Representation",
+        "chain": [
+          "C185",
+          "C186",
+          "C184",
+          "C187"
+        ],
+        "conclusion_id": "C187",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Propositional Density Argument",
+        "chain": [
+          "C196",
+          "C190",
+          "C191",
+          "C189"
+        ],
+        "conclusion_id": "C189",
+        "strength": "strong"
+      },
+      {
+        "name": "The Thematic Tag Economy Argument",
+        "chain": [
+          "C195",
+          "C194",
+          "C129",
+          "C200",
+          "C198"
+        ],
+        "conclusion_id": "C198",
+        "strength": "strong"
+      },
+      {
+        "name": "The Explicit Linking Argument",
+        "chain": [
+          "C203",
+          "C202",
+          "C201"
+        ],
+        "conclusion_id": "C201",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Formula Fallacy Chain",
+        "chain": [
+          "C212",
+          "C213",
+          "C214",
+          "C211"
+        ],
+        "conclusion_id": "C211",
+        "strength": "strong"
+      },
+      {
+        "name": "The Integration Compromise Chain",
+        "chain": [
+          "C208",
+          "C209",
+          "C210"
+        ],
+        "conclusion_id": "C210",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Fundamental Conflict Summary",
+        "chain": [
+          "C219",
+          "C220",
+          "C218",
+          "C223"
+        ],
+        "conclusion_id": "C223",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linearity Principle",
+        "chain": [
+          "C246",
+          "C244",
+          "C245"
+        ],
+        "conclusion_id": "C245",
+        "strength": "strong"
+      },
+      {
+        "name": "The Reading Conflict Paradox",
+        "chain": [
+          "C235",
+          "C236",
+          "C237",
+          "C217"
+        ],
+        "conclusion_id": "C217",
+        "strength": "strong"
+      },
+      {
+        "name": "The Limits of Lucidity",
+        "chain": [
+          "C242",
+          "C243",
+          "C240"
+        ],
+        "conclusion_id": "C240",
+        "strength": "moderate"
+      },
+      {
+        "name": "Integration vs. Speed",
+        "chain": [
+          "C233",
+          "C231",
+          "C230",
+          "C228"
+        ],
+        "conclusion_id": "C228",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Defense of Linearity",
+        "chain": [
+          "C247",
+          "C248",
+          "C249"
+        ],
+        "conclusion_id": "C249",
+        "strength": "strong"
+      },
+      {
+        "name": "The Synthesis of Stylistic Efficiency",
+        "chain": [
+          "C249",
+          "C250"
+        ],
+        "conclusion_id": "C250",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0191277,
+    "duration_s": 231.07197523117065
+  }
+}

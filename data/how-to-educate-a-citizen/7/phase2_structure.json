@@ -1,0 +1,575 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C8",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "The founders' fear of internal factions (C8) provides the historical and logical context for why they believed structural checks alone (C9) were insufficient."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "If institutional structures are insufficient to maintain a republic (C9), then the maintenance must depend on a specific type of citizen education (C19)."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C10",
+        "relationship": "instantiates",
+        "explanation": "Benjamin Rush's advocacy for a common curriculum to create 'republican machines' is a primary historical example of the intention to use schools for citizen-making."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C10",
+        "relationship": "instantiates",
+        "explanation": "Washington's desire to use education to dissolve 'local attachments' exemplifies the use of schools as a tool for national transformation."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "If schools were the primary institution for creating loyal citizens (C10), it follows that their primary aim was the assimilation of diverse groups into a shared identity (C15)."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The success of the U.S. in creating a united citizenry (C7) is presented as the historical fulfillment of the schools' primary aim of assimilation (C15)."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The theoretical claim that shared references permit effective communication (C1) provides the mechanism for why a specific education is necessary for a stable republic (C19)."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The theory that shared language overrides racial prejudice (C2) justifies why early American schools prioritized linguistic assimilation (C15)."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "Historical evidence of early American school effectiveness supports the claim that self-government depends on the cultivation of young minds."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C24",
+        "relationship": "depends-on",
+        "explanation": "The creation of a vigorous public sphere relies on the unifying 'civil religion' established through secular laws and democracy."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The necessity of schools and media in creating the public sphere is a foundational premise for the requirement of that sphere in the American experiment."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "The idea that the Union must be sustained by intellectual rather than physical force justifies the claim that school-based cultivation is the key to self-government."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The dominance of child-centered progressivism is cited as the reason for the decline in shared knowledge that leads to polarization."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "If shared language requires shared knowledge, then providing that shared base is what enables individual competence."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The fact that shared knowledge enables rather than suppresses individuality supports the normative claim that commonality is beneficial without being conformist."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "If college access is tied to verbal test scores, then children deserve mastery of the standard language to ensure educational opportunity."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "The moral claim that all children deserve Standard American English assumes that the language is a neutral tool rather than a partisan cultural property."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C46",
+        "relationship": "depends-on",
+        "explanation": "National identity can only be defined by shared knowledge if knowledge itself must be shared across a community to be functional."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "The educational establishment's refusal to set specific grade-by-grade topics is the direct cause of the non-commonality that disadvantages poor children."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "The prediction that the nation-state will remain the limit of organization depends on the claim that it is the most effective arrangement for achieving social goals."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "The endurance of the nation-state is predicated on it being the highest form of social organization."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "Since internal reform is impossible due to entrenchment, the author argues that external public pressure is the only remaining solution."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "The failure of the Soviet Union due to lack of shared values serves as empirical proof that knowledge/value unity is necessary for social stability."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "The European Union's lack of true 'society' status due to cultural disjunctions is used to argue that globalism cannot achieve permanence."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C68",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic call for US schools to teach shared knowledge is logically dependent on the theoretical claim that such knowledge is the essential underpinning of any unified society."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "Durkheim's view that the nation-state is the source of moral life provides the theoretical foundation for the necessity of shared national knowledge."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "If common curriculum is necessary for unity (C68), then the public has a moral obligation to support those who implement it (C73)."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "Effective national cohesion requires deep-level 'social communication' (memories/symbols) rather than just functional administrative or linguistic commonality.",
+        "is_explicit": true,
+        "vulnerability": "Shared memories can be contested or partisan, potentially leading to conflict rather than cohesion."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C2",
+        "warrant_text": "If auditory signals of 'sameness' can override visual signals of 'difference' in individual cognitive processing, language can serve as a primary tool for social engineering and racial integration.",
+        "is_explicit": false,
+        "vulnerability": "Personal anecdotes of social interaction (Noah) may not scale to systemic or institutional racism."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E4",
+        "claim_id": "C10",
+        "warrant_text": "The articulated goals of the nation's founders and early educational architects define the fundamental purpose of the public school system.",
+        "is_explicit": false,
+        "vulnerability": "The actual function of an institution often diverges significantly from the stated intentions of its 18th-century founders."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E8",
+        "claim_id": "C15",
+        "warrant_text": "Legislative mandates for standardized textbooks indicate a deliberate strategy to create a shared intellectual infrastructure for the purpose of national assimilation.",
+        "is_explicit": true,
+        "vulnerability": "Standardized textbooks might be motivated by economic efficiency or logistical simplicity rather than ideological assimilation."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C21",
+        "claim_id": "C28",
+        "warrant_text": "Success in the past under a specific educational model implies that the model is a causal requirement for the continued existence of the political system.",
+        "is_explicit": false,
+        "vulnerability": "The success of early schools might have been due to a homogenous population or different economic conditions rather than the curriculum itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C33",
+        "claim_id": "C32",
+        "warrant_text": "Objective educational decline (like PISA scores) is directly correlated with, and indicative of, a loss of the shared intellectual framework necessary for political stability.",
+        "is_explicit": true,
+        "vulnerability": "Test scores may measure technical skills rather than the civic shared knowledge the author emphasizes."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C40",
+        "claim_id": "C37",
+        "warrant_text": "If political participation requires a specific language, and that language is built on background references, then the references are the actual gatekeepers to political agency.",
+        "is_explicit": true,
+        "vulnerability": "One could potentially use a common language for basic political tasks without sharing a deep cultural background."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C41",
+        "claim_id": "C44",
+        "warrant_text": "Equal opportunity in a meritocratic society requires providing all students with the specific linguistic tools used by gatekeeping institutions.",
+        "is_explicit": false,
+        "vulnerability": "Critics may argue that changing the gatekeeping mechanisms (the exams) is more just than forcing all children to conform to one standard language."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C56",
+        "claim_id": "C57",
+        "warrant_text": "The failure of current attempts at supranational governance (like the EU) to replace national identity suggests a permanent structural limit to human social organization.",
+        "is_explicit": true,
+        "vulnerability": "The EU's current state may be a temporary growing pain rather than evidence of an ontological limit to social organization."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C42",
+        "claim_id": "C44",
+        "warrant_text": "The desires and expectations of the citizens themselves (including the poorly educated) validate the normative requirement of teaching standard language.",
+        "is_explicit": true,
+        "vulnerability": "Subjective desire for formal language does not necessarily prove that the specific 'Standard American English' curriculum is the best way to achieve that understanding."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C50",
+        "claim_id": "C51",
+        "warrant_text": "In the absence of a school-provided common curriculum, children are entirely dependent on their home environments for background knowledge, which inherently favors the wealthy.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that 'specific grade-by-grade topics' are the only way to provide that knowledge, ignoring other potential pedagogical interventions."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C64",
+        "claim_id": "C67",
+        "warrant_text": "If a massive political entity collapses despite having a common currency and central power, the absence of its only other missing unifying factor—shared knowledge and values—is the likely cause of failure.",
+        "is_explicit": false,
+        "vulnerability": "The Soviet Union's collapse could be attributed to economic inefficiency, political repression, or external pressure rather than a lack of 'shared knowledge.'"
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C71",
+        "claim_id": "C63",
+        "warrant_text": "Effective internal communication and shared loyalty in a multi-language state (Switzerland) proves that linguistic diversity is not the primary barrier to national unity.",
+        "is_explicit": true,
+        "vulnerability": "Switzerland's unique history and scale might make it an outlier that cannot be generalized to larger, more diverse nations like the US."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C65",
+        "claim_id": "C66",
+        "warrant_text": "A 'society' requires a level of emotional and cultural devotion that supranational organizations currently cannot generate.",
+        "is_explicit": true,
+        "vulnerability": "Functionalist theories of international relations suggest that economic interdependence and shared legal frameworks can provide stability without 19th-century nationalist 'sentiment.'"
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C15",
+        "to_id": "C7",
+        "missing_step": "Evidence that the 'united citizenry' was actually achieved and not merely a veneer that masked deep, unresolved regional and social divisions (such as those that led to the Civil War).",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C13",
+        "to_id": "C7",
+        "missing_step": "The establishing of a causal link showing that common schooling, rather than economic expansion or external threats, was the primary driver of national unity.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C24",
+        "to_id": "C25",
+        "missing_step": "A demonstration that a weakened public sphere specifically leads to military dictatorship rather than other forms of state failure or societal stagnation.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C34",
+        "to_id": "C31",
+        "missing_step": "Connecting the 'overconfidence' of the 1940s to the specific institutional takeover of teacher-training colleges by progressives.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C45",
+        "to_id": "C44",
+        "missing_step": "Even if SAE is a neutral tool, its implementation must not inherently privilege those who speak it as a first dialect over those who do not.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C46",
+        "to_id": "C57",
+        "missing_step": "Shared knowledge cannot be effectively established or maintained at a global or supranational scale.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C47",
+        "to_id": "C49",
+        "missing_step": "Integrating diversity into a curriculum does not lead to the very fragmentation the author fears.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C67",
+        "to_id": "C68",
+        "missing_step": "National unity in a modern, high-tech, media-driven era is primarily formed through early elementary education rather than later life experiences or mass media.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C76",
+        "to_id": "C68",
+        "missing_step": "A state-mandated curriculum in a multiethnic democracy will create unity rather than exacerbating social conflict over whose 'values' and 'knowledge' are taught.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "The claim of a 'united citizenry' during the first 150 years ignores the systemic exclusion of Black Americans, Native Americans, and women from the 'commonality' described; for these groups, schooling was either unavailable or a tool for cultural destruction (e.g., Indian boarding schools).",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C15",
+        "objection": "Focusing on 'assimilation' into a common American identity can be viewed as a form of cultural imperialism that marginalizes immigrant cultures and minority identities rather than fostering a pluralistic democracy.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C10",
+        "objection": "If the primary goal of schools is to create 'republican machines' (Rush), it risks prioritizing state-sanctioned indoctrination over the development of critical thinking and individual autonomy.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C32",
+        "objection": "Political polarization may be driven by economic inequality, media algorithms, and geographic sorting rather than a lack of shared educational content.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C38",
+        "objection": "A national 'commonality' curriculum inevitably centers the history and values of the majority, potentially marginalizing and suppressing the individual identities of minority groups.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C45",
+        "objection": "Standard American English is not a 'neutral tool' but is historically and sociologically the dialect of the dominant white middle class; labeling it 'neutral' masks power dynamics.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C57",
+        "objection": "Global challenges (climate change, digital economy) require and may force the evolution of social organization beyond the nation-state, regardless of historical precedents.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C51",
+        "objection": "National mediocrity and poor children's disadvantage may be caused by material factors (poverty, school funding, healthcare) rather than curriculum commonality.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA4",
+        "targets_claim": "C46",
+        "objection": "National identity is often built on shared values, laws, or civic participation rather than a specific 'silent' stock of factual knowledge.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C68",
+        "objection": "In a highly polarized multiethnic nation, attempting to mandate a single 'value-laden' curriculum will trigger 'culture wars' that further fragment the nation rather than unifying it.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C66",
+        "objection": "Globalism and supranational entities like the EU represent a new stage of social evolution where 'permanence' is based on shared rules and economic interests rather than emotional 'unity.'",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C64",
+        "objection": "The Soviet Union did have a common stock of shared knowledge (Marxist-Leninist ideology) taught in every school; its failure was due to the rejection of that specific content, not the absence of shared content itself.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Political Necessity Chain",
+        "chain": [
+          "C8",
+          "C9",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "strong"
+      },
+      {
+        "name": "The Historical Mission Chain",
+        "chain": [
+          "C4",
+          "C10",
+          "C15",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Sociolinguistic Chain",
+        "chain": [
+          "C1",
+          "C2",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Civic Necessity Chain",
+        "chain": [
+          "C21",
+          "C26",
+          "C24",
+          "C28"
+        ],
+        "conclusion_id": "C28",
+        "strength": "strong"
+      },
+      {
+        "name": "The Polarization Chain",
+        "chain": [
+          "C31",
+          "C34",
+          "C33",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Linguistic Competence Chain",
+        "chain": [
+          "C37",
+          "C40",
+          "C39",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linguistic Opportunity Chain",
+        "chain": [
+          "C45",
+          "C41",
+          "C42",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Identity Chain",
+        "chain": [
+          "C58",
+          "C59",
+          "C48",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "moderate"
+      },
+      {
+        "name": "The National Organization Chain",
+        "chain": [
+          "C55",
+          "C56",
+          "C54",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Accountability Chain",
+        "chain": [
+          "C50",
+          "C51",
+          "C52",
+          "C53"
+        ],
+        "conclusion_id": "C51",
+        "strength": "strong"
+      },
+      {
+        "name": "The Sociological Necessity of the Nation-State",
+        "chain": [
+          "C76",
+          "C61",
+          "C64",
+          "C65",
+          "C67"
+        ],
+        "conclusion_id": "C67",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Practical Path to US Unity",
+        "chain": [
+          "C67",
+          "C68",
+          "C73"
+        ],
+        "conclusion_id": "C68",
+        "strength": "strong"
+      },
+      {
+        "name": "The Critique of Globalism",
+        "chain": [
+          "C65",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0053888,
+    "duration_s": 66.14328050613403
+  }
+}

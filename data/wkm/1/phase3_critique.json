@@ -1,0 +1,127 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author uses American math scores as a 'control group' to isolate the variable causing the decline in reading. He argues that since math scores remained stable while reading scores declined, and math has specific content standards while reading does not, the lack of content standards is the causal factor.",
+        "source_passage": "In math, in contrast to reading, American scores for seventeen-year-olds have been stable for many years. While it’s disappointing that math scores at age seventeen haven’t improved markedly, at least they haven’t gone down, as reading has.",
+        "importance": "significant",
+        "suggested_claim": "The stability of American math scores relative to declining reading scores provides empirical evidence that content-specific standards (present in math) prevent the systemic performance decline seen in content-free subjects (reading).",
+        "suggested_claim_level": "empirical"
+      },
+      {
+        "description": "The author makes a specific meta-argument about the 'Implicit Lie' of test design: the form of the question (stems) suggests a cognitive process (strategy) that is not actually what determines the outcome (knowledge).",
+        "source_passage": "No doubt unintentionally... the test makers are implying a lie. By the form of their questions they suggest that they are probing formal skills. But... the student with the smaller relevant vocabulary and knowledge is the one who will fare worse on the test.",
+        "importance": "critical",
+        "suggested_claim": "The framing of standardized test questions (e.g., 'What is the main idea?') constitutes a deceptive communication that misleads educators into prioritizing strategy instruction over the knowledge required to actually answer the questions.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author identifies a specific 'Zero-Sum' resource argument regarding instructional time: because strategies plateau in 10 lessons, every hour spent on them after that has a 100% opportunity cost against knowledge acquisition.",
+        "source_passage": "Two weeks on comprehension strategies is optimal. There is no practical utility after that. Huge amounts of time are being wasted. Worse, making young students become highly self-conscious about applying strategies distracts their attention and degrades their performance.",
+        "importance": "significant",
+        "suggested_claim": "Instructional time spent on reading strategies beyond a two-week introductory period results in a net negative educational return by displacing content knowledge and inducing counter-productive self-consciousness.",
+        "suggested_claim_level": "pragmatic"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C2",
+        "problem": "The claim is stated as an absolute methodological fact, but the author presents it as a hypothetical 'least-worst' choice or a proxy.",
+        "source_passage": "If one had to choose a single measure of the academic quality of a school system, the average reading score of its graduating seventeen-year-olds would serve.",
+        "suggested_fix": "If a single metric for school system quality must be chosen, the reading scores of 17-year-olds serve as the most valid available proxy for overall academic quality."
+      },
+      {
+        "claim_id": "C79",
+        "problem": "The claim attributes the failure to a lack of 'grade-by-grade content guidance,' but the author specifically emphasizes that the problem is the tests' focus on 'close reading' as a new content-free strategy.",
+        "source_passage": "The new kind of inference is to be connected with an additional inference strategy called 'close reading'... So, despite the expense and computerized novelty of the new reading tests, it will be hard for them to be any more educationally productive than the tests they are displacing.",
+        "suggested_fix": "Common Core tests will fail to improve outcomes because they have replaced or supplemented old 'skills' with 'close reading,' which functions as another content-free strategy that ignores the knowledge-dependency of comprehension."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "missing_warrant": "The NAEP long-term trend assessment is the only nationwide instrument with enough consistency over decades to isolate the impact of specific federal policy shifts like NCLB."
+      },
+      {
+        "evidence_id": "E15",
+        "claim_id": "C51",
+        "missing_warrant": "The technical structure of a subject's standards (hierarchical vs. repetitious) is a primary driver of how teachers allocate classroom time."
+      },
+      {
+        "evidence_id": "E25",
+        "claim_id": "C84",
+        "missing_warrant": "If multiple plausible logical interpretations of a text exist, and only specific background knowledge (e.g., the nature of stars exploding) can identify the 'correct' one, then the test is measuring knowledge, not logic."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C1",
+        "counter_argument": "A knowledge-based curriculum standardized at the state level risks institutionalizing cultural bias and marginalizing the diverse backgrounds of a heterogeneous student population.",
+        "why_important": "This addresses the primary reason 'content cop-outs' (C52) happen; the author treats it as a political failure, but it is often a deliberate attempt to maintain pluralism."
+      },
+      {
+        "targets_claim": "C34",
+        "counter_argument": "Standardized tests show high reliability (.9) because they measure a stable 'general intelligence' (g-factor) or 'processing speed' rather than just a specific, accumulated set of facts.",
+        "why_important": "If the scores are tracking IQ or general processing, Hirsch's curriculum-based solution (C1) would not necessarily raise those specific test scores."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C10",
+          "C14",
+          "C45"
+        ],
+        "action": "merge",
+        "explanation": "All three claims state that NCLB was effective at improving the mechanics of early reading and decoding."
+      },
+      {
+        "claim_ids": [
+          "C37",
+          "C99"
+        ],
+        "action": "merge",
+        "explanation": "Both claims define current tests as 'consequentially invalid' for the same reasons."
+      },
+      {
+        "claim_ids": [
+          "C61",
+          "C68"
+        ],
+        "action": "merge",
+        "explanation": "The claim that comprehension depends on knowledge (C61) and the claim that domain-specific knowledge enables fast comprehension (C68) are the same theoretical point."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C1",
+        "current_level": "theoretical",
+        "correct_level": "normative",
+        "explanation": "This is a prescription for how education *should* be structured to achieve fairness, which is a value-based goal."
+      },
+      {
+        "claim_id": "C28",
+        "current_level": "empirical",
+        "correct_level": "theoretical",
+        "explanation": "While it cites data, the conclusion that drills 'failed' to raise scores is a theoretical interpretation of the NAEP trend rather than a direct data point."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough in capturing the individual claims and evidence. However, it misses the crucial 'control group' logic comparing math and reading scores, which is one of Hirsch's strongest logical moves. It also contains several redundant claims regarding NCLB and decoding that should be consolidated for better clarity."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0028738,
+    "input_tokens": 21342,
+    "output_tokens": 1849,
+    "duration_s": 28.975679874420166,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

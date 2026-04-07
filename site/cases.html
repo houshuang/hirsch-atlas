@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cases &mdash; Hirsch Argument Atlas</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* ── Evolution & Timeline ── */
+.evo-badge { display: inline-block; padding: 0.15em 0.5em; border-radius: 3px; color: #fff;
+  font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; }
+.timeline-dots { display: inline-flex; gap: 2px; align-items: center; }
+.book-dot { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px;
+  border-radius: 50%; font-family: var(--font-ui); font-size: 0.55rem; font-weight: 700;
+  color: #fff; transition: transform 0.15s; cursor: default; flex-shrink: 0; }
+.book-dot:hover { transform: scale(1.3); z-index: 1; }
+
+.evo-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1em 1.2em; margin-bottom: 0.8em; }
+.evo-card-header { display: flex; align-items: center; gap: 0.6em; flex-wrap: wrap; margin-bottom: 0.4em; }
+.evo-card-claim { font-family: var(--font-body); font-size: 0.92rem; line-height: 1.5; color: var(--text); }
+.evo-card-summary { font-family: var(--font-ui); font-size: 0.8rem; color: var(--text-secondary);
+  margin-top: 0.3em; font-style: italic; }
+.evo-card-members { margin-top: 0.5em; padding-left: 1em; border-left: 2px solid var(--border-light); }
+.evo-card-member { font-family: var(--font-ui); font-size: 0.78rem; color: var(--text-secondary);
+  padding: 0.15em 0; line-height: 1.4; }
+.evo-card-member .member-book { font-weight: 600; color: var(--text); min-width: 4em; display: inline-block; }
+.evo-card details summary { cursor: pointer; font-family: var(--font-ui); font-size: 0.78rem;
+  color: var(--text-tertiary); }
+
+/* ── Book timeline grid ── */
+.book-timeline { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.8em; margin: 1.5em 0; }
+.book-tile { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 0.8em; text-align: center; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
+.book-tile:hover { border-color: var(--accent); }
+.book-tile-year { font-family: var(--font-ui); font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+.book-tile-title { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-secondary);
+  margin-top: 0.2em; line-height: 1.3; }
+.book-tile-stats { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  margin-top: 0.4em; }
+
+/* ── Book page ── */
+.book-header { margin-bottom: 1.5em; }
+.book-header h1 { font-size: 1.6rem; }
+.book-header .book-year { font-family: var(--font-ui); font-size: 1.1rem; color: var(--accent); font-weight: 600; }
+.chapter-grid { display: grid; grid-template-columns: 1fr; gap: 0.6em; }
+
+/* ── Filter bar ── */
+.filter-bar { display: flex; gap: 0.4em; flex-wrap: wrap; margin: 1em 0; }
+.filter-btn { font-family: var(--font-ui); font-size: 0.75rem; padding: 0.3em 0.7em;
+  border: 1px solid var(--border); border-radius: 3px; background: var(--bg-surface);
+  color: var(--text-secondary); cursor: pointer; transition: all 0.15s; }
+.filter-btn:hover, .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ── Corpus stats bar ── */
+.corpus-stats { display: flex; flex-wrap: wrap; gap: 1.5em; margin: 1em 0; padding: 1em;
+  background: var(--bg-aside); border-radius: 6px; }
+.corpus-stat { text-align: center; }
+.corpus-stat-number { font-family: var(--font-ui); font-size: 1.6rem; font-weight: 700; color: var(--accent); display: block; }
+.corpus-stat-label { font-family: var(--font-ui); font-size: 0.7rem; color: var(--text-tertiary); }
+
+/* ── Entity cards (multi-book) ── */
+.entity-books { display: flex; gap: 3px; margin-top: 0.3em; flex-wrap: wrap; }
+.entity-book-tag { font-family: var(--font-ui); font-size: 0.62rem; padding: 0.1em 0.35em;
+  border-radius: 2px; background: var(--accent-light); color: var(--accent); font-weight: 600; }
+
+/* ── External research (blue/cool layer) ── */
+.ext-card { background: var(--bg-surface); border: 1px solid #c4d4e4; border-left: 3px solid #4a6080;
+  border-radius: 6px; padding: 0.8em 1em; margin-bottom: 0.6em; }
+.ext-card-text { font-size: 0.85rem; color: var(--text); line-height: 1.5; }
+.ext-card-meta { display: flex; gap: 0.5em; flex-wrap: wrap; margin-top: 0.3em; align-items: center; }
+.ext-badge { display: inline-block; padding: 0.1em 0.4em; border-radius: 2px;
+  font-family: var(--font-ui); font-size: 0.65rem; font-weight: 600; }
+.ext-badge-type { background: #eef2f7; color: #4a6080; }
+.ext-badge-strength { background: #e8f5e8; color: #2d6a2e; }
+.ext-badge-critique { background: #fdf0f0; color: #9a2e2e; }
+.ext-provenance { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  font-style: italic; padding: 0.5em 0; border-top: 1px solid var(--border-light); margin-top: 0.8em; }
+
+/* ── Entry paths (landing page) ── */
+.entry-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; margin: 1.5em 0; }
+@media (max-width: 40em) { .entry-paths { grid-template-columns: 1fr; } }
+.entry-path { display: block; padding: 1.5em; border-radius: 8px; text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s; }
+.entry-path:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.entry-path-hirsch { background: var(--accent-light); border: 2px solid var(--accent); color: var(--text); }
+.entry-path-context { background: #eef2f7; border: 2px solid #4a6080; color: var(--text); }
+.entry-path h2 { font-family: var(--font-ui); font-size: 1.1rem; margin-bottom: 0.3em; }
+.entry-path-hirsch h2 { color: var(--accent); }
+.entry-path-context h2 { color: #4a6080; }
+.entry-path p { font-size: 0.85rem; color: var(--text-secondary); margin: 0; }
+.entry-path .entry-stat { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-tertiary); margin-top: 0.5em; }
+
+/* ── Topic section ── */
+.topic-section { margin-bottom: 2em; }
+.topic-header { display: flex; align-items: baseline; gap: 0.8em; margin-bottom: 0.5em; }
+.topic-header h2 { font-size: 1.1rem; margin: 0; }
+.topic-split { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; }
+@media (max-width: 50em) { .topic-split { grid-template-columns: 1fr; } }
+.topic-col-label { font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5em; padding-bottom: 0.3em;
+  border-bottom: 2px solid; }
+.topic-col-hirsch .topic-col-label { color: var(--accent); border-color: var(--accent); }
+.topic-col-ext .topic-col-label { color: #4a6080; border-color: #4a6080; }
+
+/* ── Sidebar book list ── */
+.sidebar-book { font-size: 0.78rem; }
+.sidebar-book-year { font-weight: 600; min-width: 2.5em; display: inline-block; }
+</style>
+
+</head>
+<body>
+<header class="page-header">
+  <div class="header-inner">
+    <div class="site-title"><a href="index.html">Hirsch Argument Atlas</a></div>
+    <nav class="header-nav">
+      <a href="evolution.html">Evolution</a>
+      <a href="debates.html" style="color:var(--counter)">Debates</a>
+      <a href="thinkers.html">Thinkers</a>
+      <a href="concepts.html">Concepts</a>
+      <a href="cases.html">Cases</a>
+      <a href="context.html" style="color:#4a6080">Scholarly Context</a>
+    </nav>
+    <nav class="breadcrumb"><a href="index.html">Atlas</a><span class="sep">/</span>Cases</nav>
+  </div>
+</header>
+
+<div class="main-grid full-width">
+<main class="content">
+
+  <h1>Cases &amp; Examples (537)</h1>
+  <p class="lead">The real-world evidence Hirsch marshals across 10 books &mdash; national education systems, historical episodes, specific reforms.</p>
+
+  <div class="section-label" style="margin-top:1em">Multi-Book Cases (57)</div>
+  <div class="entity-grid">
+<a class="entity-card" href="entity.html#case:United_States_cultural_tolerance_vs._French_secularism" style="text-decoration:none;color:inherit;display:block">
+  <h3>United States cultural tolerance vs. French secularism</h3>
+  <div class="entity-card-detail">The normalization of social and regional groups resulting from family mobility and national standardization in industry and government, leading to the decline of isolated rural dialects.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:US_Teacher-Training_Institutions_(Early-Mid_20th_Century)" style="text-decoration:none;color:inherit;display:block">
+  <h3>US Teacher-Training Institutions (Early-Mid 20th Century)</h3>
+  <div class="entity-card-detail">Described as a &#x27;shopping mall&#x27; where diversity of choice is prioritized over a core curriculum, leading to students from the same school having no shared knowledge base.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Core_Knowledge_Sequence_(K-2_History/Geography)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Core Knowledge Sequence (K-2 History/Geography)</h3>
+  <div class="entity-card-detail">A school in a highly disadvantaged area that adopted the Core Knowledge curriculum following the success of Three Oaks. It achieved results significant enough to draw national media attention from ...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_American_educational_shift:_1920s_to_1990s" style="text-decoration:none;color:inherit;display:block">
+  <h3>The American educational shift: 1920s to 1990s</h3>
+  <div class="entity-card-detail">The author discusses the US republic as a system founded on the principle that citizens are the masters, provided they have the literacy to deliberate and understand issues.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_American_Founding_as_Enlightenment_Response" style="text-decoration:none;color:inherit;display:block">
+  <h3>The American Founding as Enlightenment Response</h3>
+  <div class="entity-card-detail">The creation of the United States based on Enlightenment skepticism about human nature, resulting in a Constitution of checks and balances and an educational vision focused on civic history and vir...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:French_teacher_training_schools_(écoles_normales)_post-1960s" style="text-decoration:none;color:inherit;display:block">
+  <h3>French teacher training schools (écoles normales) post-1960s</h3>
+  <div class="entity-card-detail">Hirsch characterizes these institutions as having been long dominated by Rousseau&#x27;s content-neutral conception of educational development.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Switzerland_as_the_Cradle_of_Progressive_Education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Switzerland as the Cradle of Progressive Education</h3>
+  <div class="entity-card-detail">A small nation that manages multiple languages through a unique combination of high-intensity centralized schooling and universal military service, following centuries of bloody conflict between ca...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Standardization_of_English_in_Britain" style="text-decoration:none;color:inherit;display:block">
+  <h3>Standardization of English in Britain</h3>
+  <div class="entity-card-detail">The period during which prescriptive grammarians established normalized spellings and grammatical rules for English, effectively acting as language planners.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Adriaan_de_Groot’s_chess_experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>Adriaan de Groot’s chess experiment</h3>
+  <div class="entity-card-detail">Dutch psychologist Adriaan de Groot tested chess players of varying ranks by showing them board positions from actual games for 5-10 seconds. Grand masters reproduced the positions with near-perfec...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Cathys_Children_(Mesopotamia_Comparison)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cathy&#x27;s Children (Mesopotamia Comparison)</h3>
+  <div class="entity-card-detail">Presented as the earliest model of civilization, emphasizing the relationship between geography (rivers), the development of writing, and the establishment of laws (Hammurabi).</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Recht_and_Leslie_Baseball_Study_(1988)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Recht and Leslie Baseball Study (1988)</h3>
+  <div class="entity-card-detail">An experiment testing four groups of students on their comprehension of a baseball text. The study found that students with low technical reading skills but high baseball knowledge outperformed stu...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_French_Preschool_System_(écoles_maternelles)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The French Preschool System (écoles maternelles)</h3>
+  <div class="entity-card-detail">Experimenters tested children from grades three through nine in Princeton. Despite being older and having more schooling, the ninth-graders still could not achieve the immediate accuracy of adults ...</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Five_Third-Grade_Classrooms" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Five Third-Grade Classrooms</h3>
+  <div class="entity-card-detail">A description of five third-grade classrooms containing 125 students in the same school. Despite all following the same &#x27;standards,&#x27; each teacher taught entirely different content (e.g., astronomy ...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Hirschs_chairmanship_at_the_University_of_Virginia" style="text-decoration:none;color:inherit;display:block">
+  <h3>Hirsch&#x27;s chairmanship at the University of Virginia</h3>
+  <div class="entity-card-detail">The author discusses the debate within university contexts about whether to combine writing instruction with subject matter like literature or to teach it as a separate skill. He notes that literat...</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:High-poverty_school_in_North_Carolina" style="text-decoration:none;color:inherit;display:block">
+  <h3>High-poverty school in North Carolina</h3>
+  <div class="entity-card-detail">A school serving homeless children and those living in hotels. After five years of implementing a knowledge-based curriculum, the school significantly improved its rankings and saw a transformation...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:North_Carolina_5th_Grade_Science_(Cathys_Experience)" style="text-decoration:none;color:inherit;display:block">
+  <h3>North Carolina 5th Grade Science (Cathy&#x27;s Experience)</h3>
+  <div class="entity-card-detail">The author provides a list of standards from North Carolina (L.1.3 to L.6.3) to demonstrate how they focus on abstract language skills—such as choosing words for effect or varying sentence patterns...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Reception_of_Cultural_Literacy_(1987)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Reception of &#x27;Cultural Literacy&#x27; (1987)</h3>
+  <div class="entity-card-detail">The polarizing response to Hirsch&#x27;s 1987 book, which was praised by teachers for highlighting the loss of knowledge-based teaching but attacked by professors as a reactionary, Eurocentric tract tha...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Civil_War_Passage_for_Second_Graders" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Civil War Passage for Second Graders</h3>
+  <div class="entity-card-detail">Cited as a historical moment that preserved the Union, though Hirsch warns that its outcome does not permanently ensure national stability without continued cultural vigilance.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Harvard_Square_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Harvard Square Experiment</h3>
+  <div class="entity-card-detail">A researcher in Cambridge, MA, tested how passers-by gave directions based on the perceived background knowledge of the asker. When the asker appeared to be a &#x27;native&#x27; (carrying a local paper), rep...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Common_Core_State_Standards_(First-Grade_Language_Arts)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Common Core State Standards (First-Grade Language Arts)</h3>
+  <div class="entity-card-detail">The current framework for state-level standards and testing, which Hirsch predicts will fail for the same reasons as NCLB if it continues the focus on skills over knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Catholic_Schools_(1980s_US)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Catholic Schools (1980s US)</h3>
+  <div class="entity-card-detail">A period dominated by &#x27;process-oriented&#x27; educational theory where schools failed to mitigate the effects of home background on student achievement, leading to social determinism.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:New_York_City_Schools_Chancellor_Carmen_Fariña" style="text-decoration:none;color:inherit;display:block">
+  <h3>New York City Schools Chancellor Carmen Fariña</h3>
+  <div class="entity-card-detail">An intensive school-improvement effort evaluated by the Bruner Foundation that failed to produce improved academic outcomes for children.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Knowledge-Based_Test_Group_(Ethans_Cohort)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Knowledge-Based Test Group (Ethan&#x27;s Cohort)</h3>
+  <div class="entity-card-detail">A cohort of students (including Michele&#x27;s son) who experienced a knowledge-based curriculum from elementary through eighth grade. The author notes their high levels of success as college freshmen a...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_publication_of_A_Nation_at_Risk" style="text-decoration:none;color:inherit;display:block">
+  <h3>The publication of A Nation at Risk</h3>
+  <div class="entity-card-detail">A seminal educational report that highlighted the decline in American educational quality but focused almost exclusively on high school reforms and fragmented curricula while accepting the skill-ba...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Germanys_post-Schock_recovery" style="text-decoration:none;color:inherit;display:block">
+  <h3>Germany&#x27;s post-Schock recovery</h3>
+  <div class="entity-card-detail">After scoring poorly on the initial 2000 PISA assessment, Germany implemented specific curriculum guides grade-by-grade across its states (Länder). This focus on curriculum alignment and content sp...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Lyles-Crouch_Traditional_Academy" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lyles-Crouch Traditional Academy</h3>
+  <div class="entity-card-detail">A regular public school in Alexandria, Virginia, that transitioned from a failing, de facto segregated school to the highest-scoring school in its district. Under the leadership of Dr. Patricia Zis...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:No_Child_Left_Behind_Act_(NCLB)" style="text-decoration:none;color:inherit;display:block">
+  <h3>No Child Left Behind Act (NCLB)</h3>
+  <div class="entity-card-detail">A federal law requiring annual testing in reading from the third grade upward to ensure schools are making progress with all student groups. Hirsch defends the law&#x27;s intent of fairness and accounta...</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_French_Experiment_(1987-2007)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The French Experiment (1987-2007)</h3>
+  <div class="entity-card-detail">France adopted American-style child-centered, individualistic educational theories and subsequently suffered a massive decline in student achievement, paralleling the American experience.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_March_of_Time_newsreel_(1940s)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The March of Time newsreel (1940s)</h3>
+  <div class="entity-card-detail">A media example used to illustrate the &#x27;triumphant&#x27; rejection of bookish learning in favor of activities like mock stores and airport visits, marking the transition into progressive pedagogical dom...</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Nixon_Watergate_Tapes" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Nixon Watergate Tapes</h3>
+  <div class="entity-card-detail">Transcripts of recorded conversations used to demonstrate the incommunicability of raw speech when transcribed directly to paper.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1978_Community_College_Reading_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>1978 Community College Reading Experiment</h3>
+  <div class="entity-card-detail">In 1978, community college students were given a passage about the meeting of Grant and Lee at Appomattox. The author uses this to show that students may read the words but fail to grasp the meanin...</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Cardinal_Principles_of_Secondary_Education_(1918)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cardinal Principles of Secondary Education (1918)</h3>
+  <div class="entity-card-detail">A report that marked a decisive shift in American education by rejecting content-centrism in favor of seven socially-oriented goals, effectively &#x27;Americanizing&#x27; the romantic ideas of Rousseau and t...</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Michele_Hudaks_First_Eighth-Grade_Class" style="text-decoration:none;color:inherit;display:block">
+  <h3>Michele Hudak&#x27;s First Eighth-Grade Class</h3>
+  <div class="entity-card-detail">Michele implemented a 180-minute block of exploratory centers. She found that the children completed the tasks in minutes, leading to chaos, and that the preparation was physically exhausting for t...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Nigerias_adoption_of_the_English_grapholect" style="text-decoration:none;color:inherit;display:block">
+  <h3>Nigeria&#x27;s adoption of the English grapholect</h3>
+  <div class="entity-card-detail">Nigeria is presented as a large, multi-ethnic nation (195 million people) that achieves national unity through the use of a common English grapholect. The author uses Chinua Achebe&#x27;s defense of wri...</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Grissmer_Study_(Education_Next_2024)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Grissmer Study (Education Next 2024)</h3>
+  <div class="entity-card-detail">A study of students who participated in lotteries for Core Knowledge schools in Colorado. It used PARCC tests to measure ELA and Math performance from grades 3-6 and a science test in grade 5. It f...</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1994_Norway_Core_Curriculum_Reform" style="text-decoration:none;color:inherit;display:block">
+  <h3>1994 Norway Core Curriculum Reform</h3>
+  <div class="entity-card-detail">The Norwegian Parliament unanimously ratified a core curriculum centered on the principle that shared knowledge is essential for &#x27;popular enlightenment&#x27; and to prevent social inequality that &#x27;undem...</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Teachers_College_(Columbia_University)_1910-1930" style="text-decoration:none;color:inherit;display:block">
+  <h3>Teachers College (Columbia University) 1910-1930</h3>
+  <div class="entity-card-detail">The primary source of the &#x27;intellectual DNA&#x27; of the American educational monopoly, which has replicated its views through generations of education professors across the country.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Asian_and_European_educational_systems" style="text-decoration:none;color:inherit;display:block">
+  <h3>Asian and European educational systems</h3>
+  <div class="entity-card-detail">Educational systems where children are held to clear grade-level standards and are encouraged to exert intensive effort to meet them, regardless of their &#x27;natural&#x27; pace.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Australian_Bird_Schema" style="text-decoration:none;color:inherit;display:block">
+  <h3>Australian Bird Schema</h3>
+  <div class="entity-card-detail">The author hypothesizes that an Australian subject&#x27;s prototype for &#x27;bird&#x27; would not be a robin, but a larger, more colorful bird like a parakeet or a galah, reflecting their everyday environment.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Californias_reading_reform" style="text-decoration:none;color:inherit;display:block">
+  <h3>California&#x27;s reading reform</h3>
+  <div class="entity-card-detail">California implemented matrix testing, which removed individual accountability, alongside a state policy favoring &#x27;naturalistic&#x27; reading instruction. This combination led to the state falling to th...</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Cathys_children_(Taylor_and_siblings)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cathy&#x27;s children (Taylor and siblings)</h3>
+  <div class="entity-card-detail">The eldest child, Taylor, attended a child-centered school and lacked basic historical knowledge (Mesopotamia) that her younger siblings, who attended knowledge-based schools, had acquired by first...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Current_American_Reading_Score_Stagnation" style="text-decoration:none;color:inherit;display:block">
+  <h3>Current American Reading Score Stagnation</h3>
+  <div class="entity-card-detail">The failure of current reading scores to improve despite a heavy instructional focus on general comprehension skills and &#x27;finding the main idea.&#x27;</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Everyday_Classics_Anthology" style="text-decoration:none;color:inherit;display:block">
+  <h3>Everyday Classics Anthology</h3>
+  <div class="entity-card-detail">A textbook series by A.H. Thorndike and F.T. Baker from the early 20th century. It was designed to unify the American people by teaching a common stock of knowledge and ideals derived from a compos...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:J._Sargeant_Reynolds_Community_College_Study" style="text-decoration:none;color:inherit;display:block">
+  <h3>J. Sargeant Reynolds Community College Study</h3>
+  <div class="entity-card-detail">A 1970s study where Hirsch observed that African-American students in Richmond could decode text but lacked the specific historical knowledge (e.g., about the Civil War) to understand general audie...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Lyles-Crouch_School,_Alexandria,_VA" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lyles-Crouch School, Alexandria, VA</h3>
+  <div class="entity-card-detail">A regular public school in Alexandria, VA, formerly segregated, now highly diverse with a 20% mobility rate. Under Dr. Patricia Zissios, it implemented the Core Knowledge Sequence and rose to the t...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:PS_124_and_Washington_School" style="text-decoration:none;color:inherit;display:block">
+  <h3>PS 124 and Washington School</h3>
+  <div class="entity-card-detail">The initial 1991 implementations of the Core Knowledge curriculum in a suburban Florida school (led by Connie Jones) and a South Bronx school (led by Jeff Litt). Both were highly successful but ign...</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Quincy_School_/_Dewey_Lab_School" style="text-decoration:none;color:inherit;display:block">
+  <h3>Quincy School / Dewey Lab School</h3>
+  <div class="entity-card-detail">Examples of early progressive schools in Quincy, MA and Chicago that were successful because they did not abandon definite knowledge goals or traditional practices.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Singapore" style="text-decoration:none;color:inherit;display:block">
+  <h3>Singapore</h3>
+  <div class="entity-card-detail">A multiracial, multicultural nation of 5.6 million people that has achieved the top rank in PISA reading, math, and science. Its success is attributed to an elementary curriculum that balances cont...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Washing_Clothes_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>The &#x27;Washing Clothes&#x27; Experiment</h3>
+  <div class="entity-card-detail">Subjects were given a vague passage about washing clothes. Some were given the title &#x27;Washing Clothes&#x27; beforehand, some after, and some not at all. Only the &#x27;before&#x27; group successfully understood a...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_AFQT_(Armed_Forces_Qualification_Test)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The AFQT (Armed Forces Qualification Test)</h3>
+  <div class="entity-card-detail">A multiple-choice test used by the military to measure reading, general knowledge, and math. Hirsch uses it as a prime example of a standardized test that accurately predicts real-world job perform...</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_American_National_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>The American National Experiment</h3>
+  <div class="entity-card-detail">A test of whether a nation conceived in liberty and equality can endure, which the author argues depends on a shared &#x27;political religion&#x27; taught in schools.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Canary_Schematic_Network" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Canary Schematic Network</h3>
+  <div class="entity-card-detail">A theoretical and experimental model used by Collins and Quillian to show how knowledge is organized. The model places specific traits (yellow, sings) closer to the &#x27;Canary&#x27; node than general anima...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_European_Union" style="text-decoration:none;color:inherit;display:block">
+  <h3>The European Union</h3>
+  <div class="entity-card-detail">Cited as an example of an international grouping that attempted to move beyond the nation-state but failed to replace it as the primary unit of social organization.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_French_Academy_(1635)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The French Academy (1635)</h3>
+  <div class="entity-card-detail">An institutional entity created by royal decree to &#x27;purify&#x27; the French language, but whose actual historical role was to manufacture a standardized grammar and spelling to unify the nation.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Open_Education_Movement_(1960s-1970s)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Open Education Movement (1960s-1970s)</h3>
+  <div class="entity-card-detail">A more &#x27;insistently romantic&#x27; version of progressive education that emphasized the quality of student experiences over fixed curricula.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:The_Turtles_on_a_Log_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>The Turtles on a Log Experiment</h3>
+  <div class="entity-card-detail">Researchers J.R. Barclay, J.D. Bransford, and J.J. Franks tested whether background knowledge influences memory of a text. Subjects were given sentences like &#x27;Three turtles rested on a floating log...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Three_Oaks_School,_Fort_Myers,_Florida" style="text-decoration:none;color:inherit;display:block">
+  <h3>Three Oaks School, Fort Myers, Florida</h3>
+  <div class="entity-card-detail">A large, mixed-population public elementary school that in 1990 became the first in the nation to follow Hirsch&#x27;s &#x27;Cultural Literacy&#x27; principles. The author describes its success as &#x27;stunning&#x27; and ...</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+</div>
+
+  <div class="section-label" style="margin-top:1.5em">Single-Book Cases (showing 50 of 480)</div>
+  <div class="entity-grid">
+<a class="entity-card" href="entity.html#case:17th-Century_Prose_vs._Poetry_(Jonson_and_Milton)" style="text-decoration:none;color:inherit;display:block">
+  <h3>17th-Century Prose vs. Poetry (Jonson and Milton)</h3>
+  <div class="entity-card-detail">The author examines the continuity of English syntax over five centuries, finding that despite the &#x27;disarray&#x27; of individual styles, the underlying syntactic structures show remarkable stability and...</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Mid-Twentieth_Century_American_Elementary_Education" style="text-decoration:none;color:inherit;display:block">
+  <h3>Mid-Twentieth Century American Elementary Education</h3>
+  <div class="entity-card-detail">The current state of US schooling, characterized by the author as failing due to adherence to &#x27;natural-development&#x27; theories and &#x27;general skills&#x27; curriculum models.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:COVID_mask-wearing_in_America" style="text-decoration:none;color:inherit;display:block">
+  <h3>COVID mask-wearing in America</h3>
+  <div class="entity-card-detail">A contemporary example where the conflict between &#x27;I&#x27; (individual annoyance) and &#x27;WE&#x27; (group life-saving) demonstrates the dominance of individualistic thinking over communal cohesion.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:California_Whole-Language_Experience" style="text-decoration:none;color:inherit;display:block">
+  <h3>California Whole-Language Experience</h3>
+  <div class="entity-card-detail">California mandated that reading instruction follow the naturalistic whole-language approach. This served as a &#x27;vast confirmation&#x27; of research against naturalism when the state&#x27;s reading scores plu...</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Cold_War_Russian-to-English_translation_projects" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cold War Russian-to-English translation projects</h3>
+  <div class="entity-card-detail">Researchers attempted to translate Russian into English using formal linguistic rules and strategies. After spending hundreds of millions of dollars without success, the programs only became viable...</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Communist_East_Berlin_Grammar_Book" style="text-decoration:none;color:inherit;display:block">
+  <h3>Communist East Berlin Grammar Book</h3>
+  <div class="entity-card-detail">A grammar textbook that focused on the &#x27;formal&#x27; aspects of language (process) while filling the content with ideological indoctrination against capitalist imperialism.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Fort_Collins,_Colorado_parent-run_school" style="text-decoration:none;color:inherit;display:block">
+  <h3>Fort Collins, Colorado parent-run school</h3>
+  <div class="entity-card-detail">An episode where parents attempted to establish a school based on Core Knowledge principles. The local educational establishment allegedly used legal threats, intimidation against teachers, and bit...</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Head_Start_(USA)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Head Start (USA)</h3>
+  <div class="entity-card-detail">A major US early intervention program that Hirsch characterizes as a failure in terms of long-term academic achievement because it does not utilize a content-rich curriculum.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Micheles_Knowledge-Centered_Classroom" style="text-decoration:none;color:inherit;display:block">
+  <h3>Michele&#x27;s Knowledge-Centered Classroom</h3>
+  <div class="entity-card-detail">A classroom environment where the day begins with domain-based study (e.g., Vikings), integrating reading and myths into a single subject of focus, leading to high student engagement and vocabulary...</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:NPR_Morning_Edition_Transcript" style="text-decoration:none;color:inherit;display:block">
+  <h3>NPR Morning Edition Transcript</h3>
+  <div class="entity-card-detail">Hirsch provides a transcribed segment of a National Public Radio interview between Steve Inskeep and John Feinstein regarding Roger Federer and Maria Sharapova&#x27;s Wimbledon victories. He uses this t...</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:New_York_City_5th_Grade_Reading_Performance" style="text-decoration:none;color:inherit;display:block">
+  <h3>New York City 5th Grade Reading Performance</h3>
+  <div class="entity-card-detail">A comparison of reading proficiency between Core Knowledge schools and KIPP schools in NYC among disadvantaged populations. The author notes that while KIPP is admired, CK schools show the benefits...</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Santa_Barbara_School_District_move_to_Common_Core" style="text-decoration:none;color:inherit;display:block">
+  <h3>Santa Barbara School District move to Common Core</h3>
+  <div class="entity-card-detail">The district announced a shift in culture and teaching style to focus on curiosity and critical thinking over &#x27;merely memorizing content&#x27; as they transitioned to the Common Core State Standards.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Washington_School_(Rochester,_MN)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Washington School (Rochester, MN)</h3>
+  <div class="entity-card-detail">A Core Knowledge school in Minnesota that received a Blue Ribbon award. It demonstrated both high excellence (top city scores) and high equity (narrowest achievement gap), leading to a waiting list...</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:14th-century_England" style="text-decoration:none;color:inherit;display:block">
+  <h3>14th-century England</h3>
+  <div class="entity-card-detail">A period characterized by high dialectal variation where moving a short distance could result in mutual unintelligibility between speakers.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1620_Decameron_Translation" style="text-decoration:none;color:inherit;display:block">
+  <h3>1620 Decameron Translation</h3>
+  <div class="entity-card-detail">A transitional version that removes some lexical inefficiency but retains syntactic burdens, such as multiple long participial clauses preceding the main clause.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1795_American_Philosophical_Society_Essay_Contest" style="text-decoration:none;color:inherit;display:block">
+  <h3>1795 American Philosophical Society Essay Contest</h3>
+  <div class="entity-card-detail">An essay competition on the best education system for the US where winners Samuel Knox and Samuel Smith both advocated for a national core curriculum, demonstrating a contemporary consensus.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1930s_Tennessee_Schooling" style="text-decoration:none;color:inherit;display:block">
+  <h3>1930s Tennessee Schooling</h3>
+  <div class="entity-card-detail">Hirsch recalls his education where local history (localism) was balanced by communal textbooks like the Everyday Classics Series (federalism), prior to the 1930s curriculum reforms toward individua...</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1971_New_York_City_elementary_school" style="text-decoration:none;color:inherit;display:block">
+  <h3>1971 New York City elementary school</h3>
+  <div class="entity-card-detail">A classroom described as a &#x27;workshop&#x27; without desks, where children sprawl on mattresses and teachers move between small groups, used to illustrate the full implementation of child-centered philoso...</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1976_Olympic_Diving_Competition" style="text-decoration:none;color:inherit;display:block">
+  <h3>1976 Olympic Diving Competition</h3>
+  <div class="entity-card-detail">A sporting event used as a precedent for scoring complex skills. By applying a &#x27;difficulty factor&#x27; to dives, judges were able to reach a &#x27;remarkable uniformity&#x27; in their intrinsic scores for the pe...</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:1980s_Educational_Counterreform" style="text-decoration:none;color:inherit;display:block">
+  <h3>1980s Educational Counterreform</h3>
+  <div class="entity-card-detail">A grassroots movement in the United States seeking a return to traditional curriculum, meeting resistance from the educational establishment trained in earlier theories.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:19th_Century_Boston:_Mann_vs._Emerson" style="text-decoration:none;color:inherit;display:block">
+  <h3>19th Century Boston: Mann vs. Emerson</h3>
+  <div class="entity-card-detail">A symbolic conflict between Horace Mann, who saw the common school as essential to democracy (Enlightenment), and Ralph Waldo Emerson, who viewed the schoolhouse as inferior to the farm (Romantic).</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:19th_Century_Curriculum_Consensus" style="text-decoration:none;color:inherit;display:block">
+  <h3>19th Century Curriculum Consensus</h3>
+  <div class="entity-card-detail">According to the author, nineteenth-century curriculum makers successfully navigated ideological differences by focusing on principles of freedom and examples of patriotism to create a common Ameri...</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:19th_Century_German_Nationalism" style="text-decoration:none;color:inherit;display:block">
+  <h3>19th Century German Nationalism</h3>
+  <div class="entity-card-detail">The author contrasts American nationalism with German nationalism, which was based on tribal descent as celebrated by Fichte.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:A_New_York_City_Third-Grade_Open_Classroom_(1971)" style="text-decoration:none;color:inherit;display:block">
+  <h3>A New York City Third-Grade Open Classroom (1971)</h3>
+  <div class="entity-card-detail">A description of a classroom without desks, where children were reading on easy chairs or mattresses, using geo-blocks and magnets, and moving in and out of the room constantly.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:A_Tale_of_Two_Cities_reading_experience" style="text-decoration:none;color:inherit;display:block">
+  <h3>A Tale of Two Cities reading experience</h3>
+  <div class="entity-card-detail">The author describes how knowledge of 18th-century French society serves as the necessary context for Dickens&#x27;s work, arguing that this knowledge makes the text readable even if it does not match a...</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Agrarian_Societies" style="text-decoration:none;color:inherit;display:block">
+  <h3>Agrarian Societies</h3>
+  <div class="entity-card-detail">Pre-industrial societies where economic units were local and fixed, allowing for mutual unintelligibility between regional dialects without causing social or economic collapse.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Alexandria_Framework" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alexandria Framework</h3>
+  <div class="entity-card-detail">An example of a current educational framework that the author argues lacks the specificity needed to give disadvantaged students a fair chance at succeeding on standardized tests.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Americas_Multi-decade_Experiment" style="text-decoration:none;color:inherit;display:block">
+  <h3>America&#x27;s Multi-decade Experiment</h3>
+  <div class="entity-card-detail">A long-term, national-scale implementation of child-centered educational theories (developmentalism) which the author argues has resulted in documented declines in reading proficiency.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_5th_Grade_Mathematics_Classroom" style="text-decoration:none;color:inherit;display:block">
+  <h3>American 5th Grade Mathematics Classroom</h3>
+  <div class="entity-card-detail">A case used to illustrate typical American instructional fragmentation where academic time is lost to extracurricular announcements and the teacher acts primarily as a monitor of individual work ra...</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Classrooms_(Individualized)" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Classrooms (Individualized)</h3>
+  <div class="entity-card-detail">Studies show American teachers spend excessive time with individuals or small groups (87% of their working time), leaving the rest of the class (47% of student time) working individually without in...</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Early_Language_Neglect" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Early Language Neglect</h3>
+  <div class="entity-card-detail">In recent decades, the U.S. school system has prioritized simple written texts and decoding mechanics while neglecting the oral language and background knowledge development of students aged 4-7.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Educational_History_(Progressive_Era_to_Present)" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Educational History (Progressive Era to Present)</h3>
+  <div class="entity-card-detail">The author uses the recent history of American education as evidence that progressivist methods like &#x27;learning by doing&#x27; have failed to produce reliable or efficient learning outcomes.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Federation_of_Teachers_(AFT)" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Federation of Teachers (AFT)</h3>
+  <div class="entity-card-detail">Under the tradition of Al Shanker and through its magazine American Educator, this union has advocated for core content and national interests, even when it appeared to conflict with short-term tea...</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Fifth-Grade_Math_Classroom" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Fifth-Grade Math Classroom</h3>
+  <div class="entity-card-detail">An anecdotal observation of a classroom where the lesson was immediately interrupted by non-academic logistics (&#x27;band day&#x27;).</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_K-12_schooling" style="text-decoration:none;color:inherit;display:block">
+  <h3>American K-12 schooling</h3>
+  <div class="entity-card-detail">Described as suffering from two major shortcomings: low average achievement and a high correlation between social class and success. This is attributed to a failure to follow the cumulative princip...</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_K-3_Social_Studies_Revision_(1930s)" style="text-decoration:none;color:inherit;display:block">
+  <h3>American K-3 Social Studies Revision (1930s)</h3>
+  <div class="entity-card-detail">A national movement led by progressive educators that replaced academic and historical content with a utilitarian, &#x27;subject-centered&#x27; curriculum focused on children&#x27;s immediate experiences. At leas...</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_National_Vocabulary" style="text-decoration:none;color:inherit;display:block">
+  <h3>American National Vocabulary</h3>
+  <div class="entity-card-detail">The American vocabulary is rooted in English traditions by historical accident. While it neglects many other cultures (German, Italian, etc.), it functions like &#x27;spelling&#x27;—a stable, non-controversi...</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Revolutionary_Legend_Building" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Revolutionary Legend Building</h3>
+  <div class="entity-card-detail">The author describes how the US national culture was populated with specific figures like Abraham Lincoln and Betsy Ross. He notes that while Lincoln&#x27;s prominence was likely, figures like Betsy Ros...</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_School_Architecture_Shift" style="text-decoration:none;color:inherit;display:block">
+  <h3>American School Architecture Shift</h3>
+  <div class="entity-card-detail">A transition from early 20th-century massive, civic-oriented school buildings with columns to post-WWII low-slung, welcoming buildings designed for the child&#x27;s world.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Schools_1940-Present" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Schools 1940-Present</h3>
+  <div class="entity-card-detail">The historical period where American elementary education adopted &#x27;child-centered&#x27; ideologies, leading to a decline in the teaching of common background knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_South_Segregated_Schools" style="text-decoration:none;color:inherit;display:block">
+  <h3>American South Segregated Schools</h3>
+  <div class="entity-card-detail">Hirsch notes historical characterizations of pre-integration segregated schools as having high standards and knowledge-based curricula that may have been more effective for disadvantaged students t...</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_Textbook_Publishing" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Textbook Publishing</h3>
+  <div class="entity-card-detail">An industry characterized by the hiring of non-expert freelance writers through online ads to produce educational content rapidly. It prioritizes the production of numerous new titles for profit ov...</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_University_English_Departments" style="text-decoration:none;color:inherit;display:block">
+  <h3>American University English Departments</h3>
+  <div class="entity-card-detail">The author describes these departments as massive institutions that are primarily funded by society to ensure literacy (composition teaching), yet the scholars within them often ignore the linguist...</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:American_vs._Asian_Classrooms" style="text-decoration:none;color:inherit;display:block">
+  <h3>American vs. Asian Classrooms</h3>
+  <div class="entity-card-detail">A comparison showing that American classrooms lack commonality of academic preparation, leading to slower progress and a widening achievement gap compared to Asian systems which achieve commonality.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Ancient_Athens" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ancient Athens</h3>
+  <div class="entity-card-detail">Identified as a Greek city-state and the historical site of the &#x27;beginnings of democracy.&#x27;</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Ancient_Rome" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ancient Rome</h3>
+  <div class="entity-card-detail">A historical republic that failed because it could not control internal factions and self-seeking citizens, eventually falling to military dictatorship.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Anglo-Saxon-Norman_Amalgamation" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anglo-Saxon-Norman Amalgamation</h3>
+  <div class="entity-card-detail">The historical process where the Germanic tribes of Angles and Saxons merged with Norman French invaders to create the modern English language, serving as a precedent for cultural amalgamation in m...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Ann_Arbor_Court_Case" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ann Arbor Court Case</h3>
+  <div class="entity-card-detail">A publicized court case in which parents of Black children successfully argued that teachers should learn the children&#x27;s speech conventions to effectively teach them standard conventions. The autho...</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Antebellum_Southern_Resistance" style="text-decoration:none;color:inherit;display:block">
+  <h3>Antebellum Southern Resistance</h3>
+  <div class="entity-card-detail">The Southern states&#x27; rejection of common schooling due to the threat it posed to the institution of slavery, resulting in lower literacy and attendance compared to the North.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#case:Appalachia_School_District" style="text-decoration:none;color:inherit;display:block">
+  <h3>Appalachia School District</h3>
+  <div class="entity-card-detail">An entire school district in the Appalachian region that committed to fixing educational deficits by investing in CKLA and intensive teacher training, serving as a model for universal scalability.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+</div>
+
+</main>
+</div>
+
+<footer class="page-footer">
+  Hirsch Argument Atlas &mdash; 10 books (1977&ndash;2024), 10,312 claims extracted and analyzed
+  &middot; Built with care, not with frameworks
+</footer>
+</body>
+</html>

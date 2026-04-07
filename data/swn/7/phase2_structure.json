@@ -1,0 +1,1468 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If the dominant educational model is empirically incorrect and ineffectual, the primary challenge becomes one of practical results rather than ideological debate."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "The lack of successful longitudinal evidence for progressivist methods directly supports the claim that the model's empirical assumptions are wrong."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "Consistent process-outcome research showing progressivism as the least effective method provides the empirical basis for rejecting it."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The claim that progressive ideas are the controlling status quo depends on establishing their historical origin and continuous dominance since the 1920s."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "Establishing that modern reforms are merely rehashes of 1920s ideas supports the view that they are not 'reforms' but the existing failed system."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "The failure of naturalistic methods to motivate students equally leads to the conclusion that they fail to inculcate skill universally."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "If 'knowing how to learn' does not exist as a general skill, then naturalistic methods focused on discovery are fundamentally flawed."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "Empirical process-outcome research showing variable results in naturalistic learning provides the evidence base for the claim that a lack of explicit focus prevents secure learning."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that naturalism is a 'half-truth' error depends on the premise that its results (lack of explicit focus) are practically ineffective."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that formalism is a 'half-truth' error depends on the empirical claim that focusing on process over content fails to improve formal skills."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C27",
+        "relationship": "supports",
+        "explanation": "The broad principle of domain-specificity is supported by the specific empirical observation that critical thinking skills do not translate across domains."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C28",
+        "relationship": "instantiates",
+        "explanation": "The chess/sailing example provides a concrete instance of the non-translation of critical thinking skills."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "If skills are domain-specific, then logically there can be no substitute for the specific content knowledge of those domains."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The necessity of domain-specific knowledge leads to the normative conclusion that schools should stop attempting to teach all-purpose skills."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "The failure of the formal-skills emphasis in America serves as a negative proof that supports the alternative knowledge-based approach."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "Evidence that knowledge-centric instruction yields critical thinking skills directly supports the 'paradoxical' conclusion that knowledge leads to skill."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that general knowledge leads to skills relies on the theoretical definition of a 'general skill' as an application of domain-relevant knowledge to new problems."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C47",
+        "relationship": "instantiates",
+        "explanation": "The fact that literacy is not natural serves as a primary example of the claim that many school learnings are unnatural."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C48",
+        "relationship": "depends-on",
+        "explanation": "The necessity of nonnatural means depends on the existence of nonnatural goals."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "If nonnatural goals require nonnatural means, then reading (a nonnatural goal) requires direct instruction (a nonnatural mean)."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "The failure of a naturalistic approach in California provides empirical support for a nonnaturalistic alternative."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "The failure of naturalistic math dogmas supports the idea that foundational principles of learning cannot be bypassed."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "The distinction between primary (evolutionary) and secondary (cultural) learnings is necessary to argue that reading and math are not natural developments."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C65",
+        "relationship": "depends-on",
+        "explanation": "If secondary learnings do not develop automatically, their 'readiness' must be constructed through external means like prior learning."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "The requirement for explicit teaching implies that learning is an active, effortful process rather than a passive, natural one."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "Evidence that specific practice schedules (distributed practice) improve retention supports the claim that learning requires deliberate effort and repetition."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "Schema theory provides the theoretical framework used to define reading as a combination of rules and knowledge frames."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C71",
+        "relationship": "supports",
+        "explanation": "The existence of mental techniques like chunking and automation is a direct response to the physiological constraints of working memory."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C73",
+        "relationship": "depends-on",
+        "explanation": "The physiological limits of the mind necessitate higher-order strategies like chunking to achieve high levels of expertise."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The failure of formal procedures in unfamiliar domains provides empirical evidence that skills are not all-purpose tools."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "The fact that background knowledge reduces memory load explains the mechanism behind the cumulative nature of learning."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C77",
+        "relationship": "instantiates",
+        "explanation": "The 'snowball effect' in achievement is the real-world manifestation of the 'knowledge makes knowledge' principle."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C85",
+        "relationship": "supports",
+        "explanation": "Cognitive hooks (analogies and categories) explain why educated adults maintain a learning advantage over children despite potentially lower raw processing power."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C83",
+        "relationship": "depends-on",
+        "explanation": "The reduction in items to be learned depends on the possession of well-established schemas that facilitate 'chunking' of information."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C84",
+        "relationship": "supports",
+        "explanation": "The lack of schemas (C83) is the mechanism that causes the short-term memory overload (C84) experienced by novices."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "If learning principles are universal, then in a large system, the effective ways to apply them are limited by the constraints of those principles."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C91",
+        "relationship": "supports",
+        "explanation": "The phenomenon of small early deficits building into insuperable gaps (the Matthew Effect) is the primary driver of the widening achievement gap across grade levels."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C94",
+        "relationship": "supports",
+        "explanation": "If small early deficits have massive downstream consequences, policy must be coherent across the entire school lifespan to catch them early."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "C100",
+        "relationship": "supports",
+        "explanation": "The fact that children cannot keep up without specific prerequisite knowledge (C98) establishes the school's duty to provide that knowledge (C100) to ensure fairness."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "C106",
+        "relationship": "depends-on",
+        "explanation": "The insufficiency of multiyear standards is the primary justification for the necessity of grade-specific definitions."
+      },
+      {
+        "from_id": "C104",
+        "to_id": "C106",
+        "relationship": "depends-on",
+        "explanation": "Specific definitions are identified as the only tool capable of timely monitoring and rectification of deficits."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C106",
+        "relationship": "supports",
+        "explanation": "The failure of multiyear units to provide individual responsibility supports the move toward grade-specific definitions."
+      },
+      {
+        "from_id": "C115",
+        "to_id": "C106",
+        "relationship": "depends-on",
+        "explanation": "The logical necessity of tests for monitoring readiness is a foundational premise for the main conclusion on fairness."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C109",
+        "relationship": "depends-on",
+        "explanation": "The requirement for annual monitoring necessitates the infrastructure of tests and accountability."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C109",
+        "relationship": "depends-on",
+        "explanation": "Monitoring cannot function without the specific incentives and accountability mechanisms mentioned in the conclusion."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C109",
+        "relationship": "supports",
+        "explanation": "Refuting objections to tests removes barriers to accepting them as necessary components."
+      },
+      {
+        "from_id": "C110",
+        "to_id": "C117",
+        "relationship": "depends-on",
+        "explanation": "If 'innate pace' is a fallacy, then pedagogical principles based on that pace (individual pacing) are undermined."
+      },
+      {
+        "from_id": "C111",
+        "to_id": "C117",
+        "relationship": "supports",
+        "explanation": "Establishing that literacy and math are 'nonnatural' learnings invalidates 'naturalistic' instructional methods for those subjects."
+      },
+      {
+        "from_id": "C112",
+        "to_id": "C117",
+        "relationship": "supports",
+        "explanation": "The practical impossibility of managing multiple paces in one classroom is evidence against the effectiveness of individual pacing."
+      },
+      {
+        "from_id": "C123",
+        "to_id": "C121",
+        "relationship": "supports",
+        "explanation": "If millions of teachers have no intellectual alternatives to progressive doctrine, that doctrine effectively becomes a pandemic within the system."
+      },
+      {
+        "from_id": "C126",
+        "to_id": "C121",
+        "relationship": "supports",
+        "explanation": "The claim that doctrine is intellectually weak but remains dominant supports the idea that the 'thoughtworld' is a man-made barrier to improvement."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C124",
+        "relationship": "depends-on",
+        "explanation": "A call for revolutionizing teacher training requires the premise that the current system is the gravest barrier to success."
+      },
+      {
+        "from_id": "C131",
+        "to_id": "C128",
+        "relationship": "supports",
+        "explanation": "The lack of successful counter-examples (nations without standards) reinforces the observation that all successful nations use them."
+      },
+      {
+        "from_id": "C133",
+        "to_id": "C128",
+        "relationship": "refines",
+        "explanation": "The Swiss case is used to clarify that even decentralized systems that achieve readiness rely on detailed grade-by-grade standards at the local level."
+      },
+      {
+        "from_id": "C128",
+        "to_id": "C129",
+        "relationship": "supports",
+        "explanation": "Global empirical success of standards provides the basis for arguing that a core curriculum is the only practical solution for large nations."
+      },
+      {
+        "from_id": "C129",
+        "to_id": "C130",
+        "relationship": "supports",
+        "explanation": "If a core curriculum is the path to readiness, and readiness is the path to competence/fairness, then the curriculum is the ultimate instrument of justice."
+      },
+      {
+        "from_id": "C137",
+        "to_id": "C136",
+        "relationship": "supports",
+        "explanation": "The high rate of school-switching among third graders provides empirical proof for the necessity of standards to mitigate mobility effects."
+      },
+      {
+        "from_id": "C136",
+        "to_id": "C135",
+        "relationship": "supports",
+        "explanation": "If mobility makes standards necessary, then the absence of such standards constitutes a failure to protect the interests of mobile children."
+      },
+      {
+        "from_id": "C134",
+        "to_id": "C140",
+        "relationship": "depends-on",
+        "explanation": "The requirement of common meanings for civic discussion is the foundational premise for claiming common learning is a democratic prerequisite."
+      },
+      {
+        "from_id": "C141",
+        "to_id": "C144",
+        "relationship": "depends-on",
+        "explanation": "Effective participation in the economy depends on shared intellectual capital for communication."
+      },
+      {
+        "from_id": "C142",
+        "to_id": "C144",
+        "relationship": "depends-on",
+        "explanation": "If the school is the only institution capable of creating this shared culture, then the educational system must have the duty to do so."
+      },
+      {
+        "from_id": "C145",
+        "to_id": "C147",
+        "relationship": "depends-on",
+        "explanation": "The historical exclusion of religious sectarianism provides the precedent for the author's argument against contemporary ethnic sectarianism."
+      },
+      {
+        "from_id": "C146",
+        "to_id": "C147",
+        "relationship": "depends-on",
+        "explanation": "The theoretical framework of church-state separation is used as the blueprint for mitigating modern cultural divisiveness."
+      },
+      {
+        "from_id": "C147",
+        "to_id": "C152",
+        "relationship": "depends-on",
+        "explanation": "The harm of Romantic ethnicity is established by identifying it as a sectarian threat to public culture."
+      },
+      {
+        "from_id": "C148",
+        "to_id": "C153",
+        "relationship": "depends-on",
+        "explanation": "The hybrid nature of American culture justifies why a cosmopolitan, rather than ethno-centric, school culture is necessary."
+      },
+      {
+        "from_id": "C155",
+        "to_id": "C159",
+        "relationship": "depends-on",
+        "explanation": "The failure of the current 'local control' myth necessitates the implementation of a coherent core curriculum."
+      },
+      {
+        "from_id": "C166",
+        "to_id": "C167",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a fundamental change in public mind follows from the observation that the opposing ideology has 'totalitarian' dominion over the institutional structures of education."
+      },
+      {
+        "from_id": "C169",
+        "to_id": "C170",
+        "relationship": "depends-on",
+        "explanation": "The failure of the laissez-faire model (C170) is framed as the direct result of its reliance on the flawed Romantic theory of 'natural' development (C169)."
+      },
+      {
+        "from_id": "C170",
+        "to_id": "C161",
+        "relationship": "supports",
+        "explanation": "The specific failures of the current model (knowledge gaps, inequalities) justify the normative requirement for a content-rich, step-by-step mastery system."
+      },
+      {
+        "from_id": "C171",
+        "to_id": "C174",
+        "relationship": "supports",
+        "explanation": "The claim that education can diminish economic inequities supports the broader conclusion that enhancing content and commonality improves overall fairness."
+      },
+      {
+        "from_id": "C172",
+        "to_id": "C178",
+        "relationship": "depends-on",
+        "explanation": "The need for universal communicability (C178) is a response to the empirical decline in civility and rise in ethnic hostilities (C172)."
+      },
+      {
+        "from_id": "C178",
+        "to_id": "C179",
+        "relationship": "depends-on",
+        "explanation": "Universal communicability is the mechanism by which common schooling preserves democracy."
+      },
+      {
+        "from_id": "C175",
+        "to_id": "C171",
+        "relationship": "depends-on",
+        "explanation": "The normative goal of reducing economic inequity is motivated by the empirical observation that such inequities have significantly increased."
+      },
+      {
+        "from_id": "C185",
+        "to_id": "C184",
+        "relationship": "depends-on",
+        "explanation": "The biological reality of limited working memory necessitates the automation of basic skills to allow for higher-level conscious processing."
+      },
+      {
+        "from_id": "C187",
+        "to_id": "C186",
+        "relationship": "supports",
+        "explanation": "The failure of multi-year standards to provide accountability necessitates the year-by-year specificity required for the 'democratic version' of the cumulative principle."
+      },
+      {
+        "from_id": "C190",
+        "to_id": "C182",
+        "relationship": "supports",
+        "explanation": "If educational dogmatism is a defensive reaction to failure, the public has a moral grounds to reject the 'never been tried' rhetorical defense."
+      },
+      {
+        "from_id": "C183",
+        "to_id": "C182",
+        "relationship": "supports",
+        "explanation": "Because progressive claims are 'half-truths,' they require a more active moral and civic rejection than obvious falsehoods."
+      },
+      {
+        "from_id": "C181",
+        "to_id": "C189",
+        "relationship": "refines",
+        "explanation": "Separating the sphere of Romantic poetry from the sphere of public education mirrors the separation of the private domain of belief from the public domain of toleration."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C8",
+        "warrant_text": "Process-outcome research and meta-analyses provide an objective measure of pedagogical validity that outweighs anecdotal or theoretical claims.",
+        "is_explicit": true,
+        "vulnerability": "Critics argue that such research often uses standardized metrics that are biased toward traditional instruction."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E6",
+        "claim_id": "C9",
+        "warrant_text": "If cognitive skills are shown to be domain-specific by scientific research, then any educational method predicated on general, transferable skills is empirically invalid.",
+        "is_explicit": false,
+        "vulnerability": "Metacognitive researchers argue that some high-level strategies (like self-regulation) do transfer across domains."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E12",
+        "claim_id": "C17",
+        "warrant_text": "A sharp decline in performance following a specific policy change (like California's reading scores) constitutes a 'natural experiment' that isolates the policy as the cause of failure.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; other variables like demographic shifts or funding changes could explain the decline."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E9",
+        "claim_id": "C20",
+        "warrant_text": "If children enter school with vastly different levels of preparation, 'natural' instruction will inevitably favor those with high home-based intellectual capital, failing the goal of universality.",
+        "is_explicit": true,
+        "vulnerability": "Proponents of naturalism argue that teacher quality and school culture are the true variables, not the naturalistic method itself."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C22",
+        "claim_id": "C21",
+        "warrant_text": "Educational effectiveness is defined by the degree to which learning is secure and universal across all students; high variability in outcomes is a marker of systemic failure.",
+        "is_explicit": false,
+        "vulnerability": "Proponents of naturalism might argue that variability is a sign of successful individualization and student-led inquiry rather than a failure of 'secure' learning."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C29",
+        "claim_id": "C27",
+        "warrant_text": "If high-level cognitive performance in one complex domain (chess) fails to transfer to another (sailing), then the cognitive power resides in the domain-specific information, not in an abstract mental 'muscle'.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that chess and sailing are too dissimilar to disprove the existence of more abstract meta-cognitive strategies that might transfer between more related academic domains."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C36",
+        "claim_id": "C34",
+        "warrant_text": "If children in knowledge-rich environments demonstrate the very 'skills' (critical thinking, learning to learn) that process-oriented schools fail to produce, then those skills are an emergent property of knowledge acquisition.",
+        "is_explicit": false,
+        "vulnerability": "Correlation between knowledge-rich curricula and high skill levels could be caused by other factors, such as higher student socio-economic status or higher teacher quality in those specific schools."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C44",
+        "claim_id": "C46",
+        "warrant_text": "A pedagogical theory is only as valid as its underlying metaphor; if school learning is not like language acquisition, the naturalistic pedagogy loses its justification.",
+        "is_explicit": true,
+        "vulnerability": "The analogy could be partially true, where some aspects of school are natural and others are not, requiring a hybrid rather than a total rejection."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C50",
+        "claim_id": "C47",
+        "warrant_text": "Biological naturalness is evidenced by universality across cultures; if a skill is rare and historically recent, it is a cultural 'artifact' rather than a biological 'unfolding.'",
+        "is_explicit": true,
+        "vulnerability": "Cultural evolution can create environments where 'unnatural' skills are acquired as easily as natural ones through immersion, even if they aren't 'innate.'"
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C52",
+        "claim_id": "C51",
+        "warrant_text": "In a large-scale implementation (California) where only the pedagogical method changed and scores declined significantly, the method itself is the most likely cause of failure.",
+        "is_explicit": false,
+        "vulnerability": "The 'post hoc' fallacy: other variables like changes in student demographics, teacher training, or funding might have coincided with the curriculum change."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C55",
+        "claim_id": "C41",
+        "warrant_text": "If cognitive skills are shown to be domain-specific by neurophysiology, then the capacity to perform a skill is functionally inseparable from the knowledge of the domain.",
+        "is_explicit": false,
+        "vulnerability": "Metacognitive strategies might act as 'force multipliers' that make knowledge acquisition more efficient, even if they don't replace it."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C61",
+        "claim_id": "C62",
+        "warrant_text": "If a cognitive ability is a cultural invention rather than a biological imperative shaped by evolution, it will not manifest without specific environmental intervention.",
+        "is_explicit": true,
+        "vulnerability": "Proponents of 'whole language' argue reading is as natural as speaking if the environment is sufficiently print-rich."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C68",
+        "claim_id": "C67",
+        "warrant_text": "The existence of specific, optimized methods for retention (like distributed practice) proves that memory is a physiological system that requires intentional, repetitive stimulus to change.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that while practice is necessary for rote memory, 'meaningful' learning occurs through sudden insight rather than repetition."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C76",
+        "claim_id": "C75",
+        "warrant_text": "If a skill's efficacy drops significantly when content changes, the skill cannot be considered independent of that content.",
+        "is_explicit": true,
+        "vulnerability": "Poor performance in unfamiliar domains might be due to lack of motivation or familiarity with terminology rather than a fundamental lack of 'skill' transferability."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C80",
+        "claim_id": "C77",
+        "warrant_text": "If existing knowledge increases the speed and capacity of current learning by freeing up cognitive resources, then learning is a self-reinforcing, compounding process.",
+        "is_explicit": false,
+        "vulnerability": "This assumes the 'bottleneck' for learning is always working memory capacity rather than interest, pedagogy, or social factors."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C81",
+        "claim_id": "C89",
+        "warrant_text": "If cognitive science establishes that knowledge is the primary vehicle for learning, then an educational model that treats knowledge as a secondary 'tool' is fundamentally misaligned with human cognition and will cause failure.",
+        "is_explicit": true,
+        "vulnerability": "The 'tool-conception' might be a rhetorical strawman; critics argue that skills and knowledge are inseparable and no one actually teaches tools in a vacuum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C90",
+        "claim_id": "C91",
+        "warrant_text": "Success in international systems that use cumulative principles suggests that the absence of those principles in the U.S. is the causal factor for U.S. failure.",
+        "is_explicit": false,
+        "vulnerability": "International success could be attributed to different cultural values regarding education or more robust social safety nets rather than curricular structure."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C96",
+        "claim_id": "C94",
+        "warrant_text": "Political consensus on 'readiness' goals implies a shared empirical reality that schooling requires specific prerequisites to be effective.",
+        "is_explicit": true,
+        "vulnerability": "The 'Ready to Learn' goal might be a political platitude rather than a scientifically rigorous admission of curricular failure."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C112",
+        "claim_id": "C117",
+        "warrant_text": "A pedagogical method is effectively invalid if it imposes logistical requirements (managing 25 simultaneous tracks) that exceed the capacity of a single teacher in a standard classroom.",
+        "is_explicit": true,
+        "vulnerability": "Assumes the traditional 1-teacher-to-25-student ratio is fixed; technological aids or teaching assistants might make multiple paces manageable."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C108",
+        "claim_id": "C109",
+        "warrant_text": "Research comparing different national systems (like Bishop and Stevenson) correctly identifies the causal mechanisms (tests/incentives) behind those systems' success.",
+        "is_explicit": false,
+        "vulnerability": "Ignores cultural or social variables in those nations that might make incentives effective there but potentially less so in the US."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C111",
+        "claim_id": "C117",
+        "warrant_text": "Instructional methods derived from biological maturation (naturalistic) are inappropriate for skills that are cultural inventions (nonnatural).",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that even 'nonnatural' skills can be acquired through 'natural' curiosity and discovery if the environment is properly scaffolded."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C137",
+        "claim_id": "C135",
+        "warrant_text": "If a significant portion of the population undergoes a specific life experience (mobility) that makes them vulnerable to a system's structure, then maintaining that structure is an injustice.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that the 'injustice' is a lack of curriculum rather than the social and economic conditions causing the mobility."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C131",
+        "claim_id": "C128",
+        "warrant_text": "In a global comparison, if a specific policy (standards) is a universal constant in all successful outcomes and absent in all unsuccessful ones, it is the likely causal mechanism.",
+        "is_explicit": true,
+        "vulnerability": "Ignores confounding variables such as cultural homogeneity, teacher quality, or socio-economic safety nets that vary between nations."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C133",
+        "claim_id": "C128",
+        "warrant_text": "A potential counter-example (Switzerland) that actually possesses the feature (standards) at a different level of granularity confirms rather than refutes the general principle.",
+        "is_explicit": true,
+        "vulnerability": "The lack of national standards in Switzerland might prove that local/canton standards are sufficient, undermining the argument for a national US core."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C123",
+        "claim_id": "C121",
+        "warrant_text": "The quality of an educational system is primarily determined by the quality of the ideas held by its practitioners and trainers.",
+        "is_explicit": false,
+        "vulnerability": "Structural factors like funding, poverty, and local governance might be more significant barriers than the 'ideas' in education schools."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C145",
+        "claim_id": "C147",
+        "warrant_text": "Historical precedent: If a specific type of social division (religion) was successfully mitigated by separating it from the public sphere, a functionally similar division (ethnicity) should be treated the same way.",
+        "is_explicit": true,
+        "vulnerability": "Ethnicity and religion may not be functionally equivalent; religion is a set of beliefs, whereas ethnicity is often an immutable identity with different sociological impacts."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C141",
+        "claim_id": "C144",
+        "warrant_text": "Functionalist Necessity: Any requirement for the survival of a democratic economy becomes a primary duty of the state's primary socializer (the school).",
+        "is_explicit": false,
+        "vulnerability": "Other institutions (media, families, workplaces) might share this duty, and a state's 'duty' is a normative claim that doesn't follow purely from economic utility."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C156",
+        "claim_id": "C159",
+        "warrant_text": "Vacuum Principle: If local control over content does not actually exist in practice, then replacing it with a national core curriculum removes no actual existing autonomy.",
+        "is_explicit": true,
+        "vulnerability": "The absence of a formal local curriculum doesn't mean teachers and schools lack informal autonomy that a core curriculum would restrict."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C172",
+        "claim_id": "C178",
+        "warrant_text": "A shared intellectual framework functions as a 'neutral' public space (lingua franca) that mitigates friction between diverse private or ethnic identities.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'common' content is truly neutral and not just the dominant group's culture imposed on others, which could increase rather than decrease hostility."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C175",
+        "claim_id": "C171",
+        "warrant_text": "If economic success depends on 'intellectual capital,' and schools provide that capital equally, then schools will naturally reduce economic disparities.",
+        "is_explicit": false,
+        "vulnerability": "Ignores structural economic factors—like labor laws, tax policy, and automation—that may drive inequality regardless of educational attainment."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C166",
+        "claim_id": "C167",
+        "warrant_text": "Institutional structures in a democracy cannot be moved by policy alone if the underlying cultural and intellectual 'monopoly' remains unchallenged.",
+        "is_explicit": true,
+        "vulnerability": "Might underestimate the power of legislative mandates (like top-down standards) to change practice even without a 'change of mind' by the professoriat."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C185",
+        "claim_id": "C184",
+        "warrant_text": "Mental bandwidth is a finite resource; cognitive processes that consume this bandwidth prevent other processes from occurring unless they are made automatic.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive load theory might also suggest that 'automation' via drill could lead to rigid knowledge that lacks the flexibility needed for genuine critical thought."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C187",
+        "claim_id": "C186",
+        "warrant_text": "An unmonitored system cannot guarantee specific outcomes; therefore, monitoring must be as granular as the outcomes desired.",
+        "is_explicit": false,
+        "vulnerability": "Increased granularity in monitoring (grade-by-grade) may create perverse incentives for 'teaching to the test' or narrowing the curriculum."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C190",
+        "claim_id": "C182",
+        "warrant_text": "If a professional community uses rhetoric to insulate its core doctrines from empirical scrutiny, that rhetoric loses its standing as a valid intellectual contribution.",
+        "is_explicit": true,
+        "vulnerability": "The author's psychological attribution of 'defensiveness' might be a genetic fallacy, ignoring whether the 'never properly tried' claim is historically accurate in specific cases."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C4",
+        "missing_step": "To move from 'empirical failure' to 'the issue is not ideological,' one must assume that all stakeholders agree on what constitutes a 'successful' outcome.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C17",
+        "missing_step": "The author assumes that because these ideas were dominant at the university level (Teachers College), they were also the actual day-to-day practice in all failed K-12 classrooms.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C9",
+        "to_id": "C20",
+        "missing_step": "Establishing that 'knowing how to learn' is not a general skill does not necessarily mean that discovery-based learning cannot lead to the acquisition of specific content knowledge.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C28",
+        "to_id": "C33",
+        "missing_step": "Establishing that there are no 'meta-cognitive' or 'executive function' skills that, while not content-specific, facilitate the acquisition of new domain knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C24",
+        "to_id": "C25",
+        "missing_step": "The author labels naturalism a 'half-truth' but does not explicitly define which 'half' of the theory is actually true before dismissing it as an error.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C47",
+        "to_id": "C48",
+        "missing_step": "Nonnatural attainments cannot be efficiently acquired through the same immersion methods that work for natural attainments.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C53",
+        "to_id": "C54",
+        "missing_step": "The low math scores in the US are specifically caused by naturalistic teaching methods rather than other factors like teacher quality or social value of math.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "C63",
+        "missing_step": "Informal observation and imitation are insufficient for mastering complex cultural systems like base-ten arithmetic.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C71",
+        "to_id": "C73",
+        "missing_step": "Rule automation has a lower 'ceiling' for performance gains compared to the nearly infinite capacity for schema expansion.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C75",
+        "to_id": "C77",
+        "missing_step": "Because skills are domain-specific, the 'capital' of a domain (knowledge) is the only variable that can be systematically increased to improve performance.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C93",
+        "to_id": "C94",
+        "missing_step": "Establishing that localized, autonomous school districts are incapable of managing the cumulative nature of learning without a central, coherent curriculum.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C89",
+        "to_id": "C100",
+        "missing_step": "A bridge explaining why the 'duty of schools' should specifically be knowledge-based rather than focused on broader social or emotional support for disadvantaged homes.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C101",
+        "to_id": "C106",
+        "missing_step": "Establishing that a lack of readiness in a single grade cannot be fully compensated for in subsequent years without a systemic core curriculum.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C103",
+        "to_id": "C109",
+        "missing_step": "Demonstrating that the benefits of high-stakes accountability outweigh the potential negative side effects like narrowed curricula or teacher stress.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C128",
+        "to_id": "C129",
+        "missing_step": "Establishing that the US's specific form of 'diversity' and 'size' does not create unique obstacles that make common standards impractical despite their success elsewhere.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C137",
+        "to_id": "C135",
+        "missing_step": "Proving that common standards actually improve outcomes for mobile students specifically, rather than just being a theoretical benefit.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C127",
+        "to_id": "C125",
+        "missing_step": "The mechanism by which a 'small cadre' of dissenters can overcome an institutional monopoly entrenched by certification laws and professional associations.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C141",
+        "to_id": "C144",
+        "missing_step": "A centralized domain of communicability is more effective for a modern economy than a decentralized or pluralistic one.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C153",
+        "to_id": "C159",
+        "missing_step": "A curriculum focused on intellectual content will automatically or effectively instill behavioral consensus values like honesty and diligence.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C161",
+        "to_id": "C171",
+        "missing_step": "The common curriculum must be successfully implemented across diverse political and geographic districts to a high degree of fidelity to impact national economic trends.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C178",
+        "to_id": "C179",
+        "missing_step": "Communicability in the public sphere must translate into democratic political action rather than just more efficient marketplace interactions.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C162",
+        "to_id": "C163",
+        "missing_step": "Parents across all socio-economic strata must have the time, resources, and inclination to use these detailed knowledge outlines to intervene in their child's education.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C188",
+        "to_id": "C186",
+        "missing_step": "While Swiss success is linked to low mobility, the US must adopt a common curriculum because its high mobility makes a decentralized system inherently inequitable.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C184",
+        "to_id": "C186",
+        "missing_step": "Establishing that automation is required for thinking (the 'how') necessitates a centralized state or local agreement on *which* specific facts must be automated (the 'what').",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The definition of 'effectiveness' is itself an ideological choice; Romanticists might define effectiveness as fostering creativity or psychological well-being, while the author defines it by academic standards.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C17",
+        "objection": "The 'Never Properly Tried' defense: Progressive reforms failed because they were diluted by bureaucratic systems or implemented by teachers who didn't fully understand the underlying philosophy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C20",
+        "objection": "While naturalistic approaches may be less efficient for skill acquisition, they may be superior for long-term retention and the development of intrinsic motivation.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C21",
+        "objection": "The 'absence of secure and universal learning' is a value judgment. A 'lifelike' naturalistic education prioritizes personal growth, creativity, and the ability to navigate uncertainty over the rote acquisition of a predetermined set of facts.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C27",
+        "objection": "Research on 'near transfer' suggests that while skills don't jump from chess to sailing, they do transfer between related domains (e.g., from Latin to English grammar, or from physics to engineering).",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C33",
+        "objection": "In an 'Information Age' where factual knowledge is instantly accessible, the opportunity cost of spending school time on facts is too high; schools must focus on the skills of vetting and synthesizing information, even if those skills are difficult to master.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C51",
+        "objection": "The decline in California's scores might be attributed to poor implementation and lack of teacher training in 'whole language' rather than the failure of the theory itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C41",
+        "objection": "In the 'Information Age,' the ability to filter, evaluate, and search for information (strategies) is more valuable than storing soon-to-be-obsolete facts in memory.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C48",
+        "objection": "Highly structured 'nonnatural' means (direct instruction) may suppress a child's natural curiosity and long-term love of learning, leading to competence without engagement.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C65",
+        "objection": "Waiting for a child's natural brain maturation may still be necessary even if prior learning is present; biological 'pruning' and myelination are not solely driven by learning tasks.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C67",
+        "objection": "An emphasis on 'repeated effort' and 'focused drill' in early childhood can lead to academic burnout and a loss of intrinsic motivation, ultimately hindering long-term achievement.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C73",
+        "objection": "In some fields, procedural automation is so foundational that failing to achieve it (e.g., in basic arithmetic) creates a 'barrier' that no amount of schema knowledge can overcome.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA4",
+        "targets_claim": "C75",
+        "objection": "While pure content-independence is rare, meta-cognitive 'habits of mind' (like checking for contradictions) show significant transfer across domains once they become habituated.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C89",
+        "objection": "The high correlation between social class and educational success in the U.S. is primarily driven by unequal school funding and neighborhood poverty rather than the theoretical 'tool-conception' of education.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C93",
+        "objection": "The 'insuperable' nature of achievement gaps may be a self-fulfilling prophecy caused by low teacher expectations and 'tracking' students into remedial paths rather than an inherent cognitive snowball effect.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C94",
+        "objection": "Coherent national or state-level policy overrides local community needs and teacher professional judgment, which are essential for student engagement and cultural relevance.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C106",
+        "objection": "Highly specific grade-level definitions can lead to a rigid 'one-size-fits-all' curriculum that ignores the psychological needs of children who develop at different rates, even if those rates aren't 'natural.'",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C109",
+        "objection": "The focus on external incentives and standardized tests can erode intrinsic motivation and lead to 'Goodhart's Law,' where the measure becomes the goal, resulting in inflated scores without real learning.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C117",
+        "objection": "The failure of discovery learning and individual pacing in existing research may reflect poor implementation or lack of resources rather than a fundamental flaw in the theory itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C121",
+        "objection": "The primary barrier to American education is not 'ideas' in ed schools, but systemic inequality and underfunding of schools serving low-income communities.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C129",
+        "objection": "In a nation as politically and culturally polarized as the US, a 'common core' would inevitably become a site of endless ideological conflict, making it less 'practical' than local control.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C140",
+        "objection": "A healthy democracy relies on a diversity of viewpoints and localized knowledge rather than a monolithic 'common culture' imposed from above.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C147",
+        "objection": "Ethnic identity is often a response to systemic exclusion rather than an intentional act of sectarianism; treating it as a 'threat' targets marginalized groups' survival mechanisms.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C153",
+        "objection": "A 'hybrid public culture' in practice often reflects the values of the dominant social class, meaning it is not actually a neutral 'equal footing' for all citizens.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C159",
+        "objection": "Standardizing 'consensus values' like 'independent-mindedness' is paradoxically difficult within a rigid, grade-by-grade mandated core curriculum.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C171",
+        "objection": "The 'Credential Inflation' problem: If everyone obtains higher levels of intellectual capital, the economic system may simply raise the requirements for high-paying jobs, leaving relative economic inequity unchanged.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C178",
+        "objection": "What the author calls 'cosmopolitan culture' is often criticized as a form of cultural erasure that prioritizes Western, Enlightenment perspectives over the lived experiences and histories of minority groups.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C167",
+        "objection": "Waiting for a 'fundamental change of mind' is a recipe for paralysis; incremental policy shifts and structural incentives often precede and cause shifts in public opinion rather than following them.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C186",
+        "objection": "A strict grade-by-grade 'cumulative principle' ignores the wide variance in individual developmental trajectories, potentially labeling children as 'failures' too early.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C182",
+        "objection": "In a decentralized system like the US, it is empirically true that 'progressive' methods have often been implemented in a shallow, piecemeal, or contradictory fashion, making the 'never truly tried' claim a valid empirical point rather than a mere rhetorical defense.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C190",
+        "objection": "The perceived dogmatism in education schools may be a commitment to democratic and social-emotional values that are not easily captured by the narrow empirical metrics the author prioritizes.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Empirical Invalidation of Progressivism",
+        "chain": [
+          "C7",
+          "C8",
+          "C5",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "strong"
+      },
+      {
+        "name": "The Status Quo Fallacy",
+        "chain": [
+          "C1",
+          "C16",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "moderate"
+      },
+      {
+        "name": "Biological Reality vs. Romantic Myth",
+        "chain": [
+          "C9",
+          "C13",
+          "C19",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "The Practical Failure of Naturalism",
+        "chain": [
+          "C22",
+          "C21",
+          "C25"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Domain-Specific Nature of Intellectual Skill",
+        "chain": [
+          "C29",
+          "C28",
+          "C27",
+          "C32",
+          "C33"
+        ],
+        "conclusion_id": "C27",
+        "strength": "strong"
+      },
+      {
+        "name": "The Paradox of Intellectual Capital",
+        "chain": [
+          "C35",
+          "C36",
+          "C39",
+          "C40",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "strong"
+      },
+      {
+        "name": "The Artificiality of Schooling",
+        "chain": [
+          "C50",
+          "C47",
+          "C48",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Skill Dependency",
+        "chain": [
+          "C55",
+          "C57",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Biological Argument against Naturalism",
+        "chain": [
+          "C61",
+          "C62",
+          "C64",
+          "C65"
+        ],
+        "conclusion_id": "C65",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Load Argument for Intellectual Capital",
+        "chain": [
+          "C71",
+          "C72",
+          "C73",
+          "C74",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cumulative Learning Mechanism",
+        "chain": [
+          "C67",
+          "C80",
+          "C79",
+          "C78",
+          "C77"
+        ],
+        "conclusion_id": "C77",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Inevitability of Inequality",
+        "chain": [
+          "C81",
+          "C83",
+          "C84",
+          "C93",
+          "C91"
+        ],
+        "conclusion_id": "C91",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Mandate",
+        "chain": [
+          "C86",
+          "C98",
+          "C99",
+          "C100"
+        ],
+        "conclusion_id": "C100",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Failure of Progressive Pedagogy",
+        "chain": [
+          "C82",
+          "C89",
+          "C94"
+        ],
+        "conclusion_id": "C94",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Grade-Level Readiness Chain",
+        "chain": [
+          "C101",
+          "C104",
+          "C105",
+          "C115",
+          "C106"
+        ],
+        "conclusion_id": "C106",
+        "strength": "strong"
+      },
+      {
+        "name": "The Accountability and Testing Necessity Chain",
+        "chain": [
+          "C102",
+          "C103",
+          "C108",
+          "C119",
+          "C109"
+        ],
+        "conclusion_id": "C109",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Anti-Naturalism Chain",
+        "chain": [
+          "C111",
+          "C110",
+          "C112",
+          "C117"
+        ],
+        "conclusion_id": "C117",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Reform Chain",
+        "chain": [
+          "C123",
+          "C126",
+          "C121",
+          "C124",
+          "C125"
+        ],
+        "conclusion_id": "C121",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Global Empirical Chain",
+        "chain": [
+          "C131",
+          "C133",
+          "C128",
+          "C129",
+          "C130"
+        ],
+        "conclusion_id": "C130",
+        "strength": "strong"
+      },
+      {
+        "name": "The Mobility and Justice Chain",
+        "chain": [
+          "C137",
+          "C136",
+          "C135"
+        ],
+        "conclusion_id": "C135",
+        "strength": "strong"
+      },
+      {
+        "name": "The Civic/Democratic Chain",
+        "chain": [
+          "C134",
+          "C140"
+        ],
+        "conclusion_id": "C140",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Democratic Communication Argument",
+        "chain": [
+          "C141",
+          "C142",
+          "C143",
+          "C144"
+        ],
+        "conclusion_id": "C144",
+        "strength": "strong"
+      },
+      {
+        "name": "The Sectarian Threat Analogy",
+        "chain": [
+          "C145",
+          "C146",
+          "C147",
+          "C149",
+          "C152"
+        ],
+        "conclusion_id": "C152",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Curriculum of Consensus",
+        "chain": [
+          "C155",
+          "C156",
+          "C157",
+          "C158",
+          "C159"
+        ],
+        "conclusion_id": "C159",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Political Necessity of Curricular Change",
+        "chain": [
+          "C166",
+          "C167",
+          "C161"
+        ],
+        "conclusion_id": "C161",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Educational Equality Engine",
+        "chain": [
+          "C170",
+          "C171",
+          "C174"
+        ],
+        "conclusion_id": "C174",
+        "strength": "strong"
+      },
+      {
+        "name": "Social Cohesion through Intellectual Capital",
+        "chain": [
+          "C172",
+          "C178",
+          "C179"
+        ],
+        "conclusion_id": "C179",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Physiological Necessity of Core Knowledge",
+        "chain": [
+          "C185",
+          "C184",
+          "5.C141",
+          "5.C156",
+          "C186"
+        ],
+        "conclusion_id": "C186",
+        "strength": "strong"
+      },
+      {
+        "name": "Accountability and Curricular Design",
+        "chain": [
+          "C187",
+          "2.C68",
+          "2.C82",
+          "C186"
+        ],
+        "conclusion_id": "C186",
+        "strength": "moderate"
+      },
+      {
+        "name": "Social Responsibility to Overturn Orthodoxy",
+        "chain": [
+          "C190",
+          "C183",
+          "3.C11",
+          "C182"
+        ],
+        "conclusion_id": "C182",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.019495,
+    "duration_s": 195.78635668754578
+  }
+}

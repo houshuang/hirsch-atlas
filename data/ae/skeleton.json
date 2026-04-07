@@ -1,0 +1,156 @@
+{
+  "result": {
+    "book_thesis": "American literacy and national unity depend on a shared 'national ethnicity' or 'communicative store' of background knowledge; schools must abandon individualistic 'developmentalism' in favor of a specific, knowledge-based curriculum to ensure social equality and communicative efficiency.",
+    "core_frameworks": [
+      {
+        "id": "national_ethnicity_communicative_store",
+        "name": "National Ethnicity (Communicative Store)",
+        "description": "A functional framework where ethnicity is defined as the shared background knowledge required for rapid, effective communication within a society.",
+        "components": [
+          {
+            "id": "shared_background_knowledge",
+            "name": "Shared Background Knowledge",
+            "description": "Unstated information used by both speaker and listener to bypass long explanations."
+          },
+          {
+            "id": "literacy_as_ethnicity",
+            "name": "Literacy-as-Ethnicity",
+            "description": "The post-Gutenberg equivalent of ethnicity, enabling communication with strangers via the written word."
+          },
+          {
+            "id": "communicative_efficiency",
+            "name": "Communicative Efficiency",
+            "description": "The evolutionary advantage of group survival through high-speed information exchange."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "developmentalism",
+        "name": "Developmentalism (Natural Development)",
+        "description": "The educational theory that learning follows the child's natural 'instincts and powers' rather than social instruction.",
+        "components": [
+          {
+            "id": "child_centered_individualism",
+            "name": "Child-centered Individualism",
+            "description": "The 'I' focused approach to education that prioritizes personal discovery over communal knowledge."
+          },
+          {
+            "id": "guide_on_the_side",
+            "name": "Guide on the Side",
+            "description": "The pedagogical role where teachers facilitate rather than instruct."
+          },
+          {
+            "id": "natural_analogy",
+            "name": "Biological Analogy",
+            "description": "The false comparison between physical body growth and the socialized development of the neocortex."
+          }
+        ],
+        "stance": "author_opposes"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter 1: The Shanker Principle",
+        "predicted_main_argument": "Educational outcomes improve significantly when state curricula move from vague standards to specific knowledge requirements.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "Curricular guides",
+          "Outcome comparisons"
+        ],
+        "connects_to": [
+          "Chapter 9"
+        ]
+      },
+      {
+        "chapter": "Chapter 2 & 3: Developmentalism",
+        "predicted_main_argument": "The dominant educational philosophy of developmentalism is responsible for the decline in American literacy and the failure of school-based equality.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "Intellectual history",
+          "Critique of pedagogical theory"
+        ]
+      },
+      {
+        "chapter": "Chapter 6: The Most Decisive Educational Experiment in History",
+        "predicted_main_argument": "Data from specific historical educational implementations proves that a shared-ethnicity curriculum outperforms developmentalist models.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "Experimental data",
+          "Comparative student scores"
+        ]
+      },
+      {
+        "chapter": "Chapter 7: Ethnicity and Literacy: Six Decades of Research",
+        "predicted_main_argument": "Longitudinal research confirms that the black-white literacy gap is a result of knowledge deficits that schools fail to address through current theories.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "Sociological studies",
+          "Historical achievement data"
+        ]
+      },
+      {
+        "chapter": "Chapter 10: American Ethnicity Through Grade 8",
+        "predicted_main_argument": "A structured, grade-by-grade knowledge sequence provides the practical roadmap for restoring national literacy and social cohesion.",
+        "role_in_book": "proposes_solution",
+        "expected_evidence_types": [
+          "Curriculum sequences",
+          "Pedagogical recommendations"
+        ]
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Ethnicity",
+        "definition": "A learned constellation of knowledge and skills that enables social communication and group allegiance.",
+        "source_passage": "Shared ethnicity makes for high efficiency... an accurate interpretation of what is said depends upon both speaker and listener sharing a lot of unstated knowledge."
+      },
+      {
+        "term": "Communicative Store",
+        "definition": "A purely functional, descriptive label for the body of knowledge that allows members of a nation to understand one another.",
+        "source_passage": "I use a purely functional, descriptive label for American Ethnicity. I name it 'the communicative store.'"
+      },
+      {
+        "term": "Developmentalism",
+        "definition": "The dominant theory in education schools that posits learning as a natural internal process rather than external instruction.",
+        "source_passage": "current brain studies show that the 'natural' development of the young human is not fostered when she is encouraged to go her own way."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Ernest Gellner",
+        "relationship": "builds_on",
+        "contribution": "Argued that school-transmitted culture is the only thing that confers dignity and usability on modern industrial man."
+      },
+      {
+        "name": "Karl Deutsch",
+        "relationship": "builds_on",
+        "contribution": "Defined nationalism and unity as products of 'communicative complementarity' and shared background knowledge."
+      },
+      {
+        "name": "Robert Putnam",
+        "relationship": "builds_on",
+        "contribution": "Provided the framework for the American shift 'From I to We' and the need to restore communal social capital."
+      },
+      {
+        "name": "John Dewey",
+        "relationship": "opposes",
+        "contribution": "The source of the idea that education should follow the child's natural 'instincts and powers,' which the author critiques."
+      },
+      {
+        "name": "Daniel Willingham",
+        "relationship": "builds_on",
+        "contribution": "Provided the cognitive science foundation that reading tests are actually tests of background knowledge."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0011828000000000001,
+    "input_tokens": 5584,
+    "output_tokens": 1561,
+    "duration_s": 14.08272910118103,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

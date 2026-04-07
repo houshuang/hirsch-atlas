@@ -1,0 +1,107 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author establishes a specific normative framework for curriculum change based on medical ethics ('First, do no harm'), creating a higher burden of proof for reformers than for the status quo.",
+        "source_passage": "Culture warriors who believe that we must multi-culturize the American grapholect have some basic ethical obligations in addition to their cultural aims. Like physicians they should resolve: 'First, do no harm.'",
+        "importance": "critical",
+        "suggested_claim": "Curriculum reformers have a moral and ethical burden, analogous to the Hippocratic Oath, to prove that their changes do not harm students' economic or linguistic competence before implementation.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "The author argues that the stability of a grapholect is not just a historical fact but a self-reinforcing social feedback loop driven by the 'entrenchment' of successful individuals.",
+        "source_passage": "A majority of successful persons within a nation do master the existing national grapholect, making it more entrenched with each passing decade.",
+        "importance": "significant",
+        "suggested_claim": "The dominance of a national grapholect is self-perpetuating because social and professional success is tied to its mastery, further entrenching it as the standard.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author uses a thought experiment about a 'Yankee' moving to Mexico to argue that biculturalism is a functional requirement of immigration and success, not an ideological choice.",
+        "source_passage": "If that situation were reversed and I, a Yankee, decided to emigrate to Mexico... to be successful, I’d need to master the Hispanic grapholect of my new country... That’s biculturalism, not multiculturalism.",
+        "importance": "significant",
+        "suggested_claim": "Mastery of a host nation's grapholect and shared knowledge is a functional necessity for immigrant success, regardless of the individual's original ethnicity.",
+        "suggested_claim_level": "pragmatic"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C30",
+        "problem": "The claim states Chaucer is 'largely unintelligible,' which is an exaggeration of the author's more nuanced phrasing.",
+        "source_passage": "It’s true that we can’t read medieval Chaucer very well.",
+        "suggested_fix": "While modern readers can read 18th-century English with ease, medieval English (Chaucer) presents significant difficulty for the contemporary reader."
+      },
+      {
+        "claim_id": "C20",
+        "problem": "The claim focuses on 'desirability,' but the author's point is a pragmatic constraint on the *quantity* of curricular changes.",
+        "source_passage": "Symbolic new inclusions that gain acceptance are of course desirable so long as they are not so numerous as to compromise the child’s literacy.",
+        "suggested_fix": "The inclusion of new symbolic cultural content in the curriculum must be limited in scope to ensure it does not displace the volume of shared knowledge required for literacy."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E6",
+        "claim_id": "C19",
+        "missing_warrant": "The preferences and actions of parents (the primary 'customers' of education) are a valid indicator of what the state's actual educational duty should be."
+      },
+      {
+        "evidence_id": "E1",
+        "claim_id": "C5",
+        "missing_warrant": "The ability of a modern reader to comprehend a 300-year-old text is a sufficient proxy for measuring the overall stability of a national language system."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C11",
+        "counter_argument": "Initial literacy instruction in a student's native or tribal language (mother-tongue-based multilingual education) is often argued by linguists to provide a better cognitive foundation for eventually learning a national language like English.",
+        "why_important": "This is the primary academic argument used to support the Nigerian policy Hirsch decries; addressing it is necessary for a complete rebuttal."
+      },
+      {
+        "targets_claim": "C2",
+        "counter_argument": "The 'ease' of navigating multiple contexts (code-switching) can cause significant cognitive load and psychological stress ('linguistic insecurity') for minority groups, making biculturalism more taxing than Hirsch suggests.",
+        "why_important": "It challenges the author's psychological premise that biculturalism is a 'low-cost' solution to social cohesion."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C12",
+          "C19"
+        ],
+        "action": "merge",
+        "explanation": "Both claims assert that schools have a primary moral/normative duty to teach shared national knowledge; they are essentially the same argument repeated for emphasis."
+      },
+      {
+        "claim_ids": [
+          "C13",
+          "C16"
+        ],
+        "action": "merge",
+        "explanation": "Both claims define the ethical/pragmatic restriction on changing the curriculum based on the potential harm to student competence."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C10",
+        "current_level": "empirical",
+        "correct_level": "theoretical",
+        "explanation": "The author presents the causal link between the 'cult of ethnicity' and declining scores as an assertion of interpretation rather than citing a direct empirical study that isolates this specific variable."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is strong on identifying the individual points regarding grapholect stability and the criticism of the 'cult of ethnicity.' However, it misses the author's systemic use of medical ethics (First-Do-No-Harm) as a logical gatekeeper. It also oversimplifies the author's nuanced view on biculturalism (which he frames as a necessity for immigrants) and fails to address the most common pedagogical counter-arguments regarding native-language instruction in post-colonial contexts like Nigeria."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0012197,
+    "input_tokens": 6141,
+    "output_tokens": 1514,
+    "duration_s": 17.633270025253296,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

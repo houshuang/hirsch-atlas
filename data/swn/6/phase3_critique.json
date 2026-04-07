@@ -1,0 +1,145 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author presents a specific analogy between the 'Sonnet' and the 'Objective Test' to argue that formal constraints do not dictate the intellectual depth of a medium.",
+        "source_passage": "Those same humanists would think people uninformed (to put it mildly) if they claimed that the sonnet is a fragmenting and trivializing form of poetry just because it is fourteen lines long and has strict formal limits. A sonnet sequence can accomplish epic ambitions, and a sequence of objective questions can swiftly gauge the depth and breadth of a person’s knowledge.",
+        "importance": "significant",
+        "suggested_claim": "The formal constraints of multiple-choice tests do not inherently limit their intellectual depth, just as the strict constraints of a sonnet do not preclude epic thematic ambitions.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the 'Augustinian' view of human nature provides a more accurate psychological basis for education than the 'Romantic' view because it accounts for the necessity of effort and external spurs.",
+        "source_passage": "Learning requires effort. Tests that carry high consequences have been shown over and over again to act as spurs to effort—a fact that (to the distress of all Romantics) tends to support the Augustinian view of human nature.",
+        "importance": "critical",
+        "suggested_claim": "The empirical success of high-stakes testing in motivating student effort validates an Augustinian view of human nature, which acknowledges the need for external discipline, over the Romantic view of natural inclination.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author establishes a prerequisite sequence for educational reform: intellectual change must precede structural or practical improvement.",
+        "source_passage": "Since mistaken ideas have been the root cause of America’s educational problems, the ideas must be changed before the problems can be solved.",
+        "importance": "critical",
+        "suggested_claim": "Educational improvement is impossible without first repudiating the theoretical 'mistaken ideas' (Romantic progressivism) that underpin current failures.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the marketplace is not just a consumer of graduates, but the historical engine that creates common languages (lingua francas) necessary for democracy.",
+        "source_passage": "The marketplace is a commons. It erases ethnic distinctions. It has been the creator of the great lingua francas of the world—Koine (the language of the New Testament), Latin, and, now, English.",
+        "importance": "significant",
+        "suggested_claim": "The marketplace functions as a democratic commons by generating hybrid lingua francas that allow communication between strangers, transcending ethnic and cultural barriers.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C69",
+        "problem": "The extraction presents 'smear campaign' as a definitive empirical description rather than the author's polemical characterization of his opponents' motives.",
+        "source_passage": "That being so, what will be left if the smear campaign against multiple-choice tests continues without challenge?",
+        "suggested_fix": "The author characterizes the opposition to multiple-choice tests as a smear campaign intended to dismantle all forms of reliable accountability."
+      },
+      {
+        "claim_id": "C102",
+        "problem": "The claim states tests correlate with 'high-quality ones', but Hirsch's point is their correlation with 'real-world' ability despite their internal flaws.",
+        "source_passage": "But at the present time, even the worst standardized reading tests, with all their faults, correlate well with the best ones—and with real-world reading abilities.",
+        "suggested_fix": "Standardized reading tests, regardless of their internal quality, show high correlation with actual real-world reading proficiency."
+      },
+      {
+        "claim_id": "C156",
+        "problem": "The extraction omits the nuance that Hirsch sees basic skills not just as a foundation, but as 'no bar' to higher skills.",
+        "source_passage": "Basic skills are no bar to higher skills but are in fact their only possible foundation.",
+        "suggested_fix": "Acquisition of basic skills is the indispensable foundation for higher-order thinking and does not impede the development of those higher skills."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E54",
+        "claim_id": "C187",
+        "missing_warrant": "Vocabulary is the single most effective proxy for a student's total 'intellectual capital' and general knowledge, making the SAT verbal section a valid measure of academic preparation."
+      },
+      {
+        "evidence_id": "E26",
+        "claim_id": "C96",
+        "missing_warrant": "When a system removes individual accountability (matrix testing) while simultaneously abandoning explicit instructional methods (naturalistic reading), it creates an accountability vacuum that inevitably leads to performance collapse."
+      },
+      {
+        "evidence_id": "E58",
+        "claim_id": "C201",
+        "missing_warrant": "The common factor in high-performing international systems is not a specific ideology (meritocracy vs. egalitarianism) but the structural presence of high-stakes monitoring and coherent curricula."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C117",
+        "counter_argument": "The psychological and financial cost of developing, validating, and statistically equating eight parallel forms annually is prohibitive for most local school districts.",
+        "why_important": "Hirsch presents parallel forms as an 'easy' and 'cheap' fix, but psychometric equating is a highly technical and expensive barrier he overlooks."
+      },
+      {
+        "targets_claim": "C82",
+        "counter_argument": "Editing skill is a 'recognition' task, whereas high-level writing is a 'production' task; high correlation between the two does not mean they are the same cognitive process.",
+        "why_important": "This challenges Hirsch's claim that multiple-choice editing tests are a sufficient proxy for 'excellence in writing'."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C43",
+          "C44"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe the exact same statistical finding from the Diederich study regarding the .40 correlation among raters."
+      },
+      {
+        "claim_ids": [
+          "C113",
+          "C115"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that there is tacit collusion to keep test scores inaccurately high; they are verbatim duplicates."
+      },
+      {
+        "claim_ids": [
+          "C89",
+          "C91"
+        ],
+        "action": "merge",
+        "explanation": "Both claims assert that setting educational goals is the duty of society/parents/teachers rather than test-makers."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C216",
+        "current_level": "meta",
+        "correct_level": "theoretical",
+        "explanation": "The Augustinian view of human nature functions here as a theoretical psychological model for explaining why students respond to test incentives."
+      },
+      {
+        "claim_id": "C122",
+        "current_level": "normative",
+        "correct_level": "pragmatic",
+        "explanation": "This is a prediction of real-world consequences (less equity, lower competence) based on a policy change, not a statement of value or duty."
+      },
+      {
+        "claim_id": "C187",
+        "current_level": "empirical",
+        "correct_level": "theoretical",
+        "explanation": "Describing the SAT as 'essentially a vocabulary test' is a theoretical reduction used to argue for the importance of intellectual capital, not just a raw data point."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally detailed but suffers from minor redundancies (duplicate claims) and occasionally misses the author's higher-level meta-arguments, such as the Augustinian/Romantic dichotomy and the Sonnet analogy. It successfully captures the complex relationships between the economic arguments of Ferguson and the pedagogical arguments regarding objective testing."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0054241,
+    "input_tokens": 46261,
+    "output_tokens": 1995,
+    "duration_s": 22.590867042541504,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

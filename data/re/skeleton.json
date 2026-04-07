@@ -1,0 +1,141 @@
+{
+  "result": {
+    "book_thesis": "The decline in American literacy and social cohesion results from a shift from Enlightenment-based 'Common Schools' to 'Romantic' child-centered education. The author argues for a return to a cumulative, shared-knowledge curriculum to cultivate 'literate patriots' and restore democratic stability.",
+    "core_frameworks": [
+      {
+        "id": "common_school_model",
+        "name": "The Enlightenment Common School",
+        "description": "An educational approach based on Enlightenment values of reason, shared factual knowledge, and a skepticism toward human nature.",
+        "components": [
+          {
+            "id": "shared_background_knowledge",
+            "name": "Shared Background Knowledge",
+            "description": "A common curriculum of science, history, and moral tales that provides the necessary context for literacy."
+          },
+          {
+            "id": "literate_patriotism",
+            "name": "Literate Patriotism",
+            "description": "The goal of creating citizens who use reason and empathy to resist political passion and rhetoric."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "romantic_child_centered_model",
+        "name": "Romantic Child-Centered Education",
+        "description": "A progressive educational theory influenced by Hegel and Dewey that prioritizes a child's natural instincts and individual choice over a structured common curriculum.",
+        "components": [
+          {
+            "id": "natural_development",
+            "name": "Natural Development",
+            "description": "The belief that education should follow the child's innate interests and 'holy' instincts."
+          },
+          {
+            "id": "reading_levels_lexiles",
+            "name": "Reading Levels and Lexiles",
+            "description": "Scientifically unsound measures used to facilitate individual choice in reading rather than shared content."
+          }
+        ],
+        "stance": "author_opposes"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter 1: The Ratchet Effect and the Norway Principle",
+        "predicted_main_argument": "Success in diverse school settings like the South Bronx demonstrates that shared knowledge is more effective than child-centered approaches.",
+        "role_in_book": "case_study",
+        "expected_evidence_types": [
+          "School performance data",
+          "Anecdotal success stories (Jeff Litt)"
+        ],
+        "connects_to": [
+          "Chapter 6",
+          "Appendix III"
+        ]
+      },
+      {
+        "chapter": "Chapter 3: History's Most Decisive Educational Experiment",
+        "predicted_main_argument": "Large-scale national shifts in curriculum provide empirical proof that common knowledge improves literacy outcomes.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "Historical data",
+          "National literacy trends"
+        ]
+      },
+      {
+        "chapter": "Chapter 4: Why Romantic Schooling Must Go",
+        "predicted_main_argument": "The philosophical foundations of Romanticism are ill-suited for educational policy and lead to social inequity.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "Philosophical critique",
+          "Historical analysis"
+        ]
+      },
+      {
+        "chapter": "Chapter 6: The Ratchet Effect and the Fateful Early Grades",
+        "predicted_main_argument": "Early gaps in background knowledge create a cumulative disadvantage that is difficult to reverse in later years.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "Cognitive science",
+          "Developmental psychology"
+        ],
+        "connects_to": [
+          "Chapter 1"
+        ]
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Literate Patriot",
+        "definition": "A citizen educated in common facts, history, and ethics, capable of using reason to sustain democracy and empathy for others.",
+        "source_passage": "The aim of the common school was to form literate, ethical patriots."
+      },
+      {
+        "term": "Romanticism",
+        "definition": "An intellectual reaction to the Enlightenment that values instinct, emotion, and 'natural' development over reason and historical instruction.",
+        "source_passage": "The new ideas proposed that we must no longer rely on mere reason. Our instincts and our strong emotions could be trusted."
+      },
+      {
+        "term": "The Ratchet Effect",
+        "definition": "A mechanism (implied to be educational) where early advantages or disadvantages in knowledge acquisition create self-reinforcing trajectories.",
+        "source_passage": "The Ratchet Effect and the Fateful Early Grades"
+      },
+      {
+        "term": "Lexiles",
+        "definition": "Scientifically incorrect reading measures used by child-centrists to categorize texts for individualized reading choice.",
+        "source_passage": "they created unsound reading measures called 'Lexiles.'"
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "The Founding Fathers",
+        "relationship": "builds_on",
+        "contribution": "Established the Enlightenment-based 'common school' to ensure a stable democracy through skeptical inquiry into human nature."
+      },
+      {
+        "name": "John Dewey",
+        "relationship": "opposes",
+        "contribution": "Introduced child-centered progressivism and the belief in inherent historical progress, which the author argues led to the current literacy decline."
+      },
+      {
+        "name": "G.W.F. Hegel",
+        "relationship": "opposes",
+        "contribution": "Provided the philosophical basis for the 'march of progress' and influenced Dewey's naturalistic educational theories."
+      },
+      {
+        "name": "Albert Shanker",
+        "relationship": "builds_on",
+        "contribution": "Union leader who advocated for statewide curriculum frameworks and recognized the need for shared background knowledge for disadvantaged children."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0009043,
+    "input_tokens": 3431,
+    "output_tokens": 1403,
+    "duration_s": 13.161575078964233,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

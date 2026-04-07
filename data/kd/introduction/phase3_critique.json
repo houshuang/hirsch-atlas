@@ -1,0 +1,85 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author establishes a specific developmental distinction between decoding and comprehension as a theoretical framework for his predictions.",
+        "source_passage": "The gist of the article is that nine-year-olds have measurably improved in speed and accuracy at sounding out words, but thirteen-year-olds have not shown any advance in reading comprehension—a result that is forecast and explained here.",
+        "importance": "critical",
+        "suggested_claim": "The transition from decoding (sounding out words) to comprehension is a qualitative shift in reading development that requires a shift from phonetic skills to background knowledge.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author draws a direct historical analogy between the abolition of primogeniture and the goal of educational equity.",
+        "source_passage": "Thomas Jefferson urged the Virginia legislature to abolish primogeniture—the principle that the advantaged oldest son automatically inherits everything. If we fail in our traditional aim of providing equal opportunity to all children at the beginning of life, we fail in our duty to preserve what is best in our inheritance",
+        "importance": "significant",
+        "suggested_claim": "The uneven distribution of background knowledge in children is a modern form of primogeniture that violates the democratic principle of equal opportunity.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "The author argues that the 'importance of ideas' is a causal driver of educational systems, independent of the 'importance of knowledge' itself.",
+        "source_passage": "That structure has been lacking in the United States since the 1940s, mainly because one set of ideas has triumphed over another. The importance of ideas and the importance of knowledge are twin themes of this book.",
+        "importance": "significant",
+        "suggested_claim": "Institutional structures in American education are determined by the prevailing ideological frameworks (ideas) of the era, rather than just technical or material factors.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C17",
+        "problem": "The claim overstates the role of parents as the primary actors, whereas the text describes them as a necessary political catalyst for professional action.",
+        "source_passage": "Parents and citizens have the political power to insist on altering received ideas and practices, since without wide public support, no significant educational reform can occur. But in the end, it is the professionals—teachers and administrators—who will carry out the reform.",
+        "suggested_fix": "Public support from parents and citizens is a necessary political precondition for reform, but the execution of that reform remains the responsibility of educational professionals."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "missing_warrant": "Interventions targeted at older students (remediation) cannot compensate for the absence of cumulative knowledge acquisition that must occur during earlier developmental windows (grades 1-5)."
+      },
+      {
+        "evidence_id": "N/A",
+        "claim_id": "C12",
+        "missing_warrant": "Information technology is an instrumental tool whose effective use is contingent upon the user's prior internal cognitive schemata (broad knowledge)."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C8",
+        "counter_argument": "A nationalized or standardized cumulative knowledge structure conflicts with the American tradition of local control and may lead to a rigid curriculum that ignores cultural or regional diversity.",
+        "why_important": "It addresses the political and structural barriers to the author's primary solution which he attributes mostly to 'ideas' rather than governance structures."
+      },
+      {
+        "targets_claim": "C7",
+        "counter_argument": "Research on 'metacognition' suggests that comprehension strategies provide students with a transferable toolkit to unlock meaning in unfamiliar texts, even when their domain-specific knowledge is low.",
+        "why_important": "It challenges the author's strict dichotomy between 'knowledge-oriented' and 'process-oriented' schooling."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C10",
+          "C12"
+        ],
+        "action": "merge",
+        "explanation": "Both claims express the same normative hierarchy: that the knowledge gap is a more fundamental barrier to democratic competence than material/technological gaps (the digital divide)."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction captures the primary thesis and the empirical evidence regarding reading scores well. However, it misses the author's deeper historical and ideological arguments (Jefferson/Primogeniture and the 'power of ideas'). It also tends to list claims without identifying the underlying warrants that link the 'knowledge deficit' to the failure of 'power literacy' classes."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.000793,
+    "input_tokens": 3198,
+    "output_tokens": 1183,
+    "duration_s": 19.475419998168945,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

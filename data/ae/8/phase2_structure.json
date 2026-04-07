@@ -1,0 +1,699 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C11",
+        "to_id": "C14",
+        "relationship": "depends-on",
+        "explanation": "The claim that education amended the natural law of linguistic change requires establishing what that natural law (constant change) is first."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "Evidence of pre-19th century divergence serves as the baseline for showing how modern education halted that process."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "To argue that ethnicities are defined by school-taught language, one must first establish that these languages are artificial political constructs."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The codependency of borders and language supports the idea that 'ethnicity' is an administrative and educational product rather than a biological one."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The correlation between wealth and literacy provides the 'usability' and economic justification for the claim that school culture confers dignity."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C85",
+        "relationship": "supports",
+        "explanation": "Historical precedent of successful top-down normalization is used to justify modern leaders' duty to impose similar compromises."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic call for state-level curriculum sequencing relies on the normative premise that leaders have the authority to impose linguistic and curricular standards."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "If linguistic uniformity is a self-conscious arrangement, it follows that states should consciously cooperate to maintain it."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "To argue that the monolingual nation is a necessity of the industrial state, one must first show that earlier agrarian states functioned differently without that necessity."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The need for perpetual economic advance and occupation changes in industrial society provides the functional pressure for a unified language."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "Large-scale communication is identified as the enabler of the modern nation and specialized industry."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "If the monolingual nation is a functional necessity, then education systems must serve as the mechanism to instill that shared linguistic and ethnic core."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "The requirement for written, context-free, impersonal communication necessitates universal literacy as a prerequisite."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C26",
+        "relationship": "instantiates",
+        "explanation": "The standardize nature of modern education reflects the functional requirement for a generally sophisticated, retrainable workforce."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C30",
+        "relationship": "supports",
+        "explanation": "The existence of a shared lexicon for science and math provides evidence for the 'international' domain of vocabulary."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C30",
+        "relationship": "supports",
+        "explanation": "Shared cultural figures like 'Scrooge' provide evidence for the 'trans-national' domain of vocabulary."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C16",
+        "relationship": "supports",
+        "explanation": "The activity of normative theoreticians (grammar/dictionary writers) explains why English remained more stable than linguists expected."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "The necessity of standardization for economic success (C34) is predicated on the theoretical premise that a nation cannot function without it (C36)."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "China's economic rise and PISA success serve as empirical evidence for the claim that standardization drives modern economic functionality."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "Universal education can only fix language (C12) if the specific mechanism of schooling (spelling/pronunciation drills) successfully prevents dialectical drift (C39)."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The historical use of 'purification' metaphors to hide the practical work of fixing grammar supports the idea that these languages are artificial constructs."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C48",
+        "relationship": "instantiates",
+        "explanation": "The specific examples of Johnson and Webster illustrate the broader point that English standardization was achieved through indirect, non-governmental means."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "The analogy to arbitrary scientific standards like the meter provides the logical basis for the claim that the fact of commonality outweighs the specific choice of the standard."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "The persistence of the linguistically pointless 's' in 'runs' illustrates how language normalizers fix a standard at a specific stage of evolution."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C64",
+        "relationship": "supports",
+        "explanation": "The fact that oral dialects develop more rational verb forms while the national standard remains fixed demonstrates the fundamental difference between the two."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C64",
+        "relationship": "depends-on",
+        "explanation": "The claim that national languages are different from dialects relies on the premise that they require conscious codification by theoreticians."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "The historical fixing of illogical grammar patterns suggests that the function of commonality is more vital than the internal logic of the choices."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The principle that commonality outweighs intrinsic value in language is applied as a rule for determining new additions to shared knowledge."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C71",
+        "relationship": "supports",
+        "explanation": "The analogy to the arbitrary length of the meter bar supports the idea that sticking to a choice is more important than the initial reason for the choice."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "If sticking to an arbitrary choice is the primary goal, then legislators have a clear path to fulfilling their duty by setting specific sequences."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "Pragmatic benefits like social harmony provide the normative justification for legislators to act despite the arbitrariness of the content."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C75",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that wide communicability depends on shared ethnicity assumes that modern ethnicity is itself a product of linguistic standardization."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "If the value of shared knowledge is its flexibility for any rhetorical purpose, then that shared store is the prerequisite for the wide communicability of those various purposes."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "The empirical observation that literacy inhibits change provides the mechanism by which intentional standardization can suspend linguistic decay."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C76",
+        "relationship": "depends-on",
+        "explanation": "For modern ethnicity to be based on language standardization, it must be possible to actually achieve and maintain that standardization against natural linguistic drift."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The internalization of arbitrary curricular decisions into 'identity' explains how a 'shared ethnicity' is constructed to facilitate communication."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E6",
+        "claim_id": "C14",
+        "warrant_text": "If a predicted natural divergence (based on historical laws) fails to occur after a specific social intervention (universal education), that intervention is the causal stabilizing factor.",
+        "is_explicit": true,
+        "vulnerability": "Other modern factors like mass media, radio, and increased travel also facilitate linguistic homogenization independently of schools."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C2",
+        "warrant_text": "When groups with similar historical/geographic roots diverge into distinct identities along the exact lines of their school-taught languages, language is the primary variable defining the ethnicity.",
+        "is_explicit": false,
+        "vulnerability": "Political history and divergent economic systems in Mexico vs. Brazil may be the primary cause of ethnic distinction, with language being a secondary symptom."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E26",
+        "claim_id": "C85",
+        "warrant_text": "Technical standards (like the meter) prove that arbitrary social conventions are highly beneficial for collective efficiency, justifying state-imposed linguistic and curricular standards.",
+        "is_explicit": true,
+        "vulnerability": "Linguistic and cultural curriculum carries moral and political values that a physical measurement standard (the meter) does not."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "warrant_text": "Abrupt shifts in language that perfectly align with political borders, rather than gradual geographic gradients, prove that language is a political artifice.",
+        "is_explicit": false,
+        "vulnerability": "Borders might be drawn along existing linguistic lines rather than the borders creating the linguistic lines."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C19",
+        "claim_id": "C17",
+        "warrant_text": "Economic and political structures are primarily shaped by the functional requirements of their dominant mode of production (Industrialism).",
+        "is_explicit": true,
+        "vulnerability": "Functionalist explanations may overlook cultural, religious, or idiosyncratic political factors that lead to nation-building regardless of industrial efficiency."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C27",
+        "claim_id": "C26",
+        "warrant_text": "If states with opposing ideologies (totalitarian vs democratic) both implement a costly policy, that policy must be a non-negotiable functional requirement for economic survival.",
+        "is_explicit": false,
+        "vulnerability": "Totalitarian regimes may implement universal education for indoctrination and social control rather than economic functionalism."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C16",
+        "claim_id": "C24",
+        "warrant_text": "Observed stability in a system that is naturally prone to change implies the existence of a continuous stabilizing intervention (prescriptive literacy).",
+        "is_explicit": true,
+        "vulnerability": "Stability might be caused by increased mass communication and media (radio/film) rather than the influence of 'normative theoreticians'."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E5",
+        "claim_id": "C12",
+        "warrant_text": "If an expert prophecy from a century ago regarding the cessation of linguistic change has largely held true, then the institutional force identified (universal education) is the most likely stabilizing agent.",
+        "is_explicit": false,
+        "vulnerability": "Linguistic stability might be caused by mass media or increased mobility rather than classroom instruction specifically."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E28",
+        "claim_id": "C12",
+        "warrant_text": "If minor changes introduced by a single educator (Webster) can become the permanent national standard through textbooks, then educational systems possess the power to override natural linguistic evolution.",
+        "is_explicit": true,
+        "vulnerability": "Webster's success may have been a unique historical fluke of post-revolutionary American identity rather than a universal law of schooling."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C37",
+        "claim_id": "C34",
+        "warrant_text": "In a modern global economy, the correlation between a nation's high standardized test scores (PISA) and its economic growth suggests a causal link between educational standardization and industrial power.",
+        "is_explicit": false,
+        "vulnerability": "Economic prosperity in China could be driven by capital investment and trade policy regardless of linguistic uniformity."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C47",
+        "claim_id": "C41",
+        "warrant_text": "If a national language can be traced back to a specific royal decree or a specific court dialect (Castilian) enforced through dictionaries, then the language is a product of political intent rather than organic cultural growth.",
+        "is_explicit": true,
+        "vulnerability": "A standard may be a 'construct,' but the spoken vernacular it attempts to regulate remains 'natural' and often resistant to the construct."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C56",
+        "claim_id": "C67",
+        "warrant_text": "A system's value for coordination and communication is independent of the internal logic or 'rationality' of its specific components.",
+        "is_explicit": true,
+        "vulnerability": "Educational content, unlike grammar, often carries truth-claims; if the content is 'irrational' or false, its commonality may be harmful rather than helpful."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C62",
+        "claim_id": "C63",
+        "warrant_text": "The cost of re-learning and the loss of access to existing cultural stores (like printed literature) outweigh the benefits of correcting historical errors.",
+        "is_explicit": false,
+        "vulnerability": "Digital technology and automated tools could theoretically lower the cost of 'correcting' standards like spelling or grammar."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C69",
+        "claim_id": "C71",
+        "warrant_text": "Standardization is a 'coordination game' where the primary benefit is derived from everyone using the same reference point, regardless of where that point is located.",
+        "is_explicit": true,
+        "vulnerability": "The meter bar is a measurement of physical reality; school curriculum involves values and interpretations where 'where the point is' matters deeply to different social groups."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C80",
+        "claim_id": "C79",
+        "warrant_text": "If a written standard can force the retention of silent or 'learned' letters (like the 'b' in debt) against oral pressure, then literacy acts as a conservative force that overrides natural phonetic evolution.",
+        "is_explicit": false,
+        "vulnerability": "Oral language may continue to drift and diverge from the written standard, eventually leading to a diglossic situation rather than stabilization."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C73",
+        "claim_id": "C75",
+        "warrant_text": "The 'meter bar' principle: The specific content of a standard is less important than the fact that everyone uses the same standard.",
+        "is_explicit": true,
+        "vulnerability": "Unlike a meter bar, cultural and linguistic 'standards' carry social and political values that are not neutral to all participants."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C14",
+        "to_id": "C1",
+        "missing_step": "Linguistic stability created by schools is the primary source of personal dignity and self-respect, rather than family or community recognition.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C7",
+        "to_id": "C85",
+        "missing_step": "The methods used by 18th-century absolute monarchs and academies are appropriate and replicable for 21st-century democratic education policy.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C23",
+        "to_id": "C21",
+        "missing_step": "The technical need for 'standardized language' implies a need for 'shared ethnicity' (cultural stories, myths, and history).",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C19",
+        "to_id": "C17",
+        "missing_step": "A single national language is the only way to facilitate wide circles of communication in a multi-dialect region.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C37",
+        "to_id": "C34",
+        "missing_step": "Standardization is the primary or necessary cause of China's economic rise, rather than one of many contributing factors.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C34",
+        "missing_step": "Fixed grammar and spelling directly translate into the type of 'context-free' communication required by modern industry.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C41",
+        "to_id": "C52",
+        "missing_step": "The fact that a language was deliberately constructed in the past implies that we must strictly adhere to those historical precedents today.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C67",
+        "to_id": "C68",
+        "missing_step": "The functional requirements of linguistic grammar (where arbitrary rules are acceptable) are essentially the same as the requirements for a school curriculum.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C72",
+        "to_id": "C70",
+        "missing_step": "Choosing content based on 'social harmony' for specific groups does not compromise the 'effectiveness' of communication for the broader national union.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C74",
+        "to_id": "C75",
+        "missing_step": "A shared 'store' of knowledge must be static and universally accessible to serve as the stable background for flexible rhetorical use.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C76",
+        "to_id": "C75",
+        "missing_step": "The 'ethnicity' created by language standardization is functionally identical to the background knowledge required for literacy.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "Primary identity (ethnicity) is often maintained through home language, religion, and shared history in opposition to state-mandated school culture, as seen in many minority resistance movements.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C1",
+        "objection": "The claim that only school-transmitted culture confers dignity is a form of cultural deficit theory that devalues the complex social structures and 'funds of knowledge' found in non-literate or folk cultures.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C85",
+        "objection": "In a pluralistic democracy, the state lacks the moral authority to decide which 'arbitrary' cultural and linguistic compromises are 'correct,' as this violates intellectual and cultural freedom.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C17",
+        "objection": "Many successful industrial nation-states are plurilingual (e.g., Switzerland, Singapore, or Belgium), suggesting that a single national 'ethnicity' or language is not a strict functional necessity.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C21",
+        "objection": "Education systems in modern nations increasingly prioritize multiculturalism and global citizenship over a single 'common ethnicity' to better suit a globalized economy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C33",
+        "objection": "The continued dominance of Anglo-centric cultural elements may be a result of historical power dynamics and linguistic imperialism rather than their inherent 'utility' for international exchange.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C12",
+        "objection": "The 'law of constant change' in linguistics still applies; modern digital communication (emojis, slang, text-speak) and regional dialects (like AAVE) show that universal education cannot actually suppress natural linguistic deviation.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C34",
+        "objection": "Multilingual nations (like Switzerland or Singapore) can function as highly successful modern industrial economies without a single standardized national language.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C51",
+        "objection": "The 'intrinsic character' of the standard matters deeply if the chosen standard reinforces the power of a specific elite group while marginalizing the 'natural' dialects of others.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C68",
+        "objection": "State legislators are political actors; mandating specific grade-by-grade content will lead to intense ideological warfare over the curriculum, potentially decreasing social harmony rather than enhancing it.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C67",
+        "objection": "The 'intrinsic value' of knowledge (e.g., scientific accuracy, historical complexity) is fundamental to education in a way it is not for grammar; treating curriculum as 'arbitrary' like a meter bar devalues the intellectual purpose of schooling.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C64",
+        "objection": "The distinction between 'national language' and 'oral dialect' is often used to marginalize the linguistic patterns of minority or lower-class groups as 'less evolved' or 'irrational' despite their internal logic.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C75",
+        "objection": "Wide communicability is often achieved through 'pidginization' or the development of 'Global Englishes' that bypass formal standardization and shared national ethnicity.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C76",
+        "objection": "Modern ethnicity is often a site of resistance against standardization, where 'authentic' identity is found in non-standard dialects or vernaculars that purposefully diverge from the state-mandated norm.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Stabilization Argument",
+        "chain": [
+          "C11",
+          "C15",
+          "C14",
+          "C10"
+        ],
+        "conclusion_id": "C14",
+        "strength": "strong"
+      },
+      {
+        "name": "The National Ethnicity Argument",
+        "chain": [
+          "C6",
+          "C8",
+          "C81",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Political Prescription",
+        "chain": [
+          "C7",
+          "C10",
+          "C85",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      },
+      {
+        "name": "Functional Necessity of Language Standardization",
+        "chain": [
+          "C18",
+          "C19",
+          "C23",
+          "C17",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "The Role of Education in Nationhood",
+        "chain": [
+          "C17",
+          "C20",
+          "C25",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Tripartite Structure of Literate Vocabulary",
+        "chain": [
+          "C31",
+          "C32",
+          "C33",
+          "C30"
+        ],
+        "conclusion_id": "C30",
+        "strength": "moderate"
+      },
+      {
+        "name": "Economic Necessity of Standardization",
+        "chain": [
+          "C35",
+          "C36",
+          "C37",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "strong"
+      },
+      {
+        "name": "Institutional Fixation of Language",
+        "chain": [
+          "C38",
+          "C39",
+          "C49",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "moderate"
+      },
+      {
+        "name": "Language as Political Technology",
+        "chain": [
+          "C42",
+          "C46",
+          "C47",
+          "C48",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "strong"
+      },
+      {
+        "name": "The Arbitrariness of Norms",
+        "chain": [
+          "C50",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Standardization Logic Chain",
+        "chain": [
+          "C58",
+          "C61",
+          "C64",
+          "C67",
+          "C71"
+        ],
+        "conclusion_id": "C71",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political Mandate Chain",
+        "chain": [
+          "C67",
+          "C69",
+          "C72",
+          "C68"
+        ],
+        "conclusion_id": "C68",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Communicative Utility Chain",
+        "chain": [
+          "C54",
+          "C70",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "strong"
+      },
+      {
+        "name": "The Standardization-Stabilization Chain",
+        "chain": [
+          "C80",
+          "C79",
+          "C78",
+          "C76",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "strong"
+      },
+      {
+        "name": "The Arbitrary Convention Chain",
+        "chain": [
+          "C73",
+          "C74",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.007209500000000001,
+    "duration_s": 81.98298597335815
+  }
+}

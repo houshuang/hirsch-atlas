@@ -1,0 +1,516 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "The claim that ethnicity is shared background knowledge relies on the premise that language use itself is dependent on that same shared knowledge."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "If communication requires unstated shared knowledge (C5), then ethnicity can be functionally defined as that specific body of knowledge (C2)."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The equivalence of literacy and ethnicity requires the prior definition of ethnicity as a communicative tool of shared background knowledge."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "If reading tests are effectively ethnicity tests, it follows that literacy in that context is synonymous with possessing that ethnicity."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The normative duty of schools to teach ethnicity is predicated on the theoretical claim that ethnicity is the same thing as literacy."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The goal of social unity through literacy justifies the school's role in imparting the shared knowledge necessary for that literacy."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "Historical inequities in home resources for Black families necessitate that the school system take the lead in providing the 'national ethnicity' needed for social mobility."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The theoretical claim that literacy depends on national ethnicity is logically built on the premise that background knowledge is required to understand a language's spoken and written forms."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The evolutionary advantage of speed and precision in communication provides the 'why' behind the necessity of a shared communicative store (ethnicity)."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The normative claim to focus on literacy over cultural disputes relies on the empirical claim that lack of literacy causes severe economic and social disadvantage."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The argument for a stable 'American ethnicity' must account for the reality that the US will no longer be dominated by one ancestral group."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic solution of a specific sequence depends on the diagnostic claim that the failure to impart that knowledge is the cause of literacy decline."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The success of the proposed knowledge sequence is supported by the historical claim that intentional 'Americanization' (shared content) previously produced higher scores."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If shared ethnicity is more vital than a shared language (C19), it reinforces the idea that literacy (language use) depends primarily on that ethnicity (C8)."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C36",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that developmentalism caused decline is predicated on the claim that it is scientifically baseless and contradicts child nature."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "Effective social communication (C20) is the macro-application of the principle that shared knowledge is required for basic literacy and numeracy (C34)."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C42",
+        "relationship": "depends-on",
+        "explanation": "The claim that the gap is 'overcome' requires establishing the specific 30-point magnitude of that gap first."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The inability of the black home to compensate for school theory (due to historical literacy bans) is necessary to explain why developmentalism stalled black progress."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C38",
+        "relationship": "depends-on",
+        "explanation": "The 'blank slate' view of the neocortex is the biological justification for the model of education as 'imprinting' by tribal elders."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "Debunking the 'guide on the side' analogy logically clears the way for the 'sage on the stage' normative prescription."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "If multiculturalism reinforces racial essentialism (racism), it provides a normative justification for the state's duty to replace such frameworks with a specific, knowledge-based 'American-ethnicity' curriculum."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "Thesis",
+        "relationship": "supports",
+        "explanation": "C54 provides the psychological and theoretical underpinning for why 'national ethnicity' is a necessary replacement for individualistic or multicultural educational models."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "Differences in communicative efficiency based on perceived 'localness' prove that ethnicity is a functional cognitive construct of shared information rather than just a social identity.",
+        "is_explicit": true,
+        "vulnerability": "Brief communication among locals might be due to social comfort or habit rather than a specific cognitive store of 'ethnicity' knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E16",
+        "claim_id": "C9",
+        "warrant_text": "High market demand and financial success for a knowledge-based curriculum validate its necessity as a tool for meeting the school's social obligations.",
+        "is_explicit": false,
+        "vulnerability": "Profitability and sales volume are measures of market strategy or parental anxiety, not necessarily proof of educational efficacy or moral duty."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E11",
+        "claim_id": "C11",
+        "warrant_text": "If the brain's neocortex is physically capable of being 'imprinted' by multiple external sources of information, then cultural identity (ethnicity) is a flexible software that can be added to or overwritten.",
+        "is_explicit": false,
+        "vulnerability": "Biological capacity for learning (neuroplasticity) does not mean that complex cultural identities can be swapped or added without psychological or social conflict."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C13",
+        "warrant_text": "Modern industrial/technological societies have a functional prerequisite for a standardized, school-transmitted culture to enable citizen 'usability' and communication.",
+        "is_explicit": true,
+        "vulnerability": "The definition of 'industrial man' may not apply to a post-industrial information economy where specialized rather than general background knowledge is valued."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C19",
+        "warrant_text": "The existence of a unified multi-lingual nation (Switzerland) proves that communicative efficiency and national allegiance are products of shared cultural context rather than linguistic uniformity.",
+        "is_explicit": true,
+        "vulnerability": "Switzerland's small size and unique historical development may make it an outlier that cannot be generalized to a large, diverse superpower like the US."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E7",
+        "claim_id": "C23",
+        "warrant_text": "Standardized test scores (AFQT) are a valid proxy for the 'American ethnicity' (background knowledge) the author describes.",
+        "is_explicit": false,
+        "vulnerability": "Critics argue these tests measure innate cognitive ability (g) or general test-taking skills rather than specific cultural literacy content."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C31",
+        "claim_id": "C32",
+        "warrant_text": "Intense consumer demand for a specific educational program among disadvantaged populations serves as evidence of that program's effectiveness and social necessity.",
+        "is_explicit": false,
+        "vulnerability": "Parental demand may be driven by 'charter school' status, safety, or discipline rather than the specific grade-by-grade knowledge sequence."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "SAT Decline Chart",
+        "claim_id": "C36",
+        "warrant_text": "If a specific educational theory (developmentalism) became dominant during the exact period that standardized scores declined, that theory is the primary causal agent of the decline.",
+        "is_explicit": true,
+        "vulnerability": "Post hoc ergo propter hoc fallacy; other variables like test-taker demographics, economic shifts, or funding changes could be the cause."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E8",
+        "claim_id": "C20",
+        "warrant_text": "Societal cohesion in a diverse democracy requires a functional, artificial commonality (literate ethnicity) to replace vanishing ancestral commonalities.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that shared 'knowledge' is the primary bond of fellowship, rather than shared values, laws, or economic interests."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "$100 million in commercial sales",
+        "claim_id": "C45",
+        "warrant_text": "Widespread market adoption and financial investment by educators serve as a valid proxy for the pedagogical effectiveness and 'objective reality' of a curriculum.",
+        "is_explicit": false,
+        "vulnerability": "Market success can be driven by marketing, political trends, or desperation for a solution rather than proven longitudinal efficacy."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E_literacy_gap_reduction",
+        "claim_id": "C53",
+        "warrant_text": "If a specific educational intervention is empirically proven to eliminate large-scale racial achievement gaps, the state has a moral and administrative obligation to mandate its implementation.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that state-level mandates are the most effective way to scale success, and that 'fairness' is primarily defined by standardized literacy scores."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E_market_success",
+        "claim_id": "C53",
+        "warrant_text": "High consumer demand and financial success of a curriculum (100 million in sales) indicate its practical efficacy and societal value, justifying legislative support.",
+        "is_explicit": true,
+        "vulnerability": "Commercial success does not necessarily equate to pedagogical validity or long-term social benefit; popularity may be driven by marketing or political trends."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E_psychological_theory",
+        "claim_id": "C54",
+        "warrant_text": "Classifying humans into distinct cultural categories (multiculturalism) activates the same cognitive mechanisms as racial essentialism, thereby perpetuating the psychological roots of racism.",
+        "is_explicit": false,
+        "vulnerability": "Critics argue that multiculturalism is intended to deconstruct essentialism by showing diversity within groups, rather than reinforcing rigid categories."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "C7",
+        "missing_step": "National literacy consists entirely of the shared background knowledge measured by such tests, ignoring decoding skills or critical thinking dispositions.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C14",
+        "to_id": "C9",
+        "missing_step": "The 'national ethnicity' required for literacy is a neutral, objective body of facts that a government institution can impart without infringing on the rights of sub-cultures.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C26",
+        "to_id": "C27",
+        "missing_step": "A mechanism to resolve cultural inclusion disputes without diverting focus from literacy goals.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C17",
+        "to_id": "C15",
+        "missing_step": "Evidence that 'child-centered individualism' is the primary cause of disunity, rather than economic inequality or social media algorithms.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C31",
+        "to_id": "C32",
+        "missing_step": "Proof that the 25,000 mothers in the Bronx are choosing the schools specifically for the 'Core Knowledge Sequence' rather than general school performance.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C39",
+        "to_id": "C40",
+        "missing_step": "Proof that home environments of other low-income groups were more 'able' to compensate than black homes, or that the curriculum decline hit black students uniquely hard compared to white students of the same class.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C42",
+        "to_id": "C45",
+        "missing_step": "The transition from 'closing a racial gap' to 'improving results for any school' assumes that what works for equity also works for general excellence across all deciles.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C54",
+        "to_id": "C53",
+        "missing_step": "Establishing that a state-mandated curriculum can successfully foster 'American ethnicity' without creating its own form of exclusionary essentialism.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "E_charter_success",
+        "to_id": "C53",
+        "missing_step": "Evidence that the 'shared-ethnicity principle' works effectively across all student populations, not just those in self-selected environments like private or charter schools.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "Literacy is a set of transferable cognitive skills (like decoding and inference); equating it to 'national ethnicity' is a category error that ignores the ability to read texts from cultures one does not belong to.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C9",
+        "objection": "In a pluralistic democracy, the state’s attempt to enforce a single 'national ethnicity' via elementary schools is a form of cultural hegemony that threatens the 'cult of ethnicity' (C1) which may be a valid expression of community identity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C2",
+        "objection": "The Harvard Square study (E1) only measures geographic familiarity; extending this to 'ethnicity' ignores the emotional, ancestral, and religious dimensions that define ethnic groups regardless of communicative speed.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C8",
+        "objection": "In a globalized world, 'national ethnicity' is being replaced by global technical or professional ethnicities; literacy may depend more on domain-specific expertise than a broad national canon.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C27",
+        "objection": "Disputes over cultural inclusion are not 'diversions' but essential democratic processes that determine whether minority groups feel a 'sense of fellowship' (C21) with the nation.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C32",
+        "objection": "The high scores in Core Knowledge schools may result from selection bias (more motivated parents applying) rather than the curriculum itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C36",
+        "objection": "The SAT decline between 1952 and 2012 correlates with a massive expansion of the pool of test-takers; lower average scores may reflect the democratization of higher education rather than a failure of pedagogical theory.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C52",
+        "objection": "Modern neuroscience generally rejects the 'blank slate' (tabula rasa) model, suggesting the brain has evolved modular structures and predispositions that constrain how information is processed and learned.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C42",
+        "objection": "While a specific curriculum might close the gap in test scores, it may not address the underlying systemic socio-economic factors (poverty, housing) that contribute to educational inequality, potentially creating a veneer of equality.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C53",
+        "objection": "A state-mandated specific curriculum (Core Knowledge) violates the principle of local control and the professional autonomy of educators to adapt materials to their specific student populations.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C54",
+        "objection": "By advocating for a 'national ethnicity' or 'shared store' of knowledge, the author may be promoting an assimilationist model that erases the histories and contributions of minority groups, which is itself a form of systemic racism.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Functional Definition of Literacy",
+        "chain": [
+          "C3",
+          "C5",
+          "C2",
+          "C6",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Educational Mandate for National Unity",
+        "chain": [
+          "C4",
+          "C14",
+          "C55",
+          "C12",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      },
+      {
+        "name": "Equity through Shared Knowledge",
+        "chain": [
+          "C62",
+          "C55",
+          "C60",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Theory of Literacy",
+        "chain": [
+          "C21",
+          "C24",
+          "C19",
+          "C8",
+          "C13"
+        ],
+        "conclusion_id": "C8",
+        "strength": "strong"
+      },
+      {
+        "name": "The Economic Justification for Curricular Reform",
+        "chain": [
+          "C28",
+          "C23",
+          "C22",
+          "C25",
+          "C26",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Practical Path to High Literacy",
+        "chain": [
+          "C29",
+          "C18",
+          "C31",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Rejection of Developmentalism",
+        "chain": [
+          "C37",
+          "C50",
+          "C52",
+          "C49",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Racial Equity Logic",
+        "chain": [
+          "C39",
+          "C44",
+          "C42",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Foundation of Literacy",
+        "chain": [
+          "C35",
+          "C38",
+          "C34",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "The Equity Implementation Chain",
+        "chain": [
+          "E_literacy_gap_data",
+          "E_charter_success_records",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Anti-Essentialism Logic",
+        "chain": [
+          "C54",
+          "Thesis"
+        ],
+        "conclusion_id": "Thesis",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0032943,
+    "duration_s": 70.82822775840759
+  }
+}

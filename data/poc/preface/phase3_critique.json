@@ -1,0 +1,78 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author presents an argument of 'Institutional Reciprocity' or 'Moral Debt' regarding budget allocation.",
+        "source_passage": "I began to wonder how long our university would continue its big expenditures on literary teaching and scholarship without insisting that we devote comparable energies to the teaching that was paying for so many of our literary courses—namely the teaching of composition.",
+        "importance": "critical",
+        "suggested_claim": "The economic reality that composition courses fund literary studies creates an ethical and institutional obligation for English departments to treat composition teaching as a high-priority intellectual endeavor.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "The author argues that the choice of an ambitious title is justified by the universalist scope of his theoretical goals, despite practical omissions in the text.",
+        "source_passage": "Nonetheless, I have kept Poe’s ambitious title, because the book argues for certain privileged goals in the teaching of literacy. It claims that an authentic ideology of literacy inheres in the subject itself...",
+        "importance": "minor",
+        "suggested_claim": "The validity of a 'philosophy' of a field is determined by its ability to identify inherent, privileged goals rather than by its exhaustive coverage of all sub-topics.",
+        "suggested_claim_level": "meta"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C10",
+        "problem": "The claim ascribes the specific term 'rhetorical concept' to the author and labels it 'fundamental,' whereas the author merely lists it as an 'important subject' he omitted.",
+        "source_passage": "I have omitted some important subjects—for instance the subject of invention.",
+        "suggested_fix": "The subject of invention is an important component of composition study that is intentionally excluded from this specific philosophical inquiry."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C9",
+        "missing_warrant": "An academic field’s right to institutional resources and respect should be commensurate with its functional role in sustaining the institution's financial and educational viability."
+      },
+      {
+        "evidence_id": "N/A",
+        "claim_id": "C7",
+        "missing_warrant": "A pedagogical framework is only 'authentic' and effective if it is derived from the internal nature of the subject matter rather than being imposed externally by social or political agendas."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C5",
+        "counter_argument": "The failure to find a link between interpretation theory and composition research may reflect a limitation in the author's specific theoretical framework rather than an inherent lack of relation between the two fields.",
+        "why_important": "It challenges the author's move to fully decouple composition from literary/interpretive theory, which is a major premise of his 'conversion' narrative."
+      },
+      {
+        "targets_claim": "C8",
+        "counter_argument": "The search for a 'common ground' or 'inherent ideology' in literacy may be a form of 'false universalism' that ignores how literacy requirements vary drastically across different cultures and power structures.",
+        "why_important": "This is the primary critique leveled against Hirsch's later work (Cultural Literacy), and it applies directly to his claim of an 'inherent' ideology."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C8",
+          "C12"
+        ],
+        "action": "merge",
+        "explanation": "C8 (privileged common ground) and C12 (common enterprise across institutions) both describe the same underlying idea: that literacy instruction has a universal foundation that unites the profession. They are repetitive."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 4,
+      "warrant_coverage": 2,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction captures the main narrative of the preface well but misses the underlying moral argument regarding institutional fairness. It also fails to identify the critical warrant that 'inherence' equals 'authenticity' in pedagogy, which is central to Hirsch's 'philosophy' of the subject."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0006728,
+    "input_tokens": 2652,
+    "output_tokens": 1019,
+    "duration_s": 15.104822635650635,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

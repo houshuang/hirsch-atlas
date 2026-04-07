@@ -1,0 +1,245 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C22",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a revolution in curriculum is predicated on the failure of the current theory of readability levels."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "Improving reading comprehension through shared knowledge specifically enables the sub-skills of making inferences and learning new concepts."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C7",
+        "relationship": "instantiates",
+        "explanation": "The empirical success of shared knowledge in raising comprehension in early grades serves as a specific instance of the broader theoretical goal of 'transfer'."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The ability to make new inferences and learn new concepts is the cognitive mechanism through which 'transfer' occurs."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "Because far transfer does not happen automatically, it establishes the necessity of teacher intervention."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C10",
+        "relationship": "depends-on",
+        "explanation": "If analogy and metaphor are the tools for far transfer, then a classroom with shared knowledge becomes the essential environment for those tools to function."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The pragmatic utility of analogy in a shared-knowledge classroom leads to the normative requirement for thematic commonality in curriculum."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "Defining metaphor as a form of analogy justifies its use as a tool for cognitive transfer."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C18",
+        "relationship": "depends-on",
+        "explanation": "The claim that all new information is learned via relation to the known depends on the definition of 'apperception' as the mental process of relating experience to familiar conceptual systems."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The author uses modern cognitive terms (encoding, mapping) to validate the historical concept of apperception, strengthening the claim that all learning is relational."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "If learning is exclusively relational (C18), it follows logically that a teacher must identify the specific knowledge already held by the student (C19) to facilitate that relation."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C21",
+        "relationship": "instantiates",
+        "explanation": "The specific requirement for shared knowledge in metaphors serves as a concrete instance of the broader principle that shared knowledge is the foundation of progress."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The pragmatic need for teachers to know what students know implies that a shared, predictable knowledge base is the most efficient foundation for a classroom."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "A large-scale empirical study (3,000 students) demonstrating success in specific grades validates the underlying theoretical claim that shared knowledge improves comprehension.",
+        "is_explicit": false,
+        "vulnerability": "The study's results may be influenced by teacher quality or specific socioeconomic factors rather than the curriculum model itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "warrant_text": "If cognitive psychology establishes that metaphor is the primary vehicle for high-level thought (apperception), then the prerequisite for metaphor (shared background) becomes a logistical necessity for effective teaching.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that metaphors can be explained on the fly without a pre-existing shared curriculum."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C17",
+        "claim_id": "C18",
+        "warrant_text": "If historical pedagogical concepts align with multiple modern psychological constructs, the underlying principle is likely a universal cognitive law.",
+        "is_explicit": false,
+        "vulnerability": "The modern terms may describe distinct processes that are not fully captured by the nineteenth-century 'superordinate' term apperception."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C12",
+        "claim_id": "C19",
+        "warrant_text": "Pedagogical efficiency in a group setting requires the teacher to use tools (like metaphor) that are simultaneously accessible to all participants.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that group-wide metaphors are the primary or most important tool for instruction, ignoring individualized or non-metaphorical instruction."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C2",
+        "to_id": "C22",
+        "missing_step": "The success of shared knowledge in improving reading for 1st and 2nd graders will scale effectively to a national 'revolution' across all grades and diverse demographics.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C11",
+        "to_id": "C13",
+        "missing_step": "Thematic commonality is the only or most efficient way to provide the shared knowledge required for metaphors to work.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C18",
+        "to_id": "C19",
+        "missing_step": "It is assumed that students cannot bridge the gap between old and new knowledge independently or through trial-and-error without teacher intervention.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C21",
+        "missing_step": "The jump from the necessity of shared knowledge for *metaphors* to the necessity of shared knowledge for *all* educational progress.",
+        "step_type": "generalization",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C22",
+        "objection": "The national literacy decline may be driven by factors external to curriculum, such as the rise of digital distraction, decreased leisure reading, or broader socioeconomic inequality, which a curricular 'revolution' alone cannot solve.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "Mandating thematic commonality limits the professional autonomy of teachers and may fail to engage students with diverse individual interests that fall outside the prescribed themes.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C8",
+        "objection": "The distinction between near and far transfer is not a binary; many students develop generalizable heuristics that allow for far transfer without explicit thematic sequencing.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C18",
+        "objection": "Students may acquire entirely new categories of knowledge through sensory discovery or brute memorization that do not immediately map onto existing conceptual systems.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C21",
+        "objection": "In a diverse society, educational progress can be built on 'shared skills' or 'shared inquiry methods' rather than a specific 'atomic' foundation of shared factual content.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Transfer Chain",
+        "chain": [
+          "C3",
+          "C5",
+          "C7",
+          "C8",
+          "C9"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Shared Metaphor Chain",
+        "chain": [
+          "C14",
+          "C11",
+          "C10",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The National Reform Chain",
+        "chain": [
+          "C1",
+          "C2",
+          "C23",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Science Chain",
+        "chain": [
+          "C15",
+          "C17",
+          "C18"
+        ],
+        "conclusion_id": "C18",
+        "strength": "strong"
+      },
+      {
+        "name": "The Classroom Pragmatism Chain",
+        "chain": [
+          "C18",
+          "C19",
+          "C12",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0017227000000000002,
+    "duration_s": 26.852301836013794
+  }
+}

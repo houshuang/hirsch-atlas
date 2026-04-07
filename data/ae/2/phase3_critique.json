@@ -1,0 +1,100 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author makes a specific pragmatic point about how the physical legacy of developmentalism (classroom furniture) creates a lingering obstacle for teacher-led instruction, even when the curriculum changes.",
+        "source_passage": "Even if a school decided to introduce a definite curriculum that is teacher-led rather than child-centered, we would still need to use this furniture. Currently, that’s a little awkward. Many children need to turn away from the table to watch the teacher.",
+        "importance": "minor",
+        "suggested_claim": "The physical infrastructure inherited from child-centered education (tables instead of desks) creates a structural friction that makes the transition to teacher-led instruction physically awkward.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author draws a specific psychological link between the cognitive requirements of literacy and the emotional requirements of social cohesion.",
+        "source_passage": "The two are connected, because literacy depends on shared background knowledge, and so does the emotion of tribal unity.",
+        "importance": "significant",
+        "suggested_claim": "National unity is not just a political state but an emotional one ('tribal unity') that is facilitated by the same shared background knowledge required for literacy.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that developmentalism doesn't just fail to teach; it actively 'infantilizes' and 'delays' the social integration of the child.",
+        "source_passage": "It infantilizes and individualizes and delays early education instead of quickly and equally bringing young people into the social world they are to inhabit.",
+        "importance": "significant",
+        "suggested_claim": "Developmentalism acts as a retarding force that delays a child's entry into the public sphere by treating social integration as a natural unfolding rather than an urgent educational goal.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C61",
+        "problem": "The claim ascribes a highly controversial normative position ('children are public property') directly to the author, when the author is quoting Benjamin Rush to illustrate a historical shift in mindset.",
+        "source_passage": "Here is the brilliant Philadelphian Benjamin Rush on the subject in 1789: Let our pupil be taught that he does not belong to himself, but that he is public property.",
+        "suggested_fix": "The American Founders, such as Benjamin Rush, viewed the student not as a private individual but as 'public property' whose education was essential to the survival of the state."
+      },
+      {
+        "claim_id": "C130",
+        "problem": "The extraction treats this as a logical contradiction, but Hirsch's point is specifically about the 'unnaturalness' of the classification in teacher training materials.",
+        "source_passage": "But note how unnatural is one of the listed forces – the 'socio-cultural.' ... It’s quite another to describe as natural the 'unfolding' of a child into gaining a particular tribal or national culture.",
+        "suggested_fix": "Classifying 'socio-cultural' influences as a 'natural force' of development is a category error because cultural acquisition is an external imposition, not a biological unfolding."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E6",
+        "claim_id": "C19",
+        "missing_warrant": "Parental 'common sense' and collective observation of classroom outcomes ('the grapevine') provide a valid empirical basis for rejecting professional pedagogical theories."
+      },
+      {
+        "evidence_id": "E34",
+        "claim_id": "C103",
+        "missing_warrant": "Classic literature (like Shakespeare) offers an 'accurate' observation of the duality of human nature that serves as a necessary corrective to the over-optimism of modern 'nature-worship' theories."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C16",
+        "counter_argument": "Literacy is primarily a set of transferable cognitive skills and decoding strategies that are independent of specific cultural 'ethnicity' or background knowledge.",
+        "why_important": "This is the core tenet of the 'skills-based' approach to literacy that Hirsch is directly challenging; the argument is incomplete without acknowledging the logic of his opposition."
+      },
+      {
+        "targets_claim": "C97",
+        "counter_argument": "Direct instruction may improve standardized test scores but suppresses the development of 'higher-order' thinking skills and independent inquiry habits.",
+        "why_important": "This is the standard critique from developmentalists who argue that 'rote' learning produces passive citizens rather than active thinkers."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C118",
+          "C119",
+          "C114"
+        ],
+        "action": "merge",
+        "explanation": "These claims all make the same point: that 'Discovery Centers' are a specific feature of constructivist/developmentalist pedagogy and are less effective than whole-class instruction."
+      },
+      {
+        "claim_ids": [
+          "C21",
+          "C22"
+        ],
+        "action": "merge",
+        "explanation": "C21 (cultural acquisition is not natural) and C22 (mental development is an external imposition) are the same theoretical move within the argument."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is highly comprehensive, capturing almost every historical reference and empirical study cited. It correctly identifies the 'theological' turn in Hirsch's argument. However, it occasionally misattributes historical quotes (Rush/Madison) as Hirsch's own normative prescriptions and misses some of the more subtle pragmatic arguments regarding classroom furniture and the 'emotional' dimension of national unity."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0032121000000000003,
+    "input_tokens": 26409,
+    "output_tokens": 1428,
+    "duration_s": 21.318191289901733,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

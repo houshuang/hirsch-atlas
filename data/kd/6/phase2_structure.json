@@ -1,0 +1,615 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "The normative claim to support NCLB requirements rests on the empirical reality that testing is the primary driver of school behavior."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "If tests are the only practical means of accountability, then supporting a law that mandates them (NCLB) is a logical necessity."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "The necessity of yearly testing is justified by the need for yearly data to understand student standing."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "Evidence of teachers avoiding testing-year grades suggests that yearly testing is needed to distribute accountability fairly across all grades."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "If comprehension is not a universal skill, then tests cannot be measuring a 'skill' but must be measuring the underlying comprehension of specific content."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim that comprehension is not universal is based on the theory that it is actually a collection of content-specific skills."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The lack of transfer between tasks (non-predictive proficiency) supports the idea that strategies cannot compensate for knowledge gaps."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The 'Kafkaesque' misunderstanding of what tests measure explains why current complaints about testing arise."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "If language comprehension can never be knowledge-neutral, then tests claiming to measure neutral formal skills must be measuring knowledge instead."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The failure of internal test aids (pictures/definitions) to level the field reinforces the claim that the tests are primarily measuring pre-existing domain knowledge."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The time-sensitivity of tests penalizes those who lack background knowledge due to mental overload, making the tests 'unfair' to those without that knowledge."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The theoretical claim that comprehension is never knowledge-neutral is supported by the fact that conscious strategizing (skill-based approach) is slower than knowledge-based recognition."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C28",
+        "relationship": "refines",
+        "explanation": "While C21 labels tests as 'unwittingly unfair' for what they measure, C28 shifts the locus of 'ultimate' unfairness to the school system's failure to provide the knowledge the tests measure."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "If the standards (the criteria) are 'empty' (meaningless abstractions), then tests based on them are necessarily inadequate for guiding actual instruction."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If tests from different states are interchangeable despite different state standards, it proves the 'criterion-referenced' label is misleading because they aren't tied to a specific curriculum."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The theoretical failure of knowledge-evasive criteria directly leads to the normative conclusion that such tests are inadequate for schools."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C45",
+        "relationship": "supports",
+        "explanation": "The methodological requirement for sampling multiple domains in a test is necessitated by the theoretical requirement of broad knowledge for reading."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C45",
+        "relationship": "supports",
+        "explanation": "If strategy were sufficient, one passage would suffice; since it isn't, the multi-passage structure of tests proves the necessity of knowledge."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "The structural identicality between state and national tests implies they function the same way regardless of their label."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "Defining the criterion as 'general reading ability' collapses the distinction between norm-referenced and criterion-referenced tests."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C48",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that one should not prepare for a test rests on the methodological claim that the test is essentially unpredictable."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C49",
+        "relationship": "depends-on",
+        "explanation": "If direct preparation is impossible and ill-advised, the only remaining valid preparation is indirect development of the underlying skill."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "Irregular progress in early vocabulary and knowledge makes standard tests an insensitive instrument for measuring that progress."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "The latency of early learning prevents standard tests from accurately capturing yearly progress."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C59",
+        "relationship": "supports",
+        "explanation": "The mismatch between school content and test content necessitates a second type of test that aligns with the curriculum."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "The positive feedback loop created by curriculum-based tests justifies the mandate for schools to teach and test general knowledge."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "Statistical evidence showing that the correlation between knowledge and ability is twice as strong as that between background and ability directly underpins the claim that knowledge is the primary factor."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C69",
+        "relationship": "supports",
+        "explanation": "If general knowledge is a more powerful predictor of achievement than SES, it logically follows that providing that knowledge is the most effective way to neutralize the SES-based achievement gap."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "Identifying specific domains as essential background knowledge supports the claim that the breadth of such knowledge is the primary driver of achievement."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "The empirical observation that topic familiarity increases mental speed and accuracy provides a cognitive mechanism for why breadth of knowledge is the most important factor in achievement."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "The argument that content testing is more productive for instruction justifies the normative shift toward using curriculum-based tests for monitoring progress."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "The theoretical claim that curriculum tests eventually raise general scores provides the rationale for why monitors should trust curriculum-based gains in the interim."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C66",
+        "relationship": "depends-on",
+        "explanation": "The claim that breadth of knowledge is the key factor depends on prioritizing 'enabling' knowledge that facilitates future learning."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E5",
+        "claim_id": "C10",
+        "warrant_text": "Teacher behavior and grade-level preferences are accurate indicators of the systemic pressures and flaws created by infrequent testing schedules.",
+        "is_explicit": false,
+        "vulnerability": "Teachers may avoid those grades for reasons other than fear of blame, such as the developmental difficulty of the age group or the specific curriculum of that year."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E7",
+        "claim_id": "C14",
+        "warrant_text": "If a test question requires specific domain knowledge (like 'mahouts') to identify a 'main idea,' then the test is effectively assessing that domain knowledge rather than an abstract strategy.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that the 'main idea' can often be deduced from textual context clues even if the specific noun is unfamiliar."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E11",
+        "claim_id": "C19",
+        "warrant_text": "A thought experiment isolating a single variable (background knowledge) while holding others constant (strategy/decoding) provides a valid causal model for reading failure.",
+        "is_explicit": true,
+        "vulnerability": "Thought experiments lack empirical variance; in real classrooms, strategies might provide a 'bridge' that helps a student acquire that missing knowledge during the act of reading."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E13",
+        "claim_id": "C7",
+        "warrant_text": "High correlation between different tests indicates they are all measuring the same stable underlying trait (general knowledge/vocabulary) rather than the varied strategies taught in different schools.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not prove the nature of the trait being measured; all tests could simply be measuring a shared 'test-taking' strategy ability."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C25",
+        "claim_id": "C21",
+        "warrant_text": "A test that measures cognitive speed/load while claiming to measure comprehension skills is 'unfair' because speed is a byproduct of prior knowledge, not just 'skill.'",
+        "is_explicit": true,
+        "vulnerability": "Proponents of testing might argue that reading speed is itself a core component of reading proficiency, regardless of why a student is slow."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C34",
+        "claim_id": "C33",
+        "warrant_text": "If a test were truly 'criterion-referenced,' it would vary significantly based on the specific content (criteria) of the curriculum it is referencing.",
+        "is_explicit": false,
+        "vulnerability": "Test makers might argue that the 'criterion' is the mastery of the process (e.g., 'inferencing') rather than the content."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C26",
+        "claim_id": "C28",
+        "warrant_text": "If a disparity in performance is caused by an environmental factor that schools have the power to change (general knowledge), then failure to change it is a moral/systemic failure.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that 'general knowledge' is too broad for schools to impart comprehensively, or is primarily a function of home environment (socio-economic status)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C42",
+        "claim_id": "C45",
+        "warrant_text": "A test's structure (multiple passages) must reflect the fundamental nature of the ability it measures (knowledge-dependence).",
+        "is_explicit": true,
+        "vulnerability": "Proponents of strategies might argue multiple passages are needed to see if strategies are applied consistently across varied contexts, not just to test knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C47",
+        "claim_id": "C49",
+        "warrant_text": "If a test samples from a near-infinite domain of knowledge, the only way to increase the probability of success is to increase the total amount of knowledge possessed.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that all 'general knowledge' is equally likely to appear on a test, ignoring potential cultural or regional biases in passage selection."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C54",
+        "claim_id": "C56",
+        "warrant_text": "Standardized tests can only measure what is manifest; if cognitive development is primarily latent/subliminal in early years, those tests are temporally misaligned with learning.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that even 'latent' learning should show some signal if the test is sufficiently sensitive or large-scale."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C68",
+        "claim_id": "C67",
+        "warrant_text": "A significantly stronger statistical correlation indicates a more potent causal lever for academic outcomes than a weaker correlation.",
+        "is_explicit": true,
+        "vulnerability": "Correlation does not equal causation; SES may be the hidden variable that determines both general knowledge and achieved ability."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C74",
+        "claim_id": "C66",
+        "warrant_text": "Factors that improve cognitive efficiency (speed and accuracy) in a testing environment are the primary determinants of measured academic success.",
+        "is_explicit": false,
+        "vulnerability": "Test performance is only one aspect of achievement; other factors like critical thinking or creativity might not be as dependent on mental speed."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C62",
+        "claim_id": "C77",
+        "warrant_text": "Educational policy and monitoring should be aligned with the testing methods that incentivize the best pedagogical practices.",
+        "is_explicit": false,
+        "vulnerability": "The primary goal of monitoring (AYP) is often seen as objective measurement of outcomes, not the promotion of specific teaching styles."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C2",
+        "missing_step": "The specific implementation of NCLB's 'adequate yearly progress' is a fair and accurate way to apply the principle of accountability.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C11",
+        "to_id": "C7",
+        "missing_step": "Providing teachers with yearly data will naturally lead them to adopt a content-rich curriculum rather than doubling down on the failed strategy-based prepping.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C12",
+        "to_id": "C13",
+        "missing_step": "The focus on strategies in state guidelines is the primary cause of poor test performance, rather than other factors like socioeconomic status or teacher quality.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C21",
+        "to_id": "C32",
+        "missing_step": "Establishing that a test must be curriculum-based to be useful for guidance, even if it accurately predicts reading ability.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C23",
+        "to_id": "C21",
+        "missing_step": "Empirical evidence that providing pictures/definitions *never* works to level the field, rather than just failing in current test designs.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C49",
+        "to_id": "C55",
+        "missing_step": "National/state standards must be redefined to specify the broad knowledge required for reading.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C58",
+        "to_id": "C59",
+        "missing_step": "Curriculum-based tests must be shown to be valid predictors of future 'general' reading ability.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C67",
+        "to_id": "C69",
+        "missing_step": "Schools are capable of delivering a high-quality, knowledge-rich curriculum to disadvantaged students with the same efficacy as high-SES homes.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C65",
+        "to_id": "C77",
+        "missing_step": "The time-lag between curriculum-based gains and general score gains is consistent enough to allow monitors to distinguish between 'delayed progress' and 'failed instruction'.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "The sanctions associated with NCLB may incentivize 'gaming the system' or narrowing the curriculum to the point of excluding the very 'background knowledge' subjects (history, science) the author advocates for.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "Yearly testing creates a high-stakes environment that leads to student burnout and 'test fatigue,' which can depress scores regardless of curriculum quality.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C14",
+        "objection": "While reading comprehension is content-dependent, there are universal meta-cognitive skills (like self-monitoring for understanding) that, once mastered, allow readers to learn content more efficiently from text.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C21",
+        "objection": "Reading tests are intended to measure 'transferable' comprehension—the ability to extract meaning from *unfamiliar* texts—making knowledge-neutrality a feature, not a bug, of a valid test.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C32",
+        "objection": "Even if tests measure 'empty' processes, they serve as a necessary standardized 'thermometer' for overall school performance, even if they don't provide a 'map' for daily instruction.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C28",
+        "objection": "The 'ultimate unfairness' might lie in the socio-economic disparities that create knowledge gaps before children even enter school, which schools cannot fully remediate regardless of curriculum.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C43",
+        "objection": "Criterion-referenced tests serve a distinct legal and bureaucratic function by holding schools accountable to specific performance thresholds (cut scores), even if the test items are structurally similar to norm-referenced tests.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C55",
+        "objection": "Testing specific general knowledge can lead to a 'trivia' curriculum where students memorize isolated facts to pass the content test rather than developing deep conceptual understanding.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C59",
+        "objection": "Adding curriculum-based tests increases the testing burden on young students and may conflict with local control over what is taught in classrooms.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C67",
+        "objection": "Socioeconomic status (SES) involves a cluster of disadvantages—nutrition, housing stability, and health care—that create cognitive and emotional barriers to learning that school-provided knowledge alone cannot bypass.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C77",
+        "objection": "Allowing schools to be judged by their own curriculum-based tests creates a 'circular' accountability system where schools are rewarded for teaching a narrow set of facts they themselves have chosen, potentially masking a failure to develop broader, transferable literacy.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C66",
+        "objection": "Individual differences in executive function, working memory, and motivation are 'within human control' through different interventions and may be equally or more critical for achievement than the volume of facts known.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Accountability Chain",
+        "chain": [
+          "C1",
+          "C3",
+          "C8",
+          "C9",
+          "C10",
+          "C11",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Testing Paradox Chain",
+        "chain": [
+          "C12",
+          "C15",
+          "C14",
+          "C19",
+          "C13",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Content-Dependency Chain",
+        "chain": [
+          "C16",
+          "C17",
+          "C18",
+          "C20",
+          "C14",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Neutrality Paradox",
+        "chain": [
+          "C24",
+          "C25",
+          "C27",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "The Critique of Empty Standards",
+        "chain": [
+          "C30",
+          "C35",
+          "C34",
+          "C33",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Locus of Educational Inequity",
+        "chain": [
+          "C26",
+          "C21",
+          "C28"
+        ],
+        "conclusion_id": "C28",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Based Nature of Reading Tests",
+        "chain": [
+          "C42",
+          "C41",
+          "C45",
+          "C46",
+          "C43"
+        ],
+        "conclusion_id": "C43",
+        "strength": "strong"
+      },
+      {
+        "name": "The Unpredictability of Reading Prep",
+        "chain": [
+          "C47",
+          "C48",
+          "C49"
+        ],
+        "conclusion_id": "C49",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Early-Grade Measurement Gap",
+        "chain": [
+          "C54",
+          "C53",
+          "C52",
+          "C56",
+          "C51",
+          "C50"
+        ],
+        "conclusion_id": "C50",
+        "strength": "strong"
+      },
+      {
+        "name": "The Curriculum-Test Solution",
+        "chain": [
+          "C58",
+          "C57",
+          "C59",
+          "C60",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Socioeconomic Neutralizer Chain",
+        "chain": [
+          "C68",
+          "C67",
+          "C69"
+        ],
+        "conclusion_id": "C69",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Efficiency Chain",
+        "chain": [
+          "C61",
+          "C74",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "strong"
+      },
+      {
+        "name": "The Policy Realignment Chain",
+        "chain": [
+          "C62",
+          "C64",
+          "C65",
+          "C77"
+        ],
+        "conclusion_id": "C77",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.005103,
+    "duration_s": 60.259703397750854
+  }
+}

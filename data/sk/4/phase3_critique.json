@@ -1,0 +1,99 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author presents a pragmatic/normative argument regarding the 'luck' of Americans in the global linguistic landscape, which provides a unique national advantage.",
+        "source_passage": "Americans are lucky that the de facto common second language widely used on the internet and in conferences is the American grapholect.",
+        "importance": "significant",
+        "suggested_claim": "The global status of the American English grapholect as a de facto second language provides a significant geopolitical and communicative advantage to Americans.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author establishes a causal feedback loop where global adoption of a language acts as an external stabilizer, reinforcing the internal national stability of that language.",
+        "source_passage": "As more people adopt American English as a second literate language it becomes ever more stabilized.",
+        "importance": "significant",
+        "suggested_claim": "The internationalization of a grapholect serves as a stabilizing force that prevents linguistic drift within the home nation.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author links the concept of 'dignity' and 'self-respect' specifically to the transition from folk-transmitted to school-transmitted culture in industrial societies.",
+        "source_passage": "A school-transmitted culture, not a folk-transmitted one, alone confers usability and dignity and self-respect on industrial man.",
+        "importance": "critical",
+        "suggested_claim": "In modern industrial societies, functional literacy and the dignity of the individual are predicated on the mastery of a standardized, school-sustained culture.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C13",
+        "problem": "The extraction presents this as a general empirical rule, but the author specifically qualifies it as a 'rare case' dependent on exceptional talent, and notes that Achebe himself deliberately omitted it.",
+        "source_passage": "Prudently, Achebe’s essay about writing in English did not mention the economic advantage... in the rare case that the author is as talented as Achebe was.",
+        "suggested_fix": "Writing in a global language provides an economic advantage only in rare instances involving exceptional talent, a point authors may choose to omit to focus on political/national arguments."
+      },
+      {
+        "claim_id": "C8",
+        "problem": "The claim is labeled normative, but Lepore’s point (cited by the author) is an empirical/ontological observation about the current state of the world to justify the study of nations.",
+        "source_passage": "But, in the meantime, that world does not exist, and this world is a world of nations...",
+        "suggested_fix": "The current global reality is defined by the existence of nation-states, necessitating a deep understanding of their nature and potential."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "missing_warrant": "Mass-market success and international readership in a specific language (grapholect) serves as a proxy for that language's capacity to function as a unifying national medium across diverse ethnic sub-groups."
+      },
+      {
+        "evidence_id": "E3",
+        "claim_id": "C6",
+        "missing_warrant": "If a political union (like the EU) can harmonize currency but not language, it implies that a shared grapholect is more essential to the core identity and sovereignty of a nation-state than economic instruments."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C12",
+        "counter_argument": "Standardizing 'implicit background knowledge' inherently privileges the cultural capital of the dominant social class, potentially marginalizing minority groups and making democracy less 'fair' for those outside the mainstream.",
+        "why_important": "This is the primary sociological critique of the author's literacy model (cultural literacy) and is necessary for a balanced view of the 'fairness' claim."
+      },
+      {
+        "targets_claim": "C11",
+        "counter_argument": "Rigid linguistic stability (resistance to change) may prevent a language from evolving to reflect new social realities or technological advancements, potentially making it an 'unusable' instrument over time.",
+        "why_important": "The author presents stability as purely positive; this counter-argument explores the potential downside of linguistic inertia."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C2",
+          "C14"
+        ],
+        "action": "merge",
+        "explanation": "C14 is essentially the elaboration of C2's definition of national literature; they both describe Achebe's view on the relationship between national and ethnic literatures."
+      },
+      {
+        "claim_ids": [
+          "C5",
+          "C6"
+        ],
+        "action": "merge",
+        "explanation": "These claims represent the same core argument: that the school system is the essential mechanism for sustaining the grapholect, which in turn defines the modern nation-state."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 3,
+      "warrant_coverage": 2,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction captures the primary claims of the chapter but misses the more nuanced sociological reasoning connecting industrialization to individual dignity (Gellner's logic). It also lacks sufficient warrants for the evidence provided, particularly regarding the EU comparison. The most significant gap is the failure to address the potential for cultural bias in 'implicit background knowledge,' which is a standard critique of the author's position."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0009157000000000001,
+    "input_tokens": 3705,
+    "output_tokens": 1363,
+    "duration_s": 17.517237186431885,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

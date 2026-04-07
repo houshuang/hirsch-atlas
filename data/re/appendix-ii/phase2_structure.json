@@ -1,0 +1,780 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The dominance of literature on the craft of writing provides evidence of the neglect of the cultural dimension."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The claim that craft is only half the story depends on the existence of a huge domain of tacit knowledge that the craft approach ignores."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "instantiates",
+        "explanation": "C10 defines the specific components (topic knowledge and reader expectations) that make up the invisible base of the iceberg metaphor."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C12",
+        "relationship": "supports",
+        "explanation": "Empirical evidence regarding how memory prioritizes entailments over linguistic traces supports the idea of a shared unspoken system."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C14",
+        "relationship": "depends-on",
+        "explanation": "If literacy is a shared system of unspoken knowledge, it follows that the writer must possess a sense of the reader's specific knowledge range."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "By ruling out mechanics (vocabulary/grammar) as the cause of failure, the author clears the path for education (cultural knowledge) as the solution."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C18",
+        "relationship": "depends-on",
+        "explanation": "The claim that education is the antidote relies on the premise that there are no biological or developmental barriers to 15-year-olds being literate."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The ability of literate adults to sense a stranger's knowledge (C24) provides the mechanism for the 'indispensable cultural dimension' of writing (C21)."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The principle of inverse proportionality (C25) relies on the existence of a 'tacitly shared' dimension of knowledge (C21) to act as the divisor."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "If prolixity and brevity are determined by shared knowledge (C26), then it follows that explicit information is inversely proportional to that shared knowledge (C25)."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "If most writing assumes a particular range of common knowledge (C28), then 'cultural literacy' can be defined as the possession of that specific shared culture (C29)."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C29",
+        "relationship": "instantiates",
+        "explanation": "The 18th-century grammar school education (C31) serves as a historical example of the 'shared culture' that defines the common reader (C29)."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "While expert stylistic revisions improve efficiency (C34), the author argues this improvement is bound by cultural dimensions that exist independently of that style (C35)."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C39",
+        "relationship": "refines",
+        "explanation": "C39 restates the claim of C35, emphasizing that these dimensions are 'invisible' and lie 'beyond' the mechanics of style."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C42",
+        "relationship": "depends-on",
+        "explanation": "The claim that style is irrelevant for unfamiliar topics rests on the premise that the cognitive burden of reconstructing meaning from scratch consumes all available mental resources."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "If style doesn't matter for unfamiliar topics but does for familiar ones, then topic familiarity is the deciding factor in style's impact."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C49",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that cultural literacy is required for style to matter depends on the principle that without extra-linguistic knowledge, the linguistic surface (style) is processed inefficiently."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "The theoretical dependence of text understanding on extra-linguistic knowledge provides the mechanism for why style only matters to the culturally literate."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C54",
+        "relationship": "supports",
+        "explanation": "The necessity of reading and evaluating one's own work creates a logical link between reading ability and writing competence."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C56",
+        "relationship": "depends-on",
+        "explanation": "Advancement in writing can only be a prerequisite if there is an unbroken continuum connecting it to cultural literacy."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "If cultural literacy is a prerequisite for writing, then skills-only training (which lacks content) is inherently insufficient for general literacy."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "Empirical evidence that students need to read extensively to write effectively reinforces the idea that skills training alone is a 'quick fix' that fails."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C51",
+        "relationship": "instantiates",
+        "explanation": "The example of a 4th-grade level text being unreadable due to subject matter demonstrates why standard readability indexes fail on specific complex texts."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C74",
+        "relationship": "depends-on",
+        "explanation": "The link between writing skills and cultural knowledge (C74) is explained by the specific mechanism of students losing the concept of a 'common reader' (C78)."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "If cultural illiteracy causes writing anxiety by making the rules feel unknown, it supports the idea that the writer has lost their sense of membership in a stable literate community."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C66",
+        "relationship": "depends-on",
+        "explanation": "The claim that the cultural approach has been neglected (C66) relies on the empirical observation that literacy instruction has become fragmented and separated (C70)."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C69",
+        "relationship": "supports",
+        "explanation": "The normative rejection of technocratic specialists in reading/writing (C71) leads to the conclusion that teachers must integrate literature and cultural literacy into writing instruction (C69)."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "The theoretical connection between knowledge and skill (C74) provides the rationale for why neglecting the cultural approach (C66) is a failure of instruction."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C84",
+        "relationship": "depends-on",
+        "explanation": "The claim that cultural literacy requires shared schemata depends on the theoretical premise that schemata are structural requirements for reading and writing."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C84",
+        "relationship": "supports",
+        "explanation": "If schemata can be constructed from similar rather than identical materials, then cultural literacy can be defined by shared types of knowledge rather than just specific facts."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C84",
+        "relationship": "instantiates",
+        "explanation": "The idea of teaching Shakespearean tragedies as a 'type' is a practical application of the theoretical concept that cultural literacy involves shared schemata."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C87",
+        "relationship": "depends-on",
+        "explanation": "The necessity for explicit agreement on materials is driven by the reality that a totally regimented, identical curriculum is unfeasible in a diverse nation."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "If writing becomes 'Kafkaesque' (meaningless/absurd) without a literate community, establishing a shared education is the primary solution for restoring literacy."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C97",
+        "relationship": "depends-on",
+        "explanation": "To move from shared types (theoretical) to actual teaching (normative), there must be an explicit agreement on what those materials and facts are."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C97",
+        "relationship": "supports",
+        "explanation": "The Ann Arbor case shows that teachers must understand cultural starting points to acculturate students, which supports the need for an explicit, non-haphazard approach to teaching literacy."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "1.C34",
+        "relationship": "supports",
+        "explanation": "C101 provides a specific instance (Plato's Parmenides) to support the broader claim that 'readability levels' based on linguistic complexity are scientifically incorrect compared to schema-based models."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "1.C62",
+        "relationship": "depends-on",
+        "explanation": "The claim that a lack of schema causes reading difficulty depends on the premise that verbal comprehension is contingent upon unstated background knowledge."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "2.C15",
+        "relationship": "supports",
+        "explanation": "If the difficulty is conceptual/schematic rather than linguistic, it reinforces the idea that reading is not a general 'skill' but is domain-specific."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C7",
+        "warrant_text": "If elite institutions like Yale dedicate massive resources exclusively to writing-as-craft, it indicates a systemic educational bias that ignores non-craft variables.",
+        "is_explicit": false,
+        "vulnerability": "The grant might actually include content-based initiatives not detailed in the author's summary."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C12",
+        "warrant_text": "If human memory treats implied information as if it were explicitly stated, then the meaning of a text is constructed from shared inferences rather than just the words on the page.",
+        "is_explicit": true,
+        "vulnerability": "Inferences about spatial relations (turtles/logs) might be universal cognitive processes rather than 'cultural' knowledge."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E14",
+        "claim_id": "C6",
+        "warrant_text": "If 'good style' fails to improve reading speed when the topic is unfamiliar (Hegel), then linguistic craft is secondary to prior knowledge in determining literacy.",
+        "is_explicit": true,
+        "vulnerability": "Hegel may be uniquely difficult due to conceptual complexity rather than just a lack of shared cultural facts."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E8",
+        "claim_id": "C9",
+        "warrant_text": "Language users automatically adjust the volume of explicit information based on their perception of the recipient's background knowledge, proving that tacit knowledge dictates the visible output.",
+        "is_explicit": false,
+        "vulnerability": "Social code-switching in directions is a specialized speech act that may not perfectly map to the cognitive demands of formal writing."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C22",
+        "claim_id": "C21",
+        "warrant_text": "If communication failure in experiments correlates with cultural homogeneity or lack of shared context rather than age, then the limiting factor is cultural knowledge rather than innate cognitive development.",
+        "is_explicit": true,
+        "vulnerability": "The author assumes that 15-year-olds fail due to schooling deficits rather than the possibility that 'knowledge of the reader's knowledge' is a late-developing cognitive social skill (theory of mind) regardless of curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C26",
+        "claim_id": "C25",
+        "warrant_text": "Communication is a zero-sum game of information transfer where data is either explicitly stated in the signal or implicitly retrieved from the receiver's memory.",
+        "is_explicit": false,
+        "vulnerability": "Redundancy is often a feature of effective communication even when knowledge is shared; 'brevity' is not always the goal of literate adults."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C37",
+        "claim_id": "C39",
+        "warrant_text": "If even the best stylistic improvements (rhetoric) cannot overcome a reader's lack of background knowledge, then comprehension must depend on something outside of the text's surface features.",
+        "is_explicit": true,
+        "vulnerability": "The author may be underestimating the power of 'plain language' and clear style to help readers bridge knowledge gaps through context clues."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C45",
+        "claim_id": "C41",
+        "warrant_text": "Differences in performance on the same task across different demographics (University vs. College) can be attributed to the variable of background knowledge if the cognitive tasks are otherwise identical.",
+        "is_explicit": false,
+        "vulnerability": "Assumes no other variables (like IQ or prior general reading volume) differ significantly between the two groups."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C52",
+        "claim_id": "C44",
+        "warrant_text": "If simple language (4th-grade level) does not guarantee comprehension when content is unfamiliar, then the 'difficulty' is located in the concepts/familiarity, not the linguistic structure.",
+        "is_explicit": true,
+        "vulnerability": "A critic might argue that 'abstract' concepts are inherently harder to form schemata for, regardless of vocabulary."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C58",
+        "claim_id": "C56",
+        "warrant_text": "If effective writing on a specific topic requires first learning the subject matter, then general writing ability cannot be separated from domain-specific or cultural knowledge.",
+        "is_explicit": false,
+        "vulnerability": "Does not account for the possibility of 'transferable' rhetorical structures that once learned can be applied to new content."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Quintile Graphs (Hegel vs. Roman Baths)",
+        "claim_id": "C74",
+        "warrant_text": "If reading processing speed (a measure of literacy) is dictated more by topic familiarity than by stylistic clarity, then the ability to produce coherent text (writing skill) must also be fundamentally constrained by the author's grasp of the knowledge they assume their audience shares.",
+        "is_explicit": false,
+        "vulnerability": "Assumes a perfect symmetry between the cognitive loads of decoding (reading) and encoding (writing)."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Gordon's Plato Example",
+        "claim_id": "C66",
+        "warrant_text": "A text can be linguistically 'simple' by all objective metrics (vocabulary, syntax) yet be intellectually impenetrable without specific cultural/philosophical schemas, proving that 'skill-based' readability metrics ignore the primary driver of comprehension.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that Plato's text is unique in its abstraction and not representative of the functional literacy needed for everyday citizenship."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C77",
+        "claim_id": "C78",
+        "warrant_text": "Since basic mechanics (grammar/spelling) are intact while social nuances are failing, the root cause must be social/contextual (loss of community) rather than technical (loss of instruction).",
+        "is_explicit": false,
+        "vulnerability": "The decline in nuances could simply be a result of less formal instruction in rhetoric and style rather than a lack of 'community membership'."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C98",
+        "claim_id": "C84",
+        "warrant_text": "Structural equivalence: If two different cultural artifacts (e.g., MASH and a play) activate the same underlying mental framework, they are functionally identical for the purpose of building literacy schemata.",
+        "is_explicit": false,
+        "vulnerability": "Literary critics would argue that the 'schema' of a sitcom and a Shakespearean tragedy are not equivalent in linguistic complexity or cultural weight."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C99",
+        "claim_id": "C88",
+        "warrant_text": "Social communication principle: Writing is not an isolated mechanical skill but a social act that requires a predictable 'other' who shares one's context.",
+        "is_explicit": true,
+        "vulnerability": "Critics of expressivist writing might argue that writing can be a tool for self-discovery independent of a shared readership."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C96",
+        "claim_id": "C97",
+        "warrant_text": "The bridge principle: To move a student from a non-standard culture to a standard literate culture, the curriculum must explicitly map the path rather than assuming it will happen naturally.",
+        "is_explicit": true,
+        "vulnerability": "One could argue this justifies 'multiculturalism' rather than 'acculturation' into a single national literate culture."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C101",
+        "claim_id": "1.C34",
+        "warrant_text": "If high-level texts are difficult because of missing conceptual frameworks (schemata) rather than sentence length or word choice, then formulas measuring only the latter (readability) are fundamentally flawed.",
+        "is_explicit": true,
+        "vulnerability": "Linguistic complexity and conceptual difficulty are often highly correlated; a text with complex concepts almost always requires complex syntax for precision."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C101",
+        "claim_id": "1.C44",
+        "warrant_text": "Meaning construction is a top-down process where the reader's prior knowledge dictates the intake of information, rendering text-only metrics ineffective.",
+        "is_explicit": false,
+        "vulnerability": "It ignores the threshold effect where extremely high linguistic complexity can block access to even familiar concepts."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C12",
+        "to_id": "C18",
+        "missing_step": "The specific shared knowledge required for literacy can be standardized and taught effectively within a classroom setting.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "C16",
+        "missing_step": "Standardized tests accurately distinguish between a student's lack of grammatical skill and their lack of reader-awareness.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C22",
+        "to_id": "C23",
+        "missing_step": "Evidence that 'highly literate fifteen-year-olds' (specifically those with high cultural literacy) actually perform significantly better on the Kraus-Glucksberg shape task than the subjects in the original experiment.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C31",
+        "to_id": "C29",
+        "missing_step": "Demonstration that the modern 'common reader' requires the same level of educational uniformity as the 18th-century grammar school elite to achieve functional national literacy.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C42",
+        "to_id": "C44",
+        "missing_step": "Proof that the 'effort' involved in processing unfamiliar topics is identical to the 'effort' perceived when a subject is 'abstract' or 'intrinsically difficult.'",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C49",
+        "to_id": "C54",
+        "missing_step": "Establishing that the role of cultural literacy in 'reading speed' (as shown in the Virginia experiments) is the primary driver of 'writing competence.'",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C58",
+        "to_id": "C60",
+        "missing_step": "A bridge explaining why 'audience expectations' and 'learning the subject' (C58) means that 'all aspects of writing' (C60) are determined by background.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C66",
+        "to_id": "C69",
+        "missing_step": "Establishing that writing teachers are the most effective or appropriate agents for delivering cultural information, as opposed to history or science teachers.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C74",
+        "to_id": "C78",
+        "missing_step": "Evidence that students' internal psychological state is one of feeling 'excluded' from a community, rather than simply having a lower volume of factual knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C81",
+        "to_id": "C87",
+        "missing_step": "A political mechanism for how a diverse and independent-minded country can reach 'explicit agreement' on facts without violating its diversity.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C90",
+        "to_id": "C89",
+        "missing_step": "Evidence that training composition teachers in literature actually improves the writing scores of their students more than training them in linguistics.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C101",
+        "to_id": "1.C46",
+        "missing_step": "That the specific 'schemata' required for elite texts like Plato should be the same schemata prioritized for all citizens in a national curriculum.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C101",
+        "to_id": "6.C40",
+        "missing_step": "A demonstration that 'metaphysical speculation' schemata are functionally necessary for general social cohesion or democratic participation.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C18",
+        "objection": "The deficiency in student writing may stem from a lack of general cognitive 'theory of mind' development rather than a lack of specific cultural facts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C7",
+        "objection": "Focusing on 'craft' provides students with portable skills they can apply to any culture, whereas focusing on 'culture' risks indoctrination or exclusion of minority backgrounds.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C12",
+        "objection": "Tacit knowledge is often acquired through life experience and social immersion rather than formal 'good education' schooling.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C21",
+        "objection": "The failure of fifteen-year-olds in communication tasks might be attributed to 'audience awareness' as a general rhetorical skill that can be practiced through writing pedagogy, rather than a lack of specific cultural facts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C29",
+        "objection": "Defining cultural literacy by the 'common reader' of the 18th century ignores the reality of modern pluralistic societies where 'shared knowledge' is fragmented into multiple valid sub-cultures.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C38",
+        "objection": "Reading rate is a proxy for fluency but not necessarily for deep critical comprehension; a reader might read a culturally familiar but poorly written text quickly while missing its logical fallacies.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C42",
+        "objection": "Extremely poor writing (e.g., severe syntactic errors or logical contradictions) might hinder even a reader who is struggling with unfamiliar content, making style 'relevant' even in difficulty.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C56",
+        "objection": "A student could possess high cultural literacy but still be a poor writer due to a lack of understanding of formal logic, organization, or mechanics (grammar), suggesting skills-based training is more than just a 'quick fix.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C54",
+        "objection": "The 'unbroken continuum' ignores the distinct cognitive demands of encoding (writing) vs. decoding (reading); one can be a highly proficient reader but lack the motor or organizational skills to produce coherent text.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C66",
+        "objection": "The neglect of 'cultural information' in writing instruction is not an oversight but a pedagogical choice to prioritize the student's unique voice and subjective experience, which increases engagement and agency.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C78",
+        "objection": "The 'decline' in conventions and nuances may reflect a shift toward new digital and pluralistic communities with different conventions, rather than a loss of membership in a singular 'literate community.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C69",
+        "objection": "Requiring writing teachers to be experts in 'cultural literacy' risks turning writing class into a content-delivery lecture, reducing the time spent on the actual mechanics of drafting, peer review, and revision.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C84",
+        "objection": "The 'shared types' approach risks diluting the curriculum into the lowest common denominator (e.g., TV shows like MASH), failing to provide the high-level vocabulary found only in specific classic texts.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C87",
+        "objection": "In a pluralistic society, 'explicit agreement' on facts is often a proxy for the dominant group's values, potentially marginalizing the very 'diverse starting points' the author claims to respect.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C94",
+        "objection": "Refocusing attention on writing through grants may only lead to more 'specialist' research (C93) rather than the cultural integration the author desires.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C101",
+        "objection": "The difficulty of texts like the Parmenides is not just a lack of schema but a lack of familiarity with the specific dialectical methods and linguistic idiosyncrasies of Ancient Greek translation, which is a linguistic rather than purely conceptual hurdle.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C101",
+        "objection": "Modern students might possess different but equally valid schemata (digital, multicultural, scientific) that allow them to navigate complex information, meaning the 'decline' is merely a shift in cultural reference points, not a loss of cognitive capacity.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Literacy Iceberg Theory",
+        "chain": [
+          "C6",
+          "C8",
+          "C9",
+          "C10",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Failure of the Craft Approach",
+        "chain": [
+          "C5",
+          "C7",
+          "C15",
+          "C16"
+        ],
+        "conclusion_id": "C7",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Educational Remedy",
+        "chain": [
+          "C4",
+          "C14",
+          "C17",
+          "C18"
+        ],
+        "conclusion_id": "C18",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Law of Inverse Explicitness",
+        "chain": [
+          "C21",
+          "C24",
+          "C26",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cultural Root of Literacy",
+        "chain": [
+          "C28",
+          "C30",
+          "C31",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Style vs. Content Dichotomy",
+        "chain": [
+          "C33",
+          "C34",
+          "C37",
+          "C35",
+          "C39"
+        ],
+        "conclusion_id": "C39",
+        "strength": "strong"
+      },
+      {
+        "name": "The Familiarity-Style Interaction Chain",
+        "chain": [
+          "C43",
+          "C42",
+          "C41",
+          "C49"
+        ],
+        "conclusion_id": "C41",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cultural Literacy-to-Writing Chain",
+        "chain": [
+          "C55",
+          "C54",
+          "C56",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Subjective Difficulty/Readability Critique",
+        "chain": [
+          "C52",
+          "C51",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Skill Dependency Chain",
+        "chain": [
+          "C77",
+          "C74",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social-Psychological Cause of Decline",
+        "chain": [
+          "C80",
+          "C79",
+          "C78"
+        ],
+        "conclusion_id": "C78",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Curricular Integration Imperative",
+        "chain": [
+          "C70",
+          "C71",
+          "C69"
+        ],
+        "conclusion_id": "C69",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive-Structural Chain",
+        "chain": [
+          "C85",
+          "C86",
+          "C82",
+          "C84"
+        ],
+        "conclusion_id": "C84",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social-Literacy Chain",
+        "chain": [
+          "C90",
+          "C99",
+          "C88"
+        ],
+        "conclusion_id": "C88",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Explicit Acculturation Chain",
+        "chain": [
+          "C81",
+          "C96",
+          "C87",
+          "C97"
+        ],
+        "conclusion_id": "C97",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Schema-vs-Readability Argument",
+        "chain": [
+          "C101",
+          "1.C34",
+          "1.C44",
+          "1.C41"
+        ],
+        "conclusion_id": "1.C44",
+        "strength": "strong"
+      },
+      {
+        "name": "Conceptual Basis of National Literacy",
+        "chain": [
+          "C101",
+          "1.C62",
+          "5.C52",
+          "6.C40"
+        ],
+        "conclusion_id": "6.C40",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0087004,
+    "duration_s": 103.57175588607788
+  }
+}

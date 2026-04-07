@@ -1,0 +1,274 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that mastery of a national grapholect doesn't imply disloyalty depends on the psychological premise that the human mind can navigate multiple cultural contexts simultaneously."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The role of schools as stabilizers depends on the empirical observation that modern national literacies have achieved a high degree of stability."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The historical standardization of English via dictionaries and grammars (used in schools) supports the theory that schooling determines the character of the grapholect."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "If schools are the agents of stability, it follows that they must use a specific curriculum to maintain that stability and its associated word-frequency profiles."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The perception of unique national differences between English-speaking nations supports the need for nation-specific curricula to maintain those distinct communicative instruments."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic need for a specific curriculum leads to the normative obligation for schools to actually teach that shared knowledge."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "The empirical harm caused by tribal-language mandates in Nigeria provides the basis for the moral duty of patriots to challenge such policies."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The principle that curricula should not reduce student competence creates the methodological requirement for reformers to document empirical safety before implementation."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C16",
+        "relationship": "depends-on",
+        "explanation": "The ethical obligation for multiculturalists to preserve the grapholect is based on the empirical link between language competence and adult income."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "Because competence in the grapholect impacts income, acquiring it becomes a matter of economic fairness."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "The duty of schools to provide a shared culture is predicated on the theoretical claim that shared language is what creates social belonging."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If all ethnicities are learned, then individuals can learn both a home ethnicity and a national ethnicity, making biculturalism a viable reality."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C27",
+        "relationship": "supports",
+        "explanation": "If the traditional grapholect is the medium for exchange, then teaching it is the logical path to improving competence and collegiality."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "Evidence of parental priorities in the Bronx instantiates the claim that schools have a primary duty to provide shared public culture."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C5",
+        "warrant_text": "If a historical figure's predictions of linguistic decay are falsified by the continued readability of their texts centuries later, then the linguistic stability must be attributed to a counter-acting stabilizing force (standardization).",
+        "is_explicit": true,
+        "vulnerability": "Literary readability might be due to elite education rather than broad linguistic stability across the whole population."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C6",
+        "warrant_text": "Lexicography and dictionary-making are the technical mechanisms through which spoken languages are fixed into permanent, stable grapholects.",
+        "is_explicit": false,
+        "vulnerability": "Dictionaries often follow usage rather than dictating it; the stability might come from the print market or bureaucratic needs rather than the dictionary itself."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E8",
+        "claim_id": "C13",
+        "warrant_text": "Low international rankings in elementary schooling indicate a failure of the current pedagogical model, justifying a moratorium on experimental changes that lack empirical support.",
+        "is_explicit": false,
+        "vulnerability": "Ranking declines could be caused by socio-economic factors or changes in testing demographics rather than pedagogical theory."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E5",
+        "claim_id": "C14",
+        "warrant_text": "Economic systems in modern nations reward standardization; therefore, deviations from the linguistic standard result in measurable market penalties.",
+        "is_explicit": false,
+        "vulnerability": "Economic penalties might result from social prejudice against dialects rather than lack of functional competence in the grapholect."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C28",
+        "warrant_text": "The state and its schools have a moral obligation to mitigate factors that lead to predictable economic disadvantage.",
+        "is_explicit": true,
+        "vulnerability": "This assumes the school's primary role is economic preparation rather than cultural preservation or critical inquiry."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C7",
+        "missing_step": "While stability exists, it must be shown that schools, rather than the mass media, internet, or legal systems, are the 'primary' cause of that stability.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C12",
+        "missing_step": "Even if biculturalism is psychologically possible, it must be established that the national grapholect has a higher normative claim on school time than the original cultural roots.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C14",
+        "to_id": "C27",
+        "missing_step": "That a 'knowledge-centered' curriculum is the most efficient or only way to achieve the linguistic competence that leads to higher income.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C21",
+        "to_id": "C28",
+        "missing_step": "The assumption that the international medium of exchange cannot evolve to include more diverse cultural background knowledge without losing its functionality.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "The 'double consciousness' or 'cultural tax' of navigating a dominant grapholect can lead to cognitive load and alienation from one's community, even if technically possible.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C12",
+        "objection": "Prioritizing a 'shared' national literacy can marginalize minority perspectives, effectively erasing diverse histories under the guise of 'effective communication'.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C7",
+        "objection": "Linguistic stability in the digital age is increasingly determined by global tech platforms and social media algorithms rather than national elementary school curricula.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C19",
+        "objection": "The 'shared public culture' is often a construct of dominant groups; forcing it on all students can alienate minority students and perpetuate systemic inequality rather than solving it.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C22",
+        "objection": "Biculturalism may not be a harmonious 'foundational reality' but a site of psychological conflict and 'double consciousness' for marginalized groups.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C28",
+        "objection": "Economic fairness should be achieved by making the workplace and society more inclusive of linguistic diversity rather than requiring marginalized groups to bear the burden of assimilation.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Psychological Possibility of National Cohesion",
+        "chain": [
+          "C2",
+          "C1",
+          "C34",
+          "C35"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "Historical Stabilization of Literacy",
+        "chain": [
+          "C4",
+          "C5",
+          "C6",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Mandate for Shared Knowledge",
+        "chain": [
+          "C3",
+          "C8",
+          "C13",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Economic Imperative for Biculturalism",
+        "chain": [
+          "C14",
+          "C21",
+          "C28"
+        ],
+        "conclusion_id": "C28",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Duty Chain",
+        "chain": [
+          "C23",
+          "C24",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "moderate"
+      },
+      {
+        "name": "Path to National Recovery",
+        "chain": [
+          "C26",
+          "C25",
+          "C17",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0018098,
+    "duration_s": 26.751248121261597
+  }
+}

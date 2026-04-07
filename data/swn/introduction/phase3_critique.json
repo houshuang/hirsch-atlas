@@ -1,0 +1,100 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that educational 'experts' are ideologically blinded, contrasting them with 'scientists' and 'parents' who possess objective clarity.",
+        "source_passage": "They regarded my marshaling of evidence as a scholarly confirmation of what they themselves had figured out about the progressive “thoughtworld” of American education. In 1998, they emerged victorious over “expert” opposition...",
+        "importance": "significant",
+        "suggested_claim": "Educational experts often prioritize ideological 'progressive' principles over empirical evidence that is obvious to scientists and parents.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author suggests that the failure of his 1987 book to gain traction was a result of the 'moment' rather than the validity of the ideas, which justifies the re-introduction of those same ideas now.",
+        "source_passage": "1987 was not the right time for the ideas of that book to be heard. To paraphrase Matthew Arnold: for an idea to be heard “two powers must concur, the power of the [idea] and the power of the moment, and the [idea] is not enough without the moment.”",
+        "importance": "minor",
+        "suggested_claim": "The public acceptance of an educational theory is dependent on historical timing as much as its intrinsic intellectual merit.",
+        "suggested_claim_level": "meta"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C12",
+        "problem": "The claim states that disinterested research is 'increasingly overcoming' bias as a present fact, whereas the text presents this as a conditional future possibility.",
+        "source_passage": "If the trend of these independent studies continues, we may at last witness the victory of disinterested research over ideology",
+        "suggested_fix": "There is a potential trend suggesting that disinterested research may eventually overcome ideological bias in educational policy."
+      },
+      {
+        "claim_id": "C15",
+        "problem": "The claim generalizes the 'founding aims' as a objective fact of the movement, but the author describes it as his personal introduction to a specific internet world of activists.",
+        "source_passage": "It has introduced me to an Internet world of educational activists united in their determination to help our public schools fulfill the great founding aims of democratic education.",
+        "suggested_fix": "A growing network of online activists is motivated by the desire to align public schooling with the founding democratic aims of education."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "missing_warrant": "The rapid market adoption of a school curriculum (from 250 to 900 schools) serves as valid evidence of its educational effectiveness and success."
+      },
+      {
+        "evidence_id": "E4",
+        "claim_id": "C13",
+        "missing_warrant": "Program evaluations that focus on 'procedural skills' and 'student achievement' metrics are the correct and primary measures of a school reform's value."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C9",
+        "counter_argument": "Grade-by-grade content standards may be developmentally inappropriate for students who do not follow a linear learning path or who enter the system with significant background knowledge gaps.",
+        "why_important": "It challenges the author's primary solution (content standards) by pointing out that 'lock-step' grade requirements might ignore individual student variance."
+      },
+      {
+        "targets_claim": "C6",
+        "counter_argument": "The opposition to 'drill' is not 'anti-intellectual' but is based on the neuroscientific view that deep conceptual understanding must precede or accompany procedural fluency to ensure long-term retention.",
+        "why_important": "It refutes the author's characterization of his opponents as merely 'ideological' or 'romantic' by providing a cognitive-science-based alternative for their position."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C1",
+          "C14"
+        ],
+        "action": "merge",
+        "explanation": "C14 is the evidence and specific context for the broader claim in C1; they describe the same historical comparison of the reception of Hirsch's work."
+      },
+      {
+        "claim_ids": [
+          "C6",
+          "C7"
+        ],
+        "action": "merge",
+        "explanation": "C7 is simply the negative evaluation of the opposition described in C6; they form a single argument about the 'misguided' nature of the 'drill and kill' critique."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C17",
+        "current_level": "theoretical",
+        "correct_level": "methodological",
+        "explanation": "The claim is about how research models predict outcomes, which is a question of research methodology and its predictive validity."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction captures the main pillars of Hirsch's update: the shift in reception, the growth of Core Knowledge, and the critique of the progressive 'thoughtworld.' However, it misses the rhetorical hierarchy Hirsch establishes between 'scientists' and 'experts' and overstates the certainty of his claims regarding the current victory of research over ideology. Several warrants regarding market adoption as a proxy for quality are missing."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0008561000000000002,
+    "input_tokens": 3209,
+    "output_tokens": 1338,
+    "duration_s": 18.992311000823975,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

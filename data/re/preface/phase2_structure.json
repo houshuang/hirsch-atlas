@@ -1,0 +1,380 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C4",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The Founders' skepticism of human nature is the foundational reason for designing a school system meant to elevate reason over passion."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "If nature was seen as an unsound principle, then a structured, artificial environment like the Common School becomes the necessary alternative."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "A shared curriculum is the practical instrument used to achieve the goal of producing a 'literate, ethical patriot.'"
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C14",
+        "relationship": "opposes",
+        "explanation": "The author uses cognitive science (C14) to specifically invalidate the 'natural development' theories of Romanticism (C12)."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim that Romanticism causes confusion and illiteracy is the bridge to the claim that it causes political hostility and slogans."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "Long-term decline in reading scores provides the empirical baseline for the claim that educational shifts have damaged the national discourse."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If child-centrism is an incorrect theory of learning, its implementation would logically lead to the observed decline in literacy scores."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C29",
+        "relationship": "depends-on",
+        "explanation": "The moral flaw of allowing instinct-based reading choices is facilitated by the methodological tools (Lexiles) that justify those choices."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "If literacy is essential for democracy, the failure to provide a shared basis for literacy (shared knowledge) necessarily undermines democratic efforts like desegregation."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "If current scores only reflect parental background (social predestination), then a common curriculum is the only way to break that cycle for disadvantaged children."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The pragmatic need for frameworks leads to the prediction that the first adopter will lead in literacy."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "The conclusion to exclude Romanticism from policy relies on the premise that Romanticism is the source of 'child-centered' progressive education which the author deems a failure."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C42",
+        "relationship": "instantiates",
+        "explanation": "Dewey's admission of Hegelian influence provides a specific historical link between Romantic philosophy and American educational theory."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "The success of students in a non-Romantic, knowledge-based curriculum (Core Knowledge) provides empirical grounds for rejecting Romantic policy."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "Strong parental demand for the alternative model suggests that the Romantic model is not meeting the needs or desires of a diverse public."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C47",
+        "relationship": "depends-on",
+        "explanation": "The Enlightenment's focus on reason and logic (C41) is the framework within which the author builds the normative goal of creating empathetic, rational citizens (C47)."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E4",
+        "claim_id": "C4",
+        "warrant_text": "The design of political institutions (separation of powers) accurately reflects the designers' underlying psychological and philosophical beliefs about human nature.",
+        "is_explicit": true,
+        "vulnerability": "Institutions can be designed based on compromise or pragmatic necessity rather than a unified philosophy of human nature."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E11",
+        "claim_id": "C14",
+        "warrant_text": "If linguistic communication logically requires shared background knowledge, then educational theories that de-emphasize content in favor of 'natural' skills are scientifically incorrect.",
+        "is_explicit": false,
+        "vulnerability": "Cognitive science may support the need for knowledge, but not necessarily the specific, centralized 'Core Knowledge' curriculum advocated by the author."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E2",
+        "claim_id": "C15",
+        "warrant_text": "A decline in academic performance (reading scores) correlates with and causes a decline in the quality of civic participation and political stability.",
+        "is_explicit": false,
+        "vulnerability": "Correlation is not causation; other factors like economic shifts or media technology may cause both the scores to drop and the political discourse to coarsen."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C34",
+        "claim_id": "C33",
+        "warrant_text": "A decline that occurs before a major social change (desegregation) but after a shift in educational philosophy (Romanticism) is most likely caused by the philosophical shift.",
+        "is_explicit": false,
+        "vulnerability": "Other historical factors in the 1940s—such as changes in teacher certification, economic shifts, or the post-war baby boom—could also correlate with the decline."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C24",
+        "claim_id": "C23",
+        "warrant_text": "International performance trends serve as valid proxies for the theoretical correctness of an educational philosophy.",
+        "is_explicit": true,
+        "vulnerability": "Ranking declines in other nations may be due to varied funding, different demographic shifts, or cultural changes unrelated to child-centered theory."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C40",
+        "claim_id": "C26",
+        "warrant_text": "Institutional practices that reward service and shared sacrifice (like the 'VETERAN' stamp) reflect the health of a democracy that values collective responsibility over individual instinct.",
+        "is_explicit": false,
+        "vulnerability": "This is a nostalgic or symbolic connection; the practice of 'rubber-stamping' transcripts does not directly prove the cognitive requirements of democracy."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C49",
+        "claim_id": "C44",
+        "warrant_text": "If a specific educational philosophy consistently produces superior outcomes for the most disadvantaged students, its ideological rivals (in this case, Romanticism) should be abandoned in policy.",
+        "is_explicit": false,
+        "vulnerability": "The success of one specific school under one specific leader (Jeff Litt) may be an outlier caused by 'leadership' rather than the curriculum itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C45",
+        "claim_id": "C44",
+        "warrant_text": "Parental demand, especially from diverse and marginalized groups, is a valid indicator of whether a curriculum is inclusive and effective.",
+        "is_explicit": true,
+        "vulnerability": "Parents may choose schools based on safety or discipline rather than an endorsement of the underlying Enlightenment philosophy."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C46",
+        "claim_id": "C44",
+        "warrant_text": "Because language is a stable, shared social convention, educational methods that focus on individual 'natural' development (Romanticism) are ill-suited for teaching it.",
+        "is_explicit": false,
+        "vulnerability": "Child-centered methods could theoretically be more effective at engaging students in the mastery of stable structures than rote methods."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C15",
+        "missing_step": "Low literacy specifically leads to 'hostility' and 'slogans' rather than mere disengagement or apathy.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C14",
+        "to_id": "C9",
+        "missing_step": "The cognitive benefits of shared knowledge prove that the specific ethical and patriotic goals of the Enlightenment founders are the only valid goals for education.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C25",
+        "to_id": "C26",
+        "missing_step": "Establishing that empathetic literacy specifically enables citizens to navigate political disagreement and power-sharing.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C33",
+        "to_id": "C37",
+        "missing_step": "Demonstrating that statewide 'frameworks' will successfully translate into the specific 'shared knowledge' required to reverse the decline, rather than becoming more bureaucratic 'child-centered' guidelines.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C44",
+        "missing_step": "A demonstration that the Enlightenment's emphasis on logic and experience is inherently more effective for early childhood learning than the Romantic emphasis on instinct.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C46",
+        "to_id": "C44",
+        "missing_step": "Evidence that child-centered education is the primary cause of the failure to master 'stable' written English, rather than external socioeconomic factors.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C15",
+        "objection": "The rise in political hostility might be primarily driven by economic inequality and the structural features of modern digital media, rather than the secondary effects of educational philosophy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C14",
+        "objection": "While cognitive science supports 'knowledge,' it doesn't necessarily disprove 'child-centered' methods if those methods are more effective at motivating students to acquire that knowledge.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C33",
+        "objection": "The decline in reading scores might reflect the democratization of testing—as a larger and more diverse percentage of the population stayed in school longer, the 'average' naturally shifted downward compared to an era of higher elite-only retention.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C36",
+        "objection": "A 'commonality of instruction' could inadvertently marginalize the home languages and diverse cultural knowledge of disadvantaged children, making school feel more alienating and less relevant to their lives.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C21",
+        "objection": "While Romanticism focused on 'essences,' Enlightenment theories of 'universal reason' were frequently used to justify colonialism by framing non-European cultures as 'unreasonable' or 'primitive.'",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C44",
+        "objection": "Romanticism in education is not just about 'poetry'; it is about developmental appropriateness—the idea that children learn best when material is matched to their natural cognitive stages.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C48",
+        "objection": "While desegregation itself is not a 'vice,' the massive demographic shifts and resulting loss of tax base in urban schools ('white flight') created resource disparities that contributed to score declines.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C47",
+        "objection": "The goal of fostering 'empathy' is itself a deeply sentimental, Romantic value, suggesting that policy cannot be purely Enlightenment-based.",
+        "objection_type": "internal_inconsistency"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Founder's Logic",
+        "chain": [
+          "C4",
+          "C5",
+          "C7",
+          "C8",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "strong"
+      },
+      {
+        "name": "Scientific Rejection of Romanticism",
+        "chain": [
+          "C11",
+          "C12",
+          "C14"
+        ],
+        "conclusion_id": "C14",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Crisis of Discourse",
+        "chain": [
+          "C3",
+          "C19",
+          "C20",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Democratic Necessity Chain",
+        "chain": [
+          "C26",
+          "C25",
+          "C32",
+          "C36"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Failure Chain",
+        "chain": [
+          "C23",
+          "C27",
+          "C30",
+          "C33",
+          "C31"
+        ],
+        "conclusion_id": "C33",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Restoration of Literacy Chain",
+        "chain": [
+          "C22",
+          "C36",
+          "C37",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Philosophical Failure Chain",
+        "chain": [
+          "C41",
+          "C42",
+          "C43",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Practical Success Chain",
+        "chain": [
+          "C49",
+          "C45",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Stability Chain",
+        "chain": [
+          "C41",
+          "C47",
+          "C48"
+        ],
+        "conclusion_id": "C47",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0025323000000000003,
+    "duration_s": 40.116514921188354
+  }
+}

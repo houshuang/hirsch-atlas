@@ -1,0 +1,109 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "Refutation of Emersonian 'Godhood-within' as the basis for self-reliance in education.",
+        "source_passage": "Such exaltation of following one’s own hunches as something reliable and holy, has been mainly a delusion. ... There is no God-within us, as Emerson insisted. A human may be his own priest as Martin Luther said, but not his own God.",
+        "importance": "critical",
+        "suggested_claim": "The pedagogical reliance on student intuition ('hunches') is based on a flawed theological premise that the individual possesses innate, divine wisdom.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The 'Nature's Imperative' argument: Evolution specifically designed humans to be cultural, not instinctual, learners.",
+        "source_passage": "Nature decided through evolution to put us in charge with our big neo-cortices. We need to accept nature’s imperative to transcend instinctual nature.",
+        "importance": "significant",
+        "suggested_claim": "Human evolution dictates that we must move beyond instinctual nature and utilize our neocortices for cultural and social instruction.",
+        "suggested_claim_level": "empirical"
+      },
+      {
+        "description": "The contextual survival argument for lack of instincts.",
+        "source_passage": "As Horace Mann said, nature withheld instructional instincts from humans, so we can figure out the survival needs of the current context we find ourselves in.",
+        "importance": "significant",
+        "suggested_claim": "The absence of innate instructional instincts in humans is a biological advantage that allows for adaptation to specific, changing environments through learned knowledge.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C1",
+        "problem": "The extraction identifies lack of knowledge as the sole reason for poor reading, whereas the text identifies it as 'one reason'—an important distinction for a causal argument.",
+        "source_passage": "One reason our eighth graders don’t read very well is that they don’t know very much about the subjects they find in books...",
+        "suggested_fix": "A primary reason for poor reading scores among U.S. eighth graders is their lack of domain-specific subject knowledge."
+      },
+      {
+        "claim_id": "C22",
+        "problem": "The text calls the movement 'anti-intellectual individualism,' but it does not claim the thinkers themselves (Dewey, Emerson) were fundamentally anti-intellectual as people; they were anti-intellectual regarding the *authority of books*.",
+        "source_passage": "The later, anti-intellectual individualism of Emerson and Elizabeth Peabody, and even in his bookish way, of John Dewey, were very, very different...",
+        "suggested_fix": "The individualism of Emerson, Peabody, and Dewey prioritizes personal instinct over the authority of communal book-learning, representing an 'anti-intellectual' shift in pedagogy."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E2",
+        "claim_id": "C1",
+        "missing_warrant": "PISA scores are a valid proxy for measuring the success of specific pedagogical strategies (facts vs. skills) rather than reflecting broader social or economic factors."
+      },
+      {
+        "evidence_id": "E6",
+        "claim_id": "C48",
+        "missing_warrant": "Popular theatrical success and audience reception in the 19th century serve as reliable evidence for deep-seated national cultural attitudes and educational biases."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C30",
+        "counter_argument": "Cognitive and evolutionary psychology suggest the brain is not a 'blank slate' but is born with innate 'core knowledge' modules for language, number, and social interaction.",
+        "why_important": "This directly contradicts Hirsch's biological premise that all complex knowledge must be 'written' onto a passive neocortex."
+      },
+      {
+        "targets_claim": "C31",
+        "counter_argument": "Literacy in the 21st century involves procedural information-literacy skills—identifying bias, searching for information, and synthesizing sources—that are distinct from possessing a static body of shared facts.",
+        "why_important": "It challenges the author's dichotomy that literacy is solely a 'knowledge test in disguise.'"
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C11",
+          "C23",
+          "C43",
+          "C44"
+        ],
+        "action": "merge",
+        "explanation": "These claims all repeat the single theoretical principle of the 'domain-specificity of skills' using different examples (math vs. military tactics). They should be a single claim supported by multiple examples."
+      },
+      {
+        "claim_ids": [
+          "C32",
+          "C35"
+        ],
+        "action": "merge",
+        "explanation": "The 'false myth' that nature is in charge and the 'false myth' of an inherent curriculum are effectively the same theoretical point."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C12",
+        "current_level": "normative",
+        "correct_level": "pragmatic",
+        "explanation": "The utility of calculus for a general is a claim about practical application and professional efficacy, not a moral or value-based 'should' statement."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is highly detailed and captures the historical narrative well. However, it misses the author's critical biological argument (the 'Nature's Imperative' to transcend instinct) and some of the more nuanced refutations of Emerson's 'Whim' theology. It also suffers from excessive repetition regarding 'domain-specificity'."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0016132000000000002,
+    "input_tokens": 10456,
+    "output_tokens": 1419,
+    "duration_s": 21.257354974746704,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

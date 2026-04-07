@@ -1,0 +1,459 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The claim that progressive education caused a decline assumes a prior state of high performance in the pre-progressive era."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The current below-average ranking of US schools is the 'effect' for which progressive education is the proposed 'cause'."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C5",
+        "relationship": "refines",
+        "explanation": "C5 specifies the exact timeframe (1960-1980) when the causal mechanism identified in C3 (ideological shift) manifested as a statistical decline."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "If educational doctrines like 'hands-on projects' actively preclude a well-rounded curriculum, then those doctrines must be removed before a curriculum-based reform can work."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "If an ideology caused the decline, it logically follows that the ideology must be replaced to reverse the decline."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C8",
+        "relationship": "instantiates",
+        "explanation": "C8 rephrases the theoretical necessity of C38 into a pragmatic requirement for reform."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "The normative goal of national unity provides the justification for the 'contribute nationally' component of the school theme."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The claim that thinking skills are unproductive aims rests on the theoretical assertion that content-independent skills do not exist."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "Shared conventions of knowledge are presented as the mechanism that makes language competence dependent on subject-matter mastery."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "If language competence is dependent on curriculum-built knowledge, then ensuring that curriculum is the school's most important task."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The link between language mastery and knowledge mastery implies that lack of knowledge leads to communicative incompetence and poverty."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The slow rate of change in central shared knowledge makes it a stable, necessary target for escaping poverty."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The claim that mental stages are influenced by education is historically supported by Piaget's own later theoretical reversals."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The fact that education can shift development by four years proves that content, not just biology, drives mental stages."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C24",
+        "relationship": "depends-on",
+        "explanation": "The slow growth of expertise is explained by the fundamental memory requirement for long practice and domain-specific knowledge."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The inability of computers to bypass domain knowledge reinforces the claim that such knowledge is an essential requirement for skill consolidation."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The preference for basic science over classroom research is used to discredit the 'romantic ideas' that currently dominate American education."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The principle of intellectual triangulation provides the methodological basis for trusting the disconfirmation of American schooling ideas because that disconfirmation comes from multiple independent fields."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The author prioritizes basic scientific research over school-level research to justify the claim that the foundational ideas of schooling have been scientifically disconfirmed."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C32",
+        "relationship": "instantiates",
+        "explanation": "Developmental psychology's findings against natural development are one of the independent perspectives that disconfirm current schooling ideas."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C32",
+        "relationship": "instantiates",
+        "explanation": "Psycholinguistic research's findings on domain-specificity are another independent perspective disconfirming the 'all-purpose skills' idea."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "If there are no shortcuts to competence, a comprehensive, knowledge-specific curriculum becomes the only viable path to imparting that competence."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a knowledge-specific curriculum follows from the scientific failure of its alternatives (naturalism and skill-centrism)."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The normative necessity of the curriculum justifies the pragmatic prediction that its successful implementation in one district will force a national shift."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "warrant_text": "If a system was high-performing under one set of ideas and declined after switching to another, the change in ideas is the most likely cause of the change in performance.",
+        "is_explicit": false,
+        "vulnerability": "Omission of confounding variables (demographics, economics, social unrest) that occurred during the same mid-century period."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C4",
+        "warrant_text": "A natural experiment: when similar nations face the same ideological choice and only the 'resisters' succeed, the ideology itself is the variable responsible for failure.",
+        "is_explicit": true,
+        "vulnerability": "Cultural differences (e.g., Asian Confucian traditions) may be the actual driver of success rather than just the resistance to Western progressive pedagogy."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E11",
+        "claim_id": "C46",
+        "warrant_text": "If four independent methods/sources yield the same result, the probability of error is so low that continuing to doubt the result is a failure of logic.",
+        "is_explicit": true,
+        "vulnerability": "The 'triangulated' sources might not be truly independent; they might share an underlying flawed assumption."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E7",
+        "claim_id": "C8",
+        "warrant_text": "If the leading authority on a theory (Piaget) admits its limitations regarding content, then the theory's status as an absolute guide for education is invalidated.",
+        "is_explicit": false,
+        "vulnerability": "A theorist's late-stage nuance does not necessarily invalidate the practical utility of their earlier, broader observations."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "warrant_text": "Scientific consensus on the nature of human expertise is the ultimate authority for determining valid educational methods.",
+        "is_explicit": true,
+        "vulnerability": "The definition of 'skill' used by laboratory researchers (like chess or violin mastery) may not fully capture the complexity of classroom 'thinking skills' like synthesis or evaluation."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E13",
+        "claim_id": "C9",
+        "warrant_text": "If even high-powered computational systems require massive domain-specific data to perform 'thinking' tasks (like translation), then human biological systems are likely subject to the same content-dependence.",
+        "is_explicit": false,
+        "vulnerability": "Human brains and digital algorithms operate on different cognitive architectures; what is true for machine learning may not apply to human meta-cognition."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C13",
+        "warrant_text": "Successful historical literacy tools serve as evidence for the necessary components of literacy itself.",
+        "is_explicit": false,
+        "vulnerability": "Historical success may have been due to social conditions (homogeneity) rather than the inherent nature of the 'Blue Back Speller's' methodology."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E9",
+        "claim_id": "C27",
+        "warrant_text": "A study that fails to generalize despite internal validity (like the Tennessee STAR study) demonstrates that classroom-level variables are too noisy to guide national policy.",
+        "is_explicit": true,
+        "vulnerability": "Basic science in a laboratory setting may lack ecological validity for the complex social environment of a school."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C33",
+        "claim_id": "C32",
+        "warrant_text": "If a core principle of an educational system (natural development) is found to be an 'unreliable guide' by its parent scientific discipline (developmental psychology), the educational application of that principle is invalid.",
+        "is_explicit": true,
+        "vulnerability": "Educational practice may require 'useful fictions' or pedagogical structures that do not map 1:1 onto basic psychological research."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C34",
+        "claim_id": "C32",
+        "warrant_text": "Scientific evidence showing skills are domain-dependent directly contradicts and invalidates the educational assumption that skills are all-purpose.",
+        "is_explicit": false,
+        "vulnerability": "Skills might be domain-specific in their acquisition but show 'near-transfer' properties that the author's binary categorization ignores."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C32",
+        "claim_id": "C35",
+        "warrant_text": "When all known alternative theories of learning have been scientifically disconfirmed, the remaining theory (knowledge-centrism) must be the exclusive solution for achieving equity.",
+        "is_explicit": false,
+        "vulnerability": "This is a false dilemma; the failure of current methods does not prove that only one specific alternative can succeed, nor that curriculum is the only variable for equality."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C8",
+        "missing_step": "Establishing that intellectual 'dethroning' of an idea is a sufficient condition to change the actual institutional practices of thousands of autonomous school districts.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C43",
+        "to_id": "C44",
+        "missing_step": "A bridge explaining how the 'Think Globally, Act Locally' slogans (often associated with progressivism/environmentalism) are compatible with the author's communal, nation-focused curriculum.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C12",
+        "missing_step": "A communal curriculum is the only or most efficient way to acquire these shared conventions of knowledge.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "C14",
+        "missing_step": "Providing central knowledge to the poor does not necessitate the erasure of their own cultural identity or cause psychological harm.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C21",
+        "to_id": "C17",
+        "missing_step": "The fact that mental stages are influenced by education implies a duty for the state to standardize that education for the purpose of national unity.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C32",
+        "to_id": "C35",
+        "missing_step": "A knowledge-specific curriculum must be demonstrated to be logistically and politically feasible to implement across diverse American contexts to 'overcome' inequality.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C35",
+        "to_id": "C36",
+        "missing_step": "The success of a single school district can overcome the 'intellectual monopoly' of child-centered doctrines and the institutional inertia of state departments of education.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C5",
+        "objection": "The 'Great American Test Score Decline' (1960-1980) coincides with the era of school desegregation and the inclusion of a much broader, more disadvantaged demographic in the testing pool, which statistically lowers averages regardless of pedagogy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C38",
+        "objection": "Even if intellectualized knowledge is superior, 'providential individualism' provides the necessary motivation and engagement for students who otherwise feel alienated by a rigid, communal national curriculum.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C44",
+        "objection": "In a highly polarized and pluralistic society, 'contributing nationally' is a contested concept; there is no consensus on which 'common principles' should define the community.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C12",
+        "objection": "The prioritization of 'Standard American English' and a 'communal curriculum' constitutes a form of linguistic and cultural imperialism that marginalizes non-dominant groups rather than empowering them.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C9",
+        "objection": "Teaching general heuristics (metacognition) may not make one an expert, but it provides a transferable framework that allows learners to acquire new domain-specific knowledge more efficiently.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C21",
+        "objection": "Even if content influences the *timing* of mental stages, the *sequences* of development may still be biologically universal and fixed, limiting what can be taught at certain ages.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C32",
+        "objection": "The 'disconfirmation' of natural development in a laboratory setting does not account for the motivational benefits of student-centered learning which may outweigh the efficiencies of direct instruction in a real-world classroom.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C35",
+        "objection": "Inequality of opportunity is primarily driven by exterior material conditions (housing, healthcare, and economic stability); focusing exclusively on curriculum may provide a cognitive benefit but leave the structural causes of the achievement gap untouched.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C36",
+        "objection": "The decentralized nature of US education, where curriculum decisions are often made at the state or local level, makes a single 'trigger' event unlikely to create a national shift without corresponding changes to federal law or teacher certification standards.",
+        "objection_type": "scope_limitation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "Historical Causal Failure",
+        "chain": [
+          "C1",
+          "C2",
+          "C4",
+          "C3",
+          "C5"
+        ],
+        "conclusion_id": "C5",
+        "strength": "strong"
+      },
+      {
+        "name": "The Prerequisite for Reform",
+        "chain": [
+          "C6",
+          "C40",
+          "C38",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "moderate"
+      },
+      {
+        "name": "Nation-Building Mission",
+        "chain": [
+          "C37",
+          "C41",
+          "C43",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Linguistic Inequity Chain",
+        "chain": [
+          "C13",
+          "C11",
+          "C12",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "strong"
+      },
+      {
+        "name": "The Skills Myth Chain",
+        "chain": [
+          "C10",
+          "C9",
+          "C26",
+          "C25",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "strong"
+      },
+      {
+        "name": "The Developmental Realism Chain",
+        "chain": [
+          "C20",
+          "C21",
+          "C22",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Refutation of Romanticism",
+        "chain": [
+          "C29",
+          "C31",
+          "C33",
+          "C34",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge Mandate for Equity",
+        "chain": [
+          "C32",
+          "C30",
+          "C35"
+        ],
+        "conclusion_id": "C35",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Catalyst for National Reform",
+        "chain": [
+          "C35",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "weak"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.004495900000000001,
+    "duration_s": 58.304102420806885
+  }
+}

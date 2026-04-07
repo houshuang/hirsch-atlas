@@ -1,0 +1,157 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C6",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The 'material of time' or historical residue provides the structural stability required for the grapholect to function as a unifying force."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "Because a stable grapholect is essential for unification, its maintenance becomes a central political concern for the nation-state."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The fact that schools are the primary engine of grapholect durability makes the school system a political instrument of nationhood."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "If stability increases with the educated population, it reinforces the claim that schools are the primary source of that stability."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C12",
+        "relationship": "supports",
+        "explanation": "If a school-sustained grapholect is the central political fact of nationhood, then mastering its implicit knowledge is the key to democratic participation and fairness."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "instantiates",
+        "explanation": "The Nigerian English grapholect serves as a real-world example of a national literature taking the whole nation as its province."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The normative requirement to master the grapholect for national life is predicated on the idea that such mastery leads to a stable and fair democracy."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "A leading practitioner of a national literature (Achebe) is an authoritative source on the functional necessity of the language used to produce that literature.",
+        "is_explicit": false,
+        "vulnerability": "The author's personal success in that language may bias his view of its political necessity over indigenous alternatives."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C2",
+        "warrant_text": "Massive commercial success across diverse populations demonstrates that the medium (the grapholect) effectively bridges ethnic and geographic divides.",
+        "is_explicit": true,
+        "vulnerability": "Commercial success might reflect global market dynamics rather than internal national unity."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "warrant_text": "If a written form remains intelligible across vast distances and centuries without central planning, it possesses an inherent structural stability resistant to linguistic drift.",
+        "is_explicit": false,
+        "vulnerability": "Mutual intelligibility might be maintained by constant contact (trade, media) rather than the 'material of time' in the grapholect itself."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E4",
+        "claim_id": "C11",
+        "warrant_text": "Political entities are more willing to surrender economic sovereignty (currency) than linguistic sovereignty, implying language is the more fundamental component of national identity.",
+        "is_explicit": true,
+        "vulnerability": "The refusal to share a language may be a matter of practical difficulty rather than a statement on the essence of nationhood."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C7",
+        "to_id": "C8",
+        "missing_step": "The cultural products of schools are inherently superior in status to those of folk traditions in an industrial context.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C11",
+        "to_id": "C12",
+        "missing_step": "A shared communicative instrument automatically leads to 'fairness' rather than being used as a tool for elite consolidation.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C8",
+        "objection": "Folk-transmitted cultures provide essential psychological grounding and community identity that 'school-transmitted' industrial culture often strips away, leading to alienation rather than 'dignity'.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C7",
+        "objection": "Digital media, social networks, and global internet standards (C18) now exert more influence over grapholect stability and change than the formal school system.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C12",
+        "objection": "The 'implicit background knowledge' of a national grapholect often reflects the prejudices and history of the dominant ethnic or class group, making its universal requirement a source of unfairness for minorities.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Political Necessity of Schools",
+        "chain": [
+          "C7",
+          "C9",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linguistic Basis of Democracy",
+        "chain": [
+          "C6",
+          "C17",
+          "C11",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "moderate"
+      },
+      {
+        "name": "Industrial Culture and Individual Dignity",
+        "chain": [
+          "C4",
+          "C5",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0009001000000000001,
+    "duration_s": 12.822944641113281
+  }
+}

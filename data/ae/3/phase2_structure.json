@@ -1,0 +1,426 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C3",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "If general, transferable reading skills existed, then a lack of specific subject-matter knowledge would not be the primary cause of poor reading performance."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that students fail tests due to a lack of knowledge requires the theoretical premise that these tests are actually measuring knowledge rather than abstract skills."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "If remembered knowledge is the 'key' to comprehension in every instance, it implies that comprehension cannot function as a standalone, content-neutral skill."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The institutional disparagement of facts explains the mechanism by which students end up with the knowledge deficits that C1 identifies."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "The normative goal of producing 'capable' individuals depends on the theoretical premise that humans progress by accumulating knowledge across generations via books."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "instantiates",
+        "explanation": "The founders' shift from 'sacred' to 'self-evident' is a specific historical example of the broader 18th-century rejection of dogma."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The specific nature of the founders' critique of dogma (as religious/unproven) clarifies that their Enlightenment stance was not anti-book or anti-rationality."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "If the Enlightenment critique was not against book learning, it allows for the founders' belief in systematic schooling as a rational tool for unity."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "Emerson's intellectual foundation for Dewey's thinking is the basis for describing that lineage as anti-intellectual regarding book-learning."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "The shift from external authority to self-reliant guidance is the core mechanism of the 'anti-intellectual' individualism the author critiques."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "Establishing a fundamental difference between these two historical eras is necessary to claim that American education inherited two distinct types of suspicion."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "The scientific principle of domain-specificity is used to argue that the Romantic focus on personal 'hunches' is a delusion because skills require specific knowledge."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "If the human brain is a blank slate requiring instruction, then the Romantic belief in natural unfolding (hunches) is biologically unfounded."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "The claim that literacy is shared knowledge relies on the premise that skills are domain-specific and do not transfer across fields."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C43",
+        "relationship": "instantiates",
+        "explanation": "The failure of critical thinking to transfer between math and military tactics serves as an empirical instance of domain-specificity."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "Evolutionary evidence regarding the neocortex suggests humans are in charge of their own development, debunking the myth that nature is the primary 'curriculum' provider."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The falseness of the inherent curriculum myth depends on the broader theoretical claim that nature is not in charge of human development."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If literacy is fundamentally about shared knowledge, it follows that schools must focus on imparting specific knowledge to create literate citizens."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "If developmentalism lacks scientific support, its continued dominance is characterized as a form of unreasoning religious dogma."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "Categorizing developmentalism as a religious dogma provides the basis for arguing it should be excluded from public schools under secular principles."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C54",
+        "warrant_text": "International standardized test rankings (PISA) are a direct and valid reflection of the efficacy of a nation's dominant educational philosophy.",
+        "is_explicit": true,
+        "vulnerability": "National rankings are influenced by diverse variables including socio-economic inequality, language diversity, and cultural attitudes toward testing, not just pedagogical theory."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E3",
+        "claim_id": "C3",
+        "warrant_text": "If reading comprehension requires domain-specific knowledge to function, then it cannot be classified as a 'general' or 'transferable' skill.",
+        "is_explicit": false,
+        "vulnerability": "A skill might require content to manifest while still involving generalizable cognitive processes (like decoding or logical inference) that are applied across all content."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "The content of teacher training programs and the consensus of educational experts directly determines the actual instructional practices and priorities in classrooms.",
+        "is_explicit": false,
+        "vulnerability": "Teachers often exercise professional autonomy or follow local district mandates that may conflict with the 'skills-based' theories taught in university programs."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E7",
+        "claim_id": "C48",
+        "warrant_text": "The popularity of a cultural satire indicates that the audience shares the underlying values being parodied (in this case, the vanity of useless book-learning).",
+        "is_explicit": false,
+        "vulnerability": "Cultural artifacts like the Major-General's song might be enjoyed for their wit or musicality rather than as an endorsement of the specific anti-intellectual sentiment being mocked."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E15",
+        "claim_id": "C11",
+        "warrant_text": "Scientific findings in cognitive psychology regarding the failure of expertise transfer are the gold standard for determining how human learning actually functions.",
+        "is_explicit": true,
+        "vulnerability": "Experimental settings for 'transfer' may not capture long-term or subtle meta-cognitive transfers that occur in real-world environments."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E6",
+        "claim_id": "C28",
+        "warrant_text": "The massive popularity of a satirical character who fails due to 'rote learning' indicates that the audience shared a pre-existing cultural suspicion of bookishness.",
+        "is_explicit": false,
+        "vulnerability": "Audience laughter might be directed at the character's personal incompetence rather than the educational philosophy he represents."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E13",
+        "claim_id": "C30",
+        "warrant_text": "If humans lack the innate biological 'instincts' for specific complex tasks (unlike animals), they must rely entirely on external cultural instruction.",
+        "is_explicit": true,
+        "vulnerability": "The lack of 'instructional instincts' does not necessarily mean the neocortex is a 'blank slate'; it may have architectural biases or predispositions."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C36",
+        "claim_id": "C32",
+        "warrant_text": "If a biological organ (the neocortex) evolved specifically to allow for cultural adaptation rather than instinctual programming, then relying on 'nature' to provide a curriculum is a biological category error.",
+        "is_explicit": true,
+        "vulnerability": "Biological plasticity does not necessarily mean 'nature' provides zero constraints or optimal windows (stages) for certain types of learning."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C44",
+        "claim_id": "C31",
+        "warrant_text": "If high-level cognitive processes cannot operate independently of specific content, then 'literacy'—a high-level cognitive process—must be defined by the content it processes.",
+        "is_explicit": false,
+        "vulnerability": "Literacy might involve generic decoding and syntax-processing mechanisms that remain constant even if the background knowledge changes."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C40",
+        "claim_id": "C42",
+        "warrant_text": "If an educational theory lacks scientific basis and functions as a matter of faith, it meets the functional definition of a religion and should be subject to the same constitutional exclusions as traditional theology.",
+        "is_explicit": true,
+        "vulnerability": "Legal and constitutional definitions of religion usually involve the supernatural; a 'secular religion' might not trigger the Establishment Clause in the same way."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C54",
+        "to_id": "C1",
+        "missing_step": "Evidence that higher-ranking nations on PISA (positions 1-24) utilize the specific, knowledge-based curriculum the author advocates.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C4",
+        "to_id": "C3",
+        "missing_step": "Demonstration that the 'thinking process' itself does not possess generalizable rules of logic or evidence-evaluation that exist independently of the facts being processed.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C10",
+        "to_id": "C2",
+        "missing_step": "The historical transition showing how the 'admirable' 18th-century rejection of religious dogma became the 'harmful' 20th-century rejection of factual knowledge.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C26",
+        "to_id": "C29",
+        "missing_step": "A value judgment that 'systematic instruction' is the only valid purpose of schooling, making any other focus a 'delusion.'",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C21",
+        "missing_step": "Evidence that the Founders specifically prioritized the *content* of schooling for military/professional utility as much as they did for political 'citizen-making.'",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C31",
+        "to_id": "C33",
+        "missing_step": "That a centrally-planned, traditional curriculum is the most effective way to transmit the necessary shared knowledge, rather than a decentralized or pluralistic one.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C36",
+        "to_id": "C31",
+        "missing_step": "The link showing that a 'blank slate' neocortex requires 'national ethnicity' specifically, rather than any coherent body of local or specialized knowledge.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C3",
+        "objection": "Cognitive psychology identifies 'meta-cognitive' strategies (e.g., self-monitoring, predicting, summarizing) that students can learn and apply to improve comprehension across various texts, even if content knowledge is low.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C1",
+        "objection": "The US performance gap in reading is more strongly correlated with the 'word gap' and vocabulary exposure in early childhood (often tied to socioeconomic status) than with a specific lack of subject-matter knowledge in 8th grade.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C52",
+        "objection": "Developmentalism is not a 'version of predestination' but a method to ensure instruction is age-appropriate; ignoring cognitive readiness can lead to frustration and 'rote' learning in its worst sense.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C29",
+        "objection": "The Romantic focus on experience is not a 'delusion' but a pedagogical strategy to increase student engagement and motivation, which are prerequisites for any systematic learning.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C30",
+        "objection": "The 'blank slate' model is largely rejected by modern evolutionary psychology, which posits that the brain has evolved modules for language, social hierarchy, and spatial reasoning.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C22",
+        "objection": "John Dewey's 'learning by doing' was not intended to be anti-intellectual but to bridge the gap between abstract thought and practical social application.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C31",
+        "objection": "While background knowledge aids comprehension, literacy also involves procedural skills (decoding, phonemic awareness, structural analysis) that are transferable across different texts.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C42",
+        "objection": "Labeling a pedagogical theory a 'religion' is a rhetorical move that ignores the secular, empirical (though perhaps flawed) observations about child behavior that developmentalists use.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C33",
+        "objection": "Imparting a 'specific shared knowledge' aimed at creating 'loyal' citizens risks indoctrination and may suppress the critical thinking required for a democratic society.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Domain-Specificity Argument",
+        "chain": [
+          "C5",
+          "C4",
+          "C6",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pedagogical Failure Argument",
+        "chain": [
+          "C7",
+          "C10",
+          "C2",
+          "C54",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Humanistic Goal of Schooling",
+        "chain": [
+          "C50",
+          "C53",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Historical Divergence Chain",
+        "chain": [
+          "C25",
+          "C18",
+          "C19",
+          "C22",
+          "C28"
+        ],
+        "conclusion_id": "C28",
+        "strength": "strong"
+      },
+      {
+        "name": "The Biological/Cognitive Chain",
+        "chain": [
+          "C30",
+          "C11",
+          "C23",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "moderate"
+      },
+      {
+        "name": "Founders' Educational Purpose Chain",
+        "chain": [
+          "C18",
+          "C25",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive-Literacy Chain",
+        "chain": [
+          "C44",
+          "C43",
+          "C31",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Biological-Curriculum Chain",
+        "chain": [
+          "C36",
+          "C38",
+          "C35",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Secular-Separation Chain",
+        "chain": [
+          "C40",
+          "C41",
+          "C42"
+        ],
+        "conclusion_id": "C42",
+        "strength": "weak"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0033304,
+    "duration_s": 43.66322731971741
+  }
+}

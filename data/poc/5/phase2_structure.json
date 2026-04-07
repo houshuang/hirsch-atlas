@@ -1,0 +1,1763 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "If knowing about literature is fundamentally distinct from the skill of writing, then composition cannot be treated as a subset of literary study."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The existence of conflicting assumptions regarding style between two fields justifies their separation into different curricular domains."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The specific conflict is that literature views form and content as a fusion, while composition views them as separable, allowing for revision."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "If including other subjects in a writing course makes teaching inefficient, it implies that composition is its own distinct craft requiring a focused approach."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The motivation for mixing subjects is framed as a lack of pedagogical knowledge rather than a sound educational strategy."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C10",
+        "relationship": "depends-on",
+        "explanation": "The claim that clarity is a psychological rather than logical property is the basis for arguing that 'clear thinking' and 'clear writing' are not identical."
+      },
+      {
+        "from_id": "C228",
+        "to_id": "C10",
+        "relationship": "responds-to",
+        "explanation": "C10 specifically identifies the logical flaw in the widespread educator belief described in C228."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "If clear writing is defined as the readable expression of meaning rather than the content of meaning itself, it follows that writing is a separate skill of expression (practical) rather than a subject of study (theoretical)."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The dissociation between the quality of thought and the quality of writing supports the idea that writing is an independent craft or 'know-how'."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C23",
+        "relationship": "depends-on",
+        "explanation": "The claim that composition shouldn't be subsumed under academic subjects relies on the premise that it is a practical art rather than a theoretical one."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "If writing is a practical knowledge, the pedagogical method must logically shift from lecture-based theory to production-based feedback."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "Establishing composition as an independent branch (not a subset of others) is the prerequisite for asserting its equal status in the university curriculum."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The inefficiency of logic for writing instruction is used as evidence that composition does not belong to the domain of logic."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The presence of irrelevant concerns in linguistics and rhetoric serves to distance composition from these traditional academic fields."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The failure of general theoretical principles (like Spencer's) to aid concrete decisions reinforces the idea that writing is a matter of practical judgment."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that general principles are more practical relies on the premise that Spencer's universal principle, while true, lacks the specific criteria to guide concrete decisions."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "The inherent problems with practical maxims (confusing or misleading) bolster the argument for the superiority of general principles."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "The fact that maxims conflict with each other necessitates a higher-order principle to resolve those conflicts."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "Historical consistency in composition advice across eras suggests that these rules are not arbitrary but reflect stable psychological realities."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The convergence of different handbooks on the same underlying advice, despite different phrasing, points toward universal principles."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C42",
+        "relationship": "instantiates",
+        "explanation": "The case of Sir Ernest Gowers provides a specific example of how maxim selection is tailored to the audience's specific needs and existing mastery."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "If the content of maxims is determined by audience needs, it follows that no absolute, context-free ranking of those maxims is possible."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "The relativity of a maxim's pedagogical value to its context directly undermines the possibility of an absolute ranking."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "If maxims are context-dependent and cannot be ranked absolutely, they are insufficient as a standalone pedagogical system."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "The insufficiency of maxims creates the logical requirement for the inclusion of the underlying principles that make sense of those maxims."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "The observation that proficient writers have internalized these principles regardless of formal training suggests that these principles are the actual engine of effective writing."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "If stylistic principles were genre-specific rather than general, writing proficiency would not be a transferable general skill."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The understanding that maxims are conditional instructions (C56) supports the claim that teaching is more efficient when the teacher understands the underlying psychological 'why' (C53)."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C67",
+        "relationship": "depends-on",
+        "explanation": "The paragraph's function as a unit of composition relies on the specific nature of the human attention mechanism (focusing on one thing at a time)."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C67",
+        "relationship": "depends-on",
+        "explanation": "Paragraphs provide the semantic closure necessary for themes to be stored in long-term memory."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C52",
+        "relationship": "instantiates",
+        "explanation": "The psychological efficiency of positive statements is a specific instance of a general principle underlying stylistic maxims."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C52",
+        "relationship": "instantiates",
+        "explanation": "The processing advantage of the active voice provides empirical backing for the claim that maxims are based on general psychological principles."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "Intro.C130",
+        "relationship": "depends-on",
+        "explanation": "The need for a consistent design in writing stems from the fact that written discourse must create its own internal context."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "Consistency in textual design prevents the context shifts that would invalidate a reader's initial meaning-hypotheses."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "Parallelism allows readers to use short-term expectancy to correctly predict the structure and meaning of upcoming text."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C76",
+        "relationship": "depends-on",
+        "explanation": "The necessity of proleptics in writing is based on their functional role in constraining and integrating meaning where intonation is absent."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C81",
+        "relationship": "depends-on",
+        "explanation": "The theoretical function of thematic tags is limited by the empirical reality of lexical memory decay."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "Because thematic tags operate at the point of memory decay, they are identified as a critical 'middle-range' bridge between sentences."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "The essential nature of proleptics for written integration identifies them as a key middle-range technique for pedagogy."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C83",
+        "relationship": "instantiates",
+        "explanation": "The rules for omitting words and keeping related words together are specific applications of the broader economy of attention principle."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C89",
+        "relationship": "depends-on",
+        "explanation": "The importance of rules for channeling attention is based on the theoretical claim that channeling facilitates meaning integration."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C89",
+        "relationship": "supports",
+        "explanation": "The automatic nature of constraint through channeling attention justifies the high priority of these rules."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C91",
+        "relationship": "depends-on",
+        "explanation": "If a reader cannot understand a clause sequence without first understanding the theme, then the paragraph (the unit that provides the theme) is the necessary structure for large-scale semantic constraint."
+      },
+      {
+        "from_id": "C95",
+        "to_id": "C91",
+        "relationship": "supports",
+        "explanation": "Explains how the paragraph functions as a tool for contextualization."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C92",
+        "relationship": "depends-on",
+        "explanation": "Adjacent repetition is identified as the core mechanism that makes integrative devices effective at economizing processing."
+      },
+      {
+        "from_id": "C97",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "Parallel forms are given as a specific instance of integrative devices that fulfill reader expectations."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C100",
+        "relationship": "depends-on",
+        "explanation": "The effort to use adjacent repetitions is the driver that forces the writer to change their syntax."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C108",
+        "relationship": "supports",
+        "explanation": "The failure of current methods (impressionism and mechanical counting) necessitates a new, reliable method before research can be effective."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C109",
+        "relationship": "supports",
+        "explanation": "The need for a reliable method leads the author to propose relative readability as that specific standard."
+      },
+      {
+        "from_id": "C112",
+        "to_id": "C113",
+        "relationship": "supports",
+        "explanation": "If teachers currently provide unhelpful and purposeless feedback, there is a clear normative need for standardized maxims to guide the marking process."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C115",
+        "relationship": "depends-on",
+        "explanation": "The claim that instruction must build on existing knowledge relies on the theoretical psychological principle that learning occurs through schema integration."
+      },
+      {
+        "from_id": "C117",
+        "to_id": "C115",
+        "relationship": "instantiates",
+        "explanation": "C117 generalizes the schema-building requirement to all practical arts, which forms the basis for the specific normative claim in C115."
+      },
+      {
+        "from_id": "C118",
+        "to_id": "C120",
+        "relationship": "supports",
+        "explanation": "The cognitive mechanism of building on known schemata provides the theoretical justification for why the direct intervention of paper comments is the most important method."
+      },
+      {
+        "from_id": "C123",
+        "to_id": "C114",
+        "relationship": "supports",
+        "explanation": "The permanence and individuality of written comments are the specific features that make them the most likely effective device for instruction."
+      },
+      {
+        "from_id": "C122",
+        "to_id": "C121",
+        "relationship": "supports",
+        "explanation": "Establishing that pure lecturing is the least efficient method logically positions commenting as the superior alternative."
+      },
+      {
+        "from_id": "C130",
+        "to_id": "C120",
+        "relationship": "supports",
+        "explanation": "The need for rehearsal to change productive schemata justifies the repetition and persistence of the comment method over one-off lectures."
+      },
+      {
+        "from_id": "C126",
+        "to_id": "C111",
+        "relationship": "supports",
+        "explanation": "The teacher's diagnostic ability to select relevant points is what allows the adaptation of general maxims to individual students."
+      },
+      {
+        "from_id": "C135",
+        "to_id": "C131",
+        "relationship": "depends-on",
+        "explanation": "The need for teachers to clarify that comments are about craft stems from the empirical observation that students currently believe writing is a matter of personal whim."
+      },
+      {
+        "from_id": "C136",
+        "to_id": "C131",
+        "relationship": "depends-on",
+        "explanation": "Teachers must clarify the craft-based nature of writing to mitigate the student's defensive view of stylistic intervention as an invasion of personality."
+      },
+      {
+        "from_id": "C131",
+        "to_id": "C134",
+        "relationship": "supports",
+        "explanation": "Specific pedagogical behaviors regarding comments instantiate the broader normative framing of writing as a craft."
+      },
+      {
+        "from_id": "C141",
+        "to_id": "C139",
+        "relationship": "supports",
+        "explanation": "If revision is more efficient for learning than drafting, then learning to write is functionally equivalent to learning revision."
+      },
+      {
+        "from_id": "C139",
+        "to_id": "C140",
+        "relationship": "supports",
+        "explanation": "Since learning to write is essentially learning to revise, teaching methods are only as good as their ability to teach revision for readability."
+      },
+      {
+        "from_id": "C137",
+        "to_id": "C138",
+        "relationship": "supports",
+        "explanation": "The importance of directed revision supports the goal of students internalizing editorial principles as the primary objective of instruction."
+      },
+      {
+        "from_id": "C146",
+        "to_id": "C147",
+        "relationship": "depends-on",
+        "explanation": "The collaborative teacher-student model requires objective outside testing to remove the teacher from the role of the grader/adversary."
+      },
+      {
+        "from_id": "C149",
+        "to_id": "C150",
+        "relationship": "supports",
+        "explanation": "The specific requirement for testing in collaborative schemes is generalized to a requirement for testing for all serious progress in the field."
+      },
+      {
+        "from_id": "C170",
+        "to_id": "C151",
+        "relationship": "depends-on",
+        "explanation": "Effective commentary and revision only become efficient pedagogical tools if students can actually internalize and apply the principles behind the corrections."
+      },
+      {
+        "from_id": "C153",
+        "to_id": "C160",
+        "relationship": "supports",
+        "explanation": "If the primary goal of composition is readability rather than mere normalization, then the teacher's role as an arbiter of correctness is secondary to their role as a teacher of literacy."
+      },
+      {
+        "from_id": "C157",
+        "to_id": "C158",
+        "relationship": "supports",
+        "explanation": "The observation that native speakers are naturally competent in their own dialects justifies the claim that 'mistakes' are usually just unsuccessful attempts to use an unfamiliar dialect (the grapholect)."
+      },
+      {
+        "from_id": "C158",
+        "to_id": "C161",
+        "relationship": "depends-on",
+        "explanation": "The 'double burden' concept requires the premise that the grapholect is a separate linguistic system (dialect) from the student's native speech."
+      },
+      {
+        "from_id": "C160",
+        "to_id": "C161",
+        "relationship": "supports",
+        "explanation": "Distinguishing the role of teacher-as-literacy-expert from teacher-as-grammarian clarifies the two distinct tasks (burdens) involved in instruction."
+      },
+      {
+        "from_id": "C167",
+        "to_id": "C166",
+        "relationship": "supports",
+        "explanation": "The lack of correlation between textbook use and teaching quality in evaluations is the primary empirical evidence for the non-essential nature of textbooks."
+      },
+      {
+        "from_id": "C168",
+        "to_id": "C166",
+        "relationship": "supports",
+        "explanation": "If writing is a practical craft learned through individual practice and correction, then a uniform textbook is theoretically less central than the feedback loop of production."
+      },
+      {
+        "from_id": "C169",
+        "to_id": "C166",
+        "relationship": "refines",
+        "explanation": "While textbooks are not 'essential' (C166), a high-quality manual is still argued to be 'useful' for speeding up the learning process."
+      },
+      {
+        "from_id": "C173",
+        "to_id": "C172",
+        "relationship": "supports",
+        "explanation": "If thick manuals intimidate students into believing the subject is needlessly difficult, they should be avoided."
+      },
+      {
+        "from_id": "C174",
+        "to_id": "C172",
+        "relationship": "supports",
+        "explanation": "The presence of irrelevant padding suggests the 'thickness' is not justified by essential content."
+      },
+      {
+        "from_id": "C177",
+        "to_id": "C172",
+        "relationship": "supports",
+        "explanation": "If the necessary corrections can be listed on a few pages, there is no functional need for a thick manual."
+      },
+      {
+        "from_id": "C184",
+        "to_id": "C186",
+        "relationship": "supports",
+        "explanation": "Criticizing the narrow focus on specific genres supports the move toward more fundamental, general maxims."
+      },
+      {
+        "from_id": "C185",
+        "to_id": "C186",
+        "relationship": "supports",
+        "explanation": "If rigid structural formulas are ineffective, students must be served by more flexible, fundamental principles."
+      },
+      {
+        "from_id": "C188",
+        "to_id": "C187",
+        "relationship": "supports",
+        "explanation": "If wide reading is an inefficient way to learn the craft, then spending class time on it is a failure of pedagogical duty."
+      },
+      {
+        "from_id": "C182",
+        "to_id": "C189",
+        "relationship": "supports",
+        "explanation": "The pedagogical advantages of slender manuals justify their prioritization in an ideal textbook design."
+      },
+      {
+        "from_id": "C183",
+        "to_id": "C189",
+        "relationship": "supports",
+        "explanation": "Defining writing as 'habitual schemata' (a craft) requires a textbook that prioritizes the production-correction process."
+      },
+      {
+        "from_id": "C190",
+        "to_id": "C189",
+        "relationship": "instantiates",
+        "explanation": "The Elements of Style serves as a proof-of-concept for the ideal manual-style textbook."
+      },
+      {
+        "from_id": "C195",
+        "to_id": "C196",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that research is more important depends on the empirical fact that research cannot change the external cultural environment (TV), requiring optimization within it."
+      },
+      {
+        "from_id": "C198",
+        "to_id": "C196",
+        "relationship": "supports",
+        "explanation": "Contrast with the past (where inefficient methods were viable) justifies the heightened importance of efficiency in the present."
+      },
+      {
+        "from_id": "C196",
+        "to_id": "C197",
+        "relationship": "supports",
+        "explanation": "If TV culture makes research more important, the primary goal of that research must be to solve the specific constraint TV creates: limited time/attention."
+      },
+      {
+        "from_id": "C206",
+        "to_id": "C205",
+        "relationship": "supports",
+        "explanation": "The fact that academic disciplines neglect socially valuable subproblems supports the distinction between a 'subject' (prestige-driven) and a 'mission' (socially-driven)."
+      },
+      {
+        "from_id": "C210",
+        "to_id": "C205",
+        "relationship": "instantiates",
+        "explanation": "The lack of interest from psychologists in composition problems illustrates why composition is a mission that cannot rely on existing subject-matter disciplines."
+      },
+      {
+        "from_id": "C199",
+        "to_id": "C200",
+        "relationship": "depends-on",
+        "explanation": "Public concern only improves research if talent is drawn to the resulting prestige/status."
+      },
+      {
+        "from_id": "C202",
+        "to_id": "C203",
+        "relationship": "supports",
+        "explanation": "The threat of a 'gold rush' mentality necessitates the creation of informational machinery for coordination."
+      },
+      {
+        "from_id": "C211",
+        "to_id": "C212",
+        "relationship": "supports",
+        "explanation": "The necessity of multidisciplinary expertise provides the logical basis for adopting the mission-oriented research model."
+      },
+      {
+        "from_id": "C219",
+        "to_id": "C212",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic proposal for mission-oriented research is predicated on the methodological claim that individual humanistic research is insufficient."
+      },
+      {
+        "from_id": "C212",
+        "to_id": "C213",
+        "relationship": "supports",
+        "explanation": "Identifying mission-oriented research as the solution necessitates a subsequent pragmatic decision regarding its institutional location."
+      },
+      {
+        "from_id": "C214",
+        "to_id": "C216",
+        "relationship": "supports",
+        "explanation": "The lack of scientific competence in existing teaching organizations serves as the justification for seeking guidance from the National Science Foundation."
+      },
+      {
+        "from_id": "C218",
+        "to_id": "C217",
+        "relationship": "supports",
+        "explanation": "The impossibility of verifying pedagogical progress without standards is the primary evidence that evaluation methods are a prerequisite for research."
+      },
+      {
+        "from_id": "C222",
+        "to_id": "C219",
+        "relationship": "supports",
+        "explanation": "The specific list of required specialists (education, psychology, social sciences) demonstrates why a single humanist cannot solve these problems."
+      },
+      {
+        "from_id": "C217",
+        "to_id": "C225",
+        "relationship": "depends-on",
+        "explanation": "The 'practical knowledge' required for improvement cannot be generated without the 'reliable methods of evaluation' identified as the field's prerequisite."
+      },
+      {
+        "from_id": "C224",
+        "to_id": "C225",
+        "relationship": "supports",
+        "explanation": "The current interest in composition provides the institutional energy that must be channeled through research to achieve actual improvement."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "warrant_text": "If experts in a subject (literature) frequently lack the specific skill (composition), then the subject and the skill must be functionally independent.",
+        "is_explicit": false,
+        "vulnerability": "Poor performance might be due to lack of effort rather than lack of skill; additionally, 'writing well' in literature might have different standards than 'writing well' in composition."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C7",
+        "warrant_text": "Pedagogical disciplines are defined by their underlying theoretical assumptions; if assumptions conflict, the disciplines are distinct.",
+        "is_explicit": true,
+        "vulnerability": "A single discipline can successfully manage dialectical tensions or multiple models of style simultaneously."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E24",
+        "claim_id": "C10",
+        "warrant_text": "If the 'clarity' of a sentence can be improved through psycholinguistic reorganization without changing the underlying logical propositions, then clarity in writing is a linguistic-psychological property, not a logical one.",
+        "is_explicit": false,
+        "vulnerability": "The act of reorganization may actually reveal logical relationships that were previously obscured, suggesting the two are more linked than the author admits."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E29",
+        "claim_id": "C1",
+        "warrant_text": "Analogizing writing to a physical craft like tennis implies it is learned through physiological and psychological habituation rather than intellectual subject-matter acquisition.",
+        "is_explicit": false,
+        "vulnerability": "The analogy may be a category error; writing involves high-level conceptual manipulation that tennis does not."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E7",
+        "claim_id": "C25",
+        "warrant_text": "If two activities share the same ontological status (practical arts), the pedagogical methods that are successful for one (drawing) are applicable to the other (writing).",
+        "is_explicit": true,
+        "vulnerability": "Analytic philosophers might argue writing involves a higher level of propositional content than drawing, requiring a more theoretical foundation."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E8",
+        "claim_id": "C26",
+        "warrant_text": "Historical precedent from esteemed eras (The Renaissance) validates the current cultural and academic value of a discipline.",
+        "is_explicit": false,
+        "vulnerability": "The 'Renaissance' definition of bonae litterae might have included humanistic content that the author is currently trying to exclude."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E44",
+        "claim_id": "C23",
+        "warrant_text": "A functional 'mission' (like literacy) is distinct from a 'subject matter' (like linguistics), and missions are often neglected when subsumed by subjects.",
+        "is_explicit": true,
+        "vulnerability": "Subjects and missions are not mutually exclusive; some subjects are defined precisely by their missions (e.g., Medicine)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C40",
+        "claim_id": "C38",
+        "warrant_text": "If pedagogical advice remains stable across significant shifts in culture and technology, it is likely rooted in invariant human cognitive constraints rather than social convention.",
+        "is_explicit": false,
+        "vulnerability": "Traditionalism or pedagogical inertia might keep 'dead' rules alive long after their utility has vanished."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C43",
+        "claim_id": "C42",
+        "warrant_text": "A teacher's choice to omit standard topics based on audience expertise demonstrates that pedagogical content is a function of the gap between the learner's current state and the communicative goal.",
+        "is_explicit": true,
+        "vulnerability": "The author assumes Gowers's omissions were strategic and correct, rather than idiosyncratic."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C34",
+        "claim_id": "C35",
+        "warrant_text": "When two rules of action conflict, only a higher-order principle describing the goal of the action can provide a rational basis for choosing between them.",
+        "is_explicit": false,
+        "vulnerability": "The higher-order principle may be so abstract that it offers no more guidance than the conflicting maxims it is meant to resolve."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C57",
+        "claim_id": "C52",
+        "warrant_text": "If a stylistic preference (positive vs. negative) corresponds to a universal cognitive processing mechanism (linearity), then the rule is based on a general principle of the human mind rather than arbitrary convention.",
+        "is_explicit": true,
+        "vulnerability": "Psychological linearity might not be the only factor; social context or rhetorical emphasis might make 'non-linear' negative statements more efficient in specific scenarios."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C59",
+        "claim_id": "C52",
+        "warrant_text": "Empirical evidence of superior memory/processing for concrete words justifies the existence of a general stylistic maxim across all prose types.",
+        "is_explicit": false,
+        "vulnerability": "Certain technical or philosophical genres may require abstraction as a primary functional requirement, making the 'concrete' principle a hindrance rather than a help."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C68",
+        "claim_id": "C67",
+        "warrant_text": "Effective communication structures must mirror the physiological constraints of the audience's cognitive architecture.",
+        "is_explicit": true,
+        "vulnerability": "The 'attention mechanism' might be more flexible than 'one thing at a time' suggests, particularly in hypertext or modern multi-modal reading environments."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C72",
+        "claim_id": "C73",
+        "warrant_text": "If processing speed is optimized when expectations are fulfilled, then the accuracy of the reader's initial hypothesis is the best measure of prose efficiency.",
+        "is_explicit": true,
+        "vulnerability": "Assumes readers always form active hypotheses rather than processing some sentences purely reactively."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C77",
+        "claim_id": "C76",
+        "warrant_text": "In the absence of non-verbal signals (intonation/gestures), the verbal medium must explicitly replicate those signals' functional roles to maintain communicative clarity.",
+        "is_explicit": true,
+        "vulnerability": "Proleptics might be stylistic choices rather than functional necessities; readers might infer relationships from logic alone."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C80",
+        "claim_id": "C82",
+        "warrant_text": "The most effective target for instruction is the point where human cognitive limits (memory decay) intersect with the unique requirements of the medium (context-free writing).",
+        "is_explicit": false,
+        "vulnerability": "Pedagogical importance is also determined by student difficulty; students might find large-scale organization more difficult than middle-range integration."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C88",
+        "claim_id": "C87",
+        "warrant_text": "If the benefits of sentence shortening are actually caused by word-grouping and omission, then sentence length itself is an effect, not a cause, of readability.",
+        "is_explicit": true,
+        "vulnerability": "Short sentences might provide cognitive 'breathing room' or reset short-term memory regardless of the word-grouping within them."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C95",
+        "claim_id": "C91",
+        "warrant_text": "If a structural unit explicitly focuses on a theme, it effectively limits the range of possible meanings a reader must consider for the component parts.",
+        "is_explicit": true,
+        "vulnerability": "The reader might correctly guess the theme even without a formal paragraph structure based on lexical cues alone."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C97",
+        "claim_id": "C92",
+        "warrant_text": "Cognitive processing is economized when the brain encounters a pattern (form) it has just recently processed and can therefore predict.",
+        "is_explicit": false,
+        "vulnerability": "Excessive repetition of forms can lead to 'semantic satiation' or boredom, which may increase processing effort by reducing attention."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C106",
+        "claim_id": "C108",
+        "warrant_text": "Valid scientific research is impossible if the primary instrument for measuring the dependent variable (writing quality) is flawed or subjective.",
+        "is_explicit": true,
+        "vulnerability": "Exploratory or qualitative research might yield useful insights even without a standardized, 'reliable' quantitative evaluation method."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C117",
+        "claim_id": "C115",
+        "warrant_text": "If teaching a motor skill (like tennis) requires building on existing physical motions, then teaching a cognitive/linguistic skill (like composition) must similarly build on existing mental structures.",
+        "is_explicit": true,
+        "vulnerability": "The analogy between motor skills (physical schemata) and linguistic composition (cognitive schemata) may be weak; writing involves abstract symbolic manipulation that may not follow the same 'shaking hands' learning logic."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C123",
+        "claim_id": "C114",
+        "warrant_text": "Instruction is most effective when it is tailored to the individual learner and available for repeated review.",
+        "is_explicit": false,
+        "vulnerability": "Individuality and permanence do not guarantee effectiveness if the student lacks the motivation or the foundational knowledge to decode the comments themselves."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C120",
+        "claim_id": "C121",
+        "warrant_text": "Direct corrective intervention on a student's own work is inherently more pedagogical than abstract general instruction.",
+        "is_explicit": false,
+        "vulnerability": "Socratic questioning might actually be more effective than 'direct' commentary by forcing the student to actively reconstruct their own schema rather than passively receiving a correction."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C135",
+        "claim_id": "C131",
+        "warrant_text": "Pedagogical effectiveness is hindered by student misconceptions; therefore, the teacher must explicitly counter those misconceptions through the tone and framing of their feedback.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that changing the 'tone' of comments is sufficient to change deeply held student beliefs about the subjectivity of writing."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C141",
+        "claim_id": "C139",
+        "warrant_text": "The nature of a skill is defined by the most efficient cognitive processes required to acquire it.",
+        "is_explicit": false,
+        "vulnerability": "Equates the efficiency of a learning process with the ontological definition of the skill itself, ignoring the generative/creative aspects of the first draft."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C144",
+        "claim_id": "C145",
+        "warrant_text": "If two cognitive processes (listening and reading) share the same functional constraints regarding linear processing, a test for one is a valid proxy for the other.",
+        "is_explicit": true,
+        "vulnerability": "The 'linearity' constraint in listening is absolute, whereas reading allows for regression (re-reading), which might be a necessary part of processing complex but good prose."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C146",
+        "claim_id": "C150",
+        "warrant_text": "Objective measurement is the only valid basis for professional collaboration and scientific advancement in an educational discipline.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that 'objective' tests can be designed that do not themselves embody the very 'personal tastes' or 'ideologies' the author seeks to escape."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C167",
+        "claim_id": "C166",
+        "warrant_text": "If student outcomes (as measured by evaluations) are consistent regardless of a specific variable (textbook use), then that variable is not a necessary condition for the outcome.",
+        "is_explicit": false,
+        "vulnerability": "The evaluations used are described as 'indirect and therefore imperfect,' and may not capture the specific benefits a textbook provides to less experienced instructors."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C157",
+        "claim_id": "C161",
+        "warrant_text": "Teaching a new set of linguistic rules to someone who already possesses a complete (though different) set of rules is functionally equivalent to teaching a second language/dialect, adding a distinct layer of difficulty to the task of teaching composition.",
+        "is_explicit": true,
+        "vulnerability": "The degree of difference between the student's dialect and the grapholect varies significantly; for some, it may not constitute a 'new dialect' but a minor adjustment."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C168",
+        "claim_id": "C151",
+        "warrant_text": "Efficiency in learning a craft is maximized when the instructional energy is focused on the actual point of production and error correction rather than passive reading of theory.",
+        "is_explicit": false,
+        "vulnerability": "Theoretical knowledge from a textbook might prevent errors before they happen, making the 'production-and-correction' cycle faster."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C173",
+        "claim_id": "C172",
+        "warrant_text": "Pedagogical tools should not create psychological barriers (like intimidation) that impede the learning of the craft they intend to teach.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that 'intimidation' is a subjective student reaction and that 'thickness' can signify comprehensive authority rather than difficulty."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C175",
+        "claim_id": "C172",
+        "warrant_text": "If experts in a craft do not use or know specific technical terminology, then teaching that terminology is not a requirement for mastering the craft.",
+        "is_explicit": true,
+        "vulnerability": "Excellent writers may have internalized these rules unconsciously; formal terminology might still be necessary for instruction of novices who lack those intuitions."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C188",
+        "claim_id": "C187",
+        "warrant_text": "The primary duty of a writing teacher is the most efficient transmission of the craft of writing, and anything that slows this process (like discussing content) is a failure of that duty.",
+        "is_explicit": false,
+        "vulnerability": "This assumes the writing teacher's role is purely technical/utilitarian and excludes the development of critical thinking or cultural literacy."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C190",
+        "claim_id": "C189",
+        "warrant_text": "If a specific textbook has historically succeeded using a particular format, that format should be the model for ideal textbook design.",
+        "is_explicit": false,
+        "vulnerability": "Strunk and White's success might be due to its historical prestige or the specific charm of its prose rather than its brevity or pedagogical model."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C198",
+        "claim_id": "C196",
+        "warrant_text": "If a goal (literacy) remains necessary but the available time/attention for it decreases, the methods to achieve it must increase in efficiency to maintain the same outcome.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that efficiency is actually achievable through research rather than being an inherent limit of human cognition regardless of method."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C210",
+        "claim_id": "C205",
+        "warrant_text": "A field's identity is determined by its incentive structures; if a field's incentives are external social outcomes rather than internal theoretical advancement, it is a 'mission' rather than a 'subject matter.'",
+        "is_explicit": false,
+        "vulnerability": "The distinction may be an artificial dichotomy; many 'subject matters' (e.g., Medicine) are also 'missions' without losing scientific status."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C199",
+        "claim_id": "C200",
+        "warrant_text": "Academic excellence is a function of the quality of personnel, and personnel follow social and institutional prestige.",
+        "is_explicit": true,
+        "vulnerability": "Ignores intrinsic motivation or the possibility that 'low status' fields can produce high-quality work through dedicated sub-cultures."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C222",
+        "claim_id": "C219",
+        "warrant_text": "If a research problem contains essential variables that belong to specialized scientific domains, a researcher lacking training in those domains is methodologically incapable of solving it.",
+        "is_explicit": true,
+        "vulnerability": "Proponents of humanistic inquiry might argue that writing is an art or craft rather than a scientific phenomenon, rendering psychological/sociological 'variables' secondary or irrelevant."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C218",
+        "claim_id": "C217",
+        "warrant_text": "Scientific verification requires a stable, objective dependent variable; without a way to measure the 'quality' of the output, no experimental intervention can be validated.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that 'writing quality' is inherently subjective and contextual, making the search for 'objective' and 'reliable' methods a category error."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C223",
+        "claim_id": "C212",
+        "warrant_text": "Structural problems in research (where subproblems are ignored by single disciplines) require structural solutions (missions) modeled after 'Big Science' rather than individual scholarship.",
+        "is_explicit": false,
+        "vulnerability": "The 'Big Science' model may lead to bureaucratic bloat and the marginalization of creative pedagogical insights that do not fit the 'mission' framework."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C224",
+        "claim_id": "C225",
+        "warrant_text": "Professional interest and institutional momentum are necessary but insufficient for progress; they must be directed by technically sound research to avoid repeating past errors.",
+        "is_explicit": true,
+        "vulnerability": "Historical shifts in writing quality may be driven more by broad socio-technological changes (e.g., mass literacy, digital media) than by formal pedagogical research."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C8",
+        "to_id": "C1",
+        "missing_step": "Establishing that the 'separation of form and content' is the more accurate or productive model for teaching students than the 'fusion' model.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C5",
+        "to_id": "C2",
+        "missing_step": "Evidence that the cognitive load of learning 'about' a subject (literature) directly inhibits the procedural learning of the 'craft' (writing).",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C10",
+        "to_id": "C227",
+        "missing_step": "The conclusion that if clear writing is not clear thinking, then logic and literature have no place in the writing classroom, even as generative stimuli.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C23",
+        "missing_step": "The fact that a subject (Logic) is an inefficient tool for teaching a skill (Writing) means the skill is not a subset of that subject.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C24",
+        "to_id": "C25",
+        "missing_step": "Instructional methods for practical arts cannot include significant theoretical components without becoming inefficient.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C35",
+        "to_id": "C47",
+        "missing_step": "Establishing that abstract psycholinguistic principles are more teachable to novices than concrete (if flawed) maxims.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C42",
+        "to_id": "C44",
+        "missing_step": "Proving that there isn't a core set of 'universal failings' common to all learners that would allow for a baseline ranking of maxims.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C52",
+        "to_id": "C51",
+        "missing_step": "Genre-specific conventions (e.g., legal terminology, scientific formatting) are secondary to general proficiency and can be acquired with negligible effort.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C52",
+        "to_id": "C53",
+        "missing_step": "Knowing psychological principles can be effectively translated into pedagogical techniques that are superior to simply practicing the maxims themselves.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C71",
+        "to_id": "C73",
+        "missing_step": "The reader's 'initial hypothesis' is primarily based on the structural design and context established in previous sentences.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C80",
+        "to_id": "C82",
+        "missing_step": "Students do not naturally transfer 'middle-range' integration skills from their oral speech to their writing.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C83",
+        "to_id": "C89",
+        "missing_step": "Channeling attention is the most efficient way to manage limited psychic energy compared to other methods like simplifying vocabulary.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C96",
+        "to_id": "C100",
+        "missing_step": "The writer must possess the stylistic dexterity to find elegant syntactic variations rather than merely creating awkward or convoluted sentences to force the repetition.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C108",
+        "to_id": "C109",
+        "missing_step": "Relative readability is the ONLY or BEST candidate for a reliable, objective qualitative standard for writing.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C112",
+        "to_id": "C113",
+        "missing_step": "Standardized maxims for marking are only helpful if the specific unhelpfulness of current feedback (C112) is due to a lack of standards rather than a lack of teacher time, skill, or student engagement.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C115",
+        "to_id": "C120",
+        "missing_step": "The author assumes that written comments are the primary or best vehicle for 'building on existing schemata,' without proving that other methods (like oral conferences or peer editing) don't do this more effectively.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C119",
+        "to_id": "C114",
+        "missing_step": "The historical development of prose (social/centennial scale) is used to predict individual student learning (individual/monthly scale), assuming a 'recapitulation theory' of learning.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C131",
+        "to_id": "C134",
+        "missing_step": "Proof that 'readability' is sufficiently objective that it doesn't eventually collapse back into the teacher's 'personal taste' for certain types of clarity.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C143",
+        "to_id": "C140",
+        "missing_step": "Establishing that the increased 'motivation' in a workshop model actually leads to better 'readability' outcomes compared to traditional methods.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C147",
+        "to_id": "C150",
+        "missing_step": "A bridge from the pragmatic benefit of tests in a classroom to the categorical necessity of tests for 'serious research' across the entire field.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C151",
+        "to_id": "C152",
+        "missing_step": "The author assumes that despite the general efficiency of these three techniques, age-specific cognitive development fundamentally alters how they should be applied.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C166",
+        "to_id": "C169",
+        "missing_step": "Even if textbooks are not essential for 'competent' instruction, they may be necessary to achieve 'optimal' or 'superior' instruction.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C178",
+        "to_id": "C172",
+        "missing_step": "Textbooks must be used cover-to-cover or in a linear fashion to be effective.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C188",
+        "to_id": "C187",
+        "missing_step": "The discussion of reading content does not provide auxiliary benefits to the 'production-correction' process.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C185",
+        "to_id": "C186",
+        "missing_step": "General maxims are easier for students to internalize and apply than specific structural templates.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C199",
+        "to_id": "C201",
+        "missing_step": "Public concern must translate specifically into university budget allocations and tenure-track status for composition researchers, not just general media noise.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C196",
+        "to_id": "C197",
+        "missing_step": "Efficiency (speed/economy) is the most effective way to compete with television, rather than, for instance, increasing the 'entertainment' or 'engagement' value of writing.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C209",
+        "to_id": "C205",
+        "missing_step": "Experimental psychologists can be successfully integrated into a 'mission' structure without their work being co-opted or degraded by the lack of 'subject matter' prestige.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C212",
+        "to_id": "C213",
+        "missing_step": "The institutional mechanisms within universities that currently penalize multidisciplinary 'mission' work (tenure and promotion rules) can be realistically reformed.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C216",
+        "to_id": "C217",
+        "missing_step": "National scientific institutions like the NSF are willing to accept composition (traditionally a humanities subject) as a legitimate field of scientific inquiry.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "The Writing Across the Curriculum (WAC) movement argues that students only learn to write well when they have a meaningful subject matter (literature, logic) to write about; teaching 'craft' in a vacuum leads to 'dummy runs' where students lack the necessary semantic intention to practice real clarity.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C10",
+        "objection": "The distinction between 'clear thinking' and 'clear writing' is a false dichotomy because the process of 'writing for clarity' is often the primary heuristic through which a thinker discovers their own logical errors.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C6",
+        "objection": "The existence of graduate students who cannot write well may be an indictment of the quality of literature departments rather than proof of a fundamental theoretical divide between the two fields.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C24",
+        "objection": "Highly complex writing, such as academic or technical discourse, requires 'metalinguistic awareness'—a theoretical understanding of how language works—to solve complex rhetorical problems.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C23",
+        "objection": "The 'Writing Across the Curriculum' movement argues that writing is inseparable from the subject matter being written about, as writing is a tool for learning the content of the humanistic subjects.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C25",
+        "objection": "The 'master-apprentice' model of production and commentary is not scalable for mass university education and provides no systematic way to ensure students learn universal principles.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C35",
+        "objection": "A general principle may be 'always true' in a theoretical sense, but its very lack of situational judgment makes it less practical for a novice who lacks the experience to translate abstraction into action.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C38",
+        "objection": "The similarity of modern handbooks to Spencer's era could be evidence of 'canon-fetishism' or institutional path-dependency in education rather than evidence of a correlation with psychological truth.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C47",
+        "objection": "If proficient writers internalize principles unconsciously (C48), then making those principles explicit in instruction might actually hinder the development of 'flow' or 'tacit knowledge' in students.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C51",
+        "objection": "Writing proficiency is not a single 'general skill' but a set of 'situated literacies' where social knowledge of a specific community's discourse is as important as psychological readability.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C67",
+        "objection": "The paragraph is a historical convention of the print era; digital reading habits and different cultural rhetorical traditions (e.g., circular vs. linear) suggest it is not a 'universal' requirement of the attention mechanism.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C76",
+        "objection": "Over-reliance on proleptic words (however, therefore) can lead to 'cluttered' prose that actually increases the cognitive load by adding more words for the reader to process.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C82",
+        "objection": "Large-scale organizational structures (outlines) provide the necessary 'schema' for middle-range devices to be meaningful; without the outline, the tags have nothing to anchor to.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C83",
+        "objection": "The 'economy of attention' principle neglects the aesthetic and emotional impact of prose, which may require deliberate 'inefficiency' or tension to achieve its purpose.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C91",
+        "objection": "In many genres, such as narrative fiction or exploratory essays, the paragraph does not function as a thematic 'unit' but rather as a rhythmic or emotional pause, and the 'theme' may be intentionally deferred.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C100",
+        "objection": "The 'need for adjacent repetitions' might encourage 'elegant variation' (using synonyms for the sake of variety) which can often confuse the reader more than simple repetition or a slightly monotonous style.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C109",
+        "objection": "Teaching effectiveness should be measured by students' ability to achieve specific rhetorical purposes (e.g., persuasion, technical accuracy, tone) which readability alone cannot measure.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C114",
+        "objection": "Written comments are often misunderstood, ignored, or perceived as purely evaluative rather than instructional, leading to no actual change in the student's productive schema.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C115",
+        "objection": "In some cases, effective instruction requires 'unlearning' or completely replacing an incorrect schema (e.g., stopping a student from writing exactly as they talk) rather than building upon it.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C121",
+        "objection": "The Socratic method may be superior to commenting because it encourages metacognition, whereas comments might only lead to 'surface-level' editing of a specific paper without transfer to future papers.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C134",
+        "objection": "Style is an expression of identity and rhetorical stance; treating it purely as a mechanical 'craft' ignores the social and political dimensions of how a writer chooses to present themselves.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C139",
+        "objection": "Reducing writing to revision ignores the 'pre-writing' and 'drafting' phases where new ideas are generated; a focus on revision can lead to polished but vacuous prose.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C150",
+        "objection": "The quest for 'reliable tests' often leads to the measurement of trivial markers (like word length or clause count) rather than complex communicative competence, distorting the curriculum.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C151",
+        "objection": "Third-party evaluation may force teachers to prioritize standardized test metrics over the individual growth or creative experimentation of the student, undermining the 'colleague' relationship.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C161",
+        "objection": "Labeling the grapholect as a 'new dialect' for native speakers of standard oral English may overstate the linguistic distance and unnecessarily complicate the pedagogical framework.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C166",
+        "objection": "The lack of correlation in the author's specific program might be due to the quality of the specific instructors or the poor quality of available textbooks, rather than the inherent nature of textbooks as a medium.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C172",
+        "objection": "Thick textbooks serve as reference works; students are not expected to read them in their entirety, but to consult them for specific, diverse problems.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C187",
+        "objection": "Analyzing the content of readers provides the necessary 'semantic intentions' that students must learn to communicate; writing cannot be taught in a vacuum without subject matter.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C186",
+        "objection": "Novice writers lack the abstract reasoning to apply 'fundamental maxims' and require 'genre-specific conventions' as scaffolding to produce any coherent text at all.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C197",
+        "objection": "Prioritizing efficiency might lead to a 'formulaic' approach to writing that satisfies readability metrics but fails to foster the deep, complex thinking that literacy is intended to develop.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C196",
+        "objection": "The decline in writing quality attributed to TV might be a shift in the nature of communication (from written to multi-modal) rather than a loss of efficiency that research can 'fix.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C205",
+        "objection": "Labeling composition as a 'mission' rather than a 'subject' might permanently institutionalize its low status as a mere 'service' field, making it even harder to attract the 'first-class' researchers the author desires.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C212",
+        "objection": "Mission-oriented research in the humanities risks being co-opted by administrative or political agendas, prioritizing efficiency over the deeper, non-quantifiable goals of a liberal education.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C219",
+        "objection": "The perceived failure of individual humanistic research is not a failure of the method itself, but of the low status and lack of funding previously afforded to individual composition scholars.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C217",
+        "objection": "Standardizing evaluation methods may lead to a reductionist view of writing that ignores cultural differences in rhetorical style and linguistic variation.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Independence of Composition as Craft",
+        "chain": [
+          "C5",
+          "C8",
+          "C7",
+          "C2",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "strong"
+      },
+      {
+        "name": "Psychological vs. Logical Clarity",
+        "chain": [
+          "C228",
+          "C89",
+          "C10"
+        ],
+        "conclusion_id": "C10",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Practical Art Chain",
+        "chain": [
+          "C12",
+          "C14",
+          "C24",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "strong"
+      },
+      {
+        "name": "Disciplinary Independence Chain",
+        "chain": [
+          "C13",
+          "C20",
+          "C23",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Practicality of Principles",
+        "chain": [
+          "C32",
+          "C33",
+          "C34",
+          "C35"
+        ],
+        "conclusion_id": "C35",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Psychological Basis of Tradition",
+        "chain": [
+          "C40",
+          "C41",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "strong"
+      },
+      {
+        "name": "Contextual Instruction Requirements",
+        "chain": [
+          "C43",
+          "C42",
+          "C44",
+          "C46",
+          "C47"
+        ],
+        "conclusion_id": "C47",
+        "strength": "strong"
+      },
+      {
+        "name": "General Proficiency Chain",
+        "chain": [
+          "C52",
+          "C56",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "moderate"
+      },
+      {
+        "name": "Psychological Basis of Maxims",
+        "chain": [
+          "C57",
+          "C58",
+          "C61",
+          "C65",
+          "C52"
+        ],
+        "conclusion_id": "C52",
+        "strength": "strong"
+      },
+      {
+        "name": "Cognitive Architecture of the Paragraph",
+        "chain": [
+          "C68",
+          "C69",
+          "C67"
+        ],
+        "conclusion_id": "C67",
+        "strength": "strong"
+      },
+      {
+        "name": "The Hypothesis Fulfillment Chain",
+        "chain": [
+          "C71",
+          "C72",
+          "C73"
+        ],
+        "conclusion_id": "C73",
+        "strength": "strong"
+      },
+      {
+        "name": "The Middle-Range Pedagogy Chain",
+        "chain": [
+          "C78",
+          "C80",
+          "C81",
+          "C82"
+        ],
+        "conclusion_id": "C82",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Attention Economy Chain",
+        "chain": [
+          "C84",
+          "C88",
+          "C83",
+          "C90",
+          "C89"
+        ],
+        "conclusion_id": "C89",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Necessity of Paragraphs",
+        "chain": [
+          "C94",
+          "C93",
+          "C95",
+          "C91"
+        ],
+        "conclusion_id": "C91",
+        "strength": "strong"
+      },
+      {
+        "name": "Integration through Repetition",
+        "chain": [
+          "C96",
+          "C97",
+          "C99",
+          "C92"
+        ],
+        "conclusion_id": "C92",
+        "strength": "moderate"
+      },
+      {
+        "name": "Methodological Reform of Composition Research",
+        "chain": [
+          "C105",
+          "C107",
+          "C108",
+          "C109"
+        ],
+        "conclusion_id": "C109",
+        "strength": "strong"
+      },
+      {
+        "name": "The Practical Art Analogy",
+        "chain": [
+          "C117",
+          "C116",
+          "C115",
+          "C120"
+        ],
+        "conclusion_id": "C120",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Feedback Efficiency Chain",
+        "chain": [
+          "C122",
+          "C123",
+          "C121",
+          "C114"
+        ],
+        "conclusion_id": "C114",
+        "strength": "strong"
+      },
+      {
+        "name": "The Marking Standards Argument",
+        "chain": [
+          "C112",
+          "C128",
+          "C113"
+        ],
+        "conclusion_id": "C113",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Objective Craft Chain",
+        "chain": [
+          "C135",
+          "C136",
+          "C131",
+          "C134"
+        ],
+        "conclusion_id": "C134",
+        "strength": "strong"
+      },
+      {
+        "name": "The Revision-Identity Chain",
+        "chain": [
+          "C141",
+          "C137",
+          "C138",
+          "C139",
+          "C140"
+        ],
+        "conclusion_id": "C140",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Institutional Progress Chain",
+        "chain": [
+          "C146",
+          "C148",
+          "C149",
+          "C147",
+          "C150"
+        ],
+        "conclusion_id": "C150",
+        "strength": "strong"
+      },
+      {
+        "name": "The Efficiency of Practical Pedagogy",
+        "chain": [
+          "C168",
+          "C170",
+          "C151"
+        ],
+        "conclusion_id": "C151",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linguistic Burden of Literacy",
+        "chain": [
+          "C157",
+          "C158",
+          "C160",
+          "C161"
+        ],
+        "conclusion_id": "C161",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Non-Essential Role of Manuals",
+        "chain": [
+          "C167",
+          "C168",
+          "C166"
+        ],
+        "conclusion_id": "C166",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Efficiency Argument for Slender Manuals",
+        "chain": [
+          "C177",
+          "C173",
+          "C178",
+          "C180",
+          "C172"
+        ],
+        "conclusion_id": "C172",
+        "strength": "strong"
+      },
+      {
+        "name": "Writing as Craft over Content",
+        "chain": [
+          "C183",
+          "C188",
+          "C187"
+        ],
+        "conclusion_id": "C187",
+        "strength": "moderate"
+      },
+      {
+        "name": "General Principles over Rigid Formulas",
+        "chain": [
+          "C184",
+          "C185",
+          "C186"
+        ],
+        "conclusion_id": "C186",
+        "strength": "moderate"
+      },
+      {
+        "name": "Ideal Pedagogy Design",
+        "chain": [
+          "C182",
+          "C183",
+          "C190",
+          "C189"
+        ],
+        "conclusion_id": "C189",
+        "strength": "strong"
+      },
+      {
+        "name": "The Efficiency Imperative",
+        "chain": [
+          "C195",
+          "C198",
+          "C196",
+          "C197"
+        ],
+        "conclusion_id": "C197",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Reform Chain",
+        "chain": [
+          "C199",
+          "C200",
+          "C201",
+          "C204",
+          "C205"
+        ],
+        "conclusion_id": "C205",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Textbook Quality Inference",
+        "chain": [
+          "C191",
+          "C194",
+          "C207",
+          "C208",
+          "C193"
+        ],
+        "conclusion_id": "C193",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Reform Chain",
+        "chain": [
+          "C219",
+          "C211",
+          "C222",
+          "C223",
+          "C212",
+          "C213"
+        ],
+        "conclusion_id": "C212",
+        "strength": "strong"
+      },
+      {
+        "name": "The Path to Quality Improvement",
+        "chain": [
+          "C218",
+          "C217",
+          "C224",
+          "C225"
+        ],
+        "conclusion_id": "C225",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Realignment",
+        "chain": [
+          "C214",
+          "C215",
+          "C216"
+        ],
+        "conclusion_id": "C216",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.018776300000000003,
+    "duration_s": 246.48162746429443
+  }
+}

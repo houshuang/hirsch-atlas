@@ -1,0 +1,129 @@
+{
+  "result": {
+    "book_thesis": "Cultural literacy, defined as the possession of a broad range of shared information, is the necessary foundation for mature literacy and provides the only reliable avenue for social opportunity and effective communication within a modern nation.",
+    "core_frameworks": [
+      {
+        "id": "anthropological_theory_of_education",
+        "name": "Anthropological Theory of Education",
+        "description": "A framework based on the observation that human communities are founded upon specific shared information and that the primary goal of education is the acculturation of children into the group's shared knowledge.",
+        "components": [
+          {
+            "id": "acculturation",
+            "name": "Acculturation",
+            "description": "The transmission of specific information shared by the adults of a group to its children."
+          },
+          {
+            "id": "shared_symbols",
+            "name": "Accumulation of Shared Symbols",
+            "description": "The process of acquiring a common vocabulary of information and symbols necessary for effective communication."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "content_neutral_developmentalism",
+        "name": "Content-Neutral Developmental Theory",
+        "description": "The prevailing educational theory that emphasizes the natural development of general skills and 'typical situations' over the accumulation of specific, shared information.",
+        "components": [
+          {
+            "id": "natural_development",
+            "name": "Natural Development",
+            "description": "The belief that intellectual skills develop naturally without regard to specific educational content."
+          },
+          {
+            "id": "skill_over_information",
+            "name": "General Skills Mastery",
+            "description": "The focus on mastering ways of dealing with problems rather than 'piling up' information."
+          }
+        ],
+        "stance": "author_critiques_then_revises"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter I: Literacy and Cultural Literacy",
+        "predicted_main_argument": "Establishes the fundamental link between mature literacy and the possession of a specific background of cultural information.",
+        "role_in_book": "establishes_problem"
+      },
+      {
+        "chapter": "Chapter II: The Discovery of the Schema",
+        "predicted_main_argument": "Explores the cognitive or psychological mechanisms (schemas) that explain how background knowledge enables comprehension.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter III: National Language and National Culture",
+        "predicted_main_argument": "Argues that a modern nation-state requires a standardized, shared culture and language to function effectively.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter IV: American Diversity and Public Discourse",
+        "predicted_main_argument": "Addresses how cultural literacy can coexist with and facilitate communication across a diverse, pluralistic American society.",
+        "role_in_book": "addresses_objections"
+      },
+      {
+        "chapter": "Chapter V: Cultural Literacy and the Schools",
+        "predicted_main_argument": "Critiques the current fragmented curriculum and proposes how schools should implement a content-rich curriculum.",
+        "role_in_book": "proposes_solution"
+      },
+      {
+        "chapter": "Chapter VI: The Practical Outlook",
+        "predicted_main_argument": "Summarizes the necessary educational reforms and the societal benefits of achieving universal cultural literacy.",
+        "role_in_book": "synthesizes"
+      },
+      {
+        "chapter": "Appendix: What Literate Americans Know",
+        "predicted_main_argument": "Provides a descriptive, non-prescriptive inventory of the information actually shared by literate Americans.",
+        "role_in_book": "case_study"
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Cultural Literacy",
+        "definition": "The possession of the basic, shared information needed to thrive in the modern world, extending across all major domains of human activity."
+      },
+      {
+        "term": "Mature Literacy",
+        "definition": "The high-level ability to communicate and understand complex information, which the author argues is impossible without background cultural knowledge."
+      },
+      {
+        "term": "Social Determinism",
+        "definition": "The cycle that condemns children from disadvantaged homes to remain in the same social condition, which the author believes can be broken by cultural literacy."
+      },
+      {
+        "term": "Content-Neutral",
+        "definition": "An educational approach that treats literacy as an autonomous, empty skill rather than one dependent on specific content."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Jean-Jacques Rousseau",
+        "relationship": "historical_predecessor",
+        "contribution": "Originator of the idea of education as 'natural development,' which Hirsch argues led to the modern failure to prioritize specific content."
+      },
+      {
+        "name": "John Dewey",
+        "relationship": "opposes",
+        "contribution": "Influential theorist who rejected 'the piling up of information' in favor of general problem-solving skills, a view Hirsch identifies as a 'half-truth'."
+      },
+      {
+        "name": "Plato",
+        "relationship": "revises",
+        "contribution": "Rightly identified that content is the most important element of education, though he wrongly assumed philosophy could dictate a single, static best culture."
+      },
+      {
+        "name": "William Bennett",
+        "relationship": "builds_on",
+        "contribution": "An early influential champion of Hirsch's concept of cultural literacy within the American political and educational landscape."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0009337999999999999,
+    "input_tokens": 3978,
+    "output_tokens": 1340,
+    "duration_s": 12.041112184524536,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

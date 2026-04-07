@@ -1,0 +1,720 @@
+{
+  "result": {
+    "chapter_summary": "Reading comprehension is not a transferable general skill but is fundamentally dependent on a reader's background knowledge of the topic. Evidence from psycholinguistics and cognitive science, such as the limitations of short-term memory and de Groot’s chess experiments, demonstrates that expertise in any domain—including reading—is based on 'erudition' rather than 'all-purpose mental muscles.'",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "The Common Core State Standards (2010) replaced the term 'readability' with 'complexity' because readability is no longer considered a stable feature of texts by psycholinguists.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "When the Common Core State Standards were issued in 2010, its reading standards did not rely on the term “readability.” Instead, the term “complexity” was used. Among psycholinguists, “readability” had already come under a cloud.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C2",
+        "text": "Verbal comprehension depends upon rapid access to specific unwritten background knowledge shared between the reader and writer.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Each case depends upon rapid access to specific unwritten background knowledge shared between the reader and writer: speaker and listener.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C3",
+        "text": "Child-centered education depends on 'readability' and 'reading levels' as an inherently necessary principle.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "From the beginning of child-centered education, “readability” with its “reading levels” has been an inherently necessary principle.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C4",
+        "text": "Disconfirming the concept of 'readability' would invalidate the current use of tens of thousands of classroom libraries.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "To disconfirm readability would call into question tens of thousands of classroom libraries.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C5",
+        "text": "A shared knowledge approach would replace reading-level-based classroom libraries with shared readings designed to attain grade-level knowledge parity.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "They would be replaced by the old-fashioned shared readings designed to attain SHARED KNOWLEDGE for that grade level, thus enabling all the pupils to advance to the next level.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C6",
+        "text": "Current psycholinguistics has rejected the existence of a 'general' skill of reading.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Current psycholinguistics has rejected the “general” skill of reading.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C7",
+        "text": "Correctly answering reading test questions requires relevant background knowledge not explicitly stated in the passage.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Anyone can perform her own experiment by examining a reading test and determining that, to answer the questions correctly, one needs relevant background knowledge not stated in the passage.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C8",
+        "text": "Human language is inherently ambiguous and requires silent shared knowledge for disambiguation and amplification.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Human language usually requires disambiguation and amplification to be fully understood... Irony is just one of the ways that human language requires silently shared knowledge.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C9",
+        "text": "Reading failure often occurs when short-term memory limitations prevent a reader from applying necessary background knowledge in time.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "If a child or an adult does not quickly make definite sense of a phrase or sentence by applying the right background knowledge before it falls out of memory, then the sentence is likely to be misunderstood or simply fail to be understood at all.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C10",
+        "text": "American children’s reading rank declined from first in 1934 to twenty-fifth in 2023 due to adherence to the mistaken theory of reading 'levels.'",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "Following the mistaken theory of reading “levels” and choosing the wrong answer –that’s precisely what has happened to American children when they now take reading tests. American children moved from number one in reading (in 1934) to twenty-fifth in 2023.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C11",
+        "text": "The difference in higher-order skill between an expert and a novice lies in 'erudition'—a store of domain-specific background knowledge—rather than general mental muscles.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "What de Groot found... is that the difference in higher-order skill between a novice and an expert does not lie in all-purpose mental muscles... but rather in what de Groot called “erudition,” a store of specific, quickly available, and relevant background knowledge.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C12",
+        "text": "Experts do not perform any better than novices on formally similar yet unfamiliar tasks outside their domain of specific knowledge.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Expert readers, chess grandmasters, and experts in any field do not possess any all-purpose mental muscles that novices lack, and they do not perform any better than novices on formally similar yet unfamiliar tasks.",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C13",
+        "text": "The belief that reading skill is an all-purpose, topic-independent mastery is a fundamental error in educational thought.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "the whole notion that reading skill is an all-purpose topic-independent mastery, with definable levels apart from specific content knowledge, has been a deep mistake.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C14",
+        "text": "The principles regarding background knowledge and expertise that apply to reading also apply to mathematics and science.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "What’s true of reading is also true of math, scien",
+        "page_range": "90-92"
+      },
+      {
+        "id": "C15",
+        "text": "Short-term memory is extremely constrained, limited to four or five items for ten to fifteen seconds.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 1.0,
+        "source_passage": "Because short-term memory is so very constrained (four or five items, and ten to fifteen seconds)",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C16",
+        "text": "Like reading, subjects such as math, science, and history require topic-specific background knowledge rather than just general thinking skills.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "What’s true of reading is also true of math, science, history, and other domains. Topic-specific background knowledge is required. The claim of all-purpose reading skills or all-purpose thinking skills is incorrect.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C17",
+        "text": "Reading skill is dependent on using long-term memory schemas to overcome working memory limitations.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "The skill of reading is not an all-purpose, general skill. It is highly dependent upon a person’s ability in a specific case to overcome the limitations of working memory by means of schemas that can be unpacked and referred to at leisure",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C18",
+        "text": "A key function of language is to act as a labeling mechanism for schemas.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "A key function of language itself is this labeling mechanism.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C19",
+        "text": "Working memory capacity can be freed by utilizing long-term memory representations.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "A 2021 article in the Journal of Experimental Psychology is entitled: “Freeing Capacity in Working Memory (WM) Through the Use of Long-Term Memory (LTM) Representations.”",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C20",
+        "text": "Verbal labels enable background knowledge to overcome the temporal constraints of working memory.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "It describes using tags like the verbal label “Ruy Lopez” (a set of opening moves) by the chess grandmasters in carrying out the twenty-five chess-piece positioning task. It enables “erudition” to overcome the time constraints of working memory.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C21",
+        "text": "Interpretation of language requires two maneuvers: disambiguation of meanings and amplification of unstated implications.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "When we interpret what somebody has said or written, we need to be able to perform two key interpretive maneuvers. We must disambiguate by choosing among potential meanings, and we must amplify and realize unstated implications.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C22",
+        "text": "There is no general reading skill that exists independently of specific, unstated topic knowledge shared between writer and reader.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.95,
+        "source_passage": "In sum: there is no such thing as a general reading skill independent of specific unstated topic knowledge shared between writer and reader. Shared Background Knowledge is always needed.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C23",
+        "text": "Reading levels are not fixed qualities of students or texts but are topic-dependent quantities.",
+        "claim_level": "methodological",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "In other words, the reading “levels” of the students were not definite qualities after all... Neither the readability of the story nor the reading level of the children was a fixed quantity. They were both topic-dependent quantities.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C24",
+        "text": "The traditional notions of 'reading level' and 'text level' are imprecise and unreliable.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "The whole notion of “reading level” and “text level” is imprecise and unreliable.",
+        "page_range": "92-94"
+      },
+      {
+        "id": "C25",
+        "text": "Shared topic knowledge is not educationally useful unless specific and predictable topic knowledge has been taught to all readers in a class.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "But shared topic knowledge is not an educationally useful characteristic —unless and until specific and predictable topic knowledge has been taught and learned by all the readers in the class.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C26",
+        "text": "Reading level is not a definite reality in either people or texts.",
+        "claim_level": "methodological",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "It proved that “reading level” is not a definite reality in either people or texts.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C27",
+        "text": "Shared background knowledge is a necessity for comprehension and must include specifically shared topic knowledge.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "It makes clear that shared background knowledge is a necessity for comprehension which must include not just very general, nationally shared background knowledge but also specifically shared topic knowledge.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C28",
+        "text": "Raising real-world reading abilities for all requires a definite shared-topic curriculum for the whole class.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "To raise real-world reading abilities for all requires a definite shared-topic curriculum for the whole class, as the Kim experiment suggests.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C29",
+        "text": "There can be no general skill of verbal comprehension because the working-memory limitation of consciousness cannot be overcome directly.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Because the working-memory limitation of consciousness cannot be overcome directly, there can be no general skill of verbal comprehension.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C30",
+        "text": "Acquiring literacy involves acquiring the shared schemas of a speech community to overcome the limitations of working memory.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Acquiring literacy includes acquiring the shared schemas of a speech community as a way of overcoming the limitations of working memory.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C31",
+        "text": "The ability to read effortlessly is the consequence of acquiring specific mental software or erudition that circumvents working memory constraints.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Our ability effortlessly to convert visual symbols into words and meanings is an acquired system—an “erudition” like that of the chess masters, by means of which we are able to circumvent cleverly the still-unyielding constraints of working memory.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C32",
+        "text": "Shared knowledge allows experts to use shorthand representations that save time in working memory.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Such shorthand representation is a chief time-saving technique of higher-order skills.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C33",
+        "text": "Shared, unwritten knowledge is the key to effective nationality.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "Shared, unwritten-down knowledge is a key factor of shared language. It is the key to effective nationality.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C34",
+        "text": "Readability formulas are inherently defective because they treat only what is written on the page while omitting the reader's prior knowledge.",
+        "claim_level": "methodological",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Readability formulas treat only what is written down on the page, omitting what is previously “written” upon the mind of readers. Hence readability formulas are inherently defective.",
+        "page_range": "94-95"
+      },
+      {
+        "id": "C35",
+        "text": "Irony serves as a primary example of how human language necessitates silently shared knowledge to be understood.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Irony is just one of the ways that human language requires silently shared knowledge.",
+        "page_range": "83"
+      },
+      {
+        "id": "C36",
+        "text": "Readers do not need to fully unpack every schema within working memory constraints; they can proceed with a 'partial understanding' based on a confident grasp of the 'gist.'",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "That doesn’t mean that pre-existing, schemas lodged in the reader’s mind need to be fully unpacked within the ten seconds available to working memory. No, you march forward with partial understanding because you confidently know that you have the right gist...",
+        "page_range": "85"
+      },
+      {
+        "id": "C37",
+        "text": "The necessity for shared background knowledge operates at two distinct levels: very general nationally shared knowledge and specifically shared topic knowledge.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "It makes clear that shared background knowledge is a necessity for comprehension which must include not just very general, nationally shared background knowledge but also specifically shared topic knowledge.",
+        "page_range": "86"
+      },
+      {
+        "id": "C38",
+        "text": "Educational doctrines regarding reading, modern nationality, and communal life are fundamentally dependent upon the principle of shared knowledge.",
+        "claim_level": "meta",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "On this basic fact of shared knowledge hang all the law and the prophets of educational doctrine relative to reading and modern nationality and communal life.",
+        "page_range": "87"
+      },
+      {
+        "id": "C39",
+        "text": "If a reader must learn the underlying content of a term while reading it, the immediate task of comprehension will likely vanish from working memory before the content is mastered.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "By the time someone had learned the content needed to grasp 'World War II,' the immediate task would have long disappeared from working memory.",
+        "page_range": "87"
+      },
+      {
+        "id": "C40",
+        "text": "The recognition of language's inherent ambiguity and 'uncertain implicature' allows for the logical deduction that specific background knowledge is required for comprehension.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "One can also (by critical thinking) deduce the need for specific background knowledge by recognizing the inherent ambiguity and uncertain implicature of human language.",
+        "page_range": "82-83"
+      },
+      {
+        "id": "C41",
+        "text": "Interpretive maneuvers such as disambiguation and amplification must be performed rapidly to succeed before the sentence structure drops out of working memory.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "And we must do those two things fast—before the phrase or sentence itself drops out of working memory.",
+        "page_range": "85"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "description": "Common Core State Standards change in terminology from 'readability' to 'complexity'.",
+        "evidence_type": "historical_example",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E2",
+        "description": "A 2019 research summary in Psychological Science showing psycholinguistics has rejected reading as a general skill.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Psychological Science, 2019",
+        "endnote_numbers": [
+          35
+        ],
+        "supports_claim": "C6"
+      },
+      {
+        "id": "E3",
+        "description": "Jonathan Swift’s 'A Modest Proposal' as an example of text where irony makes standard readability scores irrelevant without shared cultural knowledge.",
+        "evidence_type": "thought_experiment",
+        "supports_claim": "C8"
+      },
+      {
+        "id": "E4",
+        "description": "George A. Miller's research on short-term memory capacity (the 'magical number seven').",
+        "evidence_type": "expert_testimony",
+        "supports_claim": "C9"
+      },
+      {
+        "id": "E5",
+        "description": "International ranking data showing American reading performance dropping from 1st in 1934 to 25th in 2023.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Unspecified source #36",
+        "endnote_numbers": [
+          36
+        ],
+        "supports_claim": "C10"
+      },
+      {
+        "id": "E6",
+        "description": "Adrian de Groot's experiment showing grandmasters can reconstruct chess positions from real games but perform like novices on random positions.",
+        "evidence_type": "empirical_study",
+        "supports_claim": "C11"
+      },
+      {
+        "id": "E7",
+        "description": "De Groot's study of chess masters showed that expertise is based on 'erudition' (stored knowledge) rather than general mental ability.",
+        "evidence_type": "empirical_study",
+        "source_reference": "de Groot",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E8",
+        "description": "A 2021 study demonstrated that using verbal tags (like the Ruy Lopez chess opening) allows experts to bypass working memory limits by accessing long-term memory representations.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Journal of Experimental Psychology (2021), 'Freeing Capacity in Working Memory (WM) Through the Use of Long-Term Memory (LTM) Representations'",
+        "supports_claim": "C7"
+      },
+      {
+        "id": "E9",
+        "description": "The 'Baseball Experiment' showed that 'slow' readers with high baseball knowledge outperformed 'expert' readers with low baseball knowledge on a baseball-related text.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Donna Recht and Lauren Leslie (1988)",
+        "supports_claim": "C11"
+      },
+      {
+        "id": "E10",
+        "description": "Professor Kim's study found that topic knowledge must be predictable and taught to all readers to be educationally effective.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Professor Kim and associates",
+        "supports_claim": "C13"
+      },
+      {
+        "id": "E11",
+        "description": "The baseball experiment demonstrated that normally poor readers with high topic knowledge outperform high-scoring readers with low topic knowledge.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Recht and Leslie (1988)",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E12",
+        "description": "Research in second-language learning identifies 'topic familiarity' as a dominant factor in comprehension.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Implicitly cited research in second-language learning",
+        "supports_claim": "C7"
+      },
+      {
+        "id": "E13",
+        "description": "The analogy of chess masters whose 'erudition' allows them to process complex board states as single chunks, circumventing memory limits.",
+        "evidence_type": "thought_experiment",
+        "source_reference": "Not cited",
+        "supports_claim": "C9"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "CON1",
+        "term": "Readability",
+        "author_definition": "A flawed concept suggesting text difficulty is a stable, measurable feature of the text itself, independent of the reader's knowledge.",
+        "common_alternative": "A stable metric used to assign 'reading levels' to books and students.",
+        "importance": "central"
+      },
+      {
+        "id": "CON2",
+        "term": "Erudition",
+        "author_definition": "A store of specific, quickly available, and relevant background knowledge that constitutes the difference between a novice and an expert.",
+        "common_alternative": "General intelligence or high-level abstract thinking skills.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON3",
+        "term": "General Skill",
+        "author_definition": "The mistaken idea that reading or critical thinking are all-purpose 'mental muscles' that can be applied to any topic once mastered.",
+        "importance": "central"
+      },
+      {
+        "id": "CON4",
+        "term": "Schemas",
+        "author_definition": "Topic or domain-specific structures lodged in long-term memory that allow a person to bypass working memory limits.",
+        "source_passage": "They are lodged in long-term memory as schemas for the topic or the domain.",
+        "importance": "central"
+      },
+      {
+        "id": "CON5",
+        "term": "Reading Level",
+        "author_definition": "An unreliable and imprecise concept that incorrectly treats reading ability as a fixed, topic-independent quality of a reader or a text.",
+        "common_alternative": "A fixed score or grade-level equivalent of a student's technical reading ability.",
+        "source_passage": "Neither the readability of the story nor the reading level of the children was a fixed quantity. They were both topic-dependent quantities.",
+        "importance": "central"
+      },
+      {
+        "id": "CON6",
+        "term": "Shorthand Representation",
+        "author_definition": "A time-saving technique where a single term (e.g., 'sacrifice fly' or 'World War II') represents a vast amount of content, manageable in working memory only if the underlying content is already shared.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON7",
+        "term": "Uncertain Implicature",
+        "author_definition": "The inherent quality of human language where meanings are suggested or implied rather than stated, creating a need for background knowledge to resolve uncertainty.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON8",
+        "term": "Topic Familiarity",
+        "author_definition": "A dominant theme in language comprehension research, particularly in second-language learning, referring to a reader's prior acquaintance with the subject matter.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON9",
+        "term": "Speech Community",
+        "author_definition": "The collective group whose shared schemas must be acquired by an individual to achieve full literacy and overcome working memory limitations.",
+        "importance": "contextual"
+      },
+      {
+        "id": "CON10",
+        "term": "Mental Software",
+        "author_definition": "The author's metaphor for the acquired system of erudition and schemas that allows expert readers to circumvent the constraints of working memory.",
+        "importance": "supporting"
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE1",
+        "name": "De Groot’s Chess Experiment",
+        "description": "Dutch psychologist Adrian de Groot tested chess players of varying skill levels. He found grandmasters had near-perfect recall of piece positions from actual games but were no better than novices when pieces were placed randomly. This showed that 'skill' was actually a function of stored patterns (erudition) rather than a general memory power.",
+        "key_passages": [
+          "Grandmasters can glance for five seconds at a complex mid-game chess position of twenty-five pieces... and then reconstruct on a blank chess board the entire chess position... Performance on this task correlates perfectly with a person’s chess ranking.",
+          "Under those new conditions [random positions]... the performances of the three different groups—grandmasters, masters, and novices—were all precisely the same... Such general skills do not exist."
+        ],
+        "role_in_argument": "natural_experiment",
+        "claims_supported": [
+          "C11",
+          "C12",
+          "C13"
+        ]
+      },
+      {
+        "id": "CASE2",
+        "name": "American Reading Rank Decline",
+        "description": "The author cites a massive drop in American international reading standings from 1934 (1st) to 2023 (25th), attributing this specifically to the adoption of 'reading levels' over content knowledge.",
+        "key_passages": [
+          "Following the mistaken theory of reading “levels”... American children moved from number one in reading (in 1934) to twenty-fifth in 2023."
+        ],
+        "role_in_argument": "historical_precedent",
+        "claims_supported": [
+          "C10"
+        ]
+      },
+      {
+        "id": "CASE3",
+        "name": "The Baseball Experiment",
+        "description": "Researchers Recht and Leslie tested 12-year-olds on their comprehension of a passage about baseball. They categorized students by reading level (fast/expert vs. slow/poor) and by baseball knowledge. They found that students rated as poor readers who knew a lot about baseball outperformed students rated as expert readers who knew little about baseball. This demonstrated that reading comprehension is dependent on topic knowledge rather than a general technical skill level.",
+        "key_passages": [
+          "The two researchers described baseball knowledgeable twelve-year-olds who were slow readers yet who nonetheless performed much better and faster on a baseball passage than expert fast readers who were not very knowledgeable about baseball.",
+          "Those who shared baseball knowledge with the author of the story yet who were rated as poor readers were, in fact, much better readers than those whose tests had rated them as top readers."
+        ],
+        "role_in_argument": "natural_experiment",
+        "claims_supported": [
+          "C10",
+          "C11",
+          "C12"
+        ],
+        "contestable_aspects": [
+          "The extent to which the results generalize to all types of texts beyond sports",
+          "The definition of 'poor reader' vs. 'expert reader' used in the study"
+        ]
+      },
+      {
+        "id": "CASE4",
+        "name": "The Kim Study",
+        "description": "An experiment showing that the educational benefits of shared knowledge depend on the curriculum being specific and predictable for all readers in a classroom setting.",
+        "key_passages": [
+          "That was a key finding of the recent Kim study.",
+          "To raise real-world reading abilities for all requires a definite shared-topic curriculum for the whole class, as the Kim experiment suggests."
+        ],
+        "role_in_argument": "positive_example"
+      }
+    ],
+    "thinkers": [
+      {
+        "id": "TH1",
+        "name": "George A. Miller",
+        "key_idea": "The limitations of human short-term memory, specifically the 'magical number seven.'",
+        "author_stance": "builds_on",
+        "engagement": "Hirsch uses Miller's memory limits to explain why reading fails when background knowledge isn't applied quickly enough to 'chunk' information before it is forgotten.",
+        "key_passages": [
+          "George A. Miller... was famous for his essay on the magical number seven—the number of items you can hold in short-term memory at any one time."
+        ]
+      },
+      {
+        "id": "TH2",
+        "name": "Adrian de Groot",
+        "key_idea": "Expertise is based on domain-specific knowledge ('erudition') rather than general mental skills.",
+        "author_stance": "agrees",
+        "engagement": "Hirsch presents de Groot's chess research as a foundational 'foreshadowing' of the reality that reading is not a general skill.",
+        "key_passages": [
+          "What de Groot found... is that the difference in higher-order skill between a novice and an expert does not lie in all-purpose mental muscles... but rather in what de Groot called “erudition”"
+        ]
+      },
+      {
+        "id": "TH3",
+        "name": "Professor Kim",
+        "key_idea": "Domain knowledge and topic familiarity are central to educational outcomes, and this knowledge must be explicitly taught to be useful.",
+        "author_stance": "builds_on",
+        "engagement": "Hirsch welcomes Kim's research as the entry of mainline psychological findings into education schools.",
+        "key_passages": [
+          "And now, with the recent study by Professor Kim and his associates, the theme has entered education schools—a welcome development."
+        ]
+      },
+      {
+        "id": "TH4",
+        "name": "Recht and Leslie",
+        "key_idea": "Knowledge of a topic (e.g., baseball) is a stronger predictor of reading comprehension than scores on standardized reading tests.",
+        "author_stance": "agrees",
+        "engagement": "The author claims their paper has achieved 'immortality' for breaking the dominant 'reading level' conception.",
+        "key_passages": [
+          "The Recht-Leslie paper has achieved a kind of immortality because so few studies of reading in the United States have been willing to break out of the dominant “reading level” and “readability level” conception."
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Common Core State Standards",
+        "role": "historical_figure",
+        "context": "The 2010 educational standards that shifted terminology from readability to complexity."
+      },
+      {
+        "name": "Psychological Science",
+        "role": "institution",
+        "context": "Journal cited for a 2019 research summary rejecting reading as a general skill."
+      },
+      {
+        "name": "Journal of Experimental Psychology",
+        "role": "institution",
+        "context": "Cited as the source of mainline psychological research regarding working memory and long-term memory representations."
+      },
+      {
+        "name": "Education Schools",
+        "role": "institution",
+        "context": "Described as finally beginning to accept the importance of domain knowledge through the work of Professor Kim."
+      },
+      {
+        "name": "Kim",
+        "role": "cited_approvingly",
+        "context": "Researcher who conducted a study on shared topic knowledge in classrooms."
+      },
+      {
+        "name": "Recht and Leslie",
+        "role": "cited_approvingly",
+        "context": "Researchers of the seminal 1988 baseball study."
+      },
+      {
+        "name": "Chess masters",
+        "role": "historical_figure",
+        "context": "Used as a psychological archetype of how experts use knowledge to circumvent memory constraints."
+      }
+    ],
+    "objections_raised": [
+      {
+        "id": "OBJ1",
+        "objection": "A shared-knowledge curriculum would eliminate classroom libraries.",
+        "source": "Implicit/Educational Establishment",
+        "response": "Classroom libraries would still exist but would no longer serve as the primary curriculum; they would be supplemented/replaced by shared grade-level readings to ensure knowledge parity.",
+        "targets_claim": "C5"
+      },
+      {
+        "id": "OBJ2",
+        "objection": "The education establishment is resistant to challenges against 'readability' because it is a foundational principle of child-centered pedagogy.",
+        "source": "A 'distinguished educational journal' that rejected Hirsch's review",
+        "response": "Hirsch characterizes this rejection as 'sectarian' and religious-like, indicating the field's ideological commitment to flawed principles.",
+        "targets_claim": "C3"
+      },
+      {
+        "id": "OBJ3",
+        "objection": "Reading level and text readability are definite, fixed qualities that can be measured independent of content.",
+        "source": "Implicit (Standard educational testing/practice)",
+        "response": "The Baseball Experiment and cognitive research show that reading 'level' varies wildly depending on a reader's specific topic knowledge; it is an unreliable concept.",
+        "targets_claim": "C12"
+      },
+      {
+        "id": "OBJ4",
+        "objection": "Reading level is a definite and measurable reality in students and texts.",
+        "source": "Dominant educational conception",
+        "response": "The Recht-Leslie study proved that topic knowledge can cause 'poor' readers to outperform 'good' readers, rendering the 'reading level' concept unreliable.",
+        "targets_claim": "C1"
+      }
+    ],
+    "cross_chapter_refs": [
+      {
+        "target_chapter": "13",
+        "reference_text": "I shall be quoting in the next chapter an excerpt from an important book entitled Readability."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0057266999999999995,
+    "duration_s": 85.08634901046753,
+    "num_windows": 3,
+    "pre_dedup_claims": 39,
+    "post_dedup_claims": 34,
+    "sweep_claims": 7,
+    "sweep_concepts": 4
+  }
+}

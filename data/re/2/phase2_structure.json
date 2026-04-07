@@ -1,0 +1,675 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "The claim that poor children are being cheated rests on the premise that the underlying educational theory (child-centeredness) is both technically flawed and socially inequitable."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "Domain-specificity of expertise is the primary scientific evidence used to prove child-centered 'general skills' theory is technically incorrect."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "The debunking of the 'skills approach' by cognitive psychology provides the technical basis for rejecting child-centered learning."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "Refuting the 'unfolding' metaphor removes the biological justification for child-centered pedagogy."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "If disadvantaged children are 'cheated' by the system, it directly leads to the worsening of economic inequalities and national weakness."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "Whole-group instruction becomes impossible only because standards focus on abstract skills rather than ensuring all students learn the same content simultaneously."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C17",
+        "relationship": "refines",
+        "explanation": "The shift to 'ontogeny' provides a scientific alternative that exposes the 'unfolding' metaphor as inaccurate."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C27",
+        "relationship": "instantiates",
+        "explanation": "The lack of shared content within a single school (C28) is a specific instance of the broader failure of standards-based education to mandate specific content (C27)."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "Differentiated instruction is only a 'coping mechanism' if there is no shared knowledge base to teach to the whole class."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The necessity of teachers using small groups to manage varied backgrounds directly supports the claim that these groups are a coping mechanism."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C29",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that critical thinking should be fostered through curriculum depends on the scientific claim that general critical thinking skills do not exist."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C30",
+        "relationship": "refines",
+        "explanation": "The author argues that the invention of 'general skills' was a strategic move to justify child-centered models, which cognitive science has since debunked."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "Using 'time-fillers' like critical-thinking packets instead of content-rich material contributes to the harm done to students."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If differentiated instruction is merely a fragmented coping mechanism, it follows that these unplanned practices lead to the educational harm mentioned in C22."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C51",
+        "relationship": "instantiates",
+        "explanation": "The theoretical premise that memories are fundamentally tied to specific facts provides the basis for the conclusion that memory is intrinsically connected to specific knowledge."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C52",
+        "relationship": "depends-on",
+        "explanation": "If building on past learning requires common reference points (C51), then effective classroom communication must necessarily depend on a shared body of background knowledge (C52)."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C56",
+        "relationship": "refines",
+        "explanation": "C56 applies the general principle of shared background knowledge for communication (C52) specifically to the efficacy of teacher-to-student instruction."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "Evidence of high-poverty schools improving their academic rankings supports the broader claim that the achievement gap can be closed through knowledge-based education."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The claim that elementary education leads to college success (C41) relies on the intermediate success of closing the achievement gap during the K-8 years (C44)."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "Increased student engagement and excitement (C43) are the mechanisms that facilitate a positive change in overall school culture (C46)."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C74",
+        "relationship": "instantiates",
+        "explanation": "Cathy's observation that classrooms in the same grade level teach different content provides the evidence for schooling becoming compartmentalized and isolated."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C76",
+        "relationship": "depends-on",
+        "explanation": "National incompetence and social injustice are presented as the ultimate macroscopic results of the isolated, 'pocketed' learning environments described in C74."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "The sense of community and unity established in the classroom (C62) is the foundational scale-model for the national allegiance and social cohesion argued for in C68."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C71",
+        "relationship": "depends-on",
+        "explanation": "The normative claim about national competence (C71) relies on the historical and empirical founding principle that unity and communication are the drivers of that competence."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "The ability of disadvantaged students to overcome their status is logically dependent on teachers being able to facilitate progress, which requires the common knowledge base identified in C61."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C83",
+        "relationship": "supports",
+        "explanation": "If the child-centered concept of 'age-appropriateness' is not supported by research, it undermines the justification for teaching general skills rather than specific content."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C87",
+        "relationship": "depends-on",
+        "explanation": "The claim that child-centeredness creates inequality relies on the premise that its central pedagogical pillar—general skills—is a myth that fails to build the knowledge disadvantaged students need."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C87",
+        "relationship": "supports",
+        "explanation": "The lack of common knowledge in schools (C81) is the mechanism through which child-centeredness (C87) perpetuates inequality."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C88",
+        "relationship": "depends-on",
+        "explanation": "If general skills do not exist, then the only alternative for effective education is the specific content mandates proposed in C88."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "The principle that readiness depends on prior knowledge justifies a grade-by-grade sequential curriculum."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C98",
+        "relationship": "supports",
+        "explanation": "Because education schools are unlikely to reform themselves, external political pressure via media shaming is presented as necessary."
+      },
+      {
+        "from_id": "C88",
+        "to_id": "C98",
+        "relationship": "depends-on",
+        "explanation": "The call to shame candidates assumes that the mandate for a core topic sequence is the only scientifically valid policy."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C7",
+        "warrant_text": "If high-level cognitive tasks (like memory or athleticism) are shown to be non-transferable across different types of data or activities, then expertise is fundamentally tied to specific domains of knowledge.",
+        "is_explicit": true,
+        "vulnerability": "Critics argue that meta-cognitive strategies (self-regulation, planning) are general skills that help acquisition across all domains."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E3",
+        "claim_id": "C11",
+        "warrant_text": "Differences in long-term outcomes between two distinct educational cohorts can be attributed to the fundamental pedagogical differences between those systems.",
+        "is_explicit": false,
+        "vulnerability": "External factors such as changing demographics, funding levels, or social media influence might better explain national declines than curriculum choice."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E19",
+        "claim_id": "C11",
+        "warrant_text": "A decline in measured patriotism correlates with a decline in shared cultural knowledge provided by schools.",
+        "is_explicit": true,
+        "vulnerability": "Patriotism levels are influenced by political events, wars, and economic cycles independent of school curriculum."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E21",
+        "claim_id": "C20",
+        "warrant_text": "If students in the same grade level possess entirely different sets of facts due to lack of a shared curriculum, then a teacher cannot use a single text or lecture to reach the whole class effectively.",
+        "is_explicit": true,
+        "vulnerability": "Differentiated instruction and small-group 'centers' are designed specifically to handle this fragmentation, even if they are more taxing for the teacher."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E18",
+        "claim_id": "C28",
+        "warrant_text": "Extreme disparities in specific domain knowledge (Mesopotamia) between younger and older students in different school models indicate a systemic lack of content sequencing in child-centered schools.",
+        "is_explicit": false,
+        "vulnerability": "A single student's knowledge (or lack thereof) may be due to personal interest or household environment rather than school curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E17",
+        "claim_id": "C27",
+        "warrant_text": "If a school's performance only improves after shifting from standards-based child-centeredness to content-specific instruction, then the 'standards' themselves were not providing the necessary academic foundation.",
+        "is_explicit": true,
+        "vulnerability": "Correlation is not causation; the improvement could be due to better leadership, increased funding, or teacher morale shifts during the transition."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E16",
+        "claim_id": "C22",
+        "warrant_text": "The long-term success of disadvantaged students in a Core Knowledge system implies that the absence of such a system (individualized/Romantic models) is what prevents similar success.",
+        "is_explicit": false,
+        "vulnerability": "Selection bias; the students who succeeded might have been uniquely resilient or had support systems not accounted for in the anecdote."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C41",
+        "claim_id": "C44",
+        "warrant_text": "A single successful cohort (Michele's 'test group') that achieves outlier results (scholarships/college) after a specific intervention (Core Knowledge) provides sufficient proof of the intervention's efficacy for all similar student populations.",
+        "is_explicit": false,
+        "vulnerability": "The success of one 'test group' may be influenced by factors like teacher quality, novelty effects, or parental selection bias rather than the curriculum itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C42",
+        "claim_id": "C56",
+        "warrant_text": "The use of sophisticated vocabulary in daily conversation is an observable proxy for the internal comprehension of shared background knowledge.",
+        "is_explicit": true,
+        "vulnerability": "Vocabulary usage can be performative or mimicry and does not always guarantee deep conceptual understanding or shared context."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C79",
+        "claim_id": "C76",
+        "warrant_text": "A national education system is only as effective as the cumulative coherence of its individual classrooms; if the parts are disconnected, the whole will be incompetent.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that content knowledge is the primary variable in 'competence,' ignoring the role of general intelligence or universal cognitive skills."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C63",
+        "claim_id": "C68",
+        "warrant_text": "Shared intellectual excitement and engagement with common objects of study create social bonds that translate into civic loyalty.",
+        "is_explicit": false,
+        "vulnerability": "Students might be excited about common content without necessarily feeling allegiance to the state or nation that mandates that content."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C65",
+        "claim_id": "C80",
+        "warrant_text": "If academic success requires deep background knowledge (authenticity), then withholding that knowledge through child-centered 'choice' effectively denies disadvantaged students the tools of success.",
+        "is_explicit": true,
+        "vulnerability": "Assumes 'authentic' tasks like persuasive writing are the only or primary way to measure and achieve social mobility."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "1.C62",
+        "claim_id": "C83",
+        "warrant_text": "If verbal comprehension is entirely dependent on specific background knowledge, then 'reading' cannot be a general skill that functions independently of content.",
+        "is_explicit": true,
+        "vulnerability": "Critics argue that meta-cognitive strategies (e.g., summarizing, questioning) are general skills that help students acquire knowledge from texts regardless of the specific topic."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C81",
+        "claim_id": "C87",
+        "warrant_text": "Equality of opportunity requires that the school provides the intellectual capital that affluent children receive at home; failure to provide this in a standardized way ensures that home-based advantages persist.",
+        "is_explicit": true,
+        "vulnerability": "Socio-economic factors outside of school (nutrition, stress, housing) may be more significant drivers of inequality than curricular coherence."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C90",
+        "claim_id": "C88",
+        "warrant_text": "Public transparency and clear standards are the best defense against accusations of bias or hidden agendas in state-run education.",
+        "is_explicit": false,
+        "vulnerability": "A centralized state-mandated sequence could actually make 'brainwashing' more efficient by providing a single point of control for content."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C7",
+        "to_id": "C11",
+        "missing_step": "Establishing that the loss of 'national tribal lore' is the specific domain-knowledge deficit causing the decline, rather than other forms of technical or local knowledge.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C11",
+        "missing_step": "A leap from the anecdotal classroom frustrations of two teachers to a broad empirical conclusion about the weakening of the entire United States.",
+        "step_type": "generalization",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C12",
+        "to_id": "C2",
+        "missing_step": "Evidence that 'choosing one's own materials' inherently results in lower-quality education for the poor, rather than just varied education.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C30",
+        "to_id": "C29",
+        "missing_step": "Even if general skills don't exist, a 'rich curriculum' must be proven to be the most efficient way to stimulate domain-specific thinking compared to other methods.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C21",
+        "to_id": "C22",
+        "missing_step": "The author assumes that the 'chaos' and 'exhaustion' of teachers in child-centered models (C21) directly translates to lower life outcomes and national harm (C22).",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C27",
+        "to_id": "C28",
+        "missing_step": "The fact that standards don't *ensure* shared content doesn't automatically mean that schools *won't* have shared content by choice or professional collaboration.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C43",
+        "to_id": "C41",
+        "missing_step": "Increased student engagement in elementary school must be shown to have a causal link to long-term academic persistence and college-readiness years later.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C48",
+        "to_id": "C44",
+        "missing_step": "Improving academic rankings in a single school district must be shown to be scalable to national achievement gap metrics.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C66",
+        "to_id": "C71",
+        "missing_step": "That empathy for historical figures (like Lincoln) reliably translates into the specific communicative behaviors required for modern national competence.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C78",
+        "to_id": "C76",
+        "missing_step": "Verification that the 'ignorance' of voters is caused by elementary school curriculum choices rather than media consumption, economic stress, or political polarization.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C83",
+        "to_id": "C88",
+        "missing_step": "Establishing that a state-mandated sequence is the most effective way to ensure knowledge acquisition, as opposed to district-level or school-level coherence.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C86",
+        "to_id": "C98",
+        "missing_step": "Demonstrating that public 'shaming' is a productive or appropriate tool for scientific and educational policy-making.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C20",
+        "objection": "Whole-group instruction is an outdated, 'factory-model' relic; child-centered classrooms intentionally use small groups and centers to meet children where they are, which is more effective than teaching to a non-existent 'average' student.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C7",
+        "objection": "While specific expertise (like grandmaster chess) is domain-specific, 'literacy' is a foundational threshold of decoding and basic comprehension that, once reached, allows for the acquisition of any domain knowledge.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C11",
+        "objection": "The increase in economic inequality is driven by globalization, automation, and tax policy rather than the shift from 'common schools' to child-centered education.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C21",
+        "objection": "Small-group instruction (differentiation) is not a 'coping mechanism' but a pedagogical gold standard that allows teachers to address specific student misconceptions and provide immediate feedback that whole-group lectures cannot.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C30",
+        "objection": "While cognitive psychology questions 'general' skills, meta-cognitive strategies (like self-regulation and monitoring one's own understanding) are transferable across domains and are precisely what 'critical thinking' instruction aims to teach.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C27",
+        "objection": "Lack of standardized content across classrooms allows for 'culturally responsive teaching,' where teachers adapt subject matter to the specific lived experiences and interests of their local student population, increasing engagement.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "The 'test group' mentioned (Michele's son's class) likely benefited from 'pioneer bias,' where the first group to adopt a new, focused curriculum receives disproportionate resources and highly motivated teachers.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C52",
+        "objection": "Skilled teachers in child-centered models can use 'just-in-time' scaffolding to provide necessary background knowledge for specific lessons without requiring a multi-year shared curriculum for every student.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C44",
+        "objection": "Closing the achievement gap requires addressing external socio-economic factors (housing, health, nutrition) that a curriculum alone cannot mitigate, regardless of its knowledge density.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C62",
+        "objection": "Shared background knowledge can create 'unity' through exclusion or indoctrination, stifling the diversity of thought necessary for a healthy democratic culture.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C80",
+        "objection": "The achievement gap for disadvantaged students is primarily a result of material resource deficits (health, housing, safety) which a change in curriculum content cannot overcome alone.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C76",
+        "objection": "The 'incoherence' of elementary schooling is actually a feature of a decentralized system that allows for local innovation and responsiveness to different student needs.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C83",
+        "objection": "The 'threshold hypothesis' suggests that once a student reaches a certain level of general vocabulary and decoding fluency, skills like 'evaluating evidence' or 'identifying bias' do transfer across similar domains.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C87",
+        "objection": "Child-centered education might fail because of inadequate funding and teacher training rather than the theoretical framework itself; blaming the theory ignores the material conditions of schools.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C88",
+        "objection": "Grade-by-grade state exams often lead to 'teaching to the test,' which narrows the curriculum and drains the 'engagement' the author claims to value.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Scientific Refutation of Romanticism",
+        "chain": [
+          "C17",
+          "C15",
+          "C7",
+          "C5"
+        ],
+        "conclusion_id": "C5",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Argument",
+        "chain": [
+          "C5",
+          "C2",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Classroom Fragmentation Chain",
+        "chain": [
+          "C12",
+          "C14",
+          "C13",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "The Fragmentation Chain",
+        "chain": [
+          "C27",
+          "C28",
+          "C24",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "The Critical Thinking Critique",
+        "chain": [
+          "C30",
+          "C31",
+          "C35",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "moderate"
+      },
+      {
+        "name": "The National Harm Argument",
+        "chain": [
+          "C25",
+          "C39",
+          "C23",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Efficacy Chain",
+        "chain": [
+          "C48",
+          "C44",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Communication Chain",
+        "chain": [
+          "C51",
+          "C52",
+          "C56"
+        ],
+        "conclusion_id": "C56",
+        "strength": "strong"
+      },
+      {
+        "name": "The Engagement-Culture Chain",
+        "chain": [
+          "C42",
+          "C43",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Civic Cohesion Chain",
+        "chain": [
+          "C62",
+          "C66",
+          "C68",
+          "C71"
+        ],
+        "conclusion_id": "C71",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pedagogical Efficacy for Equity Chain",
+        "chain": [
+          "C61",
+          "C64",
+          "C65",
+          "C80"
+        ],
+        "conclusion_id": "C80",
+        "strength": "strong"
+      },
+      {
+        "name": "The Systemic Failure Chain",
+        "chain": [
+          "C79",
+          "C74",
+          "C77",
+          "C76"
+        ],
+        "conclusion_id": "C76",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Science Argument",
+        "chain": [
+          "C82",
+          "C85",
+          "C83"
+        ],
+        "conclusion_id": "C83",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Argument",
+        "chain": [
+          "C81",
+          "C84",
+          "C87"
+        ],
+        "conclusion_id": "C87",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Political Mandate Argument",
+        "chain": [
+          "C83",
+          "C87",
+          "C88",
+          "C98"
+        ],
+        "conclusion_id": "C98",
+        "strength": "weak"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0052519,
+    "duration_s": 74.96334528923035
+  }
+}

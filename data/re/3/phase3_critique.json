@@ -1,0 +1,120 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The logic of the 'Grade-school ratchet' as a mechanism for vertical learning transfer.",
+        "source_passage": "Let's call it the grade-school ratchet... impart directly to all young children the shared knowledge and vocabulary that enables everyone in the classroom to understand and participate in class and then to transfer that shared learning to understand later grades.",
+        "importance": "significant",
+        "suggested_claim": "The 'grade-school ratchet' functions by ensuring shared vocabulary and knowledge in early grades facilitate the transfer of learning to all subsequent grades.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The endorsement of 'democratic elitism' as a superior normative framework for educational equity.",
+        "source_passage": "Brighetti's call for a 'democratic elitism' regardless of race or ethnicity is among our own best democratic traditions.",
+        "importance": "minor",
+        "suggested_claim": "The concept of 'democratic elitism'—high standards accessible to all—is a core democratic value that justifies the shift away from child-centeredness.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "The scientific advantage of French 5th-grade data over US 12th-grade data in establishing causality.",
+        "source_passage": "Then the evaluations of results in France were decisively probed earlier-in the fifth grade not in the twelfth-grade SAT scores... Its large magnitude was similar in both nations but apparent in France in grade five.",
+        "importance": "significant",
+        "suggested_claim": "The French experiment is more scientifically rigorous than the American one because it identified the educational decline in mid-elementary school (5th grade) rather than at the end of high school (12th grade).",
+        "suggested_claim_level": "methodological"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C19",
+        "problem": "The claim implies the delay was purely due to implementation, but the text emphasizes the delay was in 'finding out' (detecting) the full extent of the decline.",
+        "source_passage": "It took them twenty years to find out fully, since in the first ten years, the teachers and the furniture were still being 'updated.'",
+        "suggested_fix": "The full magnitude of the French decline was not statistically manifest for twenty years because the physical and pedagogical implementation occurred gradually over the first decade."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E8",
+        "claim_id": "C22",
+        "missing_warrant": "A pedagogical theory's egalitarian value is measured by the degree to which it narrows the achievement gap between different socioeconomic classes."
+      },
+      {
+        "evidence_id": "E5",
+        "claim_id": "C10",
+        "missing_warrant": "Classroom environments that prioritize whole-class engagement provide more meaningful individual cognitive attention than environments where children work in isolation on varied tasks."
+      },
+      {
+        "evidence_id": "E7",
+        "claim_id": "C5",
+        "missing_warrant": "Consistency of outcomes across different national cultures and languages isolates the specific educational policy as the primary causal variable."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C4",
+        "counter_argument": "The French score decline (1987-2007) may be correlated with significant changes in the demographic and linguistic diversity of the French student population rather than the Loi Jospin itself.",
+        "why_important": "Demographic shifts are the most common alternative explanation for declining national test scores and must be addressed to prove the curriculum was the cause."
+      },
+      {
+        "targets_claim": "C34",
+        "counter_argument": "Whole-class instruction can fail to meet the needs of 'twice-exceptional' or highly gifted students who require the very differentiation child-centeredness provides.",
+        "why_important": "This addresses the 'elitism' critique by questioning if the 'democratic elitism' model serves outliers effectively."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C1",
+          "C45"
+        ],
+        "action": "merge",
+        "explanation": "C1 and C45 both express the same normative conclusion: that schools must replace 'natural development' / 'child-centeredness' with 'shared knowledge' for all children."
+      },
+      {
+        "claim_ids": [
+          "C2",
+          "C16"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that the French-American comparison is the 'most decisive educational experiment in history.'"
+      },
+      {
+        "claim_ids": [
+          "C14",
+          "C18"
+        ],
+        "action": "merge",
+        "explanation": "C14 is the specific French instance of the general principle expressed in C18 regarding child-centrism's effect on the poor."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C27",
+        "current_level": "normative",
+        "correct_level": "meta",
+        "explanation": "The claim evaluates the historical validity of an entire era's educational philosophy ('a scientific, social, and ethical mistake') rather than just prescribing a current action."
+      },
+      {
+        "claim_id": "C37",
+        "current_level": "empirical",
+        "correct_level": "theoretical",
+        "explanation": "This claim is a hypothetical prediction ('What abandoning child-centered myths would look like') based on reversing a data trend, not an observed empirical fact."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction is highly detailed but suffers from redundancy in the claims list (many claims are duplicates) and fails to capture the specific methodological logic Hirsch uses to argue why the French data is 'more scientific' than the US data. It also lacks the primary demographic counter-argument that typically challenges this type of 'natural experiment' logic."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0014582,
+    "input_tokens": 8686,
+    "output_tokens": 1474,
+    "duration_s": 21.38141417503357,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

@@ -1,0 +1,536 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The author argues that the psychological confidence in child-centered models is derived from a religious-like faith in nature rather than empirical data."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The ability of romanticism to influence modern minds depends on its successful secularization into a scientific-sounding discourse."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C7",
+        "relationship": "instantiates",
+        "explanation": "The specific translation of 'Geist' as 'Mind' is presented as a concrete instance of the broader process of secularizing religious concepts."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The normative call to repudiate romantic education depends on the theoretical claim that these models are non-scientific 'religions of nature'."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The claim that current models have made people less competent provides the practical justification for the need to repudiate them to achieve equality."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C11",
+        "relationship": "undermines",
+        "explanation": "Scientific evidence of cortical plasticity directly contradicts Froebel's assumption of an innate, pre-programmed biological blueprint in children."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The claim that interference disturbs human development depends on the premise that the laws of nature and human management are identical."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "If a young human instinctively wills what is best for themselves, then external interference is necessarily a disturbance of that correct instinct."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "If interference disturbs healthy development generally, then active/dictatorial instruction specifically destroys the child's inherent 'divine' state."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "Instruction only destroys the 'divine' element if one presupposes that the child begins in an unviolated, original condition."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C25",
+        "relationship": "refines",
+        "explanation": "The normative recommendation for passive instruction is the logical application of the theoretical claim that active instruction is destructive."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The necessity of background knowledge for disambiguation is contingent on the premise that language is inherently ambiguous."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The high regard for Froebel's insights into child nature historically justifies the descent of modern methods like discovery learning from his theories."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "If no independent 'complexity-managing' skill exists, then variations in reading performance must be attributed to the content being read, which is background knowledge."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "The absence of a transferable 'main-idea-finding' skill reinforces the conclusion that reading tests measure knowledge rather than abstract cognitive processes."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C38",
+        "relationship": "depends-on",
+        "explanation": "The necessity of schools imparting shared knowledge depends on the premise that modern common language is a standardized print-culture rather than a natural oral dialect."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C49",
+        "relationship": "depends-on",
+        "explanation": "C49 (ethnicity test) is a terminological shift from C39 (knowledge test), where 'ethnicity' is defined as the 'shared communicative store' of a national culture."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "The specific decline in French reading scores is the empirical manifestation of the adoption of child-centered schooling."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "The broad decline across all socioeconomic groups in France is used as evidence that social justice (equity) declined because the gap between classes persisted or worsened as scores dropped."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "6.C4",
+        "relationship": "supports",
+        "explanation": "C53 provides the specific data point (elite decline) that makes the French educational transition a 'decisive experiment' by showing the failure was universal across social classes."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "6.C7",
+        "relationship": "supports",
+        "explanation": "The decline of high-SES students' scores indicates that the curriculum change, rather than just poverty or social issues, was the primary driver of the 'wreckage' described."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "2.C52",
+        "relationship": "supports",
+        "explanation": "Claims of scientific error in education schools provide the mechanism for why teacher training institutions failed to maintain school performance."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "7.C77",
+        "relationship": "supports",
+        "explanation": "Karpicke's cognitive research on memory retrieval and spacing provides the scientific foundation for the claim that skills are 'knowledge-bound.'"
+      },
+      {
+        "from_id": "C56",
+        "to_id": "9.C69",
+        "relationship": "instantiates",
+        "explanation": "The distribution of materials during the pandemic is cited as a practical real-world application of Core Knowledge success."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C58",
+        "warrant_text": "An influential thinker's own admission of a 'permanent deposit' from a philosopher is a reliable indicator of that philosopher's formative role in their subsequent theories.",
+        "is_explicit": true,
+        "vulnerability": "Thinkers often misinterpret their own influences or move beyond them in ways that make the original 'deposit' irrelevant to later outcomes."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C12",
+        "warrant_text": "Physical evidence of brain structure and neural adaptability (plasticity) provides a more accurate basis for education than biological metaphors drawn from bird instincts.",
+        "is_explicit": true,
+        "vulnerability": "Cortical plasticity describes the brain's capacity for change but does not by itself dictate which specific educational methods are most effective at harnessing that change."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E16",
+        "claim_id": "C1",
+        "warrant_text": "If educational scores decline across all social classes immediately following a shift in pedagogical philosophy, then that philosophy is the most likely cause of the failure.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; other systemic shifts (economic, social, technological) could account for the decline during the same period."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E2",
+        "claim_id": "C7",
+        "warrant_text": "Linguistic translation choices that replace theological terms with psychological ones while keeping the structural logic intact represent a deliberate attempt to mask religious origins.",
+        "is_explicit": true,
+        "vulnerability": "Translation shifts may reflect legitimate efforts to clarify meaning for different cultural contexts rather than intentional 'cover-ups'."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E8",
+        "claim_id": "C21",
+        "warrant_text": "The developmental laws of complex biological systems (like grape vines) apply by analogy to the psychological and moral development of human beings.",
+        "is_explicit": true,
+        "vulnerability": "Biological systems operate on genetic blueprints, whereas human social and intellectual development requires external cultural tools that do not 'unfold' naturally."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E8",
+        "claim_id": "C25",
+        "warrant_text": "External guidance (pruning) that does not match the subject's internal nature is inherently harmful rather than helpful.",
+        "is_explicit": false,
+        "vulnerability": "Pruning in viticulture is often necessary for productivity; the analogy might actually support 'active' guidance if the 'fruit' (literacy) is the goal."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E13",
+        "claim_id": "C14",
+        "warrant_text": "Historical declines in standardized test scores provide an empirical indictment of the child-centered theories introduced by Peabody and Froebel.",
+        "is_explicit": false,
+        "vulnerability": "SAT score declines may correlate with demographic shifts in the testing pool rather than the specific influence of 19th-century educational theories."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C47",
+        "claim_id": "C48",
+        "warrant_text": "If an educational reform results in declining scores for everyone but especially harms the disadvantaged's ability to catch up, it is a failure of social justice.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that social justice in education is measured by factors other than standardized test scores, such as student well-being or creativity."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C41",
+        "claim_id": "C38",
+        "warrant_text": "The correlation between reading scores and future income implies that the specific knowledge tested is a form of 'cultural capital' necessary for economic participation.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; the test score might be a proxy for pre-existing socio-economic status or general intelligence (IQ)."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C46",
+        "claim_id": "C52",
+        "warrant_text": "A national-scale policy change (top-down curriculum shift) acts as a natural experiment because it applies to a massive, diverse population simultaneously.",
+        "is_explicit": true,
+        "vulnerability": "Other unmeasured social or economic changes in France between 1987 and 2007 could have contributed to the decline in verbal scores."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C53",
+        "claim_id": "6.C7",
+        "warrant_text": "If even the most privileged students with significant 'home capital' experience a decline in performance following a pedagogical shift, then the shift itself (the curriculum) is the most probable cause of the system-wide failure.",
+        "is_explicit": true,
+        "vulnerability": "Other systemic factors (e.g., changes in national teacher certification or general cultural shifts in reading habits) might affect all social classes simultaneously regardless of curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C57",
+        "claim_id": "7.C77",
+        "warrant_text": "Laboratory findings regarding memory retrieval (e.g., Karpicke's work) scale up to justify specific classroom curriculum structures, such as coherent and sequenced content.",
+        "is_explicit": false,
+        "vulnerability": "Cognitive science experiments in controlled settings do not always translate directly to the social and motivational complexities of a diverse classroom."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C12",
+        "to_id": "C4",
+        "missing_step": "Because the brain is plastic, it requires specific, externally provided content to reach its potential; plasticity does not imply self-directed development is sufficient.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C3",
+        "missing_step": "The 'religious' nature of a theory necessarily leads to poor practical outcomes in a secular society regardless of teacher skill or implementation quality.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C58",
+        "to_id": "C1",
+        "missing_step": "Hegelian thought, because of its religious roots in the concept of 'Geist,' is fundamentally incompatible with modern scientific requirements for education.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C21",
+        "to_id": "C25",
+        "missing_step": "The 'pure unfolding' of a child's nature is identical to or contains the 'divine' element of the human being.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C31",
+        "to_id": "C32",
+        "missing_step": "Background knowledge is the ONLY or primary mechanism by which verbal ambiguity is resolved in real-time communication.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C27",
+        "to_id": "C18",
+        "missing_step": "The 'perceptive and artistic faculties' of a child are more aligned with their 'nature' than the 'symbolic' faculty of reading.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C42",
+        "to_id": "C44",
+        "missing_step": "Proof that the reduction in background knowledge teaching was the primary cause of the score decline, rather than changes in demographics or television/media consumption.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C41",
+        "to_id": "C38",
+        "missing_step": "Evidence that the 'shared background knowledge' itself, and not merely the credential of a high test score, is what leads to higher income.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C53",
+        "to_id": "6.C7",
+        "missing_step": "Documentation that no other major variables—such as teacher quality, total instructional hours, or exam difficulty—changed significantly in France during the 1987-2007 period.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C56",
+        "to_id": "9.C69",
+        "missing_step": "Evidence that the 'tens of thousands' of distributed materials were effectively implemented and resulted in measurable literacy gains compared to students who did not use them.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C3",
+        "objection": "The decline in American competence and devotion may be better explained by the rise of mass media, consumerism, and the erosion of local communities rather than classroom pedagogy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C1",
+        "objection": "Labeling constructivism as a 'religion' is a category error; even if its origins are philosophical, its modern application is tested through educational psychology and classroom data.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C4",
+        "objection": "Repudiating the 'romantic scheme' entirely risks returning to a rigid, authoritarian style of education that could stifle student engagement and critical inquiry.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C21",
+        "objection": "The 'unfolding' metaphor ignores 'cortical plasticity'; the human brain is not a seed with a pre-set plan but a flexible organ that requires specific external stimuli (instruction) to reach its potential.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C25",
+        "objection": "Without active instruction, children do not 'unfold' into literate citizens; they simply fail to acquire the complex cultural tools necessary for modern life, creating a state of 'unnatural' ignorance.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C32",
+        "objection": "A child's 'natural' instincts include a drive for social belonging and communication, which requires the very 'external interference' (curriculum) that developmentalism rejects.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C39",
+        "objection": "Reading tests measure 'fluid intelligence' or processing speed rather than just the 'crystallized intelligence' of background knowledge.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C49",
+        "objection": "Labeling a reading test an 'ethnicity test' is a category error that ignores the distinction between technical literacy and cultural identity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C45",
+        "objection": "Neurological and psychological research suggests substantial individual differences in how information is processed (e.g., visual vs. auditory), even if 'learning styles' as popularly defined are contested.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "6.C7",
+        "objection": "The decline in French reading scores between 1987 and 2007 aligns with the global rise of digital media, video games, and the internet, which likely decreased deep-reading time for all socioeconomic groups regardless of pedagogy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C55",
+        "objection": "What Hirsch characterizes as 'scientific errors' in education schools may be deliberate choices to prioritize democratic engagement, student agency, or social-emotional learning over the cognitive efficiency of knowledge acquisition.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Secularization of Romanticism",
+        "chain": [
+          "C58",
+          "C7",
+          "C5",
+          "C6",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Neurobiological Refutation",
+        "chain": [
+          "C11",
+          "C61",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Path to Reform",
+        "chain": [
+          "C1",
+          "C3",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Romantic Naturalism Logic",
+        "chain": [
+          "C20",
+          "C27",
+          "C21",
+          "C25",
+          "C19"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pedigree of Modern Pedagogy",
+        "chain": [
+          "C14",
+          "C16",
+          "C17",
+          "C18",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The Communicative Disambiguation Chain",
+        "chain": [
+          "C31",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Dependency Chain",
+        "chain": [
+          "C33",
+          "C40",
+          "C39",
+          "C43",
+          "C49"
+        ],
+        "conclusion_id": "C49",
+        "strength": "strong"
+      },
+      {
+        "name": "The French Natural Experiment",
+        "chain": [
+          "C46",
+          "C47",
+          "C52",
+          "C48"
+        ],
+        "conclusion_id": "C52",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functionalist Nation-State Argument",
+        "chain": [
+          "C34",
+          "C35",
+          "C37",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "strong"
+      },
+      {
+        "name": "The French Proof of Curricular Causality",
+        "chain": [
+          "C53",
+          "6.C4",
+          "6.C10",
+          "6.C7"
+        ],
+        "conclusion_id": "6.C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Science of Learning Chain",
+        "chain": [
+          "C57",
+          "7.C77",
+          "7.C81",
+          "1.C11"
+        ],
+        "conclusion_id": "1.C11",
+        "strength": "strong"
+      },
+      {
+        "name": "Institutional Failure of Education Schools",
+        "chain": [
+          "C55",
+          "2.C52",
+          "2.C27",
+          "2.C93"
+        ],
+        "conclusion_id": "2.C93",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0060835,
+    "duration_s": 79.4887866973877
+  }
+}

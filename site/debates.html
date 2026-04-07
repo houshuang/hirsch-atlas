@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Debates &mdash; Hirsch Argument Atlas</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* ── Evolution & Timeline ── */
+.evo-badge { display: inline-block; padding: 0.15em 0.5em; border-radius: 3px; color: #fff;
+  font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; }
+.timeline-dots { display: inline-flex; gap: 2px; align-items: center; }
+.book-dot { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px;
+  border-radius: 50%; font-family: var(--font-ui); font-size: 0.55rem; font-weight: 700;
+  color: #fff; transition: transform 0.15s; cursor: default; flex-shrink: 0; }
+.book-dot:hover { transform: scale(1.3); z-index: 1; }
+
+.evo-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1em 1.2em; margin-bottom: 0.8em; }
+.evo-card-header { display: flex; align-items: center; gap: 0.6em; flex-wrap: wrap; margin-bottom: 0.4em; }
+.evo-card-claim { font-family: var(--font-body); font-size: 0.92rem; line-height: 1.5; color: var(--text); }
+.evo-card-summary { font-family: var(--font-ui); font-size: 0.8rem; color: var(--text-secondary);
+  margin-top: 0.3em; font-style: italic; }
+.evo-card-members { margin-top: 0.5em; padding-left: 1em; border-left: 2px solid var(--border-light); }
+.evo-card-member { font-family: var(--font-ui); font-size: 0.78rem; color: var(--text-secondary);
+  padding: 0.15em 0; line-height: 1.4; }
+.evo-card-member .member-book { font-weight: 600; color: var(--text); min-width: 4em; display: inline-block; }
+.evo-card details summary { cursor: pointer; font-family: var(--font-ui); font-size: 0.78rem;
+  color: var(--text-tertiary); }
+
+/* ── Book timeline grid ── */
+.book-timeline { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.8em; margin: 1.5em 0; }
+.book-tile { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 0.8em; text-align: center; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
+.book-tile:hover { border-color: var(--accent); }
+.book-tile-year { font-family: var(--font-ui); font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+.book-tile-title { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-secondary);
+  margin-top: 0.2em; line-height: 1.3; }
+.book-tile-stats { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  margin-top: 0.4em; }
+
+/* ── Book page ── */
+.book-header { margin-bottom: 1.5em; }
+.book-header h1 { font-size: 1.6rem; }
+.book-header .book-year { font-family: var(--font-ui); font-size: 1.1rem; color: var(--accent); font-weight: 600; }
+.chapter-grid { display: grid; grid-template-columns: 1fr; gap: 0.6em; }
+
+/* ── Filter bar ── */
+.filter-bar { display: flex; gap: 0.4em; flex-wrap: wrap; margin: 1em 0; }
+.filter-btn { font-family: var(--font-ui); font-size: 0.75rem; padding: 0.3em 0.7em;
+  border: 1px solid var(--border); border-radius: 3px; background: var(--bg-surface);
+  color: var(--text-secondary); cursor: pointer; transition: all 0.15s; }
+.filter-btn:hover, .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ── Corpus stats bar ── */
+.corpus-stats { display: flex; flex-wrap: wrap; gap: 1.5em; margin: 1em 0; padding: 1em;
+  background: var(--bg-aside); border-radius: 6px; }
+.corpus-stat { text-align: center; }
+.corpus-stat-number { font-family: var(--font-ui); font-size: 1.6rem; font-weight: 700; color: var(--accent); display: block; }
+.corpus-stat-label { font-family: var(--font-ui); font-size: 0.7rem; color: var(--text-tertiary); }
+
+/* ── Entity cards (multi-book) ── */
+.entity-books { display: flex; gap: 3px; margin-top: 0.3em; flex-wrap: wrap; }
+.entity-book-tag { font-family: var(--font-ui); font-size: 0.62rem; padding: 0.1em 0.35em;
+  border-radius: 2px; background: var(--accent-light); color: var(--accent); font-weight: 600; }
+
+/* ── External research (blue/cool layer) ── */
+.ext-card { background: var(--bg-surface); border: 1px solid #c4d4e4; border-left: 3px solid #4a6080;
+  border-radius: 6px; padding: 0.8em 1em; margin-bottom: 0.6em; }
+.ext-card-text { font-size: 0.85rem; color: var(--text); line-height: 1.5; }
+.ext-card-meta { display: flex; gap: 0.5em; flex-wrap: wrap; margin-top: 0.3em; align-items: center; }
+.ext-badge { display: inline-block; padding: 0.1em 0.4em; border-radius: 2px;
+  font-family: var(--font-ui); font-size: 0.65rem; font-weight: 600; }
+.ext-badge-type { background: #eef2f7; color: #4a6080; }
+.ext-badge-strength { background: #e8f5e8; color: #2d6a2e; }
+.ext-badge-critique { background: #fdf0f0; color: #9a2e2e; }
+.ext-provenance { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  font-style: italic; padding: 0.5em 0; border-top: 1px solid var(--border-light); margin-top: 0.8em; }
+
+/* ── Entry paths (landing page) ── */
+.entry-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; margin: 1.5em 0; }
+@media (max-width: 40em) { .entry-paths { grid-template-columns: 1fr; } }
+.entry-path { display: block; padding: 1.5em; border-radius: 8px; text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s; }
+.entry-path:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.entry-path-hirsch { background: var(--accent-light); border: 2px solid var(--accent); color: var(--text); }
+.entry-path-context { background: #eef2f7; border: 2px solid #4a6080; color: var(--text); }
+.entry-path h2 { font-family: var(--font-ui); font-size: 1.1rem; margin-bottom: 0.3em; }
+.entry-path-hirsch h2 { color: var(--accent); }
+.entry-path-context h2 { color: #4a6080; }
+.entry-path p { font-size: 0.85rem; color: var(--text-secondary); margin: 0; }
+.entry-path .entry-stat { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-tertiary); margin-top: 0.5em; }
+
+/* ── Topic section ── */
+.topic-section { margin-bottom: 2em; }
+.topic-header { display: flex; align-items: baseline; gap: 0.8em; margin-bottom: 0.5em; }
+.topic-header h2 { font-size: 1.1rem; margin: 0; }
+.topic-split { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; }
+@media (max-width: 50em) { .topic-split { grid-template-columns: 1fr; } }
+.topic-col-label { font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5em; padding-bottom: 0.3em;
+  border-bottom: 2px solid; }
+.topic-col-hirsch .topic-col-label { color: var(--accent); border-color: var(--accent); }
+.topic-col-ext .topic-col-label { color: #4a6080; border-color: #4a6080; }
+
+/* ── Sidebar book list ── */
+.sidebar-book { font-size: 0.78rem; }
+.sidebar-book-year { font-weight: 600; min-width: 2.5em; display: inline-block; }
+</style>
+
+</head>
+<body>
+<header class="page-header">
+  <div class="header-inner">
+    <div class="site-title"><a href="index.html">Hirsch Argument Atlas</a></div>
+    <nav class="header-nav">
+      <a href="evolution.html">Evolution</a>
+      <a href="debates.html" style="color:var(--counter)">Debates</a>
+      <a href="thinkers.html">Thinkers</a>
+      <a href="concepts.html">Concepts</a>
+      <a href="cases.html">Cases</a>
+      <a href="context.html" style="color:#4a6080">Scholarly Context</a>
+    </nav>
+    <nav class="breadcrumb"><a href="index.html">Atlas</a><span class="sep">/</span>Debates</nav>
+  </div>
+</header>
+
+<div class="main-grid">
+<main class="content">
+
+  <h1 style="color:var(--counter)">Where Is Hirsch Most Vulnerable?</h1>
+  <p class="lead">The 40 most-contested claims in Hirsch's corpus, ranked by number of counter-arguments
+  and severity of logical gaps. These are the claims where the argument is thinnest.</p>
+
+  <div class="corpus-stats" style="margin:1em 0">
+    <div class="corpus-stat"><span class="corpus-stat-number">1585</span><span class="corpus-stat-label">Counter-Arguments</span></div>
+    <div class="corpus-stat"><span class="corpus-stat-number">199</span><span class="corpus-stat-label">Critical Gaps</span></div>
+    <div class="corpus-stat"><span class="corpus-stat-number">256</span><span class="corpus-stat-label">Empirical Challenges</span></div>
+    <div class="corpus-stat"><span class="corpus-stat-number">335</span><span class="corpus-stat-label">Value Disagreements</span></div>
+    <div class="corpus-stat"><span class="corpus-stat-number">535</span><span class="corpus-stat-label">Alt. Explanations</span></div>
+  </div>
+
+  <div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">PoC 1977</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#poc:chintroduction_C24" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The decline in literacy is partially caused by the lack of interest in written speech among prestigious linguistics and literary scholars.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The decline in literacy may be driven by broader sociological changes—such as the rise of visual media and shifts in secondary education funding—ra...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The absence of foundational linguistic research in pedagogy must be the primary or most significant driver of student li</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:chappendix-iii_C27" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Building knowledge is a critical foundation for student literacy and produces potentially lifelong academic benefits.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;outsized impacts&#x27; found in the study may be due to the &#x27;charter school effect&#x27;—where parents who enter lotteries are more engaged—rather than ...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The results from Colorado charter school lotteries can be generalized to traditional public schools with less motivated </div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:ch6_C81" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">States should prioritize the implementation of the second element of the Shanker Principle, which involves creating statewide assessment systems.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Statewide assessments based on a specific &#x27;tribal&#x27; background knowledge risk marginalizing the diverse home cultures of students in a multi-ethnic ...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">methodological concern</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">High-stakes statewide testing creates incentives for schools to prioritize test preparation over genuine intellectual inquiry, potentially undermin...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">HtEC 2020</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#how-to-educate-a-citizen:ch7_C68" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">American elementary schools must teach shared knowledge to solve the problem of national disunity.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">In a highly polarized multiethnic nation, attempting to mandate a single &#x27;value-laden&#x27; curriculum will trigger &#x27;culture wars&#x27; that further fragment...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A state-mandated curriculum in a multiethnic democracy will create unity rather than exacerbating social conflict over w</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:ch4_C51" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The ultimate goal and &#x27;end-product&#x27; of the knowledge-centered approach is college for all.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;college for all&#x27; goal may devalue vocational training and trade skills, which are equally essential for national unity and economic health.</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">While a shared curriculum reduces &#x27;differentiation&#x27; needs, it does not automatically resolve external socio-economic bar</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">HtEC 2020</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#how-to-educate-a-citizen:ch6_C31" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The adoption of American-style educational reforms in France caused a decline in verbal scores of 80 percent of a standard deviation within two decades.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The decline in French verbal scores may reflect broader cultural shifts in media consumption (rise of digital media) rather than classroom curricul...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The decline in scores was not caused by changes in the French student population (e.g., immigration patterns) but solely</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">HtEC 2020</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#how-to-educate-a-citizen:ch4_C101" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Supporters of equality should advocate for a shared-knowledge curriculum delivered through explicit instruction.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A &#x27;shared-knowledge curriculum&#x27; inevitably prioritizes the cultural capital of the dominant class, potentially alienating students from diverse cul...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Explicit, teacher-led instruction may suppress the development of independent critical thinking and creative problem-solving skills compared to dis...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">MoA 2010</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#the-making-of-americans:ch1_C16" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">A common core curriculum in early grades is essential for fostering patriotism and enabling effective participation in the public sphere.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A common core curriculum in a diverse, modern society might exacerbate &#x27;factions&#x27; by creating intense political conflict over whose history and who...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A bridge explaining why &#x27;common&#x27; schooling must necessarily involve &#x27;common core content&#x27; rather than just &#x27;common atten</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SK 2023</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#sk:chappendix_C15" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Teachers strongly support and enjoy teaching the Core Knowledge curriculum.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">High teacher satisfaction in these schools may be attributable to the high success rates and discipline of the students (the &#x27;Icahn effect&#x27;) rather...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">methodological concern</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The perceived enjoyment may be a form of &#x27;confirmation bias&#x27; or selection bias, where schools that adopt Core Knowledge attract teachers who alread...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">WKM 2016</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#wkm:chepilogue_C35" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Only a well-rounded, knowledge-specific curriculum can impart necessary knowledge to all children and overcome inequality of opportunity.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Inequality of opportunity is primarily driven by exterior material conditions (housing, healthcare, and economic stability); focusing exclusively o...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The success of a single school district can overcome the &#x27;intellectual monopoly&#x27; of child-centered doctrines and the ins</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:chappendix-ii_C101" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Difficulties in reading texts like Plato&#x27;s Parmenides arise because the reader lacks a &#x27;schema&#x27; for metaphysical speculation rather than because of linguistic complexity.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The difficulty of texts like the Parmenides is not just a lack of schema but a lack of familiarity with the specific dialectical methods and lingui...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Modern students might possess different but equally valid schemata (digital, multicultural, scientific) that allow them to navigate complex informa...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:ch2_C127" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The language gap between racial groups is a problem that can be resolved.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The persistence of the black-white gap may be driven by systemic socio-economic factors (housing, health, wealth inequality) that remain even if a ...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;language gap&#x27; is not merely a lack of vocabulary or facts, but is often a reflection of different cultural dialects and linguistic identities ...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:ch4_C62" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Social justice must be prioritized over the &#x27;aesthetics of diversity&#x27; and romantic &#x27;spilled religion.&#x27;</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;aesthetics of diversity&#x27; is not a distraction from social justice but a prerequisite for it, as marginalized students require representation t...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Establishing that &#x27;social justice&#x27; is exclusively defined by closing academic achievement gaps rather than including mul</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:ch2_C48" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The primary cause of American grade-school failure since the 1950s is the adoption of developmentalism in early grades.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Many critics argue that schools fail not because of &#x27;child-centered&#x27; theories, but because of chronic underfunding, high poverty rates among studen...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A bridge explaining why the founders&#x27; vision of schools as places for &#x27;altruism and loyalty&#x27; necessarily translates to b</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SWN 1996</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#swn:ch6_C122" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Abolishing standardized tests would lead to less equity in schools and lower student competence.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Abolishing standardized tests could increase equity if those tests currently serve as barriers to higher education for students who have limited ac...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The presence of a reliable external measure is a necessary condition for maintaining the instructional rigor required to</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SWN 1996</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#swn:ch2_C127" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Providing common intellectual capital in early grades is a necessary condition for producing excellence and fairness in education.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">If mobility is the primary driver of educational failure, it could be solved through better student record-keeping and diagnostic testing upon entr...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Establishing that the 1966-1980 decline was caused by a move away from &#x27;common intellectual capital&#x27; rather than other h</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">WKM 2016</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#wkm:chappendix-iii_C71" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The curriculum must specify exactly which biological organs (lungs, stomach, heart, etc.) and geological types (sandstone, mudstone, etc.) are to be treated as major content items.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">methodological concern</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The granular list of content items could lead to &#x27;teaching to the list&#x27; where students memorize vocabulary without understanding the broader concep...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">scope limitation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Prescribing specific content items (like sandstone or mudstone) at the national level may prevent teachers from utilizing local geological features...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">PoC 1977</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#poc:ch1_C1" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Standard English is the proper language for composition teaching.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Standard English is not a &#x27;transcendent&#x27; norm but a &#x27;class dialect&#x27; of the educated elite; teaching it exclusively reinforces existing social hiera...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Evidence that teaching a single standard actually reduces social anomie rather than creating new forms of social exclusi</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SWN 1996</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#swn:ch6_C143" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">A well-constructed standardized test of math or reading is inherently a performance test requiring information integration and idea generation.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">scope limitation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Standardized tests create a &#x27;ceiling effect&#x27; where students are only required to reach the level of the most difficult distractor, rather than push...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Establishing that high-stakes standardized tests have a positive &#x27;washback&#x27; effect on classroom pedagogy rather than mer</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">CL 1987</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#cl:ch5_C24" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The failure to teach traditional literate culture causes a disintegration of cultural memory and a decline in national communication.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The perceived &#x27;decline&#x27; in communication is a subjective reaction to a change in cultural media (from print to visual/digital) rather than a loss o...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Schools have the logistical and pedagogical capacity to actually replace the function of a literate home through curricu</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">KD 2006</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#kd:ch4_C61" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Schools have a responsibility to impart the specific knowledge required to understand serious national discourse and media.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The definition of &#x27;serious national discourse&#x27; is historically determined by dominant social classes; mandating this specific knowledge in schools ...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Proof that shifting the 90-minute reading block from &#x27;formal skills&#x27; to &#x27;world knowledge&#x27; will not result in a decline i</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SWN 1996</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#swn:ch6_C223" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">In a good, coherent school system, early and systematic compensation narrows the competence gap between social classes.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">empirical challenge</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Early compensation within schools cannot overcome the &#x27;Matthew Effect&#x27; where children from high-capital homes continue to gain knowledge at a faste...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Establishing that the &#x27;regular track&#x27; in a bimodal system can be elevated to the &#x27;elite track&#x27; level through curriculum </div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:chpreface_C53" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">State officials and legislatures have a duty to create specific curricular guides.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A state-mandated specific curriculum (Core Knowledge) violates the principle of local control and the professional autonomy of educators to adapt m...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Evidence that the &#x27;shared-ethnicity principle&#x27; works effectively across all student populations, not just those in self-</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:ch6_C13" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Mastery of the national grapholect is the only route to economic and social equality and fairness in every modern, multi-ethnic nation.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;national grapholect&#x27; is not a neutral tool but the language of the dominant power group; requiring its mastery for &#x27;fairness&#x27; is actually a fo...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Evidence that mastering the &#x27;grapholect&#x27; actually overrides systemic racial or class-based discrimination in the labor m</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">PoC 1977</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#poc:ch2_C6" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The primary direction of linguistic change is toward ever greater communicative functionality.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Language change is often cyclical or driven by social prestige rather than linear efficiency; features are often added (increasing complexity) to s...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">WKM 2016</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#wkm:ch8_C34" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Most problems of American schooling, specifically inequality of opportunity, can be solved by requiring content-coherent schooling from preschool through grade 5.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">scope limitation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Even a perfect K-5 curriculum cannot solve inequality if the quality of middle and high school instruction remains fragmented or if students face s...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Establishing that curricular intervention alone can override the external socio-economic factors that also influence lif</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SK 2023</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#sk:ch7_C31" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The use of defective readability formulas is a devious practice compelled by a commitment to student-centered learning.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">empirical challenge</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Individual formulas may disagree, but they provide a rough, objective &#x27;floor&#x27; for complexity that prevents students from being assigned materials t...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Readability formulas are not &#x27;devious&#x27; but represent a pragmatic compromise for a diverse, pluralistic nation where choosing &#x27;Common Core State Top...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:ch4_C48" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The progressive educational faith perpetuates test-score gaps among different racial and economic groups.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Test-score gaps may be more accurately attributed to &#x27;opportunity gaps&#x27;—funding, teacher quality, and housing stability—rather than the pedagogical...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A causal link showing that the lack of shared language in early grades is the *primary* driver of test-score gaps compar</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SWN 1996</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#swn:ch2_C116" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Common learning goals, curricula, and assessments alleviate the learning disabilities faced by poorly achieving children who move between districts.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">scope limitation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Uniform curricula across all districts would prevent schools from tailoring education to the specific linguistic or cultural needs of local migrant...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A national curriculum would function with the same efficacy in the decentralized, heterogeneous political structure of t</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:ch3_C31" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">High literacy is not a transferable abstract skill, but a specific body of shared knowledge.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">empirical challenge</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">While background knowledge aids comprehension, literacy also involves procedural skills (decoding, phonemic awareness, structural analysis) that ar...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The link showing that a &#x27;blank slate&#x27; neocortex requires &#x27;national ethnicity&#x27; specifically, rather than any coherent bod</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">2 counter-arguments · 0 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:ch1_C91" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Instituting a policy of curricular specificity requires abandoning the dominant educational mindset of developmentalism.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Abandoning developmentalism might lead to age-inappropriate instruction that ignores a child&#x27;s cognitive readiness for complex specific facts, rega...</div><div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">internal inconsistency</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The author presents a false dichotomy: one can adopt a &#x27;Core Knowledge&#x27; list of facts (specificity) while still utilizing &#x27;developmental&#x27; or &#x27;child...</div>
+  
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SK 2023</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#sk:ch9_C105" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Any U.S. state that adopts a grade-by-grade sequence and whole-class instruction would achieve excellence and fairness.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Curricular changes alone cannot achieve &#x27;excellence and fairness&#x27; without addressing external factors such as school funding disparities, student p...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A legislative mandate will be successfully translated into high-quality classroom instruction by the same teachers and a</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">RE 2024</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#re:ch2_C11" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The adoption of child-centered education has weakened the United States and worsened economic inequalities.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The increase in economic inequality is driven by globalization, automation, and tax policy rather than the shift from &#x27;common schools&#x27; to child-cen...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A leap from the anecdotal classroom frustrations of two teachers to a broad empirical conclusion about the weakening of </div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">MoA 2010</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#the-making-of-americans:ch6_C8" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Any state or district that follows specific principles of content-based instruction will raise its reading scores to a high international level.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;guarantee&#x27; of high international scores ignores variables like teacher quality, student motivation, and socio-economic stability that content ...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A curriculum can be designed that covers enough &#x27;background knowledge&#x27; to reliably intersect with the unpredictable topi</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">CL 1987</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#cl:ch2_C186" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Education should focus on providing primary associations that can be retrieved in milliseconds, as readers cannot afford to figure out word associations during active comprehension.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Prioritizing &#x27;millisecond retrieval&#x27; of associations encourages a fragmented, rote-based approach to learning that may undermine the development of...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The types of situational inferences made about &#x27;turtles on logs&#x27; are cognitively identical to the cultural associations </div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">AE 2022</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#ae:chappendix_C1" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The reigning child-centered education models, including constructivism and project-based learning, are based on a non-scientific &#x27;religion of nature&#x27; rather than scientific foundations.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">methodological concern</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Labeling constructivism as a &#x27;religion&#x27; is a category error; even if its origins are philosophical, its modern application is tested through educat...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;religious&#x27; nature of a theory necessarily leads to poor practical outcomes in a secular society regardless of teach</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SWN 1996</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#swn:ch1_C35" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">The pursuit of &#x27;conservative&#x27; educational policies (transmission of knowledge) is the only practical way to achieve liberal social justice aims.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A &#x27;transmission of knowledge&#x27; model may successfully provide facts but fail to develop the critical thinking and agency required for marginalized g...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A content-rich, &#x27;conservative&#x27; curriculum is the most effective way to provide the specific educational attainment that </div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">SK 2023</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#sk:ch10_C47" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">French reading scores fell significantly and unequally across socio-economic groups following the Loi Jospin reforms.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The decline in French reading scores could be attributed to changing demographics and increased immigration (changing the percentage of non-native ...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The implementation of the Jospin law was the only significant change in the French education system between 1987 and 200</div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">KD 2006</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#kd:ch1_C93" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Systematically providing children with wide-ranging, specific background knowledge is the only way to narrow the reading gap between groups.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">value disagreement</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">Focusing on a &#x27;specific&#x27; knowledge-based curriculum might inadvertently disadvantage students from non-dominant cultural backgrounds if the &#x27;specif...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">A curriculum that effectively builds specific knowledge can be implemented consistently across thousands of autonomous, </div>
+</div>
+<div class="evo-card" style="border-left:3px solid var(--counter)">
+  <div style="display:flex;gap:0.5em;align-items:center;flex-wrap:wrap;margin-bottom:0.3em">
+    <span class="entity-book-tag">CL 1987</span>
+    <span style="font-family:var(--font-ui);font-size:0.68rem;color:var(--text-tertiary)">1 counter-arguments · 1 critical gaps</span>
+  </div>
+  <div class="evo-card-claim"><a href="claim.html#cl:chpreface_C4" style="color:inherit;text-decoration:none;border-bottom:1px solid var(--border-light)">Cultural literacy is the only certain way for disadvantaged children to overcome social determinism and achieve opportunity.</a></div>
+  <div style="margin-top:0.4em"><span class="ext-badge ext-badge-critique">alternative explanation</span></div><div style="font-size:0.78rem;color:var(--text-secondary);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">The &#x27;social determinism&#x27; of poverty is rooted in material conditions and power imbalances that a shared vocabulary cannot bridge without structural...</div>
+  <div style="font-size:0.78rem;color:var(--counter);padding:0.15em 0 0.15em 0.8em;border-left:2px solid var(--counter-border)">That non-educational factors (economic policy, healthcare, systemic racism) are not the primary drivers of social determ</div>
+</div>
+
+
+</main>
+<aside class="sidebar">
+  <div class="sidebar-section">
+    <div class="sidebar-heading">Books</div>
+    <a class="sidebar-link" href="books/poc.html"><span class="sidebar-book-year">1977</span> PoC <span class="sidebar-count">1157</span></a><a class="sidebar-link" href="books/cl.html"><span class="sidebar-book-year">1987</span> CL <span class="sidebar-count">892</span></a><a class="sidebar-link" href="books/swn.html"><span class="sidebar-book-year">1996</span> SWN <span class="sidebar-count">1796</span></a><a class="sidebar-link" href="books/kd.html"><span class="sidebar-book-year">2006</span> KD <span class="sidebar-count">791</span></a><a class="sidebar-link" href="books/the-making-of-americans.html"><span class="sidebar-book-year">2010</span> MoA <span class="sidebar-count">847</span></a><a class="sidebar-link" href="books/wkm.html"><span class="sidebar-book-year">2016</span> WKM <span class="sidebar-count">1278</span></a><a class="sidebar-link" href="books/how-to-educate-a-citizen.html"><span class="sidebar-book-year">2020</span> HtEC <span class="sidebar-count">868</span></a><a class="sidebar-link" href="books/ae.html"><span class="sidebar-book-year">2022</span> AE <span class="sidebar-count">1015</span></a><a class="sidebar-link" href="books/sk.html"><span class="sidebar-book-year">2023</span> SK <span class="sidebar-count">781</span></a><a class="sidebar-link" href="books/re.html"><span class="sidebar-book-year">2024</span> RE <span class="sidebar-count">887</span></a>
+  </div>
+  <div class="sidebar-section">
+    <div class="sidebar-heading">Explore</div>
+    <a class="sidebar-link" href="evolution.html">Argument Evolution <span class="sidebar-count">656</span></a>
+    <a class="sidebar-link" href="thinkers.html">Thinkers <span class="sidebar-count">521</span></a>
+    <a class="sidebar-link" href="concepts.html">Concepts <span class="sidebar-count">1412</span></a>
+    <a class="sidebar-link" href="cases.html">Cases <span class="sidebar-count">537</span></a>
+  </div>
+</aside>
+</div>
+
+<footer class="page-footer">
+  Hirsch Argument Atlas &mdash; 10 books (1977&ndash;2024), 10,312 claims extracted and analyzed
+  &middot; Built with care, not with frameworks
+</footer>
+</body>
+</html>

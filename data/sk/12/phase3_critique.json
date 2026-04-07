@@ -1,0 +1,115 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the persistence of the 'readability' model is due to institutional and economic inertia, as disproving it would render tens of thousands of school libraries curriculum-obsolete.",
+        "source_passage": "To disconfirm readability would call into question tens of thousands of classroom libraries. (These would still be available under a shared knowledge approach —but they would no longer be part of a curriculum.)",
+        "importance": "significant",
+        "suggested_claim": "The educational establishment resists rejecting the 'readability' model because it would invalidate the current structural and economic organization of classroom libraries.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author identifies a specific cognitive strategy used by expert readers: 'marching forward' with only a general gist to maintain speed, knowing details can be unpacked if needed.",
+        "source_passage": "No, you march forward with partial understanding because you confidently know that you have the right gist and that details can be further unpacked when detail is needed.",
+        "importance": "significant",
+        "suggested_claim": "Expert reading efficiency relies on maintaining a high-level 'gist' in working memory while deferring the full unpacking of schema details until necessary.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author links the cognitive necessity of shared knowledge to the political stability of a 'modern nationality.'",
+        "source_passage": "On this basic fact of shared knowledge hang all the law and the prophets of educational doctrine relative to reading and modern nationality and communal life.",
+        "importance": "significant",
+        "suggested_claim": "Shared background knowledge is not merely a cognitive requirement for literacy but a foundational requirement for the functional existence of a modern nation and communal life.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C1",
+        "problem": "The word 'replaced' overstates the text's description of how the Common Core standards were issued.",
+        "source_passage": "When the Common Core State Standards were issued in 2010, its reading standards did not rely on the term 'readability.' Instead, the term 'complexity' was used.",
+        "suggested_fix": "The 2010 Common Core State Standards avoided the term 'readability' in favor of 'complexity' when establishing its reading standards."
+      },
+      {
+        "claim_id": "C11",
+        "problem": "The claim adds 'in the world' which is not explicitly stated in the text, and historical rankings from 1934 are cited as fact without noting they are likely a specific estimate by the author.",
+        "source_passage": "American children moved from number one in reading (in 1934) to twenty-fifth in 2023.",
+        "suggested_fix": "According to the author's cited metrics, American children's reading performance rank fell from first in 1934 to twenty-fifth in 2023."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E9",
+        "claim_id": "C6",
+        "missing_warrant": "If 'poor' readers with high topic knowledge consistently outperform 'good' readers without it, the 'poor reader' designation must be a measure of knowledge deficit rather than a deficit in general cognitive processing or decoding skill."
+      },
+      {
+        "evidence_id": "E3",
+        "claim_id": "C46",
+        "missing_warrant": "Any measurement tool (like readability formulas) that produces a false ease-of-reading score for complex rhetorical devices like irony is logically incapable of measuring true text complexity."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C31",
+        "counter_argument": "The 'Matthew Effect' suggests that early mastery of 'general' decoding and syntactic recognition skills allows students to read more and acquire knowledge faster, creating the appearance of a knowledge-based advantage that is actually rooted in general skill mastery.",
+        "why_important": "It challenges the author's core premise that 'general' skills do not exist by suggesting a feedback loop where general skills generate domain knowledge."
+      },
+      {
+        "targets_claim": "C28",
+        "counter_argument": "A 'definite shared-topic curriculum' risks cultural hegemony by prioritizing one speech community's schemas over those of marginalized groups, potentially worsening the achievement gap for students whose home knowledge is excluded.",
+        "why_important": "The author presents the shared curriculum as a neutral cognitive solution, but it has significant sociological and equity-based implications."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C21",
+          "C31"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that a 'general' skill of reading or verbal comprehension cannot exist because of the dependency on specific topic knowledge and memory limits."
+      },
+      {
+        "claim_ids": [
+          "C33",
+          "C43"
+        ],
+        "action": "merge",
+        "explanation": "These claims are identical, defining literacy as the acquisition of shared schemas within a speech community."
+      },
+      {
+        "claim_ids": [
+          "C8",
+          "C40"
+        ],
+        "action": "merge",
+        "explanation": "Both identify the 'inherent ambiguity' and 'uncertain implicature' of language as the reason background knowledge is required."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C44",
+        "current_level": "normative",
+        "correct_level": "theoretical",
+        "explanation": "The claim that shared knowledge is the 'lifeblood' of modern life is presented as a sociological/theoretical description of how societies function, rather than a moral 'ought' statement."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is highly detailed and captures the core cognitive science arguments (WM/LTM interaction). However, it misses the author's pragmatic point about institutional resistance (classroom libraries) and the specific strategic claim about expert readers using 'partial understanding' as a efficiency tool. It also conflates several identical theoretical points about the non-existence of general skills."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0014613000000000002,
+    "input_tokens": 8537,
+    "output_tokens": 1519,
+    "duration_s": 39.246756076812744,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

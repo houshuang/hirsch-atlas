@@ -1,0 +1,99 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author makes a specific argument regarding the 'paradox' of thematic repetition. It isn't just that repetition helps integration; it's that the constraint of needing to repeat a thematic tag actually forces the writer into more varied and interesting sentence structures.",
+        "source_passage": "Repetition indirectly combats monotony. For, paradoxically, the use of integrative repetitions in nearby phrases will force variations on the writer by compelling him to rearrange his word sequences.",
+        "importance": "significant",
+        "suggested_claim": "The requirement for adjacent thematic repetition serves as a stylistic generative engine that prevents monotony by forcing syntactic rearrangement.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author provides a specific rationale for why written discourse requires more 'design' than oral speech: the text must serve as its own context because the physical situation and intonation are missing.",
+        "source_passage": "In written discourse, you have to choose a design and stick to it, because the discourse itself is the chief context of the utterance.",
+        "importance": "critical",
+        "suggested_claim": "Writing requires a more rigid adherence to design than speech because written text must function as a self-contained context without the aid of situational or paralinguistic cues.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that while textbooks aren't essential, they serve a specific psychological function for the course's status within the university.",
+        "source_passage": "it is probably a sound psychological principle to give composition intellectual respectability through the use of a good if slender manual. It serves to give the course an apparent center and an apparent authority which it might otherwise lack.",
+        "importance": "minor",
+        "suggested_claim": "The use of a formal manual provides a composition course with an institutional center and intellectual authority that compensates for the lack of traditional subject-matter content.",
+        "suggested_claim_level": "pragmatic"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C160",
+        "problem": "The claim overstates the author's point by saying the role is 'accidentally' a teacher of correctness, implying it's not part of the job. The author means that correctness is a prerequisite for readability, not that it is irrelevant.",
+        "source_passage": "The teacher of composition is only accidentally a teacher of correctness in grammar and usage. ... Yet readability does depend on the normalization of spelling, grammar, punctuation, and word usage.",
+        "suggested_fix": "The composition teacher focuses on correctness in grammar and usage primarily as a prerequisite for achieving readability, rather than as an end in itself."
+      },
+      {
+        "claim_id": "C161",
+        "problem": "The extraction makes the 'double burden' sound universal. Hirsch specifies it is a burden when the teacher must teach both writing craft AND a new dialect (grapholect).",
+        "source_passage": "When this job is compounded by the additional need to teach the conventions of a new dialect, it is an immensely difficult undertaking.",
+        "suggested_fix": "The teaching of literacy becomes a 'double burden' specifically when students must learn the conventions of the standard grapholect simultaneously with the craft of readable composition."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "missing_warrant": "Subject-matter knowledge (propositional) and craft proficiency (procedural) are governed by different cognitive systems; therefore, expertise in one does not necessitate mastery of the other."
+      },
+      {
+        "evidence_id": "E16",
+        "claim_id": "C57",
+        "missing_warrant": "Cognitive efficiency is maximized when the linguistic structure follows a linear path of comprehension that requires the fewest transformations in working memory."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C114",
+        "counter_argument": "Written comments are a 'one-way' communicative channel that lacks the recursive, dialogic nature of oral conferences, potentially leading to student misinterpretation of teacher intent.",
+        "why_important": "It challenges the author's primary pedagogical recommendation (commentary) by suggesting that a more interactive 'Socratic' method might better correct cognitive schemata."
+      },
+      {
+        "targets_claim": "C139",
+        "counter_argument": "A primary focus on revision may inhibit the 'generative' phase of writing, where the lack of 'editorial' pressure allows for the discovery of new ideas and complex thought.",
+        "why_important": "Hirsch views writing almost entirely as the efficient communication of pre-formed intent (craft), ignoring the 'writing-to-learn' tradition."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C117",
+          "C118"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that learning occurs by building on existing knowledge or schemata; having both is redundant."
+      },
+      {
+        "claim_ids": [
+          "C24",
+          "C25"
+        ],
+        "action": "split",
+        "explanation": "Claim 24 is an ontological claim about the nature of writing as a type of knowledge; Claim 25 is a pedagogical claim about how that knowledge should be transmitted. They are currently slightly conflated."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally thorough, capturing even the minor empirical citations. However, it occasionally misses the 'logic of the paradox' (e.g., how repetition forces variety) and conflates ontological claims with pedagogical ones. The warrants for the psychological evidence could be more explicit in linking cognitive constraints to stylistic choices."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.004966,
+    "input_tokens": 44068,
+    "output_tokens": 1398,
+    "duration_s": 20.830172061920166,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

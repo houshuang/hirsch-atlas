@@ -1,0 +1,101 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that there is a perspectival bias in how achievement gaps are analyzed: social scientists look for social causes, while reformers look for school effects, explaining why school effects are under-studied.",
+        "source_passage": "As a social policy, busing and reintegration make sense so long as the schools attended by advantaged children continue to be far superior to those attended by disadvantaged children. What has not been successful is the policy of trying to make all neighborhood schools far better... A social scientist looks for social causes. A school reformer like me looks for school effects.",
+        "importance": "significant",
+        "suggested_claim": "The dominance of sociological analysis in education research has led to a neglect of school-based curricular causes for the achievement gap.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author makes a specific mathematical argument for why a common curriculum narrows gaps: in a lesson, advantaged students already know some words, so they have fewer 'new' words to learn compared to disadvantaged students, leading to a faster rate of gain for the latter.",
+        "source_passage": "A broad curriculum that is effectively taught to all students inherently narrows vocabulary gaps, because the students who knew fewer words to start with are now learning more words per lesson than their advantaged peers who already knew some of the words in the lesson.",
+        "importance": "critical",
+        "suggested_claim": "Curricular commonality creates a 'catch-up' mechanism because disadvantaged students encounter a higher density of novel information in each lesson relative to their advantaged peers.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C20",
+        "problem": "The claim as written presents segregated schools as empirically superior, but Hirsch presents this as an anecdotal 'hint' or report from colleagues, not a settled historical fact.",
+        "source_passage": "I am told by African American colleagues that many of the segregated schools in the South were good schools with demanding teachers and knowledge-based curriculums—often superior to the integrated schools that followed.",
+        "suggested_fix": "Anecdotal reports from educators suggest that some pre-integration segregated schools may have provided superior knowledge-based instruction compared to the integrated schools that replaced them."
+      },
+      {
+        "claim_id": "C1",
+        "problem": "The extraction emphasizes the student's brilliance/resourcefulness over the school, whereas Hirsch emphasizes that even the most brilliant require the school's help.",
+        "source_passage": "With the help of good schools, exceptionally brilliant and resourceful students can almost completely overcome the disadvantages of poverty...",
+        "suggested_fix": "Even exceptionally brilliant students require the intervention of high-quality schools to overcome the structural disadvantages of poverty."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E13",
+        "claim_id": "C37",
+        "missing_warrant": "If schooling were the primary equalizer it is intended to be, achievement gaps should decrease as exposure to the school system increases; therefore, a widening gap during school years indicates a systemic failure of the institution."
+      },
+      {
+        "evidence_id": "E17",
+        "claim_id": "C48",
+        "missing_warrant": "Dictionary definitions provide denotation but lack the nuance of usage; because language mastery depends on nuance, decontextualized study is inherently deficient for deep literacy."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C35",
+        "counter_argument": "The 'Matthew Effect' (Stanovich) suggests that students with larger initial vocabularies acquire new words faster because they have more existing 'hooks' for new information, which would predict a widening gap even in 'good' schools.",
+        "why_important": "It directly challenges Hirsch's 'Coleman Differential Effect' by suggesting that cognitive advantages are compounding, not just additive."
+      },
+      {
+        "targets_claim": "C46",
+        "counter_argument": "Direct instruction is necessary for 'Tier 2' words that are frequent in academic texts but rare in the 'natural' domains or independent reading accessible to struggling readers.",
+        "why_important": "Hirsch argues against Tier 2 focus, but critics argue that waiting for implicit learning of academic language in disadvantaged students is too slow for grade-level performance."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C17",
+          "C21"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that parents prefer nearby schools if they are good/high-performing; they are identical in substance."
+      },
+      {
+        "claim_ids": [
+          "C27",
+          "C51",
+          "C54"
+        ],
+        "action": "merge",
+        "explanation": "These claims all argue that 'new education' / 'child-friendly individualism' is the cause of the halt in narrowing gaps. They should be unified into a single theoretical claim with its empirical implications."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C80",
+        "current_level": "meta",
+        "correct_level": "normative",
+        "explanation": "While it reflects on the nature of the argument, the claim that equity 'depends on' these principles is a normative statement about how social justice should be pursued and where its foundations lie."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction is exceptionally thorough in capturing individual claims (to the point of redundancy), but it misses the specific 'mathematical' logic Hirsch uses to explain catch-up (the density of new vs known words in a lesson). It also captures counter-arguments that Hirsch himself addresses, but fails to identify external critiques like the Matthew Effect that would challenge his core 'Differential Effect' thesis."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0019809000000000003,
+    "input_tokens": 14089,
+    "output_tokens": 1430,
+    "duration_s": 18.401047945022583,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

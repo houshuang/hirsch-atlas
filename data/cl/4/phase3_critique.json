@@ -1,0 +1,106 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "Hirsch makes a critical meta-theoretical argument against 'formalism' in educational policy, asserting that the search for purely technical or neutral curricular solutions is a deliberate form of avoidance.",
+        "source_passage": "The illusory hope for such a formal solution has only encouraged evasion and fragmentation. To deal effectively with the school curriculum, we must consider more than technical goals: we must also consider specific contents.",
+        "importance": "critical",
+        "suggested_claim": "The pursuit of formal, content-neutral educational frameworks is a rhetorical strategy used to evade the necessary political work of defining shared national knowledge.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "Hirsch argues that the efficacy of political change (specifically the Civil Rights movement) was contingent upon a high level of shared cultural literacy among the general public.",
+        "source_passage": "I have placed in italics King's quotations from and allusions to documents that belong to the cultural literacy of every American. ... [King's speech] self-consciously draws on earlier texts of the American bible to make its new contribution.",
+        "importance": "significant",
+        "suggested_claim": "The success of transformative social movements in the US depends on their ability to re-appropriate a common cultural vocabulary that the audience already possesses.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author presents a functionalist logic for 'stabilizing' the ends of the cultural spectrum (Civil Religion and Vocabulary) to facilitate conflict in the center.",
+        "source_passage": "There is no point in arguing about either our civil religion or our vocabulary. They are our national givens, our starting points. ... Only through a capacious and widely shared vocabulary can our democracy deal effectively with the contentious issues of the middle domain.",
+        "importance": "significant",
+        "suggested_claim": "The removal of the national vocabulary and civil religion from the sphere of public debate is a prerequisite for the healthy conduct of political conflict in the 'middle domain' of culture.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C24",
+        "problem": "The claim omits the specific psychological/rhetorical irony Hirsch identifies regarding the timing of pluralism discourse.",
+        "source_passage": "When we had more of it [pluralism], we talked about it less.",
+        "suggested_fix": "Discourse about cultural pluralism increases in inverse proportion to its actual existence in social reality; it becomes a 'self-conscious' topic only when national homogeneity is actually winning."
+      },
+      {
+        "claim_id": "C79",
+        "problem": "The extraction suggests Hirsch views the correlation between wealth and language as a flaw of the system, whereas he frames it as a failure of schooling to fulfill its mission.",
+        "source_passage": "But the distinction is one of schooling, which we have made universal, not of economic or social class. Ideological phrase dropping about the connections between cultural literacy and social class should therefore leave us unimpressed.",
+        "suggested_fix": "The uneven mastery of the national vocabulary is a failure of educational delivery rather than an inherent feature of social or economic class structure."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E6",
+        "claim_id": "C22",
+        "missing_warrant": "Assumes that physical dispersion and economic-based housing choices are valid proxies for the erosion of ethnic cultural identity."
+      },
+      {
+        "evidence_id": "E26",
+        "claim_id": "C121",
+        "missing_warrant": "Assumes that if multiple systems (French, Chinese, American) function equally well, their internal contents are arbitrary and interchangeable for the purposes of national stability."
+      },
+      {
+        "evidence_id": "E22",
+        "claim_id": "C75",
+        "missing_warrant": "Assumes that the linguistic flow from marketplace to court in the 16th century persists in the modern era, where mass media might reverse the flow of linguistic influence from elite to public."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C50",
+        "counter_argument": "Linguistic relativity (the Sapir-Whorf hypothesis) suggests that a 'vocabulary' cannot be value-neutral because the very concepts and categories it provides shape and limit the ideological possibilities of its users.",
+        "why_important": "It challenges the core of Hirsch's tripartite model, which rests on the possibility of a 'neutral instrument' for communication."
+      },
+      {
+        "targets_claim": "C107",
+        "counter_argument": "The 'Ciceronian' ideal of universal public discourse was historically predicated on a narrow, exclusionary definition of 'citizen' that excludes the very pluralistic voices Hirsch claims to protect.",
+        "why_important": "It suggests the model Hirsch is promoting is structurally incompatible with modern inclusive democracy."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C114",
+          "C116",
+          "C29"
+        ],
+        "action": "merge",
+        "explanation": "These claims all describe the same functional mechanism of the American civil ethos—the integration of disparate groups through shared rituals and 'vague' religious sentiments."
+      },
+      {
+        "claim_ids": [
+          "C73",
+          "C74",
+          "C76"
+        ],
+        "action": "merge",
+        "explanation": "These are redundant iterations of the single historical point about the 'marketplace origins' of standard English."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is impressively thorough in documenting the 'what' (the inventory of claims) but slightly misses the 'how' (the specific logical moves Hirsch uses to dismiss his opponents). It correctly identifies the tripartite model of culture but fails to emphasize Hirsch's meta-argument that content-neutrality in education is an 'illusory' form of professional evasion. The mapping of historical evidence to claims is strong, but some warrants assume too much functionalist intent on the part of the authors Hirsch cites."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0033333,
+    "input_tokens": 27409,
+    "output_tokens": 1481,
+    "duration_s": 16.35978865623474,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

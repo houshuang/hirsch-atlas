@@ -1,0 +1,782 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "If the print code were identical to the home language, it would not need to be learned as a distinct prerequisite for literacy."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "Because the standard language is an artificial construct rather than a natural dialect, it must be explicitly taught and learned."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "The resistance of institutionalized language to change explains why inefficient written forms are preserved despite oral simplification."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "Establishing that the print code is a prerequisite (C1) leads to the normative claim that students must master its standard forms for proficiency (C15)."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The permanence of these forms due to global media makes learning them a practical necessity for the child's future."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C15",
+        "relationship": "instantiates",
+        "explanation": "Early grammar instruction is presented as the specific method to achieve the mastery of standard forms required in C15."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If Standard English is the exclusive language of professional and civic life, then lacking mastery of it necessarily limits economic and social opportunity."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C22",
+        "relationship": "depends-on",
+        "explanation": "The justification for teaching grammatical terms (C21) is that they are necessary tools for achieving the equity described in C22."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The concern over psychological damage (C25) is the primary reason why dialect controversies have inhibited schools from teaching formal grammar."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "C31 relies on the definition in C32 that the core difference between codes is the relationship between the speaker and the listener (stranger vs. intimate)."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "If reading is effectively communication with strangers, then the code used for strangers (formal speech) is inherently necessary for reading."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "Because the restricted code relies on unspoken context, it is insufficient for reading; therefore, instruction in the elaborated code is as vital as decoding."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C39",
+        "relationship": "instantiates",
+        "explanation": "Oral performance in the classroom is the specific practice that produces the gains in proficiency mentioned in C39."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "If vocabulary acquisition is a slow, incremental process, then starting early and intensively is required to reach proficiency levels within the school timeframe."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "The fact that early vocabulary predicts late academic performance establishes the critical window for intensive intervention."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C49",
+        "relationship": "depends-on",
+        "explanation": "Word learning efficiency depends on the ability to form a mental situation model to infer meaning."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C52",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic recommendation for topic consistency is based on the empirical finding that word learning is most efficient in familiar contexts."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C54",
+        "relationship": "depends-on",
+        "explanation": "The failure to learn when word knowledge is below 70% is the mechanical cause of the Matthew effect."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C54",
+        "relationship": "depends-on",
+        "explanation": "Successful inference at the 90% threshold enables the self-reinforcing growth described by the Matthew effect."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "The individual-level Matthew effect is the mechanism that generates the group-level achievement gap over time."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "If explicit study only covers 400 words while children learn thousands, the majority must come from indirect sources."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C66",
+        "relationship": "depends-on",
+        "explanation": "The claim that word learning is slow and gradual depends on the theory that word meanings are systems of probabilities that require multiple contexts to refine."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C74",
+        "relationship": "supports",
+        "explanation": "Learning small aspects of hundreds of words simultaneously (a broad front) supports the idea that the most efficient method is automatic and implicit."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C76",
+        "relationship": "supports",
+        "explanation": "The failure of implicit methods for the alphabet code contrasts with its success for word meanings, suggesting a fundamental psychological difference."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C76",
+        "relationship": "supports",
+        "explanation": "The ease of implicit word-meaning acquisition, even for those struggling with the code, distinguishes the two processes."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C79",
+        "relationship": "supports",
+        "explanation": "The psychological difference between the two tasks is explained by the existence of an innate faculty for one and not the other."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "The fact that most learning is indirect drives the scientific shift toward favoring implicit methods."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C82",
+        "relationship": "depends-on",
+        "explanation": "If word meanings cannot be taught outside of context, then focusing on subject matter (the context) becomes the necessary vehicle for learning."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "The efficiency of implicit learning justifies the pragmatic shift toward subject-matter focus over explicit word lists."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C83",
+        "relationship": "supports",
+        "explanation": "The logic of aggregate gains across many words provides the mathematical basis for why implicit learning is more efficient."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C94",
+        "relationship": "depends-on",
+        "explanation": "The possibility of a student catching up depends on the theoretical claim that their rate of acquisition can exceed that of advantaged peers under specific conditions (90% threshold)."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C94",
+        "relationship": "supports",
+        "explanation": "Since rare words are found in print, a school system focused on print-heavy curriculum can systematically provide the vocabulary needed to close the gap."
+      },
+      {
+        "from_id": "C87",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "If extended explicit study is inefficient, then schools must pivot to the alternative—subject matter immersion."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "The existence of an ongoing debate between implicit and explicit instruction necessitates that schools make a deliberate, informed decision on how to balance the two."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "Evidence from computer modeling that supports implicit acquisition helps inform the position schools must take regarding time allocation."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C105",
+        "relationship": "depends-on",
+        "explanation": "The recommendation for brief, explicit explanations (C105) is predicated on the theoretical understanding that words are inherently contextualized (C103); the explanation serves to 'unlock' the context."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C104",
+        "relationship": "instantiates",
+        "explanation": "The fact that Standard English has a specific, codified history (Johnson's 1755 Dictionary) provides the target for the vocabulary instruction schools must organize."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "If historical or international students must learn a 'school speech' distinct from their dialect to achieve literacy, then US students are subject to the same linguistic requirement, even if the difference is less obvious.",
+        "is_explicit": true,
+        "vulnerability": "The degree of difference between Westphalian dialects and Schriftdeutsch is significantly larger than the difference between most American dialects and Standard English, potentially making the analogy a category error."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C11",
+        "warrant_text": "Linguistic trends observed across multiple languages over long durations constitute a 'universal' law of human communication.",
+        "is_explicit": true,
+        "vulnerability": "Historical trends towards simplification do not preclude the emergence of new complexities or the stability of specific subsystems due to external factors like technology."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C17",
+        "warrant_text": "The sheer volume of existing text and global broadcasting creates a 'network effect' that makes structural changes to a language's standard form too costly or difficult to implement.",
+        "is_explicit": false,
+        "vulnerability": "Digital communication often accelerates linguistic drift and can normalize 'non-standard' forms more quickly than traditional print media."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E3",
+        "claim_id": "C9",
+        "warrant_text": "If a language no longer relies on word-form changes (inflections) to convey meaning in the majority of its nouns, then the remaining inflections in pronouns are functionally redundant vestiges.",
+        "is_explicit": true,
+        "vulnerability": "Redundancy in language often serves to reduce ambiguity in noisy communication environments, meaning these forms might not be truly 'unnecessary'."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C34",
+        "claim_id": "C37",
+        "warrant_text": "Differences in home language exposure create an educational gap that schools must bridge through explicit instruction in formal language codes.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that school-based instruction can successfully replicate or replace the years of immersion children from educated homes receive."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C36",
+        "claim_id": "C31",
+        "warrant_text": "Reading a text is structurally identical to listening to an 'elaborated code' speech because the author and reader do not share an immediate physical context.",
+        "is_explicit": false,
+        "vulnerability": "Reading involves unique cognitive demands (like eye-tracking and orthographic processing) that may not be fully addressed by oral mastery of the elaborated code."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C21",
+        "claim_id": "C22",
+        "warrant_text": "Explicit meta-linguistic knowledge (knowing the names of parts of speech) is the most efficient way to achieve functional mastery of a language dialect.",
+        "is_explicit": true,
+        "vulnerability": "Linguistic research often suggests that people acquire dialects through immersion and usage rather than through learning formal rules and nomenclature."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C51",
+        "claim_id": "C52",
+        "warrant_text": "Educational efficiency is maximized by aligning instructional design with the cognitive conditions under which learning is fastest (e.g., 4x faster in familiar contexts).",
+        "is_explicit": false,
+        "vulnerability": "Instructional efficiency might be offset by student boredom or a lack of exposure to diverse domains if topics are held constant for too long."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C46",
+        "claim_id": "C45",
+        "warrant_text": "A high biological capacity for word learning (15 words/day) justifies intensive instructional focus, as the ceiling for growth is high enough to warrant the effort.",
+        "is_explicit": false,
+        "vulnerability": "The biological capacity to learn words might not translate to the school's ability to teach them in a formal setting."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C53",
+        "claim_id": "C57",
+        "warrant_text": "Small initial differences in knowledge are amplified by the logic of comprehension: since comprehension is required for new learning, the 'rich get richer.'",
+        "is_explicit": true,
+        "vulnerability": "Assumes that disadvantaged students are primarily exposed to texts above their 70% comprehension threshold rather than texts matched to their level."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C62",
+        "claim_id": "C63",
+        "warrant_text": "If the total volume of words acquired (thousands) vastly exceeds the maximum capacity of a specific method (explicit instruction), then the remainder must be accounted for by alternative methods (implicit learning).",
+        "is_explicit": true,
+        "vulnerability": "The limit of 400 words for explicit instruction might be a result of poor current pedagogy rather than an inherent limit of the human brain."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C70",
+        "claim_id": "C66",
+        "warrant_text": "If a word's meaning is a complex system of probabilities rather than a static definition, it cannot be fully acquired in a single instance; it requires accumulating data points across diverse contexts.",
+        "is_explicit": false,
+        "vulnerability": "Vivid or highly emotional single exposures can sometimes create a lasting and accurate word-meaning map (one-trial learning)."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C77",
+        "claim_id": "C76",
+        "warrant_text": "If two cognitive tasks (decoding and word-learning) require diametrically opposed instructional methods (explicit vs. implicit) for success, they must rely on different underlying cognitive architectures.",
+        "is_explicit": true,
+        "vulnerability": "The difference in success might be due to the total time of exposure (years of hearing talk vs. months of phonics) rather than a fundamental psychological difference."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C88",
+        "claim_id": "C83",
+        "warrant_text": "If the total number of words learned annually (2k-5k) vastly exceeds the capacity of explicit instruction (400), the majority of learning must occur through implicit processes.",
+        "is_explicit": true,
+        "vulnerability": "The '400 words' limit for explicit instruction may be an underestimate if combined with homework or digital tools."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C92",
+        "claim_id": "C82",
+        "warrant_text": "Because written texts provide the rare vocabulary that oral speech lacks, subject-matter study using written texts is the primary engine for advanced vocabulary growth.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that students have the decoding skills and prior knowledge necessary to access those written texts implicitly."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C81",
+        "claim_id": "C84",
+        "warrant_text": "If meanings are context-dependent and probabilistic, multiple shallow exposures are more representative of how a word is actually used than a single deep definition.",
+        "is_explicit": true,
+        "vulnerability": "Shallow exposures may never reach the threshold of 'utility' where the student can actually use the word in their own speech or writing."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C102",
+        "claim_id": "C104",
+        "warrant_text": "Computational models of statistical probability are valid proxies for human cognitive processes in language acquisition.",
+        "is_explicit": false,
+        "vulnerability": "Biological brains may require different stimuli (like social interaction or affective engagement) than computer models, making the 'efficiency' of machine learning non-transferable to human classrooms."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C103",
+        "claim_id": "C105",
+        "warrant_text": "Effective vocabulary acquisition requires an 'anchor' of understanding; if a student lacks the key word for a context, the implicit learning mechanism for other words in that context cannot function.",
+        "is_explicit": true,
+        "vulnerability": "Providing explicit definitions during a read-aloud might break the 'flow' of narrative engagement, potentially reducing the overall quality of the experience and implicit learning."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C15",
+        "missing_step": "The benefit of learning inefficient, 'vestigial' linguistic forms outweighs the cognitive load and instructional time required to master them.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C20",
+        "missing_step": "Knowing the *names* of parts of speech (metalinguistic knowledge) is the most effective way to gain *operational* proficiency in the print code.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C21",
+        "to_id": "C22",
+        "missing_step": "Evidence that learning the names of parts of speech (like 'preposition') correlates with better economic outcomes for disadvantaged students.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C29",
+        "to_id": "C23",
+        "missing_step": "A bridge explaining how teachers can be 'respectfully sensitive' to dialects while simultaneously re-prioritizing the 'formal modes' they previously deemphasized due to that same sensitivity.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C39",
+        "to_id": "C40",
+        "missing_step": "Connecting oral practice with strangers specifically to the acquisition of the wide-ranging vocabulary required for high-level reading.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C59",
+        "to_id": "C45",
+        "missing_step": "The correlation between 2nd-grade vocabulary and 11th-grade performance is causal and can be altered by school-based intervention.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C51",
+        "to_id": "C52",
+        "missing_step": "Accelerating word learning within a single familiar domain transfers effectively to vocabulary needs in other, unfamiliar domains.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C63",
+        "to_id": "C74",
+        "missing_step": "That the primary way we learn (by volume) is also the most 'efficient' way to ensure necessary academic vocabulary is acquired by disadvantaged students.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C79",
+        "to_id": "Introduction.C8",
+        "missing_step": "A knowledge-oriented curriculum is the specific 'context' required to activate the innate word-learning faculty effectively for school-based achievement.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C91",
+        "to_id": "C94",
+        "missing_step": "Schools must possess a curriculum that actually delivers the 90% threshold of known words for disadvantaged students consistently across all subjects.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C83",
+        "to_id": "C82",
+        "missing_step": "The teacher's focus on subject matter must be structured such that it repeats key vocabulary enough times to trigger the 'implicit learning' mechanism.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C102",
+        "to_id": "C104",
+        "missing_step": "A bridge between 'computational probability' and 'pedagogical efficiency' that accounts for human attention and memory limits.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C106",
+        "to_id": "C104",
+        "missing_step": "The normative premise that the historical origin of Standard English justifies its exclusive focus in modern vocabulary curricula.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C15",
+        "objection": "The 'Accuracy' requirement in the early grades may produce a 'filter' effect that alienates students from marginalized linguistic backgrounds, discouraging them from writing and speaking before they have mastered the code.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C20",
+        "objection": "Extensive research in composition studies suggests that explicit grammar instruction (learning parts of speech) has little to no measurable impact on the quality of student writing or reading comprehension.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C1",
+        "objection": "Language is a continuum; 'Standard English' and 'Oral Dialects' are not binary codes. Most children possess enough overlap to begin literacy instruction without a separate 'pre-code' training phase.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C23",
+        "objection": "The de-emphasis on grammar in schools was not caused by dialect controversies, but by empirical research (such as the Braddock Report) suggesting that formal grammar instruction does not improve writing quality and may even hinder it.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C35",
+        "objection": "The distinction between 'restricted' and 'elaborated' codes reflects a middle-class bias that views different but equally complex linguistic systems as 'missing' something, rather than just being different.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C31",
+        "objection": "Children can comprehend complex texts in their own dialect; the barrier to reading is the alien vocabulary and cultural references in the texts, not the lack of 'stranger-oriented' syntax.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C52",
+        "objection": "Maintaining topic consistency for long periods may decrease overall student engagement and curiosity, leading to diminished motivation that offsets the cognitive gains of familiarity.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C60",
+        "objection": "If students lack the 90% threshold of knowledge required to learn from the 'printed page' (per C56), then the increased complexity of printed text acts as a barrier rather than a source of growth.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C54",
+        "objection": "Targeted direct instruction of high-frequency and high-utility words can mitigate the 'inevitability' of the Matthew effect by providing low-vocabulary students with the specific tools needed to reach the inference threshold.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C74",
+        "objection": "While implicit learning handles high volume, it is highly inefficient for specific, high-leverage tier-two academic words which may never appear frequently enough in a student's 'natural' environment to be learned through context.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C66",
+        "objection": "The 'slow and gradual' nature of implicit learning is precisely why explicit instruction is necessary for equity; students behind in vocabulary cannot afford a 'slow' process and need 'fast' explicit interventions to catch up.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C79",
+        "objection": "The distinction between 'natural' (oral) and 'unnatural' (written) faculties ignores that many children in literacy-rich environments 'pick up' decoding skills implicitly, suggesting the faculty for pattern recognition applies to both.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C83",
+        "objection": "For students with very low initial 'vocabulary capital,' the implicit method fails because they lack the 'meaning-lending context' (C81) needed to anchor any new word meanings, leading to the Matthew Effect.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C94",
+        "objection": "The fifth-grade target is overly optimistic because it ignores the 'fanning out' effect where advantaged students continue to gain vocabulary outside of school at a rate schools cannot match.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C82",
+        "objection": "Explicit vocabulary instruction of 'high-utility' academic words (Tier 2 words) has been shown in other research to provide a significant boost that subject-matter focus alone may miss.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C104",
+        "objection": "A definitive school-wide position on implicit vs. explicit instruction may be too rigid; instructional balance should be left to teacher discretion based on the specific needs and current knowledge levels of individual students.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C105",
+        "objection": "Explicit explanations of 'crucial' words, if not done with extreme care, may lead students to rely on the teacher rather than developing the independent inferencing skills necessary for high-level reading.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Artificiality of Literacy",
+        "chain": [
+          "C4",
+          "C5",
+          "C8",
+          "C13",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "strong"
+      },
+      {
+        "name": "The Persistence of Standard Forms",
+        "chain": [
+          "C11",
+          "C12",
+          "C13",
+          "C17",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "moderate"
+      },
+      {
+        "name": "Instructional Necessity for Equity",
+        "chain": [
+          "C18",
+          "C19",
+          "C20",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Socio-Economic Equity Chain",
+        "chain": [
+          "C24",
+          "C22",
+          "C21",
+          "C23"
+        ],
+        "conclusion_id": "C22",
+        "strength": "strong"
+      },
+      {
+        "name": "The Structural Language Code Chain",
+        "chain": [
+          "C32",
+          "C33",
+          "C35",
+          "C36",
+          "C31",
+          "C37"
+        ],
+        "conclusion_id": "C31",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Oral-to-Literacy Transfer Chain",
+        "chain": [
+          "C38",
+          "C39",
+          "C40"
+        ],
+        "conclusion_id": "C39",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Mechanism of Efficiency",
+        "chain": [
+          "C50",
+          "C49",
+          "C51",
+          "C52"
+        ],
+        "conclusion_id": "C52",
+        "strength": "strong"
+      },
+      {
+        "name": "The Matthew Effect and Equity",
+        "chain": [
+          "C53",
+          "C56",
+          "C54",
+          "C58",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "strong"
+      },
+      {
+        "name": "The Case for Early Intensity",
+        "chain": [
+          "C41",
+          "C42",
+          "C46",
+          "C59",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Quantitative Argument for Implicit Learning",
+        "chain": [
+          "C62",
+          "C63",
+          "C74",
+          "C68"
+        ],
+        "conclusion_id": "C68",
+        "strength": "strong"
+      },
+      {
+        "name": "The Probabilistic Nature of Word Meanings",
+        "chain": [
+          "C64",
+          "C69",
+          "C70",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "strong"
+      },
+      {
+        "name": "The Faculty Distinction Argument",
+        "chain": [
+          "C73",
+          "C77",
+          "C78",
+          "C76",
+          "C79"
+        ],
+        "conclusion_id": "C79",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Efficiency of Implicit Learning",
+        "chain": [
+          "C81",
+          "C88",
+          "C84",
+          "C83",
+          "C82"
+        ],
+        "conclusion_id": "C82",
+        "strength": "strong"
+      },
+      {
+        "name": "Overcoming the Vocabulary Deficit",
+        "chain": [
+          "C89",
+          "C90",
+          "C91",
+          "C93",
+          "C94"
+        ],
+        "conclusion_id": "C94",
+        "strength": "moderate"
+      },
+      {
+        "name": "Standard Language as Social Protection",
+        "chain": [
+          "C95",
+          "C98",
+          "C97"
+        ],
+        "conclusion_id": "C97",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Hybrid Vocabulary Strategy",
+        "chain": [
+          "C102",
+          "C103",
+          "C105"
+        ],
+        "conclusion_id": "C105",
+        "strength": "strong"
+      },
+      {
+        "name": "Institutional Curricular Requirement",
+        "chain": [
+          "C101",
+          "C102",
+          "C104"
+        ],
+        "conclusion_id": "C104",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.006365899999999999,
+    "duration_s": 90.82503080368042
+  }
+}

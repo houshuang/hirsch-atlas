@@ -1,0 +1,108 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that because written language is a stable social convention rather than a natural biological growth, it requires explicit shared instruction rather than 'natural' discovery.",
+        "source_passage": "Normalized written English has been so durable that our written language is, like all national print languages, highly stable and intergenerational. So, educators who continue to object to the 'Eurocentrism' of Core Knowledge should be reminded that child-centrism is not only a Eurocentric theory; it is also an incorrect theory.",
+        "importance": "significant",
+        "suggested_claim": "Because written English is a stable, intergenerational social convention, it cannot be acquired through 'natural development' but must be taught through a shared, explicit curriculum.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author posits that empathy is not merely a moral sentiment but a specific cognitive mechanism required for the act of literacy itself.",
+        "source_passage": "The cognitive science described in this book (some of it very new) will show that empathy lies at the heart of literacy itself.",
+        "importance": "critical",
+        "suggested_claim": "Empathy is a foundational cognitive component of the literacy process, enabling the comprehension of shared meaning and diverse perspectives.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the belief in 'inherent progress' (Hegel/Dewey) is dangerous because it ignores the historical 'foibles and villainies' of human nature that the Founders sought to restrain.",
+        "source_passage": "They were especially wary of following human nature, which, as they knew from history, can lead to injustice and bloodshed. History was to be a key study in our schools to alert us to the ideals as well as to the foibles and villainies of human nature.",
+        "importance": "significant",
+        "suggested_claim": "The Hegelian/Deweyan belief in inherent historical progress undermines the educational necessity of studying history as a cautionary record of human fallibility.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C48",
+        "problem": "The claim misses the specific rhetorical critique the author is making. The author isn't just saying it's a 'false narrative'; he's saying that blaming desegregation for low scores allows educators to frame their own pedagogical failure as a moral sacrifice.",
+        "source_passage": "It's whispered that the decline was owing to school desegregation—thus transforming educational vice into self-praising virtue.",
+        "suggested_fix": "Attributing reading score declines to school desegregation is a rhetorical tactic that allows the educational establishment to frame the failure of child-centered pedagogy as a noble side effect of social progress."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "missing_warrant": "Institutional practices, such as university registrar policies that emphasize military service on academic records, serve as reliable indicators of the prevailing social and political values of an era."
+      },
+      {
+        "evidence_id": "E5",
+        "claim_id": "C15",
+        "missing_warrant": "A lack of foundational literacy and shared factual knowledge prevents citizens from engaging in reasoned debate, leaving them susceptible to simplistic slogans and emotional manipulation."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C38",
+        "counter_argument": "Statewide curriculum frameworks may inadvertently increase political hostility by making the 'common knowledge' a target for ideological control and culture-war conflict in state legislatures.",
+        "why_important": "It challenges the author's assumption that centralized frameworks automatically lead to stability and literacy rather than further division."
+      },
+      {
+        "targets_claim": "C49",
+        "counter_argument": "The success of Jeff Litt's schools and the high demand for Core Knowledge schools may be due to 'selection bias,' where children of highly motivated parents (who seek out alternatives) perform better regardless of the curriculum.",
+        "why_important": "It provides a common sociological alternative to the author's claim that the curriculum itself is the primary variable for success."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C13",
+          "C18",
+          "C43"
+        ],
+        "action": "merge",
+        "explanation": "All three claims state that John Dewey's educational theories were fundamentally influenced by Hegel's philosophy; C43 is simply the evidence (the quote) for the others."
+      },
+      {
+        "claim_ids": [
+          "C27",
+          "C30"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe Lexiles and reading levels as scientifically unsound tools used to support individualized reading choice."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C9",
+        "current_level": "normative",
+        "correct_level": "empirical",
+        "explanation": "In this context, the author is making a historical claim about the original intent and factual purpose of the Founders' Common School model, rather than making a purely value-based prescription."
+      },
+      {
+        "claim_id": "C40",
+        "current_level": "empirical",
+        "correct_level": "theoretical",
+        "explanation": "This is an interpretation of the intent behind an institutional marking ('VETERAN'), not a directly observable physical fact."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is highly detailed and captures the primary philosophical conflict between the Enlightenment and Romanticism. However, it misses the author's specific logical link regarding why 'stable' language requires 'common' instruction, and it conflates several claims regarding Dewey's Hegelian influences. It also treats the author's historical analysis of the Founders as normative rather than empirical/historical evidence."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0014364,
+    "input_tokens": 8504,
+    "output_tokens": 1465,
+    "duration_s": 32.49129295349121,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

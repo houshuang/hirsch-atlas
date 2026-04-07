@@ -1,0 +1,1310 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "C3 characterizes the linear model as oversimplified, which directly leads to the conclusion that reading does not follow that orderly pattern."
+      },
+      {
+        "from_id": "C180",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "C180 provides the theoretical basis for rejecting the linear model as a misleading representation."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "To supply essential information, the mind must use cognitive techniques like 'chunking' to process and integrate external data with internal knowledge."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C4",
+        "relationship": "instantiates",
+        "explanation": "The ability to chunk words into phrasal units is a specific instance of the mind acting as an active supplier of structure."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "The claim that the mind supplies information is the logical prerequisite for the 'iceberg' theory where background knowledge constitutes the majority of meaning."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C16",
+        "relationship": "depends-on",
+        "explanation": "The limited capacity of short-term memory necessitates the recoding of language into a more efficient 'gist' for long-term storage."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C16",
+        "relationship": "supports",
+        "explanation": "Short-term memory's role as a suspension area is the mechanism by which the mind prepares data for gist-recoding."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The empirical observation that surface forms vanish quickly supports the theoretical claim that meaning is the primary unit of long-term retention."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The evolutionary desirability of meaning-priority provides a functional explanation for why humans retain meaning over surface forms."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "Substitution errors involving synonyms demonstrate that readers store the 'gist' or mental model rather than literal word strings."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "Experiments showing subjects mistake implications for explicit text prove that background knowledge (which generates those implications) is utilized during initial understanding."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "The claim that background knowledge is intrinsic to meaning depends on the observation that initial understanding is impossible without external knowledge application."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "If inferences are made at the time of understanding, it confirms that background knowledge is a part of the meaning from the start, not a later addition."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C33",
+        "relationship": "depends-on",
+        "explanation": "The necessity for sentences to 'hang together' logically relies on the presence of background knowledge as an intrinsic component of meaning."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C186",
+        "relationship": "supports",
+        "explanation": "Since comprehension-related inferences happen in real-time (milliseconds), educational strategies must prioritize high-speed retrieval of core associations."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "The experimental finding that vague text requires context to be understood supports the broader theory that an integrated mental model is essential for discourse comprehension."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "depends-on",
+        "explanation": "The claim that culturally illiterate individuals are like experimental subjects depends on the theoretical premise that mental models are the universal mechanism for understanding."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "The theoretical possibility of decoding sentences without comprehending the whole provides the mechanism for why informationally deprived people miss referential clues."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "The lack of effect of style on unfamiliar topics provides the inverse evidence needed to claim that style only matters when the topic is familiar."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "If sensitivity to style requires familiarity, then a lack of background knowledge logically erases the benefits of good prose."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C50",
+        "relationship": "instantiates",
+        "explanation": "The specific case of community college students struggling with Grant and Lee serves as the primary evidence for the general claim about their reading deficiencies."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C106",
+        "relationship": "supports",
+        "explanation": "The necessity of mental models explains why reading speed is dependent on cultural literacy (from Chapter 1)."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C61",
+        "relationship": "depends-on",
+        "explanation": "The necessity of placing fragments into larger wholes (C61) is logically predicated on the premise that raw experience is inherently fragmented (C59)."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C65",
+        "relationship": "refines",
+        "explanation": "C65 identifies the specific term ('basic-level terms') for the psychological tendency described in C62."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "The mind's use of previously useful categories (C63) explains why middle-level categories are seen as efficient instruments (C67)."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C188",
+        "relationship": "supports",
+        "explanation": "Evidence that technical skills are sufficient (C51) supports the claim that the real barrier to comprehension is the unspoken systems of association (C188)."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C56",
+        "relationship": "depends-on",
+        "explanation": "Attributing reading differences to knowledge (C55) requires first ruling out physical or cognitive mechanics (C56) as the primary cause."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C188",
+        "relationship": "supports",
+        "explanation": "The existence of shared mental prototypes (C71) provides the mechanism for the 'unspoken systems of association' mentioned in C188."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C75",
+        "relationship": "depends-on",
+        "explanation": "The claim that current experiences are meaningful via prototypes depends on the existence of mental prototypes with definite features."
+      },
+      {
+        "from_id": "C75",
+        "to_id": "C76",
+        "relationship": "refines",
+        "explanation": "Hirsch adopts the technical term 'schema' to specifically name the mental entities/prototypes discussed in C75."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C76",
+        "relationship": "supports",
+        "explanation": "Distinguishing schemata from concrete images helps define the abstract nature of the mental entities mentioned in C76."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C85",
+        "relationship": "depends-on",
+        "explanation": "Reading can only be an active process of selecting/adjusting schemata if readers are demonstrably adjusting those schemata to fit text details."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C85",
+        "relationship": "supports",
+        "explanation": "The 'two-way traffic' concept provides the mechanism for the 'active process' described in C85."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C87",
+        "relationship": "depends-on",
+        "explanation": "Reading breakdown (C87) is logically caused by the physical limitations of short-term memory (C60) being overwhelmed."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C87",
+        "relationship": "supports",
+        "explanation": "The effort spent constructing missing schemata is what specifically triggers the cognitive overload."
+      },
+      {
+        "from_id": "C87",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "Because missing schemata cause cognitive breakdown, cultural literacy (which provides those schemata) is necessary for efficiency."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C91",
+        "relationship": "supports",
+        "explanation": "The geographic/cultural variability of simple schemata (bird) supports the expansion of the requirement to wider cultural knowledge."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C97",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that comprehension involves supplying background relationships depends on the empirical fact that short-term memory is too limited to hold all relationships at once."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "C97",
+        "relationship": "supports",
+        "explanation": "The use of surface elements as markers for larger schemata provides the mechanism for how comprehension supplies relationships."
+      },
+      {
+        "from_id": "C92",
+        "to_id": "C93",
+        "relationship": "depends-on",
+        "explanation": "If readers cannot make sense of text without schemata, it follows that we must define what level of knowledge those schemata require."
+      },
+      {
+        "from_id": "C95",
+        "to_id": "C93",
+        "relationship": "supports",
+        "explanation": "The claim that specialized info is provided by the text supports the conclusion that the reader's background knowledge only needs to be abstract/general."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "C100",
+        "relationship": "supports",
+        "explanation": "The natural tendency to schematize details over time serves as empirical evidence for memory being a constructive process."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "C100",
+        "relationship": "supports",
+        "explanation": "The introduction of non-present elements into memory demonstrates that the mind is actively building a narrative from schemata rather than just playing back a recording."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C100",
+        "relationship": "supports",
+        "explanation": "The suppression of schema-clashing details proves that the schema, not the literal event, dictates the final memory."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C107",
+        "relationship": "refines",
+        "explanation": "The general claim that schemata are essential cognitive instruments is refined into their specific power in language and memory."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C112",
+        "relationship": "depends-on",
+        "explanation": "The function of schemata in organizing knowledge is logically necessary because short-term memory cannot handle unorganized information."
+      },
+      {
+        "from_id": "C114",
+        "to_id": "C118",
+        "relationship": "supports",
+        "explanation": "The observation that good readers are never very slow provides empirical support for the idea that speed is a component of quality."
+      },
+      {
+        "from_id": "C115",
+        "to_id": "C118",
+        "relationship": "supports",
+        "explanation": "If slowness prevents meaning assimilation, then speed must be a prerequisite for high-quality comprehension."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C118",
+        "relationship": "supports",
+        "explanation": "Memory limits necessitate the 'chunking' provided by speed/schemata to maintain comprehension."
+      },
+      {
+        "from_id": "C120",
+        "to_id": "C122",
+        "relationship": "supports",
+        "explanation": "Experimental evidence showing retrieval takes longer for 'deep' info supports the need for 'surface' primary associations in rapid conversation."
+      },
+      {
+        "from_id": "C122",
+        "to_id": "C123",
+        "relationship": "depends-on",
+        "explanation": "The claim that literacy depends on rapid deployment depends on the pragmatism that these associations must be known in advance to meet millisecond-speed requirements."
+      },
+      {
+        "from_id": "C124",
+        "to_id": "C125",
+        "relationship": "supports",
+        "explanation": "The theoretical necessity of shared associations leads to the normative requirement that students acquire specific shared cultural information."
+      },
+      {
+        "from_id": "C126",
+        "to_id": "C124",
+        "relationship": "supports",
+        "explanation": "The fact that ordinary discourse assumes rudiments to remain concise supports the claim that communication depends on shared associations."
+      },
+      {
+        "from_id": "C127",
+        "to_id": "C129",
+        "relationship": "objects-to",
+        "explanation": "The Rousseau-Dewey tradition of intensive case study is presented as insufficient compared to the need for both intensive and extensive knowledge."
+      },
+      {
+        "from_id": "C137",
+        "to_id": "C132",
+        "relationship": "supports",
+        "explanation": "The finding that expert performance is based on information rather than machinery is the primary empirical basis for the claim that all cognitive skills are knowledge-bound."
+      },
+      {
+        "from_id": "C140",
+        "to_id": "C135",
+        "relationship": "supports",
+        "explanation": "If skills are strictly domain-specific, then the existence of general, transferable skills for critical thinking is logically precluded."
+      },
+      {
+        "from_id": "C142",
+        "to_id": "C144",
+        "relationship": "depends-on",
+        "explanation": "The theory of chunking via schemata is only necessary because of the empirical constraint of limited short-term memory."
+      },
+      {
+        "from_id": "C143",
+        "to_id": "C149",
+        "relationship": "supports",
+        "explanation": "The evidence of chunking in chess experts provides the structural model for how reading skill functions by alleviating memory load."
+      },
+      {
+        "from_id": "C150",
+        "to_id": "C149",
+        "relationship": "instantiates",
+        "explanation": "Ignoring small-scale features in text is the reading-equivalent of a chess master ignoring individual piece positions in favor of patterns."
+      },
+      {
+        "from_id": "C152",
+        "to_id": "C153",
+        "relationship": "supports",
+        "explanation": "The 50,000 item limit in human performance suggests why a basic vocabulary of the same size serves as a functional index for memory."
+      },
+      {
+        "from_id": "C156",
+        "to_id": "C155",
+        "relationship": "depends-on",
+        "explanation": "The requirement that verbal schemata be shared depends on the premise that words and idioms are communal rather than individual systems."
+      },
+      {
+        "from_id": "C157",
+        "to_id": "C155",
+        "relationship": "depends-on",
+        "explanation": "Communication requires that internal subsurface associations approximate each other between speakers."
+      },
+      {
+        "from_id": "C155",
+        "to_id": "C158",
+        "relationship": "supports",
+        "explanation": "If verbal schemata must be shared for communication, then cultural literacy is effectively the sum of these shared systems of association."
+      },
+      {
+        "from_id": "C160",
+        "to_id": "C164",
+        "relationship": "supports",
+        "explanation": "Adult success on communication tasks provides the baseline of 'competence' against which child failure is measured."
+      },
+      {
+        "from_id": "C161",
+        "to_id": "C164",
+        "relationship": "supports",
+        "explanation": "Child failure on the same tasks suggests a deficit that must be explained as either cognitive or informational."
+      },
+      {
+        "from_id": "C166",
+        "to_id": "C164",
+        "relationship": "supports",
+        "explanation": "The theory of cognitive overload explains how a lack of information manifests as a performance failure."
+      },
+      {
+        "from_id": "C167",
+        "to_id": "C164",
+        "relationship": "supports",
+        "explanation": "Success on light tasks proves that the children possess the 'machinery' for communication, making the failure on heavy tasks an issue of information/load."
+      },
+      {
+        "from_id": "C164",
+        "to_id": "C171",
+        "relationship": "supports",
+        "explanation": "Identifying the cause of child failure as informational allows the author to draw an analogy to the mechanisms of poor reading."
+      },
+      {
+        "from_id": "C173",
+        "to_id": "C172",
+        "relationship": "supports",
+        "explanation": "The fact that literate adults have internalized shared schemata to the point of 'second nature' provides the model for what 'effective' reading/communication looks like."
+      },
+      {
+        "from_id": "C174",
+        "to_id": "C172",
+        "relationship": "supports",
+        "explanation": "The failure of children and semiliterates to know what is shared demonstrates that the lack of this monitoring/knowledge is the cause of communicative failure."
+      },
+      {
+        "from_id": "C172",
+        "to_id": "C175",
+        "relationship": "depends-on",
+        "explanation": "The normative requirement to know others' unspoken associations follows from the theoretical necessity of monitoring shared associations for effective reading."
+      },
+      {
+        "from_id": "C178",
+        "to_id": "C177",
+        "relationship": "depends-on",
+        "explanation": "If the critical variable for literacy is experience with 'literate strangers,' and social class dictates access to those strangers, then performance must correlate with class."
+      },
+      {
+        "from_id": "C177",
+        "to_id": "C179",
+        "relationship": "supports",
+        "explanation": "If social class influences literacy through exposure to a 'wider speech community' rather than just a local one, it implies literacy is a function of that broader (national) culture."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E8",
+        "claim_id": "C2",
+        "warrant_text": "If subjects remember 'the window is open' when they heard 'not closed,' their minds are bypassing literal word-by-word decoding in favor of immediate semantic reconstruction.",
+        "is_explicit": false,
+        "vulnerability": "Subjects might be performing a two-step process: decoding 'not closed' and then immediately translating it, which still involves a linear first step."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E12",
+        "claim_id": "C4",
+        "warrant_text": "If a text is incomprehensible without a title ('Washing Clothes'), but comprehensible with one, the meaning is not contained in the text itself but is supplied by the reader's prior knowledge of the topic.",
+        "is_explicit": true,
+        "vulnerability": "The text might be intentionally defective; normal communication might be more self-contained."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E11",
+        "claim_id": "C16",
+        "warrant_text": "The rapid loss of exact wording coupled with the retention of meaning proves that the mind's storage priority is information content (gist) rather than acoustic or visual surface features.",
+        "is_explicit": true,
+        "vulnerability": "Wording might be discarded not because of a gist-recoding preference, but because surface features are more susceptible to interference and decay."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E15",
+        "claim_id": "C5",
+        "warrant_text": "Failure to comprehend a text despite knowing every individual word implies that the 'meaning' of the text relies on an external referential network (cultural literacy) rather than internal definitions.",
+        "is_explicit": false,
+        "vulnerability": "The failure could be due to lack of interest or poor test-taking skills rather than lack of specific background knowledge."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C23",
+        "claim_id": "C22",
+        "warrant_text": "Experimental data regarding syllable interference limits provide a measurable threshold for the capacity of short-term memory before surface data is lost.",
+        "is_explicit": true,
+        "vulnerability": "The decay rate might be slower for highly novel or stylistically striking phrasing compared to mundane laboratory sentences."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C27",
+        "claim_id": "C25",
+        "warrant_text": "If a person's memory of a text includes information not explicitly stated but logically implied by situational context, the mind must have constructed a mental model that integrated external knowledge with the text.",
+        "is_explicit": true,
+        "vulnerability": "The error could be a reconstructive memory error at the point of recall rather than an integrated model created at the point of encoding."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C185",
+        "claim_id": "C24",
+        "warrant_text": "If artificial systems can only achieve human-like language performance by using knowledge-heavy databases, then human performance likely relies on similar knowledge-heavy mechanisms.",
+        "is_explicit": false,
+        "vulnerability": "Functional equivalence in outcomes (AI vs. human) does not guarantee identical underlying cognitive architectures."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C34",
+        "claim_id": "C36",
+        "warrant_text": "Cognitive processes observed in controlled experiments using intentionally vague text are functionally identical to real-world reading where the 'vagueness' results from a lack of specific cultural background.",
+        "is_explicit": false,
+        "vulnerability": "Natural language texts are rarely as structurally 'vague' as experimental passages; the analogy may overstate the degree of confusion faced by the informationally deprived."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C41",
+        "claim_id": "C50",
+        "warrant_text": "If students can successfully decode complex vocabulary in one context (the 'Good Friend' text) but fail to comprehend a text with simpler vocabulary but specific historical names (Grant/Lee), the variable causing failure is knowledge, not skill.",
+        "is_explicit": true,
+        "vulnerability": "The 'Good Friend' text may use a different rhetorical mode (narrative/personal) that is inherently easier than historical analysis, regardless of name recognition."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C44",
+        "claim_id": "C49",
+        "warrant_text": "Good prose style functions by reducing cognitive load; if the lack of background knowledge creates a cognitive load that exceeds the 'savings' provided by style, the stylistic benefit becomes statistically invisible.",
+        "is_explicit": false,
+        "vulnerability": "Reading rate and recall may not be the only measures of 'performance benefit' provided by good style."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C51",
+        "claim_id": "C54",
+        "warrant_text": "If reading mechanics (eye movement, memory) are controlled and equal, then differences in comprehension of a specific text must be caused by differences in task-specific knowledge.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'skills' measured (eye movement, basic vocab) encompass the entirety of reading ability, excluding higher-order analytical skills not tied to background knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C64",
+        "claim_id": "C62",
+        "warrant_text": "The developmental order of language acquisition (learning 'tree' before 'oak') reflects the brain's natural hierarchy of conceptual priority.",
+        "is_explicit": false,
+        "vulnerability": "The learning order might be a result of external pedagogical frequency (parents use general terms more often) rather than internal cognitive efficiency."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C72",
+        "claim_id": "C71",
+        "warrant_text": "Faster cognitive processing speed for certain examples indicates they are prioritized as primary mental classifications or 'prototypes'.",
+        "is_explicit": false,
+        "vulnerability": "Processing speed can be influenced by recent exposure or cultural priming rather than fixed mental architecture."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C73",
+        "claim_id": "C75",
+        "warrant_text": "If typical examples are processed significantly faster than atypical ones, it implies the mind uses pre-set prototypes as a baseline for meaning.",
+        "is_explicit": true,
+        "vulnerability": "The speed difference could be due to word frequency (how often we hear 'robin' vs 'ostrich') rather than an innate structural prototype."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C82",
+        "claim_id": "C85",
+        "warrant_text": "Evidence of context-dependent word meaning (like 'kick the ball') proves that meaning is constructed through active situational matching rather than fixed dictionary definitions.",
+        "is_explicit": false,
+        "vulnerability": "Subconscious adjustments could be part of an automated decoding process rather than an 'active' cognitive selection process."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C89",
+        "claim_id": "C87",
+        "warrant_text": "Conscious processing (pondering) is significantly slower and more resource-intensive than subconscious schema-matching, creating a bottleneck in memory.",
+        "is_explicit": true,
+        "vulnerability": "Individual differences in short-term memory capacity might allow some readers to 'ponder' without total comprehension breakdown."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C96",
+        "claim_id": "C97",
+        "warrant_text": "If the conscious mind can only hold a few items, then meaning must be stored in efficient, 'packaged' background structures that are triggered rather than fully processed.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that short-term memory limits are the primary constraint on comprehension rather than processing speed or linguistic decoding."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C95",
+        "claim_id": "C93",
+        "warrant_text": "In communicative discourse, writers assume general knowledge and explicitly provide unique or technical knowledge, meaning readers only need a 'thin' layer of shared background to grasp the frame.",
+        "is_explicit": false,
+        "vulnerability": "What counts as 'specialized' vs. 'broad' is subjective; complex texts may assume deep knowledge of specific history that the author considers 'general'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C101",
+        "claim_id": "C100",
+        "warrant_text": "Systematic errors in recall (adding things that weren't there but 'belong' there) reveal the template the mind uses to organize reality.",
+        "is_explicit": true,
+        "vulnerability": "Errors in recall might be failures of memory rather than evidence of a constructive process; a 'gap' in memory doesn't necessarily prove a 'schema' filled it."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C120",
+        "claim_id": "C122",
+        "warrant_text": "If information retrieval time is a function of 'distance' within a mental network, then the information required for fluid, real-time communication must be located at the most accessible nodes of that network.",
+        "is_explicit": true,
+        "vulnerability": "The experiment measures truth-verification (logic), which may not be perfectly analogous to the associative retrieval used in reading for pleasure or general information."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C114",
+        "claim_id": "C118",
+        "warrant_text": "In cognitive tasks governed by time-limited buffers (short-term memory), the rate of processing determines whether the constituent parts of a message can be integrated into a coherent whole before the buffers clear.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that 'fast' and 'slow' are absolute cognitive categories rather than relative to the difficulty of the text or the goals of the reader."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C143",
+        "claim_id": "C137",
+        "warrant_text": "If a person's performance advantage disappears when they cannot apply their specific knowledge (e.g., random chess boards), their advantage must stem from knowledge rather than innate mental capacity.",
+        "is_explicit": true,
+        "vulnerability": "The experiment only tests memory for static positions; it may not fully capture the 'intellectual machinery' involved in active problem-solving or strategy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C146",
+        "claim_id": "C145",
+        "warrant_text": "If a mathematical model (AI) succeeds by imitating a specific human process, it provides evidence that the human process operates on those same principles.",
+        "is_explicit": false,
+        "vulnerability": "Functional isomorphism does not prove biological or psychological identity; just because a computer needs knowledge to play chess doesn't mean a human brain lacks general-purpose heuristic muscles."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C147",
+        "claim_id": "C140",
+        "warrant_text": "Consistent results across diverse academic fields suggest a universal cognitive law regarding the domain-specificity of expertise.",
+        "is_explicit": true,
+        "vulnerability": "Fields like algebra and physics are highly structured like chess; the same 'law' might not apply to less structured domains like creative writing or social leadership."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C152",
+        "claim_id": "C155",
+        "warrant_text": "To be cognitively efficient across a community, the 'index' used for rapid retrieval must be standardized; otherwise, the speed of internal retrieval would be negated by the friction of external translation.",
+        "is_explicit": false,
+        "vulnerability": "Specialized communities (like chess players) do share schemata; the author assumes verbal schemata are uniquely constrained by the size of the 'whole' language community."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C167",
+        "claim_id": "C164",
+        "warrant_text": "If a skill can be performed under any conditions (light load), the underlying cognitive 'software' exists; failures under high load must therefore be due to resource management (information/schema availability) rather than structural absence.",
+        "is_explicit": true,
+        "vulnerability": "Complex tasks may require specific developmental stages of cognitive 'architecture' that simple tasks do not, even if both are 'social speech'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C161",
+        "claim_id": "C165",
+        "warrant_text": "The use of 'private' or 'unshared' associations in a social task indicates a failure to model the listener's mind (meta-information) rather than a failure of logical reasoning.",
+        "is_explicit": true,
+        "vulnerability": "What the author calls 'lack of information' (not knowing what others know) is defined by Piagetian psychology as a developmental stage (egocentrism)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C173",
+        "claim_id": "C172",
+        "warrant_text": "Expert performance (literate adults) identifies the necessary components of a skill that novices (children) lack.",
+        "is_explicit": false,
+        "vulnerability": "Expert performance might be automated in a way that doesn't involve active 'monitoring,' making the description of the skill inaccurate for learners."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C178",
+        "claim_id": "C177",
+        "warrant_text": "Factors that determine the frequency and quality of specific learning experiences (like talking to literate strangers) are the primary causes of developmental outcomes.",
+        "is_explicit": true,
+        "vulnerability": "Correlations with social class may be driven by multiple confounding factors (nutrition, school funding, parental education level) beyond just 'exposure to strangers.'"
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "C14",
+        "missing_step": "Linguistic structures are constrained by biological memory limits rather than being arbitrary cultural developments.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "E46",
+        "to_id": "C4",
+        "missing_step": "The cognitive processes used by chess grand masters to recognize board patterns are fundamentally the same as those used by readers to recognize linguistic schemas.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C25",
+        "to_id": "C186",
+        "missing_step": "The speed of association retrieval is the primary bottleneck in reading, and this speed can be improved through specific educational interventions.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C27",
+        "to_id": "C186",
+        "missing_step": "The types of situational inferences made about 'turtles on logs' are cognitively identical to the cultural associations needed for national literacy.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C34",
+        "to_id": "C36",
+        "missing_step": "Normal informative prose is sufficiently similar to 'vague' experimental passages such that missing a cultural reference creates the same total cognitive breakdown.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C41",
+        "to_id": "C50",
+        "missing_step": "The students' failure on the Grant and Lee passage is representative of their general reading performance across all academic and civic texts.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C57",
+        "to_id": "C58",
+        "missing_step": "A bridge between the existence of empirical findings (C57) and the normative claim that educators are behaving negligently (C58).",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C65",
+        "to_id": "C188",
+        "missing_step": "Establishing that the 'basic furniture' of concepts (middle-level categories) is the same 'unspoken system of association' used in complex literacy tasks like reading about Grant and Lee.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C75",
+        "to_id": "C91",
+        "missing_step": "The cognitive mechanism used for categorizing basic objects (birds) is functionally identical to the mechanism used for categorizing complex historical/cultural concepts.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C87",
+        "to_id": "C88",
+        "missing_step": "National cultural knowledge is the only or primary source of the high-level schemata required for efficient reading.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C93",
+        "to_id": "C111",
+        "missing_step": "While cognitive modeling is complex, the abstract nature of necessary schemata makes them easier to identify for curriculum design than exhaustive knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C100",
+        "to_id": "C93",
+        "missing_step": "The constructive nature of memory (relying on typicality) is the reason why readers only need 'vague' or 'abstract' schemata rather than detailed ones.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C124",
+        "to_id": "C125",
+        "missing_step": "The shared associations required for communication are stable across the entire nation and can be codified into a specific curriculum.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C118",
+        "to_id": "C122",
+        "missing_step": "The speed of information manipulation is primarily limited by knowledge of cultural associations rather than by mechanical decoding skills or general IQ.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C140",
+        "to_id": "C135",
+        "missing_step": "Establishing that meta-cognitive strategies (planning, self-monitoring) do not constitute a form of transferable 'general skill' even if content-knowledge is domain-specific.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C149",
+        "to_id": "Preface.C4",
+        "missing_step": "Demonstrating that the specific schemata required for 'literate culture' are as structured and predictable as chess patterns or algebraic formulas.",
+        "step_type": "generalization",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C155",
+        "to_id": "C158",
+        "missing_step": "The shared associations required for communication are identical to the 'cultural literacy' needed for reading high-level texts.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C164",
+        "to_id": "C171",
+        "missing_step": "The specific type of 'information' missing in the Krauss-Glucksberg shape-describing task is functionally equivalent to the 'background knowledge' missing in poor readers.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C177",
+        "to_id": "C179",
+        "missing_step": "A 'wider speech community' is effectively synonymous with the boundaries of a 'national culture.'",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C175",
+        "to_id": "C172",
+        "missing_step": "The information required to understand unspoken associations is best transmitted through formal education rather than natural social immersion.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "In the early stages of reading (decoding), the process is necessarily linear as children learn to map phonemes to graphemes; the non-linear 'schema' model may only describe expert reading.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C16",
+        "objection": "Certain types of reading, such as legal contracts or poetry, require a literal memory of the surface text, suggesting that 'gist' recoding is a strategy for efficiency rather than an absolute cognitive limit.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C5",
+        "objection": "If background knowledge is too dominant, readers may ignore what the text actually says in favor of their own biases, leading to misreading rather than comprehension.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C25",
+        "objection": "The 'constructive hypothesis' may overstate the loss of surface form; literary appreciation and specific legal/technical reading require and demonstrate higher-than-average retention of literal phrasing.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C186",
+        "objection": "Prioritizing 'millisecond retrieval' of associations encourages a fragmented, rote-based approach to learning that may undermine the development of critical thinking and deep synthesis.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C31",
+        "objection": "The 'meaning' of a text can be seen as separate from the 'interpretation' of a text; while knowledge is needed for interpretation, the semantic meaning of the words themselves remains stable.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C50",
+        "objection": "Community college students might struggle with the Grant and Lee passage due to lack of interest or 'academic alienation' rather than a literal lack of information; they may know who the men were but not value the specific historical discourse.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C43",
+        "objection": "Highly skilled readers (e.g., scholars) often use stylistic cues specifically to help them navigate unfamiliar topics; style may be most important precisely when the content is difficult.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C54",
+        "objection": "The community college students may have lacked 'interest' or 'motivation' for the historical subject matter (Grant and Lee) rather than simply lacking the information, which would also depress reading rates.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C69",
+        "objection": "Cultural agreement on typicality (e.g., apple as typical fruit) is a result of regional availability and commercial marketing, not a fundamental property of human cognition.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C188",
+        "objection": "A text that requires too much 'unspoken' association may simply be a poorly written or exclusionary text, rather than the reader being 'illiterate'.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C87",
+        "objection": "Reading breakdown is often caused by lack of vocabulary or weak syntactic parsing skills, not necessarily a lack of broad cultural schemata.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C88",
+        "objection": "The 'high-level schemata' needed for comprehension are often disciplinary (how to read like a historian) rather than specific factual lists (knowing about Appomattox).",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C93",
+        "objection": "If background knowledge is too abstract or superficial, readers may suffer from 'the illusion of explanatory depth,' where they think they understand a passage (e.g., the Civil War) but lack the critical nuances required for true mature literacy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C100",
+        "objection": "The constructive nature of memory could be viewed as a cognitive bias to be corrected through education, rather than an essential feature to be catered to via cultural literacy.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C97",
+        "objection": "Comprehension also relies heavily on syntax, logical flow, and vocabulary breadth, which may play a larger role than the 'supplying' of implied background relationships.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C118",
+        "objection": "Slow, reflective reading may result in a higher 'quality' of comprehension (e.g., critical analysis, recognizing subtext) than rapid schematic processing, which might lead to jumping to conclusions based on stereotypes.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C125",
+        "objection": "Teaching a fixed set of 'national' facts may marginalize subcultures and ignore the dynamic, changing nature of what is actually 'shared' in a digital or globalized society.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C135",
+        "objection": "The 'Cognitive Flexibility' objection: While knowledge is necessary, 'learning how to learn' involves transferable heuristics that allow experts to acquire new domains faster than novices, even if the content is different.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C149",
+        "objection": "Reading is fundamentally different from chess because it involves linguistic decoding and recursive meaning-making that is more dynamic than recognizing static positional patterns.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C164",
+        "objection": "The ability to monitor whether one's associations are shared with a 'wider speech community' (C170) is itself a developmental cognitive milestone (Theory of Mind/Metacognition) that cannot be solved simply by 'piling up' facts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C158",
+        "objection": "Even if communication requires shared associations for words, these linguistic associations (e.g., knowing what 'apple' implies) are distinct from the specific historical and literary 'cultural literacy' the author advocates for.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C179",
+        "objection": "Local cultures and subcultures possess their own highly complex shared schemata; calling literacy a function of 'national' culture marginalizes the sophisticated literacy practiced within local communities.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C172",
+        "objection": "The 'cognitive overload' Hirsch identifies in children may result from a lack of vocabulary or basic decoding fluency rather than a meta-cognitive failure to 'monitor' shared associations.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Memory Limit Constraint",
+        "chain": [
+          "C6",
+          "C8",
+          "C10",
+          "C11",
+          "C16"
+        ],
+        "conclusion_id": "C16",
+        "strength": "strong"
+      },
+      {
+        "name": "The Active Reader Paradox",
+        "chain": [
+          "C2",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "conclusion_id": "C5",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linguistic Recoding Cycle",
+        "chain": [
+          "C181",
+          "C12",
+          "C13",
+          "C15",
+          "C16"
+        ],
+        "conclusion_id": "C16",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Constructive Comprehension Chain",
+        "chain": [
+          "C18",
+          "C20",
+          "C25",
+          "C28",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Timing and Education Chain",
+        "chain": [
+          "C21",
+          "C30",
+          "C31",
+          "C186"
+        ],
+        "conclusion_id": "C186",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Mental Model Requirement",
+        "chain": [
+          "C34",
+          "C35",
+          "C36",
+          "C38"
+        ],
+        "conclusion_id": "C36",
+        "strength": "strong"
+      },
+      {
+        "name": "Knowledge as the Primary Variable in Literacy",
+        "chain": [
+          "C41",
+          "C40",
+          "C37",
+          "C50",
+          "C53"
+        ],
+        "conclusion_id": "C50",
+        "strength": "strong"
+      },
+      {
+        "name": "Style vs. Substance Constraint",
+        "chain": [
+          "C47",
+          "C44",
+          "C43",
+          "C49"
+        ],
+        "conclusion_id": "C49",
+        "strength": "moderate"
+      },
+      {
+        "name": "Cognitive Integration of Knowledge",
+        "chain": [
+          "C59",
+          "C61",
+          "C188"
+        ],
+        "conclusion_id": "C188",
+        "strength": "strong"
+      },
+      {
+        "name": "Hierarchical Category Primacy",
+        "chain": [
+          "C64",
+          "C62",
+          "C67",
+          "C65"
+        ],
+        "conclusion_id": "C65",
+        "strength": "moderate"
+      },
+      {
+        "name": "Knowledge over Mechanism in Literacy",
+        "chain": [
+          "C51",
+          "C56",
+          "C55",
+          "C57",
+          "C188"
+        ],
+        "conclusion_id": "C188",
+        "strength": "strong"
+      },
+      {
+        "name": "The Schema Mechanism Chain",
+        "chain": [
+          "C73",
+          "C75",
+          "C76",
+          "C78"
+        ],
+        "conclusion_id": "C76",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Load Chain",
+        "chain": [
+          "C60",
+          "C82",
+          "C85",
+          "C86",
+          "C87"
+        ],
+        "conclusion_id": "C87",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cultural Literacy Necessity Chain",
+        "chain": [
+          "C87",
+          "C89",
+          "C91",
+          "C88"
+        ],
+        "conclusion_id": "C88",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Efficiency Argument",
+        "chain": [
+          "C96",
+          "C98",
+          "C92",
+          "C97"
+        ],
+        "conclusion_id": "C97",
+        "strength": "strong"
+      },
+      {
+        "name": "The Superficiality Argument",
+        "chain": [
+          "C95",
+          "C92",
+          "C93"
+        ],
+        "conclusion_id": "C93",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Constructive Memory Argument",
+        "chain": [
+          "C99",
+          "C101",
+          "C102",
+          "C104",
+          "C100"
+        ],
+        "conclusion_id": "C100",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Bottleneck Argument",
+        "chain": [
+          "C116",
+          "C115",
+          "C117",
+          "C118"
+        ],
+        "conclusion_id": "C118",
+        "strength": "strong"
+      },
+      {
+        "name": "The Millisecond Retrieval Argument",
+        "chain": [
+          "C119",
+          "C120",
+          "C122",
+          "C123"
+        ],
+        "conclusion_id": "C123",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Communicative Necessity Argument",
+        "chain": [
+          "C126",
+          "C128",
+          "C124",
+          "C125"
+        ],
+        "conclusion_id": "C125",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Bottleneck Argument",
+        "chain": [
+          "C142",
+          "C144",
+          "C143",
+          "C141",
+          "C137"
+        ],
+        "conclusion_id": "C137",
+        "strength": "strong"
+      },
+      {
+        "name": "The Rejection of Generalism",
+        "chain": [
+          "C139",
+          "C147",
+          "C140",
+          "C135",
+          "C132"
+        ],
+        "conclusion_id": "C132",
+        "strength": "moderate"
+      },
+      {
+        "name": "Reading-Chess Analogy",
+        "chain": [
+          "C143",
+          "C148",
+          "C150",
+          "C151",
+          "C149"
+        ],
+        "conclusion_id": "C149",
+        "strength": "strong"
+      },
+      {
+        "name": "The Communal Constraint Chain",
+        "chain": [
+          "C152",
+          "C153",
+          "C156",
+          "C157",
+          "C155",
+          "C158"
+        ],
+        "conclusion_id": "C158",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Informational Deficit Chain",
+        "chain": [
+          "C160",
+          "C161",
+          "C167",
+          "C166",
+          "C164"
+        ],
+        "conclusion_id": "C164",
+        "strength": "strong"
+      },
+      {
+        "name": "The Reading-Communication Analogy",
+        "chain": [
+          "C159",
+          "C164",
+          "C170",
+          "C171"
+        ],
+        "conclusion_id": "C171",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Monitoring Requirement",
+        "chain": [
+          "C173",
+          "C174",
+          "C172",
+          "C175"
+        ],
+        "conclusion_id": "C175",
+        "strength": "strong"
+      },
+      {
+        "name": "Social Determinants of Literacy",
+        "chain": [
+          "C178",
+          "C177",
+          "C179"
+        ],
+        "conclusion_id": "C179",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0126998,
+    "duration_s": 155.41821455955505
+  }
+}

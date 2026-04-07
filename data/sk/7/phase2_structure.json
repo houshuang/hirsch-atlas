@@ -1,0 +1,372 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "High historical scores provide the empirical basis for not rejecting historical methods."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If the present isn't inherently superior (as shown by SAT declines), then historical methods should remain valid options."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C39",
+        "relationship": "depends-on",
+        "explanation": "The necessity of shared knowledge for literacy depends on the theoretical need for a 'linguistic wavelength' for communication."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "Attributing the SAT decline to child-centered theories provides the causal link for claiming these methods impaired national stability."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "The call for lock-step education relies on the definition of a normalized national language as a set of uniform conventions."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The principle that one must master conventions before resisting them justifies the use of standardized (lock-step) early instruction."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The abandonment of phonics is cited as a specific mechanism by which child-centered theory caused score declines."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The logistical inefficiency of 'centers' supports the claim that student-centered learning has been counter-productive."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "The shift toward individualization created the need for readability levels to manage students reading alone."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "The loss of collective text preparation made simpler (dumbed-down) texts necessary for student comprehension."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C12",
+        "relationship": "supports",
+        "explanation": "The historical shift to student-centered instruction necessitated the theoretical justification that reading is a general skill with levels."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "Methodological failures in word frequency data support the claim that the general skill theory is psycholinguistically incorrect."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The failure of formulas to account for polysemy undermines the theoretical validity of 'reading levels'."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The political impossibility of topic standards is the driving force behind CCSS adopting readability levels."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The use of grade bands to hide formula inconsistency demonstrates the tactical nature of adopting readability levels over topics."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C23",
+        "relationship": "depends-on",
+        "explanation": "If topic knowledge determines readability, then formulas ignoring that knowledge are inherently defective."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C30",
+        "relationship": "supports",
+        "explanation": "The normative claim that children should not select their curriculum underpins the empirical claim that doing so has impaired the nation."
+      },
+      {
+        "from_id": "2.C9",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "C31's critique of readability formulas as 'devious' relies on the premise that the underlying theory of reading as a general skill is fallacious."
+      },
+      {
+        "from_id": "6.C51",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "If general reading skills like 'text complexity' do not exist, then readability formulas designed to measure them are necessarily defective."
+      },
+      {
+        "from_id": "1.C18",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "The claim that the practice is 'compelled' by student-centered learning assumes that Romantic/student-centered ideology is the dominant institutional framework."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "Visible student 'rapt attention' in a teacher-led setting is a reliable proxy for high-quality instruction and effective learning outcomes.",
+        "is_explicit": false,
+        "vulnerability": "Engagement does not always equal retention or mastery; a photo captures a moment, not a curriculum's long-term efficacy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C7",
+        "warrant_text": "If a significant decline in test scores coincides with a specific change in pedagogical theory, and other factors (like integration) don't align with the timing, the pedagogical change is the cause.",
+        "is_explicit": true,
+        "vulnerability": "The 'post hoc ergo propter hoc' fallacy; other unmeasured variables like economic shifts or cultural changes in the 1960s could be the cause."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E8",
+        "claim_id": "C39",
+        "warrant_text": "If technical tools for measuring text complexity (readability formulas) are inconsistent and unscientific, then the only reliable way to ensure literacy is to control the content (shared knowledge) itself.",
+        "is_explicit": false,
+        "vulnerability": "The failure of current formulas doesn't prove that shared knowledge is the *only* or even the best solution; better formulas might exist."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C11",
+        "warrant_text": "A documented decline in text difficulty that correlates chronologically with the implementation of a new pedagogical tool (leveling) suggests a causal link.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not prove causation; other factors like changes in student demographics or teacher training could influence text selection."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C13",
+        "warrant_text": "The timeline of a tool's creation and its original intended use (formula for writers) indicates it was an external patch applied to solve a pre-existing crisis in the classroom.",
+        "is_explicit": true,
+        "vulnerability": "A tool can be successfully adapted for a purpose different from its inventor's original intent."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "6.C51",
+        "claim_id": "C31",
+        "warrant_text": "If a measurement tool (readability formula) omits the primary causal factor of the phenomenon it measures (topic knowledge), it is scientifically invalid and its continued use must be explained by factors other than scientific accuracy.",
+        "is_explicit": true,
+        "vulnerability": "Proponents might argue that readability formulas are meant to measure linguistic accessibility (syntax/vocabulary) independent of content, serving a different purpose than assessing comprehension of specific topics."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "1.C18",
+        "claim_id": "C31",
+        "warrant_text": "Institutions will adopt technically flawed methods if those methods protect a core ideological commitment that would otherwise be threatened by more accurate alternatives.",
+        "is_explicit": false,
+        "vulnerability": "The adoption of these formulas may be due to bureaucratic inertia, market demand from publishers, or the need for quantifiable metrics in a decentralized system, rather than a conscious effort to protect an ideology."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C34",
+        "to_id": "C33",
+        "missing_step": "Establish that SAT scores from the 1940s-60s are directly comparable to modern scores despite changes in test composition and demographics.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C41",
+        "missing_step": "Demonstrate that the social injustice and lack of unity mentioned are directly caused by reading score declines rather than broader economic or political factors.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C11",
+        "to_id": "C30",
+        "missing_step": "Evidence that 'dumbing down' elementary texts directly leads to lower performance in adult-level civic and professional domains.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C24",
+        "to_id": "C30",
+        "missing_step": "The assumption that any group-centered language instruction must be 'topic-centered' rather than focused on shared linguistic structures alone.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "6.C51",
+        "to_id": "C31",
+        "missing_step": "Evidence that educational policy-makers are aware of the scientific defects of readability formulas yet choose to use them anyway.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C31",
+        "to_id": "6.C30",
+        "missing_step": "Establishing that replacing readability formulas with topic-based standards would be politically feasible if the 'student-centered' ideology were removed.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "The SAT score decline was largely a result of the 'compositional effect'—as more students from diverse socio-economic backgrounds began taking the test, the average score naturally dipped without reflecting a decline in school quality.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C2",
+        "objection": "'Lock-step' education and standardized 'readers' can be used as tools of cultural hegemony that marginalize non-dominant dialects and home cultures.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C36",
+        "objection": "Individualized 'centers' allow for differentiated instruction that can address the specific needs of students at different levels, which a 'one-size-fits-all' model might fail to do.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C19",
+        "objection": "Psycholinguists generally agree that while knowledge matters, there are also cross-domain cognitive processes in reading (e.g., fluency, decoding, and syntax) that exhibit 'general skill' characteristics.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C21",
+        "objection": "CCSS grade bands and readability formulas might be intended to preserve local school board autonomy and 'teacher-as-professional' discretion rather than to avoid political conflict.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C30",
+        "objection": "National competence declines could be attributed to socioeconomic inequality, the rise of digital entertainment over reading, or broader cultural shifts toward anti-intellectualism rather than specific pedagogical choices.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C31",
+        "objection": "Readability formulas are not 'devious' but represent a pragmatic compromise for a diverse, pluralistic nation where choosing 'Common Core State Topic Standards' would trigger insurmountable 'culture war' conflicts over whose knowledge is taught.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C31",
+        "objection": "Individual formulas may disagree, but they provide a rough, objective 'floor' for complexity that prevents students from being assigned materials that are syntactically and morphologically beyond their developmental reach, regardless of their topic knowledge.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Linguistic Wavelength Chain",
+        "chain": [
+          "C3",
+          "C4",
+          "C35",
+          "C5",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "strong"
+      },
+      {
+        "name": "The Historical Validation Chain",
+        "chain": [
+          "E1",
+          "C1",
+          "E2",
+          "C34",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pedagogical Failure Chain",
+        "chain": [
+          "C8",
+          "C9",
+          "C10",
+          "C7",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Political Evasion Chain",
+        "chain": [
+          "C28",
+          "C27",
+          "C22",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "The Formula Failure Chain",
+        "chain": [
+          "C16",
+          "C17",
+          "C18",
+          "C25",
+          "C23"
+        ],
+        "conclusion_id": "C23",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pedagogical Decline Chain",
+        "chain": [
+          "C13",
+          "C14",
+          "C11",
+          "C24",
+          "C30"
+        ],
+        "conclusion_id": "C30",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Ideological Preservation of Failed Metrics",
+        "chain": [
+          "2.C9",
+          "2.C13",
+          "6.C51",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0027644,
+    "duration_s": 45.76768660545349
+  }
+}

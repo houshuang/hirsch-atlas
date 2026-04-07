@@ -1,0 +1,836 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C113",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that Standard English is the proper language for teaching (C1) relies on the theoretical premise that a 'grapholect' is the only system capable of providing a transdialectal norm (C113)."
+      },
+      {
+        "from_id": "C118",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The pragmatic utility of normalized speech in mitigating social anomie and facilitating communication across diverse groups provides the functional justification for teaching Standard English."
+      },
+      {
+        "from_id": "C109",
+        "to_id": "C113",
+        "relationship": "depends-on",
+        "explanation": "The status of a grapholect as a transcendent norm (C113) is structurally justified by the principle that grammar and pronunciation can be normalized in the same way as spelling (C109)."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The universal law of dialect change (C3) provides the context for understanding why 'vulgar' speech is actually a continuation of historical linguistic trends (C6)."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C1",
+        "relationship": "refines",
+        "explanation": "By framing prescriptive grammar as 'language planning' rather than mere elitism, the author provides a pedagogical defense for the standardization required in C1."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "C11 explains the specific anomaly (C10) to the general law of linguistic divergence established in C9."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C13",
+        "relationship": "refines",
+        "explanation": "C13 generalizes the specific explanation for the failure of Sweet's prediction in English (C11) into a universal principle for national languages."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "If mass literacy fixes the written language, the author argues this stability exerts a downward pressure that fixes the spoken language as well."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The necessity of normalized spelling for a national language (C20) is predicated on its function of maintaining inter-regional connectivity (C17)."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The threat of regional fragmentation through phonetic spelling reinforces the need for a non-phonetic, normalized orthography."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The pragmatic impossibility of reform (C21) is used as evidence for the permanent conservative power of mass literacy (C24)."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "Mutual intelligibility is presented as the primary value served by normalization, justifying the requirement for standard orthography."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "The characterization of the school primer as an egalitarian manifesto provides the theoretical basis for the claim that mass education removes the elitism from written speech."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "The enlargement of communicability depends on the functional efficiency gained through orthographic and grammatical inflexibility."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "Lexical tolerance allows for a wider range of expressible meanings, contributing to the overall range of communicability."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The increased range of communicability over space and time is what allows a standardized language to function as a lingua franca across diverse communities."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "The historical inevitability of conservatism is predicated on the material and social conditions of the printing press and mass education."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "The fact that this force is beyond the power of any government to oppose reinforces the claim of its inevitability."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C45",
+        "relationship": "supports",
+        "explanation": "The existence of misguided pedagogical experiments is cited as evidence for the confusion caused by misapplying the doctrine of universal correctness."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "If the assertion of equality is a value judgment rather than a scientific fact, then equality does not logically follow from the scientific fact of internal correctness."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "The ability to judge dialects objectively on specific criteria refutes the idea that they must be considered 'equal' in all scientific contexts."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C52",
+        "relationship": "depends-on",
+        "explanation": "The claim that a national written language is a different kind of system relies on the evidence that it is formed through conscious, normative, and academic intervention rather than natural oral evolution."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "The existence of unique vocabulary and syntax not found in any dialect base proves the written system is distinct from oral language."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "If the written system is a fundamentally different kind of system, it cannot be categorized as a regional or class dialect."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "Defining written languages as non-dialects directly contradicts the claim that they are specifically class-based dialects."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "If a language belongs to no specific class (not a class language), it is by definition transdialectal."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "The transdialectal nature of the language (belonging to no group) provides the basis for its authority as a neutral, normative standard."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C65",
+        "relationship": "supports",
+        "explanation": "The fixity and promulgation of norms are historical facts that establish the grapholect's normative status regardless of ideology."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C69",
+        "relationship": "depends-on",
+        "explanation": "If a grapholect were merely a class dialect, it could not serve as the basis for a classless society; its transdialectal status is foundational to its democratic potential."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C72",
+        "relationship": "supports",
+        "explanation": "The ability of mass literacy to reduce isolation and subjugation provides the empirical basis for why a classless society requires a normative grapholect."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C85",
+        "relationship": "supports",
+        "explanation": "The general principle that children drive language change supports the specific observation that they prefer peer-group language over parental speech."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C86",
+        "relationship": "supports",
+        "explanation": "Because children favor peers, and peer language in technical societies is driven toward the standard by media, the standard inevitably spreads."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C80",
+        "relationship": "supports",
+        "explanation": "The specific mechanism of child-led standardization through technology explains the global trend of dialect eradication."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The claim that individuality is preserved within grapholects justifies the normative stance that educators should not encourage linguistic deviations."
+      },
+      {
+        "from_id": "C88",
+        "to_id": "C87",
+        "relationship": "supports",
+        "explanation": "The Darwinian survival of useful lexical items explains why grapholects are tolerant of lexical additions while remaining rigid in grammar."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C91",
+        "relationship": "depends-on",
+        "explanation": "The claim that normalized speech reduces anomie assumes that social groups are already being normalized by larger structural forces (government/industry)."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "The reduction of social anomie is a primary benefit used to outweigh the psychological and aesthetic costs of losing dialects."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "The utility of standard language for communicating with unknown audiences is a key 'profit' in the cost-benefit analysis."
+      },
+      {
+        "from_id": "C100",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "Removing the 'double learning' burden from the disadvantaged is a significant moral/social benefit of normalization."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "The observation of a 'natural' and 'inexorable' evolutionary trend serves as the basis for the normative duty to promote that trend."
+      },
+      {
+        "from_id": "C104",
+        "to_id": "C95",
+        "relationship": "refines",
+        "explanation": "C104 and C95 express the same normative conclusion; C95 frames it as working with natural evolution."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "C103",
+        "relationship": "supports",
+        "explanation": "The fact that children master the standard language more easily than their parents provides the mechanism for the generational shift toward a common language."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E20",
+        "claim_id": "C1",
+        "warrant_text": "If a written standard allows a child to read a text from 200 years ago without difficulty, then the preservation of that standard is essential for diachronic (across time) communication.",
+        "is_explicit": false,
+        "vulnerability": "Focuses exclusively on readability of the past; does not account for the potential need for the language to evolve to express modern concepts or identities."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E17",
+        "claim_id": "C113",
+        "warrant_text": "Because major European languages were formed through conscious normalization rather than regional evolution, the 'artificiality' of a standard is not a valid argument against its use as a transcendent norm.",
+        "is_explicit": true,
+        "vulnerability": "The historical success of state-sponsored normalization does not inherently justify its continued imposition in a pluralistic, democratic context."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C1",
+        "warrant_text": "Linguistic experts (like Bradley) can identify when a language has reached a state of 'fixity' that makes it suitable for standardized instruction.",
+        "is_explicit": false,
+        "vulnerability": "Linguistic 'fixity' is often a subjective perception or an imposition of power rather than an objective scientific state."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C11",
+        "warrant_text": "If a historically consistent trend of linguistic divergence is halted precisely when mass literacy emerges, then mass literacy is the causal agent for that stabilization.",
+        "is_explicit": true,
+        "vulnerability": "Correlation does not equal causation; other factors like electronic mass media or global trade might be the true stabilizers."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E19",
+        "claim_id": "C24",
+        "warrant_text": "The inability of deliberate, logical reforms to displace an 'illogical' but established spelling system proves that the system is anchored by a massive, immovable social force.",
+        "is_explicit": false,
+        "vulnerability": "Failure of reform might result from poor implementation or political apathy rather than the inherent 'conservatism' of the literate population."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E22",
+        "claim_id": "C11",
+        "warrant_text": "The recession of traditional oral dialects in the face of a standard language indicates that the standard is an 'artificial' force powerful enough to override natural evolution.",
+        "is_explicit": true,
+        "vulnerability": "Dialect recession might be driven by economic mobility and urbanization rather than the 'literacy' mechanism the author emphasizes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C30",
+        "claim_id": "C29",
+        "warrant_text": "If a tool previously reserved for an elite (literacy) is distributed universally via public institutions (mass education) for the purpose of equality, its social function shifts from exclusion to inclusion.",
+        "is_explicit": true,
+        "vulnerability": "Institutional distribution does not guarantee social equity if the underlying standard still reflects the cultural capital of the original elite."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C38",
+        "claim_id": "C35",
+        "warrant_text": "Large-scale social systems with high fixed costs (millions of printed books and a universally trained population) exhibit path dependency, making structural changes like spelling reform practically impossible.",
+        "is_explicit": false,
+        "vulnerability": "Technological shifts (like digital media) can lower the costs of non-standardized communication or automate translation between standards."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C36",
+        "claim_id": "C34",
+        "warrant_text": "In a communication system, reducing noise (variation in form) and increasing the signal's reach (mass literacy) necessarily increases the system's efficiency.",
+        "is_explicit": true,
+        "vulnerability": "Extreme inflexibility can make a language brittle and unable to adapt to new social or technical realities, potentially decreasing its long-term utility."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C56",
+        "claim_id": "C52",
+        "warrant_text": "If a linguistic system contains essential structural elements (syntax, lexis) that are entirely absent from its supposed base, it must be classified as a separate system rather than a variation of that base.",
+        "is_explicit": false,
+        "vulnerability": "A critic could argue that all 'new' features in written speech are simply extensions or formalizations of existing oral potential."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C61",
+        "claim_id": "C65",
+        "warrant_text": "Superior lexical resources and greater communicative range constitute a functional 'fact' of superiority in a specific medium (writing) that outweighs ideological claims of dialect equality.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that quantity of resources is the primary metric for 'normative status'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C53",
+        "claim_id": "C57",
+        "warrant_text": "If a language is an artificial construct created by diverse scholars across time for national use, its origins are intellectual and functional rather than socio-economic or class-specific.",
+        "is_explicit": false,
+        "vulnerability": "The scholars and academies (the 'narrow social stratum') mentioned by Guxman are themselves part of a specific class, potentially making the 'artificial' language a class instrument by origin."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C81",
+        "claim_id": "C80",
+        "warrant_text": "Trends observed in historically strong dialect regions (like Germany) are leading indicators for global linguistic developments in technical societies.",
+        "is_explicit": false,
+        "vulnerability": "Regional resistance or cultural specificities might make German standardization an outlier rather than a global rule."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C70",
+        "claim_id": "C71",
+        "warrant_text": "Increasing the temporal and social scope of communication (between the living and the dead) inherently reduces the isolation of the individual.",
+        "is_explicit": true,
+        "vulnerability": "Access to high culture/history does not necessarily translate to social or economic empowerment for subjugated groups."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C86",
+        "claim_id": "C80",
+        "warrant_text": "Mass media (television) acts as a universal peer-group influences that overrides local, family-based oral traditions.",
+        "is_explicit": true,
+        "vulnerability": "Media can also be used to revitalize dialects or create new, non-standard urban slangs that persist alongside the standard."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Leopold's report on German dialects (1959)",
+        "claim_id": "C103",
+        "warrant_text": "Linguistic trends observed in persistently dialect-heavy regions (like Germany) are representative of universal tendencies in modern, technically advanced societies.",
+        "is_explicit": true,
+        "vulnerability": "National cultures differ in their attachment to local identity; Germany's post-war centralization may not map perfectly to other cultures with different political histories."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Jespersen's observation on unknown audiences",
+        "claim_id": "C93",
+        "warrant_text": "The primary function of language is communicative efficiency across the widest possible distance and audience.",
+        "is_explicit": false,
+        "vulnerability": "Language also serves functions of identity, group cohesion, and artistic nuance that might be sacrificed for the sake of 'unknown audience' efficiency."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "Gans's research on peer groups",
+        "claim_id": "C98",
+        "warrant_text": "Peer group influence is a more powerful determinant of language acquisition than parental influence in mobile, modern societies.",
+        "is_explicit": true,
+        "vulnerability": "In segregated or highly stable communities, parental and local dialect influence may remain dominant regardless of national media."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "C1",
+        "missing_step": "A normative justification for why 'vulgar' speech (which follows the natural direction of the language) should be suppressed in favor of an 'artificial' standard in writing.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C118",
+        "to_id": "C1",
+        "missing_step": "Evidence that teaching a single standard actually reduces social anomie rather than creating new forms of social exclusion for those who struggle to master it.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C14",
+        "missing_step": "A mechanism explaining how the 'fixity' of a visual medium (writing) overrides the physical/phonetic drift of the auditory medium (speech).",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C21",
+        "to_id": "C24",
+        "missing_step": "The assumption that the current conditions of mass literacy and the 'vast library' will persist indefinitely without technological or social disruptions.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C17",
+        "to_id": "C20",
+        "missing_step": "Establishment that no other system (such as a shared ideographic system like Chinese) could achieve national unity without normalized spelling of the phonetic base.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C29",
+        "to_id": "C33",
+        "missing_step": "A shared standard must be functionally superior for communication, not just democratically distributed, to serve as a genuine lingua franca.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C44",
+        "to_id": "C45",
+        "missing_step": "Descriptive linguistic truths (all dialects are rule-governed) do not automatically provide a normative basis for classroom instruction in a specific functional medium (writing).",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C58",
+        "to_id": "C55",
+        "missing_step": "A bridge explaining why 'isolation' from a group leads to 'normative authority' rather than simply 'irrelevance'.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C51",
+        "to_id": "C57",
+        "missing_step": "Evidence that the 'narrow social stratum' that created the language (per Guxman) did not infuse it with their own class-specific biases.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C71",
+        "to_id": "C69",
+        "missing_step": "Linguistic normalization is the primary or sufficient lever for social class dissolution.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C82",
+        "to_id": "C80",
+        "missing_step": "Anecdotal observations of American Black dialects are representative of a global trend toward standardization.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C103",
+        "to_id": "C104",
+        "missing_step": "Human agency should accelerate or align with 'natural' evolutionary processes rather than resisting them to preserve existing diversity.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C91",
+        "to_id": "C92",
+        "missing_step": "The psychological need for 'group solidarity' filled by dialects is less essential for human flourishing than the 'reduction of anomie' provided by the standard language.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "Standard English is not a 'transcendent' norm but a 'class dialect' of the educated elite; teaching it exclusively reinforces existing social hierarchies and devalues the native 'grapholects' of marginalized groups.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C113",
+        "objection": "The concept of a 'transdialectal' grapholect is a myth; all writing is situated in specific cultural and social contexts, and there is no truly 'context-free' language.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C118",
+        "objection": "Prioritizing communicative efficiency over linguistic diversity can lead to 'linguistic imperialism,' where the nuances of local dialects and their unique ways of knowing are lost.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C11",
+        "objection": "The stabilization of English is primarily a result of the broadcast era (radio/TV), which provides a high-frequency auditory model of 'Standard English' that literacy alone cannot provide.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C24",
+        "objection": "Mass literacy in the digital age (social media, texting) has actually accelerated linguistic innovation and divergence through 'orthographic play' and new dialects, contradicting the 'permanent conservatism' thesis.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C26",
+        "objection": "Mutual intelligibility is achievable through exposure to diverse dialects (passive competence) rather than strict normalization of everyone's active pronunciation and grammar.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C29",
+        "objection": "Mass education may teach the standard, but it often functions as a 'sorting' mechanism where mastery of the elite-origin standard continues to provide social advantages to those from higher socio-economic backgrounds.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C35",
+        "objection": "Languages have historically undergone radical shifts even after the advent of printing (e.g., the Turkish alphabet reform), suggesting that government-led change is possible under specific political conditions.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C45",
+        "objection": "The confusion among teachers may stem from poor training in how to bridge the gap between home dialects and the standard, rather than a flaw in the doctrine of universal correctness itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C57",
+        "objection": "Even if a grapholect is technically 'artificial' and 'transdialectal,' it functions as a class language because only the elite have the educational resources to master its artificial rules, thereby using it as a tool for social exclusion.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C47",
+        "objection": "Linguists use the 'equality' doctrine not as a claim of functional identity, but as a methodological necessity to prevent prescriptivist bias from distorting scientific observation.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C65",
+        "objection": "The 'normative status' of a grapholect is not a fixed historical fact but a contingent social agreement that can be challenged or changed by shifting political and cultural values.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C69",
+        "objection": "A normative grapholect, even if transdialectal, creates a new hierarchy between the 'literate elite' and the 'illiterate masses', merely replacing old class structures with new ones.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C80",
+        "objection": "The 'eradication' of dialects is an illusion of code-switching; speakers may use the standard for economic mobility while maintaining dialects for communal identity.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C77",
+        "objection": "Individuality expressed through a standard language is sanitized; true individuality requires the specific phonological and lexical 'flavor' of a native dialect that standard language lacks.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C100",
+        "objection": "Bidialectalism (or code-switching) may offer cognitive advantages and social flexibility that outweigh the 'burden' of learning two systems.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C103",
+        "objection": "The 'diffusion' of standard language is often a result of deliberate state policy and power dynamics (linguistic imperialism) rather than an 'inexorable natural evolution'.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C91",
+        "objection": "Normalization may actually increase anomie by stripping individuals of their organic, local identities and replacing them with a thin, artificial national identity.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Stability and Continuity Chain",
+        "chain": [
+          "C3",
+          "C4",
+          "C113",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional/Social Utility Chain",
+        "chain": [
+          "C115",
+          "C118",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Language Planning Defense",
+        "chain": [
+          "C108",
+          "C109",
+          "C113",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Literacy Stabilization Chain",
+        "chain": [
+          "C9",
+          "C10",
+          "C11",
+          "C13",
+          "C22",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "strong"
+      },
+      {
+        "name": "The Orthography and Intelligibility Chain",
+        "chain": [
+          "C26",
+          "C17",
+          "C18",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Spoken-Written Feedback Loop",
+        "chain": [
+          "C13",
+          "C14",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Democratic Stabilization Chain",
+        "chain": [
+          "C30",
+          "C29",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Historical Inevitability Chain",
+        "chain": [
+          "C38",
+          "C39",
+          "C35"
+        ],
+        "conclusion_id": "C35",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Efficiency Chain",
+        "chain": [
+          "C36",
+          "C37",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pedagogical Error Chain",
+        "chain": [
+          "C44",
+          "C46",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Fallacy of Dialectal Equality",
+        "chain": [
+          "C48",
+          "C50",
+          "C49",
+          "C47"
+        ],
+        "conclusion_id": "C47",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Ontological Independence of the Grapholect",
+        "chain": [
+          "C53",
+          "C54",
+          "C56",
+          "C52",
+          "C51",
+          "C57",
+          "C58"
+        ],
+        "conclusion_id": "C58",
+        "strength": "strong"
+      },
+      {
+        "name": "The Fact of Normativity",
+        "chain": [
+          "C60",
+          "C61",
+          "C62",
+          "C63",
+          "C65",
+          "C66"
+        ],
+        "conclusion_id": "C65",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Democratic Grapholect Chain",
+        "chain": [
+          "C67",
+          "C71",
+          "C69",
+          "C72"
+        ],
+        "conclusion_id": "C72",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Historical Inevitability Chain",
+        "chain": [
+          "C84",
+          "C85",
+          "C86",
+          "C81",
+          "C80"
+        ],
+        "conclusion_id": "C80",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pedagogical Defense of Standards",
+        "chain": [
+          "C77",
+          "C78",
+          "C79",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Socioeconomic Justice Argument",
+        "chain": [
+          "C99",
+          "C100",
+          "C101",
+          "C92",
+          "C104"
+        ],
+        "conclusion_id": "C104",
+        "strength": "strong"
+      },
+      {
+        "name": "The Evolutionary Inevitability Argument",
+        "chain": [
+          "C98",
+          "C103",
+          "C95"
+        ],
+        "conclusion_id": "C95",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Efficiency Argument",
+        "chain": [
+          "C93",
+          "C91",
+          "C92"
+        ],
+        "conclusion_id": "C92",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0066178,
+    "duration_s": 93.38977432250977
+  }
+}

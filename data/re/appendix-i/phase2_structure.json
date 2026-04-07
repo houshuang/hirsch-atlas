@@ -1,0 +1,1065 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The claim that intellectual mistakes were made in 1989 provides the causal basis for characterizing the result as a 'débâcle' similar to a military error."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The conclusion about France's decline relies on the methodological validity of the 'natural experiment' data from 1987 to 2007."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "To link the decline to skill-based principles, the author must establish that those principles were indeed the core of the 1989 reform."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "Eliminating demographic change as a factor in stable states like Iowa strengthens the case that curricular reform was the primary cause of the US decline."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The mirroring of US and French declines justifies using France's experience as a diagnostic tool for the US."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "The transferability of the 'cure' from France to the US assumes that the underlying cognitive and educational potential of children is identical across nations."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C10",
+        "relationship": "instantiates",
+        "explanation": "The history of Germany as the 'nursery' of these ideas illustrates how 'providential individualism' spreads across borders."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "To argue that the 1989 law overthrew tradition, the author must first establish that the prior tradition (1977) was defined by commonality and unification."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The 1989 law serves as the legal mechanism for the overthrow of the previous tradition."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The shift from national culture to home culture is the core ideological evidence for the 'overthrow' of the tradition."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "Decentralization is the structural method used to dismantle the common curriculum mentioned in the main conclusion."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The prioritization of skills over facts in the law is explicitly derived from the recommendations of the Bourdieu-Gros Report."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The nonspecificity of national standards provides the void where specific factual knowledge used to be, supporting the shift to vague skills."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The presence of progressive training in the 1960s schools is the primary evidence for the later 'rooting' of these ideas."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C36",
+        "relationship": "instantiates",
+        "explanation": "The creation of new education colleges represents the institutionalization of the indoctrination process described in C36."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The teacher indoctrination represents the first of the two 'impulses' mentioned."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "Bourdieu's intellectual critique represents the second 'impulse' leading to the 1989 change."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C42",
+        "relationship": "depends-on",
+        "explanation": "To argue that methodology caused the failure, the author must first establish that methodology actually changed even while the curriculum topics remained the same."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "Specific examples of failed naturalistic methods (la méthode globale) provide the mechanism for the general failure in reading."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "Establishing that the 1989 French law followed the American model connects the two crises intellectually."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C50",
+        "relationship": "depends-on",
+        "explanation": "The conclusion about mobility is a direct response to Bourdieu's statistical claims about university demographics."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "The efficacy of the republican school in the 50s/60s is the broader claim instantiated by the specific presence of peasant children in universities."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "The specific 0.4 standard deviation decline is the primary data point justifying the claim that this is a definitive study."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C59",
+        "relationship": "depends-on",
+        "explanation": "The overall decline (0.4 SD) is the baseline for analyzing the differential impact on needy students."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C72",
+        "relationship": "supports",
+        "explanation": "By establishing that external variables like buildings and budgets remained similar, the author frames the shift as a controlled natural experiment."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C72",
+        "relationship": "supports",
+        "explanation": "Holding teacher quality constant isolates the curriculum as the independent variable in the experiment."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that curriculum disintegration caused the crisis depends on the validity of viewing the French shift as a valid natural experiment."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C64",
+        "relationship": "supports",
+        "explanation": "If literacy depends on public sphere knowledge, then schools failing to provide that knowledge makes success dependent on home environment (accidents of birth)."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "The theoretical failure to provide knowledge results in the empirical deprivation of poor children."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C65",
+        "relationship": "supports",
+        "explanation": "Depriving poor children of knowledge they don't get at home is the mechanism that intensifies social reproduction."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "The intensification of social reproduction is evidenced by the more severe decline in scores for disadvantaged students."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "The failure of the skills-based curriculum to maintain equity and achievement proves the superiority of the common-core alternative."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C69",
+        "relationship": "supports",
+        "explanation": "If common-core is theoretically and empirically superior in France, it is argued to be superior for American districts."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C71",
+        "relationship": "instantiates",
+        "explanation": "The redefining of teachers as 'guides' is a specific instance of the 'misinformation' and 'ideological conformity' in training institutes."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C83",
+        "relationship": "depends-on",
+        "explanation": "The theoretical claim that disintegrated curricula prevent success provides the causal mechanism for the empirical decline in French equity."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C85",
+        "relationship": "supports",
+        "explanation": "C84 explains why structural legislative changes have failed to rationalize the curriculum."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C83",
+        "relationship": "supports",
+        "explanation": "The failure of the 'socle' (base of knowledge) to be specific provides an instance of the ongoing curricular disintegration leading to the PISA decline."
+      },
+      {
+        "from_id": "C88",
+        "to_id": "C89",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that the French system is inegalitarian is framed as a direct refutation of Bourdieu's influential theories on social reproduction."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C89",
+        "relationship": "supports",
+        "explanation": "Wealthy parents using private tactics to bypass public schools is evidence of the systemic inequality resulting from the lack of knowledge transmission."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C89",
+        "relationship": "supports",
+        "explanation": "The specific harm to immigrant families is a primary indicator of the 'most inegalitarian' status of the French system."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C94",
+        "relationship": "depends-on",
+        "explanation": "The ideological shift toward market-driven decentralization is identified as the cause of the decline in student abilities in Sweden."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C99",
+        "relationship": "depends-on",
+        "explanation": "The claim of post-1994 widening gaps requires the premise that the pre-1994 system was egalitarian for comparison."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "C99",
+        "relationship": "supports",
+        "explanation": "The historical lack of geographic performance differences serves as a baseline to measure the failure of decentralization."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "The abandonment of state control over content (C102) is presented as the primary reason for the curriculum's loss of coherence (C107)."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "Replacing a common curriculum with individualized adaptation (C105) creates the fragmentation that defines incoherence (C107)."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "Using general skills as a 'yardstick' (C106) justifies the removal of specific shared content, leading to incoherence (C107)."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C101",
+        "relationship": "supports",
+        "explanation": "The record drop in PISA scores (C103) is the primary empirical evidence used to conclude that decentralization (C101) failed."
+      },
+      {
+        "from_id": "C111",
+        "to_id": "C101",
+        "relationship": "supports",
+        "explanation": "The decline in social equality (C111) is used as further proof that the decentralization of the 1990s failed its egalitarian promises (C101)."
+      },
+      {
+        "from_id": "C112",
+        "to_id": "C113",
+        "relationship": "supports",
+        "explanation": "Germany's rise in PISA scores (C112) provides the empirical basis for identifying curriculum specificity as the cause of improvement (C113)."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C115",
+        "relationship": "supports",
+        "explanation": "The fact that Swedish progressivism came from the Right (C116) proves that the issue transcends standard Left-Right labels (C115)."
+      },
+      {
+        "from_id": "C117",
+        "to_id": "C115",
+        "relationship": "supports",
+        "explanation": "The functional identity between the Swedish Right and French Left on education (C117) demonstrates that progressivism is a cross-ideological phenomenon (C115)."
+      },
+      {
+        "from_id": "C127",
+        "to_id": "C121",
+        "relationship": "depends-on",
+        "explanation": "The claim that core curricula have socially enabling power depends on the cognitive science principle that shared knowledge is what enables effective communication and language use."
+      },
+      {
+        "from_id": "C126",
+        "to_id": "C121",
+        "relationship": "supports",
+        "explanation": "If impoverished children need intellectual tools of power, a curriculum that narrows gaps is the primary means of providing those tools."
+      },
+      {
+        "from_id": "C123",
+        "to_id": "C124",
+        "relationship": "supports",
+        "explanation": "The historical fact that the political left once favored universalism demonstrates that child-centered individualism is not a logical requirement of leftist ideology."
+      },
+      {
+        "from_id": "C136",
+        "to_id": "C131",
+        "relationship": "depends-on",
+        "explanation": "The conclusion about French decline depends on the evidence that the 1989 Jospin law specifically institutionalized progressive pedagogical theory."
+      },
+      {
+        "from_id": "C134",
+        "to_id": "C131",
+        "relationship": "supports",
+        "explanation": "The Swedish PISA decline serves as a parallel case to the French and American declines, attributing the cause to curricular incoherence."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C129",
+        "relationship": "supports",
+        "explanation": "If core curricula have enabling power, then the policy recommendation is to focus early education on that content rather than political or ideological goals."
+      },
+      {
+        "from_id": "C132",
+        "to_id": "C139",
+        "relationship": "refines",
+        "explanation": "C139 restates C132, emphasizing that individualism is an intellectual residue rather than a logical necessity of modern politics."
+      },
+      {
+        "from_id": "C129",
+        "to_id": "C138",
+        "relationship": "supports",
+        "explanation": "C138 identifies C129 as the most important practical objective of the entire book."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C130",
+        "relationship": "opposes",
+        "explanation": "The socially enabling power of core curricula is the inverse of the disabling effect of individualism in curricula."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C5",
+        "warrant_text": "If test scores drop significantly in a population where demographics are stable, the cause must be internal to the institutional system (i.e., the schools/curriculum).",
+        "is_explicit": true,
+        "vulnerability": "External factors other than demographics, such as cultural shifts or economic changes, could still influence scores."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E23",
+        "claim_id": "C3",
+        "warrant_text": "A direct correlation between the implementation of a new pedagogical theory and a sharp, longitudinal decline in performance and equity suggests the theory is the causal agent.",
+        "is_explicit": false,
+        "vulnerability": "Post hoc ergo propter hoc fallacy; the decline could be coincident with other unmeasured social changes in France."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C5",
+        "warrant_text": "Educational reforms have a multi-decade 'sleeper effect' where the full impact on terminal student achievement (like high school exit scores) manifests 20-30 years after the initial primary school changes.",
+        "is_explicit": true,
+        "vulnerability": "Requires a complex causal mechanism to explain why the decline wasn't immediate and why subsequent reforms didn't mitigate it."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E25",
+        "claim_id": "C10",
+        "warrant_text": "If objective measures of teacher quality remain stable while student outcomes decline following a policy change, the failure lies in the system of ideas guiding the curriculum rather than the personnel.",
+        "is_explicit": false,
+        "vulnerability": "Stability in entry standards does not guarantee stability in actual classroom practice or teacher morale."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C26",
+        "claim_id": "C21",
+        "warrant_text": "If a national law replaces a mandate for a shared national culture with a mandate for individual home cultures, it has effectively ended the tradition of social unification through education.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that respecting home culture can be a more effective path toward national unity than forced assimilation."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C30",
+        "claim_id": "C36",
+        "warrant_text": "The content of teacher training programs determines the subsequent pedagogical practices and ideological commitments of the school system.",
+        "is_explicit": false,
+        "vulnerability": "Teachers may resist their training or change their views once they experience the practical realities of the classroom."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C22",
+        "claim_id": "C21",
+        "warrant_text": "In a centralized system, a single legislative change is sufficient to effect a total and immediate transformation of the entire national educational landscape.",
+        "is_explicit": true,
+        "vulnerability": "Bureaucratic inertia and local resistance can often prevent centralized laws from being implemented as intended on the ground."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C41",
+        "claim_id": "C42",
+        "warrant_text": "If student outcomes decline while curriculum content is fixed but teaching methodology changes, the change in methodology is the primary causal factor.",
+        "is_explicit": true,
+        "vulnerability": "Ignores external socioeconomic shifts, demographic changes, or teacher quality changes that occurred simultaneously."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C50",
+        "claim_id": "C52",
+        "warrant_text": "The successful entry of individuals from the lowest economic class into elite academic institutions is sufficient proof of a system's capacity for social mobility.",
+        "is_explicit": false,
+        "vulnerability": "A 'survivorship bias' flaw; the success of a few does not prove the system is effective for the majority of that class."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C51",
+        "claim_id": "C50",
+        "warrant_text": "The existence of a successful critic of a system who was educated by that system constitutes a performative contradiction of the critic's claim that the system is repressive.",
+        "is_explicit": true,
+        "vulnerability": "An ad hominem variation; an individual's success can be an exception that proves a general rule of exclusion."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C58",
+        "claim_id": "C57",
+        "warrant_text": "Large-scale, longitudinal standardized test data from a centralized national system provides more definitive causal evidence than decentralized or smaller-scale studies.",
+        "is_explicit": false,
+        "vulnerability": "Correlation in national data does not equal causation without controlling for concurrent societal changes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C61",
+        "claim_id": "C72",
+        "warrant_text": "In social systems, if one major policy variable changes while infrastructure and resource variables remain static, the resulting changes in outcome can be attributed to that policy change.",
+        "is_explicit": true,
+        "vulnerability": "Latent variables like demographic shifts, changes in student motivation, or external cultural influences (e.g., technology) may not be captured by 'buildings and budgets'."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C66",
+        "claim_id": "C65",
+        "warrant_text": "Education acts as an equalizer only when it provides the specific cultural capital that the market and public sphere demand, which disadvantaged homes cannot provide.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that the 'enabling knowledge' of the wealthy is the only factor in social mobility; ignores structural economic barriers or social networks."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C78",
+        "claim_id": "C68",
+        "warrant_text": "Direct comparative performance data (traditional vs. progressive) is the most reliable metric for determining the superiority of one pedagogical philosophy over another.",
+        "is_explicit": true,
+        "vulnerability": "Performance on standardized tests (phonics/dictation) may not capture long-term critical thinking or creativity, which progressives claim to prioritize."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C83",
+        "claim_id": "C89",
+        "warrant_text": "A precipitous drop in school equity rankings in international comparisons (PISA) is prima facie evidence that a school system has become the most inegalitarian in its region.",
+        "is_explicit": false,
+        "vulnerability": "PISA metrics for 'equity' may prioritize different factors than the author's definition of 'inegalitarian,' and 'most inegalitarian in Europe' is a broader claim than the 2012 PISA data alone supports."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C90",
+        "claim_id": "C81",
+        "warrant_text": "If public schooling becomes 'random' in content, only those with external social/economic capital can provide the missing structure necessary for academic success.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that private tactics (neighborhood selection) are primarily about curriculum content rather than social networking or peer effects."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C100",
+        "claim_id": "C94",
+        "warrant_text": "A sharp, system-wide decline in core competencies (reading, math) immediately following structural decentralization is caused by that decentralization.",
+        "is_explicit": false,
+        "vulnerability": "Natural experiment assumption: ignores other potential variables like changes in demographics, teacher training, or the broader economic environment in 1990s Sweden."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C103",
+        "claim_id": "C101",
+        "warrant_text": "A direct correlation between a major policy shift (decentralization) and a massive, unprecedented decline in objective performance metrics (PISA) indicates a failure of that policy.",
+        "is_explicit": true,
+        "vulnerability": "External factors like immigration, demographic shifts, or economic changes occurring between 2000 and 2012 could be the true causes of the decline."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C112",
+        "claim_id": "C113",
+        "warrant_text": "If a nation reverses an educational decline specifically after implementing curriculum specificity, that specificity is the most likely causal agent of the recovery.",
+        "is_explicit": false,
+        "vulnerability": "Germany may have implemented other 'PISA Schock' reforms (e.g., school hours, teacher pay) simultaneously with the curriculum changes."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C102",
+        "claim_id": "C107",
+        "warrant_text": "Educational 'coherence' is defined by a centralized, predictable sequence of content; therefore, the absence of such a sequence is by definition incoherence.",
+        "is_explicit": false,
+        "vulnerability": "A decentralized system could still be 'coherent' if teachers align voluntarily or follow professional standards without state mandates."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C136",
+        "claim_id": "C131",
+        "warrant_text": "If a national educational system shifts its pedagogy and subsequently experiences a sharp decline in results across multiple metrics, the pedagogical shift is the most likely causal agent.",
+        "is_explicit": false,
+        "vulnerability": "Other concurrent social changes (immigration, economic shifts, teacher quality) might account for the decline."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C127",
+        "claim_id": "C121",
+        "warrant_text": "Since literacy and social interaction depend on shared cognitive frameworks, a curriculum that standardizes these frameworks will necessarily reduce communication barriers between socio-economic groups.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive science may show shared knowledge is necessary, but doesn't prove it is sufficient to overcome systemic poverty."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C137",
+        "claim_id": "C131",
+        "warrant_text": "A decline in PISA scores relative to other nations following a specific curriculum reform indicates that the reform failed to meet international standards of proficiency.",
+        "is_explicit": false,
+        "vulnerability": "International tests like PISA may not capture the specific goals or cultural values of a nation's specific educational reform."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C123",
+        "claim_id": "C124",
+        "warrant_text": "If an ideology has historically held contradictory positions on a subject, that subject cannot be said to have an 'inherent logical connection' to that ideology.",
+        "is_explicit": true,
+        "vulnerability": "Ideologies evolve over time; what was logically consistent in the 18th century may no longer be in the 21st."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C8",
+        "missing_step": "Establishing that no other major educational or social interventions occurred between 1971 and today that should have reversed the 1930s-initiated decline.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C14",
+        "to_id": "C13",
+        "missing_step": "Proof that the specific 'cure' (a return to common curriculum) is politically and logistically feasible in the US's decentralized system compared to France's centralized one.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C6",
+        "to_id": "C5",
+        "missing_step": "A clear mechanical explanation of how progressive methods in the 1930s specifically lead to a failure in SAT-level verbal skills thirty years later.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C36",
+        "to_id": "C38",
+        "missing_step": "The 1960s-trained teachers must have reached positions of sufficient administrative or political power by 1989 to influence the Loi Jospin.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C28",
+        "to_id": "C21",
+        "missing_step": "A curriculum that reflects 'well-off' culture cannot be made accessible to poor children without abandoning the curriculum's commonality.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C50",
+        "to_id": "C52",
+        "missing_step": "The percentage of peasant children in universities was high enough to be statistically significant rather than anecdotal.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C46",
+        "to_id": "C56",
+        "missing_step": "The political desire for change following student revolts directly translated into the specific technical adoption of American-style child-centrism.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C58",
+        "to_id": "C59",
+        "missing_step": "The 0.4 standard deviation decline was not uniform, but concentrated in lower-income deciles.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C72",
+        "to_id": "C80",
+        "missing_step": "Establishing that no other significant national event (economic recession, immigration surge) occurred in France between 1987 and 2007 that would disproportionately affect student scores.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C68",
+        "to_id": "C69",
+        "missing_step": "The cultural and institutional differences between France's centralized education system and America's decentralized, locally-controlled system do not impact the effectiveness of a common curriculum.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C89",
+        "to_id": "C92",
+        "missing_step": "A breakdown in educational transmission leads to a breakdown in shared civic values and mutual understanding sufficient to prevent social conflict.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C94",
+        "to_id": "C95",
+        "missing_step": "A drop in average ability levels necessarily correlates with a widening of the gap between the top and bottom socioeconomic tiers.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C113",
+        "to_id": "C114",
+        "missing_step": "Proof that German teachers actually followed the new guides more strictly than previous ones.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C101",
+        "to_id": "C108",
+        "missing_step": "Exclusion of non-ideological factors for reform, such as cost-cutting through decentralization or political pressure for school choice.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C136",
+        "to_id": "C131",
+        "missing_step": "Establishment that the decline in France was not primarily caused by demographic shifts in student population during the same period.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C121",
+        "to_id": "C129",
+        "missing_step": "A demonstration that 'hard, specific content' can be taught without embedding the very political biases the author seeks to avoid.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C140",
+        "to_id": "C131",
+        "missing_step": "Evidence that local curriculum design (Swedish model) is inherently less coherent than national design.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C5",
+        "objection": "The SAT score decline was primarily driven by the 'compositional effect'—the massive expansion of the test-taking pool to include students from lower socio-economic backgrounds who previously did not aspire to college.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C3",
+        "objection": "France's decline in equity could be attributed to the increased concentration of non-French speaking immigrant populations in specific suburbs (banlieues) rather than the curriculum itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C1",
+        "objection": "Comparing a decline in standardized test scores to a military defeat (the 1940 Fall of France) is a category error that trivializes the human cost of war and exaggerates the impact of pedagogical shifts.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C32",
+        "objection": "The focus on 'all-purpose skills' was not an abandonment of knowledge but a pedagogical strategy to make knowledge more transferable and relevant to a modern economy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C21",
+        "objection": "The Loi Jospin was a response to the failure of the old rigid system to accommodate a more diverse student population, rather than a top-down ideological 'overthrow' based on 'Romantic' whims.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C36",
+        "objection": "The adoption of 'la nouvelle éducation' may have been a response to global educational trends and scientific research into child development rather than simple 'indoctrination' in training colleges.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C50",
+        "objection": "Bourdieu's point was not that mobility is impossible, but that the 'cultural capital' required for success is unfairly distributed, making the 'meritocracy' a reinforcement of existing class privilege for the vast majority.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C42",
+        "objection": "The increase in failures may have been caused by the massification of secondary education—bringing in students who previously would have left school early—rather than the failure of progressive methods.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C58",
+        "objection": "A 0.4 standard deviation drop in scores over several decades could be attributed to the rise of digital media and the decline of a general culture of reading, rather than specific classroom curriculum changes.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C80",
+        "objection": "The decline in French scores might reflect a change in the student population (e.g., higher percentages of non-native speakers) rather than a failure of the curriculum itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C68",
+        "objection": "The 'traditional' curriculum in France before 1990 may have been effective for a specific elite but might have failed a modern, diverse student body even if it hadn't been changed.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C73",
+        "objection": "Medical trials compare interventions to a 'no-treatment' or 'placebo' control, whereas education always has an intervention; the 'natural experiment' lacks the randomization necessary for such a moral condemnation.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C89",
+        "objection": "The increase in inequality in French schools may be driven by larger socio-economic shifts and demographic changes (mass immigration) rather than the pedagogical shift away from transmission.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C94",
+        "objection": "Sweden's PISA decline could be attributed to the specific 'free market' model (vouchers and private competition) rather than the pedagogical 'skills delusion' or decentralization of content.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C86",
+        "objection": "A 'base of knowledge' (socle) might be intentionally vague to allow for local teacher autonomy and professional judgment, which some argue improves student engagement.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C101",
+        "objection": "The failure of the Swedish system was not due to decentralization itself, but to the simultaneous introduction of market-based competition and school vouchers, which fragmented the social fabric of schools.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C113",
+        "objection": "Germany's improvement might be attributed to its dual-vocational system or increased tracking earlier in a child's life, rather than just the grade-by-grade specificity of curriculum guides.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C115",
+        "objection": "The author ignores the possibility that 'individualization' serves different ideological masters: for the Right, it promotes market choice; for the Left, it promotes equity. These are not 'functionally identical' even if they both use the word 'individualization.'",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C131",
+        "objection": "The decline in scores in France and Sweden could be attributed to increased classroom diversity and the integration of immigrant populations rather than pedagogical shifts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C129",
+        "objection": "Deciding which specific knowledge counts as 'common' or 'hard content' is itself an inherently political act that favors dominant cultural groups.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C121",
+        "objection": "Narrowing the achievement gap by standardizing knowledge might lower the ceiling for high-achieving students or stifle the creativity required for modern economies.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA4",
+        "targets_claim": "C127",
+        "objection": "Language use is dynamic and evolves within subcultures; forcing a 'common' knowledge base may marginalize valid regional or ethnic linguistic patterns.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The French Natural Experiment",
+        "chain": [
+          "C14",
+          "C20",
+          "C3",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The US Historical Causal Chain",
+        "chain": [
+          "C11",
+          "C5",
+          "C6",
+          "C9",
+          "C8"
+        ],
+        "conclusion_id": "C5",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Viral Ideology Theory",
+        "chain": [
+          "C11",
+          "C12",
+          "C10"
+        ],
+        "conclusion_id": "C10",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Institutionalization of Reform",
+        "chain": [
+          "C39",
+          "C36",
+          "C30",
+          "C38",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "Intellectual Deconstruction of Commonality",
+        "chain": [
+          "C28",
+          "C27",
+          "C32",
+          "C31",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Methodological Failure Chain",
+        "chain": [
+          "C41",
+          "C44",
+          "C42"
+        ],
+        "conclusion_id": "C42",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Mobility Rebuttal",
+        "chain": [
+          "C47",
+          "C48",
+          "C49",
+          "C50",
+          "C52"
+        ],
+        "conclusion_id": "C50",
+        "strength": "moderate"
+      },
+      {
+        "name": "The French-American Causal Parallel",
+        "chain": [
+          "C54",
+          "C56",
+          "C57",
+          "C58",
+          "C43"
+        ],
+        "conclusion_id": "C43",
+        "strength": "strong"
+      },
+      {
+        "name": "The Equity Argument",
+        "chain": [
+          "C56",
+          "C58",
+          "C59",
+          "C60"
+        ],
+        "conclusion_id": "C59",
+        "strength": "strong"
+      },
+      {
+        "name": "The French Natural Experiment",
+        "chain": [
+          "C61",
+          "C67",
+          "C72",
+          "C80"
+        ],
+        "conclusion_id": "C80",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Argument",
+        "chain": [
+          "C63",
+          "C64",
+          "C66",
+          "C65",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "strong"
+      },
+      {
+        "name": "Cross-National Application",
+        "chain": [
+          "C72",
+          "C62",
+          "C68",
+          "C69"
+        ],
+        "conclusion_id": "C69",
+        "strength": "moderate"
+      },
+      {
+        "name": "The French Equity Reversal",
+        "chain": [
+          "C81",
+          "C85",
+          "C86",
+          "C83",
+          "C89"
+        ],
+        "conclusion_id": "C89",
+        "strength": "strong"
+      },
+      {
+        "name": "The Swedish Decentralization Failure",
+        "chain": [
+          "C96",
+          "C97",
+          "C100",
+          "C94",
+          "C99"
+        ],
+        "conclusion_id": "C99",
+        "strength": "strong"
+      },
+      {
+        "name": "The Swedish Failure Chain",
+        "chain": [
+          "C104",
+          "C102",
+          "C107",
+          "C103",
+          "C101"
+        ],
+        "conclusion_id": "C101",
+        "strength": "strong"
+      },
+      {
+        "name": "The German Solution Chain",
+        "chain": [
+          "C109",
+          "C112",
+          "C113",
+          "C114"
+        ],
+        "conclusion_id": "C113",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Ideological Transmutation Chain",
+        "chain": [
+          "C116",
+          "C117",
+          "C118",
+          "C115"
+        ],
+        "conclusion_id": "C115",
+        "strength": "strong"
+      },
+      {
+        "name": "The Comparative Failure Chain",
+        "chain": [
+          "C136",
+          "C134",
+          "C137",
+          "C131"
+        ],
+        "conclusion_id": "C131",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Empowerment Chain",
+        "chain": [
+          "C127",
+          "C126",
+          "C121"
+        ],
+        "conclusion_id": "C121",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Depoliticization Logic",
+        "chain": [
+          "C123",
+          "C124",
+          "C132",
+          "C129",
+          "C138"
+        ],
+        "conclusion_id": "C138",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.009988200000000001,
+    "duration_s": 122.97762489318848
+  }
+}

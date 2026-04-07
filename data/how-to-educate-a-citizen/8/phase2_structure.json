@@ -1,0 +1,620 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The lack of improvement in scores provides the empirical basis for questioning the efficacy of the current content-light standards."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "If the primary reason for failure is lack of content, then a permanent improvement is logically contingent upon incorporating that content."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The requirement of specific content for national shared knowledge provides the theoretical justification for content-rich standards."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The sequential nature of math (addition before multiplication) is used as an exemplar for why all educational topics must be seeded and sequenced."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The negative effects of missing knowledge (frustration, inefficiency) demonstrate why a shared speech community is necessary for effective instruction."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "If every subject is language-dependent, then language proficiency cannot be an abstract skill but must be a social art reflecting that shared content."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The necessity of coherence for cumulative learning is one of the three pillars required for a successful curriculum."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The necessity of commonality for classroom community is the second pillar of the proposed curriculum criteria."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The observation that current standards lack the three criteria explains why they have not yet improved student outcomes."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C20",
+        "relationship": "instantiates",
+        "explanation": "Singapore's curriculum serves as a real-world instance where coherence and specificity are enforced through mandated textbooks."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "Evidence of quickly produced books with errors directly supports the claim that publishers prioritize profit and speed."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "Singapore's top rankings are used as empirical proof that technical excellence depends on knowledge-rich specificity."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "Singapore's success across socioeconomic levels supports the claim that specific curricula drive educational fairness."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The necessity of states creating specific sequences is logically dependent on the theoretical claim that such specificity is required for excellence and fairness."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The call for state action is a pragmatic response to the observation that corporate interests and federal inaction block national reform."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "If textual complexity is not a scientifically valid measure because it is subject-dependent, then standards using that term are based on a skill-independence fallacy."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "The theory that skills are mastered through content engagement provides the mechanism for why a loss of shared content would lead to a decline in verbal scores."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "Because commercial publishers are profit-driven and produce low-quality books, nonpolitical organizations must step in to create better alternatives."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "Because government leaders are unwilling to impose national plans, a coalition of nonpolitical organizations is the necessary alternative."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "If every utterance requires unstated background information, then language proficiency cannot be an abstract skill but must be 'knowledge-drenched'."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C42",
+        "relationship": "depends-on",
+        "explanation": "The claim that a knowledge-based curriculum raises reading scores relies on the premise that reading (language proficiency) is actually a knowledge-drenched skill."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "Significant rises in reading scores are a primary indicator of a school 'flourishing' and a source of student enthusiasm."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C43",
+        "relationship": "depends-on",
+        "explanation": "Disadvantaged students can only pass selective exams and become knowledgeable citizens if the curriculum first successfully raises their literacy/reading levels."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "If background knowledge is essential for understanding, then 'helter-skelter' content (which fails to build consistent knowledge) logically leads to low scores."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C56",
+        "relationship": "supports",
+        "explanation": "If shared knowledge enables independent thought and the ability to escape prejudice, it provides the intellectual basis for a stable political center."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C56",
+        "relationship": "responds-to",
+        "explanation": "The proposal for a national curriculum (C56) is presented as the solution to the problem of demagoguery and polarization (C55)."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "Because language proficiency is knowledge-drenched rather than a separate skill, the curriculum reform must cover all subject areas to be effective."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C64",
+        "relationship": "depends-on",
+        "explanation": "The claim that improvements are inevitable requires the qualification that these effects take significant time to manifest."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C64",
+        "relationship": "supports",
+        "explanation": "If text difficulty is based on subject knowledge rather than inherent complexity, then a topic-specific curriculum is the logical mechanism for increasing achievement."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C69",
+        "relationship": "depends-on",
+        "explanation": "Parental demand only becomes inescapable if the promised improvements in achievement and equity actually occur."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C69",
+        "relationship": "supports",
+        "explanation": "The increase in public support following the failure of negative fears to manifest is what drives the parental demand."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C68",
+        "relationship": "depends-on",
+        "explanation": "The increase in teacher satisfaction is predicated on the idea that subject knowledge is the primary driver of teaching success."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C70",
+        "relationship": "supports",
+        "explanation": "The characterization of current discourse as ignorant and slogan-based justifies labeling objections to the author's solution as reactionary."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "The theoretical safeguard of shared knowledge provides the logic for why public transparency mitigates the risk of thought control."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C6",
+        "warrant_text": "Principles of learning in inherently hierarchical subjects like mathematics can be generalized to the structure of all academic learning.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that subjects like history or literature are more networked or thematic than strictly hierarchical, unlike math."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C12",
+        "warrant_text": "If a nation is consistently ranked #1 in global education, its curricular structure (coherence, commonality, specificity) is the causal driver of that success.",
+        "is_explicit": false,
+        "vulnerability": "Correlation vs. Causation: Singapore's success might be due to cultural values, teacher quality, or socio-economic homogeneity rather than curricular structure."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C17",
+        "warrant_text": "The way a high-performing nation labels and organizes its language arts curriculum (e.g., 'Character and Citizenship') reflects the true social nature of language.",
+        "is_explicit": true,
+        "vulnerability": "A nation's naming conventions may be political or culturally specific and do not necessarily prove a universal cognitive or social truth."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E5",
+        "claim_id": "C20",
+        "warrant_text": "Effective implementation of high-level educational standards requires the centralization of instructional materials to ensure uniformity.",
+        "is_explicit": false,
+        "vulnerability": "Mandated textbooks may stifle teacher creativity and fail to account for local student needs."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C25",
+        "claim_id": "C21",
+        "warrant_text": "If a producer chooses cheap, unqualified labor (Craigslist writers) and rapid output over accuracy, their primary objective is financial gain rather than product quality.",
+        "is_explicit": true,
+        "vulnerability": "Publishers might argue that low-cost production is the only way to keep textbooks affordable for cash-strapped school districts."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C31",
+        "claim_id": "C22",
+        "warrant_text": "High performance in a country with a single, mandatory, specific curriculum suggests the curriculum is the primary cause of that performance.",
+        "is_explicit": false,
+        "vulnerability": "Singapore's success might be attributed to cultural factors, teacher quality, or smaller population scale rather than curriculum specificity."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C34",
+        "claim_id": "C35",
+        "warrant_text": "If a performance metric (reading ability) varies significantly based on external content (familiarity), then the metric cannot be measuring an internal, general-purpose skill.",
+        "is_explicit": true,
+        "vulnerability": "There may still be structural linguistic complexities (syntax, vocabulary frequency) that exist independently of content knowledge."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C59",
+        "claim_id": "C54",
+        "warrant_text": "Historical figures' educational backgrounds are representative of the causal factors for their subsequent social and intellectual competence.",
+        "is_explicit": false,
+        "vulnerability": "The success of civil rights leaders could be attributed to exceptional individual character or external historical pressures rather than their elementary curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C47",
+        "claim_id": "C41",
+        "warrant_text": "If parents and teachers are dissatisfied with the current model, they will support and find success in an alternative model that provides the substance they lack.",
+        "is_explicit": true,
+        "vulnerability": "Dissatisfaction with the status quo does not guarantee that a specific proposed alternative will be implemented effectively or produce the desired enthusiasm."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C51",
+        "claim_id": "C50",
+        "warrant_text": "If the mechanics of communication (utterances) rely on a specific substrate (background knowledge), then the skill of communication must be defined by that substrate.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive science may distinguish between the 'process' of language (skill) and the 'content' it carries, meaning the skill itself could still be partially general."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C78",
+        "claim_id": "C64",
+        "warrant_text": "Historical correlations between higher scores and higher levels of shared knowledge imply a causal link that can be replicated through curriculum design.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; 1952 SAT scores may have been higher due to a more selective testing pool rather than shared knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C77",
+        "claim_id": "C64",
+        "warrant_text": "If reading ability is effectively knowledge-access, then providing that knowledge via a curriculum is the most direct path to raising scores.",
+        "is_explicit": true,
+        "vulnerability": "Even with knowledge, some students may lack the underlying cognitive processing or decoding speed required for high achievement."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C64",
+        "claim_id": "C69",
+        "warrant_text": "Parents act as rational consumers of education who prioritize demonstrable student outcomes over pedagogical or political ideologies.",
+        "is_explicit": false,
+        "vulnerability": "Parents often prioritize local control, cultural alignment, or social convenience over standardized achievement metrics."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C4",
+        "missing_step": "Proof that time and implementation maturity are not the true factors for the lack of score improvement.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C16",
+        "to_id": "C12",
+        "missing_step": "A demonstration that a model from a centralized city-state (Singapore) can be effectively scaled to a large, decentralized federal system (the US).",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C10",
+        "to_id": "C11",
+        "missing_step": "The connection showing why symbolic coding in the neocortex necessitates a single, common curriculum rather than diverse content that achieves the same symbolic complexity.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C22",
+        "to_id": "C27",
+        "missing_step": "A curriculum successful in a centralized, homogeneous city-state like Singapore is compatible with the decentralized, heterogeneous structure of US states.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C37",
+        "to_id": "C39",
+        "missing_step": "Establishing that high-quality, free online textbooks would actually be adopted by school administrators who currently favor romantic individualism.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C42",
+        "to_id": "C43",
+        "missing_step": "The knowledge-based curriculum used in elementary school aligns perfectly with the specific content tested on selective high school admission exams.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C53",
+        "to_id": "C56",
+        "missing_step": "Shared knowledge leads to a 'political center' rather than a more informed but still deeply divided electorate.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C45",
+        "to_id": "C41",
+        "missing_step": "A curriculum that is theoretically 'translatable' into a sequence can be successfully implemented by average teachers in typical classroom conditions.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C64",
+        "to_id": "C69",
+        "missing_step": "A mechanism for parents to accurately compare the results of different curricula and attribute success specifically to the content sequence.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C79",
+        "to_id": "C62",
+        "missing_step": "Establishing that a majority-led democratic process will naturally converge on the 'non-specialist knowledge base' of educated Americans.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C64",
+        "to_id": "C68",
+        "missing_step": "Evidence that teachers value achievement gains over the autonomy lost when moving to a topic-specific curriculum.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C20",
+        "objection": "Mandating a single textbook series across all schools is incompatible with the American tradition of local control and would create a political battleground over textbook content.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C4",
+        "objection": "The failure of Common Core to raise scores could be attributed to the disruption caused by the transition itself, rather than the lack of specific content.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C17",
+        "objection": "Defining language proficiency as 'acculturation' and 'citizenship education' risks turning public schools into engines of state-mandated indoctrination rather than sites of critical inquiry.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C37",
+        "objection": "The decline in SAT verbal scores between 1952 and 2012 is largely attributable to the massive expansion of the test-taking population to include students from lower socioeconomic backgrounds and non-native speakers, rather than a curriculum change.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C27",
+        "objection": "State-mandated topic sequences may lead to political battles over content (e.g., history, science), potentially causing more social division than the current fragmented system.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C21",
+        "objection": "The errors in modern textbooks are a result of trying to satisfy diverse state standards simultaneously (the 'mile wide, inch deep' problem) rather than simple greed.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C56",
+        "objection": "A national curriculum could be co-opted by partisan interests to enforce a specific ideology, thereby increasing rather than decreasing political polarization.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C42",
+        "objection": "The rise in reading scores attributed to curriculum may actually be caused by the increased teacher focus and administrative discipline that often accompanies a new 'initiative'.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C50",
+        "objection": "While comprehension is knowledge-dependent, the underlying mechanics of language (grammar, syntax) are largely biological and develop regardless of specific factual knowledge.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C64",
+        "objection": "A standardized curriculum may improve aggregate scores but fail to accommodate neurodiversity or local cultural relevance, leading to disengagement for specific subgroups.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C66",
+        "objection": "Subject knowledge is necessary but insufficient; without sophisticated pedagogical training, teachers cannot effectively manage behavior or differentiate instruction for students with varying needs.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C62",
+        "objection": "Majoritarian control of educational content can lead to the marginalization of minority histories and perspectives, effectively using the school system for cultural erasure.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Diagnosis of Common Core Failure",
+        "chain": [
+          "C3",
+          "C15",
+          "C4",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "strong"
+      },
+      {
+        "name": "The Speech Community Logic",
+        "chain": [
+          "C9",
+          "C10",
+          "C8",
+          "C14",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Singapore Blueprint for Success",
+        "chain": [
+          "C13",
+          "C14",
+          "C12",
+          "C16",
+          "C18",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "The Singapore Proof of Concept",
+        "chain": [
+          "C31",
+          "C32",
+          "C22",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "strong"
+      },
+      {
+        "name": "The Market/Government Failure Solution",
+        "chain": [
+          "C21",
+          "C23",
+          "C26",
+          "C39"
+        ],
+        "conclusion_id": "C39",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Refutation of 'Skills'",
+        "chain": [
+          "C34",
+          "C35",
+          "C36",
+          "C37"
+        ],
+        "conclusion_id": "C37",
+        "strength": "strong"
+      },
+      {
+        "name": "The Literacy-to-Equity Chain",
+        "chain": [
+          "C51",
+          "C50",
+          "C42",
+          "C41",
+          "C43"
+        ],
+        "conclusion_id": "C43",
+        "strength": "strong"
+      },
+      {
+        "name": "The Civic Stability Chain",
+        "chain": [
+          "C51",
+          "C53",
+          "C55",
+          "C56"
+        ],
+        "conclusion_id": "C56",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Practical Reform Chain",
+        "chain": [
+          "C45",
+          "C46",
+          "C44",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Inevitability of Improvement",
+        "chain": [
+          "C77",
+          "C78",
+          "C71",
+          "C64"
+        ],
+        "conclusion_id": "C64",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political Momentum of Results",
+        "chain": [
+          "C64",
+          "C65",
+          "C69"
+        ],
+        "conclusion_id": "C69",
+        "strength": "moderate"
+      },
+      {
+        "name": "Professional Restoration of Teaching",
+        "chain": [
+          "C66",
+          "C67",
+          "C68"
+        ],
+        "conclusion_id": "C68",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0055812,
+    "duration_s": 74.50847315788269
+  }
+}

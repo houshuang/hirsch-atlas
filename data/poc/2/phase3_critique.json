@@ -1,0 +1,114 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the 'wavy' and 'uncertain' history of prose (compared to the linear history of language) is specifically caused by the conservative influence of canonical texts and writers who preserve defunct syntactic forms.",
+        "source_passage": "Afterwards, the authority of such canonical writers as Jonson and Shakespeare will encourage later writers to use syntactic devices which may have become quite defunct in the oral speech of their own time. Similarly, the influence of a widely known early book like the Authorized Version of the Bible will encourage writers to use syntactic forms not normally found in oral speech.",
+        "importance": "critical",
+        "suggested_claim": "The historical progression of prose toward efficiency is periodically countered or delayed by the cultural authority of canonical literary and religious texts.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author posits a specific causal link between the lack of interpersonal context in writing and the necessity of inventing syntactic 'clues' to meaning.",
+        "source_passage": "early sixteenth-century practitioners would need to invent special syntactic and lexical techniques which would help supply clues to meaning in the absence of an interpersonal context.",
+        "importance": "significant",
+        "suggested_claim": "Syntactic innovation in early modern prose was a functional response to the loss of paralinguistic cues found in face-to-face speech.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "Hirsch makes a meta-argument about his own methodology, asserting that his 'a priori' historical deduction is validated if empirical observations (like the Decameron translations) align with his predictions.",
+        "source_passage": "Since I have written down these conjectures in ignorance of the actual prose history of many European grapholects, my historical deduction a priori will gain much in credibility if my prediction turns out to be correct.",
+        "importance": "minor",
+        "suggested_claim": "The validity of a theoretical framework for composition is strengthened when its a priori predictions about linguistic evolution are confirmed by independent historical data.",
+        "suggested_claim_level": "meta"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C54",
+        "problem": "The claim suggests the author argues for 'modern reorderings that prioritize situational context,' but the text actually focuses on 'grammatical-semantic pairing' and resolving ambiguity, not situational context.",
+        "source_passage": "That is because the altered syntax overcomes an ambiguity about the closeness of grammatical-semantic pairing in the original. There, an uncertainty exists whether from base estate attaches more closely to the subject or the verb.",
+        "suggested_fix": "The specific word order in sixteenth-century prose is less efficient because it creates ambiguity regarding the grammatical relationship between modifiers and their heads."
+      },
+      {
+        "claim_id": "C123",
+        "problem": "The extraction implies a restrictive 'only ten' choices, whereas Hirsch uses this as an average to demonstrate the high degree of normalization and predictability.",
+        "source_passage": "the total number of semantically probable lexical choices at any point in a modern English sentence... averages out to ten.",
+        "suggested_fix": "In modern English, the normalization of syntax has progressed to a point where there is an average of ten semantically probable continuations at any point in a sentence, significantly reducing entropy."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E22",
+        "claim_id": "C81",
+        "missing_warrant": "If the physical and auditory labor required to decode non-standardized text consumes the majority of a reader's cognitive resources, the relative efficiency of prose style becomes a negligible factor in overall communication speed."
+      },
+      {
+        "evidence_id": "E4",
+        "claim_id": "C19",
+        "missing_warrant": "Since prose is the primary medium from which the history of a written language is deduced, the statistical laws governing the evolution of the language system must necessarily manifest in the evolution of the prose corpus."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C35",
+        "counter_argument": "Pre-modern 'inefficient' prose may have been highly functional for its target elite audience by serving as a social shibboleth and allowing for higher levels of multi-layered rhetorical nuance that modern 'normalized' prose cannot support.",
+        "why_important": "It challenges Hirsch's definition of 'functionality' as being purely about processing speed and ease (efficiency) rather than social or expressive utility."
+      },
+      {
+        "targets_claim": "C113",
+        "counter_argument": "The rise of specialized jargons (legalese, academic prose, tech-speak) suggests that prose can 'de-normalize' or evolve toward greater complexity to serve niche group needs, potentially reversing the general trend toward universal readability.",
+        "why_important": "It questions the 'irreversibility' and 'universal' nature of the progressive movement Hirsch describes."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C76",
+          "C78",
+          "C79"
+        ],
+        "action": "merge",
+        "explanation": "All three claims essentially state that pre-print/medieval reading was difficult due to non-standardized spelling and the 'puzzle-like' nature of the manuscript medium."
+      },
+      {
+        "claim_ids": [
+          "C118",
+          "C119"
+        ],
+        "action": "merge",
+        "explanation": "These claims both address the transition from functional concord to superfluous redundancy in the same context."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C1",
+        "current_level": "empirical",
+        "correct_level": "meta",
+        "explanation": "This is a comment on the current state of scholarly development in the field, not an empirical observation about the prose itself."
+      },
+      {
+        "claim_id": "C100",
+        "current_level": "pragmatic",
+        "correct_level": "theoretical",
+        "explanation": "While it has pragmatic implications for teaching, it is fundamentally a theoretical explanation for a phenomenon (student struggle) based on the inherent nature of the medium."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is remarkably detailed and captures the vast majority of the author's points. However, it misses the crucial tension Hirsch identifies between 'natural' linguistic evolution (linear) and 'literary' craft (wavy). It also conflates several redundant points regarding medieval literacy. The 'why' behind Hirsch's historical examples (the interpersonal context argument) is under-represented, and the warrants linking cognitive biology to stylistic history could be more explicit."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0032557,
+    "input_tokens": 26005,
+    "output_tokens": 1638,
+    "duration_s": 26.55451226234436,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

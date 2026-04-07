@@ -1,0 +1,660 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The observation that advantaged children start with larger vocabularies supports the claim that the primary disadvantage is a lack of shared language and knowledge."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "If the primary disadvantage is a lack of shared knowledge, then schooling must use deliberate curricular arrangements to fix that specific gap."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C10",
+        "relationship": "instantiates",
+        "explanation": "The specific 16 percentile point gain in the Grissmer study provides the empirical proof for the general claim that shared curriculum can erase achievement gaps."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "The elimination of the achievement gap in the low-income school specifically proves that the curriculum erases socio-economic disparities."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "The goal of national tribal membership is achieved through the mastery of the national 'tribal' language (literacy)."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "The state's legal duty to decide content is the mechanism by which the school fulfills its goal of tribal induction."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The unprecedented magnitude of the Grissmer study results provides the empirical basis for recommending that general knowledge be integrated into reading instruction."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The claim that Core Knowledge is effective because of shared national knowledge relies on the Norway Principle, which posits that interpretation depends on national background knowledge."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "If communication only occurs when background knowledge estimates are correct, then a specific body of knowledge must be researched and taught to ensure that successful communication can occur among all pupils."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "If reading tests probe 'taken-for-granted' knowledge, then children who have not been exposed to that knowledge (often those from disadvantaged backgrounds) will appear less capable, supporting the theory that disadvantage is actually a knowledge gap."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "depends-on",
+        "explanation": "The claim that low-income pupils can overcome disadvantage depends on the prior theoretical claim that the disadvantage itself is primarily a matter of missing knowledge rather than innate ability or other social factors."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The fact that writers must estimate their audience's knowledge supports the conclusion that schools must explicitly teach the knowledge writers typically take for granted."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "The inadequacy of the reading levels concept for communication leads to the methodological critique that these concepts are pseudo-scientific."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C52",
+        "relationship": "depends-on",
+        "explanation": "If the essence of language is guessing unstated meanings, then proficiency necessarily requires the shared knowledge used to make those guesses."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C50",
+        "relationship": "instantiates",
+        "explanation": "Paragraph comprehension on tests is a specific instance of the general theoretical claim that reading is about explicating implications."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The fact that reading is interpretation supports the claim that Core Knowledge works by providing the data needed for that interpretation."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C55",
+        "relationship": "depends-on",
+        "explanation": "The necessity of an integrated, shared curriculum follows from the fact that language proficiency is rooted in a specific cultural data set."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "If shared knowledge is the differentiator for disadvantage, democratic schools have a moral duty to provide it to level the playing field."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C60",
+        "relationship": "refines",
+        "explanation": "The duty of democratic schools is the normative application of the general aim of early education to impart shared culture."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C64",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that conveying more knowledge improves learning relies on the empirical premise that students with shared knowledge gain even more knowledge independently."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C64",
+        "relationship": "depends-on",
+        "explanation": "The efficiency of whole-class instruction (C62) is the theoretical mechanism that allows for the simultaneous improvement in learning and equality (C64)."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C71",
+        "relationship": "depends-on",
+        "explanation": "If a reading test is actually a knowledge test (C70), then programs that build shared knowledge will logically produce better reading results (C71)."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "depends-on",
+        "explanation": "The claim of long-term effects (C75) is a temporal extension of the finding that content literacy produces transfer effects (C74)."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C77",
+        "relationship": "instantiates",
+        "explanation": "Core Knowledge schools (C77) are the specific real-world example of the general principle that knowledge-shared programs yield better results (C71)."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "The massive French study provides the empirical weight necessary to claim that causal evidence for the model exists."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "The existence of longitudinal randomized trials is the methodological justification for claiming 'causal evidence' rather than just correlation."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "1.C89",
+        "relationship": "supports",
+        "explanation": "If language is a historical accumulation rather than innate, it confirms the 'ratchet effect' where cultural gains must be preserved through intentional transmission."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "2.C52",
+        "relationship": "depends-on",
+        "explanation": "A teacher's ability to rely on shared background knowledge is a specific application of the general cognitive requirement that communicators must accurately estimate their audience's pre-existing knowledge."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C83",
+        "relationship": "refines",
+        "explanation": "The independence of the researchers addresses the methodological limitations of prior studies by ensuring the 'decisive evidence' is not tainted by commercial or personal bias."
+      },
+      {
+        "from_id": "C87",
+        "to_id": "4.C45",
+        "relationship": "supports",
+        "explanation": "The etymological argument for explicit instruction (folding out) provides a linguistic and cognitive basis for the superiority of analytical teaching methods."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "1.C17",
+        "relationship": "instantiates",
+        "explanation": "National education systems are framed as the modern version of the universal tribal pattern of shared knowledge transmission."
+      },
+      {
+        "from_id": "C88",
+        "to_id": "4.C62",
+        "relationship": "responds-to",
+        "explanation": "Addresses the potential tension between diversity and commonality by arguing that shared knowledge is the prerequisite for actually understanding and valuing diversity."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C11",
+        "warrant_text": "In a long-term randomized control trial using a lottery, significant score differences between the selected and unselected groups can be attributed to the specific curriculum (the treatment) rather than student background or teacher quality.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that families who enter a charter school lottery are more motivated than those who do not, potentially biasing the sample despite the lottery."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E11",
+        "claim_id": "C7",
+        "warrant_text": "If a test item requires a reader to understand tone and historical context to choose between two otherwise plausible answers, then reading comprehension is a function of background knowledge rather than just abstract decoding skills.",
+        "is_explicit": false,
+        "vulnerability": "A critic could argue that 'tone' and 'context' are still general analytical skills that can be taught independently of specific historical facts."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E17",
+        "claim_id": "C3",
+        "warrant_text": "When the removal of specific shared content (as in France) results in a national decline in scores, it demonstrates that the state's failure to specify content has direct negative consequences on educational outcomes.",
+        "is_explicit": true,
+        "vulnerability": "The decline in France could be attributed to other factors like changing demographics or economic shifts during the same 20-year period."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C22",
+        "claim_id": "C23",
+        "warrant_text": "A pedagogical intervention that produces unprecedented positive results in a controlled study should be adopted as a systematic standard for the field.",
+        "is_explicit": false,
+        "vulnerability": "The results of one study, even if significant, may not be replicable across all demographics or may have hidden variables (like teacher quality) not accounted for by the knowledge integration alone."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C31",
+        "claim_id": "C38",
+        "warrant_text": "Standardized tests are valid proxies for general literacy because they mimic the communicative demands of real-world writing by assuming a certain level of shared cultural literacy.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that these tests are culturally biased rather than objective measures of literacy, and that the 'taken-for-granted' knowledge is arbitrary or exclusionary."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C32",
+        "claim_id": "C26",
+        "warrant_text": "If communication is the primary goal of education, and communication relies on a shared knowledge base, then the state has a mandate to define and distribute that knowledge base universally.",
+        "is_explicit": false,
+        "vulnerability": "This assumes a consensus on 'most useful knowledge' can be reached in a pluralistic society without violating the values of different sub-communities."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C58",
+        "claim_id": "C41",
+        "warrant_text": "A curriculum's success in a specific domain (reading tests) is best explained by its focus on the primary cognitive requirement of that domain (interpreting unstated cultural meanings).",
+        "is_explicit": true,
+        "vulnerability": "The success could be due to other factors like teacher motivation or socio-economic shifts in the test group."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C48",
+        "claim_id": "C52",
+        "warrant_text": "Standardized evaluations of language proficiency (tests) serve as a proxy for actual language proficiency; if tests require cultural sensitivity, then the proficiency itself requires it.",
+        "is_explicit": false,
+        "vulnerability": "Standardized tests may misrepresent actual language proficiency by over-emphasizing specific school-based cultural codes."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C54",
+        "claim_id": "C57",
+        "warrant_text": "If essential linguistic skills (nuance) are acquired through cultural acquaintance rather than formal word lists, then children lacking that acquaintance are systematically excluded from high-level literacy.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that schools are the only or primary place where this acquaintance can or should happen effectively."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C61",
+        "claim_id": "C64",
+        "warrant_text": "If students gain knowledge more effectively when they share a foundation, then a curriculum that ensures that foundation is provided to everyone will naturally reduce variance in student achievement while raising the mean.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that higher-performing students won't simply accelerate further at the same or higher rate than lower-performing students, potentially maintaining or widening the gap."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C65",
+        "claim_id": "C71",
+        "warrant_text": "Massive-scale longitudinal data (12 million pupils) over 20 years is sufficient to isolate the effect of a curriculum shift from other socio-political variables.",
+        "is_explicit": false,
+        "vulnerability": "Large datasets can still hide confounding variables like changes in teacher training, economic shifts, or demographic changes occurring over two decades."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C70",
+        "claim_id": "C71",
+        "warrant_text": "The knowledge required for the 'disguised' reading test is best acquired through systematic school instruction rather than incidental exposure or home environment.",
+        "is_explicit": true,
+        "vulnerability": "If the 'national knowledge' on tests is inherently biased toward upper-middle-class experiences, the curriculum is simply teaching the 'test' rather than increasing general cognitive ability."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C86",
+        "claim_id": "2.C52",
+        "warrant_text": "Classroom instruction is a form of verbal communication, and all verbal communication fails if the speaker misjudges the listener's knowledge base.",
+        "is_explicit": true,
+        "vulnerability": "Teachers can use 'checking for understanding' techniques to calibrate communication in real-time, potentially mitigating the need for a pre-fixed shared knowledge base."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C85",
+        "claim_id": "1.C81",
+        "warrant_text": "Scientific findings are only credible and 'decisive' if the researchers have no financial or ideological stake in the outcome.",
+        "is_explicit": true,
+        "vulnerability": "Bias can still exist in study design or selection of metrics even if researchers are formally independent of the curriculum creator."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C89",
+        "claim_id": "C82",
+        "warrant_text": "If national education is a biological/anthropological necessity for group survival (tribalism), then democratic leaders have a moral obligation to facilitate that biological function.",
+        "is_explicit": false,
+        "vulnerability": "Naturalistic fallacy; just because education historically functioned as tribal preservation doesn't mean modern democratic education should follow the same exclusionary or conformist pattern."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C11",
+        "to_id": "C12",
+        "missing_step": "National implementation of Core Knowledge would yield the same per-student gains as those found in the highly-controlled Denver charter school environment.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C3",
+        "to_id": "C5",
+        "missing_step": "The legal/constitutional authority of the state to set standards implies a moral or sociological mandate to define a singular 'national tribe.'",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C22",
+        "to_id": "C25",
+        "missing_step": "Proof that the 'shared' nature of the knowledge was the specific active ingredient in Core Knowledge's success, rather than merely the high quality or rigor of the content itself.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C35",
+        "to_id": "C36",
+        "missing_step": "Evidence that providing background knowledge is sufficient to overcome non-educational aspects of poverty (e.g., nutrition, housing stability, healthcare) that also impact test scores.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C57",
+        "missing_step": "Evidence from a single low-income school in the Grissmer study is sufficient to prove the theory applies to the entire national population of disadvantaged students.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C52",
+        "to_id": "C56",
+        "missing_step": "The fact that a national language requires cultural knowledge implies that the state should intentionally select and enforce a specific version of that culture as the educational standard.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C70",
+        "to_id": "C71",
+        "missing_step": "The specific knowledge tested by reading assessments aligns with the specific knowledge provided by a 'common national curriculum.'",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C74",
+        "to_id": "C75",
+        "missing_step": "The cognitive benefits gained in early grades are not 'washed out' by later exposure to fragmented or child-centered curricula in middle or high school.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C81",
+        "to_id": "C82",
+        "missing_step": "The historical accumulation of a specific national language is superior to or more necessary than the natural evolution of diverse sub-group dialects.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C89",
+        "to_id": "1.C19",
+        "missing_step": "The tribal mechanisms of cohesion scale effectively to multi-ethnic nation-states of millions without creating harmful in-group/out-group dynamics.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C5",
+        "objection": "Defining education as membership in a 'national tribe' risks marginalizing minority cultures and assumes that a single 'tribal' narrative is appropriate for a pluralistic democracy.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "The elimination of the achievement gap in one low-income school may be an outlier caused by an exceptional principal or school culture (the 'Hawthorne effect') rather than the curriculum itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C2",
+        "objection": "Educational researchers may avoid challenging dogmas not due to 'pressure,' but because child-centered theories align with a different set of valid empirical findings regarding student motivation and social-emotional learning.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C25",
+        "objection": "The effectiveness of Core Knowledge in the Grissmer study could be attributed to the 'charter school effect' (self-selection of motivated parents and students) rather than the curriculum's specific content.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C26",
+        "objection": "Defining a singular 'most useful knowledge' to be imparted to all pupils risks creating a state-sanctioned 'master narrative' that marginalizes minority cultures and stifles intellectual diversity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C38",
+        "objection": "Teaching children to rely on 'taken-for-granted' knowledge may discourage them from questioning the assumptions and biases inherent in the texts they read.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "The sample test item provided (the gold mining passage) can be answered through logic and internal text clues ('Few find it' vs 'Most... searched... an extremely small percentage... supported themselves') without specific 'American' tribal knowledge.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C57",
+        "objection": "The differentiator between 'advantaged' and 'disadvantaged' students may be the lack of material resources and high-quality early childhood environments, which a common curriculum alone cannot rectify.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C56",
+        "objection": "Defining a single 'American literate culture' is an exclusionary project that marginalizes the diverse cultural backgrounds that also contribute to American identity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C64",
+        "objection": "The 'Matthew Effect' suggests that providing more knowledge to everyone simultaneously might help advantaged children even more than disadvantaged ones, because they have superior existing hooks to attach new knowledge to, thereby increasing inequality.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C77",
+        "objection": "Core Knowledge schools often attract a specific type of highly involved parent or motivated teacher; the 'outsized impact' may be a result of this selection bias rather than the curriculum itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C71",
+        "objection": "A curriculum focused on 'shared national knowledge' may decrease engagement for students from minority backgrounds whose cultural capital is excluded, potentially depressing their scores despite the curriculum's systematic nature.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C88",
+        "objection": "A 'shared knowledge base' is never neutral; it inherently privileges the cultural capital of the dominant group, making the 'valuation of diversity' a form of assimilation rather than true pluralism.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C83",
+        "objection": "The Grissmer study, while longitudinal, may still be subject to 'selection bias' if the schools that chose to adopt Core Knowledge already possessed higher teacher quality or administrative stability.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Empirical Proof of Core Knowledge",
+        "chain": [
+          "C1",
+          "E1",
+          "C11",
+          "C13",
+          "C10",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Literacy Link",
+        "chain": [
+          "C8",
+          "C7",
+          "C9",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "The Tribal-Nationalist Justification",
+        "chain": [
+          "C3",
+          "C4",
+          "C6",
+          "C5"
+        ],
+        "conclusion_id": "C5",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Literacy Communication Chain",
+        "chain": [
+          "C28",
+          "C32",
+          "C31",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Through Knowledge Chain",
+        "chain": [
+          "C22",
+          "C31",
+          "C35",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Policy Reform Chain",
+        "chain": [
+          "C23",
+          "C24",
+          "C26",
+          "C29"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Interpretation Logic",
+        "chain": [
+          "C51",
+          "C46",
+          "C50",
+          "C44",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Mandate",
+        "chain": [
+          "C57",
+          "C54",
+          "C56",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "moderate"
+      },
+      {
+        "name": "National Language Proficiency",
+        "chain": [
+          "C53",
+          "C52",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "strong"
+      },
+      {
+        "name": "The Equality via Efficiency Chain",
+        "chain": [
+          "C61",
+          "C62",
+          "C72",
+          "C64"
+        ],
+        "conclusion_id": "C64",
+        "strength": "strong"
+      },
+      {
+        "name": "The Reading-as-Knowledge Chain",
+        "chain": [
+          "C70",
+          "C67",
+          "C71",
+          "C77"
+        ],
+        "conclusion_id": "C77",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Validation Chain",
+        "chain": [
+          "C65",
+          "C74",
+          "C79",
+          "C78"
+        ],
+        "conclusion_id": "C78",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Necessity Chain",
+        "chain": [
+          "C87",
+          "C86",
+          "2.C52",
+          "2.C56"
+        ],
+        "conclusion_id": "2.C56",
+        "strength": "strong"
+      },
+      {
+        "name": "The Anthropological Justification",
+        "chain": [
+          "C81",
+          "C89",
+          "1.C17",
+          "C82"
+        ],
+        "conclusion_id": "C82",
+        "strength": "moderate"
+      },
+      {
+        "name": "Validation of Empirical Proof",
+        "chain": [
+          "C83",
+          "C85",
+          "1.C81"
+        ],
+        "conclusion_id": "1.C81",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0058432,
+    "duration_s": 75.33827042579651
+  }
+}

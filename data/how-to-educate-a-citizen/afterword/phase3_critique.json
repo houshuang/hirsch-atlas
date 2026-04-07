@@ -1,0 +1,107 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author establishes a specific 'Emergency Measure' argument: because institutional change at the district/state level is slow, the Core Knowledge Foundation provides free materials as a bypass to immediate school-level reform.",
+        "source_passage": "Our Core Knowledge Foundation is tiny, but as an emergency measure it can supply your school with free downloadable materials if it wants to take the leap.",
+        "importance": "significant",
+        "suggested_claim": "The slow pace of institutional reform necessitates immediate, 'emergency' workarounds like free material distribution to bypass bureaucratic delays.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author presents a national security/competitive argument: failing to standardize curriculum is equivalent to a country choosing to weaken its own defenses in a global environment.",
+        "source_passage": "It is self-defeating to evade this logic, which represents a kind of unilateral intellectual disarmament in a competitive world.",
+        "importance": "critical",
+        "suggested_claim": "A nation's refusal to adopt a standardized core of knowledge constitutes a strategic failure in global competition equivalent to unilateral intellectual disarmament.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "The author makes a specific meta-argument regarding the 'Naturalistic Fallacy' in education: empirical evidence of success in poverty contradicts the foundational 'Nature knows best' philosophy of the educational establishment.",
+        "source_passage": "As we’ve seen from the stories in this book of kids growing up in poverty... nature isn’t really saying what John Dewey and our schools of education thought it was saying.",
+        "importance": "significant",
+        "suggested_claim": "The educational establishment's interpretation of 'natural' child development is empirically contradicted by the academic success of children in knowledge-rich programs.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C13",
+        "problem": "This claim is presented as a general normative assertion by the author, but in the text, it is a specific quote from an instructional coach (Christy Nelson) regarding a specific implementation.",
+        "source_passage": "According to Christy Nelson, K–5 instructional coach, 'Our students have made exponential growth... which indicates that strong curriculum in the hands of teachers committed to student growth meets the needs of all learners.'",
+        "suggested_fix": "In the Sullivan County case, instructional staff attributed success to the synergy between a strong curriculum and teacher commitment."
+      },
+      {
+        "claim_id": "C28",
+        "problem": "The claim omits the author's specific diagnostic that legislators currently lack the knowledge ('enlighten their minds') and the courage ('stiffen their spines') to act.",
+        "source_passage": "Patriotic citizens need to unite to inform our state legislatures, enlighten their minds, and stiffen their spines.",
+        "suggested_fix": "Patriotic citizens must unite to provide state legislators with the necessary educational knowledge and political courage to mandate specific standards."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E2",
+        "claim_id": "C4",
+        "missing_warrant": "Visual evidence of peer success (modeling) is an effective and sufficient catalyst to overcome the psychological hopelessness of parents and teachers."
+      },
+      {
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "missing_warrant": "Short-term gains in 'at-risk' reading scores are a valid leading indicator for long-term district-wide academic health."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C3",
+        "counter_argument": "The 'Specific Standards' Trap: Rigid state-mandated curriculum requirements can stifle teacher creativity and ignore the unique cultural or developmental needs of local student populations.",
+        "why_important": "This is the primary argument used by the 'Nature knows best' proponents the author is attacking; addressing it directly would strengthen the 'revolution' claim."
+      },
+      {
+        "targets_claim": "C18",
+        "counter_argument": "Correlation is not Causation in International Rankings: First-rate education systems in nations like Finland or Japan may succeed due to social safety nets, cultural homogeneity, or high teacher pay rather than the curriculum sequence itself.",
+        "why_important": "The author relies heavily on international comparison (E1/C18) to justify the 'logic' of a national sequence."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C11",
+          "C16"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that success in Appalachia proves replicability in any location; C16 is just a more specific phrasing of C11."
+      },
+      {
+        "claim_ids": [
+          "C4",
+          "C31"
+        ],
+        "action": "merge",
+        "explanation": "Both claims assert that schools can improve immediately through the use of videos featuring successful practitioners."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C22",
+        "current_level": "empirical",
+        "correct_level": "normative",
+        "explanation": "The claim about 'greatness' being rooted in 'idealism and pragmatism' is a rhetorical/nationalistic appeal to identity rather than an empirical historical finding."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction captures the main narrative of the afterword but misses the author's sharpest rhetorical moves regarding 'unilateral intellectual disarmament' and the 'emergency' nature of his foundation's work. The extraction over-identifies empirical claims while missing the normative/rhetorical framework Hirsch uses to move from 'Sullivan County results' to 'National Educational Revolution'."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0010823000000000002,
+    "input_tokens": 5147,
+    "output_tokens": 1419,
+    "duration_s": 15.762293100357056,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

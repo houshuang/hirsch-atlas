@@ -1,0 +1,471 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The integrated study of geography (spatial and cultural) provides the framework through which world history is introduced to broaden a child's focus."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "Establishing civic identity through symbols and presidents is a necessary component of the 'overview' of American history for K-2."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "Teaching specific historical figures provides the narrative substance for the overview of events in the K-2 American history thread."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "Recurring features like agriculture and writing provide the conceptual categories that allow first graders to compare varied civilizations."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C18",
+        "relationship": "depends-on",
+        "explanation": "If religion is a primary force shaping civilization, it must be taught historically to understand that civilization, necessitating the vocabulary-focused approach."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C18",
+        "relationship": "refines",
+        "explanation": "The requirement for respect and balance constrains the 'historical vocabulary' approach to ensure it does not become theological instruction."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C23",
+        "relationship": "instantiates",
+        "explanation": "Omitting human sacrifice in first grade to wait for fifth grade is a specific application of the principle of vertical alignment."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C23",
+        "relationship": "instantiates",
+        "explanation": "Focusing on narrative in first grade while deferring detailed analysis to fourth grade demonstrates the vertical alignment strategy."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C23",
+        "relationship": "instantiates",
+        "explanation": "Using analogies to teach government in second grade prepares students for more formal political study later."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The specific inclusion of Asian geography serves the broader goal of expanding the student's focus beyond their local environment."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "Teaching the legacy of Ancient Greece provides the historical distance needed to move beyond a child's immediate locality."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The ability to teach religion descriptively depends on teachers having a protocol to deflect theological 'truth' questions back to the home."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "Acknowledging the tragedy of displacement and the struggle for rights creates the historical context where figures like Anthony and Robinson become essential knowledge."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "Individual civil rights figures are presented as the human embodiment of the 'e pluribus unum' concept and the effort toward national unity."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "The methodological claim that early history should be taught through story and discussion supports the pragmatic conclusion that civil rights should be taught through individual biographies."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C44",
+        "relationship": "instantiates",
+        "explanation": "The specific landmarks and nations listed in C45 provide the concrete content for the theoretical claim that geographical knowledge is a prerequisite for literacy."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "The method of locating oneself on maps is the pedagogical tool used to achieve the goal of geographical awareness."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C46",
+        "relationship": "depends-on",
+        "explanation": "Understanding national symbols (C46) is part of the cultural initiation into the status-based citizenship described in C42."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C44",
+        "relationship": "refines",
+        "explanation": "Defining 'American' to include the whole hemisphere explains why knowledge of South American geography (Andes, Amazon) is included in a prerequisite for civic literacy."
+      },
+      {
+        "from_id": "3.C11",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The need for social peace in a diverse nation necessitates a descriptive, non-proselytizing approach to religious history."
+      },
+      {
+        "from_id": "3.C19",
+        "to_id": "C53",
+        "relationship": "depends-on",
+        "explanation": "The principle of descriptive religious instruction is the practical application of excluding belief systems from the public sphere's 'truth' claims."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C4",
+        "warrant_text": "Pedagogical effectiveness for young children increases when abstract nomenclature (continents) is anchored to concrete, familiar visual icons (landmarks/wildlife).",
+        "is_explicit": true,
+        "vulnerability": "Children might develop a reductive or stereotypical understanding of an entire continent based on a single icon."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C7",
+        "warrant_text": "Moving from general categories ('Native Americans') to specific tribes prevents the erasure of distinct cultural identities and supports 'situation model' construction.",
+        "is_explicit": false,
+        "vulnerability": "The breadth of tribes mentioned may lead to cognitive overload or superficial 'mentioning' without deep understanding."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E4",
+        "claim_id": "C16",
+        "warrant_text": "If a civilization's permanence depends on rule of law, and laws must be fixed and transmittable, then writing is the essential enabling technology for civilization.",
+        "is_explicit": false,
+        "vulnerability": "It overlooks oral traditions and complex social structures in non-literate societies that also functioned as civilizations."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E13",
+        "claim_id": "C10",
+        "warrant_text": "Common physical artifacts used in daily life (currency) are effective vehicles for transmitting abstract national values to children.",
+        "is_explicit": false,
+        "vulnerability": "Physical symbols can be learned as rote facts without the child grasping the underlying political philosophy."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C22",
+        "claim_id": "C23",
+        "warrant_text": "Early exposure to complex or disturbing details can be counterproductive if students lack the developmental maturity or historical context to process them without distraction.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that sanitizing history (omitting human sacrifice) prevents children from understanding the actual nature of the civilizations being studied."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C30",
+        "claim_id": "C25",
+        "warrant_text": "Familiarity with distant places and cultures prevents parochialism and is necessary for building a 'spatial sense' of the world.",
+        "is_explicit": false,
+        "vulnerability": "Educational theorists of the 'expanding environments' school argue that children learn best by starting with what is physically closest to them (family, neighborhood) before moving to distant continents."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C28",
+        "claim_id": "C27",
+        "warrant_text": "Public schools can maintain secular neutrality while teaching about religion by distinguishing between the historical fact of belief and the theological validity of belief.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that young children cannot distinguish between a teacher's descriptive account and an endorsement of 'truth,' leading to parental objections."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C37",
+        "claim_id": "C39",
+        "warrant_text": "A shared national identity is built through a 'canon' of individuals whose lives illustrate the nation's core values and its progress toward its ideals.",
+        "is_explicit": false,
+        "vulnerability": "The selection of 'essential' figures is subjective and may reflect the ideological biases of the curriculum creators rather than an objective shared reality."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C47",
+        "claim_id": "C43",
+        "warrant_text": "Individual human stories and biographies are the most developmentally appropriate and emotionally resonant way to introduce complex social movements to K-2 students.",
+        "is_explicit": false,
+        "vulnerability": "Biographical focus can lead to a 'Great Man' theory of history that ignores systemic causes or grassroots collective action."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C45",
+        "claim_id": "C44",
+        "warrant_text": "Civic literacy regarding a nation's history and politics is impossible without a mental map of the physical setting where that history takes place.",
+        "is_explicit": true,
+        "vulnerability": "The specific link between knowing the location of the Great Lakes and understanding democratic principles is not empirically established."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C41",
+        "claim_id": "C46",
+        "warrant_text": "In a diverse republic, shared visual symbols and monuments serve as a necessary non-verbal vocabulary for national unity.",
+        "is_explicit": false,
+        "vulnerability": "National symbols can be interpreted in radically different ways by different groups, meaning recognition does not guarantee shared cultural literacy."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C50",
+        "claim_id": "C53",
+        "warrant_text": "If history education must be descriptive and objective, it must include the errors and misunderstandings of historical figures as factual events.",
+        "is_explicit": false,
+        "vulnerability": "Describing Columbus's error is an empirical fact, but does not address the normative weight of how his interactions are framed."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "Introduction.C12",
+        "missing_step": "A 'brief overview' of figures and events in K-2 is sufficient to sustain the 'mental hooks' needed for in-depth chronological study several years later.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C18",
+        "to_id": "C13",
+        "missing_step": "Providing historical 'vocabulary' for religion is cognitively distinguishable from 'theology' for six-year-olds.",
+        "step_type": "definition_shift",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C11",
+        "to_id": "C12",
+        "missing_step": "Legends (like the cherry tree) contribute to a 'shared heritage' even if they are known to be ahistorical.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C22",
+        "to_id": "C23",
+        "missing_step": "Establishing that fifth grade is the 'correct' developmental window for introducing darker historical themes like human sacrifice.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C25",
+        "to_id": "C30",
+        "missing_step": "Why Asian geography specifically is more effective for fostering curiosity than, for instance, African or South American geography in second grade.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C27",
+        "to_id": "C29",
+        "missing_step": "The descriptive study of religion requires that simplified historical narratives (like Buddhism as an 'outgrowth' of Hinduism) are sufficient for young children's historical vocabulary.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C44",
+        "to_id": "C41",
+        "missing_step": "A bridge explaining how the geography of South America (C55) specifically informs the settlement patterns of immigrants in US industrial cities (C41).",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C53",
+        "to_id": "3.C13",
+        "missing_step": "Evidence that teaching religious history descriptively successfully transitions students into the 'secular religion' of democracy.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "The 'expanding environments' model of social studies posits that young children are cognitively unready for world history and should focus exclusively on their immediate neighborhood to build social foundations.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C18",
+        "objection": "In a pluralistic society with strict separation of church and state, any introduction of world religions in early public schooling—regardless of intent—risks accidental proselytization or violating parental rights.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C6",
+        "objection": "Teaching a simplified 'overview' of national figures and events risk creating a hagiographic 'national myth' that makes it harder for students to engage with critical, objective history in later years.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C23",
+        "objection": "A strictly vertically aligned curriculum can become too rigid, preventing teachers from following the spontaneous interests of students or responding to current events.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C27",
+        "objection": "In a pluralistic society, even 'descriptive' teaching of religion is impossible to do neutrally; the very choice of which religions to include and how to summarize them is a theological and political act.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C25",
+        "objection": "Young children (ages 7-8) lack the cognitive development to truly grasp 'global' concepts, and time spent on distant geography would be better spent on local community civics they can observe directly.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA4",
+        "targets_claim": "C39",
+        "objection": "Focusing on individual 'great figures' simplifies history into hagiography and ignores the systemic social forces and collective movements that actually drive historical change.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C43",
+        "objection": "Teaching civil rights primarily through biographical 'heroes' can sanitize history, making progress seem like the result of individual virtue rather than long-term, painful conflict between interest groups.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C53",
+        "objection": "A strictly descriptive approach to religion may render the subject matter incoherent to children, as it fails to explain the internal 'truth' that makes these faiths compelling to their adherents.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C46",
+        "objection": "Focusing on specific national symbols like the flag and memorials risks prioritizing 'civil religion' and symbolic allegiance over critical thinking about the nation's failures.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "Horizontal Expansion Chain",
+        "chain": [
+          "C2",
+          "C1",
+          "C13",
+          "C15"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "Civic Foundation Chain",
+        "chain": [
+          "C10",
+          "C11",
+          "C12",
+          "C8",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "Cultural Vocabulary Chain",
+        "chain": [
+          "C17",
+          "C19",
+          "C18"
+        ],
+        "conclusion_id": "C18",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Vertical Alignment Chain",
+        "chain": [
+          "C22",
+          "C24",
+          "C32",
+          "C23"
+        ],
+        "conclusion_id": "C23",
+        "strength": "strong"
+      },
+      {
+        "name": "Global Perspective Expansion",
+        "chain": [
+          "C30",
+          "C31",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "Secular Religious Literacy",
+        "chain": [
+          "C28",
+          "C29",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "strong"
+      },
+      {
+        "name": "Shared Civic Narrative",
+        "chain": [
+          "C34",
+          "C35",
+          "C37",
+          "C39"
+        ],
+        "conclusion_id": "C39",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pedagogical Chain of Civic Initiation",
+        "chain": [
+          "C47",
+          "C43",
+          "C46",
+          "C42"
+        ],
+        "conclusion_id": "C42",
+        "strength": "strong"
+      },
+      {
+        "name": "Hemispheric Geography as Literacy Foundation",
+        "chain": [
+          "C49",
+          "C45",
+          "C55",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "Pluralistic Religious Instruction",
+        "chain": [
+          "3.C11",
+          "3.C19",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0048048,
+    "duration_s": 51.31515383720398
+  }
+}

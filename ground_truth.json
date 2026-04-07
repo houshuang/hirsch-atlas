@@ -1,0 +1,169 @@
+{
+  "description": "Human-flagged claims missed or needed from calibration of Prologue and Chapter 1 of Why Knowledge Matters. Each item is a claim/concept the human reviewer identified as important but the pipeline missed or should capture.",
+  "chapters": {
+    "prologue": {
+      "source": "calibration_v2.json",
+      "items": [
+        {
+          "id": "GT-P1",
+          "text": "The achievement gap between social groups can be ameliorated by knowledge-based schooling.",
+          "type": "claim",
+          "notes": "Major thesis of the book, rich and citable"
+        },
+        {
+          "id": "GT-P2",
+          "text": "The French national curriculum focused on imparting the same knowledge to all students, and this approach was successful in equalizing educational outcomes.",
+          "type": "claim",
+          "notes": "Historical claim about France's pre-reform success"
+        },
+        {
+          "id": "GT-P3",
+          "text": "French education schools were subjected to 20 years of indoctrination in American progressive educational ideas before the 1989 reform.",
+          "type": "claim",
+          "notes": "Causal mechanism claim — how the reform was prepared"
+        },
+        {
+          "id": "GT-P4",
+          "text": "The French reform of 1989 constituted a wholesale adoption of American-style individualized, skill-centered education — Hirsch's characterization of this as 'Americanization' is itself an interpretive claim.",
+          "type": "claim",
+          "notes": "Meta-level: the author's narrative framing is a claim"
+        },
+        {
+          "id": "GT-P5",
+          "text": "After the French curriculum reform, there was a steep decline in academic achievement across all demographic groups, not just disadvantaged students.",
+          "type": "claim",
+          "notes": "Empirical claim about breadth of decline"
+        },
+        {
+          "id": "GT-P6",
+          "text": "American academic scores fell rapidly at all grade levels between 1960 and 1980.",
+          "type": "claim",
+          "notes": "Historical/empirical factual premise"
+        },
+        {
+          "id": "GT-P7",
+          "text": "Three specific ideas — naturalism, individualism, and skill-centrism — caused the American educational decline.",
+          "type": "claim",
+          "notes": "Causal claim linking specific ideas to outcomes"
+        },
+        {
+          "id": "GT-P8",
+          "text": "Whole nations have successfully achieved high and equitable educational outcomes by following communal knowledge curricula delivered through national curricula.",
+          "type": "claim",
+          "notes": "Cross-national empirical generalization"
+        },
+        {
+          "id": "GT-P9",
+          "text": "Educational individualism has always required the general-skills idea to maintain coherence, because without a shared curriculum the only unifying concept is transferable skills.",
+          "type": "claim",
+          "notes": "Theoretical dependency claim"
+        },
+        {
+          "id": "GT-P10",
+          "text": "Dewey's central claim that critical thinking is a unifying, teachable skill was debunked by subsequent cognitive science.",
+          "type": "claim",
+          "notes": "Historical/empirical claim about intellectual history"
+        },
+        {
+          "id": "GT-P11",
+          "text": "Cognitive skills are domain-specific: expertise in one domain does not transfer to proficiency in another.",
+          "type": "claim",
+          "notes": "Core theoretical claim from cognitive science"
+        },
+        {
+          "id": "GT-P12",
+          "text": "Developmental appropriateness — the idea that children can only learn certain things at certain ages — lacks scientific basis and has been used to justify withholding academic content from young children.",
+          "type": "concept",
+          "notes": "Contested concept that Hirsch defines and attacks"
+        },
+        {
+          "id": "GT-P13",
+          "text": "Benign providence — the Romantic idea that nature will guide children's development if adults step back — is a foundational assumption of naturalistic education that Hirsch rejects.",
+          "type": "concept",
+          "notes": "Concept underlying naturalism component"
+        },
+        {
+          "id": "GT-P14",
+          "text": "The primary goal of early education should be to impart shared communal knowledge that enables participation in the public sphere, not individual self-realization.",
+          "type": "claim",
+          "notes": "Normative/prescriptive claim about education's purpose"
+        }
+      ]
+    },
+    "1": {
+      "source": "calibration_human.json",
+      "items": [
+        {
+          "id": "GT-C1",
+          "text": "Tests should be based on well-defined, knowledge-based curriculums — this is the only way to make tests fair, productive, and also fewer and better.",
+          "type": "claim",
+          "notes": "Prescriptive claim — 'fewer and better' part was missed",
+          "selected_text": "There's just one way to do that—to base them on well-defined, knowledge-based curriculums. There is no other way of making tests fair and productive"
+        },
+        {
+          "id": "GT-C2a",
+          "text": "A valid reading test probes a student's degree of initiation into the public sphere, which is a fundamental aim of education.",
+          "type": "claim",
+          "notes": "First of two claims from one sentence — linking reading tests to civic purpose",
+          "selected_text": "Since a valid reading test probes a student's degree of initiation into the public sphere—a fundamental aim of education—any policy that lowers or neglects to improve test scores in reading is a failed educational policy."
+        },
+        {
+          "id": "GT-C2b",
+          "text": "Any educational policy that lowers or neglects to improve reading test scores is a failed educational policy.",
+          "type": "claim",
+          "notes": "Second of two claims — the normative conclusion. Compound claim needs splitting.",
+          "selected_text": "Since a valid reading test probes a student's degree of initiation into the public sphere—a fundamental aim of education—any policy that lowers or neglects to improve test scores in reading is a failed educational policy."
+        },
+        {
+          "id": "GT-C3",
+          "text": "In math, American scores for seventeen-year-olds have been stable for many years, in contrast to declining reading scores.",
+          "type": "claim",
+          "notes": "Factual premise — math vs reading divergence is analytically important",
+          "selected_text": "In math, in contrast to reading, American scores for seventeen- year-olds have been stable for many years."
+        },
+        {
+          "id": "GT-C4",
+          "text": "If one had to choose a single measure of educational quality, reading scores of seventeen-year-olds would be the best choice.",
+          "type": "claim",
+          "notes": "Extremely important, load-bearing claim with much disagreement",
+          "selected_text": "If one had to choose a single measure..."
+        },
+        {
+          "id": "GT-C5",
+          "text": "The testing regimens introduced by NCLB have clearly helped improve the mechanics of early reading.",
+          "type": "claim",
+          "notes": "Concession — Hirsch grants this before arguing it's insufficient",
+          "selected_text": "the testing regimens have clearly helped improve the mechanics of early reading"
+        },
+        {
+          "id": "GT-C6",
+          "text": "Younger students can now decode texts with more fluency and accuracy than they did before NCLB.",
+          "type": "claim",
+          "notes": "Empirical factual claim, interesting given reading wars and phonics discussion",
+          "selected_text": "Younger students can now decode texts with more fluency and accuracy than they did be- fore NCLB."
+        },
+        {
+          "id": "GT-C7",
+          "text": "There is no reliable main-idea-finding skill that can substitute for content knowledge in reading comprehension.",
+          "type": "claim",
+          "notes": "Direct theoretical claim",
+          "selected_text": "The no- tion that skill in finding the main idea can take the place of content is worse than empty; it's actively misleading. There is no reliable main-idea-finding skill."
+        },
+        {
+          "id": "GT-C8",
+          "text": "The utility of reading comprehension strategy instruction ceases after about ten lessons; two weeks of strategy instruction is optimal.",
+          "type": "claim",
+          "notes": "Specific empirical claim with scholarly discussion around it",
+          "selected_text": "Their utility ceases after about ten lessons. Two weeks on comprehension strategies is optimal."
+        },
+        {
+          "id": "GT-C9",
+          "text": "Once decoding has been mastered and fluency attained, relevant background knowledge becomes the chief component of reading skill.",
+          "type": "claim",
+          "notes": "Core theoretical mechanism claim",
+          "selected_text": "But once decoding has been mastered and fluency attained, relevant knowledge becomes the chief component of reading skill."
+        }
+      ]
+    }
+  }
+}

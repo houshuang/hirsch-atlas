@@ -1,0 +1,106 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The logic of linguistic arbitrariness: The author argues that since alphabet systems (Roman, Greek, Hebrew, etc.) are arbitrary and non-natural, the mastery of literacy cannot occur through natural growth.",
+        "source_passage": "Our Roman alphabet is no more natural than the Greek alphabet, or the Hebrew, Persian, or Chinese systems of writing. To go 'from A to Z' you must emphatically do what comes culturally.",
+        "importance": "significant",
+        "suggested_claim": "The arbitrary nature of writing systems necessitates cultural induction rather than natural development.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The Paradox of Individuality: The author posits that the very individuality romantics seek is only achievable after the mastery of a shared cultural language.",
+        "source_passage": "Paradoxically, the mastery of shared language in early grades enables an effective individuality later—not to mention higher SAT scores.",
+        "importance": "significant",
+        "suggested_claim": "Effective individuality is a byproduct of shared cultural mastery, not a pre-existing seedling to be nurtured in isolation.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The instability of 'Natural Supernaturalism': The author argues that because Romantic education is a 'religion of this world,' it is uniquely vulnerable to the evidence of its own failure as children age.",
+        "source_passage": "Romantic religion is vulnerable because it is a religion of this world. If one's hopes and faith are pinned on the faith that reading, arithmetic, and morality will develop naturally out of human nature, then experience will contest that faith.",
+        "importance": "minor",
+        "suggested_claim": "Romantic educational theory is psychologically unstable because its empirical failures eventually force a crisis of faith in its practitioners.",
+        "suggested_claim_level": "meta"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C55",
+        "problem": "The claim omits the specific justification the author provides for why furniture doesn't need to change—the 'furniture of the mind' metaphor.",
+        "source_passage": "We do not need to buy new classroom furniture again. We need to change the furniture of our minds.",
+        "suggested_fix": "Educational reform should focus on internal theoretical paradigms ('the furniture of our minds') rather than physical classroom arrangements, as pedagogy is independent of physical seating."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E10",
+        "claim_id": "C39",
+        "missing_warrant": "Biological evolution only provides innate mechanisms for skills that were critical for survival in the deep past; since literacy and modern math are evolutionary novelties, they lack 'natural' developmental pathways and must be taught as artificial constructs."
+      },
+      {
+        "evidence_id": "E7",
+        "claim_id": "C24",
+        "missing_warrant": "The superior performance of Catholic schools across demographics proves that the delivery system (structured/explicit) is a more powerful driver of student success than the innate 'unfolding' of the individual child."
+      },
+      {
+        "evidence_id": "E5",
+        "claim_id": "C20",
+        "missing_warrant": "If a fundamental academic skill (like the alphabet) is a historically contingent human invention, it cannot be 'innate' or 'natural' to the human species."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C22",
+        "counter_argument": "The 'Blank Slate' metaphor is biologically and neurologically inaccurate, as modern cognitive science shows children are born with significant innate predispositions and architectural constraints.",
+        "why_important": "It challenges the author's primary philosophical foundation (Locke) with contemporary scientific consensus."
+      },
+      {
+        "targets_claim": "C11",
+        "counter_argument": "Whole-class instruction can mask significant individual learning gaps and fail to accommodate neurodiverse students who require differentiated pacing that the 'whole group' cannot provide.",
+        "why_important": "It directly contests the 'fairness' claim of the author's preferred method."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C10",
+          "C11"
+        ],
+        "action": "merge",
+        "explanation": "Both claims argue that whole-class instruction is the most effective and fair way to impart shared knowledge; C11 is merely the normative extension of C10."
+      },
+      {
+        "claim_ids": [
+          "C15",
+          "C17"
+        ],
+        "action": "merge",
+        "explanation": "Both identify the 'implicit religious premise' of child-centered education regarding natural development."
+      },
+      {
+        "claim_ids": [
+          "C26",
+          "C52"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe progressivism/romanticism as a secular religion that is impervious to factual refutation."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough, capturing even the author's subtle etymological and historical arguments. However, it suffers from significant redundancy in the claims inventory, often separating identical ideas into multiple IDs. It also misses the 'Paradox of Individuality' which is a crucial logical bridge Hirsch uses to reconcile democratic individualism with structured traditionalism."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0017428,
+    "input_tokens": 12180,
+    "output_tokens": 1312,
+    "duration_s": 28.866652965545654,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

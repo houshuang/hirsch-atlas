@@ -1,0 +1,209 @@
+{
+  "result": {
+    "chapter_summary": "Hirsch introduces the book as a transition from his previous work in literary aestheticism to the practical, research-based demands of composition teaching. He argues that the teaching of literacy is grounded in an inherent ideology within the subject itself, which provides a universal foundation for writing instruction.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Composition teaching in schools and colleges is a practical responsibility distinct from the study of lyric poetry or aestheticism.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "I write as one converted from aestheticism to the more practical side of an English teacher’s responsibilities.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C2",
+        "text": "In university English departments, the revenue from composition teaching often subsidizes literary courses and scholarship.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "I began to wonder how long our university would continue its big expenditures on literary teaching and scholarship without insisting that we devote comparable energies to the teaching that was paying for so many of our literary courses—namely the teaching of composition.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C3",
+        "text": "The field of composition research is more complex and challenging than literary history or literary theory.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "I found the subject more complex and challenging than any which I had undertaken in literary history or literary theory.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C4",
+        "text": "Interpretation (reading) is correlative to writing.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "interpretation—or reading—is obviously correlative to writing.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C5",
+        "text": "General theories of interpretation or literary research are not directly applicable to the practical research required for composition instruction.",
+        "claim_level": "meta",
+        "is_main_conclusion": false,
+        "confidence": 0.6,
+        "source_passage": "I can see that my hopes were misplaced, and that this book bears very little relation to my previous literary research.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C6",
+        "text": "An authentic ideology of literacy inheres within the subject of composition itself.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "It claims that an authentic ideology of literacy inheres in the subject itself, and should guide our teaching of it.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C7",
+        "text": "The inherent ideology of literacy should serve as the primary guide for teaching the subject.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "It claims that an authentic ideology of literacy inheres in the subject itself, and should guide our teaching of it.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C8",
+        "text": "There exists a privileged, common ground of literacy goals that all educators can agree upon.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.7,
+        "source_passage": "This privileged ideology is the common ground on which we can all stand in our common enterprise.",
+        "page_range": "14-16"
+      },
+      {
+        "id": "C9",
+        "text": "Universities should dedicate energies to the teaching of composition that are comparable to the energies devoted to the literary courses and scholarship that composition tuition supports.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "I began to wonder how long our university would continue its big expenditures on literary teaching and scholarship without insisting that we devote comparable energies to the teaching that was paying for so many of our literary courses—namely the teaching of composition.",
+        "page_range": "xiii"
+      },
+      {
+        "id": "C10",
+        "text": "The rhetorical concept of 'invention' is a fundamental subject in the study of composition, even if it is omitted from a specific philosophical treatment of the field.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Although the philosophy of composition sounds comprehensive, I have omitted some important subjects—for instance the subject of invention.",
+        "page_range": "xiii"
+      },
+      {
+        "id": "C11",
+        "text": "A scholar's late-career entry into a new field inherently shapes the specific virtues and shortcomings of their resulting research.",
+        "claim_level": "meta",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "Its shortcomings and virtues are those to be expected, no doubt, from an author who enters a new field in middle age.",
+        "page_range": "xiii"
+      },
+      {
+        "id": "C12",
+        "text": "The teaching of literacy is a 'common enterprise' that unites composition teachers across diverse types of educational institutions.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "This privileged ideology is the common ground on which we can all stand in our common enterprise.",
+        "page_range": "xiii"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "description": "Author's personal observation of university budgeting and the financial reliance of English departments on composition courses.",
+        "evidence_type": "anecdote",
+        "supports_claim": "C2"
+      },
+      {
+        "id": "E2",
+        "description": "Author's seven-year intensive study of research in the field of composition.",
+        "evidence_type": "expert_testimony",
+        "supports_claim": "C3"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "CON1",
+        "term": "Ideology of Literacy",
+        "author_definition": "A set of privileged goals and principles that are not external impositions but are inherent in the functional nature of written language itself.",
+        "common_alternative": "A set of political or social values imposed upon language instruction.",
+        "source_passage": "an authentic ideology of literacy inheres in the subject itself, and should guide our teaching of it.",
+        "importance": "central"
+      },
+      {
+        "id": "CON2",
+        "term": "Aestheticism",
+        "author_definition": "A focus on beauty and artistic principles, exemplified by lyric poetry, which Hirsch contrasts with the practical communicative goals of composition.",
+        "importance": "contextual"
+      },
+      {
+        "id": "CON3",
+        "term": "Invention",
+        "author_definition": "A major subject of composition study, omitted from this volume, traditionally referring to the process of developing ideas for writing.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON4",
+        "term": "Theory of Interpretation",
+        "author_definition": "The study of reading as a correlative process to writing, which the author previously believed would be directly applicable to composition research.",
+        "importance": "contextual"
+      },
+      {
+        "id": "CON5",
+        "term": "Common Enterprise",
+        "author_definition": "The shared professional and ideological goal of composition teachers at diverse schools and colleges.",
+        "importance": "central"
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE1",
+        "name": "Hirsch's chairmanship at the University of Virginia",
+        "description": "Hirsch describes his 'conversion experience' while preparing an annual budget, realizing the department spent heavily on literature while composition courses actually funded those expenditures. This led to his transition from literary theorist to composition director.",
+        "key_passages": [
+          "My conversion experience occurred about eight years ago, near the end of my term as chairman of a university English department, when I was preparing the annual budget."
+        ],
+        "role_in_argument": "historical_precedent"
+      }
+    ],
+    "thinkers": [
+      {
+        "id": "TH1",
+        "name": "Edgar Allan Poe",
+        "key_idea": "The Philosophy of Composition, an essay surveying the principles of beauty in lyric poetry.",
+        "author_stance": "disagrees",
+        "engagement": "Hirsch uses Poe's title ironically to highlight the shift from Poe's focus on 'beauty' to his own focus on the 'prosaic' and practical aspects of writing.",
+        "key_passages": [
+          "Some readers of this book will be familiar with Poe’s essay called 'The Philosophy of Composition,' which surveys the principles of beauty in lyric poetry... the mild irony is directed not just to my own, humbler subject, but also to Poe’s aestheticism."
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "National Endowment for the Humanities",
+        "role": "institution",
+        "context": "Provided a yearlong fellowship in 1971 to support Hirsch's linguistic studies."
+      },
+      {
+        "name": "University of Virginia",
+        "role": "institution",
+        "context": "Provided a grant in 1975 for the preparation of the manuscript."
+      }
+    ],
+    "objections_raised": [],
+    "cross_chapter_refs": []
+  },
+  "metadata": {
+    "total_cost_usd": 0.0014550000000000001,
+    "duration_s": 27.220546007156372,
+    "num_windows": 1,
+    "pre_dedup_claims": 8,
+    "post_dedup_claims": 8,
+    "sweep_claims": 4,
+    "sweep_concepts": 3
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author establishes a foundational premise that prose readability is grounded in the 'fundamental values of all speech,' which justifies its defense against Victorian-era resistance.",
+        "source_passage": "For, the goal of readability in prose implies values that are fundamental to all of speech. That this goal of communicative efficiency does not necessarily conflict with stylistic individuality, complexity, or elegance should now be sufficiently clear in principle",
+        "importance": "significant",
+        "suggested_claim": "The universal ground for readability as a goal in prose is its adherence to the fundamental values of human speech.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author provides a specific nuance to the 'least effort' principle: sometimes a longer word is more efficient because it forces the reader to 'dwell' on a quality, which is part of the semantic intention.",
+        "source_passage": "Magnificent is grander than grand, because it 'allows the reader’s consciousness more time to dwell on the quality predicated.'",
+        "importance": "significant",
+        "suggested_claim": "Relative readability accounts for semantic intentions that require 'dwelling' or emphasis, where a shorter word would be less efficient at conveying the specific quality intended.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author explicitly identifies the 'One Perusal' assumption as a necessary condition for Spencer's and his own theory of mental economy.",
+        "source_passage": "This statement holds true only if we assume that a sentence is given but one perusal... Assuming for the moment that this claim is true, we can say that Spencer’s assertion just quoted must also be true.",
+        "importance": "critical",
+        "suggested_claim": "The principle of mental economy in reading is predicated on the methodological assumption that prose should be understood in a single perusal.",
+        "suggested_claim_level": "methodological"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C20",
+        "problem": "The claim states that the principle of least effort is 'insufficient,' but Hirsch's point is specifically that Spencer failed to distinguish between efficiency and psychological variety, leading to a logical conflation, not necessarily that the principle itself is insufficient when correctly defined as 'relative.'",
+        "source_passage": "By introducing these further pyschological considerations, Spencer shows, without directly admitting it, that the principle of least effort is by itself an insufficient principle for composition. Other principles must be added besides the most efficient presentation of 'thoughts.'",
+        "suggested_fix": "The principle of least effort, when narrowly defined as the efficient presentation of 'thoughts,' is an insufficient foundation for composition because it neglects the 'economy of mental sensibilities' (variety and interest)."
+      },
+      {
+        "claim_id": "C70",
+        "problem": "The extraction treats the 'same meaning' as a mere theoretical prerequisite, but Hirsch argues it is a pragmatic necessity for the very existence of the profession.",
+        "source_passage": "Unless it were possible for a revised text to convey the same meaning as the original in a more readable way, we would not need to teach a student how to write readable prose. The student who protests that he did say what he meant would be right, and the teacher of composition could close up shop.",
+        "suggested_fix": "The pragmatic possibility of synonymy (conveying the same meaning in different forms) is the only logical justification for the teaching of composition and revision."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E20",
+        "claim_id": "C70",
+        "missing_warrant": "If the human brain naturally discards linguistic form in favor of 'gist' (meaning) during storage, then the verbal form is functionally a swappable vehicle, making synonymy a cognitive reality rather than just a theoretical hope."
+      },
+      {
+        "evidence_id": "E23",
+        "claim_id": "C81",
+        "missing_warrant": "Because logic and readability can be demonstrated to vary independently in the same text, they must be processed by distinct psychological/cognitive systems."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C69",
+        "counter_argument": "The 'Expert Jargon' paradox: Experts may find highly technical, Latinate-heavy prose more readable than 'simplified' Saxon prose because the jargon exists in a highly familiar paradigmatic domain for that specific sub-culture.",
+        "why_important": "It challenges Hirsch's claim that relative readability is consistent across all skill levels by suggesting that paradigmatic familiarity is audience-dependent."
+      },
+      {
+        "targets_claim": "C50",
+        "counter_argument": "Poetic meter creates expectation-fulfillment through physiological rhythm, which has no direct equivalent in the non-rhythmic, semantic-heavy structures of standard prose.",
+        "why_important": "It questions whether the 'anticipation' argument from Spencer can be validly transferred from poetry to prose."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C25",
+          "C27",
+          "C95"
+        ],
+        "action": "merge",
+        "explanation": "These claims all describe the 'Limited Channel Capacity' model. C95 is just a more detailed breakdown of the mechanics mentioned in C25 and C27."
+      },
+      {
+        "claim_ids": [
+          "C85",
+          "C99"
+        ],
+        "action": "merge",
+        "explanation": "These claims are verbatim identical in meaning, stating that the logic of writing is distinct from the logic of thought."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough in capturing individual claims (99 items). However, it suffers from some redundancy (granularity issues) and misses a few key 'connective' arguments, such as the methodological requirement of 'one perusal' and the foundational link Hirsch makes between prose and the values of speech. The warranting of the 'gist' memory research as the bridge to 'synonymy' is the most critical missing logical link."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0025834,
+    "input_tokens": 19874,
+    "output_tokens": 1490,
+    "duration_s": 19.515944957733154,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

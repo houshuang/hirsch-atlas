@@ -1,0 +1,93 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author provides a specific cognitive mechanism for why domain knowledge is required for reading: the ability to grasp unstated implications.",
+        "source_passage": "How well you understand a specific text (or a specific oral utterance) depends on whether you correctly understand the writer’s unstated implications. And those inferences depend on your having specific domain knowledge relative to the text.",
+        "importance": "significant",
+        "suggested_claim": "The capacity to make necessary inferences from a text's unstated implications is fundamentally enabled by domain-specific knowledge rather than general reading ability.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author distinguishes between 'general intelligence' (g) and 'general skills,' arguing that the former exists but does not imply the latter.",
+        "source_passage": "No doubt there’s such a thing as general intelligence... But everybody understands that being good at basketball does not automatically make you a good tennis player.",
+        "importance": "significant",
+        "suggested_claim": "The existence of general intelligence (g) does not validate the existence of transferable general skills; skills remain domain-dependent regardless of base intelligence.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the failure of general logic training is due to the nature of real-world problems being probabilistic rather than syllogistic.",
+        "source_passage": "It’s usually the probabilistic sort of problem that requires domain-specific knowledge... In real-world critical thinking, you do not have an all-Hershey-bars-are-good, all-men-are-mortal sort of situation.",
+        "importance": "critical",
+        "suggested_claim": "General critical thinking training fails because it focuses on universal logical premises (syllogisms) while real-world thinking requires navigating probabilistic scenarios dependent on specific context.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C19",
+        "problem": "The claim adds 'resulting from a lack of rigorous content focus' as a causal explanation for excess time, which is an interpretive leap not explicitly stated as the cause of the time surplus in the text.",
+        "source_passage": "In a typical child-centered school, teachers will put these critical-thinking packets together for kids because they have more time on their hands.",
+        "suggested_fix": "Child-centered schools utilize content-free critical-thinking packets because their pedagogical structure results in more 'extra time' compared to knowledge-based schools."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "missing_warrant": "Cognitive skills and physical skills are structurally analogous in their development and lack of automatic transfer across different domains."
+      },
+      {
+        "evidence_id": "E9",
+        "claim_id": "C26",
+        "missing_warrant": "Long-term academic accolades and university choices in early adulthood are valid and reliable measures of the effectiveness of elementary-level pedagogical models."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C15",
+        "counter_argument": "There may be meta-cognitive heuristics (e.g., recognizing confirmation bias or statistical base-rate neglect) that function as general tools across many domains even if specific knowledge is required for implementation.",
+        "why_important": "It addresses the possibility that 'critical thinking' is a hybrid of content knowledge and general cognitive strategies, rather than being 100% domain-specific."
+      },
+      {
+        "targets_claim": "C7",
+        "counter_argument": "Certain high-stakes fields like computer science, law, and mathematics rely heavily on firm, non-probabilistic logical inferences that could potentially be improved by general logic training.",
+        "why_important": "It challenges the author's generalization that 'real-world' problems are 'usually' probabilistic."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C3",
+          "C15"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that critical thinking and reading are domain-specific and not general skills. C15 is just a slightly more verbose version of the main conclusion in C3."
+      },
+      {
+        "claim_ids": [
+          "C14",
+          "C17"
+        ],
+        "action": "merge",
+        "explanation": "C14 identifies teaching packets as ineffective, and C17 repeats that they do not improve thinking. These are the same empirical claim."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction captures the main polemic against general skills and the link to child-centered education. However, it misses the author's nuanced distinction between 'g' and transferable skills, and it glosses over the specific logical distinction the author makes between syllogistic logic (which is easy/trivial) and probabilistic real-world thinking (which requires knowledge). Warrants for the athletic analogy are implicit in the text but missing from the extraction."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0011389000000000002,
+    "input_tokens": 6341,
+    "output_tokens": 1262,
+    "duration_s": 18.113427877426147,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

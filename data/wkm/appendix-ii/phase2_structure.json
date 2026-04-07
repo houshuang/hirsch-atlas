@@ -1,0 +1,223 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The overall decline in performance provides the context for evaluating how that decline was distributed across demographic groups."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "C6's claim of a 'four times greater' gap is the direct calculation derived from the data in C22 (0.4 SD for reading vs 0.1 SD for math)."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The empirical observation that the equity gap widened drastically more in reading than math suggests that reading equity is more sensitive to the quality of schooling."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The fact that math is a 'school subject' explaining uniform decline helps isolate why reading's non-uniform decline is an equity crisis."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "Since reading depends on vocabulary and knowledge (partially acquired at home), a failure in school instruction hits those with less home-based knowledge much harder."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "If poor schooling (skills-based) destroys reading equity, then the inverse (knowledge-based) is posited as the solution for equity."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "By eliminating the 'skills-based' alternative as ineffective for vocabulary growth, the author strengthens the case for a knowledge-based curriculum."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "The effectiveness of knowledge-based curricula for equity creates a normative obligation for schools to adopt them to fulfill social goals."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The empirical doubling of writing errors provides the statistical basis for claiming a decline in writing skills."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "7.C3",
+        "relationship": "supports",
+        "explanation": "This specific instance of writing decline in France supports the broader conclusion that France's shift to skill-based principles caused a systemic educational decline."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "7.C60",
+        "relationship": "supports",
+        "explanation": "The decline in writing performance is a component of the overall 0.4 standard deviation drop in literacy scores attributed to the new curriculum."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C6",
+        "warrant_text": "A widening spread between demographic groups on standardized tests is a valid proxy for a decline in educational equity.",
+        "is_explicit": false,
+        "vulnerability": "The spread might be influenced by changes in the underlying demographics of the population rather than the quality of the school system itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E1",
+        "claim_id": "C5",
+        "warrant_text": "Longitudinal comparison of 5th-grade performance across 20 years identifies the cumulative effect of primary school curriculum changes.",
+        "is_explicit": true,
+        "vulnerability": "Other societal factors (technology, parenting trends, media consumption) also changed significantly between 1987 and 2007."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C4",
+        "warrant_text": "Inter-rater agreement levels are the primary indicator of scoring reliability and the superiority of centralized processing.",
+        "is_explicit": true,
+        "vulnerability": "Reliability in scoring does not necessarily equate to the validity of the test items in measuring actual knowledge."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E4",
+        "claim_id": "C14",
+        "warrant_text": "A shift in the percentage of students meeting a high-error threshold from 6% to 12% in a standardized evaluation constitutes a doubling of that outcome within the population.",
+        "is_explicit": true,
+        "vulnerability": "The comparison assumes the difficulty of the writing prompt and the strictness of the grading criteria remained identical across the twenty-year gap."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C14",
+        "claim_id": "C13",
+        "warrant_text": "When a sharp decline in a specific academic skill (writing) follows a documented shift in pedagogical methodology (moving from systematic exercises to 'natural' approaches), the methodological change is the most probable cause of the decline.",
+        "is_explicit": false,
+        "vulnerability": "This is a 'post hoc ergo propter hoc' assumption; other external factors such as digital technology, changes in home reading habits, or demographic shifts could be the actual drivers."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "C7",
+        "missing_step": "Establishing that the increased reading gap was caused by the curriculum shift specifically, rather than external factors that disproportionately affected reading (e.g., changes in home literacy environments).",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C11",
+        "missing_step": "Evidence that the 'skills-based' methods adopted by teachers were the primary reason for the decline, rather than a decline in the quality of teacher training or student motivation.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C14",
+        "to_id": "C13",
+        "missing_step": "Evidence that the student population in 2007 was demographically and linguistically comparable to the 1987 population.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "The greater negative impact on reading equity might be due to increased linguistic diversity in the French student population between 1987 and 2007, rather than the intrinsic nature of reading as a 'home subject.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "A knowledge-based curriculum could theoretically widen the gap if advantaged students, who already have high knowledge, benefit from the rich content at an even faster rate than disadvantaged students (the Matthew Effect).",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C20",
+        "objection": "Focusing schools exclusively on maximizing vocabulary and knowledge acquisition to serve 'equal opportunity' may neglect other vital social aims of schooling, such as social-emotional development or critical inquiry.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C13",
+        "objection": "The increase in writing errors may be primarily due to the increased influence of digital communication and 'texting' culture on ten-year-olds between 1987 and 2007, rather than changes in school curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "The decline could be attributed to a general increase in the number of students from non-French speaking households entering the public school system during this twenty-year period.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Equity-Subject Correlation Chain",
+        "chain": [
+          "C5",
+          "C22",
+          "C6",
+          "C8",
+          "C9",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Curricular Reform Chain",
+        "chain": [
+          "C16",
+          "C12",
+          "C10",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Mandate Chain",
+        "chain": [
+          "C11",
+          "C21",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "French Writing Quality Evidence Chain",
+        "chain": [
+          "E4",
+          "C14",
+          "C13",
+          "7.C3"
+        ],
+        "conclusion_id": "7.C3",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0027034,
+    "duration_s": 36.049920082092285
+  }
+}

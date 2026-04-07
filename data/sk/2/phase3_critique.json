@@ -1,0 +1,93 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the stability of the student body (zero attrition) is a necessary condition for the cumulative curriculum to function as intended.",
+        "source_passage": "There are no openings in other grades, since no child leaves! ... Since no child leaves, only kindergarten places are available.",
+        "importance": "significant",
+        "suggested_claim": "A stable student cohort is required to realize the full benefits of a cumulative, sequenced curriculum.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author presents 'neighborhood gossip' as a more reliable and powerful validator of educational success than the 'silent' mainstream media.",
+        "source_passage": "Through two decades of neighborhood gossip, results have become known—not through the silent press—but through word of mouth.",
+        "importance": "minor",
+        "suggested_claim": "Grassroots community validation is a more effective measure of a school's success than media coverage.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author implies that teacher training in education schools is currently a net-negative that requires active 'de-programming' or 'weaning' for school success.",
+        "source_passage": "At first, he had to wean his teachers away from the dominant child-centered theories taught to them in their education schools.",
+        "importance": "significant",
+        "suggested_claim": "Standard teacher education in child-centered theory acts as an obstacle to effective knowledge-based instruction.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C7",
+        "problem": "The claim states success is 'not the individual talent of staff,' which suggests staff talent is irrelevant, but the author explicitly acknowledges the staff are 'devoted and able people' who love the results.",
+        "source_passage": "The results aren’t flukes achieved by the ingenuity of especially talented principals and teachers who are indeed devoted and able people who love the uniformly excellent results they observe.",
+        "suggested_fix": "The success is primarily driven by the curriculum structure, which allows standard, capable educators to achieve exceptional results, rather than relying on rare, 'super-hero' ingenuity."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E3",
+        "claim_id": "C5",
+        "missing_warrant": "High application volume in a low-income area is a reliable proxy for objective academic quality rather than a reflection of a general lack of safe alternatives."
+      },
+      {
+        "evidence_id": "E4",
+        "claim_id": "C3",
+        "missing_warrant": "Operating expenses are the decisive financial factor in educational outcomes, and capital assets (like donated buildings) do not significantly skew performance results."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C11",
+        "counter_argument": "The 'Volume of Reading' hypothesis: Reading comprehension improves primarily through the total quantity of text consumed; therefore, allowing students to choose 'readable' books they enjoy increases total volume, which eventually builds the stamina needed for complex texts.",
+        "why_important": "This is the primary defense used by proponents of the child-centered classroom libraries the author attacks."
+      },
+      {
+        "targets_claim": "C20",
+        "counter_argument": "The 'Structural Inequality' objection: Even if reading scores are equalized, social mobility is constrained by external factors like social capital, inherited wealth, and systemic labor market biases that literacy alone cannot overcome.",
+        "why_important": "It challenges the author's central premise that educational reform is the primary lever for social equality."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C15",
+          "C16"
+        ],
+        "action": "merge",
+        "explanation": "C15 describes the manifestation of the error and C16 describes the consequence; together they form a single argument about the physical classroom being an embodiment of a scientific mistake."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C5",
+        "current_level": "empirical",
+        "correct_level": "pragmatic",
+        "explanation": "The comparison to Harvard's acceptance rate is a rhetorical device used to demonstrate social prestige and demand, rather than a strictly empirical measure of academic rigor or institutional type."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction captures the major narrative and the core theoretical conflict (Core Knowledge vs. Readability). However, it misses the author's nuanced argument about the necessity of teacher 'weaning' and the importance of cohort stability. It also slightly oversimplifies the author's view on teacher talent, making it seem as if the author dismisses staff ability entirely."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0010396,
+    "input_tokens": 5584,
+    "output_tokens": 1203,
+    "duration_s": 18.53113603591919,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

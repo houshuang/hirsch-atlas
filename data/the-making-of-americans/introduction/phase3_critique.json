@@ -1,0 +1,100 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that specific content knowledge provides the 'adaptive skills' necessary for economic survival in a globalized economy, explicitly linking core knowledge to job retraining flexibility.",
+        "source_passage": "Free-trade agreements have been especially hard on American adults because our schools have fallen behind in providing the adaptive skills and knowledge needed to adjust to new jobs.",
+        "importance": "significant",
+        "suggested_claim": "Specific content knowledge is the foundation of cognitive adaptability, allowing workers to successfully retrain for new jobs in a changing economy.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the current educational orthodoxy maintains power partly by falsely claiming to be a 'venerable' American tradition, when it is actually a relatively recent (1930s) development.",
+        "source_passage": "Those currently followed in our schools are neither as intellectually novel nor as venerably American as their supporters claim. They came into force only in the 1930s.",
+        "importance": "significant",
+        "suggested_claim": "Modern educational progressivism maintains its dominance by misrepresenting its 1930s-era origins as foundational American principles.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author suggests that the 'how-to' focus of schools (skills over facts) is not just a choice of style but is 'scientifically incorrect' because it contradicts how the brain actually develops critical thinking.",
+        "source_passage": "The widespread notion that the early grades are places where students should learn merely basic skills... is, we now know, a scientifically misguided concept that contradicts reality.",
+        "importance": "critical",
+        "suggested_claim": "The pedagogical separation of 'critical thinking skills' from 'factual content' is a scientific fallacy that ignores the cognitive realities of learning.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C28",
+        "problem": "The claim substitutes 'technical methodologies' for 'technical successes,' which reverses the author's meaning. Hirsch wants the results (successes) but explicitly differentiates this from the 'methods' or 'aims' which must remain uniquely American.",
+        "source_passage": "While I argue that our schools need to replicate the technical successes of high-performing schools elsewhere, I stress that they have special aims also that arise from our country’s transethnic character.",
+        "suggested_fix": "American schools should aim to replicate the high performance levels (technical successes) of international systems while maintaining uniquely American civic aims."
+      },
+      {
+        "claim_id": "C14",
+        "problem": "The claim uses the term 'cultural assimilation' broadly, whereas Hirsch qualifies it by citing Shanker and Lincoln to emphasize a 'transethnic' unity that does *not* require abandoning private identities.",
+        "source_passage": "American schools play a critical role in our attempt to accommodate different groups and ethnicities in a peaceful and harmonious unity without requiring them to abandon their private identities.",
+        "suggested_fix": "Educational assimilation should be understood as the creation of a shared civic identity that accommodates rather than erases private ethnic and cultural identities."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "missing_warrant": "General knowledge acts as a 'mental scaffold' that makes learning new, specific technical skills faster and easier."
+      },
+      {
+        "evidence_id": "E2",
+        "claim_id": "C10",
+        "missing_warrant": "Historical longevity and 'founding' status confer legitimacy; by proving a tradition is 'recent' (1930s), one can reduce its perceived authority to be the 'natural' way of schooling."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C1",
+        "counter_argument": "Educational difficulties are primarily driven by systemic socio-economic inequality and chronic underfunding of schools serving marginalized communities, rather than the internal logic of pedagogical theories.",
+        "why_important": "This is the primary sociological objection to Hirsch's 'ideas-first' diagnosis of school failure."
+      },
+      {
+        "targets_claim": "C20",
+        "counter_argument": "The divide between Left and Right in education is not based on 'facile labels' but on irreconcilable values regarding the purpose of education (e.g., social transformation vs. cultural transmission).",
+        "why_important": "Hirsch's call for unity assumes that a 'neutral' curriculum exists, which many political theorists dispute."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C7",
+          "C8"
+        ],
+        "action": "merge",
+        "explanation": "Both claims address the same fallacy: the preference for general skills/critical thinking over specific factual content."
+      },
+      {
+        "claim_ids": [
+          "C12",
+          "C13",
+          "C15"
+        ],
+        "action": "merge",
+        "explanation": "These claims form a single logical arc: schools prepare children for the public sphere (C12) by creating competence (C13), which results in loyal citizenship (C15)."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is high-quality but misses the author's strategic use of history as a tool for delegitimizing current orthodoxy. It also slightly over-simplifies Hirsch's nuance regarding 'assimilation' vs. 'private identity.' The connection between specific content and economic adaptability is a key 'so what' that needs more prominence."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0010329,
+    "input_tokens": 4773,
+    "output_tokens": 1389,
+    "duration_s": 21.255303144454956,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

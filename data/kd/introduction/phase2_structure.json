@@ -1,0 +1,145 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The failure of 13-year-olds to improve in comprehension despite better decoding at age 9 suggests that the root cause of comprehension failure lies in the earlier educational stages where knowledge should have been built."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "If reading problems originate in early schooling, then late-stage interventions like 'power literacy' in middle school are logically destined to fail."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "Because the acquisition of knowledge is inherently slow, the resulting educational achievement cannot be an overnight fix."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "Eliminating time-wasting process strategies is a necessary condition for freeing up the school time required to accelerate achievement through knowledge-oriented modes."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The duty to preserve the democratic inheritance depends on the premise that equality requires equal opportunity at the start of life."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If failing to provide equal opportunity is a failure of democracy, then the nation is morally obligated to adopt the curriculum structure (cumulative knowledge) that provides that opportunity."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C4",
+        "warrant_text": "If students master the mechanics of reading (decoding) early but fail at the substance of reading (comprehension) later, the deficit must be in the cumulative knowledge base that supports comprehension, which is built in the early years.",
+        "is_explicit": true,
+        "vulnerability": "The comprehension stall could be caused by changes in hormonal development, social distractions in middle school, or the increased complexity of middle-school texts regardless of prior knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "warrant_text": "Evidence of failure in process-heavy systems implies that an alternative approach (knowledge-oriented) is the only viable path to improvement.",
+        "is_explicit": false,
+        "vulnerability": "This is a false dichotomy; it assumes that because current 'process' methods are failing, only Hirsch's specific 'knowledge' model can succeed, ignoring other potential instructional variables."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C2",
+        "to_id": "C3",
+        "missing_step": "Background knowledge is the primary variable that differentiates decoding from comprehension.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C9",
+        "to_id": "C16",
+        "missing_step": "The 'set of ideas' that prevailed since the 1940s specifically prioritized psychological processes over factual content knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C11",
+        "to_id": "C8",
+        "missing_step": "The 'coherent schooling systems' in other nations succeed specifically because of their cumulative knowledge structure rather than other social or economic factors.",
+        "step_type": "generalization",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C8",
+        "objection": "Reading gaps are primarily driven by 'out-of-school factors' such as poverty, housing stability, and health care, which a school curriculum alone cannot equalize regardless of how knowledge-rich it is.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C7",
+        "objection": "Meta-cognitive strategies (like self-monitoring and questioning) have a robust evidence base for helping students navigate difficult texts, even when their background knowledge is imperfect.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C17",
+        "objection": "Educational bureaucracy and 'the blob' of teacher-training institutions have structural incentives to resist change that individual parents and citizens lack the organization or longevity to overcome.",
+        "objection_type": "scope_limitation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Diagnosis of Comprehension Failure",
+        "chain": [
+          "C2",
+          "C4",
+          "C3",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "strong"
+      },
+      {
+        "name": "The Efficiency and Time-Usage Logic",
+        "chain": [
+          "C5",
+          "C15",
+          "C7",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Democratic Equality Mandate",
+        "chain": [
+          "C14",
+          "C18",
+          "C10",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0007949000000000001,
+    "duration_s": 15.100940942764282
+  }
+}

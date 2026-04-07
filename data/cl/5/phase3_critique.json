@@ -1,0 +1,113 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "Hirsch argues that the progressive rejection of bookish education for 'direct experience' paradoxically results in less individuality, not more.",
+        "source_passage": "Americans in their teens and twenties who were brought up under individualistic theories are not less conventional than their predecessors, only less literate, less able to express their individuality.",
+        "importance": "significant",
+        "suggested_claim": "The deprivation of shared cultural traditions through progressive education results in a loss of individual expressive power rather than its liberation.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author defines the 'Extensive Curriculum' not as expert-level knowledge, but as a telegraphic or 'elementary' network of associations.",
+        "source_passage": "The nature of this world knowledge as it exists in the minds of literate adults is typically elementary and incomplete. People reliably share just a few associations about canaries, such as yellow, sing, kept in cages, but not much more.",
+        "importance": "critical",
+        "suggested_claim": "Cultural literacy is composed of elementary and incomplete 'telegraphic' associations rather than exhaustive or specialized subject mastery.",
+        "suggested_claim_level": "methodological"
+      },
+      {
+        "description": "Hirsch provides a specific defense of the 'Extensive' mode of learning for young children based on cognitive development (natural interest in adult information).",
+        "source_passage": "They like to pick up adult information long before they can make sense of it. The predicted difficulties of teaching the extensive curriculum simply do not apply to young children...",
+        "importance": "significant",
+        "suggested_claim": "Early childhood is the optimal developmental window for extensive knowledge acquisition because young children naturally absorb facts without requiring deep schematic meaning.",
+        "suggested_claim_level": "empirical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C141",
+        "problem": "The extraction states children are 'not as intrigued' by imaginative literature, but the author actually argues they are *also* interested in non-fiction, not that they lack interest in fiction.",
+        "source_passage": "Children may not be as intrigued by 'imaginative literature' as recent curriculum makers assume. We need readers that contain a much larger proportion of nonfictional materials...",
+        "suggested_fix": "Children have a broader interest in non-fictional and traditional materials than modern curriculum developers acknowledge, who over-prioritize contemporary imaginative literature."
+      },
+      {
+        "claim_id": "C132",
+        "problem": "The extraction suggests modern works cannot replace Shakespeare for 'understanding a specific tradition,' but the author's logic is specifically about schema formation—Neil Simon cannot build a 'Shakespearean schema.'",
+        "source_passage": "If we want people to have a conception of Shakespearean drama, then a play by Neil Simon is not a satisfactory substitute for a play by Shakespeare.",
+        "suggested_fix": "Specific canonical works are irreplaceable for forming specific cultural schemata, even if modern substitutes are functionally equivalent in structural complexity."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E10",
+        "claim_id": "C40",
+        "missing_warrant": "If private schools produce superior outcomes even when family background is controlled for, then the curriculum (the primary internal variable of those schools) is the most probable causal factor."
+      },
+      {
+        "evidence_id": "E2",
+        "claim_id": "C9",
+        "missing_warrant": "Longitudinal parity in technical skills (age 6) followed by divergence in comprehension (age 7+) indicates that the diverging variable (cumulative background knowledge) is the driver of the literacy gap."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C148",
+        "counter_argument": "The selection of which 'neutral' facts and proverbs to include in the national vocabulary is an exercise of cultural hegemony that prioritizes dominant Western structures over marginalized ones.",
+        "why_important": "It addresses the most common critique of Hirsch: that his 'neutral' list is actually a political tool for cultural assimilation."
+      },
+      {
+        "targets_claim": "C160",
+        "counter_argument": "Modern information retrieval technology (e.g., search engines, AI) makes the internal storage of extensive factual knowledge less critical for 'skill' execution than Hirsch assumes.",
+        "why_important": "It challenges the author's core premise that facts must be stored in the individual mind to enable literacy in the digital age."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C159",
+          "C160"
+        ],
+        "action": "merge",
+        "explanation": "C159 (polarization has no basis in reason) is simply the rhetorical framing for the ontological claim in C160 (facts and skills are inseparable)."
+      },
+      {
+        "claim_ids": [
+          "C141",
+          "C142"
+        ],
+        "action": "merge",
+        "explanation": "These two claims represent the same argument regarding the cognitive appetite of young children for factual information versus contemporary fiction."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C1",
+        "current_level": "empirical",
+        "correct_level": "meta",
+        "explanation": "This is a claim about the structural and legal boundaries of public policy reach, not an empirical observation of classroom behavior."
+      },
+      {
+        "claim_id": "C160",
+        "current_level": "theoretical",
+        "correct_level": "meta",
+        "explanation": "The inseparability of facts and skills is an epistemological/meta-theoretical claim about the nature of cognition, not just a specific educational theory."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is highly detailed and captures the historical narrative (1893 vs 1918) and the core Extensive/Intensive curriculum distinction well. However, it misses the nuances of Hirsch's 'telegraphic' definition of cultural literacy—a vital part of his methodology—and fails to fully capture his normative arguments regarding how progressive education inadvertently suppresses individuality. Some claims are overly simplified, losing Hirsch's specific focus on cognitive schemata."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.004566700000000001,
+    "input_tokens": 39483,
+    "output_tokens": 1546,
+    "duration_s": 16.509284019470215,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

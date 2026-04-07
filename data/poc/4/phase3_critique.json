@@ -1,0 +1,91 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The 'Construing vs. Understanding' Tradeoff: Hirsch argues that cognitive effort is a finite resource. When a reader must expend effort just to decode (construe) difficult syntax, that effort is 'stolen' from the higher-level task of synthesizing the meaning (understanding the gist).",
+        "source_passage": "If the reader must constantly reread clauses, sentences, and paragraphs to construe the writer's meaning, he will not understand or remember that meaning very well. Too much of the reader’s effort will have been devoted to construing, too little to understanding, the meaning.",
+        "importance": "critical",
+        "suggested_claim": "The readability of prose is a zero-sum game regarding cognitive effort: energy spent on decoding syntactic structure is unavailable for semantic synthesis and long-term retention.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The Hierarchy of Values in Stylistic Choice: Hirsch provides a definitive 'so what' for the conflict between truth and clarity. He argues that while a writer should not sacrifice 'adequacy' (truth) for simple 'lucidity,' they must nonetheless treat 'linearity' as an absolute floor that cannot be compromised for communicative purposes.",
+        "source_passage": "Linearity determines that boundary line, and only rarely does a writer have a communicative justification for stepping over it.",
+        "importance": "significant",
+        "suggested_claim": "While a writer may sacrifice lucidity for semantic adequacy, they are rarely justified in sacrificing linearity, as non-linear prose fails to reliably transmit the intended gist.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C77",
+        "problem": "The claim as stated identifies 'small-scale, local uncertainty' as the 'main cause of bad writing.' However, the text specifically states it is the 'main cause of unreadable writing' in the context of prose that otherwise follows large-scale covert constraints.",
+        "source_passage": "Nonetheless, a neglect of these large-scale covert constraints is rarely the chief cause of unreadable writing... Practical experience tells us that the main uncertainties of bad writing are small-scale, local uncertainties",
+        "suggested_fix": "The primary cause of functional unreadability in otherwise competent prose is small-scale, local uncertainty persisting from word to word, rather than a lack of shared large-scale knowledge."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E74",
+        "claim_id": "C227",
+        "missing_warrant": "The use of explicit markers (who, which, that) functions to categorize the upcoming linguistic sequence in advance, thereby reducing the set of plausible syntactic hypotheses the mind must maintain in working memory before reaching the content."
+      },
+      {
+        "evidence_id": "E43",
+        "claim_id": "C135",
+        "missing_warrant": "In identification tasks involving complex visual properties, the cognitive 'tax' of hierarchical syntax is outweighed by the benefit of structural cohesiveness, which prevents the individual properties from being remembered as fragmented, unrelated items."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C96",
+        "counter_argument": "Incremental processing models in psycholinguistics (e.g., Garden Path theory) suggest that readers do not wait for semantic closure at the end of a clause, but rather make immediate, tentative syntactic assignments for every individual word as it is encountered.",
+        "why_important": "It challenges Hirsch's 'scanning-plus-review' model which relies on the clause being the first moment of determinacy."
+      },
+      {
+        "targets_claim": "C181",
+        "counter_argument": "A highly restricted set of thematic tags can lead to 'conceptual flattening' or 'lexical ambiguity,' where the same term is used to represent nuanced variations of a concept, potentially leading to a loss of the very 'semantic adequacy' the author values.",
+        "why_important": "It exposes a potential conflict within Hirsch's own requirement for both linearity and adequacy."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C153",
+          "C154",
+          "C155",
+          "C156",
+          "C159",
+          "C160"
+        ],
+        "action": "merge",
+        "explanation": "These claims all repetitively describe the German verb-at-the-end rule as an artificial, harmful, and psychologically inefficient 'dinosaur' preserved only in formal grapholects."
+      },
+      {
+        "claim_ids": [
+          "C129",
+          "C181",
+          "C198"
+        ],
+        "action": "merge",
+        "explanation": "These claims represent the same pragmatic advice: reducing unique thematic tags (concepts) improves readability by lowering memory load. They are currently split across theoretical and pragmatic levels unnecessarily."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough in capturing the empirical data and specific psychological constants Hirsch cites. However, it misses the author's nuanced distinction between 'construing' effort and 'understanding' effort, which is the logical pivot for his 'linearity' argument. Several claims regarding German syntax and thematic tagging are redundant and should be consolidated to improve the signal-to-noise ratio in the structural relationships."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0061101,
+    "input_tokens": 55813,
+    "output_tokens": 1322,
+    "duration_s": 22.3734290599823,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

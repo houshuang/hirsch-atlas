@@ -1,0 +1,99 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the current pedagogical failure is not just an instructional oversight but a systemic 'abdication of duty' where teachers keep 'secrets' (the rules of the public sphere) from students who need them most.",
+        "source_passage": "Delpit says, 'If such explicitness is not provided to students, what it feels like to people who are old enough to judge is that there are secrets being kept, that time is being wasted, that the teacher is abdicating his or her duty to teach.'",
+        "importance": "significant",
+        "suggested_claim": "The failure to explicitly teach the standard language code and its background knowledge is perceived by students as a breach of trust and an abdication of professional duty.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "Hirsch makes a critical distinction between vocabulary change (which is frequent) and grammatical/syntactical change (which is negligible), arguing that the stability of the latter justifies a fixed curriculum.",
+        "source_passage": "Such vocabulary change is a fascinating subject, but ever since the late nineteenth century, new words have occupied a surprisingly small segment of the English vocabulary, and grammar has hardly changed at all.",
+        "importance": "critical",
+        "suggested_claim": "The extreme stability of English grammar and syntax over the last century provides a stable foundation that justifies a fixed, long-term core curriculum.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the deterioration of student writing has led to a systemic degradation of evaluation methods, where faculty use multiple-choice tests as a defensive measure.",
+        "source_passage": "Short-answer and multiple-choice tests have become the preferred evaluation method, so that faculty members can avoid having to read student papers.",
+        "importance": "significant",
+        "suggested_claim": "Declining student writing standards have forced a systemic shift toward less rigorous evaluation methods (like multiple-choice tests) in higher education.",
+        "suggested_claim_level": "empirical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C115",
+        "problem": "The extraction overstates Hirsch's hyperbole. Hirsch says 'in many years,' while the claim says 'ever made.'",
+        "source_passage": "the most ill-informed public statement by a learned society in many years.",
+        "suggested_fix": "The NCTE assertion that the standard American dialect is a myth is one of the most ill-informed public statements by a learned society in recent history."
+      },
+      {
+        "claim_id": "C106",
+        "problem": "The claim uses the word 'universally,' but Hirsch uses the phrase 'sensible parents,' which is a rhetorical qualification, not a universal empirical claim.",
+        "source_passage": "sensible parents will certainly want their own children to wield the standard language effectively.",
+        "suggested_fix": "Sensible parents, regardless of their theoretical views, desire for their children to master the standard language as a tool for success."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E18",
+        "claim_id": "C111",
+        "missing_warrant": "The requirements for advancement in the military (meritocracy) are indicative of the linguistic requirements for advancement in the broader American economic public sphere."
+      },
+      {
+        "evidence_id": "E25",
+        "claim_id": "C70",
+        "missing_warrant": "Literary devices like irony function the same way as everyday social communication, requiring a specific 'speech community' context for the literal meaning to be transcended."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C58",
+        "counter_argument": "Codifying 'standard knowledge' into a curriculum inevitably results in a 'canon' that excludes the histories and contributions of marginalized groups, even if the intent is egalitarian.",
+        "why_important": "This is the primary critique from multiculturalists and critical pedagogues that Hirsch is attempting to rebut; addressing it directly strengthens the 'technical necessity' argument."
+      },
+      {
+        "targets_claim": "C101",
+        "counter_argument": "Linguistic research (e.g., Krashen) suggests that conscious learning of grammar rules (explicit knowledge) does not efficiently translate into the subconscious ability to produce fluent speech or writing (acquisition).",
+        "why_important": "This challenges the author's methodological assumption that teaching 'parts of speech' is the causal mechanism for better writing."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C15",
+          "C17"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe the exact same phenomenon: college writing being so poor that faculty give up on improving it."
+      },
+      {
+        "claim_ids": [
+          "C48",
+          "C51"
+        ],
+        "action": "merge",
+        "explanation": "These both describe the dependency of the modern nation on expanded literacy/communication for all citizens."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough, capturing almost every nuance of Hirsch's complex argument regarding the 'linguistic commons.' It successfully links the historical standardization of English to the modern cognitive requirements of literacy. The main weaknesses are minor distortions in the degree of authorial hyperbole and a few redundant claims in the inventory."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0027255,
+    "input_tokens": 21879,
+    "output_tokens": 1344,
+    "duration_s": 15.51213002204895,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

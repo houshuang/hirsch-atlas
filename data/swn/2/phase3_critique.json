@@ -1,0 +1,114 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that for intellectual capital to be effective, it must be highly selective and based on a 'shared intellectual currency' rather than just any information.",
+        "source_passage": "The money analogy also suggests a further truth: not just any knowledge will work—only that knowledge which constitutes the shared intellectual currency of the society. Selectivity is critical.",
+        "importance": "significant",
+        "suggested_claim": "To function as useful intellectual capital, knowledge must be the widely useful and negotiable 'coin of the realm' shared by the whole society.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that vague, multi-year curriculum guidelines specifically function to dissolve teacher and student responsibility for knowledge gaps.",
+        "source_passage": "Vague, multiyear goals make neither the student nor the teacher responsible for gaps; a gap is always something that should have been filled in some other year!",
+        "importance": "significant",
+        "suggested_claim": "Structural vagueness in multi-year curriculum planning prevents the assignment of responsibility for student knowledge gaps to either teachers or students.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author posits that the 'language instinct' is merely a subset of a broader, biologically ingrained 'learning instinct' necessary for human survival.",
+        "source_passage": "It is arguable... that the language instinct is part of a more general instinct to learn, which impels youngsters toward becoming members of the adult community.",
+        "importance": "significant",
+        "suggested_claim": "Human children possess a general biological instinct to learn that is essential for survival and social integration.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C11",
+        "problem": "The claim states the 'Revolution' was malleable, but the text states it was the 'uneducated peasants' who were malleable.",
+        "source_passage": "the Soviet state had been forced by economic imperatives to make its people literate, whereas the revolution of 1917 had been carried out by uneducated and therefore malleable peasants.",
+        "suggested_fix": "The durability of a democratic revolution depends on the literacy of its participants, as uneducated participants are more malleable to autocratic control."
+      },
+      {
+        "claim_id": "C188",
+        "problem": "The claim oversimplifies the purpose of history as judging 'rulers,' whereas the text focuses on identifying 'ambition' and 'corruption' in any form.",
+        "source_passage": "it will qualify them as judges of the actions and designs of men; it will enable them to know ambition under every disguise it may assume; and knowing it to defeat its views.",
+        "suggested_fix": "History education is essential for democracy because it equips citizens to detect and defeat political ambition and corruption in all their disguises."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E21",
+        "claim_id": "C59",
+        "missing_warrant": "Increased library usage following the introduction of a content-rich curriculum is a direct indicator of increased internal student motivation and active curiosity rather than simply a response to new class assignments."
+      },
+      {
+        "evidence_id": "E47",
+        "claim_id": "C130",
+        "missing_warrant": "Educational achievement outcomes that mirror a normal distribution of innate ability are the only valid statistical proof of a fair and equitable school system."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C1",
+        "counter_argument": "A standardized body of shared knowledge could be utilized by the state as a mechanism for ideological indoctrination and the suppression of dissenting viewpoints.",
+        "why_important": "It addresses the political risk of centralization that Jefferson (cited by the author) was famously wary of, which the author largely ignores in favor of curricular uniformity."
+      },
+      {
+        "targets_claim": "C158",
+        "counter_argument": "The focus on a shared core curriculum might inadvertently marginalize the diverse cultural and linguistic 'intellectual capital' that minority students bring from their homes, labeling it as a 'deficit' rather than a different form of knowledge.",
+        "why_important": "It challenges the author's normative assumption that there is only one valid 'coin of the realm' for cognitive development."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C104",
+          "C105",
+          "C106"
+        ],
+        "action": "merge",
+        "explanation": "All three claims state that low-income children suffer disproportionately from mobility-induced curricular incoherence because they move more often for economic reasons."
+      },
+      {
+        "claim_ids": [
+          "C42",
+          "C43"
+        ],
+        "action": "merge",
+        "explanation": "Both claims argue that the principle of being 'ready-to-learn' is a democratic necessity that should apply to all grade levels."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C21",
+        "current_level": "normative",
+        "correct_level": "empirical",
+        "explanation": "The author presents the idea that early inequity is the 'single most important source of avoidable injustice' as a conclusion derived from sociologists and longitudinal data like the Loban study, making it an empirical assertion about causality."
+      },
+      {
+        "claim_id": "C181",
+        "current_level": "theoretical",
+        "correct_level": "meta",
+        "explanation": "The claim that the needs of children are the same throughout the world is a foundational assumption (meta-level) that allows the author to apply international research to the American context."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough in capturing the dense layers of Hirsch's argument, particularly the integration of cognitive science, historical data, and systemic critique. The structural mapping is strong, though it occasionally conflates the author's metaphors (hooks/tentacles) with his empirical claims. The review identifies minor distortions where the extraction simplified complex causal relationships (e.g., the malleability of peasants vs. revolutions) and suggests more robust warrants for the author's psychological and statistical inferences."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0044933,
+    "input_tokens": 38789,
+    "output_tokens": 1536,
+    "duration_s": 20.650662899017334,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

@@ -1,0 +1,977 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C109",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The failure of purely formal/technical solutions (C109) necessitates moving beyond technical research to consider specific contents (C4)."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that schools must impart common information (C1) relies on the premise that technical solutions are insufficient and content must be specified (C4)."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "If new knowledge of literacy can moderate curriculum disputes (C2), then it becomes theoretically possible to reconcile national literacy with pluralism (C6)."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "Categorizing curriculum choices as technical rather than ideological (C3) reduces the perceived threat to local or pluralistic values, supporting C6."
+      },
+      {
+        "from_id": "C117",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The claim that national vocabulary is value-neutral and equally hospitable to opposing views (C117) allows for a common culture that does not violate pluralistic beliefs (C6)."
+      },
+      {
+        "from_id": "C110",
+        "to_id": "C5",
+        "relationship": "instantiates",
+        "explanation": "The historical success of accommodating immigrants (C110) provides the context for why the implementation of literacy solutions is politically complex (C5)."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "Historical religious toleration is presented as the foundation for the moderate nature of American cultural pluralism."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a balanced position (C17) relies on the premise that national unity is a non-negotiable functional requirement (C13)."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The balanced position (C17) also requires that national culture remains non-coercive and open (C15) to accommodate diversity."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "If localism is a constant human reinvention, national culture must remain non-coercive to avoid suppressing this natural human tendency."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The increasing dominance of national culture provides the context for viewing modern pluralism as a 'symptom' of diversity's decline."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "Because unity is functional (C13), the definition of the national identity (American) must be a shared, collective responsibility rather than left solely to fragmented groups."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a 'capacious and vague' culture justifies why the American civil religion can function as a source of coherence despite internal contradictions."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "Specific civil values provide the content that creates national coherence."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "The integration of secularists into national rituals demonstrates the civil religion's role in maintaining public coherence."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C33",
+        "relationship": "depends-on",
+        "explanation": "The historical claim regarding the founders' beliefs is the premise for the conclusion that they intentionally created the civil religion."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C33",
+        "relationship": "depends-on",
+        "explanation": "The normative requirement for self-governing people to act on broad religious principles serves as the functional justification for the founders' design."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "Because the civil religion honors values through sacred texts and rituals, those texts become the essential content of cultural literacy."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C39",
+        "relationship": "depends-on",
+        "explanation": "The tradition of cultural revision is the necessary context for the civil bible to be viewed as a dynamic, amendable form."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "Fundamental principles of justice and freedom provide the moral framework that permits the civil bible to change."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C39",
+        "relationship": "instantiates",
+        "explanation": "Martin Luther King Jr.'s speech serves as a concrete example of the civil bible's amendable nature."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C50",
+        "relationship": "depends-on",
+        "explanation": "To argue that national culture depends on vocabulary rather than values, the author must first establish that civil religion (values) does not determine the contents of national culture."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C50",
+        "relationship": "depends-on",
+        "explanation": "If culture were monolithic or coherent, it would likely be defined by a system of values; the lack of coherence supports the move to a vocabulary-based definition."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "The failure of scholars to define a coherent 'American character' suggests the unifying factor lies elsewhere, specifically in the shared language (vocabulary)."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C53",
+        "relationship": "instantiates",
+        "explanation": "The existence of civil religion with absolute commitments is one of the three segments defined in the tripartite model of public culture."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C53",
+        "relationship": "instantiates",
+        "explanation": "The 'middle domain' of concrete politics and customs serves as the second segment of the proposed tripartite model."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C55",
+        "relationship": "depends-on",
+        "explanation": "The claim that vocabulary is value-neutral relies on the prior conclusion that culture is a diverse vocabulary of communication rather than a fixed system of values."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C60",
+        "relationship": "depends-on",
+        "explanation": "The need to protect the integrity of the vocabulary is directly motivated by the high level of conflict and change in the middle domain."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C60",
+        "relationship": "depends-on",
+        "explanation": "If the middle domain is where significant arguments happen, there must be a stable, protected medium through which those arguments can occur."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "The pragmatic necessity of a shared vocabulary for effective democracy provides the justification for protecting its integrity."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "If success in public discourse depends on using a shared language, then a shared vocabulary is functionally the only means for democracy to handle conflict."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "If standard English is a composite amalgam rather than a single dialect, the claim that it was strictly an upper-class court dialect is undermined."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "Evidence of marketplace origins directly refutes the elite royal court origin theory."
+      },
+      {
+        "from_id": "C75",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "Refuting the class-based origin of the dominant world language (English) provides a foundation for the claim that national languages generally are not inherently class-based."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "The 'inherently classless character' of cultural literacy depends on the historical premise that national languages did not originate as elite class instruments."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "If cultural literacy is classless, it follows that a national vocabulary serves as a tool for communication between cultures rather than an instrument of one class."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "Because it is a neutral instrument of communication, it can facilitate harmonious exchange across class and cultural divides."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C81",
+        "relationship": "supports",
+        "explanation": "The lack of in-group or geographical preferences makes literate culture less exclusive than ethnic or youth subcultures."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C80",
+        "relationship": "supports",
+        "explanation": "A culture that is non-elitist and non-exclusive is the necessary cultural counterpart to a democratic political system."
+      },
+      {
+        "from_id": "C87",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "If core vocabulary items have transcended dispute to become common materials, they become the functional instruments for discourse."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C92",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that being shared is more important than content requires the premise that no specific content is inherently superior."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "The historical contingency of all national vocabularies suggests their value lies in their utility as a shared code rather than their intrinsic nature."
+      },
+      {
+        "from_id": "C92",
+        "to_id": "C93",
+        "relationship": "supports",
+        "explanation": "If the primary value of the vocabulary is that it is shared across the whole community (including across generations), it must remain stable to retain that value."
+      },
+      {
+        "from_id": "C94",
+        "to_id": "C93",
+        "relationship": "refines",
+        "explanation": "The 'glacial slowness' of change is the specific mechanism by which the conservative nature of the vocabulary is maintained."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C97",
+        "relationship": "supports",
+        "explanation": "The failure of schools to produce literacy creates a normative urgency to enfranchise citizens in the national medium."
+      },
+      {
+        "from_id": "C101",
+        "to_id": "C106",
+        "relationship": "depends-on",
+        "explanation": "The claim that literacy is the foundation of modern republics relies on the functional equivalence between modern literacy and ancient rhetoric."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C106",
+        "relationship": "supports",
+        "explanation": "The historical dominance of the Ciceronian ideal in the US provides a precedent for the necessity of literacy in public discourse."
+      },
+      {
+        "from_id": "1.C109",
+        "to_id": "C107",
+        "relationship": "depends-on",
+        "explanation": "The specific responsibility to teach Ciceronian literacy is a sub-type of the schools' general responsibility for national acculturation."
+      },
+      {
+        "from_id": "3.C80",
+        "to_id": "C107",
+        "relationship": "depends-on",
+        "explanation": "If a national culture is a necessary dimension of nation-building, then teaching the specific literacy associated with the nation's founding ideals becomes a logical requirement."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "The observation of current failure (C108) is used as an exigency to re-assert the primary responsibility (C107)."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E22",
+        "claim_id": "C1",
+        "warrant_text": "If diverse groups historically achieved functional unity by learning a common 'marketplace' dialect, a modern educational system can achieve literacy through a similar common national vocabulary.",
+        "is_explicit": false,
+        "vulnerability": "The functional requirements of 17th-century trade are significantly less cognitively and ideologically demanding than modern national literacy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C6",
+        "warrant_text": "Because individuals are psychologically capable of maintaining multiple cultural identities simultaneously, a national literate identity does not necessitate the destruction of local or pluralistic identities.",
+        "is_explicit": true,
+        "vulnerability": "National identities often exert power dynamics that marginalize local cultures, regardless of an individual's psychological capacity to role-play."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E13",
+        "claim_id": "C5",
+        "warrant_text": "A list of shared texts that includes documents representing diverse social movements (e.g., Seneca Falls) proves that a common canon can be inherently pluralistic.",
+        "is_explicit": false,
+        "vulnerability": "The power to select which 'pluralistic' texts enter the common canon remains a centralized, non-neutral act that may still exclude many groups."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E27",
+        "claim_id": "C121",
+        "warrant_text": "If different nations (France, China) achieve high culture with entirely different symbols, then no specific symbol or vocabulary is intrinsically superior to another; they are merely tools.",
+        "is_explicit": true,
+        "vulnerability": "Some cultural vocabularies may be more conducive to specific outcomes, such as democratic governance or scientific inquiry, than others."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C13",
+        "warrant_text": "A nation's willingness to engage in a total civil war to prevent secession is definitive proof that national unity is viewed as a functional necessity rather than a voluntary preference.",
+        "is_explicit": true,
+        "vulnerability": "The Civil War might be interpreted as a conflict over specific economic systems (slavery vs. industrialism) rather than a philosophical endorsement of cultural unity."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E7",
+        "claim_id": "C20",
+        "warrant_text": "The use of specific legal-rhetorical traditions in high-profile national discourse (like Watergate) reveals the underlying ethical code that limits state power over the individual.",
+        "is_explicit": false,
+        "vulnerability": "Rhetorical flourishes by politicians (like Sam Ervin) may reflect personal or regional style rather than a formal, functional limit built into the national 'code'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C22",
+        "warrant_text": "Geographic dispersion and the movement from ethnic enclaves to economically-determined housing patterns signify a shift from ethnic-centric identity to a broader national/economic identity.",
+        "is_explicit": false,
+        "vulnerability": "Economic integration does not necessarily lead to cultural assimilation; ethnic groups can maintain strong distinct cultures while living in integrated neighborhoods."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C32",
+        "claim_id": "C28",
+        "warrant_text": "Participation in a community's core rituals and use of its shared symbols constitutes functional acceptance of the community's civil ethos, regardless of the individual's private philosophical or secular objections.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that outward participation in rituals is often a matter of social habit or convenience rather than an expression of underlying cultural coherence."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C35",
+        "claim_id": "C33",
+        "warrant_text": "The public writings and collaborative efforts of founding political leaders (e.g., Washington, Hamilton, Jefferson) accurately reflect a deliberate and unified intent to construct a specific national cultural mechanism.",
+        "is_explicit": false,
+        "vulnerability": "Historians often highlight the intense disagreements and differing motives among the founders, making the idea of a single 'intentional' design for a civil religion debatable."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C44",
+        "claim_id": "C39",
+        "warrant_text": "The widespread recognition and use of a text in public discourse across generations signifies its inclusion in the national canon, demonstrating that the canon's boundaries are defined by consensus rather than a central authority.",
+        "is_explicit": true,
+        "vulnerability": "What constitutes 'consensus' is subjective and often determined by the groups with the most power to shape curriculum and public media."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C49",
+        "claim_id": "C50",
+        "warrant_text": "If a phenomenon (national culture) exists and functions but cannot be defined by its internal values (character), then it must be defined by its external medium of operation (vocabulary).",
+        "is_explicit": false,
+        "vulnerability": "National culture might be defined by historical path-dependence or economic structures rather than vocabulary or values."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C51",
+        "claim_id": "C52",
+        "warrant_text": "A system that requires universal consent to change will naturally resist rapid modification because reaching consensus among diverse users is difficult.",
+        "is_explicit": true,
+        "vulnerability": "Technological or social shifts can force changes in vocabulary without active 'consent' through sheer utility."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C57",
+        "claim_id": "C60",
+        "warrant_text": "To prevent high-stakes conflict from devolving into total social fragmentation, the tools used to conduct those conflicts must be kept outside the scope of the conflict itself.",
+        "is_explicit": true,
+        "vulnerability": "The 'tools' of communication are often themselves weapons in the conflict, making their neutrality impossible to protect."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C64",
+        "claim_id": "C62",
+        "warrant_text": "Individual success in a system (discourse) aggregates to a systemic requirement; if individuals need shared language to win arguments, the system needs shared language to function.",
+        "is_explicit": false,
+        "vulnerability": "Democracy might rely more on institutions, laws, and the balance of power than on the linguistic efficiency of its citizens."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C76",
+        "claim_id": "C72",
+        "warrant_text": "If a culture's foundational linguistic medium was formed through the influence of newcomers and outsiders in a 'melting pot,' then the resulting mainstream culture cannot be considered the exclusive property of an original dominant class.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that once the 'amalgam' is formed, it is co-opted and guarded by the elite to maintain class boundaries, regardless of its 'democratic' origins."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C71",
+        "claim_id": "C70",
+        "warrant_text": "The functional requirements of mass urbanization (standardization for efficiency) override and dissolve existing class-based linguistic distinctions.",
+        "is_explicit": false,
+        "vulnerability": "Urbanization can also create hyper-stratification and the development of distinct urban 'underclass' dialects that remain separate from the mainstream."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C82",
+        "claim_id": "C81",
+        "warrant_text": "Exclusivity is measured by the presence of inherent barriers to entry; a culture with no inherent demographic requirements is logically the most inclusive.",
+        "is_explicit": true,
+        "vulnerability": "This ignores the 'economic' barrier to entry (the cost of the education required to master the culture)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C87",
+        "claim_id": "C88",
+        "warrant_text": "If a tool is used by all parties to communicate, even those in conflict, that tool is the essential medium of their interaction.",
+        "is_explicit": false,
+        "vulnerability": "Parties might use a common vocabulary while still lacking the shared conceptual depth to reach 'democratic decisions'."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C91",
+        "claim_id": "C92",
+        "warrant_text": "In a functionalist system, the arbitrary nature of a signifier (content) is secondary to its universal recognition (sharedness).",
+        "is_explicit": true,
+        "vulnerability": "Certain contents may be more conducive to democratic values than others, regardless of how widely they are shared."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C103",
+        "claim_id": "C106",
+        "warrant_text": "The educational and political ideals of the American founders remain the authoritative standard for the health of the modern republic.",
+        "is_explicit": false,
+        "vulnerability": "The conditions of a modern mass-media technological society may require a different foundation than the agrarian/Enlightenment republic of the founders."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Preface.C21",
+        "claim_id": "C107",
+        "warrant_text": "The educational philosophies and intentions of the American founders (who admired Cicero) remain the authoritative standard for the mission of American public education.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that the educational needs of an 18th-century agrarian republic are fundamentally different from those of a 21st-century technological democracy, rendering the founders' specific models obsolete."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "3.C22",
+        "claim_id": "C107",
+        "warrant_text": "Cicero's ability to translate specialized knowledge into 'ordinary terms' is the functional equivalent of modern national literacy in a pluralistic society.",
+        "is_explicit": false,
+        "vulnerability": "This assumes that 'ordinary terms' are static and that the process of oral rhetoric in the Roman forum is directly analogous to mass literacy in a diverse nation."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C1",
+        "missing_step": "A centrally mandated policy is the most effective or appropriate mechanism for ensuring the distribution of common information, as opposed to organic cultural diffusion.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C117",
+        "to_id": "C6",
+        "missing_step": "A 'value-neutral' national vocabulary is sufficient for literacy without requiring shared substantive values that might conflict with pluralism.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C15",
+        "missing_step": "A vague and limited national culture is actually sufficient to provide the 'social glue' required for functional national unity.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C21",
+        "to_id": "C24",
+        "missing_step": "Increased discourse about a value is usually a reaction to its scarcity rather than a sign of its flourishing or a valid attempt at its restoration.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C33",
+        "to_id": "C28",
+        "missing_step": "The nonsectarian civil religion designed by the founders survived intact and functions in the 20th century precisely as they intended.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C38",
+        "to_id": "C39",
+        "missing_step": "If the civil bible is the 'heart' of cultural literacy, there must be a stable, authoritative method to determine when a new text has reached enough 'consensus' to be considered an amendment.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C50",
+        "to_id": "C55",
+        "missing_step": "A shared vocabulary can only be 'value-neutral' if the terms within it do not carry inherent ideological biases that favor one side of a conflict over another.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C57",
+        "to_id": "C60",
+        "missing_step": "Standardizing a national vocabulary does not itself create a new site of contention that exacerbates the instability of the middle domain.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C62",
+        "to_id": "C60",
+        "missing_step": "The 'integrity' of a vocabulary can be protected by a democratic society without infringing upon the very 'diversity' and 'contentiousness' it is meant to facilitate.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C78",
+        "to_id": "C67",
+        "missing_step": "Even if a language had classless origins, it must be shown that its modern application does not function as a class barrier in contemporary society.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C77",
+        "to_id": "C86",
+        "missing_step": "The fact that European cities forged classless languages centuries ago implies that the modern American vocabulary is currently maintained for the same functional reasons.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C92",
+        "to_id": "C93",
+        "missing_step": "Communication across generations is a higher priority than the vocabulary reflecting current social shifts or new values.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C101",
+        "to_id": "C106",
+        "missing_step": "The cognitive and social effects of written literacy on a mass scale are identical to the effects of oral rhetoric on an elite scale.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "1.C109",
+        "to_id": "C107",
+        "missing_step": "Establishing that the 'Ciceronian' model is the only or best version of national acculturation suitable for the United States.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C108",
+        "to_id": "C107",
+        "missing_step": "Evidence that modern school failure is specifically due to a rejection of Ciceronian ideals rather than other factors like socioeconomic shifts or technological changes.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "The institution of a common information policy will inevitably reflect the biases and power structures of the dominant social class, further disenfranchising minority groups by devaluing their home cultures.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C6",
+        "objection": "True local control in education involves the right to define what knowledge is most worth having; a national requirement for common information fundamentally usurps this power even if it claims to be technical.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C117",
+        "objection": "Language and vocabulary are never truly 'value-neutral'; the inclusion or exclusion of specific terms (e.g., 'pornography vs. prudery') reflects a specific ideological framework that isn't equally hospitable to all.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C13",
+        "objection": "The 'legal umbrella' model (C14) is more practical than Hirsch claims, as seen in multi-ethnic states like Switzerland or supranational entities like the EU, which function without a single integrated national culture.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C25",
+        "objection": "If 'American' identity is a collective national responsibility, the majority will inevitably define it in a way that is coercive to minorities, undermining the principle of non-coercion in C15.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C17",
+        "objection": "A 'balanced' position is not a stable policy; the push for national cultural literacy naturally tends toward homogenization and the erosion of the local diversity the author claims to protect.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C28",
+        "objection": "The American civil religion does not provide 'coherence' but rather a 'veneer of unity' that masks deep, unresolved conflicts between secularism and religious fundamentalism.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C38",
+        "objection": "Prioritizing the 'civil bible' over technical, economic, or scientific literacy in a modern nation-state ignores the primary knowledge requirements for social and economic mobility.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C39",
+        "objection": "Cultural revision is not a 'consensual' process but a battleground where marginalized groups must struggle for decades to have their contributions recognized by the dominant culture.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C55",
+        "objection": "The national vocabulary is never truly value-neutral; the inclusion or exclusion of certain terms and historical figures inherently validates some cultural perspectives while marginalizing others.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C60",
+        "objection": "Attempting to protect the integrity of a national vocabulary is a form of linguistic elitism that freezes the dominance of the group that codified the dictionary.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C50",
+        "objection": "American national culture is indeed held together by fundamental values (the 'American Creed'), and the vocabulary is merely a symptom, not the source, of that underlying coherence.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C67",
+        "objection": "The 'national vocabulary' may be an amalgam, but the specific selections included in that vocabulary (e.g., European history, white literary figures) disproportionately validate the heritage of the dominant group while marginalizing others.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C79",
+        "objection": "Access to schooling is itself a function of social and economic class; therefore, the correlation between wealth and language mastery is a distinction without a difference in a class-stratified society.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C84",
+        "objection": "Calling the English bias a 'historical accident' minimizes the role of active political power and cultural hegemony in maintaining that bias at the expense of other vibrant American cultural traditions.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C92",
+        "objection": "If the shared content is predominantly Eurocentric or reflects only a specific demographic's history (English traditions), it may be 'shared' as a dominant code while remaining culturally oppressive or alienating to minority citizens.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C93",
+        "objection": "A 'conservative' core vocabulary may fail to provide the linguistic tools necessary for critiquing existing power structures, thereby stagnating social progress in the name of communicative efficiency.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C100",
+        "objection": "Scientific and technological issues have reached a level of complexity where 'shared associations' and 'analogies' are insufficient for meaningful public oversight, necessitating specialized technocracy rather than general discourse.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C107",
+        "objection": "The Ciceronian ideal was historically rooted in an elitist social structure where 'universal public discourse' was only open to a small class of educated males; applying it to a modern pluralistic democracy may inadvertently reinforce old hierarchies.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C108",
+        "objection": "Modern schools are not 'failing' but have pivoted to teach 'new literacies' (digital, visual, and critical) which are more relevant to the information age than the classical 'Ciceronian' literacy favored by the author.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Necessity of Content-Based Policy",
+        "chain": [
+          "C109",
+          "C4",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "Reconciling Unity and Pluralism",
+        "chain": [
+          "C2",
+          "C3",
+          "C117",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "Historical Precedent for Civil Cohesion",
+        "chain": [
+          "C110",
+          "C114",
+          "C117",
+          "C5"
+        ],
+        "conclusion_id": "C5",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Unity Argument",
+        "chain": [
+          "C7",
+          "C8",
+          "C13",
+          "C16"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The Moderate Pluralism Synthesis",
+        "chain": [
+          "C13",
+          "C15",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Inevitability of National Dominance",
+        "chain": [
+          "C21",
+          "C22",
+          "C23",
+          "C24"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Coherence of Civil Religion",
+        "chain": [
+          "C27",
+          "C31",
+          "C32",
+          "C28",
+          "C46"
+        ],
+        "conclusion_id": "C28",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Design of Democratic Harmony",
+        "chain": [
+          "C35",
+          "C36",
+          "C34",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Core of Cultural Literacy",
+        "chain": [
+          "C33",
+          "C37",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Evolution of the National Canon",
+        "chain": [
+          "C41",
+          "C42",
+          "C43",
+          "C45",
+          "C44",
+          "C39"
+        ],
+        "conclusion_id": "C39",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functionalist Argument for Shared Vocabulary",
+        "chain": [
+          "C57",
+          "C59",
+          "C62",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "strong"
+      },
+      {
+        "name": "The Structural Definition of American Culture",
+        "chain": [
+          "C48",
+          "C49",
+          "C50",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pragmatic Neutrality of the National Medium",
+        "chain": [
+          "C50",
+          "C55",
+          "C63",
+          "C64"
+        ],
+        "conclusion_id": "C55",
+        "strength": "weak"
+      },
+      {
+        "name": "Historical Origins of Classless Language",
+        "chain": [
+          "C74",
+          "C76",
+          "C73",
+          "C75",
+          "C78",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "moderate"
+      },
+      {
+        "name": "Functional Utility and Democracy",
+        "chain": [
+          "C67",
+          "C68",
+          "C81",
+          "C80",
+          "C86"
+        ],
+        "conclusion_id": "C86",
+        "strength": "strong"
+      },
+      {
+        "name": "Inclusive Character of Literate Culture",
+        "chain": [
+          "C79",
+          "C82",
+          "C83",
+          "C81"
+        ],
+        "conclusion_id": "C81",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functionalist Argument for Shared Content",
+        "chain": [
+          "C91",
+          "C90",
+          "C92",
+          "C88"
+        ],
+        "conclusion_id": "C88",
+        "strength": "strong"
+      },
+      {
+        "name": "The Argument for Linguistic Conservatism",
+        "chain": [
+          "C92",
+          "C93",
+          "C94"
+        ],
+        "conclusion_id": "C93",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Neo-Ciceronian Republic Argument",
+        "chain": [
+          "C102",
+          "C103",
+          "C101",
+          "C106"
+        ],
+        "conclusion_id": "C106",
+        "strength": "strong"
+      },
+      {
+        "name": "The Civic Enfranchisement Argument",
+        "chain": [
+          "C95",
+          "C96",
+          "C100",
+          "C97"
+        ],
+        "conclusion_id": "C97",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Founder's Intent Chain",
+        "chain": [
+          "3.C96",
+          "3.C101",
+          "C107"
+        ],
+        "conclusion_id": "C107",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Literacy Chain",
+        "chain": [
+          "1.C11",
+          "3.C22",
+          "1.C109",
+          "C107"
+        ],
+        "conclusion_id": "C107",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0099719,
+    "duration_s": 116.19479393959045
+  }
+}

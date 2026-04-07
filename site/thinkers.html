@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thinkers &mdash; Hirsch Argument Atlas</title>
+<link rel="stylesheet" href="style.css">
+<style>
+/* ── Evolution & Timeline ── */
+.evo-badge { display: inline-block; padding: 0.15em 0.5em; border-radius: 3px; color: #fff;
+  font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em; }
+.timeline-dots { display: inline-flex; gap: 2px; align-items: center; }
+.book-dot { display: inline-flex; align-items: center; justify-content: center; width: 22px; height: 22px;
+  border-radius: 50%; font-family: var(--font-ui); font-size: 0.55rem; font-weight: 700;
+  color: #fff; transition: transform 0.15s; cursor: default; flex-shrink: 0; }
+.book-dot:hover { transform: scale(1.3); z-index: 1; }
+
+.evo-card { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 1em 1.2em; margin-bottom: 0.8em; }
+.evo-card-header { display: flex; align-items: center; gap: 0.6em; flex-wrap: wrap; margin-bottom: 0.4em; }
+.evo-card-claim { font-family: var(--font-body); font-size: 0.92rem; line-height: 1.5; color: var(--text); }
+.evo-card-summary { font-family: var(--font-ui); font-size: 0.8rem; color: var(--text-secondary);
+  margin-top: 0.3em; font-style: italic; }
+.evo-card-members { margin-top: 0.5em; padding-left: 1em; border-left: 2px solid var(--border-light); }
+.evo-card-member { font-family: var(--font-ui); font-size: 0.78rem; color: var(--text-secondary);
+  padding: 0.15em 0; line-height: 1.4; }
+.evo-card-member .member-book { font-weight: 600; color: var(--text); min-width: 4em; display: inline-block; }
+.evo-card details summary { cursor: pointer; font-family: var(--font-ui); font-size: 0.78rem;
+  color: var(--text-tertiary); }
+
+/* ── Book timeline grid ── */
+.book-timeline { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 0.8em; margin: 1.5em 0; }
+.book-tile { background: var(--bg-surface); border: 1px solid var(--border); border-radius: 6px;
+  padding: 0.8em; text-align: center; text-decoration: none; color: var(--text); transition: border-color 0.15s; }
+.book-tile:hover { border-color: var(--accent); }
+.book-tile-year { font-family: var(--font-ui); font-size: 1.4rem; font-weight: 700; color: var(--accent); }
+.book-tile-title { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-secondary);
+  margin-top: 0.2em; line-height: 1.3; }
+.book-tile-stats { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  margin-top: 0.4em; }
+
+/* ── Book page ── */
+.book-header { margin-bottom: 1.5em; }
+.book-header h1 { font-size: 1.6rem; }
+.book-header .book-year { font-family: var(--font-ui); font-size: 1.1rem; color: var(--accent); font-weight: 600; }
+.chapter-grid { display: grid; grid-template-columns: 1fr; gap: 0.6em; }
+
+/* ── Filter bar ── */
+.filter-bar { display: flex; gap: 0.4em; flex-wrap: wrap; margin: 1em 0; }
+.filter-btn { font-family: var(--font-ui); font-size: 0.75rem; padding: 0.3em 0.7em;
+  border: 1px solid var(--border); border-radius: 3px; background: var(--bg-surface);
+  color: var(--text-secondary); cursor: pointer; transition: all 0.15s; }
+.filter-btn:hover, .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+
+/* ── Corpus stats bar ── */
+.corpus-stats { display: flex; flex-wrap: wrap; gap: 1.5em; margin: 1em 0; padding: 1em;
+  background: var(--bg-aside); border-radius: 6px; }
+.corpus-stat { text-align: center; }
+.corpus-stat-number { font-family: var(--font-ui); font-size: 1.6rem; font-weight: 700; color: var(--accent); display: block; }
+.corpus-stat-label { font-family: var(--font-ui); font-size: 0.7rem; color: var(--text-tertiary); }
+
+/* ── Entity cards (multi-book) ── */
+.entity-books { display: flex; gap: 3px; margin-top: 0.3em; flex-wrap: wrap; }
+.entity-book-tag { font-family: var(--font-ui); font-size: 0.62rem; padding: 0.1em 0.35em;
+  border-radius: 2px; background: var(--accent-light); color: var(--accent); font-weight: 600; }
+
+/* ── External research (blue/cool layer) ── */
+.ext-card { background: var(--bg-surface); border: 1px solid #c4d4e4; border-left: 3px solid #4a6080;
+  border-radius: 6px; padding: 0.8em 1em; margin-bottom: 0.6em; }
+.ext-card-text { font-size: 0.85rem; color: var(--text); line-height: 1.5; }
+.ext-card-meta { display: flex; gap: 0.5em; flex-wrap: wrap; margin-top: 0.3em; align-items: center; }
+.ext-badge { display: inline-block; padding: 0.1em 0.4em; border-radius: 2px;
+  font-family: var(--font-ui); font-size: 0.65rem; font-weight: 600; }
+.ext-badge-type { background: #eef2f7; color: #4a6080; }
+.ext-badge-strength { background: #e8f5e8; color: #2d6a2e; }
+.ext-badge-critique { background: #fdf0f0; color: #9a2e2e; }
+.ext-provenance { font-family: var(--font-ui); font-size: 0.68rem; color: var(--text-tertiary);
+  font-style: italic; padding: 0.5em 0; border-top: 1px solid var(--border-light); margin-top: 0.8em; }
+
+/* ── Entry paths (landing page) ── */
+.entry-paths { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; margin: 1.5em 0; }
+@media (max-width: 40em) { .entry-paths { grid-template-columns: 1fr; } }
+.entry-path { display: block; padding: 1.5em; border-radius: 8px; text-decoration: none;
+  transition: transform 0.15s, box-shadow 0.15s; }
+.entry-path:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.entry-path-hirsch { background: var(--accent-light); border: 2px solid var(--accent); color: var(--text); }
+.entry-path-context { background: #eef2f7; border: 2px solid #4a6080; color: var(--text); }
+.entry-path h2 { font-family: var(--font-ui); font-size: 1.1rem; margin-bottom: 0.3em; }
+.entry-path-hirsch h2 { color: var(--accent); }
+.entry-path-context h2 { color: #4a6080; }
+.entry-path p { font-size: 0.85rem; color: var(--text-secondary); margin: 0; }
+.entry-path .entry-stat { font-family: var(--font-ui); font-size: 0.75rem; color: var(--text-tertiary); margin-top: 0.5em; }
+
+/* ── Topic section ── */
+.topic-section { margin-bottom: 2em; }
+.topic-header { display: flex; align-items: baseline; gap: 0.8em; margin-bottom: 0.5em; }
+.topic-header h2 { font-size: 1.1rem; margin: 0; }
+.topic-split { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5em; }
+@media (max-width: 50em) { .topic-split { grid-template-columns: 1fr; } }
+.topic-col-label { font-family: var(--font-ui); font-size: 0.72rem; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5em; padding-bottom: 0.3em;
+  border-bottom: 2px solid; }
+.topic-col-hirsch .topic-col-label { color: var(--accent); border-color: var(--accent); }
+.topic-col-ext .topic-col-label { color: #4a6080; border-color: #4a6080; }
+
+/* ── Sidebar book list ── */
+.sidebar-book { font-size: 0.78rem; }
+.sidebar-book-year { font-weight: 600; min-width: 2.5em; display: inline-block; }
+</style>
+
+</head>
+<body>
+<header class="page-header">
+  <div class="header-inner">
+    <div class="site-title"><a href="index.html">Hirsch Argument Atlas</a></div>
+    <nav class="header-nav">
+      <a href="evolution.html">Evolution</a>
+      <a href="debates.html" style="color:var(--counter)">Debates</a>
+      <a href="thinkers.html">Thinkers</a>
+      <a href="concepts.html">Concepts</a>
+      <a href="cases.html">Cases</a>
+      <a href="context.html" style="color:#4a6080">Scholarly Context</a>
+    </nav>
+    <nav class="breadcrumb"><a href="index.html">Atlas</a><span class="sep">/</span>Thinkers</nav>
+  </div>
+</header>
+
+<div class="main-grid full-width">
+<main class="content">
+
+  <h1>Thinkers (521)</h1>
+  <p class="lead">The intellectual landscape Hirsch engages with across 10 books. Sorted by how many books they appear in.</p>
+
+  <div class="section-label" style="margin-top:1em">Multi-Book Thinkers (146)</div>
+  <div class="entity-grid">
+<a class="entity-card" href="entity.html#thinker:Jean-Jacques_Rousseau_and_John_Dewey" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jean-Jacques Rousseau and John Dewey <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">The author identifies Rousseau as one of the two primary sources of the content-neutral ideology dominating and harming American schools.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:George_A._Miller" style="text-decoration:none;color:inherit;display:block">
+  <h3>George A. Miller <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Miller&#x27;s psychological data to support the idea that reducing syntactic uncertainty (normalization) directly increases efficiency.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Noah_Webster_and_Horace_Mann" style="text-decoration:none;color:inherit;display:block">
+  <h3>Noah Webster and Horace Mann <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch characterizes Webster as a militant &#x27;culture maker&#x27; who understood the link between shared symbols (spellers/dictionaries) and national identity.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:William_Wordsworth" style="text-decoration:none;color:inherit;display:block">
+  <h3>William Wordsworth <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch uses the Wordsworth quote to characterize the &#x27;optimistic naturalism&#x27; of progressivists as a romantic myth that fails in the context of academic learning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Dr._Samuel_Johnson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Dr. Samuel Johnson <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch uses Dr. Johnson as a representative figure for the &#x27;correctness&#x27; of the standard literary dialect against which oral dialects are compared.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Thomas_Jefferson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Thomas Jefferson <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch aligns his argument for cultural literacy with Jefferson&#x27;s foundational vision of a literate democracy.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Geraldine_Clifford,_James_Guthrie,_and_Diane_Ravitch" style="text-decoration:none;color:inherit;display:block">
+  <h3>Geraldine Clifford, James Guthrie, and Diane Ravitch <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Ravitch to describe the negative historical impact of misinterpreting the first Coleman report.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jean_Piaget" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jean Piaget <span class="stance-tag builds_on">builds on</span> <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch applies Piaget&#x27;s psychological concept of the schema to the practical art of teaching composition.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:James_Samuel_Coleman" style="text-decoration:none;color:inherit;display:block">
+  <h3>James Samuel Coleman <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch acknowledges the report&#x27;s thoroughness and the reality of the correlation, but critiques the &#x27;fatalistic&#x27; conclusion that schools cannot bridge the gap.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Socrates,_Plato,_and_Aristotle" style="text-decoration:none;color:inherit;display:block">
+  <h3>Socrates, Plato, and Aristotle <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch adopts the Aristotelian mode of intrinsic evaluation as the standard for valid composition research assessment.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Harold_Stevenson_and_James_Stigler" style="text-decoration:none;color:inherit;display:block">
+  <h3>Harold Stevenson and James Stigler <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites their work to support the empirical claim that American education provides less academic instruction and fewer opportunities for practice.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Ernest_Gellner" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ernest Gellner <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Gellner&#x27;s work as a &#x27;brilliant&#x27; development of the thesis that modern nations require standardized languages and education to support industrial specialization.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:John_Locke" style="text-decoration:none;color:inherit;display:block">
+  <h3>John Locke <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Locke&#x27;s principle of toleration to justify the &#x27;wall of separation&#x27; in the cultural commons.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Professor_David_Grissmer" style="text-decoration:none;color:inherit;display:block">
+  <h3>Professor David Grissmer <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Grissmer&#x27;s statistical findings to argue that the &#x27;missing&#x27; 2/3 of causation must be found in school-based factors like curriculum.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alexander_Pope" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alexander Pope <span class="stance-tag agrees">agrees</span> <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Uses Spencer&#x27;s citation of Pope to illustrate the limitation of the principle of least effort.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Basil_Bernstein" style="text-decoration:none;color:inherit;display:block">
+  <h3>Basil Bernstein <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Bernstein&#x27;s codes to explain why public speaking and writing share a requirement for explicit, context-independent language.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Adriaan_de_Groot" style="text-decoration:none;color:inherit;display:block">
+  <h3>Adriaan de Groot <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses de Groot&#x27;s experiments as the primary empirical foundation for his argument that skill is actually a form of specialized knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:George_Washington" style="text-decoration:none;color:inherit;display:block">
+  <h3>George Washington <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Washington&#x27;s Farewell Address to demonstrate that the founders viewed a broad religious-moral framework as essential for democratic stability.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Pierre_Bourdieu" style="text-decoration:none;color:inherit;display:block">
+  <h3>Pierre Bourdieu <span class="stance-tag agrees">agrees</span> <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Cites Bourdieu to validate the sociological claim that knowledge distribution determines social class.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Daniel_T._Willingham_&_Gail_Lovette" style="text-decoration:none;color:inherit;display:block">
+  <h3>Daniel T. Willingham &amp; Gail Lovette <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses their review article as the primary scientific evidence to debunk the practice of long-term strategy drills in schools.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Antonio_Gramsci" style="text-decoration:none;color:inherit;display:block">
+  <h3>Antonio Gramsci <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Gramsci to prove that the political Left should support traditional educational methods as a means of social liberation.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:William_Heard_Kilpatrick" style="text-decoration:none;color:inherit;display:block">
+  <h3>William Heard Kilpatrick <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Cited via Tennenbaum to illustrate the &#x27;Progressivist Thoughtworld&#x27;s&#x27; bias against structured knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Abraham_Lincoln" style="text-decoration:none;color:inherit;display:block">
+  <h3>Abraham Lincoln <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Lincoln&#x27;s 1838 speech as a foundational text for the transethnic aims of American education.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Otto_Jespersen" style="text-decoration:none;color:inherit;display:block">
+  <h3>Otto Jespersen <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">The author cites Jespersen as a primary illustrator of the theory that languages evolve towards greater efficiency.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Anders_Ericsson_and_Robert_Pool" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anders Ericsson and Robert Pool <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Ericsson&#x27;s work on expertise to provide the scientific foundation for his attack on &#x27;skill-centrism.&#x27; He adopts Ericsson&#x27;s framing of expertise as the proper goal of education.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Henry_Bradley" style="text-decoration:none;color:inherit;display:block">
+  <h3>Henry Bradley <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Bradley&#x27;s early 20th-century observations to directly reverse the Bloomfieldian priority of speech over writing.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jeanne_S._Chall" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jeanne S. Chall <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch adopts her concept of &#x27;world knowledge&#x27; but rebrands it as &#x27;cultural literacy&#x27; and uses her observation of the literacy crisis as a starting point for his argument.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Anne_Cunningham_and_Keith_Stanovich" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anne Cunningham and Keith Stanovich <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Stanovich&#x27;s empirical findings to validate the core thesis of Cultural Literacy regarding the necessity of knowledge for intellectual development.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Arthur_M._Schlesinger,_Jr." style="text-decoration:none;color:inherit;display:block">
+  <h3>Arthur M. Schlesinger, Jr. <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch aligns his view of multiculturalism with Schlesinger&#x27;s critique of ethnic balkanization.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Georg_Wilhelm_Friedrich_Hegel" style="text-decoration:none;color:inherit;display:block">
+  <h3>Georg Wilhelm Friedrich Hegel <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch links Hegel&#x27;s post-Bastille enthusiasm and his &#x27;heretical&#x27; pantheistic feelings to the intellectual foundation of John Dewey&#x27;s later work.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Herbert_Walberg_and_Timothy_Shanahan" style="text-decoration:none;color:inherit;display:block">
+  <h3>Herbert Walberg and Timothy Shanahan <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">The author uses Walberg&#x27;s findings to argue that the literacy crisis is a failure of school policy rather than an inevitable result of technology.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Ralph_Waldo_Emerson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ralph Waldo Emerson <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch traces the modern anti-academic &#x27;thoughtworld&#x27; directly to Emerson&#x27;s Romantic disdain for formal scholarship.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alexis_de_Tocqueville" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alexis de Tocqueville <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch calls his sketches &#x27;brilliant&#x27; but uses them to argue that even such a perceptive observer could not fully define a monolithic American character.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jeffrey_Litt" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jeffrey Litt <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch highlights Litt&#x27;s role in establishing successful Core Knowledge schools in NYC as evidence of the curriculum&#x27;s power when led effectively.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Albert_Shanker" style="text-decoration:none;color:inherit;display:block">
+  <h3>Albert Shanker <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch dedicates the book to Shanker and views Shanker&#x27;s life and beliefs as the ideal model for what American schooling should achieve.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Al_Shanker" style="text-decoration:none;color:inherit;display:block">
+  <h3>Al Shanker <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Shanker&#x27;s legacy through the American Federation of Teachers (AFT) as a model for challenging the &#x27;anti-curriculum&#x27; tradition from within the teaching profession.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Philip_Cohen" style="text-decoration:none;color:inherit;display:block">
+  <h3>Philip Cohen <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Cohen&#x27;s data (the Cohen curve) as the foundational empirical evidence for the economic importance of early schooling.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Thomas_G._Sticht" style="text-decoration:none;color:inherit;display:block">
+  <h3>Thomas G. Sticht <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Cites Sticht&#x27;s 1995 San Diego study as a &#x27;breathtaking&#x27; confirmation of the link between knowledge and income.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:William_C._Bagley" style="text-decoration:none;color:inherit;display:block">
+  <h3>William C. Bagley <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch dedicates the book to Bagley and identifies his work as part of the same tradition.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:James_Madison" style="text-decoration:none;color:inherit;display:block">
+  <h3>James Madison <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Madison&#x27;s Federalist No. 55 to argue that structural checks and balances are insufficient without a specific type of citizenry.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:John_Bishop" style="text-decoration:none;color:inherit;display:block">
+  <h3>John Bishop <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Bishop&#x27;s research to justify why early breadth is a prerequisite for the specialized world students will enter later.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Friedrich_Froebel" style="text-decoration:none;color:inherit;display:block">
+  <h3>Friedrich Froebel <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Froebel as a key figure who imported Romantic &#x27;naturalism&#x27; into American early education, leading to a rejection of proactive teaching.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:G.W.F._Hegel" style="text-decoration:none;color:inherit;display:block">
+  <h3>G.W.F. Hegel <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Hegel as the source of the &#x27;Hegelian deposit&#x27; in John Dewey&#x27;s mind, which fueled American developmentalism.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Hugh_Blair" style="text-decoration:none;color:inherit;display:block">
+  <h3>Hugh Blair <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Blair as the first &#x27;definer of cultural literacy,&#x27; crediting him with making explicit the shared knowledge required to read and write well in English.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jerome_Bruner" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jerome Bruner <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Bruner&#x27;s &#x27;famous remark&#x27; approvingly, noting that while education schools dismiss it, psychologists and neurobiologists find it consistent with evidence.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Albert_Einstein" style="text-decoration:none;color:inherit;display:block">
+  <h3>Albert Einstein <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Einstein&#x27;s work as the gold-standard example of scientific convergence (triangulation).</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Benjamin_Rush" style="text-decoration:none;color:inherit;display:block">
+  <h3>Benjamin Rush <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Rush as a primary early advocate for the common core curriculum and the civic mission of education.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Betty_Hart_and_Todd_Risley" style="text-decoration:none;color:inherit;display:block">
+  <h3>Betty Hart and Todd Risley <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites their &#x27;pathbreaking work&#x27; as the primary evidence for why school time must be used effectively to compensate for linguistic differences at home.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:David_Hume" style="text-decoration:none;color:inherit;display:block">
+  <h3>David Hume <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Hume as the &#x27;best British theorist&#x27; to show that even the most rigorous attempts to define a holistic standard of judgment end in logical failure.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:E._D._Hirsch,_Jr." style="text-decoration:none;color:inherit;display:block">
+  <h3>E. D. Hirsch, Jr. <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">The author cites his own previous work to provide deeper theoretical grounding for the example of implied persons and contexts in writing.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:European_Romantics" style="text-decoration:none;color:inherit;display:block">
+  <h3>European Romantics <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch traces the historical origins of modern formalist ideas back to Romanticism.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:George_Counts" style="text-decoration:none;color:inherit;display:block">
+  <h3>George Counts <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Counts to show that even within the progressive movement, some recognized the danger of losing the school&#x27;s social and civic purpose.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Henry_Sweet" style="text-decoration:none;color:inherit;display:block">
+  <h3>Henry Sweet <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Sweet as a foil, arguing that his &#x27;single-minded attention to oral speech&#x27; caused him to miss the stabilizing power of the written word.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Herbert_A._Simon" style="text-decoration:none;color:inherit;display:block">
+  <h3>Herbert A. Simon <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Simon&#x27;s authority as a Nobel laureate and AI pioneer to debunk the &#x27;general skills&#x27; approach to education.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Immanuel_Kant" style="text-decoration:none;color:inherit;display:block">
+  <h3>Immanuel Kant <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Kant to show that the goal of a cosmopolitan public culture was an open discussion of the late Enlightenment.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:John_Maynard_Keynes" style="text-decoration:none;color:inherit;display:block">
+  <h3>John Maynard Keynes <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Keynes to establish that the failure of education is a failure of &#x27;defunct&#x27; theories held by experts, comparing educational experts to Marxist thinkers caught in wrong theories.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Lionel_Jospin" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lionel Jospin <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch presents Jospin as the political leader who implemented Bourdieu&#x27;s theories, criticizing Jospin&#x27;s dismissal of &#x27;encyclopedism&#x27; and his promotion of &#x27;all-purpose skills.&#x27;</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:M._M._Guxman" style="text-decoration:none;color:inherit;display:block">
+  <h3>M. M. Guxman <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Guxman extensively to provide scientific and historical authority for the claim that written languages are not just dialects.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Matthew_Arnold" style="text-decoration:none;color:inherit;display:block">
+  <h3>Matthew Arnold <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Arnold to explain why his ideas were rejected in 1987 but accepted in 1996.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Max_Planck" style="text-decoration:none;color:inherit;display:block">
+  <h3>Max Planck <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Planck&#x27;s observation to explain why education professors continue to hold onto scientifically inadequate romantic ideas despite evidence.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Oscar_Wilde" style="text-decoration:none;color:inherit;display:block">
+  <h3>Oscar Wilde <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Wilde to show that one can be culturally literate (knowing the Washington myth) while simultaneously being critical, ironic, or even hostile toward the values the myth purports to teach.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Roger_Shattuck" style="text-decoration:none;color:inherit;display:block">
+  <h3>Roger Shattuck <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Shattuck&#x27;s work to validate his claim that US educational standards are &#x27;empty&#x27; and do not constitute a real curriculum.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Samuel_Taylor_Coleridge" style="text-decoration:none;color:inherit;display:block">
+  <h3>Samuel Taylor Coleridge <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch traces the modern educational focus on &#x27;imagination&#x27; and the &#x27;whole child&#x27; to Coleridge&#x27;s Romantic definitions.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:St._Augustine" style="text-decoration:none;color:inherit;display:block">
+  <h3>St. Augustine <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch uses Augustine&#x27;s description to provide a psychological and philosophical foundation for the idea that reading involves transforming temporal sequences into nontemporal structures of meaning.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:T._E._Hulme" style="text-decoration:none;color:inherit;display:block">
+  <h3>T. E. Hulme <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch adopts Hulme&#x27;s definition of &#x27;spilt religion&#x27; as the best way to understand why educators place irrational trust in natural child development.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:T._G._Bever" style="text-decoration:none;color:inherit;display:block">
+  <h3>T. G. Bever <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Bever&#x27;s research on the &#x27;paradox&#x27; of clause perception to build his scanning-plus-review model.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Teun_van_Dijk_and_Walter_Kintsch" style="text-decoration:none;color:inherit;display:block">
+  <h3>Teun van Dijk and Walter Kintsch <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Kintsch&#x27;s experimental data to provide empirical confirmation for his theoretical deductions about thematic tags and working memory constraints.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:William_Shakespeare" style="text-decoration:none;color:inherit;display:block">
+  <h3>William Shakespeare <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Shakespeare&#x27;s &#x27;whining schoolboy&#x27; imagery to support his point that schooling is inherently unnatural for the human organism.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Kim_(and_team)" style="text-decoration:none;color:inherit;display:block">
+  <h3>Kim (and team) <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Kim as a leader of the &#x27;revolution&#x27; toward a more accurate theory of literacy and uses Kim&#x27;s empirical data to ground his own theoretical claims about shared knowledge.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Karl_W._Deutsch" style="text-decoration:none;color:inherit;display:block">
+  <h3>Karl W. Deutsch <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Deutsch&#x27;s empirical research as the definitive scholarly evidence for the &#x27;speech community&#x27; theory and the necessity of shared knowledge for national unity.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Chinua_Achebe" style="text-decoration:none;color:inherit;display:block">
+  <h3>Chinua Achebe <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Achebe&#x27;s essay &#x27;English and the African Writer&#x27; to justify the necessity of a standardized national language for political and cultural unity.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:David_Geary" style="text-decoration:none;color:inherit;display:block">
+  <h3>David Geary <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Geary&#x27;s distinction to explain why some learning (language) is natural while other learning (reading/math) is not.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Linda_Perlstein" style="text-decoration:none;color:inherit;display:block">
+  <h3>Linda Perlstein <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses her reporting to prove that schools are not failing due to a lack of effort or &#x27;laziness,&#x27; but due to a lack of effective knowledge-based theory.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Orlando_Patterson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Orlando Patterson <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Patterson to argue that cultural literacy is not an elitist or ethnocentric concern but a matter of social justice and structural necessity for modern life.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alan_Bailin_and_Ann_Grafstein" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alan Bailin and Ann Grafstein <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch reprints a lengthy excerpt from Bailin and Grafstein&#x27;s work to provide a scientific foundation for his own critique of readability formulas.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Cathy_Kinter_and_Michele_Hudak" style="text-decoration:none;color:inherit;display:block">
+  <h3>Cathy Kinter and Michele Hudak <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch interviews Cathy to provide practical, &#x27;on-the-ground&#x27; validation of his theoretical arguments about cumulative knowledge and school coherence.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Edward_Sapir_and_Leonard_Bloomfield" style="text-decoration:none;color:inherit;display:block">
+  <h3>Edward Sapir and Leonard Bloomfield <span class="stance-tag agrees">agrees</span> <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Bloomfield as the primary figure responsible for the low status of written speech in linguistics, arguing that his 1933 work caused a shift away from philological study of the wri...</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Elizabeth_Peabody" style="text-decoration:none;color:inherit;display:block">
+  <h3>Elizabeth Peabody <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Hirsch uses her as a historical link between German Romantic philosophy and American educational practice.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Hilary_Putnam" style="text-decoration:none;color:inherit;display:block">
+  <h3>Hilary Putnam <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Putnam&#x27;s philosophical insights to provide a theoretical foundation for the necessity of &#x27;vague&#x27; and &#x27;superficial&#x27; cultural knowledge in communication.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Isabel_L._Beck" style="text-decoration:none;color:inherit;display:block">
+  <h3>Isabel L. Beck <span class="stance-tag agrees">agrees</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Beck&#x27;s research to support the necessity of direct vocabulary instruction in heterogeneous classrooms.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Joseph_Kett_and_James_Trefil" style="text-decoration:none;color:inherit;display:block">
+  <h3>Joseph Kett and James Trefil <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites their joint work in the 1980s as the basis for defining what students actually need to know.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Lawrence_A._Cremin" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lawrence A. Cremin <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Cremin to provide historical context for the &#x27;natural development&#x27; theories he is critiquing.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Marilyn_Jager_Adams" style="text-decoration:none;color:inherit;display:block">
+  <h3>Marilyn Jager Adams <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Adams as a victim of the &#x27;citadel&#x27;s&#x27; politicization, noting that her research was undermined by ideologically motivated afterwords from Teachers College professors.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Martin_Luther_King,_Jr." style="text-decoration:none;color:inherit;display:block">
+  <h3>Martin Luther King, Jr. <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch argues that King&#x27;s dream of equality depends on &#x27;mature literacy&#x27; to be realized in a modern society.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Rudolf_Flesch" style="text-decoration:none;color:inherit;display:block">
+  <h3>Rudolf Flesch <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch acknowledges Flesch&#x27;s work as &#x27;useful&#x27; and &#x27;better informed&#x27; than textbooks but argues it does not reach the core of stylistic craftsmanship.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Sir_Philip_Sidney" style="text-decoration:none;color:inherit;display:block">
+  <h3>Sir Philip Sidney <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Sidney&#x27;s 16th-century argument to support the use of dramatized instruction and storytelling.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Steven_Pinker" style="text-decoration:none;color:inherit;display:block">
+  <h3>Steven Pinker <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch extends Pinker&#x27;s concept of a language instinct to a broader &#x27;learning instinct&#x27; that drives children to become members of the adult community.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:A._M._Collins_and_M._R._Quillian" style="text-decoration:none;color:inherit;display:block">
+  <h3>A. M. Collins and M. R. Quillian <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses their 1969 study to provide a cognitive psychological basis for why specific background knowledge must be &#x27;at the surface&#x27; for fluent reading.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Adrian_de_Groot" style="text-decoration:none;color:inherit;display:block">
+  <h3>Adrian de Groot <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses De Groot&#x27;s 1946 experiments as the primary empirical foundation for explaining how prior knowledge/schemata bypass memory limitations.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alexander_Hamilton" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alexander Hamilton <span class="stance-tag agrees">agrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">Contrast to Jeffersonian localism.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Bruce_Catton" style="text-decoration:none;color:inherit;display:block">
+  <h3>Bruce Catton <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Uses Catton&#x27;s work as representative of the kind of historical prose that assumes reader background knowledge.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Christopher_Jencks" style="text-decoration:none;color:inherit;display:block">
+  <h3>Christopher Jencks <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Jencks to provide a historical and logical rebuttal to the NEA&#x27;s attacks on testing, specifically regarding cultural bias and the measurement of higher-order skills.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Clark,_Kirschner,_and_Sweller" style="text-decoration:none;color:inherit;display:block">
+  <h3>Clark, Kirschner, and Sweller <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites these &#x27;distinguished cognitive scientists&#x27; to provide a scientific, &#x27;gold standard&#x27; rebuttal to the pedagogical theories taught in ed schools.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Colonel_Francis_Parker" style="text-decoration:none;color:inherit;display:block">
+  <h3>Colonel Francis Parker <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Parker as a &#x27;great progenitor&#x27; of the problematic progressive movement in the U.S.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Condorcet" style="text-decoration:none;color:inherit;display:block">
+  <h3>Condorcet <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Cited as the origin of the French communal curriculum tradition.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Dr._Patricia_Zissios" style="text-decoration:none;color:inherit;display:block">
+  <h3>Dr. Patricia Zissios <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Zissios as a primary expert witness and practitioner who successfully defied progressive educational orthodoxy to achieve equity.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Dr._Robert_Glaser" style="text-decoration:none;color:inherit;display:block">
+  <h3>Dr. Robert Glaser <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Glaser to establish the scientific credibility and recent vintage of the research he is about to describe.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Edward_Lee_Thorndike" style="text-decoration:none;color:inherit;display:block">
+  <h3>Edward Lee Thorndike <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch notes that Thorndike&#x27;s empirical findings were correct (skills don&#x27;t automatically transfer), but argues these findings were used by reformers to throw out the entire traditional curriculum.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Einar_Haugen" style="text-decoration:none;color:inherit;display:block">
+  <h3>Einar Haugen <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Haugen&#x27;s observation to argue that normalization is now a democratic and egalitarian force rather than an elitist one.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Eleanor_Rosch" style="text-decoration:none;color:inherit;display:block">
+  <h3>Eleanor Rosch <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch adopts Rosch&#x27;s terminology and research to explain the structural psychological mechanisms of background knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Emmanuel_Macron" style="text-decoration:none;color:inherit;display:block">
+  <h3>Emmanuel Macron <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Macron&#x27;s political stance to validate his own academic critique of American educational ideas.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:F._C._Bartlett" style="text-decoration:none;color:inherit;display:block">
+  <h3>F. C. Bartlett <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Bartlett&#x27;s classic book &#x27;Remembering&#x27; to prove that schemata aren&#x27;t just for reading, but are the fundamental building blocks of how we construct our reality and recall our experiences.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Franz_Kafka" style="text-decoration:none;color:inherit;display:block">
+  <h3>Franz Kafka <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Kafka&#x27;s &#x27;The Castle&#x27; as a metaphor for the educational establishment&#x27;s ability to resist and confuse outside reformers.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:François-Xavier_Bellamy" style="text-decoration:none;color:inherit;display:block">
+  <h3>François-Xavier Bellamy <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Bellamy approvingly as a &#x27;brilliant high school teacher&#x27; who has correctly deconstructed the underlying failed ideas of French education.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:G._A._Miller" style="text-decoration:none;color:inherit;display:block">
+  <h3>G. A. Miller <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Miller&#x27;s own writing and research to illustrate principles of predictability and processing.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Gunnar_Myrdal" style="text-decoration:none;color:inherit;display:block">
+  <h3>Gunnar Myrdal <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Myrdal&#x27;s book as the specific text that radicalized him against his conservative upbringing, using it to show that literacy leads to critical thinking.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:H._P._Grice" style="text-decoration:none;color:inherit;display:block">
+  <h3>H. P. Grice <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch claims Grice&#x27;s work has fundamental importance for composition despite its technical complexity and lack of recognition outside philosophy.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Herman_Melville" style="text-decoration:none;color:inherit;display:block">
+  <h3>Herman Melville <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Melville&#x27;s Romantic and pluralist vision to argue for an antiparticularist American identity that is grounded in shared inheritance rather than tribal blood.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:J._R._Barclay,_J._D._Bransford,_and_J._J._Franks" style="text-decoration:none;color:inherit;display:block">
+  <h3>J. R. Barclay, J. D. Bransford, and J. J. Franks <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch relies on Bransford and his colleagues&#x27; 1972 paper as a pivotal &#x27;next phase&#x27; of research that proves the necessity of background knowledge in comprehension.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jacqueline_Sachs" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jacqueline Sachs <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Sachs&#x27;s 1967 study to provide empirical proof for the theoretical claim that &#x27;surface form&#x27; is transient.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jeff_Litt" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jeff Litt <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch characterizes Litt as a &#x27;hero of American education&#x27; and uses his schools as a primary proof-of-concept for the South Bronx.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Johann_Friedrich_Herbart" style="text-decoration:none;color:inherit;display:block">
+  <h3>Johann Friedrich Herbart <span class="stance-tag builds_on">builds on</span> <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Herbart as a key figure whose theories led American education away from content-based instruction.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Johann_Gottlieb_Fichte" style="text-decoration:none;color:inherit;display:block">
+  <h3>Johann Gottlieb Fichte <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch identifies Fichte as a source of the &#x27;mystical concept&#x27; that cultural identity is an essence rather than an accident.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Joseph_Buttigieg" style="text-decoration:none;color:inherit;display:block">
+  <h3>Joseph Buttigieg <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Buttigieg&#x27;s correspondence as expert validation of his interpretation of Gramsci.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Karin_Chenoweth" style="text-decoration:none;color:inherit;display:block">
+  <h3>Karin Chenoweth <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Chenoweth&#x27;s research to provide concrete empirical evidence that refutes the &#x27;poverty explanation&#x27; for educational failure.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Laurent_Lafforgue" style="text-decoration:none;color:inherit;display:block">
+  <h3>Laurent Lafforgue <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch adopts Lafforgue&#x27;s historical analogy and uses his edited volume as a primary source for the &#x27;Educational Fall of France&#x27; thesis.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Leif_Lewin" style="text-decoration:none;color:inherit;display:block">
+  <h3>Leif Lewin <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch relies heavily on Lewin&#x27;s 2014 report to provide the empirical backbone for the Swedish case study.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Lisa_Delpit" style="text-decoration:none;color:inherit;display:block">
+  <h3>Lisa Delpit <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Delpit as a &#x27;powerful&#x27; source of insight regarding the school&#x27;s duty to empower minority students with the standard language.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:M._H._Abrams" style="text-decoration:none;color:inherit;display:block">
+  <h3>M. H. Abrams <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Abrams&#x27; literary historical framework to categorize and explain the philosophical shift in American education.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Manfred_Prenzel" style="text-decoration:none;color:inherit;display:block">
+  <h3>Manfred Prenzel <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Prenzel to provide a causal mechanism for why Germany improved while France and Sweden declined.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Marc_Le_Bris" style="text-decoration:none;color:inherit;display:block">
+  <h3>Marc Le Bris <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Le Bris to show that the methods that failed in France were dominant in education schools decades before they were codified by the Jospin law.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Mina_Shaughnessy" style="text-decoration:none;color:inherit;display:block">
+  <h3>Mina Shaughnessy <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch mentions Shaughnessy to frame his argument within the context of helping the disadvantaged, though he suggests her focus on basic literacy may need to be expanded to cultural literacy.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:P._D._Pearson" style="text-decoration:none;color:inherit;display:block">
+  <h3>P. D. Pearson <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Pearson&#x27;s spider experiment to demonstrate that text-relevant knowledge outweighs general reading/IQ scores.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:P._N._Johnson-Laird" style="text-decoration:none;color:inherit;display:block">
+  <h3>P. N. Johnson-Laird <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Johnson-Laird to prove that the &#x27;linguistic object&#x27; theory of memory is empirically false.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Paola_Mattei" style="text-decoration:none;color:inherit;display:block">
+  <h3>Paola Mattei <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch credits Mattei&#x27;s publication of the data as the specific catalyst for his deciding to write this book.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Paul_Diederich" style="text-decoration:none;color:inherit;display:block">
+  <h3>Paul Diederich <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Diederich&#x27;s empirical findings to establish the &#x27;snag&#x27; of subjective assessment that his theory of relative readability seeks to solve.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Paulo_Freire" style="text-decoration:none;color:inherit;display:block">
+  <h3>Paulo Freire <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch contrasts Freire with Gramsci, arguing Freire mistakenly associated political progressivism with educational progressivism.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Pestalozzi_and_Froebel" style="text-decoration:none;color:inherit;display:block">
+  <h3>Pestalozzi and Froebel <span class="stance-tag disagrees">disagrees</span> <span class="stance-tag historicizes">historicizes</span></h3>
+  <div class="entity-card-detail">The author quotes them as the Romantic founders of the &#x27;natural pedagogy&#x27; doctrine he seeks to dismantle.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Professor_Gudmund_Hernes" style="text-decoration:none;color:inherit;display:block">
+  <h3>Professor Gudmund Hernes <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Uses Hernes&#x27; Norwegian Education Act as a democratic precedent for requiring shared specific content.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Professor_Tomas_Englund" style="text-decoration:none;color:inherit;display:block">
+  <h3>Professor Tomas Englund <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Englund&#x27;s terminology to describe the pre-1994 Swedish system as a model for excellence and equity.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:R._C._Anderson" style="text-decoration:none;color:inherit;display:block">
+  <h3>R. C. Anderson <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch adopts Anderson&#x27;s specific terminology (&#x27;schema&#x27;) for the general phenomena of mental models.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:R._J._Spiro" style="text-decoration:none;color:inherit;display:block">
+  <h3>R. J. Spiro <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Uses Spiro&#x27;s expert testimony to establish the scientific consensus surrounding the constructive hypothesis.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:R._M._Krauss_and_S._Glucksberg" style="text-decoration:none;color:inherit;display:block">
+  <h3>R. M. Krauss and S. Glucksberg <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch introduces their work to prove the necessity of shared cultural knowledge for effective communication.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Rachel_Boutonnet" style="text-decoration:none;color:inherit;display:block">
+  <h3>Rachel Boutonnet <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses her book to illustrate the ideological conformity and &#x27;language police&#x27; in French education schools that rejected phonics and lectures.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Reinhold_Niebuhr" style="text-decoration:none;color:inherit;display:block">
+  <h3>Reinhold Niebuhr <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch applies Niebuhr&#x27;s sociological insight to explain why individual educators can be good people while the education &#x27;group&#x27; acts in an anti-intellectual manner.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Richard_C._Anderson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Richard C. Anderson <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Anderson&#x27;s empirical research at the University of Illinois to provide scientific proof that literacy is tied to national cultural knowledge.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Richard_Hofstadter" style="text-decoration:none;color:inherit;display:block">
+  <h3>Richard Hofstadter <span class="stance-tag agrees">agrees</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch adopts the term &#x27;anti-intellectualism&#x27; but argues Hofstadter&#x27;s definition is too broad, missing the specific cultural bias against book-learning.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Robert_Pondiscio" style="text-decoration:none;color:inherit;display:block">
+  <h3>Robert Pondiscio <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Pondiscio&#x27;s book to provide a more nuanced explanation for the success of charter schools beyond just the curriculum sequence.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Robert_S._Siegler" style="text-decoration:none;color:inherit;display:block">
+  <h3>Robert S. Siegler <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Siegler&#x27;s findings to argue against the isolated teaching of metacognitive strategies and to support the term &#x27;associative knowledge&#x27; over &#x27;higher-order skills.&#x27;</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Samuel_Messick" style="text-decoration:none;color:inherit;display:block">
+  <h3>Samuel Messick <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Messick alongside Cronbach to establish the higher standards of modern psychometrics.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:T._Trabasso" style="text-decoration:none;color:inherit;display:block">
+  <h3>T. Trabasso <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Cites Trabasso to show that the importance of background knowledge is not limited to college students but is evident in children as young as five.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:The_American_Founders_(Jefferson/Franklin)" style="text-decoration:none;color:inherit;display:block">
+  <h3>The American Founders (Jefferson/Franklin) <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch credits the Founders with creating a &#x27;civic theory&#x27; that allows for multi-ethnic harmony, which he argues is currently being neglected in schools.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Thomas_K._Landauer" style="text-decoration:none;color:inherit;display:block">
+  <h3>Thomas K. Landauer <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Landauer&#x27;s computer modeling as impressive evidence for the plausibility of an innate word-learning mechanism based on probability.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Valéry_Giscard_d’Estaing" style="text-decoration:none;color:inherit;display:block">
+  <h3>Valéry Giscard d’Estaing <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch quotes the former president to establish the traditional, successful consensus of French education that was abandoned in 1989.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:William_James" style="text-decoration:none;color:inherit;display:block">
+  <h3>William James <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch adopts James&#x27;s distinction as the foundation for the short-term/long-term memory divide that governs readability.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:William_Labov" style="text-decoration:none;color:inherit;display:block">
+  <h3>William Labov <span class="stance-tag agrees">agrees</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Labov&#x27;s validation of restricted codes to show that they are stylistically appropriate for oral intimacy, reinforcing that &#x27;elaborated&#x27; does not mean &#x27;superior&#x27; in all contexts.</div>
+  <div class="entity-books"><a href="books/kd.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">KD 2006</a><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+</div>
+
+  <div class="section-label" style="margin-top:1.5em">Single-Book Thinkers (showing 50 of 375)</div>
+  <div class="entity-grid">
+<a class="entity-card" href="entity.html#thinker:Herbert_Spencer" style="text-decoration:none;color:inherit;display:block">
+  <h3>Herbert Spencer <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">The author claims Spencer&#x27;s 1852 essay remains foundational and has been confirmed by modern psychology.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:John_Rawls" style="text-decoration:none;color:inherit;display:block">
+  <h3>John Rawls <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Rawls&#x27;s terminology to describe the successful goal of the American experiment.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Michael_Tomasello" style="text-decoration:none;color:inherit;display:block">
+  <h3>Michael Tomasello <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Tomasello&#x27;s evolutionary psychological research to provide a scientific foundation for his argument that schooling must involve the high-fidelity transmission of shared knowledge.</div>
+  <div class="entity-books"><a href="books/re.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">RE 2024</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Émile_Durkheim" style="text-decoration:none;color:inherit;display:block">
+  <h3>Émile Durkheim <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Durkheim to counter the idea that globalism can replace the nation-state as the primary source of social unity.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:J._R._Bormuth" style="text-decoration:none;color:inherit;display:block">
+  <h3>J. R. Bormuth <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span> <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Bormuth&#x27;s research on &#x27;curvature&#x27; in readability relationships, though he uses Bormuth&#x27;s own writing as an example of prose that formulas fail to properly evaluate.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Professor_Hayes" style="text-decoration:none;color:inherit;display:block">
+  <h3>Professor Hayes <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Hayes&#x27; work to support the claim that student-centered &#x27;leveling&#x27; of texts reduced academic rigor.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Robert_Putnam" style="text-decoration:none;color:inherit;display:block">
+  <h3>Robert Putnam <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Putnam&#x27;s data from &#x27;The Upswing&#x27; to support his claim that individualistic educational philosophy mirrors and contributes to a broader social decline in cohesion.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:André_Martinet" style="text-decoration:none;color:inherit;display:block">
+  <h3>André Martinet <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Martinet as a recent proponent of the progressive view to show its continued relevance in 20th-century linguistics.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Benjamin_Franklin" style="text-decoration:none;color:inherit;display:block">
+  <h3>Benjamin Franklin <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Franklin&#x27;s famous &#x27;A Republic, if you can keep it&#x27; anecdote to set the tone for the educational stakes.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Carleton_Washburne" style="text-decoration:none;color:inherit;display:block">
+  <h3>Carleton Washburne <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch aligns himself with Washburne&#x27;s curricular approach and notes that Washburne was unfairly criticized by progressives for it.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:D._E._Broadbent" style="text-decoration:none;color:inherit;display:block">
+  <h3>D. E. Broadbent <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Cited in a footnote to justify Spencer&#x27;s occasional conflation of variety and economy.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:E._B._White" style="text-decoration:none;color:inherit;display:block">
+  <h3>E. B. White <span class="stance-tag agrees">agrees</span> <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses White&#x27;s analogy to distinguish between the practical skill of writing and the philosophical/scientific study of the principles that make it work.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Ferdinand_de_Saussure" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ferdinand de Saussure <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Saussure&#x27;s linguistic categories to distinguish between the abstract system of writing and the actual communicative act of writing (&#x27;written speech&#x27;).</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:George_Kingsley_Zipf" style="text-decoration:none;color:inherit;display:block">
+  <h3>George Kingsley Zipf <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Zipf is used as empirical support for the historical tendency of language to become more efficient.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Harold_Rugg" style="text-decoration:none;color:inherit;display:block">
+  <h3>Harold Rugg <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Rugg&#x27;s work to show that &#x27;modern&#x27; progressive descriptions of the &#x27;new school&#x27; are actually nearly 70 years old.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Howard_Gardner" style="text-decoration:none;color:inherit;display:block">
+  <h3>Howard Gardner <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch acknowledges Gardner as a distinguished professor but argues his support for multiple learning styles has been &#x27;less sound and beneficial&#x27; and lacks scientific consensus.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:James_Koerner" style="text-decoration:none;color:inherit;display:block">
+  <h3>James Koerner <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch contrasts Koerner&#x27;s former independence as a foundation officer with the current co-opted state of the foundation world.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Jill_Lepore" style="text-decoration:none;color:inherit;display:block">
+  <h3>Jill Lepore <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Lepore to ground his argument in the practical reality of current geopolitical structures.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:John_Guthrie" style="text-decoration:none;color:inherit;display:block">
+  <h3>John Guthrie <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Guthrie&#x27;s research to provide empirical validation for the &#x27;domain immersion&#x27; strategy he observes in French preschools.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Leigh_S._Wilton" style="text-decoration:none;color:inherit;display:block">
+  <h3>Leigh S. Wilton <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses this social science research to support his critique of &#x27;diversity&#x27; curricula as being rooted in cultural essentialism.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Paul_A._Kirschner" style="text-decoration:none;color:inherit;display:block">
+  <h3>Paul A. Kirschner <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch highlights Kirschner&#x27;s 2006 article as a &#x27;decisive&#x27; piece of evidence that constructivism lacks a scientific basis.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Richard_Rorty" style="text-decoration:none;color:inherit;display:block">
+  <h3>Richard Rorty <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Rorty&#x27;s metaphor to visualize the distinction between diverse private lives and a shared public space.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Ronald_Ferguson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ronald Ferguson <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Ferguson&#x27;s 1995 analysis as the definitive explanation for the &#x27;puzzling halt&#x27; in wage equality progress.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Sir_Ernest_Gowers" style="text-decoration:none;color:inherit;display:block">
+  <h3>Sir Ernest Gowers <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Gowers approvingly to demonstrate that &#x27;efficiency&#x27; in prose is relative to the writer&#x27;s goal (certainty vs. ease).</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Theodore_Roosevelt" style="text-decoration:none;color:inherit;display:block">
+  <h3>Theodore Roosevelt <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Roosevelt to argue that patriotism is not at odds with global cooperation.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:W._James_Popham" style="text-decoration:none;color:inherit;display:block">
+  <h3>W. James Popham <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Popham&#x27;s research to support the claim that the failure of US teaching is a failure of teacher-training schools rather than individual teachers.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Yehoshua_Bar-Hillel" style="text-decoration:none;color:inherit;display:block">
+  <h3>Yehoshua Bar-Hillel <span class="stance-tag agrees">agrees</span> <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch cites Bar-Hillel to argue that computers have inherent limitations in understanding language, supporting his skepticism of technology-based primary education.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:A._H._Thorndike_and_F._T._Baker" style="text-decoration:none;color:inherit;display:block">
+  <h3>A. H. Thorndike and F. T. Baker <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch quotes them extensively to prove that the goal of teaching shared content was once an explicit and respected aim of American education before the rise of formalism.</div>
+  <div class="entity-books"><a href="books/cl.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">CL 1987</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:A._S._Neill" style="text-decoration:none;color:inherit;display:block">
+  <h3>A. S. Neill <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Neill&#x27;s Summerhill as an example of the &#x27;anti-subject-matter&#x27; progressivism that dominated both US and UK educational thought.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:A._Weinberg" style="text-decoration:none;color:inherit;display:block">
+  <h3>A. Weinberg <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch adopts Weinberg&#x27;s concept to explain why composition research has stalled and how it might be reorganized through multidisciplinary teams.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Abraham_Flexner" style="text-decoration:none;color:inherit;display:block">
+  <h3>Abraham Flexner <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Flexner&#x27;s 1916 critique to show that the &#x27;absurdities&#x27; and anti-knowledge bias of ed schools are long-standing issues.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Abraham_Pais" style="text-decoration:none;color:inherit;display:block">
+  <h3>Abraham Pais <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Pais to explain the importance of scientific agreement across diverse methods.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Adam_Smith" style="text-decoration:none;color:inherit;display:block">
+  <h3>Adam Smith <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Linked with Rousseau as the source of the idea that unguided natural or market forces result in optimal educational outcomes.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Al_Fiellin" style="text-decoration:none;color:inherit;display:block">
+  <h3>Al Fiellin <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Fiellin&#x27;s experience at City’s General Education and Guidance Division to demonstrate the failure of isolated remediation.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alan_Moorehead" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alan Moorehead <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Moorehead&#x27;s prose as a &#x27;golden mean&#x27; example of readability between the extremes of terseness and over-explicitness.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Albert_C._Baugh" style="text-decoration:none;color:inherit;display:block">
+  <h3>Albert C. Baugh <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch critiques Baugh (and by extension Sapir and Bloomfield) for failing to recognize that literacy creates a new, non-natural stability in language.</div>
+  <div class="entity-books"><a href="books/ae.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">AE 2022</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alessandra_Stanley" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alessandra Stanley <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses Stanley&#x27;s reporting to argue that &#x27;child-centered&#x27; success in Reggio Emilia is demographic-dependent.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alfie_Kohn" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alfie Kohn <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Kohn as a representative of critics who dismiss content-rich curricula, then counters with a teacher&#x27;s testimony that the curriculum is &#x27;dynamic&#x27; and &#x27;sequential.&#x27;</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alfred_Lord_Tennyson" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alfred Lord Tennyson <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Tennyson to characterize the slow but real evolution of cultural knowledge.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alfred_North_Whitehead" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alfred North Whitehead <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch quotes Whitehead to refute the &#x27;truism&#x27; that students should always be consciously thinking about what they are doing.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Allan_Bloom" style="text-decoration:none;color:inherit;display:block">
+  <h3>Allan Bloom <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch distances his work from Bloom&#x27;s, asserting they are fundamentally different and even opposed, despite being initially linked by the media.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Alvin_Weinberg" style="text-decoration:none;color:inherit;display:block">
+  <h3>Alvin Weinberg <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch applies Weinberg&#x27;s sociological analysis of science to the field of composition, arguing that composition&#x27;s &#x27;hybrid&#x27; nature is typical of mission-oriented research.</div>
+  <div class="entity-books"><a href="books/poc.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">PoC 1977</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:American_Early-Childhood_Specialists" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Early-Childhood Specialists <span class="stance-tag disagrees">disagrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites this group as an example of ideological overreach that lacks scientific credibility and ignores international educational standards.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:American_Psychological_Association_(APA)" style="text-decoration:none;color:inherit;display:block">
+  <h3>American Psychological Association (APA) <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses the APA&#x27;s definition of technical bias to argue that standardized tests are generally fair and that the problem lies in the knowledge gap rather than the test design.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Angus_Macintosh" style="text-decoration:none;color:inherit;display:block">
+  <h3>Angus Macintosh <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses Macintosh&#x27;s expertise to prove how fragmented and localized language was before mass literacy and standardization.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Ann_J._Grafstein" style="text-decoration:none;color:inherit;display:block">
+  <h3>Ann J. Grafstein <span class="stance-tag builds_on">builds on</span></h3>
+  <div class="entity-card-detail">Hirsch uses her joint work with Bailin to argue that the &#x27;child-centered&#x27; approach is scientifically incorrect.</div>
+  <div class="entity-books"><a href="books/sk.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SK 2023</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Annemarie_Palincsar_and_Ann_Brown" style="text-decoration:none;color:inherit;display:block">
+  <h3>Annemarie Palincsar and Ann Brown <span class="stance-tag partially_agrees">partially agrees</span></h3>
+  <div class="entity-card-detail">Hirsch praises their work as &#x27;excellent&#x27; and concedes that their methods work, but uses their reports of time spent on strategy as evidence of potential opportunity costs.</div>
+  <div class="entity-books"><a href="books/swn.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">SWN 1996</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Anonymous_PhD_Student" style="text-decoration:none;color:inherit;display:block">
+  <h3>Anonymous PhD Student <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses the student&#x27;s email to corroborate his claim that education schools enforce intellectual conformity and suppress dissent.</div>
+  <div class="entity-books"><a href="books/the-making-of-americans.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">MoA 2010</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Arne_Duncan_and_Barack_Obama" style="text-decoration:none;color:inherit;display:block">
+  <h3>Arne Duncan and Barack Obama <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch uses their October 2015 &#x27;Testing Action Plan&#x27; as evidence that even the political establishment has begun to recognize the negative consequences of over-testing.</div>
+  <div class="entity-books"><a href="books/wkm.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">WKM 2016</a></div>
+</a>
+<a class="entity-card" href="entity.html#thinker:Arthur_Levine" style="text-decoration:none;color:inherit;display:block">
+  <h3>Arthur Levine <span class="stance-tag agrees">agrees</span></h3>
+  <div class="entity-card-detail">Hirsch cites Levine, a former president of Teachers College, to provide &#x27;insider&#x27; validation of his critique of education schools.</div>
+  <div class="entity-books"><a href="books/how-to-educate-a-citizen.html" class="entity-book-tag" style="text-decoration:none;color:var(--accent)">HtEC 2020</a></div>
+</a>
+</div>
+
+</main>
+</div>
+
+<footer class="page-footer">
+  Hirsch Argument Atlas &mdash; 10 books (1977&ndash;2024), 10,312 claims extracted and analyzed
+  &middot; Built with care, not with frameworks
+</footer>
+</body>
+</html>

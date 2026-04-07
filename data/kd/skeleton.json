@@ -1,0 +1,175 @@
+{
+  "result": {
+    "book_thesis": "Universal reading proficiency and academic equity can only be achieved by replacing process-oriented instruction with a cumulative, knowledge-oriented curriculum, specifically in grades one through five.",
+    "core_frameworks": [
+      {
+        "id": "knowledge_oriented_schooling",
+        "name": "Knowledge-Oriented Schooling",
+        "description": "An educational structure where each grade builds knowledge cumulatively upon the preceding grade to foster reading proficiency.",
+        "components": [
+          {
+            "id": "cumulative_structure",
+            "name": "Cumulative Grade Structure",
+            "description": "A system where grades 1-5 build upon one another without boring repetition."
+          },
+          {
+            "id": "knowledge_acquisition",
+            "name": "Knowledge and Vocabulary Acquisition",
+            "description": "The slow and gradual process of building the background information necessary for comprehension."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "process_oriented_schooling",
+        "name": "Process-Oriented Schooling",
+        "description": "An educational approach focused on formal strategies rather than content knowledge.",
+        "components": [
+          {
+            "id": "comprehension_strategies",
+            "name": "Reading Comprehension Strategies",
+            "description": "Instructional methods that focus on the 'how' of reading rather than the 'what'."
+          }
+        ],
+        "stance": "author_opposes"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "1. Why Do We Have a Knowledge Deficit?",
+        "predicted_main_argument": "The current American educational system lacks a coherent, knowledge-based structure, leading to a deficit compared to other nations.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "international comparisons",
+          "historical analysis of education policy"
+        ],
+        "connects_to": [
+          "7"
+        ]
+      },
+      {
+        "chapter": "2. Sounding Out: Just the Beginning of Reading",
+        "predicted_main_argument": "Decoding (sounding out) is a necessary but insufficient skill for reading comprehension, which is why older students often plateau.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "literacy reports",
+          "reading assessment data"
+        ],
+        "connects_to": [
+          "3",
+          "4"
+        ]
+      },
+      {
+        "chapter": "3. Knowledge of Language",
+        "predicted_main_argument": "Reading comprehension is deeply tied to the specific linguistic knowledge and vocabulary a child possesses.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "linguistics research",
+          "vocabulary studies"
+        ],
+        "connects_to": [
+          "4"
+        ]
+      },
+      {
+        "chapter": "4. Knowledge of Things",
+        "predicted_main_argument": "General background knowledge about the world is the primary driver of deep reading comprehension.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "cognitive psychology",
+          "educational research"
+        ],
+        "connects_to": [
+          "3",
+          "5"
+        ]
+      },
+      {
+        "chapter": "5. Using School Time Productively",
+        "predicted_main_argument": "Schools must pivot away from time-wasting process strategies and toward efficient content delivery.",
+        "role_in_book": "proposes_solution",
+        "expected_evidence_types": [
+          "classroom practice analysis",
+          "time-use studies"
+        ],
+        "connects_to": [
+          "6"
+        ]
+      },
+      {
+        "chapter": "6. Using Tests Productively",
+        "predicted_main_argument": "Standardized testing must be aligned with specific content knowledge to be a fair and useful measure of learning.",
+        "role_in_book": "proposes_solution",
+        "expected_evidence_types": [
+          "psychometric data",
+          "curriculum-test alignment studies"
+        ],
+        "connects_to": [
+          "5",
+          "7"
+        ]
+      },
+      {
+        "chapter": "7. Achieving Commonality and Fairness",
+        "predicted_main_argument": "A common, knowledge-rich curriculum is the only way to fulfill the democratic promise of equal opportunity.",
+        "role_in_book": "synthesizes",
+        "expected_evidence_types": [
+          "sociopolitical theory",
+          "educational equity data"
+        ],
+        "connects_to": [
+          "1"
+        ]
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Knowledge Deficit",
+        "definition": "The gap in broad knowledge between the majority of American students and students in nations with more coherent schooling systems.",
+        "source_passage": "Nor should we overlook the other knowledge gap, here called the 'knowledge deficit,' between the majority of American students and those who attend more coherent systems of schooling in other nations."
+      },
+      {
+        "term": "Knowledge Gap",
+        "definition": "The significant discrepancy in background information between children from different economic strata.",
+        "source_passage": "we should not overlook the much more significant unfairness of the knowledge gap between children from different economic strata."
+      },
+      {
+        "term": "Sounding Out",
+        "definition": "The mechanical process of phonological decoding, or translating written letters into sounds.",
+        "source_passage": "nine-year-olds have measurably improved in speed and accuracy at sounding out words, but thirteen-year-olds have not shown any advance in reading comprehension."
+      },
+      {
+        "term": "Career Open to Talents",
+        "definition": "The egalitarian democratic ideal that success should be based on merit and ability rather than parental status or inheritance.",
+        "source_passage": "The ideal of a 'career open to talents' has been one of the most inspiriting ideals in democracies generally and in the United States especially."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Thomas Jefferson",
+        "relationship": "historical_predecessor",
+        "contribution": "Provided the foundational American ideal of abolishing inherited advantage (primogeniture) in favor of equal opportunity."
+      },
+      {
+        "name": "Process-oriented educators",
+        "relationship": "opposes",
+        "contribution": "Proponents of reading comprehension strategies that Hirsch argues have dominated American schooling since the 1940s to its detriment."
+      },
+      {
+        "name": "John Winthrop",
+        "relationship": "historical_predecessor",
+        "contribution": "Originator of the 'city on a hill' image, used to frame educational reform as a moral duty to uphold American ideals."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0007777000000000001,
+    "input_tokens": 1213,
+    "output_tokens": 1641,
+    "duration_s": 14.855540990829468,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

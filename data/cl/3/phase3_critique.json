@@ -1,0 +1,133 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that literacy provides an 'internal gyroscope' to speakers, which prevents the natural law of geographic linguistic divergence from taking effect.",
+        "source_passage": "Before the spread of literacy in the nineteenth century, speakers had neither an external standard nor an internal gyroscope to keep their languages stable.",
+        "importance": "significant",
+        "suggested_claim": "Universal literacy functions as an internal linguistic stabilizer (a 'gyroscope') that allows individuals to maintain standard speech patterns despite geographic isolation.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The specific logical link between the non-phonetic nature of Chinese script and the failure of writing to stabilize the spoken language.",
+        "source_passage": "But if you are able to read and write Chinese you will not necessarily be able to speak to another person... for the Chinese written symbol is not phonetic. Although the meaning of a written symbol is the same... it represents different sounds in different dialects.",
+        "importance": "critical",
+        "suggested_claim": "The lack of a phonetic link in logographic systems prevents written standardization from automatically stabilizing spoken dialects, unlike alphabetic systems where writing tethers speech.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The argument that national languages are specifically designed as 'composites' to neutralize ethnic and local identities for the sake of the state.",
+        "source_passage": "National languages are not ethnic media. Each one is an elaborate composite contrived to overcome local and ethnic dialectal variations inside a large nation.",
+        "importance": "significant",
+        "suggested_claim": "National languages are intentionally non-ethnic composites designed to supersede and suppress local or ethnic identities in favor of a unified national identity.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The 'So What' regarding the historical lack of linguistic conflict in the U.S.: it has created a dangerous complacency regarding the fragility of national unity.",
+        "source_passage": "Our fortunate inexperience of bloodshed over language may explain why some of us look with equanimity upon recent proposals favoring multilingualism in our country.",
+        "importance": "critical",
+        "suggested_claim": "The United States' unique history of inheriting a pre-normalized language has led to a false sense of security (equanimity) regarding the risks that multilingualism poses to national stability.",
+        "suggested_claim_level": "normative"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C28",
+        "problem": "The claim as extracted implies that folk-transmitted culture has no value in general, whereas the author specifies its lack of value only in the context of 'usability' for industrial man.",
+        "source_passage": "[This] school-transmitted culture, not a folk-transmitted one, alone confers usability and dignity and self-respect on industrial man.",
+        "suggested_fix": "Only school-transmitted culture provides the specific 'usability' and professional dignity required for participation in modern industrial society."
+      },
+      {
+        "claim_id": "C25",
+        "problem": "Labeled as normative (what should be), but the author/Gellner are making a sociological, empirical observation about how identity actually functions in industrial society.",
+        "source_passage": "The employability, dignity, security, and self-respect of individuals, typically, and for the majority of men now hinges on their education.",
+        "suggested_fix": "In modern industrial society, an individual's economic viability and social status are empirically dependent on their level of formal education."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E8",
+        "claim_id": "C13",
+        "missing_warrant": "Industrialization requires a mobile workforce that can move between different roles and locations; such mobility is only possible if all workers share a single, context-free communication system."
+      },
+      {
+        "evidence_id": "E28",
+        "claim_id": "C66",
+        "missing_warrant": "The high 'transaction cost' of re-learning spelling for millions of people and thousands of existing books outweighs the 'logical cost' of irregular orthography."
+      },
+      {
+        "evidence_id": "E56",
+        "claim_id": "C131",
+        "missing_warrant": "Small-scale successes in multiliteracy (like Switzerland) are high-maintenance anomalies that require intensive institutional pressures (like conscription) which are not feasible for large, decentralized nations."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C117",
+        "counter_argument": "Rapid cultural shifts in the digital age (e.g., changes in gender terminology or environmental awareness) suggest that mass media and 'common will' can indeed remake significant portions of the cultural lexicon in less than a generation.",
+        "why_important": "It challenges the author's core conservative premise that culture is as immovable as linguistic orthography."
+      },
+      {
+        "targets_claim": "C135",
+        "counter_argument": "Multilingualism can provide significant economic 'arbitrage' and trade advantages in a globalized economy, where monolingual nations are at a disadvantage when dealing with diverse international markets.",
+        "why_important": "The author only views multilingualism as an internal friction, ignoring its external economic utility."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C139",
+          "C141"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that linguistic pluralism is fundamentally different from Jeffersonian pluralism using nearly identical wording."
+      },
+      {
+        "claim_ids": [
+          "C96",
+          "C99"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe the interchangeability of 19th-century schoolbooks as an engine for national indoctrination."
+      },
+      {
+        "claim_ids": [
+          "C60",
+          "C61"
+        ],
+        "action": "split",
+        "explanation": "C60 is a specific linguistic observation about the 's' ending; C61 is a broader theoretical claim about the 'rationality' of oral dialects compared to written ones. They should remain distinct but the link should be clearer."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C35",
+        "current_level": "normative",
+        "correct_level": "theoretical",
+        "explanation": "Hirsch presents this as a functional requirement for the mechanism of literacy to work, rather than just a subjective 'should'."
+      },
+      {
+        "claim_id": "C142",
+        "current_level": "empirical",
+        "correct_level": "meta",
+        "explanation": "The toleration of diversity is presented as a foundational/philosophical premise of the American system rather than an empirical observation."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough in identifying individual claims (150+), capturing almost every minor point. However, it occasionally misses the underlying 'internal' mechanisms (like the gyroscope metaphor) and over-classifies functional sociological observations as normative. The structural links are strong, but the warrant section lacks the specific 'Industrial Logic' that connects Gellner's economic theories to Hirsch's educational conclusions."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0045706,
+    "input_tokens": 38610,
+    "output_tokens": 1774,
+    "duration_s": 26.595725059509277,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the term 'informational' is a technocratic misnomer that creates a false dichotomy, as high-quality fiction is informational and informational texts can be literature.",
+        "source_passage": "The standards have served themselves ill by using the technocratic-sounding term informational. The distinction need not be between 'literary' and 'informational' texts. Good works of fiction are informational. And good informational texts can be literature.",
+        "importance": "significant",
+        "suggested_claim": "The technocratic distinction between 'informational' and 'literary' texts is a false dichotomy that obscures how both genres function to build knowledge.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "Hirsch provides a specific reasoning move for why main-idea finding appears effective in the short term: it is an orientation for children to apply existing oral inferential abilities to text, not the development of a new skill.",
+        "source_passage": "The initial boost gained by students spending a week or so practicing the skill is caused by teachers clueing in six- and seven-year-olds to the idea that figuring out what a text is saying is like figuring out what a person is saying. The underlying inferential ability has already been developed by every student, since it was needed in infancy for the child to learn the mother tongue.",
+        "importance": "significant",
+        "suggested_claim": "The temporary success of main-idea drills in early grades is a result of orienting children to the nature of text rather than the creation of a transferable reading skill.",
+        "suggested_claim_level": "empirical"
+      },
+      {
+        "description": "Hirsch argues that test makers must actively maintain the pretense that reading tests measure skills in order to preserve the appearance of fairness, even though the tests function as knowledge assessments.",
+        "source_passage": "Test makers must not acknowledge the disguise. They have to pretend that reading tests are about skills. Lifting the disguise will require devising knowledge-based curricula and reading tests based on that known school curriculum—the only kind of reading tests that can be fair and productive.",
+        "importance": "significant",
+        "suggested_claim": "The maintenance of reading tests as 'skill-based' is a necessary institutional pretense used to hide the unfairness of testing unknown content.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The author uses the 'camel is a horse designed by a committee' metaphor to explain the structural incoherence of the Common Core, which tries to satisfy both individualized text selection and communal curriculum goals.",
+        "source_passage": "A camel is a horse designed by a committee: the various parts of the Core standards do not cohere. The requirement that 'the curriculum is intentionally and coherently structured to develop rich content knowledge within and across grades' can only be fulfilled if students in the early grades mostly read the same texts.",
+        "importance": "significant",
+        "suggested_claim": "The Common Core is structurally incoherent because it attempts to reconcile individualized text selection with the requirements of a communal, knowledge-building curriculum.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C159",
+        "problem": "The claim suggests membership is 'automatically granted' upon possessing knowledge, whereas the text frames it as a condition of capability and entry into a 'club' or economic level.",
+        "source_passage": "Membership in the language community of the public sphere is granted to any and all who possess the knowledge needed to wield that instrument of power and opportunity.",
+        "suggested_fix": "Membership in the public sphere's language community is accessible to anyone who possesses the requisite shared knowledge necessary to use Standard American English effectively."
+      },
+      {
+        "claim_id": "C29",
+        "problem": "The claim says the aim 'trumps' the policy aim, but Hirsch presents this as a conditional priority necessitated by current incompatibility.",
+        "source_passage": "The goal of higher national verbal abilities trumps the goal of uniform assessments so long as the two goals remain incompatible.",
+        "suggested_fix": "Developing better readers must take priority over uniform national assessments as long as the two goals remain structurally incompatible."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E11",
+        "claim_id": "C42",
+        "missing_warrant": "Experimental results showing that close reading debases comprehension in adult subjects can be generalized to early childhood education because the cognitive architecture of working memory and meaning-construction is fundamentally similar across age groups."
+      },
+      {
+        "evidence_id": "E41",
+        "claim_id": "C129",
+        "missing_warrant": "If thirty years of skills-based multiculturalism have resulted in stagnant achievement gaps, then the failure is likely due to the omission of the shared knowledge-base required for language mastery, rather than a failure of the skills themselves."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C126",
+        "counter_argument": "Signaling theory suggests that if the 'middle-class knowledge' currently used as a gatekeeper is taught to everyone, the economic value of that knowledge will deflate, and elites will adopt new, more exclusive cultural markers to maintain social stratification.",
+        "why_important": "It challenges the author's pragmatic assumption that knowledge-parity will lead to income-parity by highlighting the competitive nature of social capital."
+      },
+      {
+        "targets_claim": "C66",
+        "counter_argument": "Providing the same texts to all students in a grade level ignores the wide variance in baseline decoding fluency and reading speed, potentially alienating struggling readers while boring advanced ones.",
+        "why_important": "This is the primary pedagogical justification for the 'individualized' systems the author critiques."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C33"
+        ],
+        "action": "split",
+        "explanation": "C33 conflates 'main-idea-finding,' 'complexity-managing,' and 'close-reading.' Hirsch provides distinct evidentiary arguments for why each of these is a myth (circularity, domain-dependence, and working-memory interference, respectively)."
+      },
+      {
+        "claim_ids": [
+          "C103",
+          "C105"
+        ],
+        "action": "merge",
+        "explanation": "These claims are redundant; both express the core idea that Standard American English is functionally identical to Standard American Knowledge."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C1",
+        "current_level": "normative",
+        "correct_level": "pragmatic",
+        "explanation": "The claim is structured as a conditional 'if/then' proposition focused on achieving a specific result (improvement of education), which is a pragmatic move rather than a pure statement of value."
+      },
+      {
+        "claim_id": "C160",
+        "current_level": "normative",
+        "correct_level": "pragmatic",
+        "explanation": "This is a statement of strategic necessity: if schools want 'superior results,' they must prioritize one strand over the other."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 4,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally thorough, capturing even minor metaphors like 'Rorschach blots' and 'Standardistos.' However, it occasionally misses the author's more cynical 'system-level' arguments regarding why institutions (like test makers) behave as they do. It also tends to label conditional pragmatic strategies as 'normative' claims. The largest oversight is the missing nuance regarding the technocratic failure of the term 'informational,' which Hirsch spends significant time debunking."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0038121000000000006,
+    "input_tokens": 30709,
+    "output_tokens": 1853,
+    "duration_s": 38.11380100250244,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

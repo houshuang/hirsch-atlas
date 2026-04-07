@@ -1,0 +1,104 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the removal of decimal multiplication and division from the 2007 test serves as evidence of a curricular narrowing or simplification over the twenty-year period.",
+        "source_passage": "multiplication and divisions of decimals were excluded as they are not in the present curriculum.",
+        "importance": "significant",
+        "suggested_claim": "The exclusion of advanced arithmetic from later assessments reflects a systemic reduction in the rigor of the primary school curriculum.",
+        "suggested_claim_level": "empirical"
+      },
+      {
+        "description": "The author establishes a logical link between the nature of a subject (school-only vs. school-and-home) and its sensitivity to educational inequity.",
+        "source_passage": "Math is primarily a school subject. If the effectiveness of math instruction declines for some, it tends to decline for all. Reading is both a school and a home subject.",
+        "importance": "critical",
+        "suggested_claim": "Ineffective schooling exacerbates social inequality in subjects that rely on external background knowledge (like reading) while producing uniform decline in subjects contained within the classroom (like math).",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author interprets the lower inter-rater agreement in reading (80%) as a result of the inherent difficulty in distinguishing between 'total and partial success' in literacy tasks.",
+        "source_passage": "The rate was more variable in reading: it dropped to 80 percent for some items, mostly due to hesitation between total and partial success",
+        "importance": "minor",
+        "suggested_claim": "Literacy assessment involves a higher degree of subjective judgment than numeracy assessment, particularly regarding partial comprehension.",
+        "suggested_claim_level": "methodological"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C8",
+        "problem": "The claim adds the word 'uniformly,' which overstates the author's point. The author says it 'tends to decline for all,' which implies a general trend rather than a perfectly uniform statistical distribution.",
+        "source_passage": "If the effectiveness of math instruction declines for some, it tends to decline for all.",
+        "suggested_fix": "Mathematics is primarily a school subject where instructional decline generally affects the entire student population regardless of demographic group."
+      },
+      {
+        "claim_id": "C10",
+        "problem": "The claim omits the specific context of 'significant increase.' The author doesn't say word study is useless, but that it cannot achieve the 'significant' scale required for equity.",
+        "source_passage": "But a significant increase in vocabulary size cannot be achieved through direct word study and a skills curriculum.",
+        "suggested_fix": "Direct word study and skills-based curricula are insufficient for producing the large-scale vocabulary growth necessary to bridge the equity gap."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E4",
+        "claim_id": "C14",
+        "missing_warrant": "The criteria for what constitutes a 'writing error' remained consistent and objectively applied between 1987 and 2007, despite the change from teacher-led to centralized scoring."
+      },
+      {
+        "evidence_id": "E3",
+        "claim_id": "C6",
+        "missing_warrant": "Statistical spread between demographic groups is the most accurate proxy for the success or failure of schooling as an 'agency of equal opportunity.'"
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C11",
+        "counter_argument": "A knowledge-based curriculum might actually widen the achievement gap if students from high-literacy homes possess the cognitive 'scaffolding' to absorb new knowledge faster than their peers (The Matthew Effect).",
+        "why_important": "It challenges the author's central premise that knowledge is the primary 'equalizer.'"
+      },
+      {
+        "targets_claim": "C13",
+        "counter_argument": "The increase in writing errors could be attributed to the rise of digital communication and 'texting' culture among 2007 students rather than a change in school pedagogical methods.",
+        "why_important": "It provides an alternative external cause for the empirical data (E4) that doesn't involve the curriculum."
+      },
+      {
+        "targets_claim": "C4",
+        "counter_argument": "Centralized, scanned, and remote scoring by recruited proofreaders may lack the contextual understanding that local teachers have regarding student intent, potentially leading to lower validity despite higher reliability.",
+        "why_important": "It critiques the methodological assumption that efficiency and reliability always equate to better measurement."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C6",
+          "C22"
+        ],
+        "action": "merge",
+        "explanation": "C22 is simply the statistical data point used to define C6; they are not distinct arguments."
+      },
+      {
+        "claim_ids": [
+          "C12",
+          "C13"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe the same phenomenon: the rejection of traditional, systematic methods (phonics, grammar) in favor of 'natural' or 'whole-language' approaches."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is high-quality and captures the core empirical and theoretical claims well. It successfully identifies the crucial distinction the author makes between 'school subjects' and 'home subjects.' However, it misses the author's critique of curricular narrowing (math exclusions) and needs stronger warrants regarding the shift in assessment methodology between 1987 and 2007, which could be a significant confounding factor in the data."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0010154,
+    "input_tokens": 4518,
+    "output_tokens": 1409,
+    "duration_s": 20.912235021591187,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

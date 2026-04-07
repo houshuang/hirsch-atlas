@@ -1,0 +1,640 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C83",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that frustrations are caused by 'faulty ideas' depends on the identification of naturalism and individualism as those specific faulty ideas."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If the frustrations of the US system are caused by faulty child-centered ideas, then the system must shift to its opposite—community-centeredness—to resolve them."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If the gap is essentially a knowledge gap, then providing that knowledge via schooling is the logical mechanism to close it."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The necessity of imparting communal knowledge to all children is predicated on the fact that the lack of this knowledge (the gap) is the primary barrier to success."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The failure of the 1989 French reform (which abandoned communalism) serves as the cautionary evidence for the necessity of a community-centered goal."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C12",
+        "relationship": "supports",
+        "explanation": "The passage of the loi Jospin provided the legal mandate to shift from subject-matter knowledge to general skills."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The sudden, nationwide replacement of a curriculum created the conditions for a natural experiment."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "Attributing the cause to curriculum requires showing that other potential variables (budgets, teachers) remained stable."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The claim of a general achievement decline is linked to the causal claim that curriculum changes drove these outcomes."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "By ruling out immigration as the cause of decline at the top, the author reinforces that the curricular shift itself exacerbated inequality."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The failure of all demographics under the new curriculum supports the theory that educational ideas, not social forces, determine outcomes."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The increase in inequality following an idea-driven reform suggests that ideas have more impact than 'irresistible social forces'."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that US decline was caused by ideas depends on the theoretical premise that ideas are the primary driver of educational outcomes."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "The empirical data of US score decline provides the phenomenon that the theoretical adoption of individualistic ideas seeks to explain."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "To justify communal education focused on public sphere conventions, one must first establish that mastering those conventions is the prerequisite for public membership."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "Socialization serving as the vehicle for individuality provides the theoretical mechanism for the claim that tribal membership leads to individuality."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C37",
+        "relationship": "refines",
+        "explanation": "C37 specifies that 'tribal' membership is specifically achieved through shared knowledge and conventions."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "If knowledge isn't harmful to the advantaged, there is no 'developmental' barrier to providing it to all children as a matter of democratic right."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The normative claim that all children deserve access to shared knowledge leads to the policy conclusion that they should study the same curriculum."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The critique of schools as test-prep factories relies on the premise that the underlying theories (naturalism/individualism) are based on flawed, quasi-theological assumptions."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "The fact that schools have become test-prep factories is evidence that current assumptions are failing to be truly child-centered."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "The claim that individual tailoring is a fatal weakness depends on the empirical premise that such differentiation is harmful to achievement and equity."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "Individualizing instruction causes fragmentation, which constitutes the 'weakness' identified in the main conclusion."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "The lack of evidence for learning styles undermines the developmental metaphor of education being tailored to 'natural' individual differences."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "The success of uniform-curriculum countries provides a counter-example to the claim that individual development is the only 'natural' or effective way to educate."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C69",
+        "relationship": "supports",
+        "explanation": "Domain specificity is the theoretical reason why general cognitive abilities cannot be developed in isolation."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "The inability to study or develop skills independently of content is the core evidence for the refutation of content-independent thinking skills."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C58",
+        "relationship": "undermines",
+        "explanation": "If cognitive science refutes general skills, then the doctrine used to defend fragmented curricula is invalidated."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C73",
+        "relationship": "depends-on",
+        "explanation": "If thinking skills cannot be transferred across domains, it logically follows that a single, overarching general skill cannot exist."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C74",
+        "relationship": "supports",
+        "explanation": "The non-existence of general skills makes the reliance on skill-drills theoretically 'faulty,' leading to the soul-deadening practices described."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "If the drills are based on a faulty theory (C74), their empirical failure (C75) is the expected outcome."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C73",
+        "relationship": "refines",
+        "explanation": "Replacing 'skill' with 'expertise' clarifies why a general skill is impossible, as expertise is inherently tied to specific knowledge."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "warrant_text": "If linguistic and knowledge disparities correlate almost perfectly with social class and subsequent academic performance, then the achievement gap is a functional lack of specific content rather than a lack of innate ability.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not prove causation; knowledge gaps could be symptoms of deeper sociological or economic stressors that actually drive the gap."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E21",
+        "claim_id": "C6",
+        "warrant_text": "If the human brain cannot exercise high-level cognitive skills (like reading comprehension) without specific domain knowledge, then teaching 'skills' in a vacuum is a scientific impossibility.",
+        "is_explicit": true,
+        "vulnerability": "Overlooks the potential for meta-cognitive strategies (like self-monitoring) that may have some domain-independent utility."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C1",
+        "warrant_text": "In a system where external factors (funding, teacher quality, facilities) remain constant while the curriculum philosophy changes, subsequent declines in student performance must be attributed to the change in philosophy.",
+        "is_explicit": true,
+        "vulnerability": "Ignores external demographic changes or broader cultural shifts that might have occurred in France simultaneously with the 1989 law."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E7",
+        "claim_id": "C24",
+        "warrant_text": "If a study's sample size relative to the total population is proportional to a recognized gold-standard study (NAEP), its statistical confidence is equally valid.",
+        "is_explicit": true,
+        "vulnerability": "Proportionality does not account for differences in sampling methodology, longitudinal attrition, or data collection rigor between nations."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E19",
+        "claim_id": "C12",
+        "warrant_text": "If cognitive science proves that general skills do not exist independent of content, then an educational reform prioritizing general skills will necessarily result in a loss of subject-matter competence.",
+        "is_explicit": false,
+        "vulnerability": "The author assumes a total lack of transferability; critics argue that meta-cognitive strategies can be taught alongside content."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E23",
+        "claim_id": "C12",
+        "warrant_text": "International rankings (PISA) showing higher performance in communal systems suggest that the communal model is the active ingredient in educational success.",
+        "is_explicit": false,
+        "vulnerability": "Correlation between national curriculum and PISA scores does not prove causation; other cultural factors like social safety nets or family structure may be the cause."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C26",
+        "claim_id": "C32",
+        "warrant_text": "If a specific set of educational ideas (individualism/skill-centrism) resulted in decline in two distinct national contexts, the opposite ideas (communalism) are the most likely remedy.",
+        "is_explicit": false,
+        "vulnerability": "The decline in both nations could be attributed to shared social or economic shifts rather than specific educational theories."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C45",
+        "claim_id": "C32",
+        "warrant_text": "Historical periods of high achievement and equality associated with a specific curriculum model serve as empirical proof of that model's superiority.",
+        "is_explicit": true,
+        "vulnerability": "The success of the 'silver age' in France or the US might have depended on cultural factors (like higher teacher status or family stability) that no longer exist."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C50",
+        "claim_id": "C32",
+        "warrant_text": "Pedagogical style (empathy) is distinct from curricular content (communal knowledge), meaning one can adopt communal content without losing child-centered care.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that a communal curriculum inherently requires a more rigid, less empathetic delivery style."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C54",
+        "claim_id": "C52",
+        "warrant_text": "If a contrary educational model (lockstep) produces superior or equal results without psychological harm, then the 'developmental' model is not a universal requirement for effective or healthy education.",
+        "is_explicit": false,
+        "vulnerability": "National culture and socioeconomic factors in Finland and Japan might account for the success rather than the curriculum structure itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C56",
+        "claim_id": "C51",
+        "warrant_text": "An educational practice that lacks empirical scientific support (learning styles) cannot be a foundation for a successful national education system.",
+        "is_explicit": true,
+        "vulnerability": "The absence of evidence for a specific implementation (learning styles) does not prove that all forms of individual tailoring are inherently harmful."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C60",
+        "claim_id": "C69",
+        "warrant_text": "Scientific findings regarding the mechanisms of the mind (cognitive science) should dictate the pedagogical strategies used in schools.",
+        "is_explicit": true,
+        "vulnerability": "Classroom environments are complex social systems where lab-based cognitive science findings may not translate perfectly into instructional outcomes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C71",
+        "claim_id": "C73",
+        "warrant_text": "A 'general' skill is by definition one that operates independently of specific subject matter; therefore, the absence of transfer proves the absence of the general skill.",
+        "is_explicit": false,
+        "vulnerability": "There may be meta-cognitive skills (like self-monitoring) that are general even if content-processing is domain-specific."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C74",
+        "claim_id": "C75",
+        "warrant_text": "Long-term stagnation in standardized test scores is a valid and sufficient metric for judging the failure of a specific pedagogical approach.",
+        "is_explicit": true,
+        "vulnerability": "Test scores may be influenced by external factors (poverty, funding) that mask the potential efficacy of the pedagogy."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C6",
+        "missing_step": "Establishing that the 'knowledge possessed by successful citizens' is a stable, neutral, and universally agreed-upon body of information.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C9",
+        "to_id": "C8",
+        "missing_step": "Establishing that the centralized, uniform egalitarianism of the French model is compatible with the decentralized, federated educational tradition of the United States.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C16",
+        "to_id": "C28",
+        "missing_step": "Proof that the specific implementation of 'Americanized' ideas in France is functionally identical to the pedagogical practices in US classrooms between 1960 and 1980.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C20",
+        "to_id": "C21",
+        "missing_step": "A mechanism explaining why a curriculum that harms everyone (elite and poor) necessarily harms the poor more severely than a uniform communal curriculum.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C43",
+        "to_id": "C33",
+        "missing_step": "A single, local curriculum is the only or most effective mechanism for delivering the shared knowledge children deserve.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C48",
+        "to_id": "C41",
+        "missing_step": "Theological or 'providential' views of child development logically necessitate a focus on content-independent skills that leads to test-prep focus.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C54",
+        "to_id": "C51",
+        "missing_step": "Proof that the cultural and social conditions that allow uniform curricula to thrive in Finland/Japan are present or can be replicated in the United States.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C60",
+        "to_id": "C51",
+        "missing_step": "Establishing that individualization has no non-cognitive benefits (such as motivation or emotional regulation) that might outweigh the lack of general-skill development.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C71",
+        "to_id": "C73",
+        "missing_step": "A clear distinction between 'lower-order' skills (which might transfer) and 'higher-order' thinking (which may not).",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C74",
+        "to_id": "C75",
+        "missing_step": "Establishing that the 'drills' used in schools were a faithful and competent implementation of the general-skills theory.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C3",
+        "objection": "The achievement gap may be driven by 'relational' factors and systemic inequality (e.g., housing, health, bias) that curriculum cannot overcome, regardless of the knowledge imparted.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C8",
+        "objection": "A shift toward communal uniformity risks the erasure of minority cultural identities and historical perspectives in favor of a dominant 'citizenry' narrative.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C1",
+        "objection": "The 'frustrations' listed (like over-testing) might be the result of political accountability mandates rather than the underlying theories of 'naturalism' or child-centeredness.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C19",
+        "objection": "The period following 1989 saw a global rise in digital technology and screen time, which critics argue is a more likely 'irresistible social force' causing achievement declines than curriculum changes.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C25",
+        "objection": "The 'crisis of the school' in France might result from poor implementation of the loi Jospin rather than the underlying theories of student individuality being inherently flawed.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C28",
+        "objection": "The US decline between 1960-1980 coincided with massive demographic shifts and the integration of schools; isolating 'ideas' as the chief cause ignores the complexity of these social upheavals.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C33",
+        "objection": "A uniform local curriculum ignores the diverse cultural backgrounds and specific community needs of students, potentially imposing a 'dominant culture' under the guise of communalism.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C47",
+        "objection": "While content-independent skills might be difficult to teach, meta-cognitive strategies (like self-regulation and monitoring) have been shown to improve learning across domains.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C41",
+        "objection": "The rise of test-prep factories is a result of high-stakes accountability laws (like NCLB) and funding structures, not the philosophical adherence to naturalism or individualism.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C55",
+        "objection": "The harmful differentiation Hirsch describes might be 'tracking' (segregating by ability), whereas modern differentiation focuses on providing multiple entry points to the same high-quality content.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C70",
+        "objection": "Even if content is domain-specific, students can be taught general 'metacognitive' strategies (like self-checking or planning) that apply across many different subjects.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C51",
+        "objection": "A uniform curriculum might alienate students from marginalized backgrounds if the communal content does not reflect their lived experiences or identities.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C73",
+        "objection": "General intelligence (the 'g' factor) exists and correlates with performance across all domains, suggesting a single overarching cognitive capacity.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C75",
+        "objection": "The failure of skill drills may result from the 'soul-deadening' nature of their implementation rather than an inherent flaw in the theory of general skills.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Diagnosis of Systematic Failure",
+        "chain": [
+          "C83",
+          "C1",
+          "C2"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Civil Rights of Knowledge",
+        "chain": [
+          "E1",
+          "C3",
+          "C4",
+          "C5"
+        ],
+        "conclusion_id": "C3",
+        "strength": "strong"
+      },
+      {
+        "name": "The Communal Necessity",
+        "chain": [
+          "E6",
+          "C10",
+          "C11",
+          "C8",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "The French Natural Experiment",
+        "chain": [
+          "C13",
+          "C18",
+          "C19",
+          "C20",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "Ideas as Primary Drivers",
+        "chain": [
+          "C17",
+          "C22",
+          "C20",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "Transnational Application to US Decline",
+        "chain": [
+          "C16",
+          "C20",
+          "C25",
+          "C27",
+          "C28"
+        ],
+        "conclusion_id": "C28",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Identity Chain",
+        "chain": [
+          "C36",
+          "C40",
+          "C37",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "The Equality of Access Chain",
+        "chain": [
+          "C35",
+          "C43",
+          "C34",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Theory Failure Chain",
+        "chain": [
+          "C48",
+          "C49",
+          "C47",
+          "C41",
+          "C42"
+        ],
+        "conclusion_id": "C42",
+        "strength": "strong"
+      },
+      {
+        "name": "The Inefficacy of Individualization",
+        "chain": [
+          "C57",
+          "C56",
+          "C55",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Case for Domain Specificity",
+        "chain": [
+          "C70",
+          "C69",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "strong"
+      },
+      {
+        "name": "Collapse of the Deweyan Defense",
+        "chain": [
+          "C61",
+          "C66",
+          "C68",
+          "C60",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Transferability Argument",
+        "chain": [
+          "C71",
+          "C73"
+        ],
+        "conclusion_id": "C73",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pedagogical Failure Argument",
+        "chain": [
+          "C73",
+          "C74",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.004268000000000001,
+    "duration_s": 71.94912123680115
+  }
+}

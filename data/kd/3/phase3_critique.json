@@ -1,0 +1,108 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The 'Plow' Argument: While vocabulary growth is a naturally slow, accretive process (the earthworm), structured schooling acts as a 'plow' that can and should accelerate this process.",
+        "source_passage": "Vocabulary gains in a day may not be easily detectable... But we can speed progress. To the earthworm can be added the plow.",
+        "importance": "significant",
+        "suggested_claim": "Schooling serves as a necessary intervention to accelerate the naturally slow, incremental process of vocabulary acquisition.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "Historical Stability Claim: The author argues that the codification of English created a structural 'lock-in' that has preserved the language of the 18th century for modern use.",
+        "source_passage": "The language of the Declaration is fundamentally the same English that is taught today and that is written and spoken throughout the world.",
+        "importance": "significant",
+        "suggested_claim": "The standard language established in the 18th century has remained structurally stable and remains the global standard for literacy.",
+        "suggested_claim_level": "empirical"
+      },
+      {
+        "description": "The logic of 'Operational Efficiency' vs 'Social Currency': The author explicitly argues that while oral dialects are more 'advanced' in terms of linguistic evolution (efficiency), they lack the social and professional 'equity' of the standard print code.",
+        "source_passage": "From this point of view, many of the 'incorrect' oral dialects of English are superior to the print code... No matter. We are now stuck with am, are, is... it is an equity issue that affects children’s economic future.",
+        "importance": "critical",
+        "suggested_claim": "Linguistic efficiency is secondary to the socio-economic necessity of mastering the 'frozen' and less efficient standard print code.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C20",
+        "problem": "The claim implies grammar is just for 'early grades,' but the text argues it is specifically for the 'efficiency of discussion' between teacher and student regarding language conventions.",
+        "source_passage": "But in order to discuss language efficiently, teachers and parents need to name the parts of speech...",
+        "suggested_fix": "Grammar instruction should provide children with a technical vocabulary (parts of speech) to enable efficient discussion of language conventions."
+      },
+      {
+        "claim_id": "C12",
+        "problem": "The claim omits the author's qualifier that 'superiority' is defined strictly by 'communicative efficiency,' not general quality.",
+        "source_passage": "From this point of view, many of the 'incorrect' oral dialects of English are superior to the print code.",
+        "suggested_fix": "Many oral dialects are more evolved and efficient for communication than the print code, which remains 'stuck' in older, redundant forms."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E3",
+        "claim_id": "C21",
+        "missing_warrant": "Conscious error correction in an arbitrary system requires meta-linguistic labels (like 'subject' or 'object') because the rules cannot be inferred logically from modern word-order usage."
+      },
+      {
+        "evidence_id": "E28",
+        "claim_id": "C94",
+        "missing_warrant": "Educational outcomes from other national systems (like France) are transferable to the American context if the underlying linguistic and pedagogical principles are the same."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C94",
+        "counter_argument": "The 'moving target' problem: even if disadvantaged students increase their rate of word acquisition, advantaged students are simultaneously moving into specialized, domain-specific vocabularies that the school curriculum may not cover, maintaining the gap.",
+        "why_important": "It challenges the optimism that a 5th-grade 'catch-up' is possible without a totally controlled, high-intensity environment that exceeds standard school hours."
+      },
+      {
+        "targets_claim": "C21",
+        "counter_argument": "Formal grammatical nomenclature can be a barrier to entry; some students may master usage through imitation and exposure but become demotivated by the requirement to memorize abstract technical terms like 'nominative' or 'predicate'.",
+        "why_important": "It addresses a major pedagogical critique that Hirsch's 'efficiency' via naming might actually be an 'inefficiency' for many learners."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C25",
+          "C27",
+          "C28"
+        ],
+        "action": "merge",
+        "explanation": "These claims all revolve around the same point: that disparaging home speech causes psychological damage and hinders motivation to learn the standard code. They are redundant."
+      },
+      {
+        "claim_ids": [
+          "C1",
+          "C15"
+        ],
+        "action": "split",
+        "explanation": "C1 is an empirical/theoretical claim about the nature of the 'print code' as a prerequisite; C15 is a normative claim about what schools must do. They are distinct logical steps."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C106",
+        "current_level": "empirical",
+        "correct_level": "theoretical",
+        "explanation": "While it cites a historical fact (Johnson's dictionary), its role in the argument is to establish the 'artificiality' and 'codification' as a theoretical framework for why standard English doesn't change."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally thorough in cataloging the vocabulary arguments (Matthew Effect, implicit vs. explicit). However, it slightly underplays the author's polemical stance on why 'inefficient' grammar must be taught (the equity argument) and misses the 'plow' metaphor which is central to the author's view of schooling's power."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.002436,
+    "input_tokens": 18440,
+    "output_tokens": 1480,
+    "duration_s": 21.298603057861328,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

@@ -1,0 +1,591 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C68",
+        "to_id": "C64",
+        "relationship": "supports",
+        "explanation": "Scientific established after 1960 provides the empirical basis for the theoretical claim about language ambiguity."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C64",
+        "relationship": "instantiates",
+        "explanation": "The elimination of 'main-idea-hunting' strategies when knowledge is present is a specific application of the general principle that language requires shared context."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C72",
+        "relationship": "depends-on",
+        "explanation": "State legislatures cannot mandate a common sequence unless they first cooperate to establish the framework."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C72",
+        "relationship": "refines",
+        "explanation": "The distinction between local utility control and national knowledge control sets the boundary for where mandatory sequencing should apply."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The claim that whole-class instruction creates communal stability relies on the premise that early schooling determines the balance between altruism and selfishness."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "Empirical evidence of self-centered adulthood from developmentalism supports the theoretical claim of the 'I' sentiment dominance."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C5",
+        "relationship": "instantiates",
+        "explanation": "COVID-19 mask resistance is used as a contemporary example of the 'I' sentiment produced by developmentalist education."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that mental development is not biological unfolding relies on the premise that the neocortex is a 'blank slate' regarding academic content."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "Contrasting mental development with biological body growth is necessary to argue that the mind requires external social input."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "If development is not natural, then education must be an intentional social process of conveying knowledge."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "The failure to build shared knowledge (C21) is presented as the causal mechanism for social inequality and polarization (C14)."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "The empirical possibility of eliminating the gap (C15) creates the normative obligation for schools to provide that knowledge (C22)."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The decline of white scores despite black progress supports the claim that 'general mediocrity' and topic-incoherence are the culprits for stalled progress."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "If the mind does not develop through biological stages, then reading skills cannot be biological 'muscles' to be trained; they must be knowledge-dependent."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "The claim that comprehension is topic-dependent relies on the fact that comprehension requires filling in things not explicitly stated in the text."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "Comprehension's dependency on specific speech communities is based on the necessity of 'invisible' shared background knowledge between speakers."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "If comprehension is entirely dependent on specific knowledge and topics, it follows logically that there cannot be a 'general' skill that operates independent of those topics."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "The impossibility of finding a main idea without content knowledge serves as a specific instance proving that 'general' reading skills are a myth."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The 'blank slate' nature of the neocortex necessitates that language proficiency be built from an external body of knowledge rather than innate unfolding."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C36",
+        "relationship": "depends-on",
+        "explanation": "The ability of knowledge-based instruction to overcome disadvantage is predicated on the claim that the disadvantage itself is caused by a lack of that specific knowledge."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "If cumulative knowledge building is the most effective preparation for tests, then it is the mechanism by which disadvantaged students catch up."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "The focus on individualized 'unfolding' and non-existent skills is identified as the specific mechanism of developmentalism that caused the decline."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "The failure of promoted reading strategies (main-idea-hunting) serves as empirical evidence that the underlying developmentalist theory is responsible for poor outcomes."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C56",
+        "relationship": "supports",
+        "explanation": "Statistical evidence of massive gains for disadvantaged students (effect size 1.43) provides the empirical basis for the claim that content commonality creates fairness."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C56",
+        "relationship": "supports",
+        "explanation": "The specific ability of a shared-knowledge curriculum to close the racial achievement gap supports the conclusion that it is essential for social justice."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "The necessity of an educational revolution hinges on the theory that a modern nation is defined by its print culture, which requires a common language and knowledge base."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "Because national cultures are 'artificial inventions' rather than natural growths, they require active, state-led curation to exist."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "The normative claim that the state has a duty to determine shared knowledge leads directly to the call for a mandatory national educational revolution."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "If commonality is essential for social justice, then a revolution to mandate that commonality is morally and practically required."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C53",
+        "relationship": "depends-on",
+        "explanation": "The author links the right to knowledge (intellectual enfranchisement) to the outcome of economic success (financial enfranchisement)."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E12",
+        "claim_id": "C64",
+        "warrant_text": "Effective communication requires a shared system of rules and references that exceed the literal information present in individual words.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that context is often situational rather than requiring a vast, nation-wide store of background knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "In a modern economy, the cognitive skills measured by reading tests are the primary causal drivers of economic productivity and subsequent income.",
+        "is_explicit": false,
+        "vulnerability": "Correlation is not causation; family wealth and social capital (which influence both test scores and income) could be the true drivers."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E14",
+        "claim_id": "C6",
+        "warrant_text": "If common topic sequencing closes the achievement gap, it effectively standardizes the mental store of citizens, which is a prerequisite for a cohesive community.",
+        "is_explicit": true,
+        "vulnerability": "Closing an achievement gap in reading does not necessarily lead to 'communal stability' or shared civic values."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E4",
+        "claim_id": "C10",
+        "warrant_text": "If the neocortex lacks pre-programmed academic structures, then academic ability must be entirely constructed from external inputs.",
+        "is_explicit": false,
+        "vulnerability": "Brain plasticity does not exclude the existence of innate cognitive structures for processing types of information (like language or logic)."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E15",
+        "claim_id": "C15",
+        "warrant_text": "Massive gains in specific pilot programs prove that the underlying theory (shared knowledge) is the sufficient and necessary lever for closing national gaps.",
+        "is_explicit": true,
+        "vulnerability": "Implementation in 'exemplary cases' may involve unmeasured variables like teacher quality, school leadership, or selection bias."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E13",
+        "claim_id": "C13",
+        "warrant_text": "If children's dislike of school correlates with missing background knowledge, then providing that knowledge is the primary functional requirement for educational success.",
+        "is_explicit": false,
+        "vulnerability": "Dislike of school could stem from pedagogical style, social environment, or lack of agency, rather than just cognitive frustration."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E9",
+        "claim_id": "C7",
+        "warrant_text": "The failure of skills-based instruction to improve scores proves that the 'biological unfolding' theory underlying that instruction is incorrect.",
+        "is_explicit": false,
+        "vulnerability": "Failure of a specific instructional method does not necessarily disprove the biological basis of development; the method might simply be poorly designed."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C33",
+        "claim_id": "C28",
+        "warrant_text": "Language is inherently elliptical; if meaning is not contained fully within the words themselves, it must reside in the shared associations of the specific community.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'missing' information is always specific content rather than logical structures or universal human experiences."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C43",
+        "claim_id": "C42",
+        "warrant_text": "If a specific educational theory (developmentalism) became dominant during the same period that a gap persisted or widened despite other social changes, that theory is the primary causal agent.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; other systemic factors like economic inequality or school funding might better explain the persistent gap."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C41",
+        "claim_id": "C40",
+        "warrant_text": "Biological structures that are not pre-programmed at birth must be filled by specific cultural and linguistic data to function (tabula rasa principle).",
+        "is_explicit": true,
+        "vulnerability": "Neuroplasticity does not necessarily mean the mind lacks innate structures for processing language (e.g., Chomskyan Universal Grammar)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C55",
+        "claim_id": "C56",
+        "warrant_text": "Closing the racial achievement gap is the primary metric for defining educational 'fairness' and 'social justice.'",
+        "is_explicit": true,
+        "vulnerability": "Social justice may also include recognizing diverse cultural perspectives or addressing structural economic factors outside of the school's curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C49",
+        "claim_id": "C50",
+        "warrant_text": "If a necessary social good is artificial rather than natural, its creation and maintenance must be managed by the central governing authority.",
+        "is_explicit": false,
+        "vulnerability": "An 'artificial invention' could be managed by civil society, markets, or professional guilds rather than state legislators."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C54",
+        "claim_id": "C57",
+        "warrant_text": "An intervention with a large effect size (1.43) justifies a radical and mandatory systemic overhaul.",
+        "is_explicit": false,
+        "vulnerability": "High effect sizes in controlled studies may not translate to successful large-scale implementation due to logistical or political constraints."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C64",
+        "to_id": "C6",
+        "missing_step": "The jump from linguistic necessity (shared knowledge) to a specific pedagogical method (whole-class instruction).",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C6",
+        "missing_step": "Establishing that financial life chances are the primary or only component of 'communal stability.'",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C72",
+        "to_id": "C73",
+        "missing_step": "A clear mechanism for how states can mandate a 'sequence of topics' without inevitably dictating the 'interpretation' through the selection of materials.",
+        "step_type": "definition_shift",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C7",
+        "to_id": "C13",
+        "missing_step": "Establishing that 'shared background knowledge' is the ONLY or primary external input required to replace natural unfolding.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "C22",
+        "missing_step": "Proving that a 'shared American ethnicity' is the specific type of knowledge required, rather than simply any coherent domain knowledge.",
+        "step_type": "definition_shift",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C10",
+        "to_id": "C7",
+        "missing_step": "Demonstrating that the lack of content in the neocortex implies a lack of biological constraints on the timing or sequence of learning.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C31",
+        "missing_step": "Proof that 'general' cognitive processes (like analyzing or synthesizing) are not formed as neural habits even if the neocortex starts as a blank slate.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C44",
+        "to_id": "C36",
+        "missing_step": "Establishing that the school environment can provide the necessary knowledge with sufficient intensity to offset the massive 'word gap' or 'knowledge gap' generated in the home before age 5.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C52",
+        "to_id": "C53",
+        "missing_step": "Economic systems and labor markets effectively reward literacy and knowledge over social connections or inherited wealth.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C49",
+        "to_id": "C50",
+        "missing_step": "State legislators possess the necessary intellectual and cultural competence to define a national print culture fairly.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C58",
+        "to_id": "C56",
+        "missing_step": "Student satisfaction and 'mastery' are equivalent to achieving systemic social justice.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C72",
+        "objection": "The act of choosing which topics are 'mandatory' is inherently an act of interpretation that prioritizes certain cultural narratives over others, making the 'interpretation-free' sequence an impossibility.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C6",
+        "objection": "Communal stability and altruism are more likely products of economic security and social safety nets than the specific curriculum structure of K-8 schools.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C61",
+        "objection": "Resistance to masks could be explained by political polarization and distrust of institutions rather than a lack of communal schooling methods.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C14",
+        "objection": "Socio-economic factors (poverty, nutrition, health access) and systemic racism are the primary drivers of inequality and polarization, not merely the distribution of cultural capital.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C15",
+        "objection": "The achievement gap is multifactorial; even with a shared curriculum, home environment and wealth-based advantages (tutoring, travel) will continue to create significant disparities in reading scores.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C22",
+        "objection": "Mandating a 'national ethnicity' through a state-determined curriculum violates the pluralistic values of a democracy and may marginalize minority cultures.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA4",
+        "targets_claim": "C26",
+        "objection": "While knowledge is essential, cognitive strategies (like meta-cognition) allow students to successfully navigate unfamiliar content, suggesting that 'skills' do exist as a separate layer of competence.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C31",
+        "objection": "While knowledge is necessary, metacognitive strategies (like self-monitoring or structural analysis) have been shown in some studies to help students navigate unfamiliar texts, suggesting a 'general' component to literacy does exist.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C42",
+        "objection": "The stagnation of black-white reading scores since 1990 could be attributed to the rise of high-stakes testing and 'teaching to the test' (curriculum narrowing) rather than 'developmentalism' specifically.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C36",
+        "objection": "A shared 'national ethnicity' curriculum might effectively improve scores but could simultaneously marginalize the home cultures and 'first ethnicities' of minority students, leading to disengagement rather than equality.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C57",
+        "objection": "A mandatory national topic sequence violates the principle of educational pluralism and risks becoming a tool for political indoctrination by whichever party controls the state legislature.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C51",
+        "objection": "Local control is not 'sentimental' but functional; it allows curricula to be tailored to local industries, student demographics, and community values that a state mandate would crush.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C55",
+        "objection": "The achievement gap may be more strongly correlated with family income and housing stability than curriculum, meaning a shared curriculum alone cannot 'entirely overcome' the gap in real-world conditions.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Linguistic Necessity Chain",
+        "chain": [
+          "C68",
+          "C64",
+          "C66"
+        ],
+        "conclusion_id": "C64",
+        "strength": "strong"
+      },
+      {
+        "name": "The Economic and Social Outcomes Chain",
+        "chain": [
+          "C1",
+          "C60",
+          "C3",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Governance Reform Chain",
+        "chain": [
+          "C71",
+          "C73",
+          "C72"
+        ],
+        "conclusion_id": "C72",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Biological Rebuttal",
+        "chain": [
+          "C10",
+          "C11",
+          "C7",
+          "C26"
+        ],
+        "conclusion_id": "C7",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Justice Mechanism",
+        "chain": [
+          "C15",
+          "C21",
+          "C24",
+          "C14",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "strong"
+      },
+      {
+        "name": "The Instructional Duty Flow",
+        "chain": [
+          "C7",
+          "C12",
+          "C13",
+          "C22"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Dependence of Skill",
+        "chain": [
+          "C33",
+          "C45",
+          "C28",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "strong"
+      },
+      {
+        "name": "The Causal Failure of Developmentalism",
+        "chain": [
+          "C29",
+          "C34",
+          "C43",
+          "C42"
+        ],
+        "conclusion_id": "C42",
+        "strength": "moderate"
+      },
+      {
+        "name": "Equality through Acculturation",
+        "chain": [
+          "C41",
+          "C37",
+          "C39",
+          "C44",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Chain",
+        "chain": [
+          "C54",
+          "C55",
+          "C47",
+          "C52",
+          "C56"
+        ],
+        "conclusion_id": "C56",
+        "strength": "strong"
+      },
+      {
+        "name": "The State Mandate Chain",
+        "chain": [
+          "C48",
+          "C49",
+          "C50",
+          "C51",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0049408,
+    "duration_s": 65.66416454315186
+  }
+}

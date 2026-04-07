@@ -1,0 +1,343 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C40",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The inherent ambiguity of language (C40) is the reason why silent shared knowledge (C8) is required for disambiguation."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "For background knowledge to prevent reading failure, it must be applied within the constraints of short-term memory."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "The need for rapid interpretive maneuvers before memory decay explains why reading failure is often a timing issue."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "If reading is dependent on memory-constrained knowledge retrieval, it cannot be a general, content-independent skill."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The failure of experts to transfer their performance to unfamiliar tasks (C12) proves that their skill is based on domain-specific erudition (C11)."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The psycholinguistic rejection of a general reading skill directly implies that the belief in all-purpose reading mastery is a fundamental error."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "Defining expertise as specific erudition rather than mental muscles supports the conclusion that topic-independent mastery is an error."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "If reading is not a general skill (C13), then the structures of education and communal life (C38) must be reorganized around shared knowledge."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C29",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that there is no general skill of verbal comprehension rests on the empirical fact that short-term memory capacity is a fixed, universal constraint."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If reading skill is defined as using long-term memory schemas to bypass working memory, then skill is inseparable from the specific knowledge contained in those schemas."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "In order to perform 'disambiguation' and 'amplification' (C21), a reader must possess the specific background knowledge being referenced (C27)."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C26",
+        "relationship": "refines",
+        "explanation": "The claim that levels are topic-dependent quantities (C23) leads to the stronger conclusion that reading level is not a fixed reality in individuals (C26)."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "If shared knowledge is a necessity for comprehension, then a shared curriculum is the pragmatic requirement to achieve it across a population."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C31",
+        "relationship": "instantiates",
+        "explanation": "The way experts use shorthand representations illustrates how 'mental software' circumvents working memory constraints."
+      },
+      {
+        "from_id": "2.C13",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "If reading comprehension were a general skill independent of content, readability formulas focusing on text characteristics would be valid; C34 relies on the rejection of this general-skill premise."
+      },
+      {
+        "from_id": "8.C18",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "C34's critique of readability formulas is based on the principle that learning/comprehension requires relating new information to prior knowledge."
+      },
+      {
+        "from_id": "7.C23",
+        "to_id": "C34",
+        "relationship": "refines",
+        "explanation": "C34 specifically targets the methodological application of these formulas in classrooms, building on the earlier principle that they are defective."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C8",
+        "warrant_text": "If a text's literal meaning is the opposite of its intended meaning (irony), and the intent can only be grasped via external context, then literacy is a function of social knowledge rather than symbol decoding.",
+        "is_explicit": true,
+        "vulnerability": "A critic might argue that irony is an edge case and does not represent standard informative or functional prose."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C9",
+        "warrant_text": "If human cognitive architecture has a fixed bottleneck (working memory), any task exceeding that bottleneck without external aids (like schemas) must fail.",
+        "is_explicit": false,
+        "vulnerability": "Working memory capacity can be effectively expanded through practice and 'chunking' strategies that might be somewhat transferable."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C11",
+        "warrant_text": "If an expert's superior performance vanishes when the domain's structure is randomized, then the 'skill' was actually the recognition of learned structures, not a superior processing ability.",
+        "is_explicit": true,
+        "vulnerability": "Domain-specific knowledge and general skills might coexist; the experiment proves knowledge is necessary, but not that general skill is non-existent."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E5",
+        "claim_id": "C10",
+        "warrant_text": "A long-term correlation between the adoption of a pedagogical theory (reading levels) and a decline in national rank suggests a causal relationship.",
+        "is_explicit": true,
+        "vulnerability": "Correlation is not causation; other factors like demographic changes, poverty rates, or digital distractions could explain the 1934-2023 decline."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C15",
+        "claim_id": "C22",
+        "warrant_text": "If a task requires processing more information than working memory can hold, and only specific long-term knowledge can compress that information, then the task cannot be performed via a general process independent of that knowledge.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that 'general skills' do not include strategies for managing working memory load (e.g., note-taking or slow processing) that are independent of topic."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Recht-Leslie Baseball Experiment",
+        "claim_id": "C23",
+        "warrant_text": "If a student's performance rank flips when the topic changes, then the performance measure is a function of the topic rather than a stable attribute of the student.",
+        "is_explicit": true,
+        "vulnerability": "The experiment focuses on a high-knowledge/low-aptitude vs low-knowledge/high-aptitude edge case; it may not disprove the existence of a general aptitude that aids in learning new topics quickly."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Recht-Leslie baseball study (cited in text)",
+        "claim_id": "C34",
+        "warrant_text": "If a reader's prior knowledge can statistically override the predicted difficulty of a text (readability) and the measured 'level' of the reader, then the formula used to predict that difficulty is missing the primary variable of comprehension.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that specialized domain knowledge is an outlier and that for the majority of school-level texts, general vocabulary and syntax complexity (which formulas measure) remain the dominant factors."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "C10",
+        "missing_step": "It must be established that the 'reading level' theory is the primary driver of the decline, rather than just one of many concurrent factors.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C11",
+        "to_id": "C38",
+        "missing_step": "The jump from cognitive expertise (chess/reading) to the requirements of 'modern nationality' assumes that social cohesion functions via the same mechanisms as individual task comprehension.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C23",
+        "to_id": "C28",
+        "missing_step": "Individualized topic instruction is less efficient or less possible than whole-class topic instruction for achieving reading parity.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C27",
+        "to_id": "C33",
+        "missing_step": "The knowledge required for reading comprehension is the same kind of knowledge required for political 'nationality' and civic cohesion.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C34",
+        "to_id": "9.C98",
+        "missing_step": "Because readability is topic-dependent, the only way for a teacher to ensure students can read a text of a certain 'complexity' is to have previously taught the specific topics contained in that text.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C6",
+        "objection": "The 'Reading Strategies' defense: While background knowledge is vital, readers also employ generalizable strategies like monitoring for sense, visualizing, and identifying text structure that apply across many topics.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "The chess grandmaster analogy is limited because chess is a closed system with finite rules, whereas language is a generative and creative system where 'erudition' is too vast to be categorized the same way.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C4",
+        "objection": "Classroom libraries graded by level may serve a motivational function (building confidence) even if the 'readability' metric is technically flawed according to psycholinguistics.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C22",
+        "objection": "Highly skilled readers possess metacognitive strategies (e.g., self-monitoring, context-clue analysis, and morphology) that allow them to extract meaning from unfamiliar topics more effectively than low-skilled readers.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C26",
+        "objection": "While 'reading level' may be topic-dependent in specific instances, standardized reading tests show high cross-topic correlations, suggesting a underlying 'g-factor' of verbal ability or vocabulary breadth that functions like a general skill.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C34",
+        "objection": "Readability formulas are designed as statistical heuristic tools to manage library collections and baseline curriculum at scale, not as precise predictors of individual comprehension for every specific reader.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C34",
+        "objection": "Even if prior knowledge is crucial, students still need to develop the linguistic stamina to handle complex syntax and rare vocabulary, which readability formulas help teachers sequence effectively.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Cognitive Architecture Chain",
+        "chain": [
+          "C40",
+          "C8",
+          "C41",
+          "C9",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "The Expertise as Erudition Chain",
+        "chain": [
+          "C12",
+          "C11",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The Societal Doctrine Chain",
+        "chain": [
+          "C13",
+          "C37",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Bottleneck Argument",
+        "chain": [
+          "C15",
+          "C19",
+          "C17",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Communication Argument",
+        "chain": [
+          "C21",
+          "C2",
+          "C27",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Rejection of Reading Levels",
+        "chain": [
+          "C15",
+          "C23",
+          "C24",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Dependency of Reading",
+        "chain": [
+          "8.C18",
+          "2.C13",
+          "12.C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "strong"
+      },
+      {
+        "name": "The Rejection of Reading Levels",
+        "chain": [
+          "6.C51",
+          "7.C23",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0033336,
+    "duration_s": 38.44781017303467
+  }
+}

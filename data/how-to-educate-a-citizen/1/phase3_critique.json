@@ -1,0 +1,113 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author presents a specific causal mechanism for the decline: the literal retirement and death of an entire generation of educators who held the pre-Romantic view of commonality.",
+        "source_passage": "First, the older teachers and administrators had to die off. It was not until the early twentieth century that the new naturalistic, individualistic point of view, led by the philosopher John Dewey, began fully to take hold.",
+        "importance": "significant",
+        "suggested_claim": "The shift in educational outcomes was delayed by the presence of a legacy workforce; the full impact of progressive theory only manifested once the previous generation of 'common school' teachers retired.",
+        "suggested_claim_level": "empirical"
+      },
+      {
+        "description": "The author makes a normative claim that international cooperation is not the opposite of nationalism but is actually dependent upon strong, unified nations.",
+        "source_passage": "But I believe Émile Durkheim was right to say that the nation-state is the largest possible unified social entity... Teddy Roosevelt was deeply right to say that the best contributors to international well-being and cooperation are unified, patriotic nations.",
+        "importance": "significant",
+        "suggested_claim": "Strong national cohesion is a prerequisite for effective global cooperation rather than an impediment to it.",
+        "suggested_claim_level": "normative"
+      },
+      {
+        "description": "A critical logical step in the author's argument is that the social nature of language fundamentally invalidates the individualistic focus of Romantic education.",
+        "source_passage": "The romantic notion that the individual and the social are inherently part of individual development is a big oversimplification that overlooks the entirely social character of language.",
+        "importance": "critical",
+        "suggested_claim": "Because language is a communal social construct, any educational theory that prioritizes individual development over communal knowledge is fundamentally incompatible with language mastery.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C38",
+        "problem": "The claim overstates the author's point. The author says nations adopted 'his ideas' (the structure of monolingual republics), not necessarily that they adopted Webster's specific model or schoolbooks.",
+        "source_passage": "So pioneering and cogent was Webster’s work that most later nations adopted his ideas. Those nations are now typically monolingual republics based on written constitutions and school-promulgated standardized print languages.",
+        "suggested_fix": "Most modern nations are structured as monolingual republics with standardized print languages, reflecting the core principles of national unification pioneered by Webster."
+      },
+      {
+        "claim_id": "C43",
+        "problem": "The extraction presents James Kent's 'hyperbole' as a straightforward empirical fact.",
+        "source_passage": "On the publication of Webster’s revised dictionary in 1828, James Kent... stated that Webster was one of the three prime makers of America... That hyperbole was in a way deeply right—but with this proviso: He contributed more than just a dictionary.",
+        "suggested_fix": "The claim that Webster is a 'prime maker' of America alongside Washington is a historical estimation (hyperbole) that underscores his foundational role in establishing the cultural conditions for democracy."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E1",
+        "claim_id": "C12",
+        "missing_warrant": "The lack of knowledge about a specific historical figure like Hamilton is a valid proxy for a lack of general cultural literacy and the abandonment of content-specific curriculum."
+      },
+      {
+        "evidence_id": "E27",
+        "claim_id": "C73",
+        "missing_warrant": "There is a direct causal link between the dominance of teacher-training ideologies in the mid-20th century and the standardized test scores of students graduating decades later, excluding other social or technological variables."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C6",
+        "counter_argument": "Civic nationalism provides a viable alternative where national identity is based on shared adherence to political procedures and legal rights (Constitutional Patriotism) rather than a deep 'common stock' of cultural knowledge.",
+        "why_important": "This is the primary competing theory of nationhood in pluralistic societies; if it is true, Hirsch's entire 'commonality' requirement for the state is unnecessary."
+      },
+      {
+        "targets_claim": "C107",
+        "counter_argument": "The 'shared knowledge' required by a society is often just the cultural capital of the dominant class; requiring children to learn it as a prerequisite for 'membership' enforces social reproduction and marginalizes minority identities.",
+        "why_important": "This addresses the 'elitism' critique Hirsch mentions but does not fully refute: it challenges the neutrality of the 'speech community'."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C93",
+          "C96"
+        ],
+        "action": "merge",
+        "explanation": "Both claims assert that shared background knowledge improves verbal communication beyond just reading."
+      },
+      {
+        "claim_ids": [
+          "C20",
+          "C30"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that the loss of educational commonality/educational errors directly threaten national well-being and cohesion."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C10",
+        "current_level": "theoretical",
+        "correct_level": "empirical",
+        "explanation": "The author explicitly grounds this in 'recent science,' 'brain research,' and 'studies of language,' framing it as a scientific fact rather than just a conceptual framework."
+      },
+      {
+        "claim_id": "C81",
+        "current_level": "empirical",
+        "correct_level": "normative",
+        "explanation": "Terms like 'tide of mediocrity' and 'threatens our future' are value-laden rhetorical judgments from a policy report, not neutral empirical observations."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally thorough in capturing individual claims (over 120 identified). However, it occasionally misses the author's nuanced logical 'connective tissue'—such as the specific historical timing of the decline linked to teacher retirement. Some claims are repetitive, and the warrants often ignore the 'post hoc ergo propter hoc' risks in the author's historical narrative."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0029018000000000004,
+    "input_tokens": 22666,
+    "output_tokens": 1588,
+    "duration_s": 18.717958211898804,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

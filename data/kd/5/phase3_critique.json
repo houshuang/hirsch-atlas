@@ -1,0 +1,92 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The logic of 'Proportionality' in knowledge acquisition: Hirsch argues that increasing the sheer volume of in-school learning naturally reduces the weight of out-of-school inequality.",
+        "source_passage": "When students are learning many academic things in the classroom, that will narrow the academic gap, because disadvantaged students are more dependent on schools for gaining academic information than advantaged students are... Boosting the in-school proportion thus reduces the unfair distribution of out-of-school learning opportunities.",
+        "importance": "critical",
+        "suggested_claim": "Increasing the total volume of academic instruction in schools mathematically reduces the achievement gap by decreasing the relative influence of unequal home-based learning.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The 'Boredom Factor' as a cost of curricular incoherence. It's not just wasted time; it is active disengagement for prepared students.",
+        "source_passage": "Typically, therefore, the teacher must spend a great deal of time at the beginning of each year in reviewing the preparatory material students need to know... time that would not need to be so extensive (and so very boring to students who already have the knowledge).",
+        "importance": "minor",
+        "suggested_claim": "Curricular incoherence creates pedagogical inefficiencies that actively disengage high-performing or prepared students through redundant review.",
+        "suggested_claim_level": "empirical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C59",
+        "problem": "The claim implies a comparison between repeating one story and reading different stories on the same topic. While the text mentions this, the primary contrast Hirsch is making is between staying on one topic vs. jumping to unrelated topics (kings/queens vs. zebras).",
+        "source_passage": "If we read the same story three times to a child, we need to ask... how great are the benefits... if we had used that valuable time in more productive activities, such as reading other stories on the same topic?",
+        "suggested_fix": "Repetitive reading of a single text is less productive for vocabulary growth than using that same time to read multiple diverse texts within the same thematic domain."
+      },
+      {
+        "claim_id": "C8",
+        "problem": "The extraction labels this as a normative claim by the author, but Hirsch is actually citing 'Experts in the teaching of decoding' to provide a ceiling for skill-based instruction to justify his knowledge-heavy curriculum.",
+        "source_passage": "Experts in the teaching of decoding skills have stated that time spent on decoding and encoding (writing) skills should not exceed thirty to forty-five minutes a day.",
+        "suggested_fix": "Expert consensus suggests that decoding mastery does not require more than 45 minutes of daily instruction, leaving the majority of school time for content."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E13",
+        "claim_id": "C52",
+        "missing_warrant": "The success of the French preschool system is attributable to its academic/knowledge-based content rather than merely being a consequence of high-quality universal childcare or social-emotional support."
+      },
+      {
+        "evidence_id": "E16",
+        "claim_id": "C53",
+        "missing_warrant": "Standardized tests accurately reflect the shifting cognitive demands of reading at different developmental stages (mechanics early, comprehension later) rather than being poorly designed or biased across grade levels."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C38",
+        "counter_argument": "Institutional classroom settings lack the 1-on-1 contingent talk and emotional bonding that characterize 'middle-class home' language environments, making the replication of such environments in schools structurally impossible.",
+        "why_important": "It challenges the author's primary metaphor for how schools can achieve equity through language alone."
+      },
+      {
+        "targets_claim": "C15",
+        "counter_argument": "The 'ski slope' decline in US scores could be caused by the lack of subject-matter specialists in middle schools or the increased social-emotional volatility of US adolescence compared to other cultures, rather than elementary curricula.",
+        "why_important": "It offers an alternative explanation for the decline that Hirsch attributes solely to 'bad theory' and 'incoherence'."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C23",
+          "C26"
+        ],
+        "action": "merge",
+        "explanation": "C23 identifies curricular incoherence as the cause of inefficiency, while C26 attributes low teacher knowledge to the same 'bad theory.' Both are part of the same argument that systemic ideology, not individual ability, drives failure."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C1",
+        "current_level": "theoretical",
+        "correct_level": "meta",
+        "explanation": "Hirsch uses the Matthew Effect here not as a new theory he is proving, but as a prerequisite 'given' (meta-assumption) to establish the 'essence of time' and urgency of his argument."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is highly detailed and captures the 'ski slope' and 'French preschool' arguments well. However, it misses the subtle economic/proportional logic Hirsch uses to explain why intensity helps disadvantaged students more. It also relies too heavily on Hirsch's normative 'shoulds' without identifying the underlying warrants required to bridge the gap between French data and American policy."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0016467000000000003,
+    "input_tokens": 11071,
+    "output_tokens": 1349,
+    "duration_s": 19.155381202697754,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

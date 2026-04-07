@@ -1,0 +1,101 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "Teacher empowerment is derived from curricular predictability. When teachers know exactly what students have been taught, they can 'tap into' those resources, whereas child-centeredness leaves them guessing.",
+        "source_passage": "We can absolutely tap into those prior experiences, and we can help them access them. ... So, we as teachers are empowered to be able to specifically tap into that important resource that helps students build their knowledge forward.",
+        "importance": "significant",
+        "suggested_claim": "A shared curriculum increases teacher efficacy and empowerment by providing a predictable set of prior student experiences to build upon.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The failure of child-centered schools is not a lack of psychological theory but the inability to provide the structural conditions (the 'wider scheme') for that theory (assimilation) to function.",
+        "source_passage": "It becomes that whole association and assimilation idea that I learned about in undergrad but was never truly able to help my students gain access to. ... they had lots of little seeds, but nothing built up to a wider scheme of knowledge they could access and add to.",
+        "importance": "critical",
+        "suggested_claim": "Child-centered schools fail to facilitate the psychological process of assimilation because they provide fragmented 'seeds' of knowledge rather than a coherent schema.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "A shared-knowledge curriculum is a primary driver of teacher retention and job satisfaction, preventing the burnout caused by skill-only instruction.",
+        "source_passage": "I don't know that I would still be doing this if I did not move to a Core Knowledge classroom-because I was so frustrated. ... I said to myself: 'Oh my gosh, this is why I came into teaching.'",
+        "importance": "minor",
+        "suggested_claim": "The move from skill-based to content-based instruction can prevent teacher disillusionment and attrition.",
+        "suggested_claim_level": "pragmatic"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C10",
+        "problem": "The extraction frames this as a 'primary duty' without the functional justification provided in the text regarding national effectiveness.",
+        "source_passage": "The modern nation is a big tribe, and its effectiveness as a tribe depends upon all its members mastering its dialect so they can communicate, coordinate, and learn. Teaching and sustaining the tribal language and lore is therefore a chief duty of the tribe's early schooling.",
+        "suggested_fix": "Teaching shared tribal lore is a functional requirement for national coordination and communication, making it a primary duty of early schooling."
+      },
+      {
+        "claim_id": "C90",
+        "problem": "The claim is labeled theoretical, but it is actually a pragmatic political argument about how a shared sequence protects schools from charges of indoctrination.",
+        "source_passage": "Once a state does its constitutional duty by setting forth a core topic sequence... then it should be up to districts and schools to select their preferred realizations... That way, no one could credibly make the facile accusation of government 'brainwashing.'",
+        "suggested_fix": "Mandating a shared topic sequence while allowing local choice of materials serves as a pragmatic defense against accusations of government brainwashing."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E19",
+        "claim_id": "C11",
+        "missing_warrant": "The author assumes that a decrease in national allegiance (patriotism) is caused by a lack of shared cultural content in schools, rather than external political or economic factors."
+      },
+      {
+        "evidence_id": "E12",
+        "claim_id": "C41",
+        "missing_warrant": "Early exposure to complex historical content (like Rome) acts as a catalyst for general cognitive engagement and the development of the high-level vocabulary required for college-level reading."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C88",
+        "counter_argument": "Centralizing a core topic sequence at the state level risks 'curricular narrowing,' where teachers focus exclusively on the mandated topics to the detriment of local history or spontaneous learning opportunities.",
+        "why_important": "It addresses the likely concern of educators who value professional autonomy over state-mandated coherence."
+      },
+      {
+        "targets_claim": "C83",
+        "counter_argument": "While expertise is domain-specific, foundational literacy (decoding and basic syntax) operates as a 'general skill' that, once mastered, applies to all domains of text.",
+        "why_important": "It challenges the author's totalizing rejection of general reading skills by distinguishing between decoding and deep comprehension."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C51",
+          "C54",
+          "C55"
+        ],
+        "action": "merge",
+        "explanation": "These claims are repetitive; they all state that memory is dependent on specific knowledge and common reference points."
+      },
+      {
+        "claim_ids": [
+          "C27",
+          "C28",
+          "C79"
+        ],
+        "action": "merge",
+        "explanation": "These are the same empirical observation: that standards-based systems fail to ensure shared content across classrooms in the same grade."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is highly comprehensive, capturing the main argumentative thrust and many granular details. However, it misses the author's more nuanced points about teacher empowerment and the specific psychological breakdown of assimilation. It also contains significant redundancy in the theoretical claims regarding memory and knowledge, which could be streamlined."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0024445,
+    "input_tokens": 18933,
+    "output_tokens": 1378,
+    "duration_s": 18.825397968292236,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

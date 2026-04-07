@@ -1,0 +1,930 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C128",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The 'Principle of Least Effort' provides the causal mechanism for why language would naturally evolve toward greater functionality and efficiency."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The general claim that linguistic change is functional relies on the observation that languages with continuous records actually exhibit this trend."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "If the general direction of language is toward functionality, prose (as a subset of language) is hypothesized to follow the same progressive trajectory."
+      },
+      {
+        "from_id": "C130",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The invention of specific techniques to provide context in writing drives the historical trend toward efficiency in prose."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C7",
+        "relationship": "instantiates",
+        "explanation": "The movement toward shorter forms in Indo-European languages is a specific instance of the broader movement toward communicative efficiency."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C7",
+        "relationship": "instantiates",
+        "explanation": "Increased regularity in Indo-European syntax serves as evidence for the trend toward efficiency."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "Establishes the normative criterion (maximum effect, minimum effort) used to measure what counts as 'progress' or 'functionality'."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "If the tendency toward simplification is a universal fact across history, it implies an underlying iterative process of optimization."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "Trial and error is only necessary if efficiency is not present at the origin of a language."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The gain in efficiency in the English language provides the mechanical foundation for the progress of English prose."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "For prose to parallel language history, it must be the genre most representative of the language's normal oral functions."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "The inverse relationship between word length/complexity and frequency is the primary statistical evidence for the 'least effort' principle."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C27",
+        "relationship": "supports",
+        "explanation": "The failure to see historical patterns is directly attributed to the scholarly focus on individual authors rather than the broader evolution."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The methodological claim relies on a contrast between the statistical nature of linguistics and the text-specific nature of prose studies."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The reduction in frequently used syntactic patterns in modern European grapholects serves as evidence for the general progress toward regularity."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The narrowing scope of choice in word order since the 16th century demonstrates increasing syntactic regularity."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The claim that modern prose is more functional depends on the historical fact of its syntactic normalization."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The theoretical link between reduced uncertainty/expectancy and increased efficiency provides the logic for the functional superiority of modern prose."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "If prose is easier to compose at the sentence level today than in the past, it supports the idea that the 'instrument' itself has become more functional."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C41",
+        "relationship": "refines",
+        "explanation": "C42 provides the philosophical/psychological justification for why C41 is considered an absolute rather than a culturally biased claim."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C48",
+        "relationship": "depends-on",
+        "explanation": "The need to invent specific techniques for context-free meaning stems directly from the inherent difficulty of addressing an unseen audience."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "The necessity of inventing new techniques led to the trial-and-error process of establishing conventions."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "The selection of effective experiments over time results in the regularization of conventions."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "If regularization inherently increases communicability, then the observed development in European grapholects can be characterized as a movement toward efficiency."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C54",
+        "relationship": "supports",
+        "explanation": "The observed historical trend toward uniformity is presented as the result of a selective process where effective techniques replace ineffective ones."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "The theoretical principle of linguistic expulsion provides the mechanism for the empirical claim that English prose has progressed in efficiency."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "The claim that speedy fulfillment of expectations is central to readability depends on the premise that delaying resolution (like separating subject and verb) causes cognitive uncertainty."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "The principle of readability depends on the psycholinguistic observation that holding multiple modifications in memory increases mental effort."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C67",
+        "relationship": "opposes",
+        "explanation": "The unsettled state of the 17th century contrasts with the normalized state of the 18th century, illustrating the direction of historical change."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C55",
+        "relationship": "instantiates",
+        "explanation": "The normalization of proleptic devices is a specific instance of the general trend toward progressive communicative efficiency."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C63",
+        "relationship": "refines",
+        "explanation": "Proleptic devices are identified as a specific category of the general principle of fulfilling reader expectations."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C74",
+        "relationship": "depends-on",
+        "explanation": "Valid comparative readability tests across eras require that the underlying psychological mechanisms for processing language remain constant (universals)."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C76",
+        "relationship": "supports",
+        "explanation": "The individual psychological preference for least-effort communication acts as the mechanism driving the macro-historical evolution of speech toward efficiency."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "Measuring efficiency relative to semantic intentions requires the methodological assumption that those intentions can be held constant across different versions of a text."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "If two different texts could not carry identical intentions, efficiency could never be measured as a variable of the prose itself; it would always be conflated with the content."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C80",
+        "relationship": "instantiates",
+        "explanation": "Legal statutes serve as an example where 'efficiency' is defined by certainty of meaning rather than ease of reading, supporting the claim that efficiency is relative to purpose."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C90",
+        "relationship": "depends-on",
+        "explanation": "If reading was naturally slow and vocalized, the subtle efficiencies of written style were masked by the physical bottleneck of performance."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C90",
+        "relationship": "depends-on",
+        "explanation": "Only after spelling was normalized could readers achieve the speed necessary for the cognitive load of syntax to become the primary barrier to communication."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C97",
+        "relationship": "supports",
+        "explanation": "If psycholinguistic universals exist, then short-term memory limits must be independent of cultural influence."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "C100",
+        "relationship": "depends-on",
+        "explanation": "The necessity of backtracking (C100) is a direct consequence of the empirical limit of short-term memory capacity (C99)."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C103",
+        "relationship": "supports",
+        "explanation": "If the word is an inappropriate unit because sentences are easier to recall than random lists, a new unit based on how sentences are processed (semantic closure) is required."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C107",
+        "relationship": "instantiates",
+        "explanation": "Jonson's failure to adapt to written demands serves as a historical case study for the inherent difficulty of grasping written speech."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C108",
+        "relationship": "supports",
+        "explanation": "The inherent difficulty of written speech explains why modern students struggle in a way analogous to early modern authors."
+      },
+      {
+        "from_id": "C111",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "The disproportionate effort required for Jonson's prose compared to his poetry provides empirical evidence for the specific difficulty of prose norms."
+      },
+      {
+        "from_id": "C114",
+        "to_id": "C124",
+        "relationship": "depends-on",
+        "explanation": "The need to shorten discourse stretches for short-term memory is based on the theoretical principle that meter and rhyme enhance readability by managing those same memory constraints."
+      },
+      {
+        "from_id": "C118",
+        "to_id": "C123",
+        "relationship": "supports",
+        "explanation": "The idea that poetry has built-in expectation fulfillments serves as the model for how prose developed its own 'normalized patterns of expectation' to achieve progress in readability."
+      },
+      {
+        "from_id": "C119",
+        "to_id": "C121",
+        "relationship": "depends-on",
+        "explanation": "The claim of irreversibility relies on the historical evidence that once prose readability caught up to poetry, it stabilized into a normalized grapholect."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C125",
+        "relationship": "supports",
+        "explanation": "If the evolution toward readability is irreversible and universal, it provides a stable, 'authentic' foundation for teaching composition rather than a temporary or ideological one."
+      },
+      {
+        "from_id": "C123",
+        "to_id": "C122",
+        "relationship": "instantiates",
+        "explanation": "The development of specific prose conventions is a concrete historical instance of the broader universal tendency toward communicative efficiency."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E6",
+        "claim_id": "C6",
+        "warrant_text": "Statistical regularities in word frequency and complexity (Zipf's Law) reflect underlying cognitive and physical constraints that optimize communication across all human languages.",
+        "is_explicit": true,
+        "vulnerability": "Statistical frequency does not necessarily equate to 'communicative functionality' in complex semantic or social contexts."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E14",
+        "claim_id": "C8",
+        "warrant_text": "Diachronic comparisons of translations of the same text reveal the natural drift of the language's prose standards over time.",
+        "is_explicit": false,
+        "vulnerability": "Changes in translation style might reflect changing aesthetic fashions or specific translator skill rather than a universal linguistic law."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E27",
+        "claim_id": "C8",
+        "warrant_text": "Because human sensory processing limits are invariant, prose must evolve to fit within these narrow 'channels' to remain effective.",
+        "is_explicit": true,
+        "vulnerability": "It assumes that 'efficiency' relative to sensory limits is the primary driver of prose development, ignoring social or ideological factors."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C15",
+        "warrant_text": "The abandonment of complex morphological markers (like Latin concord) in favor of simpler structures across time indicates a selective pressure for communicative ease.",
+        "is_explicit": true,
+        "vulnerability": "What appears to be 'efficiency' might be a loss of grammatical precision or nuance that the earlier language valued."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C13",
+        "warrant_text": "Improvements in the grammatical 'machinery' of a language inevitably result in more effective communication in the texts written in that language.",
+        "is_explicit": false,
+        "vulnerability": "A writer can produce inefficient or clumsy prose regardless of how 'efficient' the underlying grammar is."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E8",
+        "claim_id": "C26",
+        "warrant_text": "If later historical examples are more difficult to read than earlier ones, then the development of prose style cannot be characterized as a simple linear progression.",
+        "is_explicit": true,
+        "vulnerability": "Reading 'difficulty' is subjective and relative to the modern reader's own linguistic habits rather than an objective measure of the text's efficiency for its time."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C37",
+        "claim_id": "C36",
+        "warrant_text": "A statistical reduction in the variety of available linguistic patterns constitutes an objective movement toward 'regularity'.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that reduced variety is linguistic decay or 'thinning' rather than progress toward regularity."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C40",
+        "claim_id": "C41",
+        "warrant_text": "The value of a communicative instrument is measured by its efficiency—specifically, the minimization of cognitive effort for both the producer and the receiver.",
+        "is_explicit": false,
+        "vulnerability": "Does not account for aesthetic value, nuance, or the 'functional' benefit of complex, ambiguous syntax in high-literary art."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C45",
+        "claim_id": "C51",
+        "warrant_text": "The introduction of a common technology (the printing press) across different cultures creates uniform functional pressures that result in similar linguistic evolutions.",
+        "is_explicit": false,
+        "vulnerability": "Technological determinism; ignores cultural or structural differences in languages that might resist normalization differently."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C71",
+        "claim_id": "C55",
+        "warrant_text": "Successive translations of the same semantic content over centuries provide a controlled environment to measure linguistic evolution toward efficiency.",
+        "is_explicit": false,
+        "vulnerability": "Translators may be influenced by a specific genre-standard of 'plainness' rather than a universal change in the language itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C62",
+        "claim_id": "C63",
+        "warrant_text": "Human cognitive processing has finite limits on working memory; therefore, shorter durations of syntactic uncertainty necessarily result in higher readability.",
+        "is_explicit": true,
+        "vulnerability": "Experienced readers might utilize 'chunking' strategies that mitigate the effort of holding unresolved modifications."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C59",
+        "claim_id": "C54",
+        "warrant_text": "The disappearance of specific linguistic forms (obsolescence) is primarily driven by their failure to meet communicative needs rather than by arbitrary fashion or social prestige.",
+        "is_explicit": false,
+        "vulnerability": "Lexical items often become obsolete due to cultural shifts or the disappearance of the objects/concepts they refer to, not just inefficiency."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C72",
+        "claim_id": "C74",
+        "warrant_text": "If a modern reader finds an older text more readable than a more recent one, the difference must lie in the text's structural properties rather than its age or the reader's historical distance from it.",
+        "is_explicit": false,
+        "vulnerability": "The reader's modern linguistic expectations may bias their judgment of 'readability' in a way that wouldn't apply to a contemporary reader of the older text."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C77",
+        "claim_id": "C76",
+        "warrant_text": "Large-scale historical trends in linguistic systems are the aggregate result of individual psychological preferences for efficiency and economy.",
+        "is_explicit": true,
+        "vulnerability": "Linguistic change is often driven by social prestige, identity marking, or cultural shifts that may override or even conflict with communicative efficiency."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C81",
+        "claim_id": "C80",
+        "warrant_text": "Efficiency is a ratio of effort to the successful achievement of a specific goal; therefore, if the goal changes (from speed to certainty), the definition of an 'efficient' method must also change.",
+        "is_explicit": true,
+        "vulnerability": "One could argue for an 'absolute' efficiency where a text that is certain *and* easy is always superior to one that is merely certain but difficult."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C94",
+        "claim_id": "C96",
+        "warrant_text": "If human channel capacity for simple sensory judgments is limited, the same cognitive bottlenecks will apply to complex sensory-symbolic tasks like reading.",
+        "is_explicit": false,
+        "vulnerability": "Reading involves higher-order processing that might utilize different cognitive pathways than unidimensional sensory judgments like tone or saltiness."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C99",
+        "claim_id": "C100",
+        "warrant_text": "Exceeding a processing buffer (short-term memory) requires a reset or re-evaluation of the input to ensure comprehension.",
+        "is_explicit": true,
+        "vulnerability": "Skilled readers may use 'chunking' or 'buffer-clearing' strategies that prevent the need for literal physical backtracking."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C110",
+        "claim_id": "C107",
+        "warrant_text": "If a highly skilled linguistic practitioner (like Jonson or Milton) succeeds in one medium (poetry) but creates friction in another (prose), the difficulty resides in the medium's specific norms rather than the practitioner's competence.",
+        "is_explicit": false,
+        "vulnerability": "Difficulty in prose may be an intentional aesthetic choice for those authors rather than a failure to grasp 'inherently difficult' norms."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C112",
+        "claim_id": "C114",
+        "warrant_text": "Differences in processing ease between two mediums (poetry and prose) by the same author (Milton/Jonson) are likely caused by the inherent structural constraints of those mediums, such as the relationship between meter and short-term memory.",
+        "is_explicit": false,
+        "vulnerability": "An author might simply be more skilled in one medium than the other, or the genres might have different intended audiences and levels of complexity."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C120",
+        "claim_id": "C121",
+        "warrant_text": "If a linguistic standard reaches a peak of efficiency that 'could scarcely be improved upon' within a mass-literacy system, it becomes a fixed evolutionary achievement that is unlikely to be abandoned.",
+        "is_explicit": true,
+        "vulnerability": "Sociocultural shifts or changes in communication technology (e.g., digital shorthand) could prioritize speed or social identity over the specific 'efficiency' of 18th-century prose standards."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C7",
+        "to_id": "C6",
+        "missing_step": "Languages with continuous written records are representative of the evolutionary patterns of all human languages, including those without records.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C6",
+        "to_id": "C8",
+        "missing_step": "The 'self-conscious craft' of prose composition (C134) does not override or reverse the natural progressive tendencies of general language change.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C10",
+        "to_id": "C6",
+        "missing_step": "Reduction in 'muscular exertion' (shorter forms) always results in higher 'communicative functionality' without a corresponding loss in semantic precision.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C26",
+        "missing_step": "Individual authors and artistic movements can temporarily move against the tide of linguistic efficiency due to aesthetic or ideological motives.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "C20",
+        "missing_step": "Linguistic 'errors' are naturally selected against based on the specific criteria of metabolic or cognitive cost.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C39",
+        "to_id": "C41",
+        "missing_step": "Proof that ease of composition at the 'sentence level' correlates with the functional effectiveness of the text as a whole.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C36",
+        "to_id": "C42",
+        "missing_step": "Empirical evidence demonstrating that the specific regularities of European grapholects align with universal psychological cognitive processing limits.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C57",
+        "to_id": "C56",
+        "missing_step": "Individual subjective reading ease consistently correlates with objective physiological measurements like eye-tracking data.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C71",
+        "to_id": "C55",
+        "missing_step": "The development of prose in translated literature is representative of the development of English prose in all other genres and functions.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C73",
+        "to_id": "C74",
+        "missing_step": "Even if psychological constants exist, the specific linguistic 'tuning' or rhetorical training of a historical reader might make a text 'efficient' for them that is 'inefficient' for us.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C77",
+        "to_id": "C76",
+        "missing_step": "The preference for least effort must successfully overcome the forces of linguistic conservatism and traditionalism over time.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C93",
+        "to_id": "C104",
+        "missing_step": "A bridge between universal cognitive limits and historical progress in 'unitizing' abilities.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C106",
+        "to_id": "C108",
+        "missing_step": "The cognitive situation of a 17th-century author creating a new norm is functionally identical to a student learning an established norm.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C117",
+        "to_id": "C123",
+        "missing_step": "The author must establish how prose—which lacks the 'verbal beats' and meter of poetry—actually replicates the psycholinguistic 'sense of closure' through purely syntactic means.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C122",
+        "to_id": "C121",
+        "missing_step": "A proof that no external historical factors (political collapse, radical changes in education) can disrupt the 'universal tendency' toward efficiency.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C6",
+        "objection": "Language change is often cyclical or driven by social prestige rather than linear efficiency; features are often added (increasing complexity) to signal group identity or status.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C8",
+        "objection": "The perceived 'efficiency' of modern prose may be a loss of expressive range; what the author calls 'progress' is actually a thinning of the language's ability to handle nuance and ambiguity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C7",
+        "objection": "The 'continuous record' of Indo-European languages is biased toward administrative and literary registers that prize clarity, which does not prove that the language as a whole (including vernaculars) moved in that direction.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C20",
+        "objection": "Languages frequently develop new complexities (e.g., the development of definite articles or complex auxiliary verb systems) that increase the 'muscular exertion' or 'memory burden' compared to previous stages.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C27",
+        "objection": "The focus on individual authors is not a methodological error but a recognition that 'prose style' is inherently an act of individual agency, making statistical overviews of prose fundamentally misleading.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "If modern prose is more 'functional' because it is more predictable, it may be less functional for expressing complex, non-linear, or innovative thoughts that require the very 'expectancy and uncertainty' the author seeks to eliminate.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C36",
+        "objection": "The author admits in C34 and C35 that canonical writers preserve defunct forms; if 'prose' is defined by these canonical works, then prose might actually be less regular and more conservative/idiosyncratic than the 'general language'.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C55",
+        "objection": "The perceived 'efficiency' of 18th-century prose is an artifact of the fact that modern readers' expectations were shaped by 18th-century standards; a 16th-century reader would find Painter's syntax more 'natural' and therefore easier to read.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C54",
+        "objection": "Linguistic techniques are often preserved or adopted for social signaling, aesthetic nuance, or rhythmic qualities, even if they are 'inefficient' for pure communication.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C74",
+        "objection": "The 'Historicist' objection: Readability is entirely relative to the linguistic expectations of a specific period; a sixteenth-century reader would find sixteenth-century prose more readable than we do because they possess the requisite cultural and linguistic 'software.'",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C76",
+        "objection": "The 'Linguistic Egalitarian' objection: Judging language by 'efficiency' is a value judgment, not a scientific one; many cultures value linguistic complexity, ritualized phrasing, or ambiguity over simple speed.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C90",
+        "objection": "Aesthetic or religious motivations might have intentionally kept reading a slow, meditative process, meaning 'efficiency' was not just a low priority due to technology, but an undesirable trait for those authors.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C93",
+        "objection": "Psycholinguistic constants may be heavily mediated by the specific structure of a language; some languages might allow for more efficient 'chunking' than others, making the 'universal' number less relevant.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C92",
+        "objection": "Standardization of spelling and typography might be necessary but insufficient; the complexity of ideas (conceptual density) might remain a more significant factor for efficiency than prose style.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C106",
+        "objection": "Jonson's choice to model prose on oral conversation was likely a deliberate aesthetic and stylistic commitment (Attic style) intended for a specific intellectual audience, rather than a 'communicative error'.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C121",
+        "objection": "The evolution toward readability may not be irreversible; the rise of specialized, jargon-heavy 'officialese' or the fragmented nature of digital 'netspeak' suggests that prose may be evolving away from the 18th-century ideal of universal readability.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C125",
+        "objection": "Defining composition instruction solely on psycholinguistic readability ignores the rhetorical and ideological functions of writing, such as challenging a reader's expectations or using complexity to mirror complex thought.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Biological Basis of Linguistic Progress",
+        "chain": [
+          "C128",
+          "C132",
+          "C9",
+          "C10",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "The Historical Evolution of Prose Efficiency",
+        "chain": [
+          "C7",
+          "C130",
+          "C134",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Evolution of Language",
+        "chain": [
+          "C18",
+          "C17",
+          "C15",
+          "C21",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "The Parallel Progress of Prose",
+        "chain": [
+          "C16",
+          "C23",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Explanation for Scholarly Disarray",
+        "chain": [
+          "C30",
+          "C28",
+          "C27",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "The Grapholect Evolution Chain",
+        "chain": [
+          "C37",
+          "C38",
+          "C36",
+          "C51"
+        ],
+        "conclusion_id": "C51",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Superiority Chain",
+        "chain": [
+          "C40",
+          "C39",
+          "C41",
+          "C42",
+          "C43"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Origin of Prose Conventions Chain",
+        "chain": [
+          "C44",
+          "C48",
+          "C49",
+          "C50"
+        ],
+        "conclusion_id": "C50",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Selection Chain",
+        "chain": [
+          "C53",
+          "C59",
+          "C54",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Load Chain",
+        "chain": [
+          "C62",
+          "C64",
+          "C63",
+          "C68"
+        ],
+        "conclusion_id": "C63",
+        "strength": "strong"
+      },
+      {
+        "name": "The Proleptic Normalization Chain",
+        "chain": [
+          "C66",
+          "C67",
+          "C68",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "strong"
+      },
+      {
+        "name": "Psychological Basis for Comparative Stylistics",
+        "chain": [
+          "C73",
+          "C74",
+          "C72"
+        ],
+        "conclusion_id": "C74",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Evolutionary Trend of Prose",
+        "chain": [
+          "C77",
+          "C76"
+        ],
+        "conclusion_id": "C76",
+        "strength": "strong"
+      },
+      {
+        "name": "The Shift from Vocal to Visual Efficiency",
+        "chain": [
+          "C89",
+          "C91",
+          "C87",
+          "C90"
+        ],
+        "conclusion_id": "C90",
+        "strength": "strong"
+      },
+      {
+        "name": "Relativity of Readability to Intent",
+        "chain": [
+          "C78",
+          "C79",
+          "C81",
+          "C82",
+          "C80"
+        ],
+        "conclusion_id": "C80",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Constraints Chain",
+        "chain": [
+          "C93",
+          "C95",
+          "C99",
+          "C100",
+          "C101"
+        ],
+        "conclusion_id": "C101",
+        "strength": "strong"
+      },
+      {
+        "name": "The Measurement of Readability Chain",
+        "chain": [
+          "C95",
+          "C102",
+          "C103"
+        ],
+        "conclusion_id": "C103",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Historical Prose Development Chain",
+        "chain": [
+          "C109",
+          "C106",
+          "C111",
+          "C107",
+          "C108"
+        ],
+        "conclusion_id": "C107",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Origin of Readability",
+        "chain": [
+          "C114",
+          "C115",
+          "C116",
+          "C118",
+          "C124",
+          "C123"
+        ],
+        "conclusion_id": "C123",
+        "strength": "strong"
+      },
+      {
+        "name": "Historical Teleology of Prose",
+        "chain": [
+          "C112",
+          "C113",
+          "C119",
+          "C120",
+          "C121",
+          "C122"
+        ],
+        "conclusion_id": "C122",
+        "strength": "moderate"
+      },
+      {
+        "name": "Scientific Basis for Pedagogy",
+        "chain": [
+          "C122",
+          "C123",
+          "C121",
+          "C125"
+        ],
+        "conclusion_id": "C125",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.007930300000000001,
+    "duration_s": 103.74598169326782
+  }
+}

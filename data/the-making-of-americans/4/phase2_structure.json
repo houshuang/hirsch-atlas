@@ -1,0 +1,837 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "Historical evidence of primer content suggests their theoretical purpose was more than just literacy."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "If the purpose of language materials is to impart common values for the public sphere, then the school's goal is to teach that common language for participation."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The normative duty of schools to teach underlying linguistic assumptions is a prerequisite for the goal of universal participation in the public sphere."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "If the goal is a common language for a shared public sphere, then teaching a distinct dialect like Ebonics as a substitute is viewed as counterproductive."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "The lack of grammar requirements in state standards is part of the evidence that essential linguistic information is not being transmitted."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "The misinformation provided to prospective teachers directly causes the failure of information transmission."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "The failure to transmit linguistic knowledge to teachers results in their lack of guidance and increased stress."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The claim that Standard English is a stable reality makes the 'Students' Right' resolution's claim that it is a myth factually inadmissible."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "Social judgments about intelligence based on dialect act as the mechanism that denies social and political power to those without mastery of the standard."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The status of Standard English as a tool for equality and solidarity depends on the premise that its absence results in an active denial of power."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The fact that the US inherited an already standardized language from England supports the claim that the language is an artificial construct rather than a local class dialect."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "To view the standard language as a universal property, one must first reject the 'genetic fallacy' that its origins in royal courts define its current function."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If Standard English is the primary organ of economic and social competence, then its universal mastery is logically essential for a functioning democracy."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The necessity of a shared language for public communication is a prerequisite for the broader claim that its mastery is essential for democracy."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The self-defeating nature of arguments against standard English justifies the normative claim that teachers are abdicating their duty if they fail to teach it."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "If language is inherently mutable in oral form, it follows that isolated communities would develop mutually unintelligible dialects."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C48",
+        "relationship": "depends-on",
+        "explanation": "The necessity of expanding communication to distant citizens assumes that prior local communication was insufficient for national cohesion."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "The requirement for broader literacy (C48) provides the historical and functional basis for the claim that the modern nation-state cannot exist without standardization (C50)."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C50",
+        "relationship": "depends-on",
+        "explanation": "The impossibility of the nation's existence without standardization relies on the premise that industrial nations require effective communication among all citizens."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "Because Standard English has remained stable and transcends class, the author argues that mastery of it is an accessible prerequisite for wealth rather than an exclusive trait of a born social class."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C57",
+        "relationship": "instantiates",
+        "explanation": "The difference between American and British speech (tacit knowledge) serves as a specific instance of the general theory that communication relies on unspoken context."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "If communication requires shared unspoken knowledge, then schools must explicitly teach that knowledge to ensure all children can communicate."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "The failure of phonics to improve later comprehension scores suggests that the 'missing piece' in instruction is the content/unspoken knowledge required for comprehension."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C74",
+        "relationship": "depends-on",
+        "explanation": "The claim that common language requires common knowledge is rooted in the theoretical principle that all human language has a dimension of unstated knowledge."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C74",
+        "relationship": "depends-on",
+        "explanation": "If efficient communication requires shared relevant knowledge, then a common language (which aims at efficient communication) must necessarily share a common knowledge base."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C72",
+        "relationship": "depends-on",
+        "explanation": "The necessity of shared knowledge for equality in the public sphere relies on the prior claim that language itself cannot function without common knowledge."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C64",
+        "relationship": "depends-on",
+        "explanation": "The normative obligation for schools to teach standardized knowledge follows from their existing obligation to teach students how to communicate with unseen audiences."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C73",
+        "relationship": "depends-on",
+        "explanation": "The rejection of strategy drills as a 'tragic mistake' is predicated on the empirical observation that students are failing to communicate despite those very drills being implemented via reforms."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C79",
+        "relationship": "depends-on",
+        "explanation": "The assertion that academic preparation—not ethnicity—is the primary cause of classroom productivity issues is supported by the comparative performance of nations with core curricula."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C84",
+        "relationship": "supports",
+        "explanation": "The empirical observation that teachers spend weeks reviewing (C83) is the direct cause of the student boredom and teacher attrition described in C84."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C81",
+        "relationship": "depends-on",
+        "explanation": "The argument for a year-by-year core curriculum relies on the premise that the current system of repetitive review and attrition (C84) is a failure that needs solving."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C88",
+        "relationship": "depends-on",
+        "explanation": "Social mobility is hindered (C88) because the lack of grammar instruction leads to students being perceived as incompetent in the public sphere (C89)."
+      },
+      {
+        "from_id": "C88",
+        "to_id": "C86",
+        "relationship": "supports",
+        "explanation": "The fact that lack of grammar hinders mobility (C88) supports the normative claim that teaching standard English is a democratic and egalitarian aim (C86)."
+      },
+      {
+        "from_id": "C92",
+        "to_id": "C93",
+        "relationship": "supports",
+        "explanation": "Because students fear social scorn from errors (C92), the author identifies subject-verb agreement and pronoun case as the highest priority areas to address that fear (C93)."
+      },
+      {
+        "from_id": "C94",
+        "to_id": "C93",
+        "relationship": "depends-on",
+        "explanation": "The focus on pronoun case (C93) is theoretically justified by the fact that pronouns are the remaining inflected word forms in English (C94)."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "C100",
+        "relationship": "supports",
+        "explanation": "The necessity of teaching technical vocabulary (C99) stands in direct opposition to the research the author dismisses as spurious (C100)."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C105",
+        "relationship": "depends-on",
+        "explanation": "The claim that withholding standard dialect is oppressive relies on the premise that standard language proficiency is a non-negotiable prerequisite for socio-economic mobility."
+      },
+      {
+        "from_id": "C111",
+        "to_id": "C105",
+        "relationship": "supports",
+        "explanation": "The military's use of Standard English as a meritocratic prerequisite serves as empirical evidence for why denying this dialect to students limits their advancement."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C105",
+        "relationship": "supports",
+        "explanation": "Universal parental desire for language mastery suggests that the 'oppression' cited by theorists is not felt by the actual stakeholders of education."
+      },
+      {
+        "from_id": "C108",
+        "to_id": "C105",
+        "relationship": "supports",
+        "explanation": "The Jeffersonian model provides a theoretical framework where one can maintain a private dialect while adopting a public standard without loss of identity."
+      },
+      {
+        "from_id": "C114",
+        "to_id": "C101",
+        "relationship": "depends-on",
+        "explanation": "The argument for grammar instruction relies on the existence of objective linguistic principles (like word order) that students violate when untaught."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C101",
+        "relationship": "supports",
+        "explanation": "If students perceive a lack of instruction as an abdication of duty, then providing that instruction is a moral and professional necessity."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E10",
+        "claim_id": "C1",
+        "warrant_text": "The explicit intent and content of early educational materials (primers) reflect the broader social and civic goals of the educational system that produced them.",
+        "is_explicit": true,
+        "vulnerability": "Materials might reflect the ideology of authors rather than the actual function or outcome of the schooling."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E1",
+        "claim_id": "C9",
+        "warrant_text": "Scientific consensus from large-scale medical/educational research (NIH) is the definitive arbiter of whether an instructional method works.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that NIH research focuses on narrow decoding rather than broader literacy and engagement."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E2",
+        "claim_id": "C15",
+        "warrant_text": "The performance of students in non-remedial college courses, as evidenced by specific graded work, serves as a valid proxy for the overall health and effectiveness of the K-12 language arts system.",
+        "is_explicit": false,
+        "vulnerability": "A single essay or anecdote may not be statistically representative of national college writing standards."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E7",
+        "claim_id": "C20",
+        "warrant_text": "If a linguistic form is consistently used across mass media and formal publications, it constitutes a stable social reality regardless of theoretical objections to its 'standard' status.",
+        "is_explicit": true,
+        "vulnerability": "Sociolinguists argue that 'standard' is still a social construct even if it is widely used."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C24",
+        "claim_id": "C21",
+        "warrant_text": "If a specific linguistic form is the basis for social evaluation of competence and intelligence, then mastery of that form is a functional requirement for social equality.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that social judgments cannot or should not be changed to be more inclusive of linguistic diversity."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C31",
+        "claim_id": "C32",
+        "warrant_text": "If an instrument is required by all parties—even those who oppose its status—to participate in public life, that instrument serves as a neutral infrastructure rather than a partisan weapon.",
+        "is_explicit": true,
+        "vulnerability": "The use of a tool under duress does not necessarily prove the tool is neutral or 'property of all'; it may simply prove the tool's dominance."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C36",
+        "claim_id": "C26",
+        "warrant_text": "Mass schooling in a standardized print code effectively transforms that code into the common spoken medium of the public sphere over time.",
+        "is_explicit": true,
+        "vulnerability": "Historical patterns of linguistic convergence may not hold in a digital age with fragmented media and high linguistic pluralism."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C44",
+        "claim_id": "C45",
+        "warrant_text": "If a modern population can easily understand texts from a specific historical period without specialized training, the language of that period must have reached a stable, standardized form identical to the modern one.",
+        "is_explicit": true,
+        "vulnerability": "Scholars might argue that 'intelligibility' is a spectrum; being able to read the Constitution does not prove the linguistic nuances or semantic values of words haven't shifted significantly."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C47",
+        "claim_id": "C48",
+        "warrant_text": "A modern nation requires a level of political and economic coordination that is impossible if citizens in different regions cannot understand one another.",
+        "is_explicit": false,
+        "vulnerability": "Multilingual or polyglot nations (like Switzerland or the early Roman Empire) have functioned without a single uniform national tongue."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C56",
+        "claim_id": "C58",
+        "warrant_text": "If the primary barrier to understanding isn't mechanics (grammar/vocabulary) but context, then educational parity requires the equalization of that context.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that 'unspoken knowledge' can be codified and taught as easily as mechanics, ignoring the organic way cultural literacy is often acquired."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C78",
+        "claim_id": "C61",
+        "warrant_text": "If schools using content-based curricula show score increases while those using skills-based reforms (NCLB) do not, then the presence or absence of specific content knowledge is the decisive factor in reading performance.",
+        "is_explicit": true,
+        "vulnerability": "The success of specific schools could be due to other variables such as teacher quality, school culture, or student selection rather than the curriculum itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C70",
+        "claim_id": "C74",
+        "warrant_text": "Linguistic phenomena like irony, which are universal and yet depend on unstated attitudes, prove that language is not a neutral tool but a system that relies on a specific, shared social context.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that irony is an advanced linguistic feature, not a core requirement for basic literal comprehension in the public sphere."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C80",
+        "claim_id": "C79",
+        "warrant_text": "International comparisons are valid for identifying causal factors in education when they show that different curricular structures yield different demographic outcomes regardless of cultural context.",
+        "is_explicit": false,
+        "vulnerability": "Nations like Finland and France have vastly different social safety nets and levels of income inequality compared to the US, which may account for the decreased disparity in student readiness more than curriculum."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C83",
+        "claim_id": "C81",
+        "warrant_text": "Inefficiencies caused by lack of coordination between schools (repetitive review) are best solved by standardized, grade-specific sequencing.",
+        "is_explicit": false,
+        "vulnerability": "Local schools could coordinate sequences without a national 'common' curriculum; repetitive review might be necessary for memory consolidation regardless of curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C92",
+        "claim_id": "C88",
+        "warrant_text": "Social mobility is primarily a function of social acceptance and the avoidance of linguistic stigma in professional and public environments.",
+        "is_explicit": true,
+        "vulnerability": "Economic factors, structural racism, and networking may outweigh linguistic 'correctness' in determining social mobility."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C96",
+        "claim_id": "C93",
+        "warrant_text": "If a grammatical feature (like pronoun case) is the only place where word form still changes, it is the most likely source of error and therefore the highest instructional priority.",
+        "is_explicit": false,
+        "vulnerability": "Other errors, such as syntax or vocabulary choice, might be more detrimental to clear communication than pronoun case errors."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C111",
+        "claim_id": "C105",
+        "warrant_text": "The requirements of the nation's most meritocratic institution (the military) accurately reflect the functional requirements for success in the broader American public sphere.",
+        "is_explicit": false,
+        "vulnerability": "The military is a rigid hierarchy; the civilian economy may be more flexible regarding linguistic diversity than the author assumes."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C108",
+        "claim_id": "C105",
+        "warrant_text": "Language functions like religion in a democracy: it can be bifurcated into a private, autonomous sphere and a shared, standardized public sphere without psychological harm.",
+        "is_explicit": true,
+        "vulnerability": "Language is more intrinsic to identity than religion for many, and 'switching' between them carries higher cognitive and social costs (code-switching fatigue)."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C114",
+        "claim_id": "C101",
+        "warrant_text": "Explicit knowledge of grammatical categories (parts of speech) is the most efficient or only way to correct errors that violate deep linguistic principles.",
+        "is_explicit": false,
+        "vulnerability": "Implicit learning through reading and modeling often corrects these errors more effectively than abstract label-learning (parts of speech)."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C7",
+        "missing_step": "Teaching a non-standard dialect in schools prevents students from attaining the proficiency in the standard code required for the public sphere.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C13",
+        "to_id": "C15",
+        "missing_step": "Systematic teacher knowledge of formal grammar is a necessary and sufficient condition for improving student writing outcomes at the college level.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C5",
+        "to_id": "C6",
+        "missing_step": "The intellectual existence of 'language imperialism' charges is the primary cause of the administrative and pedagogical paralysis in schools.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C21",
+        "to_id": "C25",
+        "missing_step": "Schools are the only reliable and equitable venue for children to acquire the standard dialect and its coordinate knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C27",
+        "to_id": "C26",
+        "missing_step": "The 18th-century Founders' preference for linguistic unity remains a functional necessity for democratic stability in a modern, technologically advanced society.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C50",
+        "to_id": "C52",
+        "missing_step": "The transition from a functional necessity (the nation needs a standard) to a normative obligation (schools have a duty to teach it) requires the premise that the school's primary purpose is the maintenance of the existing nation-state.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C60",
+        "to_id": "C58",
+        "missing_step": "It must be established that the 'comprehension' measured in later grades is primarily a function of general 'unspoken knowledge' rather than specialized vocabulary or advanced cognitive processing skills.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C61",
+        "to_id": "C64",
+        "missing_step": "Establishing that the 'background knowledge' required for comprehension is sufficiently stable and consensus-based to be standardized across a diverse nation.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C72",
+        "to_id": "C73",
+        "missing_step": "Proving that formal reading strategies (like finding the main idea) provide zero marginal utility or are actually detrimental when background knowledge is absent.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C65",
+        "to_id": "C77",
+        "missing_step": "Demonstrating that modern digital communication (email/internet) relies on the same 'durable' knowledge as 19th-century literacy rather than rapidly evolving, ephemeral digital literacy skills.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C83",
+        "to_id": "C81",
+        "missing_step": "A year-by-year core curriculum would actually reduce mobility-related learning gaps more effectively than other interventions like remedial tutoring.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C88",
+        "to_id": "C86",
+        "missing_step": "Standard English is a neutral tool for democracy rather than a cultural marker that reinforces existing class hierarchies.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C93",
+        "to_id": "C99",
+        "missing_step": "The most effective way to learn subject-verb agreement is through the acquisition of technical vocabulary and rules rather than immersive practice.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C116",
+        "to_id": "C101",
+        "missing_step": "Explicit instruction in the 'parts of speech' is the causal mechanism that leads to the 'standard language proficiency' required by the elite.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C106",
+        "to_id": "C105",
+        "missing_step": "The desires of 'sensible parents' are a sufficient moral basis for determining pedagogical practice, overriding the 'theoretical arguments' of experts.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The 'common language' often reflects the cultural norms of the dominant group, meaning its enforcement in schools is an act of cultural assimilation that marginalizes minority identities.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C19",
+        "objection": "The resolution 'Students' Right to Their Own Language' is not about denying the existence of a standard code, but about protecting students from the psychological harm of having their native dialect stigmatized.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C9",
+        "objection": "Whole-language advocates argue that 'failure' is defined too narrowly by phonics advocates as mere decoding; they prioritize meaning-making and student agency.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C32",
+        "objection": "Labeling a language 'artificial' or 'inherited' does not strip it of its class associations; if the standard is aligned with the habits of the dominant class, it functions as a class dialect regardless of its historical standardization.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C33",
+        "objection": "Prioritizing a single 'standard' as the only path to power may actually undermine democracy by devaluing the cultural capital and linguistic identities of minority groups, leading to alienation rather than solidarity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C50",
+        "objection": "The claim that the modern nation is 'impossible' without language standardization is historically reductive; many modern nations successfully utilize multiple official languages or regional dialects without total standardization.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C55",
+        "objection": "The association between Standard English and wealth is not merely 'contingent'; the 'Standard' is often defined by the speech patterns of the elite, meaning the language itself acts as a moving target or a class-based gatekeeping mechanism.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C58",
+        "objection": "Teaching a specific set of 'unspoken knowledge' inherently privileges the cultural capital of the dominant group, potentially alienating students from minority backgrounds and reinforcing cultural hegemony under the guise of 'technical necessity.'",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C64",
+        "objection": "A 'standardized' background knowledge curriculum will inevitably privilege the cultural capital of the dominant social class, further marginalizing students from minority or non-standard linguistic backgrounds.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C73",
+        "objection": "Skills-based instruction and content-based instruction are not mutually exclusive; strategy drills help students navigate texts even when their background knowledge is imperfect, serving as a 'bridge' rather than a 'mistake.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C79",
+        "objection": "The 'diversity of academic preparation' the author cites is itself a byproduct of systemic socio-economic inequalities that schools alone cannot resolve by simply changing the curriculum.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C86",
+        "objection": "The 'Standard English' promoted as egalitarian is actually the dialect of the powerful; forcing it on all students devalues their home languages and can be seen as linguistic erasure.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C100",
+        "objection": "Decades of educational research show that teaching formal grammar in isolation does not improve student writing quality and may actually decrease student engagement with writing.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C81",
+        "objection": "High-mobility students often face systemic issues (poverty, trauma, housing) that a standardized curriculum cannot address; focusing on curriculum ignores the root causes of their academic struggle.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C105",
+        "objection": "Teaching the standard dialect as the 'correct' public form inherently devalues home dialects, reinforcing a racial and class hierarchy regardless of the teacher's 'honorable intent.'",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C101",
+        "objection": "Decades of pedagogical research suggest that 'isolated grammar exercises' do not transfer to improved writing and may actually decrease student engagement with literacy.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C110",
+        "objection": "The 'standardization' of English was not a neutral historical timing but a deliberate project of cultural homogenization that marginalized non-Anglophone populations.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Civic Necessity of Common Language",
+        "chain": [
+          "C1",
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "strong"
+      },
+      {
+        "name": "The Crisis of Linguistic Instruction",
+        "chain": [
+          "C12",
+          "C13",
+          "C14",
+          "C15"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Critique of Linguistic Relativism",
+        "chain": [
+          "C20",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Linguistic Power Chain",
+        "chain": [
+          "C24",
+          "C22",
+          "C21",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Artificial Infrastructure Chain",
+        "chain": [
+          "C34",
+          "C35",
+          "C32",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Teacher Duty Chain",
+        "chain": [
+          "C31",
+          "C23",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "Historical Evolution of the Nation-State",
+        "chain": [
+          "C42",
+          "C46",
+          "C47",
+          "C48",
+          "C50"
+        ],
+        "conclusion_id": "C50",
+        "strength": "strong"
+      },
+      {
+        "name": "The Prerequisite for Social Mobility",
+        "chain": [
+          "C53",
+          "C54",
+          "C55",
+          "C52"
+        ],
+        "conclusion_id": "C52",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Basis for Content-Rich Curriculum",
+        "chain": [
+          "C56",
+          "C57",
+          "C59",
+          "C60",
+          "C58"
+        ],
+        "conclusion_id": "C58",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linguistic Necessity of Shared Knowledge",
+        "chain": [
+          "C66",
+          "C67",
+          "C68",
+          "C74",
+          "C72"
+        ],
+        "conclusion_id": "C72",
+        "strength": "strong"
+      },
+      {
+        "name": "The Failure of Strategy-Based Reform",
+        "chain": [
+          "C61",
+          "C78",
+          "C73",
+          "C64"
+        ],
+        "conclusion_id": "C64",
+        "strength": "moderate"
+      },
+      {
+        "name": "Educational Productivity and Equity",
+        "chain": [
+          "C80",
+          "C79",
+          "C72"
+        ],
+        "conclusion_id": "C79",
+        "strength": "moderate"
+      },
+      {
+        "name": "Efficiency and Equity through Sequencing",
+        "chain": [
+          "C83",
+          "C84",
+          "C81"
+        ],
+        "conclusion_id": "C81",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Necessity of Linguistic Standardisation",
+        "chain": [
+          "C89",
+          "C88",
+          "C86"
+        ],
+        "conclusion_id": "C86",
+        "strength": "moderate"
+      },
+      {
+        "name": "Grammar Instruction as Social Protection",
+        "chain": [
+          "C92",
+          "C96",
+          "C93",
+          "C91"
+        ],
+        "conclusion_id": "C93",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Mobility Argument",
+        "chain": [
+          "C116",
+          "C111",
+          "C107",
+          "C105"
+        ],
+        "conclusion_id": "C105",
+        "strength": "strong"
+      },
+      {
+        "name": "The Linguistic Realism Argument",
+        "chain": [
+          "C114",
+          "C115",
+          "C101"
+        ],
+        "conclusion_id": "C101",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Jeffersonian Public-Private Argument",
+        "chain": [
+          "C108",
+          "C104",
+          "C105"
+        ],
+        "conclusion_id": "C105",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.007533400000000001,
+    "duration_s": 94.7738983631134
+  }
+}

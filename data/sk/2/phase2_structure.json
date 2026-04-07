@@ -1,0 +1,274 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The 100% success rate in high school admissions provides the empirical justification for the normative claim that the model should be replicated."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "To argue the curriculum is the primary cause, the author must first rule out increased funding as a confounding variable."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "To argue the curriculum is the primary cause, the author must argue that the results transcend the individual talent of the staff."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "The theoretical premise that reading is knowledge-dependent directly undermines the general-skill theory of child-centered pedagogy."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "instantiates",
+        "explanation": "Rudolf Flesch's work is cited as the specific historical instance of the fallacious general-skill theory in practice."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The recommendation to implement the model elsewhere assumes the curriculum (the model) is the actual mechanism of success."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim that individualized practices caused a literacy decline assumes that the 'readability' theory underlying those practices is scientifically erroneous."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C16",
+        "relationship": "supports",
+        "explanation": "A decline in national literacy is presented as the primary causal mechanism for the harm done to American democracy."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C16",
+        "relationship": "depends-on",
+        "explanation": "The harm to democracy is specifically defined as the political and social disarray resulting from a lack of shared communicability."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "If reading scores predict income, then equalizing scores is a necessary prerequisite for achieving an economically equal society."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The practical utility of literacy in the economy explains why higher reading scores correlate with higher adult income."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C20",
+        "relationship": "instantiates",
+        "explanation": "The AFQT serves as a specific instance of a metric demonstrating the utility of literacy in the military and civilian sectors."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C2",
+        "warrant_text": "Long-term (23-year) perfect consistency in student outcomes across multiple schools (7) indicates a systemic success rather than a statistical fluke.",
+        "is_explicit": true,
+        "vulnerability": "Relies on the definition of 'select high schools'; if the criteria for 'select' are broad, the 100% figure is less impressive."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "Succeeding with a demographic characterized by high poverty and minority status constitutes an 'educational miracle' because it overcomes traditional sociological barriers to achievement.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that demographics alone predict failure, potentially ignoring the 'creaming' effect of a lottery system."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E4",
+        "claim_id": "C8",
+        "warrant_text": "A direct chronological correspondence between the introduction of a new pedagogical tool (classroom libraries/child-centeredness) and a decline in national test scores suggests a causal link.",
+        "is_explicit": true,
+        "vulnerability": "Correlation is not causation; the 1950s also saw the rise of television and other massive social shifts that could affect literacy."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E7",
+        "claim_id": "C13",
+        "warrant_text": "Personal experience of succeeding on standardized tests due to general literacy (acquired from literate parents) suggests that reading ability is a reflection of accumulated knowledge rather than a stand-alone mechanic.",
+        "is_explicit": true,
+        "vulnerability": "Anecdotal evidence; the author's individual experience may not generalize to the cognitive mechanisms of all learners."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C17",
+        "claim_id": "C19",
+        "warrant_text": "If a specific educational outcome (reading scores) is the primary determinant of economic status (income), then achieving social equality is impossible without first achieving parity in that educational outcome.",
+        "is_explicit": true,
+        "vulnerability": "Economic equality may be hampered by structural factors like discrimination or tax policy even if literacy scores are perfectly equalized."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C14",
+        "claim_id": "C15",
+        "warrant_text": "Pedagogical practices derived from scientifically incorrect theories about cognitive processes (like reading) will inevitably lead to worse performance than practices based on correct theories.",
+        "is_explicit": false,
+        "vulnerability": "A practice might be effective for other reasons (e.g., student engagement) even if its underlying theoretical justification is flawed."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C18",
+        "claim_id": "C16",
+        "warrant_text": "The stability of a democracy depends on the ability of its citizens to communicate effectively through a shared framework of knowledge and literacy.",
+        "is_explicit": true,
+        "vulnerability": "Democracy might be harmed more by resource scarcity or institutional corruption than by linguistic or communicative fragmentation."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C5",
+        "missing_step": "The 1% acceptance rate (high exclusivity) does not create a selection bias that accounts for the student performance independent of the curriculum.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C2",
+        "to_id": "C25",
+        "missing_step": "A model that succeeds in a charter school environment with high parental buy-in will produce the same results in a standard district school where participation is mandatory and not choice-based.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C12",
+        "to_id": "C11",
+        "missing_step": "A curriculum that increases individual earning power also necessarily strengthens the democratic health and political stability of the nation.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C15",
+        "to_id": "C16",
+        "missing_step": "Establishing that the 'harm to democracy' is specifically caused by literacy rather than concurrent shifts in economic policy or social norms.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C17",
+        "to_id": "C19",
+        "missing_step": "The assumption that better 'early literacy instruction' must take the form of the shared-knowledge curriculum mentioned earlier in the book to achieve the stated equality.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C5",
+        "objection": "The 'Success of the Icahn Schools' is likely a result of selection bias; parents who enter a lottery with a 1% chance are uniquely motivated and involved, creating a peer environment that would succeed regardless of the curriculum used.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "While reading requires knowledge, there are undeniable transferable decoding skills and meta-cognitive strategies (summarizing, questioning) that function independently of specific content knowledge.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C25",
+        "objection": "The success in the South Bronx may be due to the 'Hawthorne Effect' or the specific leadership of Jeff Litt, which cannot be scaled or mass-produced across thousands of diverse school districts.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C16",
+        "objection": "The 'disarray' in American democracy might be a result of increased pluralism and the breakdown of traditional power structures rather than a decline in literacy or shared knowledge.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C19",
+        "objection": "Equalizing reading scores between advantaged and disadvantaged students may not lead to an equal society if the 'advantaged' students still benefit from social capital, networking, and inherited wealth that literacy instruction cannot offset.",
+        "objection_type": "scope_limitation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The South Bronx Empirical Proof",
+        "chain": [
+          "C1",
+          "C2",
+          "C3",
+          "C28",
+          "C5",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Critique of Status Quo",
+        "chain": [
+          "C13",
+          "C9",
+          "C10",
+          "C11",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "strong"
+      },
+      {
+        "name": "The Economic Mobility Argument",
+        "chain": [
+          "C13",
+          "C12",
+          "E6",
+          "E7"
+        ],
+        "conclusion_id": "C12",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Democratic Stability Chain",
+        "chain": [
+          "C14",
+          "C15",
+          "C18",
+          "C16"
+        ],
+        "conclusion_id": "C16",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Economic Mobility Chain",
+        "chain": [
+          "C21",
+          "C20",
+          "C17",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0017517000000000001,
+    "duration_s": 26.21553683280945
+  }
+}

@@ -1,0 +1,940 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C12",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The massive size of the neocortex and its unique neurons are cited as the biological evidence that it serves as a 'blank slate' for cultural learning."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "If the neocortex is a blank slate, it follows that there is no innate biological blueprint for mental development."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If there is no inborn blueprint, then readiness must be a product of prior accumulated knowledge."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "Since Piaget's stages are incorrect, the 'developmentally appropriate practice' based on them is a hindrance."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "If readiness depends on prior learning, education must be an 'instructivist' process of providing that knowledge."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "If education is instructivist, then the opposite approach (child-centered constructivism) is the primary cause of decline."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "Because the brain evolved for group cooperation to ensure survival, the primary function of education is integration into that group."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The unique flexibility of human neocortical cells at the cellular level provides the biological mechanism that allows for universal learning."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that the neocortex is a blank slate relies on the empirical finding that its circuitry is sufficiently flexible to accept any form of knowledge."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "If the brain does not start with pre-written content (blank slate), it follows that humans and societies have the capacity to create and recreate themselves through the content they choose to provide."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "If societies can recreate themselves via cortical plasticity, then ethnicity is logically a product of that recreation (a construct) rather than a fixed biological destiny."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "The evolutionary pressure of maintaining a complex society necessitated a control agency (neocortex) to manage the impulses that would otherwise destroy social cooperation."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "Because ethnicity is a learned construct, education possesses the specific power to modify, add to, or dismantle those constructions."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The malleability of ethnicity through education makes 'essentialism'—the belief that it is unchangeable—an intellectual error that blocks social progress."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "The historical intent of the common school (creating civic unity) justifies the claim that a shared public sphere is necessary for national unity."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C50",
+        "relationship": "depends-on",
+        "explanation": "The claim that learning is a social process depends on the premise that the individual mind is formed by a society's shared knowledge and values."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "The non-existence of general critical thinking skills is a logical consequence of the broader principle of domain specificity."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "If learning is social rather than natural, then language and competence must be taught explicitly through factual knowledge rather than left to natural development."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C47",
+        "relationship": "instantiates",
+        "explanation": "The empirical observation that skills do not transfer across domains (tennis to golf) serves as a primary instance supporting the theory of domain specificity."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "Establishing that thinking is always 'about' something specific undermines the concept of general, transferable critical thinking."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "Reading comprehension can only be a function of background knowledge if the text itself omits necessary information that the reader must provide."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "The shift from decoding words to decoding meanings is the mechanism that allows background knowledge to become the primary factor in comprehension."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "If reading comprehension depends on specific background knowledge, it cannot be a general skill that transfers across all subjects regardless of content."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that schools should teach shared knowledge relies on the theoretical claim that such knowledge is required for effective reading/communication."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C70",
+        "relationship": "supports",
+        "explanation": "The necessity of cultural vocabulary for reading mastery justifies the curriculum's focus on shared public discourse."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "Evidence that more knowledge leads to better problem solving supports the claim that problem solving is knowledge-based."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C75",
+        "relationship": "instantiates",
+        "explanation": "The chess example serves as a specific instance of the general principle that expertise is knowledge-based."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that grandmasters lack superior general skills depends on the empirical correlation between their rank and their domain-specific memory (position reproduction)."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C84",
+        "relationship": "depends-on",
+        "explanation": "Expertise in chess is presented as a primary case study for the broader claim that specific factual knowledge, rather than general skill, drives high performance."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C83",
+        "relationship": "supports",
+        "explanation": "The disappearance of the memory advantage when pieces are randomized suggests there is no underlying 'general mental muscle' or general recall skill being used."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C89",
+        "relationship": "depends-on",
+        "explanation": "If there is no general mental muscle for chess, the author generalizes this to mean there are no general skills in any domain."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C85",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a massive store of information for basic cognitive acts establishes long-term memory as the central structure of cognition."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C85",
+        "relationship": "supports",
+        "explanation": "The fact that complex processing is only possible through pre-coded knowledge proves that long-term memory is active and dominant, not passive."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C94",
+        "relationship": "supports",
+        "explanation": "The baseball study (C96) provides empirical proof that reading skill (a general skill) is actually dependent on specific topic knowledge."
+      },
+      {
+        "from_id": "C97",
+        "to_id": "C94",
+        "relationship": "depends-on",
+        "explanation": "Since chunking is the only way to bypass working memory limits, and chunking requires prior knowledge, all skilled performance (which requires processing information) must depend on that knowledge."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C101",
+        "relationship": "depends-on",
+        "explanation": "The claim that looking things up on Google is not a substitute for learning facts relies on the premise that you must already have knowledge to interpret the results you find."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C102",
+        "relationship": "supports",
+        "explanation": "The inability of reference works to help those without prior knowledge provides empirical weight to the idea that search engines also require prior knowledge."
+      },
+      {
+        "from_id": "C104",
+        "to_id": "C105",
+        "relationship": "depends-on",
+        "explanation": "The futility of teaching all-purpose skills in schools is a logical consequence of the scientific consensus that expertise is domain-specific."
+      },
+      {
+        "from_id": "C104",
+        "to_id": "C109",
+        "relationship": "depends-on",
+        "explanation": "If skills are domain-specific and built through long-term memory, then a systematic, cumulative curriculum is the most effective way to build those skills."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "The observation that the general-skills myth protects officials from controversy explains why they feel they can sidestep their responsibilities with a good conscience."
+      },
+      {
+        "from_id": "C109",
+        "to_id": "C110",
+        "relationship": "supports",
+        "explanation": "Systematic schooling is proposed as the best for all, but its specific power to close the achievement gap makes it especially beneficial for the disadvantaged."
+      },
+      {
+        "from_id": "C109",
+        "to_id": "C108",
+        "relationship": "supports",
+        "explanation": "If systematic schooling is the best form of education, it follows pragmatically that the public should demand the specific content that makes such schooling possible."
+      },
+      {
+        "from_id": "C104",
+        "to_id": "C120",
+        "relationship": "depends-on",
+        "explanation": "The call for public pressure to align curricula with cognitive science is based on the claim that cognitive science has reached a consensus on domain-specificity."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "1.C10",
+        "relationship": "supports",
+        "explanation": "Scientific evidence of working memory limits (chunking) directly refutes the idea that skills can function independently of background knowledge."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C122",
+        "relationship": "depends-on",
+        "explanation": "The failure of reference works is a specific application of the broader cognitive constraint where lack of prior knowledge prevents effective information processing."
+      },
+      {
+        "from_id": "1.C10",
+        "to_id": "C123",
+        "relationship": "depends-on",
+        "explanation": "The meta-claim about political avoidance assumes the underlying scientific claim (that general skills are a myth) is already established."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "4.C31",
+        "relationship": "supports",
+        "explanation": "Miller's research on chunking provides the psychological mechanism that proves general expertise in thinking is not a reliable concept."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C8",
+        "warrant_text": "If children of the same biological age in different cultures acquire vastly different mental competencies (like specific languages), then mental development is driven by cultural input rather than biological age.",
+        "is_explicit": true,
+        "vulnerability": "Physical maturation might still be a prerequisite for the complexity of the cultural input an individual can process."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C15",
+        "warrant_text": "Biological observations of the neocortical microcircuit as a 'Tabula Rasa' confirm the philosophical claim that the mind is a blank slate at birth.",
+        "is_explicit": false,
+        "vulnerability": "A 'blank slate' at the microcircuit level does not preclude the existence of genetically determined architectural biases or 'priors' for learning."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E8",
+        "claim_id": "C19",
+        "warrant_text": "The evolutionary purpose of an organ (the neocortex) defines the proper social and functional purpose of the activities (education) that develop that organ.",
+        "is_explicit": false,
+        "vulnerability": "The 'naturalistic fallacy': just because the brain evolved for group survival doesn't mean modern education *ought* to prioritize group initiation over individual autonomy."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Kalisman 2005 article",
+        "claim_id": "C25",
+        "warrant_text": "If a specialized scientific study identifies the fundamental architecture of an organ as a 'tabula rasa' at the microcircuit level, then that organ lacks innate specialized content.",
+        "is_explicit": true,
+        "vulnerability": "Scientific metaphors like 'tabula rasa' in a paper title may describe structural potential rather than a total absence of developmental biases or architectural constraints."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Evolutionary growth of neocortex size",
+        "claim_id": "C21",
+        "warrant_text": "Biological organs that expand significantly in a specific lineage usually do so to meet the primary survival challenges unique to that lineage—in this case, complex social coordination.",
+        "is_explicit": false,
+        "vulnerability": "The 'social brain hypothesis' is a leading theory but competes with other explanations for neocortex size, such as foraging complexity or ecological problem-solving."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "In vivo testing of neocortical tissues",
+        "claim_id": "C26",
+        "warrant_text": "Observed flexibility in living human tissue provides a more reliable indicator of potential than theoretical models or animal analogs.",
+        "is_explicit": true,
+        "vulnerability": "Laboratory flexibility of tissue (plasticity) does not necessarily equate to a lack of innate 'priors' or architectural predispositions in the developing brain."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C56",
+        "claim_id": "C47",
+        "warrant_text": "If the human brain cannot transfer technical mastery from one physical or cognitive task to a similar but distinct task, then 'skill' is not a general faculty but is inherently tied to specific content.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that mental skills have higher transferability than physical skills, or that 'near-transfer' is common even if 'far-transfer' is rare."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C46",
+        "claim_id": "C44",
+        "warrant_text": "The successful historical precedent of using common schools to forge a unified republic suggests that shared knowledge is a functional requirement for modern national stability.",
+        "is_explicit": false,
+        "vulnerability": "The historical design of the school system does not prove that its method was the only—or even the primary—cause of past national unity."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C53",
+        "claim_id": "C50",
+        "warrant_text": "If cognitive development does not follow a fixed internal biological clock (Piaget), it must be driven by external, environmental, and social inputs.",
+        "is_explicit": true,
+        "vulnerability": "Learning could be neither strictly Piagetian nor strictly social; it could be a complex interaction of genetic predispositions and varied environments."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C57",
+        "claim_id": "C51",
+        "warrant_text": "Logic and thinking are formal processes that cannot operate without content; therefore, the quality of 'thinking' is limited by the quantity and quality of 'knowledge' available.",
+        "is_explicit": true,
+        "vulnerability": "Metacognitive strategies (e.g., self-questioning) may be transferable across domains even if the domain-specific content is required to apply them."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C79",
+        "claim_id": "C80",
+        "warrant_text": "If a person's superior performance is highly correlated with memory for domain-specific patterns but not with general memory or logic tests, then the performance is driven by domain-specific knowledge rather than general ability.",
+        "is_explicit": false,
+        "vulnerability": "Pattern recognition might be a specific type of 'general skill' that is being miscategorized as 'mere facts.'"
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C66",
+        "claim_id": "C63",
+        "warrant_text": "Meaning-making requires the integration of textual cues with existing mental schemas; if the cues are insufficient (as in C64), the schema (background knowledge) is the decisive variable.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive strategies for inferencing could mitigate a lack of specific knowledge."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C77",
+        "claim_id": "C75",
+        "warrant_text": "Highly complex tasks are representative of 'problem solving' in general; therefore, the mechanisms of expertise in one complex task (chess) apply to the nature of problem solving as a whole.",
+        "is_explicit": false,
+        "vulnerability": "Chess is a closed-system game with fixed rules; problem solving in social or creative domains may require different cognitive structures."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C82",
+        "claim_id": "C84",
+        "warrant_text": "If a professional's performance advantage disappears when domain-specific patterns are removed, the advantage must reside in the stored patterns (knowledge) rather than innate cognitive processing speed (skill).",
+        "is_explicit": true,
+        "vulnerability": "Recalling a board layout is a task of pattern recognition, which may not be perfectly analogous to other 'skills' like logical reasoning or creative synthesis."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C96",
+        "claim_id": "C94",
+        "warrant_text": "If prior knowledge of a topic can equalize or reverse the performance gap between 'good' and 'poor' readers, then the 'reading skill' being measured is actually a proxy for 'background knowledge.'",
+        "is_explicit": false,
+        "vulnerability": "The study may show that knowledge helps reading, but it does not necessarily prove that 'reading skill' does not exist at all as a separate, transferable cognitive process."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "De Groot chess experiments",
+        "claim_id": "C104",
+        "warrant_text": "If elite performance in a complex task (chess) collapses when the specific, familiar patterns are randomized, the skill is dependent on a stored inventory of facts rather than a general mental faculty.",
+        "is_explicit": true,
+        "vulnerability": "Chess is a closed-system game; it is an inductive leap to assume open-ended cognitive tasks like 'critical thinking' function identically to pattern recognition in chess."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "George Miller's working memory 'chunking'",
+        "claim_id": "C102",
+        "warrant_text": "Meaningful 'chunking' can only occur if the brain can link new information to existing structures in long-term memory; therefore, looking up new facts without prior context cannot bypass working memory bottlenecks.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that search engine interfaces and 'just-in-time' learning tools can scaffold chunking for novices without requiring internal long-term memory."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "Kirschner et al. quote on long-term memory",
+        "claim_id": "C109",
+        "warrant_text": "If the primary goal of all instruction is to change long-term memory, then a curriculum must be designed around the specific contents we want to reside in long-term memory.",
+        "is_explicit": true,
+        "vulnerability": "The warrant assumes that the *content* is what must be stored, rather than the *process* of how to acquire content."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Miller (1956) Chunking Research",
+        "claim_id": "C121",
+        "warrant_text": "Reading comprehension is an information-processing task subject to the same universal cognitive constraints as mathematics or game-playing.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that linguistic context provides more scaffolding than chess positions, making memory limits less restrictive for reading."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Miller & Gildea (Tenet/Meticulous examples)",
+        "claim_id": "C122",
+        "warrant_text": "Dictionary definitions are not self-contained meanings; they require a baseline of semantic and world knowledge to be correctly interpreted.",
+        "is_explicit": false,
+        "vulnerability": "The examples use children; a critic might argue that adults or older students have enough 'meta-knowledge' to use dictionaries effectively even in new domains."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C2",
+        "missing_step": "Even if Piaget's specific stages are scientifically incorrect, it must be proven that his broader philosophy—rather than poor teacher training or socio-economic factors—is the *primary* driver of student performance decline.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C19",
+        "missing_step": "Transitioning from the biological fact of 'group cooperation for survival' to the normative claim that education's 'chief function' is national initiation.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C25",
+        "to_id": "C27",
+        "missing_step": "Proof that flexibility (the ability to learn) implies the total absence of innate cognitive modules or 'pre-written' instincts.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C34",
+        "to_id": "C38",
+        "missing_step": "Demonstrating that the same educational tools that build tribalism can effectively be used to dissolve it in favor of a much larger, more abstract 'universal' group.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C31",
+        "to_id": "C34",
+        "missing_step": "Establishing that biological markers of ancestry play no role in the social categorization of ethnicity, focusing entirely on the neural 'writing' of culture.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C44",
+        "missing_step": "A shared public sphere of knowledge is the specific mechanism that counteracts the 'essentialism' that leads to intergroup hostility.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C47",
+        "to_id": "C55",
+        "missing_step": "Because skills are domain-specific, the only way to achieve general competence is to explicitly teach an exhaustive range of specific factual domains.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C50",
+        "to_id": "C44",
+        "missing_step": "The 'social process' of learning must be standardized at the national level to ensure the 'shared' nature of the public sphere.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C63",
+        "to_id": "C70",
+        "missing_step": "A common-core curriculum is the most efficient or only way to ensure all students acquire the specific background knowledge needed for the public sphere.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C80",
+        "to_id": "C75",
+        "missing_step": "All human problem-solving tasks function through the same pattern-recognition mechanisms observed in chess experts.",
+        "step_type": "generalization",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C82",
+        "to_id": "C89",
+        "missing_step": "Proof that findings in closed-system games (chess) apply to open-system cognitive tasks (social intelligence, leadership).",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C96",
+        "to_id": "C89",
+        "missing_step": "Establishment that no meta-cognitive strategies (like self-monitoring or context-clue analysis) exist independently of the specific content being read.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C104",
+        "to_id": "C109",
+        "missing_step": "Establishing that a 'systematic, grade-by-grade' approach is the only or most efficient way to build the necessary domain-specific knowledge compared to other structured methods.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C112",
+        "to_id": "C108",
+        "missing_step": "The link between the biological necessity of social rules and the specific administrative requirement for 'grade-by-grade' content in modern American schools.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C121",
+        "to_id": "C123",
+        "missing_step": "The scientific consensus on working memory is widely known and understood by educational officials.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C122",
+        "to_id": "1.C41",
+        "missing_step": "A single national 'intellectual currency' is the only way to provide the background knowledge necessary to avoid dictionary-use distortions.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C3",
+        "objection": "While Piaget's specific four stages may be flawed, cognitive science (e.g., Pinker, Spelke) suggests infants possess 'core knowledge' modules for objects, numbers, and agents that constitute a biological blueprint for mental development.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C20",
+        "objection": "Prioritizing the group over the individual in education risks facilitating indoctrination and suppressing the critical thinking necessary for an individual to challenge group errors.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C2",
+        "objection": "Educational decline could be attributed to the 'factory model' of schooling and standardization rather than child-centeredness, which is often more discussed in theory than actually implemented in classrooms.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C27",
+        "objection": "Mainstream evolutionary psychology (e.g., Pinker, Tooby, Cosmides) argues that the brain consists of specialized 'evolved modules' for language, social exchange, and physics, rather than being a content-free blank slate.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C34",
+        "objection": "Even if ethnicity is a construct, it is often built upon visible phenotypic traits and genetic lineages that are 'inherent biological traits,' making it more than just a learned behavior that can be 'unmade' easily.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C38",
+        "objection": "If tribalism is a 'universal human characteristic' (C37), the attempt to create a 'universalistic tribalism' may be biologically impossible, as human group-loyalty mechanisms may require an 'out-group' to function.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C44",
+        "objection": "In a pluralistic democracy, national unity is better served by shared procedural values (like the rule of law) than by a government-mandated shared body of factual knowledge, which risks indoctrination.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C51",
+        "objection": "While pure 'general skills' may not exist, teaching heuristics and critical thinking dispositions (like searching for counter-evidence) has been shown to improve performance across diverse novel problems.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C55",
+        "objection": "Explicit factual teaching can lead to rote memorization without true understanding; 'natural' or inquiry-based development, though slower, may lead to deeper conceptual mastery.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C67",
+        "objection": "While reading depends on knowledge, there are transferable 'metacognitive' skills—such as monitoring one's own understanding, summarizing, and self-questioning—that improve comprehension across different domains.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C70",
+        "objection": "Defining which 'background knowledge' is 'most widely shared' is a subjective political process that can lead to the marginalization of minority cultures or the ossification of a dominant ideology.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C75",
+        "objection": "High-level problem solving often requires 'divergent thinking' and creativity that cannot be reduced to the retrieval of stored facts from long-term memory.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C89",
+        "objection": "While specific knowledge is required for expertise, humans also utilize 'far transfer' skills such as analogical reasoning and heuristic problem-solving that can be applied across different domains.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C84",
+        "objection": "The author ignores the role of procedural knowledge (knowing how) in favor of declarative knowledge (knowing that); chess expertise involves not just remembering boards, but the ability to search move-trees efficiently.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C104",
+        "objection": "While experts rely on domain-specific knowledge, novices can still be taught general 'heuristic' strategies (e.g., 'consider the source,' 'look for counter-examples') that improve their performance across many domains even before they become experts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C101",
+        "objection": "The 'Google' argument isn't that facts are unnecessary, but that the *cost* of fact-retrieval has dropped so low that instructional time is better spent on higher-order evaluation skills than on rote memorization of low-frequency data.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C109",
+        "objection": "A systematic, grade-by-grade curriculum may be efficient for building knowledge but risks destroying student engagement and intrinsic motivation, which are also scientifically recognized as critical for long-term learning.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C123",
+        "objection": "Educational officials may promote 'general skills' not to avoid controversy, but because they believe meta-cognitive strategies (like self-monitoring) are more equitable and adaptable for marginalized students than a fixed canon.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C122",
+        "objection": "The failure of children to use a dictionary correctly may be a failure of 'dictionary skills' (a specific general skill) rather than a lack of subject-matter knowledge.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "Biological Basis of Learning",
+        "chain": [
+          "C12",
+          "C15",
+          "C3",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "strong"
+      },
+      {
+        "name": "Failure of Educational Romanticism",
+        "chain": [
+          "C4",
+          "C5",
+          "C6",
+          "C10",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "moderate"
+      },
+      {
+        "name": "Social Purpose of Education",
+        "chain": [
+          "C12",
+          "C17",
+          "C18",
+          "C19",
+          "C20"
+        ],
+        "conclusion_id": "C19",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Biological Case for Malleability",
+        "chain": [
+          "C26",
+          "C25",
+          "C23",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "strong"
+      },
+      {
+        "name": "From Neurobiology to Social Engineering",
+        "chain": [
+          "C27",
+          "C31",
+          "C32",
+          "C33"
+        ],
+        "conclusion_id": "C31",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Deconstruction of Ethnicity",
+        "chain": [
+          "C31",
+          "C34",
+          "C35",
+          "C39",
+          "C38"
+        ],
+        "conclusion_id": "C34",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Moral Necessity of Education",
+        "chain": [
+          "C21",
+          "C22",
+          "C30",
+          "C40"
+        ],
+        "conclusion_id": "C40",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Logic of Education",
+        "chain": [
+          "C53",
+          "C52",
+          "C50",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "strong"
+      },
+      {
+        "name": "The Domain Specificity Chain",
+        "chain": [
+          "C59",
+          "C56",
+          "C47",
+          "C51",
+          "C58"
+        ],
+        "conclusion_id": "C51",
+        "strength": "strong"
+      },
+      {
+        "name": "The Civic Unity Chain",
+        "chain": [
+          "C41",
+          "C46",
+          "C42",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Knowledge-Based Reading Chain",
+        "chain": [
+          "C64",
+          "C66",
+          "C63",
+          "C67",
+          "C69",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "strong"
+      },
+      {
+        "name": "The Expertise-as-Knowledge Chain",
+        "chain": [
+          "C79",
+          "C78",
+          "C80",
+          "C77",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Domain Specificity of Education Chain",
+        "chain": [
+          "C61",
+          "C62",
+          "C72",
+          "C73"
+        ],
+        "conclusion_id": "C73",
+        "strength": "strong"
+      },
+      {
+        "name": "The Chess Expertise Argument",
+        "chain": [
+          "C81",
+          "C82",
+          "C83",
+          "C84"
+        ],
+        "conclusion_id": "C84",
+        "strength": "strong"
+      },
+      {
+        "name": "Cognitive Architecture Argument",
+        "chain": [
+          "C92",
+          "C97",
+          "C93",
+          "C85"
+        ],
+        "conclusion_id": "C85",
+        "strength": "strong"
+      },
+      {
+        "name": "Domain Specificity of Language",
+        "chain": [
+          "C96",
+          "C98",
+          "C99",
+          "C95",
+          "C94"
+        ],
+        "conclusion_id": "C94",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Science Foundation",
+        "chain": [
+          "C104",
+          "C105",
+          "C102",
+          "C101"
+        ],
+        "conclusion_id": "C101",
+        "strength": "strong"
+      },
+      {
+        "name": "The Call for Curriculum Reform",
+        "chain": [
+          "C104",
+          "C109",
+          "C110",
+          "C108",
+          "C120"
+        ],
+        "conclusion_id": "C120",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Institutional Critique",
+        "chain": [
+          "C106",
+          "C107",
+          "C120"
+        ],
+        "conclusion_id": "C120",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Bottleneck Argument",
+        "chain": [
+          "C121",
+          "C122",
+          "1.C10",
+          "4.C31"
+        ],
+        "conclusion_id": "4.C31",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political Preservation of Error",
+        "chain": [
+          "1.C10",
+          "C123",
+          "4.C49"
+        ],
+        "conclusion_id": "4.C49",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.008520000000000002,
+    "duration_s": 108.26328492164612
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-03-30T07:20:01.616Z",
+  "chapter": "prologue",
+  "pipeline": "three-phase (gemini3-flash p1+p3, flash/sonnet p2)",
+  "q1_wrong_claims": "Looks good, but devil is in the details. Since this is the foreword he's laying out his map to be filled in by the rest of the book.",
+  "q2_biggest_gap": "Many claims missed. Key ones: (1) achievement gap can be ameliorated by knowledge-based schooling — his major thesis, rich and citable. (2) French curriculum used to focus on imparting same knowledge to all, was successful in equalizing. (3) 20 years of indoctrination in French ed schools with American progressive ed. (4) His description of the French reform is itself a claim. (5) Steep decline across all demographic groups. (6) American scores fell rapidly 1960-1980. (7) Three ideas caused the decline. (8) Whole nations successfully followed communal knowledge via national curricula. (9) Educational individualism has always required the general-skills idea. (10) Dewey's central claim was debunked. (11) Domain specificity of skills — strong claim. Also flagged: concept of developmental appropriateness, benign providence, goal of primary school.",
+  "q3_warrants": "Likes all warrants. Great framings to carry through the book. General approach is solid. More warrants needed for additional claims.",
+  "q4_counter_args": "All counter-arguments rated 'real' — both Flash and Sonnet.",
+  "q4_triages": {"CA1": "real", "CA2": "real", "CA3": "real", "C1": "real", "C2": "real", "C4": "real", "C6": "real", "C12": "real"},
+  "q5_chains": "Visualization doesn't help understand chains. No opinion yet.",
+  "overall_verdict": null,
+  "overall_notes": "Missed quite a few things, but things detected are all good. KEY NEW INSIGHTS: (1) Need 'concepts' as separate entity — how Hirsch defines contested terms like communal education, developmental appropriateness, skills-based vs knowledge-based. Rich explanations from different contexts, contrast with other definitions. (2) Track specific cases (France, Finland) as rich entities. (3) Track people/theories (Dewey, Rousseau) as substantive entities with their own claims. (4) Should iterate and run on richer chapters before scaling."
+}

@@ -1,0 +1,252 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C4",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "Superior student results in CK schools relative to the status quo provide the empirical basis for the claim of CK's superiority."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "Lower operating costs add a pragmatic/efficiency-based reason for CK being considered superior."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The firsthand testimony of veteran teachers validates the practical superiority of CK over the status quo."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "The claim that CK is superior rests on the premise that the 'reality principle' (cognitive science) is the correct metric for education."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "Historical data showing higher scores when 'sounder' theories were in place supports the idea that theory, not neglect, is the primary variable."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "If incorrect theories caused the decline, then education must be anchored in the 'reality principle' of cognitive science to recover."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C26",
+        "relationship": "depends-on",
+        "explanation": "Establishing CK's superiority leads to the normative conclusion that legislators must implement tests to enforce this model."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The decline in SAT verbal scores serves as the primary empirical evidence that educational quality/equity worsened during the rise of progressive education."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim that earlier theories were sounder is predicated on the poor current international ranking being a deviation from a better past."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "If outcomes worsened as progressive theories were adopted, the author infers that the preceding theories were superior."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The success of students in shared-topic (Core Knowledge) schools regardless of wealth provides the proof-of-concept for erasing the achievement gap."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The broader social and political improvements are dependent on the school system's ability to first achieve equitable educational outcomes."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "Cognitive science-based recovery from learning losses is presented as a necessary step toward national improvement."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C4",
+        "warrant_text": "Standardized test scores and student results are the primary and objective metric for measuring the quality of a pedagogy.",
+        "is_explicit": false,
+        "vulnerability": "Critics may argue that standardized results miss qualitative outcomes like creativity, critical thinking, or social-emotional growth emphasized in child-centered models."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E7",
+        "claim_id": "C10",
+        "warrant_text": "If a pedagogical method aligns with the biological and cognitive mechanisms of how the brain learns, it is necessarily the correct method for schooling.",
+        "is_explicit": true,
+        "vulnerability": "Scientific findings in a controlled lab (cognitive science) may not account for the social and motivational complexities of a diverse classroom."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C11",
+        "warrant_text": "A chronological decline in performance coinciding with a shift in educational philosophy implies that the philosophy caused the decline.",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; other factors like increased TV consumption, family structure changes, or demographic shifts could be the true causes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E5",
+        "claim_id": "C17",
+        "warrant_text": "SAT verbal scores are an accurate barometer for the overall literacy levels and cognitive preparation of the American student population over time.",
+        "is_explicit": false,
+        "vulnerability": "The SAT population changed over decades; as more students from diverse backgrounds took the test, a decline in mean scores might reflect demographic expansion rather than a decline in pedagogical quality."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C19",
+        "claim_id": "C18",
+        "warrant_text": "If a curriculum works in a specific set of schools (CK schools) to equalize outcomes, it will function with the same efficacy if scaled nationally.",
+        "is_explicit": true,
+        "vulnerability": "Scale-up effects often fail due to implementation fidelity, teacher training differences, and the 'lottery effect' where CK parents may be more motivated than the general population."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C25",
+        "missing_step": "Decision-makers in the 'educational establishment' prioritize cost-effectiveness and outcome data over ideological or philosophical commitments.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C11",
+        "to_id": "C26",
+        "missing_step": "High-stakes state testing is the most effective or only tool available for state governments to change the internal classroom practices of schools.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C18",
+        "to_id": "C21",
+        "missing_step": "Individual cognitive mastery of a shared curriculum translates directly into improved civic behavior and political harmony.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "C18",
+        "missing_step": "Early 20th-century schooling was 'knowledge-centered' in the specific way the author defines it, rather than simply being more rigorous or selective.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "The Core Knowledge system's 'one-size-fits-all' curriculum may fail to engage students from diverse backgrounds or those with different learning speeds, whereas child-centered education allows for personalization.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "The decline in American international standing is a result of underfunding, high poverty rates, and lack of social safety nets compared to top-performing nations, rather than just pedagogical theory.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C26",
+        "objection": "Mandating grade-by-grade knowledge tests will lead to 'teaching to the test,' narrowing the curriculum and stripping teachers of professional autonomy.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C18",
+        "objection": "The success of Core Knowledge schools is likely influenced by selection bias; families who enter a kindergarten lottery are already more engaged in their child's education than families in the general public school population.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C21",
+        "objection": "National fairness and political 'comity' are driven by economic policy, electoral structures, and social media algorithms, which better literacy scores alone cannot override.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Superiority of Knowledge-Centered Schooling",
+        "chain": [
+          "C4",
+          "C5",
+          "C1",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "strong"
+      },
+      {
+        "name": "The Theory-Driven Decline Chain",
+        "chain": [
+          "C12",
+          "E4",
+          "E6",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Reality Principle for Reform",
+        "chain": [
+          "E7",
+          "C10",
+          "C29",
+          "C26"
+        ],
+        "conclusion_id": "C10",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Equity through Curriculum Chain",
+        "chain": [
+          "C13",
+          "C19",
+          "C18"
+        ],
+        "conclusion_id": "C18",
+        "strength": "strong"
+      },
+      {
+        "name": "The National Renewal Chain",
+        "chain": [
+          "C14",
+          "C18",
+          "C20",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0014780000000000001,
+    "duration_s": 24.39623785018921
+  }
+}

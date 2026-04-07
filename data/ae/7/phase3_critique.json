@@ -1,0 +1,115 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author presents a sociological argument that the 'general skills' delusion serves as a defensive rationalization for the lack of a coherent, centralized curriculum.",
+        "source_passage": "It’s a notion that was put in place to defend a helter-skelter curriculum that often had to be decided by the classroom teachers themselves.",
+        "importance": "significant",
+        "suggested_claim": "The educational focus on general reading skills functions as a theoretical defense for curriculum fragmentation and teacher autonomy.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The 'Dormative Power' argument: Hirsch uses a satirical reference to argue that labeling expert performance as a 'skill' is a tautological fallacy that explains nothing about the actual mechanism of performance.",
+        "source_passage": "Dr. Herbert A. Simon... remarked that saying an expert performance is caused by a 'skill' is like Moliere’s doctor saying that the sleep-inducing properties of opium are caused by its 'dormative power.'",
+        "importance": "significant",
+        "suggested_claim": "Attributing expertise to an innate 'skill' is a circular explanation that masks the underlying necessity of domain-specific knowledge.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The 'Index' mechanism of memory: Hirsch argues that the 50,000 rapidly accessible schemata do not represent the total sum of knowledge but act as a retrieval index for deeper long-term memory.",
+        "source_passage": "A basic vocabulary of 50,000 schemata serves merely as a quickly accessible index to a much larger volume of knowledge. Any of the 50,000 schemata can be related to others, and the further relationships can be stored in long-term memory.",
+        "importance": "significant",
+        "suggested_claim": "The functional core of literacy is a finite set of approximately 50,000 schemata that serve as an entry-point index to the vast, unstructured knowledge stored in long-term memory.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C9",
+        "problem": "The claim misses the comparative social aspect of Hirsch's definition of 'low ability.'",
+        "source_passage": "It simply means low national-ethnic background knowledge shared by the good readers in a society.",
+        "suggested_fix": "Generally low reading ability is a proxy for lacking the specific national-ethnic background knowledge that is common among a society's proficient readers."
+      },
+      {
+        "claim_id": "C106",
+        "problem": "The claim conflates 'rapid access' with 'total storage.'",
+        "source_passage": "Apparently, a number in the range of 50,000 marks the upper limit of items to which we can have rapid access in any domain of activity.",
+        "suggested_fix": "The limit of 50,000 items represents the maximum capacity for immediate, rapid-access retrieval, not the total storage limit of long-term memory."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E32",
+        "claim_id": "C103",
+        "missing_warrant": "Cognitive processing in chess (visual pattern recognition) and reading (semantic pattern recognition) share the same underlying architecture regarding short-term memory bottlenecks and long-term memory chunking."
+      },
+      {
+        "evidence_id": "E40",
+        "claim_id": "C129",
+        "missing_warrant": "Successful coordination in a specific laboratory communication task involving physical barriers is a reliable proxy for the invisible mental coordination required between an author and a reader."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C90",
+        "counter_argument": "General intelligence (the g-factor) and working memory capacity vary among individuals and act as 'general skills' that predict how quickly and effectively someone can acquire the 50,000 schemata Hirsch describes.",
+        "why_important": "It challenges the claim that there are NO general cognitive factors involved in literacy beyond content knowledge."
+      },
+      {
+        "targets_claim": "C134",
+        "counter_argument": "What is labeled as 'national culture' is actually the linguistic and cultural capital of the dominant social class, rather than a neutral set of cognitive tools.",
+        "why_important": "This addresses the power dynamics and potential for cultural bias in Hirsch's 'American ethnicity' model."
+      },
+      {
+        "targets_claim": "C113",
+        "counter_argument": "Meaning is not just 'shared' or 'retrieved' but is dynamically negotiated between reader and text; readers can and do create valid interpretations using non-standard or 'local' schemata.",
+        "why_important": "It challenges the transmission model of literacy that underpins Hirsch's argument."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C13",
+          "C17",
+          "C136"
+        ],
+        "action": "merge",
+        "explanation": "These claims all restate the same biological fact about the 4-7 item limit of short-term memory and its hardwired nature."
+      },
+      {
+        "claim_ids": [
+          "C118",
+          "C121",
+          "C126"
+        ],
+        "action": "merge",
+        "explanation": "These claims all describe the same mechanism: lack of information leading to cognitive overload during communication/reading."
+      },
+      {
+        "claim_ids": [
+          "C60",
+          "C62",
+          "C63"
+        ],
+        "action": "merge",
+        "explanation": "These claims all state that the mind unconsciously adjusts initial conceptions based on context."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction is exceptionally thorough in capturing individual empirical claims and their supporting studies. However, it leans heavily on the cognitive science aspects and slightly under-represents the author's meta-critique of educational institutions and the 'dormative power' tautology. It also assumes the author's definition of 'American ethnicity' is purely descriptive/cognitive without noting the potential normative and political objections to a monolithic national culture."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0035852,
+    "input_tokens": 29744,
+    "output_tokens": 1527,
+    "duration_s": 26.38894271850586,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

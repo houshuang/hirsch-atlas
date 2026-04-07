@@ -1,0 +1,112 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the neocortex serves a specific moral-evolutionary purpose: to override primitive, selfish instincts in order to maintain the complex social cooperation necessary for species survival.",
+        "source_passage": "The larger neocortex encouraged the evolutionary ability to make a society possible, and to put an agency of control over theft, lust, envy—all those vices repudiated in the Ten Commandments. The neocortex became the maker of the means of communication and of rules of conduct that enable a society to thrive.",
+        "importance": "significant",
+        "suggested_claim": "The neocortex evolved as a biological mechanism for moral regulation and impulse control to facilitate social cohesion.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "There is a significant evolutionary trade-off argument: the neocortex is so advantageous for survival that its development was prioritized despite making human birth physically dangerous.",
+        "source_passage": "Evolution has enabled this cooperation through the development of an enlarged energy-expensive part of the brain that occupies 80 percent of its current total mass: the neocortex. It is so large that birth is painful and dangerous, but its size is worth it statistically, because it fosters survival.",
+        "importance": "minor",
+        "suggested_claim": "The survival benefits of the neocortex outweigh the high biological and maternal costs associated with its size.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the U.S. Constitution is not just a political document but a practical application of Enlightenment blank-slate theory designed to channel human nature toward republican ends.",
+        "source_passage": "Lucky for us, our founders had read John Locke, not just his theoretical wirings on nation making, but also his blank slate theory. The Constitution and the other qualities justifying Madison’s ‘esteem’ have so far prevailed.",
+        "importance": "significant",
+        "suggested_claim": "The American constitutional framework is a practical political implementation of the Enlightenment blank-slate theory.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "A 'paradox' argument regarding modern technology: search engines are promoted as a replacement for knowledge, but they actually require knowledge to be utilized.",
+        "source_passage": "It’s a paradox that one of the most important educational insights in history... should have arrived just at the time when the fad for twenty-first-century non–domain specific, nonexistent skills should have reached a climax.",
+        "importance": "significant",
+        "suggested_claim": "The cultural shift toward 'looking things up' is self-defeating because the utility of search engines is dependent on the internal knowledge they are meant to replace.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C1",
+        "problem": "The claim omits the specific target of the author's blame. It's not just a general defense of teachers, but a critique of their training.",
+        "source_passage": "It’s not the fault of our teachers that our students are performing poorly... Instead, the main fault lies with the seductive ‘child centered’ ideas drilled into our teachers’ minds.",
+        "suggested_fix": "The poor performance of American students is not due to teacher quality but rather the flawed 'child-centered' theories imposed upon them by teacher-training institutions."
+      },
+      {
+        "claim_id": "C42",
+        "problem": "The claim oversimplifies the author's nuanced point about 'aesthetic' categories. The author isn't dismissing diversity as unimportant, but reclassifying its moral status relative to equality.",
+        "source_passage": "In the United States, our sense of unity based on our equality is an ethical imperative. In that context, diversity is an aesthetic category, not an ethical one. Diversity gets a moral dimension only when we say we should honor every human culture... in accord with the moral principle of equality.",
+        "suggested_fix": "Diversity is fundamentally an aesthetic category that only gains moral weight when subordinated to the ethical principle of human equality."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E4",
+        "claim_id": "C14",
+        "missing_warrant": "Biological uniqueness at the cellular level (rosehip neurons) provides the physical substrate for the qualitative shift from instinct-driven behavior to culture-driven behavior."
+      },
+      {
+        "evidence_id": "E20",
+        "claim_id": "C63",
+        "missing_warrant": "If external knowledge of a topic (baseball) can compensate for poor generalized reading test scores, then topic knowledge is the primary variable in comprehension success, not a general reading 'skill'."
+      },
+      {
+        "evidence_id": "E29",
+        "claim_id": "C103",
+        "missing_warrant": "Linguistic meaning is contextual rather than atomic; therefore, a dictionary definition cannot be synthesized into a correct mental schema without existing semantic world-knowledge."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C15",
+        "counter_argument": "Biological modularity: Evidence from neuroscience (e.g., Broca's area, Wernicke's area) suggests the brain has localized, specialized regions for specific tasks like language, which contradicts the 'blank slate' microcircuit theory.",
+        "why_important": "This challenges the core biological premise that the brain has no 'pre-written' text or architecture."
+      },
+      {
+        "targets_claim": "C47",
+        "counter_argument": "The 'g-factor' (general intelligence): Psychological research suggests that general cognitive ability (IQ) is a transferable asset that allows individuals to acquire domain-specific knowledge across disparate fields faster than those with lower general ability.",
+        "why_important": "It suggests that while 'skills' might be specific, the 'capacity to learn' is a general, transferable trait."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C34",
+          "C35",
+          "C39"
+        ],
+        "action": "merge",
+        "explanation": "All three claims essentially repeat the same point: ethnicity is a learned, malleable cultural construct that can be altered by education. They are three phrasings of a single theoretical claim."
+      },
+      {
+        "claim_ids": [
+          "C108",
+          "C120"
+        ],
+        "action": "merge",
+        "explanation": "Both claims call for the same action: public/parental pressure on educational institutions to change curriculum based on science."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is remarkably thorough, capturing the vast majority of the author's multi-disciplinary argument. It correctly identifies the link between neurobiology (neocortex), political philosophy (Locke/Founding), and cognitive psychology (domain specificity). The primary weaknesses lie in the warrants—many evidence-to-claim links rely on implicit logical leaps that aren't fully articulated in the 'Warrant' section—and in a few cases where the author's 'evolutionary moral' argument was overlooked in favor of purely educational claims."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0029309,
+    "input_tokens": 22373,
+    "output_tokens": 1734,
+    "duration_s": 25.32303023338318,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "If high-performing nations use curricula similar to Core Knowledge, it suggests the curriculum itself is the differentiator."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The claim about curriculum as a primary factor relies on the existence of significant performance gaps as measured by PISA."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "To conclude that a national curriculum would elevate the U.S., one must first accept that curriculum differences are the primary cause of rank differences."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "Low-income students outperforming advantaged students via shared background knowledge serves as a proof of the theory that SBK determines comprehension."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "If SBK determines reading comprehension, and reading comprehension is foundational for academic and economic success, then mastering the CK sequence prepares students for the future."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "The adoption of a national curriculum is seen as the mechanism through which the broader social goal of political unity is achieved."
+      },
+      {
+        "from_id": "9.C57",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "A shared body of knowledge reduces teacher uncertainty and guesswork, which is a primary reason teachers would support and enjoy the curriculum."
+      },
+      {
+        "from_id": "9.C52",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The high student engagement found in knowledge-based classrooms creates a more rewarding and enjoyable environment for teachers."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "2.C25",
+        "relationship": "supports",
+        "explanation": "Evidence of teacher support and professional satisfaction is a necessary component for the recommendation that this educational model be expanded to other regions."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "Preface.C2",
+        "relationship": "supports",
+        "explanation": "If practitioners prefer the content-rich model over the status quo, it provides practical evidence for the model's superiority."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C7",
+        "warrant_text": "Correlation between specific curriculum structures and international test rankings implies that the curriculum is the causal engine of those results.",
+        "is_explicit": true,
+        "vulnerability": "Omit variables like cultural homogeneity, teacher selection, and social safety nets present in top-performing nations."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C9",
+        "warrant_text": "In a comparison where socioeconomic status is inverted by curriculum exposure, the curriculum is the most likely variable responsible for the performance reversal.",
+        "is_explicit": false,
+        "vulnerability": "The 'advantaged' children in Manhattan may have been attending schools with different (potentially lower-quality) teaching methods, not just different content."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E4",
+        "claim_id": "C2",
+        "warrant_text": "Educator testimony regarding classroom experiences is a reliable indicator of systemic curricular incoherence across the broader public school system.",
+        "is_explicit": false,
+        "vulnerability": "Anecdotal evidence from specific teachers may not represent the curricular diversity of the entire American public school system."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C15",
+        "claim_id": "2.C25",
+        "warrant_text": "The successful implementation and scalability of a pedagogical model are contingent upon the buy-in and professional satisfaction of the teachers who execute it.",
+        "is_explicit": false,
+        "vulnerability": "A small sample of enthusiastic early adopters (like those at Icahn schools) may not represent the likely reaction of the broader, more diverse teaching population."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C15",
+        "claim_id": "14.C48",
+        "warrant_text": "If a curriculum makes the difficult task of teaching more enjoyable and effective, then state-level mandates for that curriculum are justified as a benefit to the workforce.",
+        "is_explicit": false,
+        "vulnerability": "Many teachers value pedagogical autonomy over curriculum coherence; for them, a mandate may decrease enjoyment regardless of the curriculum's quality."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C7",
+        "to_id": "C13",
+        "missing_step": "A curriculum that works in a centralized, homogeneous nation can be effectively implemented in a decentralized, diverse federal system like the U.S.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C8",
+        "to_id": "C14",
+        "missing_step": "Cognitive mastery of the same facts leads to political agreement or shared values, rather than just shared vocabulary for deeper disagreement.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C15",
+        "to_id": "14.C48",
+        "missing_step": "A correlation exists between teacher enjoyment of a specific curriculum and the political feasibility of mandating that curriculum state-wide.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "9.C98",
+        "missing_step": "The reported enjoyment of teachers in existing Core Knowledge schools can be replicated in non-charter or more traditionally managed school districts.",
+        "step_type": "generalization",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "PISA performance differences may be primarily driven by levels of child poverty and social inequality rather than the specific content of the school curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "An 'official national curriculum' in the United States would face insurmountable local resistance and political polarization, making the theoretical benefits impossible to realize.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C14",
+        "objection": "Shared knowledge can be used to marginalize minority perspectives; a 'national' curriculum might decrease unity by sparking 'culture wars' over whose knowledge is included.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C15",
+        "objection": "The perceived enjoyment may be a form of 'confirmation bias' or selection bias, where schools that adopt Core Knowledge attract teachers who already prefer structured, content-rich approaches, while more 'progressive' teachers might find the model stifling.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C15",
+        "objection": "High teacher satisfaction in these schools may be attributable to the high success rates and discipline of the students (the 'Icahn effect') rather than the specific content of the curriculum itself.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The International Performance Chain",
+        "chain": [
+          "C6",
+          "C5",
+          "C7",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Justice and Equity Chain",
+        "chain": [
+          "C9",
+          "C8",
+          "C11",
+          "C14"
+        ],
+        "conclusion_id": "C14",
+        "strength": "strong"
+      },
+      {
+        "name": "Teacher Buy-in and Scalability",
+        "chain": [
+          "9.C57",
+          "9.C52",
+          "C15",
+          "2.C25",
+          "14.C48"
+        ],
+        "conclusion_id": "14.C48",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0022533,
+    "duration_s": 36.547499895095825
+  }
+}

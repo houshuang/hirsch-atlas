@@ -1,0 +1,493 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C53",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The historical rejection of inborn traits by Enlightenment thinkers provides a philosophical foundation for the 'blank slate' view of cultural acquisition."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The claim that children have no inherent culture is logically dependent on the 'blank slate' theory of human cultural nature."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "If ethnicities are constructed through learning, it follows that they cannot be present at birth."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If it is an empirical fact that culture is not inherent, then treating it as inherent is a factual error that leads to harmful social policy."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If culture is not biological, then essentializing it (treating it as biological) meets the definition of racism provided by the author."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C10",
+        "relationship": "depends-on",
+        "explanation": "The duty of schools to teach a national culture is predicated on the theoretical necessity of a school-transmitted culture for modern nationhood."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "The pragmatic necessity of a common tribal language justifies the normative claim that schools must prioritize its instruction."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C10",
+        "relationship": "refines",
+        "explanation": "This claim addresses a potential objection to C10 by clarifying that national curriculum does not mean total uniformity in teaching."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "To argue that reading is not a natural general skill, the author relies on the necessity of learning specific, unspoken communal knowledge."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C13",
+        "relationship": "refines",
+        "explanation": "C25 explicitly rejects the 'literacy as general skill' model that C13 seeks to replace."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "If literacy is not a general/natural skill, it follows that it must be specific to particular knowledge domains and cultural contexts."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim of decline caused by individualism requires the historical premise that a shift to such pedagogy actually occurred in the 1940s."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C19",
+        "relationship": "instantiates",
+        "explanation": "Book bins and individualized reading are cited as the specific classroom manifestations of the pedagogy that causes the decline in unity."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C27",
+        "relationship": "supports",
+        "explanation": "The failure of communication caused by low literacy serves as the negative proof that shared knowledge is required for a unified nation."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "The Swiss example of biculturalism based on shared literate culture provides the model for national unity via a shared grapholect."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C30",
+        "relationship": "depends-on",
+        "explanation": "The promise of improved scores and social outcomes depends on the 'scientific consensus' that common topics are the optimal mode of education."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C30",
+        "relationship": "supports",
+        "explanation": "The mechanism of 'near and far transfer' explains how a shared core leads to the improved reading scores promised in C30."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C33",
+        "relationship": "depends-on",
+        "explanation": "The democratic goal of making everyone an expert in shared knowledge is predicated on the fact that these skills are required for economic and civic productivity."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "Global precedent in highly literate nations provides a model for the proposed democratic aim."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C36",
+        "relationship": "depends-on",
+        "explanation": "The claim that decline is due to ignoring shared knowledge relies on the historical premise that schools shifted toward individualism in the 1940s."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "The theoretical opposition of Romanticism to communal knowledge explains why the 1940s shift necessarily led to a reduction in shared content."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The recommendation for legislative mandates is based on the normative claim that state governments have a constitutional duty to determine educational content."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "If shared topics accelerate learning for the whole class, they effectively narrow the gap created by differing home backgrounds."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "The failure of the Common Core (which used a skills-based approach) is used as evidence that those general skills do not exist."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "2.C9",
+        "relationship": "supports",
+        "explanation": "C52 provides the historical and ideological motivation for the adoption of the 'general skills' theory, explaining that it was not a scientific discovery but a pedagogical convenience to enable student choice."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "2.C16",
+        "relationship": "depends-on",
+        "explanation": "The significance of the shift toward individualized choice and general skills lies in the author's broader argument that this shift caused the literacy decline that now threatens democracy."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C5",
+        "warrant_text": "Principles established by the founders of a successful political system (the US) regarding human nature should be treated as foundational truths for that system's institutions.",
+        "is_explicit": false,
+        "vulnerability": "The founders' philosophical views, while influential, do not constitute modern biological or psychological proof."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E6",
+        "claim_id": "C10",
+        "warrant_text": "If a multi-ethnic state maintains stability through shared school topics, then educational content is the primary mechanism for national cohesion.",
+        "is_explicit": true,
+        "vulnerability": "The Swiss model may rely on decentralized political structures (cantons) or unique historical factors that are not present in the US."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C9",
+        "warrant_text": "Extreme historical examples of a theory's misuse (essentialism in Nazi Germany) serve as proof of the theory's inherent ethical danger.",
+        "is_explicit": true,
+        "vulnerability": "This may be an 'argumentum ad Hitlerum' if the author fails to distinguish between 'recognizing home culture' and 'state-sponsored racial supremacy'."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E8",
+        "claim_id": "C13",
+        "warrant_text": "If students learn all subject matter faster when using shared topics, then the mechanism of learning is tied to specific content rather than a content-neutral cognitive faculty.",
+        "is_explicit": false,
+        "vulnerability": "The acceleration might be due to increased student engagement or teacher focus rather than a fundamental change in how the 'skill' of reading works."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C16",
+        "warrant_text": "Philosophical lineages (Hegel to Dewey) directly determine the practical methodology used in modern classrooms.",
+        "is_explicit": true,
+        "vulnerability": "Ideological influence does not prove scientific falsity; a theory can have romantic origins but still be empirically valid."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C30",
+        "warrant_text": "Success in a small number of specifically managed 'Core Knowledge' schools is scalable and replicable across a heterogeneous national system.",
+        "is_explicit": false,
+        "vulnerability": "The 'Icahn effect' might be due to exceptional leadership (Jeff Litt) or selection bias rather than the curriculum itself."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C34",
+        "claim_id": "C33",
+        "warrant_text": "Success in comparable modern nations (e.g., Switzerland) suggests that shared national knowledge is the primary mechanism for high literacy and civic inclusion.",
+        "is_explicit": true,
+        "vulnerability": "National success might be attributed to other factors like social safety nets, smaller populations, or higher teacher status rather than curriculum alone."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C37",
+        "claim_id": "C36",
+        "warrant_text": "If a pedagogical shift (child-centeredness) immediately preceded the decline in literacy results, that shift is the most likely cause of the decline.",
+        "is_explicit": false,
+        "vulnerability": "Correlation is not causation; other massive shifts occurred post-1940, including the rise of television and changes in demographics."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C47",
+        "claim_id": "C41",
+        "warrant_text": "Technical evidence of what improves reading results (enabling guidance) overrides ideological arguments against state-mandated curriculum.",
+        "is_explicit": true,
+        "vulnerability": "Scientific efficacy in one domain (reading) does not automatically grant political legitimacy to state-level control over all content topics."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C52",
+        "claim_id": "2.C9",
+        "warrant_text": "Educational theories are often adopted to justify existing ideological preferences (like child-centered autonomy) rather than because they are scientifically validated.",
+        "is_explicit": true,
+        "vulnerability": "It is possible that educators genuinely believed the 'general skills' theory was scientific progress, rather than adopting it as a mere 'means' to an end."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C3",
+        "missing_step": "A child's 'primary socialization' in the home before age 5 does not constitute an 'inherent' culture in the context of schooling.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C11",
+        "to_id": "C10",
+        "missing_step": "The functional needs of the state (national tribe) take priority over the individual's right to an education tailored to their specific home culture.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C24",
+        "to_id": "C19",
+        "missing_step": "Individualized reading choices prevent the formation of a shared national identity or sense of duty.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C26",
+        "to_id": "C27",
+        "missing_step": "The cultural conditions that allow Switzerland to maintain unity through biculturalism are present and applicable in the much larger and more diverse United States.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C39",
+        "to_id": "C40",
+        "missing_step": "National literacy goals can only be achieved through centralized state mandates rather than district-level autonomy.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C50",
+        "to_id": "C51",
+        "missing_step": "The failure of specific standards (Common Core) proves the non-existence of the underlying concept (general skills) rather than just a failure of implementation.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C52",
+        "to_id": "2.C16",
+        "missing_step": "The fragmentation of knowledge caused by individualized reading choices directly results in a lack of common ground necessary for political stability.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C3",
+        "objection": "Even if culture is not biological, a child's early immersion in a specific cultural environment creates deep cognitive and linguistic frameworks that are functionally inherent by the time they enter school.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C10",
+        "objection": "Prioritizing the 'national tribe' in elementary education risks marginalizing minority groups and can lead to a form of assimilation that erodes valuable local and familial cultural identities.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C8",
+        "objection": "Recognizing ethnicity as a stable, deeply-held identity is not the same as 'racism'; it can be a tool for empowerment and resistance against hegemonies.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C19",
+        "objection": "The decline in national unity and patriotism may be caused by economic inequality, political polarization, or shifts in media consumption rather than elementary school pedagogy.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C29",
+        "objection": "Mandating a 'national grapholect' and shared knowledge base can marginalize minority cultures and reinforce the power of the dominant group, leading to less unity rather than more.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C13",
+        "objection": "While knowledge is important, there are cognitive strategies (e.g., decoding, metacognition) that are indeed general skills and can be improved through practice regardless of the specific text content.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "State legislatures are political bodies; mandating 'shared topics' will inevitably lead to partisan battles over history, science, and values, undermining the 'bipartisan' goal.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C33",
+        "objection": "Prioritizing a single national grapholect and shared culture risks marginalizing minority identities and languages, potentially harming student engagement and social belonging.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C51",
+        "objection": "Cognitive strategies (like self-monitoring or summarization) have shown effectiveness in meta-analyses, suggesting that even if knowledge is central, transferable skills do exist.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C52",
+        "objection": "Individualized reading choice is intended to foster intrinsic motivation and lifelong reading habits; a standardized curriculum might succeed in transferring knowledge but fail to cultivate the desire to read.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Blank Slate Identity Chain",
+        "chain": [
+          "C53",
+          "C6",
+          "C5",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "moderate"
+      },
+      {
+        "name": "The National Cohesion Chain",
+        "chain": [
+          "C11",
+          "C59",
+          "C60",
+          "C10"
+        ],
+        "conclusion_id": "C10",
+        "strength": "strong"
+      },
+      {
+        "name": "The Ethical Imperative Chain",
+        "chain": [
+          "C3",
+          "C8",
+          "C9",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Science of Literacy",
+        "chain": [
+          "C16",
+          "C13",
+          "C14",
+          "C21",
+          "C30"
+        ],
+        "conclusion_id": "C30",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political Consequences of Pedagogy",
+        "chain": [
+          "C23",
+          "C24",
+          "C15",
+          "C19",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Necessity of Shared Knowledge for Nationhood",
+        "chain": [
+          "C17",
+          "C31",
+          "C26",
+          "C27",
+          "C29"
+        ],
+        "conclusion_id": "C27",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Inclusion Chain",
+        "chain": [
+          "C32",
+          "C35",
+          "C39",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Historical Decline Chain",
+        "chain": [
+          "C38",
+          "C37",
+          "C50",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Governance and Mandate Chain",
+        "chain": [
+          "C40",
+          "C45",
+          "C46",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Justice Mechanism",
+        "chain": [
+          "C43",
+          "C44",
+          "C42"
+        ],
+        "conclusion_id": "C42",
+        "strength": "strong"
+      },
+      {
+        "name": "The Ideological Root of Literacy Decline",
+        "chain": [
+          "C52",
+          "2.C9",
+          "2.C13",
+          "2.C16"
+        ],
+        "conclusion_id": "2.C16",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0036103,
+    "duration_s": 55.216891050338745
+  }
+}

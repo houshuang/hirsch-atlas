@@ -1,0 +1,1400 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C187",
+        "relationship": "depends-on",
+        "explanation": "The need to resolve fundamental goals is necessitated by the current lack of direction caused by conflicting ideologies."
+      },
+      {
+        "from_id": "C188",
+        "to_id": "C187",
+        "relationship": "supports",
+        "explanation": "If empirical uncertainty allows dogma to fill the gaps, then establishing a non-dogmatic (empirical) foundation for goals is a prerequisite for effective teaching."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "Analyzing the universal characteristics of good prose requires the prior observation that universal tendencies actually exist in historical development."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "instantiates",
+        "explanation": "The universal historical presence of linguistic normalization in education serves as the primary evidence that normalization is an inherent feature of the enterprise."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "The argument that resisting normalization is harmful relies on the premise that normalization is an inherent requirement of mass education and writing instruction."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C187",
+        "relationship": "responds-to",
+        "explanation": "C6 provides the source (nature and history) for the answers required by the problem posed in C187."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "The low status of written speech in linguistics (C19) is a direct consequence of the foundational assumption that sound is primary and writing is secondary (C20)."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "Because linguistics neglects written speech as a primary subject, applied composition research lacks the theoretical foundation it needs."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The neglect of philological study in literature departments contributes to the discordance between societal needs (literacy) and academic focus (artistic form)."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The lack of foundational research support for pedagogy is posited as a contributing cause of the literacy decline."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The fact that departments are funded for composition but focus on literature is the primary evidence for the 'sharp discordance' mentioned in C23."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C26",
+        "relationship": "instantiates",
+        "explanation": "The reliance on literature professors who learn through trial and error (C28) is a specific instance of the general lack of research-based knowledge in textbook authorship (C26)."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C29",
+        "relationship": "refines",
+        "explanation": "C29 makes the stronger claim that the proliferation of theories specifically proves their 'insufficiency' and a lack of basic research."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "The difficulty for native speakers (C35) stems directly from the functional requirement that writing must be self-contextualizing (C34)."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "The functional need for self-contextualization in writing provides the pedagogical justification for teaching students to write this way."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The historical stability of Standard English grammar is used as evidence that it has evolved into a 'grapholect' distinct from changing oral dialects."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C38",
+        "relationship": "supports",
+        "explanation": "The projected future stability of the language reinforces the claim that it is a distinct, stable medium of literacy rather than a fleeting class dialect."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "If the standard language is a distinct 'grapholect' necessary for literacy, its conventions become the logical normative standards for writing."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "The historical trend toward efficiency suggests a singular underlying principle (readability) governing prose evolution."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C47",
+        "relationship": "depends-on",
+        "explanation": "The claim that all style reduces to readability relies on the existence of psychological universals in language processing."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "If readability is the universal governing principle of prose, it follows that it should be the primary goal of composition instruction."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C58",
+        "relationship": "depends-on",
+        "explanation": "If linguistic form decays within twelve seconds, readability necessarily relies on keeping verbal connections within short temporal or textual spans."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C58",
+        "relationship": "depends-on",
+        "explanation": "Because meaning is tenacious but phrasing is not, the author must use specific verbal cues to ground the meaning before the phrasing is lost."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "The fact that no other pedagogical research can progress without assessment makes assessment the primary problem."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C66",
+        "relationship": "depends-on",
+        "explanation": "Agreement on criteria is the prerequisite for a rating system to solve the assessment problem."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "The lack of research in existing handbooks makes specific current pedagogical advice statistically likely to be erroneous."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "The high cost of learning ideograms makes the failure to transition to phonetic scripts more anomalous, requiring cultural explanation."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C72",
+        "relationship": "supports",
+        "explanation": "The 'law of change' (divergence) ensures that without a phonetic script to anchor speech, dialects will splinter."
+      },
+      {
+        "from_id": "C75",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "The recurring historical pattern across civilizations establishes the 'natural' trajectory toward phonetic scripts."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "The stabilizing effect of phoneticization provides the functional motive for the natural evolution."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C79",
+        "relationship": "depends-on",
+        "explanation": "The meta-claim that writing history is 'progress' depends on the existence of a 'natural' direction (evolution) toward more efficient scripts."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C79",
+        "relationship": "supports",
+        "explanation": "The continued use of 'development' and 'evolution' by scholars proves that they implicitly accept the concept of progress."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C79",
+        "relationship": "supports",
+        "explanation": "If the alphabet is the 'most convenient' and 'highly developed' system, its appearance constitutes progress."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "The gap between oral competence and written performance suggests writing is not just transcribed speech but a distinct skill."
+      },
+      {
+        "from_id": "C90",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "If lack of practice doesn't explain writing difficulty, there must be a qualitative difference in the skill itself."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "The unintelligibility of direct spoken transcripts provides empirical evidence that writing involves more than just a literal record of speech."
+      },
+      {
+        "from_id": "C92",
+        "to_id": "C93",
+        "relationship": "depends-on",
+        "explanation": "If writing is not a mere recording (C92), it must be defined by its own distinct set of functional requirements (C93)."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "C96",
+        "relationship": "supports",
+        "explanation": "The fact that reading speed exceeds vocalization speed implies that the system is not purely phonetic but has ideographic components."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C97",
+        "relationship": "depends-on",
+        "explanation": "The claim that writing can function independently of spoken language relies on establishing that it is not a purely phonetic mirror of speech."
+      },
+      {
+        "from_id": "C102",
+        "to_id": "C103",
+        "relationship": "supports",
+        "explanation": "A vocabulary in writing that significantly exceeds oral vocabulary supports the idea that some words exist primarily in written form."
+      },
+      {
+        "from_id": "C106",
+        "to_id": "C104",
+        "relationship": "instantiates",
+        "explanation": "The example of English verb sounds being dictated by graphic conventions serves as a specific instance of writing determining oral sound."
+      },
+      {
+        "from_id": "C109",
+        "to_id": "C107",
+        "relationship": "supports",
+        "explanation": "The negative consequence of phonetic scripts (linguistic chaos) is used to argue for the superiority of a partly ideographic system."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C110",
+        "relationship": "supports",
+        "explanation": "The functional superiority of the current system is what allows it to serve as a stable vehicle for a national language."
+      },
+      {
+        "from_id": "C117",
+        "to_id": "C116",
+        "relationship": "supports",
+        "explanation": "The reliance of oral speech on situational clues illustrates by contrast what written speech lacks."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C116",
+        "relationship": "supports",
+        "explanation": "The unintelligibility of transcribed speech (like the Nixon tapes) demonstrates that context-free language is the unique domain of writing."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C119",
+        "relationship": "depends-on",
+        "explanation": "The claim that isolation is the primary difficulty depends on establishing that isolation is the primary functional difference."
+      },
+      {
+        "from_id": "C116",
+        "to_id": "C130",
+        "relationship": "depends-on",
+        "explanation": "The requirement for internal context is a direct logical consequence of the absence of situational context."
+      },
+      {
+        "from_id": "C126",
+        "to_id": "C125",
+        "relationship": "instantiates",
+        "explanation": "A radio broadcast is an example of an oral medium serving a written function, proving the medium is not the defining factor."
+      },
+      {
+        "from_id": "C127",
+        "to_id": "C125",
+        "relationship": "instantiates",
+        "explanation": "Public speaking serves as an example of oral speech functioning as written discourse due to its indeterminate audience."
+      },
+      {
+        "from_id": "C128",
+        "to_id": "C125",
+        "relationship": "instantiates",
+        "explanation": "A private note is an example of a written medium serving an oral function, proving the medium is not the defining factor."
+      },
+      {
+        "from_id": "C112",
+        "to_id": "C113",
+        "relationship": "supports",
+        "explanation": "The disconnect between orthography and sound patterns supports the idea that writing is an independent symbolic system."
+      },
+      {
+        "from_id": "C131",
+        "to_id": "C132",
+        "relationship": "instantiates",
+        "explanation": "Grammatical completeness is a specific convention of the formal style used to ensure meaning via words alone."
+      },
+      {
+        "from_id": "C135",
+        "to_id": "C133",
+        "relationship": "supports",
+        "explanation": "The fact that public speaking uses writing-like codes suggests that the functional requirements of writing preceded the technology itself."
+      },
+      {
+        "from_id": "C138",
+        "to_id": "C139",
+        "relationship": "depends-on",
+        "explanation": "If meaning must be public to those who did not witness the context, then the meaning must necessarily be carried by the verbal channel."
+      },
+      {
+        "from_id": "C140",
+        "to_id": "C143",
+        "relationship": "depends-on",
+        "explanation": "If speaker identification determines code form, it proves that the communicative context (relationship) is the driver of language variation."
+      },
+      {
+        "from_id": "C142",
+        "to_id": "C143",
+        "relationship": "supports",
+        "explanation": "The existence of working-class newspapers using elaborated codes dissociates linguistic code from class/rules and associates it with the context of public address."
+      },
+      {
+        "from_id": "C139",
+        "to_id": "C148",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that Bernstein's codes correlate with the oral/written distinction depends on the premise that meaning in elaborated codes inheres in the verbal channel, just as it does in writing."
+      },
+      {
+        "from_id": "C146",
+        "to_id": "C149",
+        "relationship": "depends-on",
+        "explanation": "Since class differences in language don't come from vocabulary or rules, the observed correlation must be explained by a external factor, specifically literacy education."
+      },
+      {
+        "from_id": "C154",
+        "to_id": "C151",
+        "relationship": "depends-on",
+        "explanation": "The lack of audience feedback (C154) is what creates the communicative vacuum that necessitates an elaborated, context-free code (C151)."
+      },
+      {
+        "from_id": "C158",
+        "to_id": "C160",
+        "relationship": "depends-on",
+        "explanation": "If all audiences are imaginary (C158), then the speaker's self-image must also be a projected role (C160) to match that imagined audience."
+      },
+      {
+        "from_id": "C160",
+        "to_id": "C162",
+        "relationship": "supports",
+        "explanation": "The theoretical fact of self-projection (C160) justifies the pragmatic need to teach it as a conscious skill in writing (C162)."
+      },
+      {
+        "from_id": "C154",
+        "to_id": "C163",
+        "relationship": "depends-on",
+        "explanation": "Because there is no external feedback (C154), the author/reader relationship must be constructed entirely within the text (C163)."
+      },
+      {
+        "from_id": "C163",
+        "to_id": "C164",
+        "relationship": "supports",
+        "explanation": "Establishing roles within the medium (C163) requires a set of shared rules or conventions (C164) that signal those roles to the reader."
+      },
+      {
+        "from_id": "C168",
+        "to_id": "C170",
+        "relationship": "supports",
+        "explanation": "The requirement of ground rules beyond grammar (C168) supports the conclusion that explicitness alone cannot secure meaning without implied roles (C170)."
+      },
+      {
+        "from_id": "C171",
+        "to_id": "C178",
+        "relationship": "depends-on",
+        "explanation": "Because the attitudes of the author and audience are never explicitly fully disclosed, they must be constructed through the creation of implied personas."
+      },
+      {
+        "from_id": "C173",
+        "to_id": "C178",
+        "relationship": "depends-on",
+        "explanation": "If attributing governing attitudes is essential for specific meaning, and those attitudes cannot be explicit, then implied persons are the necessary vehicle for those attitudes."
+      },
+      {
+        "from_id": "C178",
+        "to_id": "C175",
+        "relationship": "supports",
+        "explanation": "The necessity of creating 'implied persons' to replace 'actual persons' is the specific problem that requires practice and instruction to solve."
+      },
+      {
+        "from_id": "C175",
+        "to_id": "C176",
+        "relationship": "supports",
+        "explanation": "If the problems of written speech cannot be solved without instruction (C175), then composition must be explicitly taught (C176)."
+      },
+      {
+        "from_id": "C179",
+        "to_id": "C177",
+        "relationship": "supports",
+        "explanation": "The fact that effective prose did not emerge full-grown supports the claim that it is a historical development requiring prior established norms."
+      },
+      {
+        "from_id": "C180",
+        "to_id": "C177",
+        "relationship": "depends-on",
+        "explanation": "The claim that effective prose is a historical development relies on the sequence where formal dialect conventions must be set before stylistic solutions can be established."
+      },
+      {
+        "from_id": "C177",
+        "to_id": "C181",
+        "relationship": "supports",
+        "explanation": "If effective prose is a historical development across all modern languages, that history serves as the data set from which universal principles can be extracted."
+      },
+      {
+        "from_id": "C182",
+        "to_id": "C176",
+        "relationship": "supports",
+        "explanation": "The pragmatic benefit of efficient teaching via codified principles strengthens the normative case for explicit composition instruction."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E10",
+        "claim_id": "C6",
+        "warrant_text": "If diverse prose styles historically converge toward achieving effects with less reader effort, this movement reflects a functional optimization of the medium rather than arbitrary cultural preference.",
+        "is_explicit": true,
+        "vulnerability": "Assumes 'reader effort' is a constant psychological metric across different historical eras and literacy levels."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E23",
+        "claim_id": "C3",
+        "warrant_text": "The ability of deaf-mutes to master alphabetic writing without sound proves that written language possesses autonomous structural and cognitive properties independent of phonology.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that deaf-mutes still rely on a spatial-visual 'phonology' (Sign) that maps to the alphabet similarly to sound."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E32",
+        "claim_id": "C11",
+        "warrant_text": "If verbatim transcripts of high-status speakers are unintelligible without audio context, then 'pure' oral speech is functionally inadequate for the demands of written communication.",
+        "is_explicit": true,
+        "vulnerability": "The Nixon tapes represent informal, private speech; formal oratory might not require the same degree of 'normalization' to be legible."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E47",
+        "claim_id": "C11",
+        "warrant_text": "Because a single sentence in isolation is infinitely interpretable, communicative stability in a context-free medium requires shared, standardized linguistic ground rules.",
+        "is_explicit": false,
+        "vulnerability": "Overestimates the 'isolation' of sentences; readers usually bring cultural and genre-based contexts that limit interpretability even without formal normalization."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E4",
+        "claim_id": "C25",
+        "warrant_text": "Financial investment by a society indicates that society's functional priorities for an institution.",
+        "is_explicit": true,
+        "vulnerability": "Institutional funding may be tied to historical inertia or prestige rather than a specific utilitarian mandate for composition."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E11",
+        "claim_id": "C13",
+        "warrant_text": "Scientific data regarding cognitive constraints (like memory limits) provides objective benchmarks that are not subject to ideological interpretation.",
+        "is_explicit": false,
+        "vulnerability": "The application of cognitive limits to the quality of prose is itself an interpretive act that may smuggle in stylistic preferences."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E17",
+        "claim_id": "C13",
+        "warrant_text": "If experts can identify objective progress in the history of a technology (writing), then goals for that technology can be set by history rather than ideology.",
+        "is_explicit": true,
+        "vulnerability": "Technological efficiency in recording signs is not necessarily equivalent to 'quality' in prose composition."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C34",
+        "claim_id": "C40",
+        "warrant_text": "The primary goal of instruction should be to help students master the specific functional requirements that distinguish the target medium (writing) from their natural state (speech).",
+        "is_explicit": false,
+        "vulnerability": "Assumes that the 'functional' difference is the most important one to teach, as opposed to expressive or social identity goals."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C36",
+        "claim_id": "C38",
+        "warrant_text": "Linguistic stability and institutionalization (universal schooling) transform a dialect from a social marker into a formal, functional tool ('grapholect') that exists independently of class.",
+        "is_explicit": true,
+        "vulnerability": "Ignores that the stability itself is a product of social power and that 'class' is often defined by access to that stable standard."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C42",
+        "claim_id": "C47",
+        "warrant_text": "A consistent, long-term historical trend toward a specific outcome (efficiency) indicates the presence of a fundamental governing principle (relative readability) rather than random change or cultural fashion.",
+        "is_explicit": false,
+        "vulnerability": "Teleological assumption; it assumes 'efficiency' is the only driver of change, ignoring aesthetic or social prestige factors."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C52",
+        "claim_id": "C54",
+        "warrant_text": "Pedagogical effectiveness is improved when teachers understand the biological hardware (memory limits) of their students.",
+        "is_explicit": false,
+        "vulnerability": "Understanding a biological limit does not automatically translate into a strategy for overcoming it or teaching around it."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C56",
+        "claim_id": "C58",
+        "warrant_text": "Effective communication requires the reader to maintain a bridge between the specific words on the page and the abstract meaning being constructed.",
+        "is_explicit": true,
+        "vulnerability": "Experienced readers may develop strategies to process meaning holistically, bypassing the need for direct verbal connections."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C64",
+        "claim_id": "C63",
+        "warrant_text": "The foundational bottleneck of any empirical field is its most important problem.",
+        "is_explicit": false,
+        "vulnerability": "A bottleneck might be a technical hurdle, while the 'most important' problem could be theoretical or ethical."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C75",
+        "claim_id": "C78",
+        "warrant_text": "A universal historical pattern toward a specific outcome indicates a natural law or teleological drive rather than a series of accidents.",
+        "is_explicit": true,
+        "vulnerability": "Historical patterns can be the result of path-dependency or cultural diffusion rather than a biological or natural 'law'."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C84",
+        "claim_id": "C79",
+        "warrant_text": "Technological improvements in communicative efficiency and adaptability constitute 'progress' in human history.",
+        "is_explicit": false,
+        "vulnerability": "Efficiency is a modern Western metric; other cultures might value script for visual beauty, sacredness, or elite gatekeeping."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C89",
+        "claim_id": "C88",
+        "warrant_text": "Significant performance disparities between two tasks using the same base material (language) imply that the tasks require distinct cognitive or technical modules.",
+        "is_explicit": false,
+        "vulnerability": "The disparity could be caused by the higher social stakes of writing or the specific formal constraints of genres rather than a core skill difference."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C91",
+        "claim_id": "C92",
+        "warrant_text": "If a perfect transcription of one mode of communication is unintelligible in another mode, the two modes must operate under different structural or functional principles.",
+        "is_explicit": false,
+        "vulnerability": "The difficulty might arise from the loss of non-verbal cues (intonation, gesture) rather than a difference in the linguistic system itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C99",
+        "claim_id": "C96",
+        "warrant_text": "Physical processing limits: If the visual recognition of a word occurs faster than the ear can process its phonetic components, the recognition must be occurring at a symbolic (ideographic) level rather than a phonetic one.",
+        "is_explicit": true,
+        "vulnerability": "Sub-vocalization may still occur at a subconscious level, or visual scanning techniques might not negate a underlying phonetic decoding process."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C108",
+        "claim_id": "C107",
+        "warrant_text": "Preservation of semantic distinctions: A writing system is better if it preserves distinctions in meaning (homophones) that are lost in the ambiguity of spoken sound.",
+        "is_explicit": true,
+        "vulnerability": "This prioritizes the needs of the reader/literate elite over the ease of the learner/writer who must master arbitrary spellings."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C121",
+        "claim_id": "C116",
+        "warrant_text": "If a communicative act becomes unintelligible when a specific element (situational context) is removed, that element must be a defining functional feature of the original act.",
+        "is_explicit": false,
+        "vulnerability": "The unintelligibility could be due to the limitations of the transcription process or the specific habits of the speakers rather than a universal property of the medium."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C127",
+        "claim_id": "C125",
+        "warrant_text": "If the functional characteristics of one category (written speech) can be manifested in the medium of another (oral speech), then the physical medium is not the essential cause of the distinction.",
+        "is_explicit": true,
+        "vulnerability": "Hybrids or 'edge cases' do not necessarily prove that the physical constraints of the primary media are irrelevant to the development of the two systems."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C118",
+        "claim_id": "C119",
+        "warrant_text": "The greatest communicative challenge in any task is the requirement to compensate for the lack of natural aids (like gestures and situation) that usually ensure understanding.",
+        "is_explicit": true,
+        "vulnerability": "Other factors like cognitive load, motor skill demands, or the permanence of writing might be greater 'difficulties' for certain learners."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C142",
+        "claim_id": "C143",
+        "warrant_text": "If a specific group demonstrates the ability to use a code in a specific medium (newspapers) despite their socioeconomic status, then the code is a function of the medium/context rather than the group's inherent linguistic capacity.",
+        "is_explicit": false,
+        "vulnerability": "The 'working-class' individuals reading or writing the newspaper may be outliers or have specific education that does not reflect the broader class context."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C141",
+        "claim_id": "C139",
+        "warrant_text": "Meaning is a zero-sum distribution between verbal and non-verbal channels; the less 'context' provides, the more the 'verbal channel' must carry to maintain communication.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'burden of meaning' is successfully transferred rather than simply lost (as in the Nixon tapes)."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C134",
+        "claim_id": "C133",
+        "warrant_text": "The existence of a standard or 'normative' dialect in nonliterate societies indicates that the drive toward 'context-free' communicative efficiency is a psychological/social universal, not a byproduct of technology.",
+        "is_explicit": false,
+        "vulnerability": "Tribal normative dialects may serve social hierarchy or ritual functions rather than the functional 'efficiency' required by writing."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C156",
+        "claim_id": "C154",
+        "warrant_text": "Differences in the mechanics of interaction (presence/absence of feedback) constitute a fundamental change in the nature of the communicative position.",
+        "is_explicit": true,
+        "vulnerability": "Modern digital writing (IM, comments) allows for feedback, blurring the sharp distinction between speaker and writer positions."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C155",
+        "claim_id": "C151",
+        "warrant_text": "If an audience is not physically present to clarify ambiguities, the language itself must be structurally expanded to prevent misinterpretation.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that 'elaborated' means more clear; complex elaborated codes can be more ambiguous than simple restricted ones."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C161",
+        "claim_id": "C160",
+        "warrant_text": "In a communicative act, the identity of the sender is logically defined by the intended perception of the receiver.",
+        "is_explicit": true,
+        "vulnerability": "Psychological internalism: an author may express themselves authentically without any regard for how an audience construes them."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C173",
+        "claim_id": "C178",
+        "warrant_text": "Meaning is not contained solely in words but in the perceived intent of an agent; if the agent is not present, the reader must simulate an agent to resolve ambiguity.",
+        "is_explicit": true,
+        "vulnerability": "Meaning could potentially be determined by purely linguistic or formal logic constraints without reference to a persona's intent."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C175",
+        "claim_id": "C176",
+        "warrant_text": "If a necessary cognitive skill is not acquired through the natural process of language biological maturation (like speech), it requires institutionalized pedagogy.",
+        "is_explicit": false,
+        "vulnerability": "Instruction is not the only alternative to 'native' acquisition; students could learn through extensive unguided reading/imitation (osmosis)."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C179",
+        "claim_id": "C177",
+        "warrant_text": "Technological and cultural complexity in communication tools (like prose) is cumulative rather than spontaneous.",
+        "is_explicit": false,
+        "vulnerability": "The lack of early records doesn't prove prose didn't exist; it may simply reflect the lack of early preservation of non-formal texts."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C177",
+        "claim_id": "C181",
+        "warrant_text": "Convergent evolution in different language histories suggests the existence of underlying functional or cognitive constraints.",
+        "is_explicit": false,
+        "vulnerability": "Cross-linguistic similarities might result from cultural diffusion (e.g., the influence of Latin or Greek) rather than universal psychological principles."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C2",
+        "to_id": "C6",
+        "missing_step": "The observation of historical 'tendencies' (what is) must be shown to constitute a 'nature' that defines educational 'goals' (what ought to be).",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C10",
+        "to_id": "C9",
+        "missing_step": "Establishing that every known educational program has attempted normalization does not logically prove that normalization is 'inherent' to the concept of education itself rather than a recurring political choice.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C18",
+        "to_id": "C24",
+        "missing_step": "The absence of foundational linguistic research in pedagogy must be the primary or most significant driver of student literacy outcomes compared to other social factors.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C29",
+        "to_id": "C24",
+        "missing_step": "Amateurish textbooks and shifting pedagogical theories directly translate into less effective student learning.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C14",
+        "to_id": "C24",
+        "missing_step": "A historical tendency toward normalization in literacy is synonymous with the cognitive requirements of efficient communication.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C38",
+        "to_id": "C39",
+        "missing_step": "Economic and political globalization requires a single standardized medium for communication across diverse populations.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C47",
+        "to_id": "C50",
+        "missing_step": "The most scientifically accurate description of a process is always the most effective basis for teaching that process.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C57",
+        "to_id": "C58",
+        "missing_step": "If meaning is 'tenacious,' the author should explain why losing the specific 'phrasing' actually impedes readability if the gist remains.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C66",
+        "to_id": "C63",
+        "missing_step": "Relative readability must be proven to be the only or best criterion that can achieve universal agreement.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C78",
+        "to_id": "C79",
+        "missing_step": "Evolutionary change in tools is inherently a move from 'worse' to 'better'.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C77",
+        "to_id": "C78",
+        "missing_step": "A script's failure to change is always an 'artificial' intervention against its nature, rather than a successful adaptation to a specific environment.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C91",
+        "to_id": "C93",
+        "missing_step": "The author must establish that the difficulty of reading transcripts is due to lack of 'context-free' precision, rather than simply bad acoustics or informal grammar.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C107",
+        "to_id": "C110",
+        "missing_step": "A national language requires a visual standard that is resistant to the phonetic drift of regional dialects.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C116",
+        "to_id": "C119",
+        "missing_step": "Establishing that the absence of context is a greater hurdle than the lack of immediate social feedback or the mechanical complexity of writing.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C125",
+        "to_id": "C130",
+        "missing_step": "Demonstrating that internal linguistic structures are actually capable of fully 'compensating' for the loss of physical intonation and timing.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C136",
+        "to_id": "C139",
+        "missing_step": "A bridge is needed to show that the techniques used for heterogeneous oral audiences are the *same* techniques used to make the verbal channel the primary carrier of meaning.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C142",
+        "to_id": "C143",
+        "missing_step": "Implicit assumption that 'passive vocabulary' and 'knowledge of rules' are the only possible cognitive/linguistic barriers other than context.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C161",
+        "to_id": "C162",
+        "missing_step": "Unconscious role-playing in speech is transferable to conscious role-playing in writing through instruction.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C151",
+        "to_id": "C154",
+        "missing_step": "An elaborated code is the only viable method for compensating for the lack of feedback.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C164",
+        "to_id": "C165",
+        "missing_step": "The difficulty of learning to write is primarily caused by convention-mismatch rather than cognitive load or motor skills.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C178",
+        "to_id": "C175",
+        "missing_step": "Establishing that the 'creation of implied persons' is inherently difficult or counter-intuitive for the human brain compared to physical interaction.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C180",
+        "to_id": "C177",
+        "missing_step": "Establishing that stylistic solutions and formal dialect conventions cannot emerge simultaneously or that one always precedes the other.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "The perceived 'universal tendencies' in prose development may be an artifact of Eurocentric historiography, where 'progress' is defined by the eventual adoption of Western stylistic norms.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "Linguistic normalization acts as a mechanism of social exclusion; what the author calls 'social harm' resulting from resistance is actually a challenge to the power structures that favor the standard dialect.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C6",
+        "objection": "Writing is a technology, not a natural phenomenon; therefore, its 'nature' is perpetually redefined by new tools and social needs, making history an unreliable guide for current goals.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C24",
+        "objection": "The decline in literacy may be driven by broader sociological changes—such as the rise of visual media and shifts in secondary education funding—rather than the research priorities of university linguists.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C18",
+        "objection": "Foundational linguistics, especially post-Chomsky, is focused on universal grammar and innate structures; even if it focused on writing, its highly abstract nature might still offer no practical benefit to classroom pedagogy.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C14",
+        "objection": "Historical 'inevitability' is a teleological fallacy; simply because educational systems have historically enforced normalization does not prove that such normalization is desirable or that resisting it causes 'harm' beyond social non-conformity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C38",
+        "objection": "The distinction of a 'grapholect' is a sociolinguistic fiction used to mask the fact that the standard language remains the dialect of the dominant social class, and its stability is merely a reflection of institutionalized class power.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C47",
+        "objection": "Many forms of highly valued prose (e.g., legal, philosophical, or poetic) intentionally sacrifice 'readability' to ensure precision, evoke specific emotions, or force the reader into a slower, more critical mode of thought.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C34",
+        "objection": "Readers are not passive recipients but active participants who bring their own external contexts and schemas to a text; therefore, a text can never be truly 'self-contextualizing' in an absolute sense.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C58",
+        "objection": "Sophisticated prose often intentionally uses long-range syntactic patterns (like chiasmus or distant anaphora) to create aesthetic effects that transcend simple readability.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C66",
+        "objection": "Assessment is inherently a social and ideological act; reducing it to a psychological metric like 'readability' ignores the rhetorical context and the value of complex, 'difficult' thought.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C64",
+        "objection": "Teachers can still make significant progress through qualitative, classroom-based action research even in the absence of a 'universal' assessment metric.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C78",
+        "objection": "The 'evolution' toward phoneticism is not universal; ideographic scripts serve a unique and necessary function in multi-lingual empires by allowing cross-linguistic communication that phonetic scripts would destroy.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C79",
+        "objection": "The 'progress' narrative is a circular argument: it defines the goal of writing as phonetic efficiency and then declares the move toward that goal to be progress.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C88",
+        "objection": "The difficulty of composition for native speakers is a product of schooling and the imposition of artificial 'standard' dialects rather than an inherent cognitive gap between speech and writing.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C93",
+        "objection": "The 'special requirements' of writing are not inherent to the medium, but are stylistic conventions developed by a specific class of users to compensate for the lack of shared physical context.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C107",
+        "objection": "A purely phonetic system would drastically lower the barrier to literacy for the poor and non-native speakers, making it socially 'superior' despite the loss of homophonic distinctions.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C97",
+        "objection": "Even if the deaf use the alphabet independently, for the vast majority of users, the alphabet is cognitively 'parasitic' on the phonological loop of the brain.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C116",
+        "objection": "The primary distinction is not context but 'permanence'; the ability to re-read and edit changes the cognitive process of writing regardless of the situational context.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C130",
+        "objection": "Much of written discourse (e.g., technical manuals, scientific papers) relies on highly standardized external conventions rather than an 'internal context' generated by the specific prose.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C125",
+        "objection": "The visual nature of writing allows for spatial organization (tables, lists, paragraphs) that have no oral equivalent, suggesting physical media does create fundamental differences.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C148",
+        "objection": "Modern digital communication (texting, Slack) is written but functions as a restricted, context-tied code, suggesting the oral/written distinction is less relevant than the 'synchronous/asynchronous' distinction.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C143",
+        "objection": "Even if children have the same 'passive' vocabulary, the 'active' facility with elaborated syntax may be a socio-cognitive skill that is unevenly distributed, making it more than just a matter of 'contextual choice'.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C131",
+        "objection": "Formal styles are often used as shibboleths for class belonging rather than for functional clarity; grammatical completeness can be a social 'sign' rather than a communicative 'necessity'.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C151",
+        "objection": "Many forms of writing (technical manuals, legal contracts) are directed at highly specific, homogenous audiences, yet still require elaborated codes for precision, not because of audience 'vagueness'.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C170",
+        "objection": "The 'death of the author' perspective suggests that meaning is produced by the reader's own context, and no amount of 'implied author' signaling can truly secure a fixed meaning.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C162",
+        "objection": "Over-emphasizing conscious 'role-playing' can lead to stilted, authentic-less writing; 'natural' flow in writing might come from forgetting the audience rather than imagining them.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C176",
+        "objection": "The 'explicit teaching' of composition often leads to stilted, formulaic writing; 'natural' acquisition through reading great literature is a more effective path to mastery than learning codified principles.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C181",
+        "objection": "What are identified as 'universal principles' are actually the specific aesthetic preferences of Western literate culture that have been globalized through colonialism and academic hegemony.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C172",
+        "objection": "Keats may not be the 'norm' for most functional writing (legal, technical, or administrative), which often relies on highly specific shared knowledge and strictly defined roles rather than 'vague' personas.",
+        "objection_type": "scope_limitation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Functional Necessity of Normalization",
+        "chain": [
+          "C191",
+          "C10",
+          "C9",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "strong"
+      },
+      {
+        "name": "From Empirical Analysis to Pedagogical Goals",
+        "chain": [
+          "C5",
+          "C188",
+          "C187",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Autonomy of Written Prose",
+        "chain": [
+          "C1",
+          "C4",
+          "C3",
+          "C2"
+        ],
+        "conclusion_id": "C2",
+        "strength": "strong"
+      },
+      {
+        "name": "The Research Neglect Chain",
+        "chain": [
+          "C20",
+          "C19",
+          "C18",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Institutional Discordance Chain",
+        "chain": [
+          "C25",
+          "C21",
+          "C23",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "strong"
+      },
+      {
+        "name": "The Meta-Methodological Chain",
+        "chain": [
+          "C17",
+          "C13",
+          "C14"
+        ],
+        "conclusion_id": "C14",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Literacy Chain",
+        "chain": [
+          "C34",
+          "C35",
+          "C32",
+          "C40"
+        ],
+        "conclusion_id": "C40",
+        "strength": "strong"
+      },
+      {
+        "name": "The Grapholect Chain",
+        "chain": [
+          "C36",
+          "C37",
+          "C38",
+          "C39",
+          "C41"
+        ],
+        "conclusion_id": "C38",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Relative Readability Chain",
+        "chain": [
+          "C42",
+          "C43",
+          "C46",
+          "C47",
+          "C49",
+          "C50"
+        ],
+        "conclusion_id": "C50",
+        "strength": "strong"
+      },
+      {
+        "name": "The Memory-Readability Chain",
+        "chain": [
+          "C52",
+          "C53",
+          "C56",
+          "C57",
+          "C58"
+        ],
+        "conclusion_id": "C58",
+        "strength": "strong"
+      },
+      {
+        "name": "The Research Bottleneck Chain",
+        "chain": [
+          "C60",
+          "C61",
+          "C62",
+          "C64",
+          "C63"
+        ],
+        "conclusion_id": "C63",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Assessment Solution Chain",
+        "chain": [
+          "C65",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Teleology of Writing",
+        "chain": [
+          "C71",
+          "C75",
+          "C76",
+          "C77",
+          "C78"
+        ],
+        "conclusion_id": "C78",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Defence of Progress",
+        "chain": [
+          "C81",
+          "C82",
+          "C83",
+          "C84",
+          "C79"
+        ],
+        "conclusion_id": "C79",
+        "strength": "strong"
+      },
+      {
+        "name": "The Autonomy of Composition",
+        "chain": [
+          "C89",
+          "C90",
+          "C88"
+        ],
+        "conclusion_id": "C88",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Independence of Writing",
+        "chain": [
+          "C91",
+          "C92",
+          "C93"
+        ],
+        "conclusion_id": "C93",
+        "strength": "strong"
+      },
+      {
+        "name": "The Ideographic Evolution of Script",
+        "chain": [
+          "C99",
+          "C98",
+          "C96",
+          "C97"
+        ],
+        "conclusion_id": "C97",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Necessity of Non-Phonetic Stability",
+        "chain": [
+          "C109",
+          "C108",
+          "C107",
+          "C110"
+        ],
+        "conclusion_id": "C110",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Context Chain",
+        "chain": [
+          "C117",
+          "C121",
+          "C116",
+          "C118",
+          "C130"
+        ],
+        "conclusion_id": "C130",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pedagogical Difficulty Chain",
+        "chain": [
+          "C116",
+          "C119",
+          "C129"
+        ],
+        "conclusion_id": "C129",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Independence of Writing Chain",
+        "chain": [
+          "C112",
+          "C113",
+          "C126",
+          "C127",
+          "C125"
+        ],
+        "conclusion_id": "C125",
+        "strength": "strong"
+      },
+      {
+        "name": "The Functional Priority of Context",
+        "chain": [
+          "C131",
+          "C132",
+          "C135",
+          "C136",
+          "C133"
+        ],
+        "conclusion_id": "C133",
+        "strength": "strong"
+      },
+      {
+        "name": "The Logic of Meaning Transfer",
+        "chain": [
+          "C138",
+          "C144",
+          "C145",
+          "C139"
+        ],
+        "conclusion_id": "C139",
+        "strength": "strong"
+      },
+      {
+        "name": "Bernstein Synthesis",
+        "chain": [
+          "C137",
+          "C141",
+          "C142",
+          "C146",
+          "C143",
+          "C148"
+        ],
+        "conclusion_id": "C148",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Feedback Gap Chain",
+        "chain": [
+          "C156",
+          "C154",
+          "C151",
+          "C163",
+          "C164"
+        ],
+        "conclusion_id": "C164",
+        "strength": "strong"
+      },
+      {
+        "name": "The Double Projection Chain",
+        "chain": [
+          "C158",
+          "C160",
+          "C161",
+          "C162"
+        ],
+        "conclusion_id": "C162",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Semantic Security Chain",
+        "chain": [
+          "C163",
+          "C167",
+          "C168",
+          "C169",
+          "C170"
+        ],
+        "conclusion_id": "C170",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pedagogy of Context-Free Speech",
+        "chain": [
+          "C171",
+          "C173",
+          "C178",
+          "C175",
+          "C176"
+        ],
+        "conclusion_id": "C176",
+        "strength": "strong"
+      },
+      {
+        "name": "Universal Principles of Historical Prose",
+        "chain": [
+          "C179",
+          "C180",
+          "C177",
+          "C181"
+        ],
+        "conclusion_id": "C181",
+        "strength": "moderate"
+      },
+      {
+        "name": "Instructional Methodology",
+        "chain": [
+          "C182",
+          "C183",
+          "C184"
+        ],
+        "conclusion_id": "C184",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.010001900000000001,
+    "duration_s": 162.2635862827301
+  }
+}

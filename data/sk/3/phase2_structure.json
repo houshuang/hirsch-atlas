@@ -1,0 +1,267 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "If the modern nation is not based on race or descent (C1), then an alternative mechanism—shared background knowledge—is required to explain how unity is maintained (C2)."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The claim that shared knowledge converts a grapholect into a national language provides the mechanism for how unity is achieved in a multilingual society."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The preservation of democracy (C4) relies on the intercommunicability established by national unity (C2)."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "If literacy requires shared knowledge (C5), and democracy requires literacy, then shared knowledge is logically essential to democracy (C11)."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "The definition of a language community by unspoken meanings (C9) explains why reading tests (C10) measure the ability to apply that specific background knowledge."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The claim that shared knowledge is essential for a national language relies on the theoretical premise that all human languages require unspoken background knowledge for understanding."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "If shared knowledge is essential for understanding a language, it follows that schools (as primary language instructors) should impart it to ensure communication."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C17",
+        "relationship": "instantiates",
+        "explanation": "The Swiss example serves as a real-world case study supporting the broader normative claim that shared knowledge acts as a powerful unifying force in modern nations."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The empirical claim that reading scores declined due to knowledge neglect depends on the theoretical claim that literacy is impossible without shared background knowledge."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "The author uses the scientific recognition of shared knowledge in cognitive psychology to argue that child-centered pedagogy (which often ignores this) is ill-founded."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "The claim that citizen-centered schooling is just and democratic depends on the prior conclusion that schools must impart the shared knowledge necessary for civic communication."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "If a multilingual nation maintains unity and functionality while teaching a common core of knowledge, then that shared knowledge is the primary variable overcoming linguistic/ethnic divisions.",
+        "is_explicit": true,
+        "vulnerability": "Omission of other variables like Switzerland's high GDP, decentralized political power (cantons), or unique neutrality status which might contribute more to stability than curriculum."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E7",
+        "claim_id": "C9",
+        "warrant_text": "A massive discrepancy in communication length between 'insiders' and 'outsiders' proves that 'insiders' share a large body of unstated knowledge that makes explicit explanation unnecessary.",
+        "is_explicit": false,
+        "vulnerability": "The 'native' vs 'tourist' distinction may involve social trust or politeness norms rather than just the efficiency of shared cognitive background."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C7",
+        "warrant_text": "If a test measuring general background knowledge (AFQT) correlates with income, and that knowledge is taught in schools, then school-taught knowledge is a causative factor in economic mobility.",
+        "is_explicit": true,
+        "vulnerability": "AFQT scores might correlate with income because the test measures underlying cognitive ability (IQ) rather than specifically acquired 'knowledge' from a curriculum."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E8",
+        "claim_id": "C24",
+        "warrant_text": "If a simple four-second sentence requires thirty minutes of background-dependent action to fulfill, then the linguistic economy of human speech is predicated on massive unstated shared context.",
+        "is_explicit": true,
+        "vulnerability": "The 'Polly' example refers to procedural knowledge (making tea), which might differ in cognitive storage from the factual/cultural knowledge (grapholectal) required for reading literacy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C15",
+        "claim_id": "C17",
+        "warrant_text": "In a national system where language is the primary variable of difference but unity remains high, the common factor (shared schooling/background knowledge) is the most likely cause of that unity.",
+        "is_explicit": false,
+        "vulnerability": "Switzerland's unity might be attributed to its political decentralization (canton system) or economic stability rather than just its shared school curriculum."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C27",
+        "claim_id": "C31",
+        "warrant_text": "If success on national standardized tests (like the AFQT) correlates with higher income and socioeconomic status, then providing the knowledge required by those tests is a necessary condition for social justice.",
+        "is_explicit": true,
+        "vulnerability": "This assumes the AFQT measures 'merit' or 'knowledge' rather than just 'test-taking skill' or 'privileged upbringing,' which a critic would contest."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C4",
+        "missing_step": "A shared national language is a sufficient condition for the civic trust and institutional stability required for democracy.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C5",
+        "to_id": "C11",
+        "missing_step": "Democracy cannot survive on 'thin' literacy (mechanical reading) alone; it requires 'thick' literacy (shared cultural references).",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C15",
+        "to_id": "C17",
+        "missing_step": "The cultural and political mechanisms that foster unity in a small, polyglot confederation (Switzerland) are directly applicable to a large, federalized republic (USA).",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C24",
+        "to_id": "C20",
+        "missing_step": "A lack of 'efficient' communication (conveying info in fewer words) is functionally equivalent to a 'failure' of reading comprehension.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C2",
+        "objection": "The Swiss model's success is rooted in political decentralization (federalism) rather than educational centralization; the cantons have distinct cultures that are protected, not erased by a single national identity.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "A mandate for 'specific shared knowledge' can be used to marginalize minority perspectives and enforce a dominant cultural narrative, which may undermine the democratic ideal of pluralism.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C33",
+        "objection": "Labeling the American grapholect as 'Anglo' is an analytical description of its linguistic roots and historical power structure, not necessarily an expression of racial prejudice.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C20",
+        "objection": "The decline in American reading scores may be more strongly correlated with increased digital distractions, changes in family structure, or the stagnation of teacher wages rather than a curriculum shift away from shared knowledge.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C26",
+        "objection": "Child-centered pedagogy does not necessarily reject 'knowledge'; it prioritizes the student's motivation and individual discovery to make that knowledge 'stick' more effectively than a top-down national curriculum.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C29",
+        "objection": "Defining 'nationality' as a set of silently assumed shared knowledge risks marginalizing immigrant groups or subcultures whose background knowledge differs from the 'national' standard, potentially decreasing rather than increasing unity.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Swiss Unity Chain",
+        "chain": [
+          "C1",
+          "E6",
+          "C2",
+          "E1",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Literacy-Democracy Chain",
+        "chain": [
+          "C9",
+          "C5",
+          "C3",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "strong"
+      },
+      {
+        "name": "The Economic Mobility Chain",
+        "chain": [
+          "E3",
+          "C10",
+          "C7",
+          "C39"
+        ],
+        "conclusion_id": "C39",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Linguistic Necessity Chain",
+        "chain": [
+          "C21",
+          "C24",
+          "C12",
+          "C16"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political Unity Chain",
+        "chain": [
+          "C15",
+          "C23",
+          "C29",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Educational Justice Chain",
+        "chain": [
+          "C18",
+          "C26",
+          "C13",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0018811000000000001,
+    "duration_s": 30.895445108413696
+  }
+}

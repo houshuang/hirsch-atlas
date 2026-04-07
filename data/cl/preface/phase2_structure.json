@@ -1,0 +1,315 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that cultural literacy is essential for thriving requires the premise that the information involved is broad enough to cover all relevant modern domains."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "If cultural literacy were limited to an elite class or high arts, it could not serve as the universal basis for thriving in the 'modern world' generally."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that cultural literacy is the only way for disadvantaged children to advance depends on the theoretical claim that this information is the basic requirement for thriving."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "To conclude schools can break the cycle of poverty by changing theories, one must first accept that the current failure is caused by those theories."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "The diagnosis of 'faulty educational theories' as the cause of failure relies on the identification of these theories as being Rousseauian/Deweyan in nature."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "If cultural literacy is the information needed to thrive, then the educational goal for all citizens must be mature literacy."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C16",
+        "relationship": "depends-on",
+        "explanation": "If all communities are founded on shared info, then individuals must acquire that specific info to participate in said community."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "Because participation requires accumulating shared info, the educational goal must be the transmission of that info."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C18",
+        "relationship": "instantiates",
+        "explanation": "National differences serve as specific examples of the general rule that communities are defined by shared information."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C21",
+        "relationship": "undermines",
+        "explanation": "Dewey's failure to recognize the need for content makes his content-neutral curriculum inadequate for modern needs."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C21",
+        "relationship": "refines",
+        "explanation": "Plato's ethical concern with content is valid but leads to a 'narrowly specified' curriculum that is also deemed inadequate."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C24",
+        "relationship": "depends-on",
+        "explanation": "Effective communication is a form of 'complex cooperative activity' which requires the piling up of info."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "If literacy is not an autonomous skill but depends on culture, then it logically requires the transmission of that culture's info."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C32",
+        "relationship": "refines",
+        "explanation": "The general need for shared culture in communication is specifically manifested through the shared symbols used in a national community."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C12",
+        "warrant_text": "If a seminal educational thinker (Dewey) titles his work after a specific concept (Natural Development) and references a predecessor (Rousseau), it establishes a direct genealogical link in educational theory.",
+        "is_explicit": true,
+        "vulnerability": "Authors may use similar terminology while significantly reinterpreting or rejecting the core tenets of their predecessors."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C8",
+        "warrant_text": "The presence of a political/economic term in a list of 'literacy items' without requiring deep reading of the original text proves the list is a map of social vocabulary rather than an academic canon.",
+        "is_explicit": false,
+        "vulnerability": "Knowing a 'word' without the 'work' may lead to superficial understanding that does not actually confer the 'thriving' benefits claimed for literacy."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C6",
+        "warrant_text": "If history shows that specific educational philosophies consistently fail to produce literate outcomes, then the rejection of those philosophies is the necessary condition for improvement.",
+        "is_explicit": true,
+        "vulnerability": "Correlation is not causation; historical failures of schools may be due to funding, demographics, or societal changes rather than the prevailing pedagogical theory."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C18",
+        "claim_id": "C17",
+        "warrant_text": "The observable differences between national groups are best explained by the distinct sets of shared information they possess.",
+        "is_explicit": true,
+        "vulnerability": "Differences could be attributed to geographic, economic, or genetic factors rather than just 'shared information'."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C14",
+        "claim_id": "C21",
+        "warrant_text": "If a theoretical approach (content-neutrality) has dominated for decades while literacy or social cohesion has declined, the theory itself is likely insufficient.",
+        "is_explicit": false,
+        "vulnerability": "Historical correlation does not prove the theory caused the decline; implementation or external societal changes could be responsible."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C29",
+        "claim_id": "C32",
+        "warrant_text": "Effective communication between diverse individuals in a large group requires a standardized system of references and symbols.",
+        "is_explicit": true,
+        "vulnerability": "Effective communication might be achieved through shared values or shared goals without a vast inventory of shared factual symbols."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C4",
+        "missing_step": "That non-educational factors (economic policy, healthcare, systemic racism) are not the primary drivers of social determinism compared to curriculum.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C8",
+        "missing_step": "A descriptive list of what people currently know is sufficient to define what people *should* know to thrive.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C6",
+        "to_id": "C4",
+        "missing_step": "Academic knowledge alone provides the social capital required to bypass institutional barriers faced by disadvantaged children.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C16",
+        "to_id": "C19",
+        "missing_step": "The primary responsibility for providing communal information falls to formal schooling rather than other social institutions (family, church, media).",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C25",
+        "to_id": "C26",
+        "missing_step": "Possessing literate culture requires 'early' transmission because later acquisition is significantly less effective or impossible.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C17",
+        "to_id": "C21",
+        "missing_step": "A modern nation's 'needs' are uniquely different from the small-scale communities or city-states envisioned by Rousseau or Plato.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The 'social determinism' of poverty is rooted in material conditions and power imbalances that a shared vocabulary cannot bridge without structural economic reform.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C8",
+        "objection": "A 'descriptive list' of what literate Americans know is not neutral; it reflects the existing power structure and marginalizes the cultural knowledge of minority groups.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C6",
+        "objection": "Schools are embedded in their social contexts; they cannot act as independent agents of change if the surrounding community is suffering from total economic disinvestment.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C19",
+        "objection": "The goal of education should be the development of critical thinking and the ability to challenge shared information, rather than passive acculturation.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C16",
+        "objection": "Children learn to participate in communities primarily through social-emotional development and procedural skills (play, negotiation) rather than factual accumulation.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C25",
+        "objection": "Basic literacy is a decoding skill that can be mastered independently of cultural context, even if deep comprehension requires more.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA4",
+        "targets_claim": "C28",
+        "objection": "Teaching children information they do not understand encourages rote memorization over genuine comprehension, which can stifle intellectual curiosity.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Theory-to-Failure Chain",
+        "chain": [
+          "C9",
+          "C10",
+          "C11",
+          "C12",
+          "C5",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Opportunity Chain",
+        "chain": [
+          "C2",
+          "C3",
+          "C1",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "strong"
+      },
+      {
+        "name": "The Citizenry Goal Chain",
+        "chain": [
+          "C1",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Anthropological Logic of Education",
+        "chain": [
+          "C17",
+          "C18",
+          "C16",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Literacy-Culture Dependency",
+        "chain": [
+          "C16",
+          "C25",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "National Communication Requirement",
+        "chain": [
+          "C29",
+          "C24",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "The Critique of Content-Neutrality",
+        "chain": [
+          "C14",
+          "C15",
+          "C23",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0018029,
+    "duration_s": 35.31141710281372
+  }
+}

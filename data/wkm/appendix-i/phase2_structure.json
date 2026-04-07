@@ -1,0 +1,583 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The claim that natural development was 'new' in the 19th century depends on the observation that the terminology of 'growth' and 'development' was absent in the prior century."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "Horace Mann's mid-century shift serves as the chronological marker for when these ideas began to permeate American educational thought."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The definition of the classical aim as 'correcting nature' is the necessary baseline from which the romantic aim deviates."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "depends-on",
+        "explanation": "The interpretation of school architecture as a symbol of community importance relies on the theoretical premise that ideas are reflected in physical structures."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The interpretation of post-war architecture as 'child-centered' relies on the theoretical premise that ideas (specifically pantheistic/romantic ones) are reflected in architecture."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The specific pedagogical practice of hands-on learning instantiates the broader romantic aim of following nature's lead."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim that natural growth is 'morally wrong' and 'factually incorrect' rests on the prior establishment that it is factually incorrect."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C12",
+        "relationship": "supports",
+        "explanation": "If socialization is more natural than internal unfolding, then theories favoring unfolding are factually incorrect."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "The argument that socialization is more natural relies on the empirical premise that growth requires external culture."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The moral wrongness of natural development is supported by its 'dangerous social underside'—the assumption that poor children lack development."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The intensification of social inequality serves as evidence for the moral wrongness of the theory."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "Historical human practice (induction into the tribe) is used to show that socialization is the 'natural' state of human education."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The historical optimism of the revolutions provided the cultural context for viewing Providence as manifest in individual development."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "Wordsworth's influence on Dewey explains the persistence of Romantic ideals in 20th-century progressive education."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "Hegel's secularization of progress provides the specific concept ('aufheben') that the author critiques as being logically groundless."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "Hegel's philosophy of 'necessarily' progressive development provided the logical framework for American progressive thinkers."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "Froebel's status as the most influential European author on early education establishes his role as a chief intellectual influence."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "Dewey's view of cognitive development as the reproduction of a universal mind is a direct application of his early Hegelian philosophy."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "Froebel's theory that prescriptive education destroys the divine unfolding of the child provides the primary theological rationale for child-centeredness."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "Dewey's identification of the child's development with the 'universal mind' reinforces the theological justification of child impulses."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "The shift to an 'inner light' model of imagination is premised on the belief that child impulses are a manifestation of divine will."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "The modern focus on imagination is identified as the historical 'husk' of the Romantic model that persists in modern practice."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "The secular substitution of 'imagination' for 'God' explains how the structure of the theory survives the loss of its theological foundation."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C53",
+        "relationship": "depends-on",
+        "explanation": "The claim that the 'inner light' tradition persists as a secularized value requires the historical context of its transition from Noah Webster's instructive model to Romantic natural development."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C66",
+        "relationship": "depends-on",
+        "explanation": "C66's conclusion that the US must overcome religious certitudes assumes C53's finding that these certitudes (the 'inner light') are what currently dominate schooling."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C69",
+        "relationship": "supports",
+        "explanation": "If modern science does not support the Piagetian interpretations used in schools, the individualistic aspects of progressive education are scientifically unsound."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C60",
+        "relationship": "depends-on",
+        "explanation": "The resistance to phonics and facts (C60) is explained by the persisting sentiment that children are innocent beings coming from God (C63)."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C61",
+        "relationship": "depends-on",
+        "explanation": "The claim that beliefs are impervious to evidence (C61) follows from the identification of these beliefs as 'Froebelian fundamentalism' (C60)."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C61",
+        "relationship": "instantiates",
+        "explanation": "The dismissal of Core Knowledge data by Chancellor Fariña serves as an example of metaphysical belief being impervious to empirical evidence."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "Moving toward socialization and fairness (C70) requires acknowledging that current individualistic principles are harmful to social justice (C69)."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C70",
+        "relationship": "supports",
+        "explanation": "The empirical fact that growth requires external training into a specific culture justifies the shift toward communal socialization principles."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C5",
+        "warrant_text": "The complete absence of specific keywords (growth, development) in the foundational texts of an era's leading thinkers indicates that the underlying conceptual framework did not yet exist in that field's discourse.",
+        "is_explicit": false,
+        "vulnerability": "Authors may use synonyms or different metaphors to describe similar concepts without using the exact modern terminology."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "warrant_text": "Changes in the physical scale and accessibility of public buildings (from imposing columns to low-slung, gaily colored designs) reflect a shift in the perceived hierarchy and purpose of the institution.",
+        "is_explicit": true,
+        "vulnerability": "Architectural changes may be driven by economic factors, safety regulations, or building material availability rather than pedagogical philosophy."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C9",
+        "warrant_text": "A quantified increase in the usage of a specific term within the reports of a central authority figure (Horace Mann) marks the transition of that concept from the periphery to the center of institutional thought.",
+        "is_explicit": false,
+        "vulnerability": "Frequency of a term does not always equate to an endorsement or a consistent definition of that term's modern meaning."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E9",
+        "claim_id": "C8",
+        "warrant_text": "The aesthetic and moral priorities expressed in high-culture literature (Romantic poetry) provide the philosophical template for subsequent shifts in institutional practices like education.",
+        "is_explicit": false,
+        "vulnerability": "Poetic sentiment may represent an artistic subculture rather than a broad social or institutional consensus on how to raise children."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E6",
+        "claim_id": "C13",
+        "warrant_text": "If empirical cross-cultural studies show that human development is dependent on specific cultural training, then the concept of a 'natural' unfolding independent of culture is a biological myth.",
+        "is_explicit": false,
+        "vulnerability": "Developmental psychologists might argue that 'readiness' for cultural training is still governed by internal biological maturation, even if training is external."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E27",
+        "claim_id": "C12",
+        "warrant_text": "When a theory's proponents ignore superior data from an alternative model, it suggests the theory is maintained by dogma rather than factual accuracy.",
+        "is_explicit": true,
+        "vulnerability": "Institutional resistance or 'dismissal' of data can be caused by political or bureaucratic factors rather than the factual falsity of the underlying theory."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E28",
+        "claim_id": "C24",
+        "warrant_text": "Scientific findings regarding cultural pathways are generalizable to the universal process of human growth.",
+        "is_explicit": false,
+        "vulnerability": "The 'Greenfield et al.' findings might describe cultural variations rather than proving that internal unfolding does not occur alongside socialization."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C31",
+        "claim_id": "C35",
+        "warrant_text": "The widespread popularity and influence of a theorist's text among educational leaders indicate that the theorist is a primary intellectual source for the movement.",
+        "is_explicit": false,
+        "vulnerability": "Popularity does not always equal philosophical alignment; leaders might adopt methods while rejecting the underlying philosophy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C43",
+        "claim_id": "C45",
+        "warrant_text": "Technical terms used by Hegelian philosophers, such as 'Universal Mind' or 'Absolute Spirit,' were contemporary synonyms for the Deity.",
+        "is_explicit": true,
+        "vulnerability": "Dewey may have been using these terms metaphorically or as part of a secularized phenomenology rather than as literal theology."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C47",
+        "claim_id": "C48",
+        "warrant_text": "If a modern pedagogical concept (imagination) shares the specific definitions and categories of a previous theological model (Romanticism), then the modern concept is a continuation of that model.",
+        "is_explicit": false,
+        "vulnerability": "Linguistic similarity does not prove functional continuity; modern educators might use the word 'imagination' with entirely different psychological justifications."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C57",
+        "claim_id": "C53",
+        "warrant_text": "Educational practices can survive as cultural habits long after their original theological or metaphysical justifications have been forgotten or rejected.",
+        "is_explicit": true,
+        "vulnerability": "Practices might persist for practical, non-ideological reasons (e.g., ease of implementation) rather than as a 'husk' of old theology."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C65",
+        "claim_id": "C61",
+        "warrant_text": "If a policy-maker rejects superior quantitative results in favor of a specific educational philosophy, that philosophy is functioning as a dogma rather than an evidence-based theory.",
+        "is_explicit": false,
+        "vulnerability": "The policy-maker might have methodological objections to the data provided or might be prioritizing other outcomes not measured by the data."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C58",
+        "claim_id": "C69",
+        "warrant_text": "Educational methods are unsound if they are based on misinterpretations of psychological theories that have been superseded by more recent science.",
+        "is_explicit": true,
+        "vulnerability": "A method could be practically effective even if its theoretical justification is scientifically outdated."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C4",
+        "missing_step": "Establish that 18th-century thinkers lacked the *concept* of natural development, not just the specific vocabulary words 'growth' and 'development'.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C9",
+        "to_id": "C4",
+        "missing_step": "Demonstrate that Horace Mann's shift in language actually reflected a revolutionary change in classroom practice across the nation, rather than just a shift in his own rhetorical style.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C17",
+        "to_id": "C13",
+        "missing_step": "Human nature is defined by historical and anthropological continuity rather than potential biological shifts.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C26",
+        "to_id": "C15",
+        "missing_step": "A theory's historical origin in secularized religion (Hegelianism/Pantheism) makes its current application in schools inherently invalid.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C14",
+        "to_id": "C16",
+        "missing_step": "The psychological assumption that poor children are 'less developed' directly translates into specific instructional choices that result in lower achievement.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C35",
+        "to_id": "C49",
+        "missing_step": "A causal account of how 19th-century German metaphysics was institutionalized into 21st-century American classroom protocols.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C38",
+        "to_id": "C49",
+        "missing_step": "Evidence that Francis Parker's 'demanding curriculum' was a viable alternative that could have survived the romantic shift in American education.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "C67",
+        "missing_step": "A communal curriculum does not inherently conflict with a humane, child-respecting teaching style.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C53",
+        "to_id": "C66",
+        "missing_step": "The persistence of these unexamined cultural values is the primary or necessary factor blocking educational progress.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The works of Jean-Jacques Rousseau (e.g., Emile, 1762) had already established the theme of natural development as a primary educational concern in the 18th century, making it a well-established European idea long before its 'revolutionary' appearance in late 19th-century America.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C8",
+        "objection": "The 'Classical' and 'Romantic' aims are not mutually exclusive; many classical approaches (like Socratic dialogue) are highly responsive to the 'nature' of the student, while many 'natural' approaches (like Froebel's) are highly systematic and 'civilizing' in their structure.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C13",
+        "objection": "The distinction between 'socialization' and 'natural unfolding' is a false dichotomy; biological maturation (unfolding) provides the necessary windows of opportunity for socialization to take place.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C12",
+        "objection": "Natural development theories are not meant to be exhaustive descriptions of biological growth but are normative frameworks intended to protect children from developmentally inappropriate labor or stress.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C16",
+        "objection": "Social inequalities are intensified not by the principle of natural development itself, but by the unequal distribution of 'natural' environments and resources among social classes.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C49",
+        "objection": "The persistence of child-centered practices may be due to their alignment with 20th-century developmental psychology (e.g., Piaget or Vygotsky) rather than a lingering 'husk' of 19th-century pantheism.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C35",
+        "objection": "American progressive education may have been more influenced by indigenous American pragmatism and the social needs of a rapidly industrializing democracy than by German metaphysics.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C46",
+        "objection": "The focus on child impulses in modern education is often justified by theories of motivation and student engagement, not by an unstated belief in their divine nature.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C66",
+        "objection": "The lack of educational progress in the US might be due to structural inequality, funding disparities, or systemic racism rather than 19th-century European educational theories.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C58",
+        "objection": "Constructivism in schools is often used as a pedagogical strategy to increase engagement rather than a strict adherence to Piagetian developmental stages.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C69",
+        "objection": "Focusing on the 'individual' child is not inherently harmful to social justice; in fact, it can prevent marginalized students from being forced into a narrow, dominant cultural mold.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "Historical Lexical Shift",
+        "chain": [
+          "E2",
+          "C5",
+          "E3",
+          "C9",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "Ideological-Aesthetic Shift",
+        "chain": [
+          "E11",
+          "C1",
+          "E1",
+          "C3",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "strong"
+      },
+      {
+        "name": "Educational Paradigm Inversion",
+        "chain": [
+          "C6",
+          "C7",
+          "C10",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Anthropological Rebuttal of Naturalism",
+        "chain": [
+          "C17",
+          "C24",
+          "C13",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Moral/Equality Critique",
+        "chain": [
+          "C14",
+          "C16",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Intellectual Genealogy of Failure",
+        "chain": [
+          "C19",
+          "C20",
+          "C21",
+          "C25",
+          "C26",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "The Pantheistic Root of Progressivism",
+        "chain": [
+          "C36",
+          "C37",
+          "C31",
+          "C35"
+        ],
+        "conclusion_id": "C35",
+        "strength": "strong"
+      },
+      {
+        "name": "The Theological Basis of Child-Centeredness",
+        "chain": [
+          "C43",
+          "C45",
+          "C40",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "strong"
+      },
+      {
+        "name": "Secularization and Modern Practice",
+        "chain": [
+          "C46",
+          "C47",
+          "C50",
+          "C48",
+          "C49"
+        ],
+        "conclusion_id": "C49",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Ideological Persistence Chain",
+        "chain": [
+          "C52",
+          "C56",
+          "C53",
+          "C60",
+          "C61",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Corrective Chain",
+        "chain": [
+          "C58",
+          "C69",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Synthesis",
+        "chain": [
+          "C59",
+          "C67",
+          "C68",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.006697100000000001,
+    "duration_s": 80.54559588432312
+  }
+}

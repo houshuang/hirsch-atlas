@@ -1,0 +1,792 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C107",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If cognitive science confirms knowledge is the primary driver of comprehension, then a reading test necessarily functions as a measure of a student's knowledge base."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that tests must be based on specific curriculums to be fair relies on the premise that reading tests are actually tests of knowledge, which can only be fairly tested if the knowledge domain is known."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "If unpredictable topics are inherent to non-standardized testing and knowledge is required for comprehension, then unfairness is inevitable without a defined curriculum."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C108",
+        "relationship": "supports",
+        "explanation": "If current policies are failing because they neglect the 'initiation into the public sphere,' parents are justified in demanding a return to substantive content."
+      },
+      {
+        "from_id": "C110",
+        "to_id": "C108",
+        "relationship": "supports",
+        "explanation": "Because teachers face professional risks if they deviate from test-prep, the impetus for change must come from outside the school hierarchy (parents)."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C5",
+        "relationship": "supports",
+        "explanation": "Evidence that intensive test prep fails to help long-term reading ability justifies the label of 'failed policy' for current accountability regimens."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "The claim that schooling has depressed vocabulary growth by age seventeen relies on the premise that vocabulary is a slow-growing cumulative result of knowledge acquisition over time."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C19",
+        "relationship": "depends-on",
+        "explanation": "The author contrasts the success of NCLB in early fluency with its failure in long-term vocabulary to show that early gains were superficial mechanics."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that schools spend too much time on test prep is supported by the empirical claim that high-stakes testing led to the abandonment of history and arts."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "The failure of drills to raise mature scores is based on the theoretical observation that these skills reach a ceiling or 'plateau' quickly."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C24",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that misguided efforts caused low scores depends on the empirical finding that these efforts (drills) failed to produce results in older students."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The prediction regarding Common Core assumes that it replicates the same misguided skills-based instruction and testing logic as NCLB."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "If the lack of subject knowledge in early grades results in poor performance in mature discourse, it follows that reading comprehension depends more on that knowledge than on the formal techniques being taught instead."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that knowledge is the primary driver of comprehension requires the premise that strategies are minimal and easily mastered, otherwise they would share primary importance."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "If generalized skills are a 'myth,' then by process of elimination, the determining factor in comprehension must be the content-specific knowledge used during decoding."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C37",
+        "relationship": "depends-on",
+        "explanation": "The consequential invalidity of tests is rooted in the fact that they operate under standards that mislead schools about the nature of reading."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "The unpredictability of test topics is the mechanism that forces schools into the 'self-defeating' practice of strategy-drilling, which constitutes the consequential invalidity."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "If specific question types (inference/main idea) are empirically shown to probe vocabulary/knowledge, then the test as a whole serves as a probe for those elements."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C46",
+        "relationship": "depends-on",
+        "explanation": "The claim that knowledge becomes the primary component after decoding depends on the success of decoding-based instruction (like NCLB) in isolating the 'mechanics' of reading."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "If identifying a main idea is specific to the passage and not transferable, then reading comprehension cannot be an all-purpose skill."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "Domain-specific knowledge enabling comprehension directly supports the claim that comprehension is dependent on such knowledge."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "The claim that tests are unfair (C62) relies on the premise that tests require specific knowledge that schools haven't taught (C61)."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "If tests reflect outside knowledge rather than school knowledge, they are an unfair measure of school effectiveness."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C70",
+        "relationship": "supports",
+        "explanation": "Political expediency (C59) is the motive for creating the 'fictitious world' (C70) where metaskills mask the lack of curriculum."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C70",
+        "relationship": "instantiates",
+        "explanation": "The definition of reading as 'strategies' is a primary component of the fictitious alternative world described in C70."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C65",
+        "relationship": "instantiates",
+        "explanation": "The Texas test items serve as specific examples of the misleading phrasing used to suggest strategy expertise."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "The principle of domain specificity from cognitive science provides the theoretical basis for the claim that general reading skills do not exist."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C84",
+        "relationship": "depends-on",
+        "explanation": "If general skills like close reading and main-idea finding do not exist, then tests designed to measure them are necessarily based on a false theory."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C84",
+        "relationship": "supports",
+        "explanation": "The fact that reading inferences are 'part-whole situation models' rather than 'deductive-syllogistic' models supports the claim that current tests use the wrong theory of inference."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "The predicted failure of new reading tests is based on the conclusion that they continue to follow an invalid theory of comprehension."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C79",
+        "relationship": "refines",
+        "explanation": "C79 applies the general prediction about test failure specifically to the Common Core framework."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C88",
+        "relationship": "depends-on",
+        "explanation": "Because specific knowledge is required to answer comprehension questions, acquiring that knowledge is the only effective long-range strategy."
+      },
+      {
+        "from_id": "C88",
+        "to_id": "C86",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that knowledge-based schooling closes the gap depends on the theoretical claim that knowledge gains are the primary driver of comprehension."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C89",
+        "relationship": "supports",
+        "explanation": "The failure of skill-based tests to provide productive outcomes necessitates a shift to content-based standards for true accountability."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C76",
+        "relationship": "depends-on",
+        "explanation": "The proposal to restructure reading like math is the practical implementation of content-specific accountability."
+      },
+      {
+        "from_id": "C100",
+        "to_id": "C93",
+        "relationship": "depends-on",
+        "explanation": "If topic familiarity is the primary driver of comprehension, then standards must specify that topic content to create a fair basis for testing."
+      },
+      {
+        "from_id": "C94",
+        "to_id": "C93",
+        "relationship": "supports",
+        "explanation": "The impossibility of fair accountability without content standards directly necessitates that standards serve as content guides."
+      },
+      {
+        "from_id": "C100",
+        "to_id": "C98",
+        "relationship": "supports",
+        "explanation": "Because tests use random topics rather than taught content, they cannot validly measure the effectiveness of school instruction."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "C99",
+        "relationship": "supports",
+        "explanation": "The fraudulent nature of the measurement (claiming to measure school quality while actually measuring prior knowledge) is a primary reason the tests are considered consequentially invalid."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C99",
+        "relationship": "supports",
+        "explanation": "The displacement of knowledge-building for skill-drills, caused by current testing, is the 'harm' that makes the tests invalid."
+      },
+      {
+        "from_id": "C96",
+        "to_id": "C97",
+        "relationship": "depends-on",
+        "explanation": "The focus on long-term knowledge acquisition is contingent upon removing the short-term punitive pressures that currently mandate test-prep."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C5",
+        "warrant_text": "If a specific metric (vocabulary/verbal score) is the most reliable predictor of real-world success, then that metric serves as a valid proxy for the successful 'initiation' of a student into society.",
+        "is_explicit": true,
+        "vulnerability": "Correlation does not imply that the test itself is the tool of initiation, only that it tracks it; focusing on the test score might not provide the initiation."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E13",
+        "claim_id": "C107",
+        "warrant_text": "Scientific consensus regarding cognitive architecture (how the mind processes language) should dictate the structural design of educational assessments.",
+        "is_explicit": false,
+        "vulnerability": "Cognitive science describes how the brain works but does not prescribe specific curriculum policies, which involve political and values-based choices."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "warrant_text": "Long-term trend data from a consistent national assessment (NAEP) is a reliable indicator of systemic educational efficacy over time.",
+        "is_explicit": true,
+        "vulnerability": "Demographic shifts in the student population over 30 years can influence average scores regardless of the quality of instruction."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E15",
+        "claim_id": "C24",
+        "warrant_text": "If reading standards repetitively emphasize the same abstract skills while math standards build complex content, and reading scores decline while math scores remain stable, then the lack of content-progression in reading is the likely cause of the decline.",
+        "is_explicit": true,
+        "vulnerability": "Assumes math and reading are cognitively analogous and that the stability of math scores proves the efficacy of its content-based standards."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E8",
+        "claim_id": "C28",
+        "warrant_text": "If metastudies show that skill-instruction effects plateau quickly, then continuing to drill those skills past the plateau provides no marginal benefit and constitutes a failure to improve mature competence.",
+        "is_explicit": false,
+        "vulnerability": "The plateau might be due to poor implementation of drills rather than the inherent nature of skill instruction."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C20",
+        "warrant_text": "Instructional time is a zero-sum resource; time mandated for standardized testing and its preparation is time subtracted from content-rich subjects like history and science.",
+        "is_explicit": true,
+        "vulnerability": "Some educators argue that content can be successfully integrated into test-prep exercises."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C42",
+        "claim_id": "C32",
+        "warrant_text": "If intensive drilling in a specific variable (formal strategies) fails to improve outcomes, while the absence of another variable (knowledge) correlates with failure, the latter is the true causal factor for success.",
+        "is_explicit": false,
+        "vulnerability": "Stagnant scores could be caused by poor teaching of strategies rather than the strategies being inherently less important than knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C36",
+        "claim_id": "C44",
+        "warrant_text": "High correlation between different reading tests suggests they are all measuring the same stable underlying trait, and since general strategies are a 'myth,' that trait must be the student's accumulated knowledge and vocabulary.",
+        "is_explicit": true,
+        "vulnerability": "The stable trait could be general intelligence (IQ) or cognitive processing speed rather than specifically acquired domain knowledge."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C37",
+        "claim_id": "C37",
+        "warrant_text": "The value of a tool is determined by its systemic outcome; if a scientifically accurate tool (technically valid) produces harmful behavior in the system it measures, it is fundamentally flawed (consequentially invalid).",
+        "is_explicit": true,
+        "vulnerability": "This places the blame on the tool for the user's reaction; schools could theoretically maintain a knowledge-rich curriculum despite the test structure."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C67",
+        "claim_id": "C61",
+        "warrant_text": "If performance on a 'skill' task is binary based on content understanding rather than task repetition, the 'skill' is actually an expression of content knowledge.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that strategies provide the 'bridge' for students to acquire knowledge from a text even if they start with partial knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C51",
+        "claim_id": "C59",
+        "warrant_text": "The existence of clear content standards in one subject (math) proves that content-specificity is technically possible; therefore, its absence in another subject (reading) must be a deliberate choice.",
+        "is_explicit": true,
+        "vulnerability": "Math and reading may be inherently different; math is hierarchical/linear while reading content is perceived as more subjective or vast, making the 'choice' of omission logical rather than just political."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C63",
+        "claim_id": "C62",
+        "warrant_text": "An educational assessment's fairness is defined by its alignment with the specific curriculum provided by the institution being measured.",
+        "is_explicit": false,
+        "vulnerability": "Standardized tests often claim to measure 'readiness' or 'aptitude' rather than school achievement, which would make outside knowledge a valid variable to capture."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Texas test stems (C71 context)",
+        "claim_id": "C72",
+        "warrant_text": "If a test uses the terminology of 'strategies' while actually measuring untaught background knowledge, the test creates an illusion of fairness while remaining biased against those without that knowledge.",
+        "is_explicit": true,
+        "vulnerability": "Proponents of the tests might argue the 'stems' are not just for show but correctly identify the cognitive operations being performed, regardless of content."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Willingham & Lovette review (C73 context)",
+        "claim_id": "C87",
+        "warrant_text": "If a skill can be mastered in two weeks and provides no further gains through practice, continuing to drill it for years is a waste of resources and displaces more useful instruction.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that while basic proficiency is reached quickly, 'fluency' or 'automaticity' in these strategies requires long-term maintenance."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "The 'disgorging' test item example",
+        "claim_id": "C83",
+        "warrant_text": "When the context of a passage supports multiple dictionary-valid interpretations of a word, 'logic' cannot identify the 'correct' answer; only specific prior knowledge or authorial intent can.",
+        "is_explicit": false,
+        "vulnerability": "Test makers might argue that one answer choice is 'more precise' than the others within a specific literary context, even if all are plausible."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C100",
+        "claim_id": "C98",
+        "warrant_text": "A test is only a valid measure of institutional instruction if it assesses the specific domain-specific knowledge that the institution was actually tasked with teaching.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that reading is a transferable skill that can be measured using any text, regardless of whether that specific topic was taught."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C100",
+        "claim_id": "C93",
+        "warrant_text": "If reading ability is non-transferable and content-dependent, the only way to standardize reading assessment is to first standardize the content curriculum.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that a state-mandated curriculum is the only equitable way to provide topic familiarity."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C107",
+        "to_id": "C1",
+        "missing_step": "Establishing that a 'well-defined, knowledge-based curriculum' is the only viable method to deliver the knowledge cognitive science requires.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C3",
+        "to_id": "C2",
+        "missing_step": "The assumption that the factors predicting individual success (verbal scores) are the same factors that define the quality of an entire institutional system.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C110",
+        "to_id": "C108",
+        "missing_step": "Demonstrating that parental demand is an effective or sufficient mechanism to override the professional risks and bureaucratic mandates teachers face.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C19",
+        "to_id": "C24",
+        "missing_step": "Establishing that the vocabulary deficit at age seventeen is primarily caused by school curriculum rather than outside-of-school factors like the 'word gap' at home or media consumption.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C24",
+        "to_id": "C25",
+        "missing_step": "A formal analysis of Common Core assessments proving they rely on the same 'skills-based' logic as previous NCLB state tests.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C35",
+        "to_id": "C37",
+        "missing_step": "Schools lack the institutional autonomy or courage to ignore test formats in favor of long-term knowledge building.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C44",
+        "to_id": "C47",
+        "missing_step": "Test makers are aware that their tests probe knowledge yet intentionally market them as skill-based to satisfy political or educational demands.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C61",
+        "to_id": "C62",
+        "missing_step": "It is impossible for schools to teach all the varied 'general knowledge' that might appear on a standardized test.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C54",
+        "to_id": "C60",
+        "missing_step": "The failure of students to improve under skills-based standards is evidence that the skills themselves do not exist or do not transfer.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C84",
+        "to_id": "C80",
+        "missing_step": "A test based on a flawed theory of inference cannot serve as a useful proxy for reading ability, even if scores correlate with general intelligence or knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C76",
+        "to_id": "C86",
+        "missing_step": "Implementing content-specific standards in reading will be as manageable and effective as it is in math, despite reading being an 'open' domain and math being 'closed.'",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C100",
+        "to_id": "C93",
+        "missing_step": "A shared, grade-by-grade curriculum is the only feasible way to ensure all students have equal access to the 'topic familiarity' required for fair testing.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C96",
+        "to_id": "C97",
+        "missing_step": "Removing punitive threats will naturally lead teachers back to knowledge-rich instruction rather than other forms of non-productive activity.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "A knowledge-based curriculum standardized for testing purposes would lead to a 'national curriculum' that infringes on local control and could be used for ideological indoctrination.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C4",
+        "objection": "Reading tests are designed to measure 'transferable' processing skills (like finding the main idea) precisely to avoid being 'unfair' to students who haven't been exposed to specific cultural facts.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C2",
+        "objection": "Using 17-year-old reading scores as the 'single measure' of school quality ignores other critical outcomes such as math proficiency, civic engagement, or social-emotional development.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C28",
+        "objection": "The decline in seventeen-year-old reading scores since 1988 may be due to a changing student population with more English Language Learners and students from high-poverty backgrounds, rather than the failure of skill-based instruction.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C20",
+        "objection": "Without high-stakes testing and skill drills, schools might lack any accountability for ensuring that disadvantaged students at least learn the basic mechanics of reading (decoding).",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C32",
+        "objection": "Metacognitive strategies (like self-monitoring or clarifying) are not just 'how-to' tricks but essential cognitive tools that allow readers to navigate texts where their knowledge is imperfect.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C37",
+        "objection": "Standardized tests provide the only objective metric to identify and address achievement gaps; the 'consequential' harm of narrowing the curriculum is a failure of local administration, not a property of the test itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C44",
+        "objection": "If reading tests were purely probes of knowledge, a student would have highly volatile scores depending on whether the passage was about 'Dinosaurs' or 'The Civil War'; however, reliability scores (.9) suggest they measure a more stable 'reading ability' independent of specific topics.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C61",
+        "objection": "While knowledge is necessary, metacognitive strategies (like self-monitoring and re-reading) provide students with a way to navigate texts that contain unfamiliar knowledge, making them partially transferable.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C62",
+        "objection": "Reading tests act as a 'proxy' for general intellectual engagement; a student who reads widely outside of school demonstrates the 'skill' of literacy that schools are meant to foster, even if specific passages aren't taught.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C52",
+        "objection": "Content-neutral standards are not just about political fear, but about respecting the autonomy of local districts to choose texts that reflect their specific community values.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C77",
+        "objection": "While pure content-independent skills may not exist, metacognitive strategies (like self-monitoring for understanding) help students deploy the knowledge they *do* have more effectively.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C84",
+        "objection": "The goal of standardized tests is often to rank students by general proficiency (a 'proxy' measure) rather than to model the exact cognitive process of inference.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C86",
+        "objection": "Narrowing the reading gap solely through knowledge ignores socio-economic factors like household stability and resource access that affect the rate at which students acquire that knowledge.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C93",
+        "objection": "Specifying content standards at a state or local level may lead to political battles over whose history or literature is 'essential,' potentially narrowing the curriculum more than tests do.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C98",
+        "objection": "While tests may not measure specific classroom lessons, they serve as a proxy for 'general literacy' and 'cultural literacy' which are valid indicators of a student's readiness for the real world.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Cognitive Fairness Chain",
+        "chain": [
+          "C107",
+          "C4",
+          "C105",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "strong"
+      },
+      {
+        "name": "The Policy Failure Chain",
+        "chain": [
+          "C6",
+          "C8",
+          "C9",
+          "C5",
+          "C110",
+          "C108"
+        ],
+        "conclusion_id": "C108",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Vocabulary Growth Argument",
+        "chain": [
+          "C18",
+          "C14",
+          "C11",
+          "C16",
+          "C19"
+        ],
+        "conclusion_id": "C19",
+        "strength": "strong"
+      },
+      {
+        "name": "The Opportunity Cost of Testing",
+        "chain": [
+          "C22",
+          "C23",
+          "C26",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Skill-Drill Failure Logic",
+        "chain": [
+          "C27",
+          "C30",
+          "C28",
+          "C24",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Knowledge-Comprehension Nexus",
+        "chain": [
+          "C45",
+          "C33",
+          "C38",
+          "C32",
+          "C34",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "strong"
+      },
+      {
+        "name": "The Consequential Invalidity of Testing",
+        "chain": [
+          "C35",
+          "C49",
+          "C41",
+          "C40",
+          "C37"
+        ],
+        "conclusion_id": "C37",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Testing Deception",
+        "chain": [
+          "C36",
+          "C39",
+          "C43",
+          "C44",
+          "C47"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Knowledge Dependency Argument",
+        "chain": [
+          "C68",
+          "C69",
+          "C57",
+          "C61",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Deception Argument",
+        "chain": [
+          "C52",
+          "C59",
+          "C64",
+          "C65",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Test Unfairness Argument",
+        "chain": [
+          "C61",
+          "C63",
+          "C67",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "strong"
+      },
+      {
+        "name": "The Inevitable Failure of Skill-Based Testing",
+        "chain": [
+          "C77",
+          "C84",
+          "C80",
+          "C79"
+        ],
+        "conclusion_id": "C79",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Compensatory Model",
+        "chain": [
+          "C82",
+          "C88",
+          "C86"
+        ],
+        "conclusion_id": "C86",
+        "strength": "moderate"
+      },
+      {
+        "name": "Reform via Content-Based Accountability",
+        "chain": [
+          "C80",
+          "C89",
+          "C76"
+        ],
+        "conclusion_id": "C76",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Validity Chain",
+        "chain": [
+          "C100",
+          "C98",
+          "C99"
+        ],
+        "conclusion_id": "C99",
+        "strength": "strong"
+      },
+      {
+        "name": "The Accountability Reform Chain",
+        "chain": [
+          "C92",
+          "C94",
+          "C93"
+        ],
+        "conclusion_id": "C93",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Instructional Shift Chain",
+        "chain": [
+          "C96",
+          "C97",
+          "C91"
+        ],
+        "conclusion_id": "C91",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0059868000000000005,
+    "duration_s": 94.87934494018555
+  }
+}

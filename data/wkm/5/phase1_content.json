@@ -1,0 +1,1346 @@
+{
+  "result": {
+    "chapter_summary": "Chapter 5 argues that the stalling of the American achievement gap after 1988 is primarily due to the lack of a knowledge-rich, cumulative school curriculum. By demonstrating that reading comprehension is tied to vocabulary, which is in turn built through specific subject matter, the author posits that the 'inside-the-school' cause of inequality is the failure to provide a broad, shared curriculum to all children.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Exceptionally brilliant and resourceful students can almost completely overcome the disadvantages of poverty and a suboptimal home environment with the help of good schools.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "With the help of good schools, exceptionally brilliant and resourceful students can almost completely overcome the disadvantages of poverty and a suboptimal home environment.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C2",
+        "text": "No national school system in the world has been able to overcome disadvantages of birth completely because schools are not the sole agents of education.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "But no national school system in the world has been able to overcome disadvantages of birth completely. No school system could do so, because the schools alone are not the sole agents of education.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C3",
+        "text": "Advantaged children receive a superior non-school education consisting of richer language, better nutrition, better health care, and wider experiences.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Advantaged children enjoy a superior nonschool education with richer language, better nutrition, better health care, and wider experiences—advantages that cannot be entirely overcome by good schools.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C4",
+        "text": "Achievement gaps between demographic groups can be greatly narrowed or greatly widened by the quality of national school systems.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "But the gaps between advantaged and disadvantaged students can be greatly narrowed; they can also be greatly widened. Some national systems have narrowed the gap better than others.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C5",
+        "text": "The French school system narrowed achievement gaps when it had a national curriculum but widened them after abandoning it for a less communal scheme.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "The French school system is a textbook case in which the gaps had been narrowed, but were subsequently enormously widened when France abandoned a national curriculum in favor of a less communal scheme.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C6",
+        "text": "The American black-white achievement gap narrowed throughout the twentieth century until reaching its narrowest point in 1988, after which progress stalled.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "The gap narrowed through the twentieth century, reaching its narrowest in 1988; then, it stalled.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C7",
+        "text": "School desegregation following Brown v. Board of Education had an initial positive effect on the achievement gap that eventually ceased.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Desegregation had an initial positive effect, which then ceased.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C8",
+        "text": "Approximately two-thirds of the causal effects for the achievement gap stasis remain unaccounted for after social factors like economic status and school integration are considered.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "Grissmer et al. concluded that some two-thirds of the causal effects remain unaccounted for after such social factors as economic status and school integration are taken into account.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C9",
+        "text": "Inside-the-school factors, including changes in school curriculums, are the likely cause of the unaccounted-for portion of the achievement gap.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.7,
+        "source_passage": "The inside-the-school causes within that unaccounted-for two-thirds could not be factored in, because changes in school factors—including school curriculums—are unknown.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C10",
+        "text": "Reading comprehension scores of seventeen-year-olds are very highly correlated with vocabulary size.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Reading comprehension scores of seventeen-year-olds (where the scores count for life chances) are very highly correlated with vocabulary size.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C11",
+        "text": "Vocabulary size is the result of slow, multiyear accretion.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Vocabulary size is the product of slow, multiyear accretion.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C12",
+        "text": "A school's contribution to vocabulary gain is largely determined by the breadth of the learned curriculum in pre-high school grades.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "The school’s contribution to vocabulary gain is largely determined by the breadth of the learned curriculum in the pre–high school grades.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C13",
+        "text": "The breadth of the learned curriculum is highly correlated with the breadth of the actual school curriculum if the school is responsible.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "The breadth of the learned curriculum is correlated with the breadth of the actual school curriculum—highly correlated if the school does a responsible job.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C14",
+        "text": "A broad curriculum taught to all students narrows vocabulary gaps because lower-vocabulary students learn more words per lesson than their peers who already know some of the content.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.85,
+        "source_passage": "A broad curriculum that is effectively taught to all students inherently narrows vocabulary gaps, because the students who knew fewer words to start with are now learning more words per lesson than their advantaged peers who already knew some of the words in the lesson.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C15",
+        "text": "The school's ability to narrow the verbal achievement gap depends on the breadth and cumulativeness of the elementary curriculum.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Conclusion: the school’s contribution to narrowing the verbal achievement gap depends greatly on the breadth and cumulativeness of the elementary curriculum.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C16",
+        "text": "The policy of improving neighborhood schools can only succeed if they offer a well-taught, well-planned, multiyear curriculum that systematically builds knowledge.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "What has not been successful is the policy of trying to make all neighborhood schools far better—an aim that can only be accomplished when schools offer a well-taught, well-planned, multiyear curriculum that systematically builds up knowledge.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C17",
+        "text": "Interviews with parents show that they overwhelmingly prefer a nearby school if it is a good school.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Interviews with parents make overwhelmingly clear that parents prefer the nearby school especially if it is a good school.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C18",
+        "text": "Only approximately 30 percent of parents in inferior schools desire to transport their children to schools outside their neighborhood.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "At present, only some 30 percent of parents in inferior schools favor transporting their child to another school.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C19",
+        "text": "The true principle of choice includes the 70 percent of parents who wish to stay in their neighborhood and deserve good schools for their children.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "The other 70 percent of parents who wish to stick to their neighborhoods also deserve good schools for their children. That is what they would certainly choose—as would many of the 30 percent as well. This is the true principle of 'choice.'",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C20",
+        "text": "Segregated schools in the American South often had demanding teachers and knowledge-based curriculums that were superior to the integrated schools that followed.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.5,
+        "source_passage": "I have heard from African American colleagues... that the segregated schools they attended, with their demanding teachers and no-nonsense, knowledge-based curriculums, were better than the integrated schools blacks attended after Brown v. Board.",
+        "page_range": "101-104"
+      },
+      {
+        "id": "C21",
+        "text": "Parents overwhelmingly prefer nearby schools, especially if the school is high-performing.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "parents prefer the nearby school especially if it is a good school.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C22",
+        "text": "Educational reformers should prioritize improving neighborhood schools over busing or school choice programs.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "Those reformers who emphasize the need for parental choice as well as those who favor renewed busing might well consider the parental voices that overwhelmingly favor improving the neighborhood school.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C23",
+        "text": "The true principle of 'choice' for parents is the ability to send children to a safe, orderly, and high-performing local school.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "This is the true principle of “choice.” Who wouldn’t prefer to send their young children in early grades to the closest school that is safe, orderly, caring, and high performing?",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C24",
+        "text": "International comparisons of national systems show that curriculum content is key to closing achievement gaps.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "Support for the key importance of school effects in closing gaps comes from international comparisons of national systems in which curriculum content is well documented.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C25",
+        "text": "Nations with high overall elementary school performance also tend to have the narrowest achievement gaps between economic groups.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Those nations whose elementary schools perform the best overall—Finland, Canada, Japan, Korea—also rank high in narrowing the achievement gaps between economic groups.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C26",
+        "text": "High-performing nations share a characteristic where curriculum topics are clearly known to students, teachers, and parents.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "In the highest-scoring nations the year-to-year curriculum topics are known to all—students, teachers, and parents.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C27",
+        "text": "The adoption of 'new education' theories caused curriculum quality to decline and halted progress in educational equality in the US.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.7,
+        "source_passage": "The “new education” caused curriculum quality to decline, stopping progress in equality, and putting a nation at risk.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C28",
+        "text": "Schools account for 40% of the differences in student achievement when family background is statistically controlled.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "Our results suggest that schools do indeed matter, in that when one examines the outcomes across the national sample of schools, fully 40% of the differences in achievement can be found between schools.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C29",
+        "text": "The interpretation of the Coleman Report that 'family and poverty matter more than schools' provided an excuse for schools to avoid accountability.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "That interpretation enabled schools to keep doing in good conscience what they had been doing, without feeling open to the reproach that they were injuring poor minority children.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C30",
+        "text": "The Coleman Report's findings were limited by the fact that they were gathered during the era of child-centered educational dominance.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.6,
+        "source_passage": "It had taken its soundings at a particular historical moment: in the 1960s after the child-centered takeover of American elementary schools.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C31",
+        "text": "Catholic schools effectively reduced the impact of family background on student achievement.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "He pursued further studies showing that Catholic schools were doing an excellent job in reducing the impact of family and poverty on educational achievement.",
+        "page_range": "103-106"
+      },
+      {
+        "id": "C32",
+        "text": "Schools can greatly ameliorate educational disadvantage if they are orderly and impart a strong, coherent curriculum.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "The data actually implied, Coleman said, that schools could indeed matter a great deal. He was so disturbed by the social determinism of the interpreters that he pursued further studies showing that Catholic schools were doing an excellent job in reducing the impact of family and poverty on educational achievement.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C33",
+        "text": "The achievement of minority pupils depends more on the schools they attend than does the achievement of majority pupils.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "To put it another way, the achievement of minority pupils depends more on the schools they attend than does the achievement of majority pupils.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C34",
+        "text": "Improving the school of a minority pupil increases their achievement more than a similar improvement would increase the achievement of a white child.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "The inference might then be made that improving the school of a minority pupil may increase his achievement more than would improving the school of a white child increase his.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C35",
+        "text": "School quality affects disadvantaged students twice as much as it affects advantaged children.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Coleman’s insight that school quality affects disadvantaged students twice as much as advantaged children deserves to be memorialized as the 'Coleman Differential Effect.'",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C36",
+        "text": "Good schools inherently narrow the achievement gap because they benefit poor children significantly more than they benefit rich ones.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "A good school narrows the achievement gap, because it benefits poor children more than it benefits rich ones. Thus, good schools inherently narrow the gap.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C37",
+        "text": "The widening of the black-white reading gap between ages thirteen and seventeen is evidence that American K–12 schooling is of poor quality.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "If K–12 schooling had been good schooling, that could not have occurred; the gaps would have consistently narrowed as children stayed in school. The finding of the Coleman Differential Effect is thus a reproach to the American school system as it now stands.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C38",
+        "text": "NAEP data underestimates the true achievement gap at age seventeen because it excludes students who have dropped out.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Moreover, the current gap is really greater than appears at age seventeen because NAEP does not include the thousands of low-scoring students who drop out between thirteen and seventeen.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C39",
+        "text": "The chief aim of preschool from the standpoint of social justice is to enhance children's knowledge, syntax, and vocabularies.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "So, while there are many things that children should learn in preschool, the chief aim from the standpoint of social justice is to enhance their knowledge, syntax, and vocabularies.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C40",
+        "text": "Domain immersion is the surest way to enhance knowledge and vocabulary in early childhood education.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "The surest way to do that in preschool is the strategy of 'domain immersion,' described in chapter 3. It is a principle that should continue to be followed also in later grades.",
+        "page_range": "106-108"
+      },
+      {
+        "id": "C41",
+        "text": "Vocabulary catch-up occurs by implicit word learning when domain immersion is applied consistently with a sequence of domains and independent readings.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "When domain immersion is applied consistently with a careful sequence of domains over a full school year, and then in the next year and the year after that, with independent readings directed to the purpose, vocabulary catch-up occurs by implicit word learning.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C42",
+        "text": "A coherent curriculum benefits all students but provides the greatest benefit to the least prepared students.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "The coherence of the curriculum benefits all students. Crucially, it benefits the least prepared the most.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C43",
+        "text": "Domain immersion requires a definite and coherent curriculum.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "It requires a definite and coherent curriculum.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C44",
+        "text": "Isolated study of words is significantly less effective for vocabulary building than studying words within the context of domains.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "What does not work nearly as effectively for vocabulary building is the isolated study of words. Such study has its place, as it comes up in context within the study of domains, but not in isolation from that larger context.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C45",
+        "text": "The intensive study of word lists in current schools is an inefficient fallback necessitated by the lack of common cumulative content in language arts classes.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "The intensive study of word lists in our schools today is an inefficient, fallback position made necessary by the absence of common cumulative content in the language arts class in elementary school.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C46",
+        "text": "Implicit word learning is much faster and more accurate than explicit word learning.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "One quickly reaches the point of diminishing returns, because implicit word learning is much faster and more accurate than explicit word learning. That’s an unexpected finding.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C47",
+        "text": "A typical young person gains approximately 15 words a day (5,475 words a year) through implicit means by age sixteen.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "Experts estimate that by age sixteen, a typical young person has gained by implicit means about 15 words a day (including Saturdays, Sundays, and holidays, as well as summer vacation)—some 5,475 words a year.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C48",
+        "text": "Explicit word study using a dictionary often promotes an inaccurate understanding of word connotations.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "In the 1987 study, he and Gildea showed that explicit word study with a dictionary often encourages a quite inaccurate sense of word connotations.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C49",
+        "text": "Accurate word connotations are constructed gradually through exposure to words in multiple past contexts.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "An accurate sense of word connotations is built up gradually from multiple past contexts. We remember bits of those past contexts along with our memories of the word, and those remembered bits help us identify nuances of words among the range of multiple meanings each word potentially has.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C50",
+        "text": "Explicit word study, while useful at times, can be distortive and time-consuming and should be used sparingly.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "Explicit word study, while useful and even necessary at times, can be distortive as well as time-consuming. It should be used sparingly.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C51",
+        "text": "The educational philosophy of child-friendly individualism has contributed to the stall in closing verbal achievement gaps.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.85,
+        "source_passage": "There is thus a connection between the supposedly child-friendly individualism of the new education and the stall in the narrowing of verbal achievement gaps.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C52",
+        "text": "Encouraging children to follow their own interests results in significant gaps in their knowledge and vocabulary.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "Encouraging children to follow their interests leaves them with big holes in their knowledge and vocabulary.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C53",
+        "text": "Drills in comprehension strategies and isolated word lists have failed to close the achievement gap and cannot work.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "These holes are supposed to be filled by word lists, and by drills in comprehension strategies. The verdict is in on these ideas and methods: they have not worked. And a more probing analysis says they cannot work.",
+        "page_range": "108-110"
+      },
+      {
+        "id": "C54",
+        "text": "There is a causal connection between the child-friendly individualism of modern education and the failure to narrow verbal achievement gaps.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "There is thus a connection between the supposedly child-friendly individualism of the new education and the stall in the narrowing of verbal achievement gaps.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C55",
+        "text": "Vocabulary drills and comprehension strategy drills have failed to fill the knowledge gaps created by individualistic education.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "These holes are supposed to be filled by word lists, and by drills in comprehension strategies. The verdict is in on these ideas and methods: they have not worked.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C56",
+        "text": "Vocabulary drills and strategy instruction cannot work as a matter of principle.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "And a more probing analysis says they cannot work.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C57",
+        "text": "Individualistic educational methods have created unpleasant and ineffectual schooling environments that specifically harm disadvantaged students.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "They have led to highly unnatural and unpleasant forms of schooling, which have left disadvantaged students disadvantaged.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C58",
+        "text": "Disadvantaged students drop out of school because the instruction is unpleasant, frustrating, and ineffectual.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "Who can blame disadvantaged students for dropping out of that kind of unpleasant, frustrating, and ineffectual schooling?",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C59",
+        "text": "Whole-class domain immersion is the superior educational system for narrowing gaps.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Whole-class domain immersion is the better system, early and late.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C60",
+        "text": "An educational domain is any larger context into which studied items are integrated conceptually and linguistically.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "A domain is any larger context into which the things being studied are integrated and connected conceptually and linguistically.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C61",
+        "text": "Fictional texts function as domains just as much as scientific systems like laws of motion.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "So if a student is studying a fictional text—a poem or novel—that is a domain too, just as much as Newton’s three laws of motion.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C62",
+        "text": "Prior domain knowledge is the essential condition for learning new words and concepts because it enables the formation of a situation model.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "In language use it represents the relevant prior knowledge that contextualizes a discourse and enables a student to form a situation model for the meaning. That is the key condition for learning new words and new things.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C63",
+        "text": "Knowledge is foundational to skills, a principle accepted by scientific consensus.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Domain has the further advantage of representing the scientifically accepted understanding of the knowledge that is foundational to a skill.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C64",
+        "text": "A well-defined, cumulative curriculum is the primary key to closing the achievement gap.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Knowledge is the key to gap closing, and it is best gained coherently by the cumulative, year-by-year study of domains—by a well-defined, cumulative curriculum.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C65",
+        "text": "The achievement of equity and equality of opportunity depends on technical psychological principles of curriculum design.",
+        "claim_level": "meta",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "On such technical, nitty-gritty psychological principles hang great issues of equity and equality of opportunity.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C66",
+        "text": "American test scores declined nationwide between 1960 and 1980.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "We know this is true from the general nationwide test score decline between 1960 and 1980.",
+        "page_range": "110-111"
+      },
+      {
+        "id": "C67",
+        "text": "Some national systems have narrowed the achievement gap more effectively than others.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Some national systems have narrowed the gap better than others."
+      },
+      {
+        "id": "C68",
+        "text": "The black-white achievement gap offers fuller opportunities for historical analysis than other low-scoring groups due to the length of time it has been studied.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "The reason the black-white gap was chosen for analysis by ETS instead of including all low-scoring groups was that the black-white gap has been studied longer, and offers fuller opportunities for historical analysis."
+      },
+      {
+        "id": "C69",
+        "text": "Reading comprehension scores of seventeen-year-olds serve as a proxy for their future life chances.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "Reading comprehension scores of seventeen-year-olds (where the scores count for life chances) are very highly correlated with vocabulary size."
+      },
+      {
+        "id": "C70",
+        "text": "Busing and reintegration are logical social policies as long as a significant quality gap exists between schools for advantaged and disadvantaged children.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "As a social policy, busing and reintegration make sense so long as the schools attended by advantaged children continue to be far superior to those attended by disadvantaged children."
+      },
+      {
+        "id": "C71",
+        "text": "High-quality schools have the capacity to transform the atmosphere and sentiments of their surrounding neighborhood.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "Such good schools can transform the atmosphere and sentiments of the neighborhood."
+      },
+      {
+        "id": "C72",
+        "text": "The 30 percent of parents who desire busing should have viable choices as long as their local schools remain inferior.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Until we have good schools in poor neighborhoods—a possible goal, achieved in other nations—that 30 percent of parents who desire busing should certainly have viable choices, as choice advocates insist."
+      },
+      {
+        "id": "C73",
+        "text": "The popular interpretation of the Coleman Report that family background matters more than schools contains a fundamental logical flaw.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "But, as Coleman ruefully noted, there was always a logical flaw in the 'it’s not the schools' interpretation of the Coleman Report."
+      },
+      {
+        "id": "C74",
+        "text": "The original Coleman data shows that minority pupils in the South were twice as dependent on school quality for their achievement as white pupils.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Thus, 20 percent of the achievement of Negroes in the South is associated with the particular schools they go to, whereas only 10 percent of the achievement of whites in the South is."
+      },
+      {
+        "id": "C75",
+        "text": "The Coleman Differential Effect implies that poor children catch up slightly for every year they are enrolled in a high-quality school.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "If poor children get twice as much academic benefit from a good school as rich children do, then in each year of good schooling that differential causes poor children to catch up a little."
+      },
+      {
+        "id": "C76",
+        "text": "Isolated study of words is acceptable and useful when it occurs in the context of studying specific domains.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "Such study has its place, as it comes up in context within the study of domains, but not in isolation from that larger context."
+      },
+      {
+        "id": "C77",
+        "text": "Implicit word learning is more accurate than explicit word study because it correctly builds word connotations from multiple past contexts.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Another advantage of implicit word learning is that it’s more accurate than explicit study... An accurate sense of word connotations is built up gradually from multiple past contexts."
+      },
+      {
+        "id": "C78",
+        "text": "Explicit word study should be used sparingly by schools because it can be distortive and consumes excessive time.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Explicit word study, while useful and even necessary at times, can be distortive as well as time-consuming. It should be used sparingly."
+      },
+      {
+        "id": "C79",
+        "text": "In language use, a domain represents the relevant prior knowledge that contextualizes discourse and allows for the formation of a situation model.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "In language use it represents the relevant prior knowledge that contextualizes a discourse and enables a student to form a situation model for the meaning."
+      },
+      {
+        "id": "C80",
+        "text": "Great issues of equity and equality of opportunity depend on the application of technical psychological principles in the classroom.",
+        "claim_level": "meta",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "On such technical, nitty-gritty psychological principles hang great issues of equity and equality of opportunity."
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "description": "Report showing the black-white achievement gap narrowed until 1988 then stalled.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Educational Testing Service (ETS), The Black-White Achievement Gap: When Progress Stopped, 2010",
+        "supports_claim": "C6"
+      },
+      {
+        "id": "E2",
+        "description": "Massive study concluding that 2/3 of achievement gap causes are not explained by social factors like economic status or school integration.",
+        "evidence_type": "empirical_study",
+        "source_reference": "David Grissmer et al., 1994",
+        "supports_claim": "C8"
+      },
+      {
+        "id": "E3",
+        "description": "Data showing that only 30 percent of parents in inferior schools desire busing/transport to other schools.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Christine H. Rossell et al., School Desegregation in the 21st Century, 2002",
+        "supports_claim": "C18"
+      },
+      {
+        "id": "E4",
+        "description": "Memoir cited as evidence of a brilliant student overcoming poverty through schooling.",
+        "evidence_type": "anecdote",
+        "source_reference": "Sonia Sotomayor, My Beloved World, 2013",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E5",
+        "description": "Reference to the general nationwide test score decline in the US between 1960 and 1980.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Hirsch, endnote 2",
+        "supports_claim": "C20"
+      },
+      {
+        "id": "E6",
+        "description": "Christine H. Rossell's study on school desegregation found that 70% of parents prefer neighborhood schools over busing.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Christine H. Rossell et al., School Desegregation in the 21st Century (2002)",
+        "endnote_numbers": [
+          6,
+          7
+        ],
+        "source_passage": "At present, only some 30 percent of parents in inferior schools favor transporting their child to another school.",
+        "supports_claim": "C3"
+      },
+      {
+        "id": "E7",
+        "description": "PISA 2012 results volume focusing on excellence through equity and narrowing gaps in top-performing nations.",
+        "evidence_type": "international_comparison",
+        "source_reference": "PISA 2012 Results: Excellence Through Equity Giving Every Student the Chance to Succeed, Volume II (2013)",
+        "endnote_numbers": [
+          8
+        ],
+        "source_passage": "The 2012 PISA studies of fifteen-year-olds across the globe have devoted a volume to that subject.",
+        "supports_claim": "C6"
+      },
+      {
+        "id": "E8",
+        "description": "The 1966 Coleman Report, Equality of Educational Opportunity, which sampled 650,000 students.",
+        "evidence_type": "statistical_data",
+        "source_reference": "James S. Coleman et al., Equality of Educational Opportunity (1966)",
+        "endnote_numbers": [
+          10,
+          13
+        ],
+        "source_passage": "It sampled some 650,000 students.",
+        "supports_claim": "C8"
+      },
+      {
+        "id": "E9",
+        "description": "Borman and Dowling's 2010 reanalysis of Coleman data using new methodology to isolate school vs. family effects.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Geoffrey Borman and Maritza Dowling, 'Schools and Inequality' (2010)",
+        "endnote_numbers": [
+          11
+        ],
+        "source_passage": "Even after statistically taking into account students’ family background, a large proportion of the variation among true school means is related to differences explained by school characteristics.",
+        "supports_claim": "C9"
+      },
+      {
+        "id": "E10",
+        "description": "Coleman's study comparing public and Catholic schools, showing the latter's success in closing achievement gaps.",
+        "evidence_type": "empirical_study",
+        "source_reference": "James S. Coleman, Thomas Hoffer, and Sally Kilgore, High School Achievement (1982)",
+        "endnote_numbers": [
+          12
+        ],
+        "source_passage": "Catholic schools were doing an excellent job in reducing the impact of family and poverty on educational achievement.",
+        "supports_claim": "C12"
+      },
+      {
+        "id": "E11",
+        "description": "Coleman's 1966 data showing that 20 percent of Southern Negro achievement is associated with their school compared to only 10 percent for white students.",
+        "evidence_type": "statistical_data",
+        "source_reference": "James S. Coleman et al., Equality of Educational Opportunity (1966)",
+        "endnote_numbers": [
+          13
+        ],
+        "source_passage": "Thus, 20 percent of the achievement of Negroes in the South is associated with the particular schools they go to, whereas only 10 percent of the achievement of whites in the South is.",
+        "supports_claim": "C2"
+      },
+      {
+        "id": "E12",
+        "description": "A study showing Catholic schools reduced the impact of family background and poverty on educational achievement through a coherent curriculum.",
+        "evidence_type": "empirical_study",
+        "source_reference": "James S. Coleman, Thomas Hoffer, and Sally Kilgore, High School Achievement (1982)",
+        "endnote_numbers": [
+          12
+        ],
+        "source_passage": "He pursued further studies showing that Catholic schools were doing an excellent job in reducing the impact of family and poverty on educational achievement.",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E13",
+        "description": "NAEP data showing the black-white equity gap in reading increases between age thirteen and age seventeen.",
+        "evidence_type": "statistical_data",
+        "source_reference": "National Assessment of Educational Progress (NAEP)",
+        "endnote_numbers": [
+          15
+        ],
+        "source_passage": "And indeed, the National Assessment of Educational Progress (NAEP) shows that the black-white equity gap in reading consistently increases between age thirteen and age seventeen.",
+        "supports_claim": "C7"
+      },
+      {
+        "id": "E14",
+        "description": "Systematic evaluation of domain immersion (Concept-Oriented Reading Instruction) showing higher reading comprehension and motivation.",
+        "evidence_type": "empirical_study",
+        "source_reference": "John Guthrie et al., 'Increasing Reading Comprehension and Engagement Through Concept-Oriented Reading Instruction' (2004)",
+        "endnote_numbers": [
+          18
+        ],
+        "source_passage": "The domain immersion method was pioneered and evaluated systematically in the United States by John Guthrie. He called it 'Concept-Oriented Reading Instruction' (CORI).",
+        "supports_claim": "C11"
+      },
+      {
+        "id": "E15",
+        "description": "John Guthrie's Concept-Oriented Reading Instruction (CORI) demonstrates that sustained reading in a complex knowledge domain improves comprehension, motivation, and strategy use.",
+        "evidence_type": "empirical_study",
+        "source_reference": "John Guthrie et al., 'Increasing Reading Comprehension and Engagement Through Concept-Oriented Reading Instruction [CORI]' (2004)",
+        "endnote_numbers": [
+          18
+        ],
+        "source_passage": "He called it “Concept-Oriented Reading Instruction” (CORI)... students in CORI classrooms were higher than SI [strategy instruction] and/or TI [traditional instruction] students on measures of reading comprehension, reading motivation, and reading strategies.",
+        "supports_claim": "C2"
+      },
+      {
+        "id": "E16",
+        "description": "A series of articles mathematically demonstrating that implicit word learning from context is faster and more accurate than explicit learning.",
+        "evidence_type": "statistical_data",
+        "source_reference": "William E. Nagy, Patricia A. Herman, and Richard C. Anderson (1985, 1987)",
+        "endnote_numbers": [
+          21
+        ],
+        "source_passage": "It was demonstrated mathematically in a series of articles by William Nagy, Patricia Herman, and Richard Anderson. Implicit learning appears to be very gradual and slow because it takes place over months and years rather than days.",
+        "supports_claim": "C8"
+      },
+      {
+        "id": "E17",
+        "description": "Research showing that dictionary-based word study often results in inaccurate understanding of word connotations compared to context-based learning.",
+        "evidence_type": "empirical_study",
+        "source_reference": "George A. Miller and Patricia M. Gildea, 'How Children Learn Words' (1987)",
+        "endnote_numbers": [
+          22
+        ],
+        "source_passage": "In the 1987 study, he and Gildea showed that explicit word study with a dictionary often encourages a quite inaccurate sense of word connotations.",
+        "supports_claim": "C10"
+      },
+      {
+        "id": "E18",
+        "description": "Analysis of how word knowledge is gained through nuances identified from multiple past contexts.",
+        "evidence_type": "expert_testimony",
+        "source_reference": "George A. Miller, 'On Knowing a Word' (1999)",
+        "endnote_numbers": [
+          23
+        ],
+        "source_passage": "In his last major article on word knowledge, “On Knowing a Word” (1999), Miller helped us understand why isolated word study, besides taking a lot of time, doesn’t produce accurate results.",
+        "supports_claim": "C11"
+      },
+      {
+        "id": "E19",
+        "description": "Studies demonstrating that word meanings are primarily learned from context during normal reading.",
+        "evidence_type": "empirical_study",
+        "source_reference": "Nagy, Herman, and Anderson, 'Learning Words from Context', 1985; 'Learning Word Meanings from Context During Normal Reading', 1987",
+        "endnote_numbers": [
+          21
+        ],
+        "source_passage": "William E. Nagy, Patricia A. Herman, and Richard C. Anderson, 'Learning Words from Context,' Reading Research Quarterly 19 (1985): 304–330",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E20",
+        "description": "French data showing that as the quality of schools declined between 1987 and 2007, equity gaps widened, confirming the Coleman Differential Effect.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Hirsch (referencing French data discussed in Chapter 6)",
+        "endnote_numbers": [
+          16
+        ],
+        "source_passage": "As French schools got worse between 1987 and 2007, the equity gaps grew bigger.",
+        "supports_claim": "C6"
+      },
+      {
+        "id": "E21",
+        "description": "Anecdotal testimony from African American colleagues that segregated schools with knowledge-based curriculums were often superior to later integrated schools.",
+        "evidence_type": "anecdote",
+        "source_reference": "Hirsch, Personal Communication",
+        "endnote_numbers": [
+          2
+        ],
+        "source_passage": "I have heard from African American colleagues... that the segregated schools they attended, with their demanding teachers and no-nonsense, knowledge-based curriculums, were better than the integrated schools blacks attended after Brown v. Board.",
+        "supports_claim": "C13"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "CON1",
+        "term": "Inside-the-school causes",
+        "author_definition": "Educational factors specifically located within the institution of the school—primarily curriculum quality and breadth—rather than external social or economic factors.",
+        "importance": "central"
+      },
+      {
+        "id": "CON2",
+        "term": "Vocabulary Gap",
+        "author_definition": "The disparity in word knowledge between demographic groups, which Hirsch identifies as the molecular mechanism and primary driver of the reading comprehension gap.",
+        "importance": "central"
+      },
+      {
+        "id": "CON3",
+        "term": "True principle of choice",
+        "author_definition": "The right of parents to have a high-quality neighborhood school, rather than just the right to transport a child to a different school elsewhere.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON4",
+        "term": "Social determinism",
+        "author_definition": "The pessimistic belief that a child's educational outcomes are entirely dictated by their family background and poverty, rendering school improvements largely futile.",
+        "common_alternative": "Sociological analysis of demographic impacts on learning.",
+        "source_passage": "Coleman was distressed by both the minimal equity effects of current schools and by the self-protective reaction to his report by the education community. The data actually implied... schools could indeed matter a great deal.",
+        "importance": "central"
+      },
+      {
+        "id": "CON5",
+        "term": "Coleman Differential Effect",
+        "author_definition": "The empirical finding that school quality affects disadvantaged students twice as much (both positively and negatively) as it affects advantaged students.",
+        "common_alternative": "Often ignored in favor of social determinism (the idea that schools don't matter relative to family background).",
+        "source_passage": "Coleman’s insight that school quality affects disadvantaged students twice as much as advantaged children deserves to be memorialized as the 'Coleman Differential Effect.'",
+        "importance": "central"
+      },
+      {
+        "id": "CON6",
+        "term": "Domain Immersion",
+        "author_definition": "A pedagogical strategy involving a definite, coherent sequence of specific knowledge domains studied for extended periods to facilitate deep comprehension and implicit vocabulary acquisition.",
+        "importance": "central"
+      },
+      {
+        "id": "CON7",
+        "term": "Implicit Word Learning",
+        "author_definition": "The process by which children acquire vocabulary naturally through exposure to a coherent knowledge-rich curriculum rather than isolated skill drills.",
+        "source_passage": "vocabulary catch-up occurs by implicit word learning. The coherence of the curriculum benefits all students.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON8",
+        "term": "Tier-Two Words",
+        "author_definition": "High-frequency words found across diverse contexts (e.g., 'frequency', 'compilation') that are typically targeted for explicit instruction by skills-based experts.",
+        "source_passage": "Tier-two words—such as frequency, compilation, and manifestation—are used somewhat less frequently but are important to know, because they are found in all sorts of different contexts.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON9",
+        "term": "Word Field",
+        "author_definition": "A set of words that typically occur together in a given context, which help determine the specific nuances of a word's meaning through their co-occurrence.",
+        "common_alternative": "Isolated vocabulary lists.",
+        "source_passage": "In vocabulary terms, the things studied occupy a 'word field'—a set of words that tend to occur together and help co-determine meanings by their co-occurrence.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON10",
+        "term": "Situation Model",
+        "author_definition": "A psychological mental representation created by a student during discourse, formed by combining prior domain knowledge with the current text or speech to grasp its meaning.",
+        "importance": "central"
+      },
+      {
+        "id": "CON11",
+        "term": "Communal scheme",
+        "author_definition": "A national curriculum or shared educational framework designed to narrow achievement gaps by providing common knowledge to all students.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON12",
+        "term": "Concept-Oriented Reading Instruction (CORI)",
+        "author_definition": "A method pioneered by John Guthrie that uses domain immersion to build reading comprehension and vocabulary.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON13",
+        "term": "Domain specificity",
+        "author_definition": "A key principle of cognitive science stating that skills and learning are often tied to specific areas of knowledge rather than being general abilities.",
+        "importance": "central"
+      },
+      {
+        "id": "CON14",
+        "term": "Word connotations",
+        "author_definition": "The nuanced meanings and associations of words that are accurately built up through multiple exposures in context.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON15",
+        "term": "Word field",
+        "author_definition": "A set of words that tend to occur together in a specific domain and help determine meanings by their co-occurrence.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON16",
+        "term": "Tier-three words",
+        "author_definition": "Rare or specialized words (e.g., halide, nullification) typically gained through the study of specific subjects.",
+        "importance": "contextual"
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE1",
+        "name": "France post-1989",
+        "description": "The author describes the French school system as a 'textbook case' where gaps were originally narrow due to a national curriculum but widened significantly after the system was changed to a less communal scheme.",
+        "key_passages": [
+          "The French school system is a textbook case in which the gaps had been narrowed, but were subsequently enormously widened when France abandoned a national curriculum in favor of a less communal scheme."
+        ],
+        "role_in_argument": "negative_example",
+        "claims_supported": [
+          "C4",
+          "C5"
+        ]
+      },
+      {
+        "id": "CASE2",
+        "name": "American South Segregated Schools",
+        "description": "Hirsch notes historical characterizations of pre-integration segregated schools as having high standards and knowledge-based curricula that may have been more effective for disadvantaged students than the subsequent integrated schools.",
+        "key_passages": [
+          "the segregated schools they attended, with their demanding teachers and no-nonsense, knowledge-based curriculums, were better than the integrated schools blacks attended after Brown v. Board."
+        ],
+        "role_in_argument": "historical_precedent",
+        "claims_supported": [
+          "C20"
+        ]
+      },
+      {
+        "id": "CASE3",
+        "name": "Top-performing PISA nations",
+        "description": "Nations like Finland, Canada, Japan, and Korea demonstrate that high achievement and narrowed economic gaps occur when school curriculum is explicit and known to all.",
+        "key_passages": [
+          "Those nations whose elementary schools perform the best overall—Finland, Canada, Japan, Korea—also rank high in narrowing the achievement gaps between economic groups. In the highest-scoring nations the year-to-year curriculum topics are known to all—students, teachers, and parents."
+        ],
+        "role_in_argument": "positive_example",
+        "claims_supported": [
+          "C5",
+          "C6",
+          "C7"
+        ]
+      },
+      {
+        "id": "CASE4",
+        "name": "Catholic Schools Study",
+        "description": "James Coleman's follow-up research showing that Catholic schools achieved higher equity by maintaining orderly environments and strong, coherent curricula.",
+        "key_passages": [
+          "He pursued further studies showing that Catholic schools were doing an excellent job in reducing the impact of family and poverty on educational achievement. That buttressed his larger point: schools can educate all children well, and greatly ameliorate disadvantage if they are good orderly schools that impart a strong, coherent curriculum as the Catholic schools did."
+        ],
+        "role_in_argument": "positive_example",
+        "claims_supported": [
+          "C12",
+          "C13"
+        ]
+      },
+      {
+        "id": "CASE5",
+        "name": "Catholic schools (1980s)",
+        "description": "Schools that demonstrated high equity effects by providing a strong, coherent curriculum and an orderly environment, which significantly reduced the typical achievement gap associated with poverty.",
+        "key_passages": [
+          "Catholic schools were doing an excellent job in reducing the impact of family and poverty on educational achievement.",
+          "The solution to the equity problem is basically to have good schools with coherent curricula, as the Catholic schools did."
+        ],
+        "role_in_argument": "positive_example",
+        "claims_supported": [
+          "C1",
+          "C6"
+        ]
+      },
+      {
+        "id": "CASE6",
+        "name": "Canada",
+        "description": "Canadian provinces use ancillary and illustrative materials to provide explicit curricular guidelines, effectively creating a uniform curriculum while maintaining the appearance of local autonomy and avoiding 'dictatorial' appearances.",
+        "key_passages": [
+          "The official standards are not as explicit as those of, say, Japan. But there are ancillary materials that are highly explicit... ancillary illustrative materials gently induce the reality of arbitrary dictatorial impositions—a subtle approach that might well be tried elsewhere."
+        ],
+        "time_period": "Contemporary",
+        "role_in_argument": "positive_example",
+        "claims_supported": [
+          "C13"
+        ],
+        "contestable_aspects": [
+          "Whether ancillary materials actually function as a 'uniform curriculum' in practice."
+        ]
+      }
+    ],
+    "thinkers": [
+      {
+        "id": "TH1",
+        "name": "David Grissmer",
+        "key_idea": "Two-thirds of the achievement gap's persistence cannot be explained by social or economic variables.",
+        "author_stance": "builds_on",
+        "engagement": "Hirsch uses Grissmer's statistical findings to argue that the 'missing' 2/3 of causation must be found in school-based factors like curriculum.",
+        "key_passages": [
+          "Grissmer et al. concluded that some two-thirds of the causal effects remain unaccounted for after such social factors as economic status and school integration are taken into account."
+        ]
+      },
+      {
+        "id": "TH2",
+        "name": "Sonia Sotomayor",
+        "key_idea": "Individual resilience and good schooling can allow a student to overcome profound disadvantage.",
+        "author_stance": "agrees",
+        "engagement": "Hirsch cites Sotomayor's memoir to establish that while systems struggle, individual brilliance in good schools can overcome the 'disadvantages of birth.'",
+        "key_passages": [
+          "With the help of good schools, exceptionally brilliant and resourceful students can almost completely overcome the disadvantages of poverty and a suboptimal home environment.1"
+        ]
+      },
+      {
+        "id": "TH3",
+        "name": "James S. Coleman",
+        "key_idea": "The initial finding that family background outweighs school effects, which he later refined by studying Catholic schools to show schools can ameliorate disadvantage.",
+        "source_work": "Equality of Educational Opportunity (1966)",
+        "author_stance": "builds_on",
+        "engagement": "Hirsch argues that Coleman's original findings were misinterpreted as 'social determinism' and praises Coleman's own efforts to correct this by investigating the 'strong, coherent curriculum' of Catholic schools.",
+        "key_passages": [
+          "Coleman was distressed by both the minimal equity effects of current schools and by the self-protective reaction to his report by the education community. The data actually implied, Coleman said, that schools could indeed matter a great deal."
+        ]
+      },
+      {
+        "id": "TH4",
+        "name": "Geoffrey Borman and Maritza Dowling",
+        "key_idea": "Reanalysis of Coleman's data shows schools account for 40% of variance in student outcomes.",
+        "source_work": "Schools and Inequality: A Multilevel Analysis of Coleman's Equality of Educational Opportunity Data (2010)",
+        "author_stance": "agrees",
+        "engagement": "Hirsch uses their statistical reanalysis to provide a modern empirical 'correction' to the historical belief that schools don't matter.",
+        "key_passages": [
+          "This is a timely correction to initial reactions to the Coleman Report."
+        ]
+      },
+      {
+        "id": "TH5",
+        "name": "John Guthrie",
+        "key_idea": "Concept-Oriented Reading Instruction (CORI) improves comprehension and engagement through content goals.",
+        "author_stance": "agrees",
+        "engagement": "Hirsch cites Guthrie's CORI as the systematic pioneering of the 'domain immersion' method in the United States.",
+        "key_passages": [
+          "The domain immersion method was pioneered and evaluated systematically in the United States by John Guthrie."
+        ]
+      },
+      {
+        "id": "TH6",
+        "name": "George A. Miller",
+        "key_idea": "The limitations of isolated word study and dictionary use in building accurate word connotations and nuances.",
+        "author_stance": "agrees",
+        "engagement": "Hirsch cites Miller as the 'top researcher into vocabulary gain' to support his claim that implicit learning is more accurate than explicit study.",
+        "key_passages": [
+          "Another advantage of implicit word learning is that it’s more accurate than explicit study, as documented by George A. Miller and Patricia Gildea in their classic article “How Children Learn Words.”"
+        ]
+      },
+      {
+        "id": "TH7",
+        "name": "Isabel L. Beck",
+        "key_idea": "The classification of vocabulary into three tiers (Tier 1, 2, and 3).",
+        "author_stance": "partially_agrees",
+        "engagement": "Hirsch accepts the classification but critiques the recommendation by 'skills-curriculum experts' to focus heavily on Tier 2 explicit study at the expense of domain-rich implicit learning.",
+        "key_passages": [
+          "Let’s take a look at the best-authenticated practice of explicit word study. It divides words into three categories: tier one, tier two, and tier three."
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Educational Testing Service (ETS)",
+        "role": "institution",
+        "context": "Published the 2010 report 'The Black-White Achievement Gap: When Progress Stopped' which provides the historical timeline for Hirsch's argument."
+      },
+      {
+        "name": "Choice Advocates",
+        "role": "argued_against",
+        "context": "Reformers who emphasize parental choice through transport/vouchers, whom Hirsch argues ignore the 70% of parents who want good neighborhood schools."
+      },
+      {
+        "name": "US Civil Rights Act 1964",
+        "role": "institution",
+        "context": "The legal authority that mandated the Coleman Report to study educational equality."
+      },
+      {
+        "name": "The 'Choice' Reformers",
+        "role": "argued_against",
+        "context": "Advocates who prioritize school exit options over improving local neighborhood schools."
+      },
+      {
+        "name": "James Coleman",
+        "role": "cited_approvingly",
+        "context": "Sociologist whose 1966 report and later studies on Catholic schools form the basis for Hirsch's 'Differential Effect' theory."
+      },
+      {
+        "name": "John Guthrie",
+        "role": "cited_approvingly",
+        "context": "Researcher who developed Concept-Oriented Reading Instruction (CORI)."
+      },
+      {
+        "name": "NAEP",
+        "role": "institution",
+        "context": "The 'Nation's Report Card' used to show the widening achievement gap in the US."
+      },
+      {
+        "name": "Skills-curriculum experts",
+        "role": "argued_against",
+        "context": "Experts who recommend prioritizing explicit study of Tier 2 words over domain-specific knowledge."
+      },
+      {
+        "name": "OECD (PISA)",
+        "role": "historical_figure",
+        "context": "Cited regarding global results on excellence through equity."
+      },
+      {
+        "name": "Sonia Sotomayor",
+        "role": "cited_approvingly",
+        "context": "Her memoir 'My Beloved World' is cited in the context of achievement and opportunity."
+      }
+    ],
+    "objections_raised": [
+      {
+        "id": "OBJ1",
+        "objection": "The halt in the narrowing of the black-white achievement gap was caused by re-segregation.",
+        "source": "Unspecified critics/Some researchers",
+        "response": "The 1994 Grissmer study shows that even when school integration is accounted for, two-thirds of the gap's causes remain unexplained.",
+        "targets_claim": "C7"
+      },
+      {
+        "id": "OBJ2",
+        "objection": "The primary solution to poor neighborhood schools is to provide parents with 'choice' to move their children elsewhere.",
+        "source": "Choice advocates",
+        "response": "Data shows that 70% of parents in poor neighborhoods actually want their local school to be improved, not to have to transport their children away.",
+        "targets_claim": "C19"
+      },
+      {
+        "id": "OBJ3",
+        "objection": "The Coleman Report proves that school characteristics don't matter because family and poverty have a much larger impact on student outcomes.",
+        "source": "Initial interpreters of the Coleman Report / Education community",
+        "response": "The original study took its soundings during a specific historical moment when American schools had been taken over by child-centered theories, and modern reanalysis shows schools actually account for 40% of achievement differences.",
+        "targets_claim": "C9"
+      },
+      {
+        "id": "OBJ4",
+        "objection": "Social determinism: the belief that schools don't matter compared to the influence of family and poverty.",
+        "source": "Interpreters of the Coleman Report",
+        "response": "Coleman's data actually showed that while advantaged students are less affected by school quality, disadvantaged students are highly sensitive to it; therefore, good schools matter enormously for equity.",
+        "targets_claim": "C1"
+      },
+      {
+        "id": "OBJ5",
+        "objection": "Student time is better spent on frequent, tier-two words rather than numerous and rare tier-three words, because tier-two words appear in all sorts of contexts.",
+        "source": "Skills-curriculum experts (based on Beck, McKeown, and Kucan)",
+        "response": "Overdoing explicit word study reaches a point of diminishing returns; implicit word learning is faster, more accurate, and more efficient when students are immersed in a topic.",
+        "targets_claim": "C12"
+      },
+      {
+        "id": "OBJ6",
+        "objection": "The achievement gap is determined by sociological factors like parent loquacity (e.g., the '30 million word' gap).",
+        "source": "Hart and Risley (contextual)",
+        "response": "This leads to educational determinism; schools can narrow the gap by providing a knowledge-rich curriculum regardless of home environment.",
+        "targets_claim": "C13"
+      },
+      {
+        "id": "OBJ7",
+        "objection": "Explicit word study and vocabulary lists are the best way to fill knowledge gaps.",
+        "source": "Proponents of Skill-Centrism",
+        "response": "These methods are unnatural, time-consuming, distortive, and have empirically failed to close gaps.",
+        "targets_claim": "C4"
+      }
+    ],
+    "cross_chapter_refs": [
+      {
+        "target_chapter": "7",
+        "reference_text": "Those details are described in chapter 7."
+      },
+      {
+        "target_chapter": "3",
+        "reference_text": "As discussed in chapter 3, the basic principle is this: A good, cumulative curriculum has prepared all the students..."
+      },
+      {
+        "target_chapter": "8",
+        "reference_text": "Described in detail in chapter 8."
+      },
+      {
+        "target_chapter": "Chapter 3",
+        "reference_text": "As discussed in chapter 3, the basic principle is this: A good, cumulative curriculum has prepared all the students in the class with the prior knowledge necessary to make probable-meaning hypotheses."
+      },
+      {
+        "target_chapter": "Chapter 6",
+        "reference_text": "As I show in the next chapter, the French data powerfully confirm the Coleman Differential Effect."
+      },
+      {
+        "target_chapter": "3",
+        "reference_text": "The strategy of 'domain immersion,' described in chapter 3."
+      },
+      {
+        "target_chapter": "6",
+        "reference_text": "As I show in the next chapter, the French data powerfully confirm the Coleman Differential Effect."
+      },
+      {
+        "target_chapter": "3",
+        "reference_text": "strategy of “domain immersion,” described in chapter 3"
+      },
+      {
+        "target_chapter": "Chapter 6",
+        "reference_text": "As I show in the next chapter, the French data powerfully confirm the Coleman Differential Effect."
+      },
+      {
+        "target_chapter": "Chapter 8",
+        "reference_text": "Described in detail in chapter 8 [referring to specific interventions]."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0116025,
+    "duration_s": 142.9216547012329,
+    "num_windows": 5,
+    "pre_dedup_claims": 75,
+    "post_dedup_claims": 66,
+    "sweep_claims": 14,
+    "sweep_concepts": 6
+  }
+}

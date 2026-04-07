@@ -1,0 +1,573 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C2",
+        "relationship": "supports",
+        "explanation": "The US's departure from Enlightenment roots in the 1940s is manifested as the adoption of the romantic approach to education."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C18",
+        "relationship": "refines",
+        "explanation": "C18 generalizes the claim that Romanticism became the dominant philosophy by the 1940s."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The 'seedling' metaphor (C4) provides the conceptual basis for the belief that interference destroys a divine plan (C17)."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C10",
+        "relationship": "depends-on",
+        "explanation": "Shifting the focus to culture and shared knowledge (C9) necessitates a delivery method suited for that content, which is identified as whole-class instruction (C10)."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The empirical claim that whole-class instruction yields superior learning (C12) provides the justification for the normative claim that it is the most effective and fairest method (C11)."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "If literacy cannot be learned naturally (C20), then it must be taught through a structured, collective cultural induction like whole-class instruction (C10)."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "The rejection of the seedling/innate metaphor by Enlightenment thinkers (C14) supports the claim that literacy is purely a cultural, not natural, acquisition (C20)."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C22",
+        "relationship": "depends-on",
+        "explanation": "If literacy and culture were innate, the blank slate metaphor (C22) would be a false starting point for schooling."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "The failure of progressive methods at the Celebration School provides empirical evidence that progressive beliefs are held despite contradictory outcomes."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "The success of Catholic schools using explicit curriculum and structure validates the effectiveness of the blank slate approach over naturalism."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "Progressivism's influence persists because the word 'nature' carries religious-level weight, making the theory resistant to secular critique."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C25",
+        "relationship": "instantiates",
+        "explanation": "The pervasive use of botanical metaphors is a concrete manifestation of the underlying Romantic nature-worship in education."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C26",
+        "relationship": "depends-on",
+        "explanation": "Progressivism is impervious to data because its foundations are cultural and quasi-religious rather than evidence-based."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C39",
+        "relationship": "depends-on",
+        "explanation": "Since modern civilization is an evolutionary novelty, the skills required to navigate it cannot be natural and must be artificially learned."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C36",
+        "relationship": "depends-on",
+        "explanation": "If learning is artificial rather than natural, it requires a leader to transmit wisdom rather than allowing the child to follow instinct."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The classical view of internal conflict necessitates external guidance (leading) to manage contradictory human impulses."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "Evolutionary psychology confirms that human nature is not a naturally harmonious force, justifying the need for external moral and intellectual leadership."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The etymology of education as 'leading out' reinforces the claim that schooling should be a directed, rather than natural, process."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "The contrast between classical views and Romanticism highlights how Romantic 'faith in instinct' deviates from historic human wisdom."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "If modern learning is arduous and artificial (conflicting with the natural mind), it cannot be acquired through natural/implicit discovery; it requires analytical and explicit instruction."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C45",
+        "relationship": "supports",
+        "explanation": "The necessity of non-natural habits suggests that education must be an active, explicit process of 'leading out' rather than passive growth."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C47",
+        "relationship": "depends-on",
+        "explanation": "If adjudicating human impulses requires artificial constructs, then the selection of those constructs is a matter of ethical and social choice rather than biological discovery."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "Rejecting evolution as a guide for education forces the discipline to look to ethical and social consequences for its standards."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C48",
+        "relationship": "depends-on",
+        "explanation": "The failure of naturalistic methods to achieve justice is the theoretical basis for why those methods (progressive faith) perpetuate existing demographic gaps."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C55",
+        "relationship": "depends-on",
+        "explanation": "If Romanticism is an 'impervious' secular religion, superficial changes like classroom arrangements are useless; only a fundamental change in underlying theory (the furniture of the mind) can effect change."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C50",
+        "relationship": "refines",
+        "explanation": "The mastery of shared language is the specific mechanism by which 'shared knowledge' is established."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C62",
+        "relationship": "instantiates",
+        "explanation": "C61 provides a concrete example of how romanticism altered the curriculum, replacing functional moral instruction with aesthetic focus, which C62 argues must be reversed for social justice."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "C63 establishes that romantic schooling is a refutable empirical failure, providing the logical opening to demand a shift toward social justice priorities."
+      },
+      {
+        "from_id": "1.C87",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "The claim that social justice must be prioritized over romanticism requires the prior conclusion that romanticism (child-centered individualism) has failed to deliver social justice."
+      },
+      {
+        "from_id": "3.C18",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "The normative push for social justice in C62 relies on the empirical finding that child-centrism actively harms the poor more than the rich."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "warrant_text": "Physical classroom layout is an intentional design reflecting the underlying pedagogical philosophy of the era.",
+        "is_explicit": true,
+        "vulnerability": "Physical changes might be driven by ergonomics, costs, or architectural trends rather than purely philosophical shifts."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E3",
+        "claim_id": "C12",
+        "warrant_text": "A strong correlation between a specific instructional method (teacher-led) and high performance (reading scores) suggests a causal relationship.",
+        "is_explicit": false,
+        "vulnerability": "Other variables in the pre-1940s era (social stability, different student demographics) could account for higher scores."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C2",
+        "warrant_text": "Popular culture (hit songs) reflects and reinforces the dominant philosophical assumptions of the general public.",
+        "is_explicit": true,
+        "vulnerability": "Pop song lyrics may be chosen for rhyme and humor rather than as an endorsement of educational theory."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E10",
+        "claim_id": "C20",
+        "warrant_text": "If fundamental academic skills (like math or alphabets) are artificial constructs rather than biological traits, they cannot be 'unfolded' through nature.",
+        "is_explicit": true,
+        "vulnerability": "A child might have a natural capacity to *acquire* symbols even if the specific symbols (the alphabet) are cultural."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C24",
+        "claim_id": "C22",
+        "warrant_text": "Success in a controlled environment using explicit, structured methods (Catholic schools) proves the pragmatic superiority of the cultural-transmission model over the natural-growth model.",
+        "is_explicit": true,
+        "vulnerability": "Catholic schools may have a selection bias (self-selected parents/students) that public schools do not."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C31",
+        "claim_id": "C25",
+        "warrant_text": "The persistent use of specific metaphors (gardening, botanical growth) in professional literature reflects the deep-seated metaphysical framework that guides that profession's practitioners.",
+        "is_explicit": true,
+        "vulnerability": "Metaphors may be purely stylistic or legacy terms that do not reflect the current actual psychological beliefs of teachers."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C40",
+        "claim_id": "C39",
+        "warrant_text": "Natural learning is limited to skills for which humans have evolved specific biological mechanisms; cultural inventions (like literacy) require non-natural instruction.",
+        "is_explicit": true,
+        "vulnerability": "Some modern learning might tap into natural modular abilities (e.g., visual processing for reading), making the line between 'natural' and 'artificial' blurry."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C32",
+        "claim_id": "C36",
+        "warrant_text": "The original etymological meaning of a word provides a more historically and psychologically accurate definition of a concept than modern revisions.",
+        "is_explicit": false,
+        "vulnerability": "Etymological fallacy: the origins of a word do not necessarily dictate its correct or most effective current meaning or practice."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C60",
+        "claim_id": "C45",
+        "warrant_text": "Complex, non-intuitive systems (like math or literacy) do not emerge spontaneously and therefore require systematic, external decomposition for a learner to master them.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive science also suggests 'desirable difficulties' and 'active learning' can be inductive while still being rigorous."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C53",
+        "claim_id": "C55",
+        "warrant_text": "Correlation between past high performance and specific teacher-led structures suggests that the teacher's role as a 'cultural guide' is the primary driver of success, not the physical environment.",
+        "is_explicit": false,
+        "vulnerability": "Historical reading scores may have been high due to different demographic factors or lower social expectations for the bottom 50% of students at that time."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C43",
+        "claim_id": "C47",
+        "warrant_text": "If prosocial behavior is not an automatic byproduct of nature, it must be the result of intentional moral and social engineering through the curriculum.",
+        "is_explicit": true,
+        "vulnerability": "The failure of one specific Romantic sequence (Nature to Mankind) does not prove that all moral development is artificial; some evolutionary psychologists argue for an innate moral grammar."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C61",
+        "claim_id": "C62",
+        "warrant_text": "If a curriculum shifts from functional/moral instruction to aesthetic/poetic instruction, and social inequalities persist or widen, then the aesthetic shift is a luxury that must be sacrificed for social justice.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that moral instruction and aesthetic focus are mutually exclusive or that aesthetics contribute nothing to social justice."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C63",
+        "claim_id": "C62",
+        "warrant_text": "A pedagogical theory that fails its own empirical tests (natural development of skills) loses its moral authority to dictate educational priorities.",
+        "is_explicit": true,
+        "vulnerability": "Proponents might argue that the value of romantic education is intrinsic (the experience of childhood) rather than instrumental (test scores)."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C20",
+        "to_id": "C10",
+        "missing_step": "Individualized cultural induction is less efficient or reliable than collective instruction for ensuring all students reach a threshold of literacy.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C6",
+        "to_id": "C11",
+        "missing_step": "The physical arrangement of students facing each other inherently decreases the 'fairness' or effectiveness of the transmission of knowledge.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C21",
+        "to_id": "C22",
+        "missing_step": "Even if culture is not innate, children have innate biological variations in learning capacity that the 'blank slate' metaphor potentially ignores.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C40",
+        "to_id": "C36",
+        "missing_step": "The fact that content is artificial (e.g., the alphabet) does not prove that the pedagogy must be hierarchical leading; artificial content could potentially be learned through naturalistic methods.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C42",
+        "to_id": "C47",
+        "missing_step": "Establishing that 'anti-natural constructs' like religion should be replaced by 'secular shared knowledge' rather than other competing value systems.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C48",
+        "to_id": "C56",
+        "missing_step": "Evidence that whole-class instruction specifically overcomes the racial and economic gaps better than other non-Romantic structured interventions.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C54",
+        "to_id": "C48",
+        "missing_step": "A causal link showing that the lack of shared language in early grades is the *primary* driver of test-score gaps compared to external socioeconomic factors.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C61",
+        "to_id": "C62",
+        "missing_step": "Explicit proof that the 'aesthetics of diversity' and 'shared knowledge' are in a zero-sum relationship.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C63",
+        "to_id": "C62",
+        "missing_step": "Establishing that 'social justice' is exclusively defined by closing academic achievement gaps rather than including multicultural recognition.",
+        "step_type": "definition_shift",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C11",
+        "objection": "Whole-class instruction may ignore significant differences in individual learning speeds and styles, potentially leaving struggling students behind while boring advanced ones.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C20",
+        "objection": "Even if alphabets are cultural, the 'natural' development of a child's interest and cognitive readiness determines the best time to introduce those cultural tools.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C12",
+        "objection": "Higher reading scores in the 1940s might reflect a less diverse student population or the fact that students with difficulties were more likely to drop out of school.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C26",
+        "objection": "Adherence to progressive methods might not be 'quasi-religious' but rather based on a prioritization of student motivation, social-emotional health, and creativity over standardized test scores.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C22",
+        "objection": "The 'blank slate' metaphor is scientifically outdated; modern cognitive science and genetics suggest significant innate 'scaffolding' and predispositions that interact with environment.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C37",
+        "objection": "Being a 'cultural outlier' does not invalidate a theory; the Enlightenment itself was an outlier, and Romanticism could be viewed as a legitimate evolution in understanding the child's psyche.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C45",
+        "objection": "Explicit instruction may lead to rote memorization without deep conceptual understanding, whereas inductive methods ensure the student has 'constructed' the knowledge and can apply it flexibly.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C48",
+        "objection": "Test-score gaps may be more accurately attributed to 'opportunity gaps'—funding, teacher quality, and housing stability—rather than the pedagogical 'faith' of the teachers.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C55",
+        "objection": "Physical 'furniture' (like desks in circles) is a tangible manifestation of a democratic power dynamic; you cannot change the 'theory' of a classroom while maintaining an architecture that enforces hierarchy.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C62",
+        "objection": "The 'aesthetics of diversity' is not a distraction from social justice but a prerequisite for it, as marginalized students require representation to engage with the curriculum at all.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C63",
+        "objection": "Romanticism in schools is not a scientific hypothesis to be refuted by scores, but a philosophy of human dignity that protects children from being treated as mere 'industrial' units.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Inadequacy of Nature for Literacy",
+        "chain": [
+          "C3",
+          "C4",
+          "C14",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "strong"
+      },
+      {
+        "name": "The Case for Whole-Class Instruction",
+        "chain": [
+          "C20",
+          "C9",
+          "C12",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Efficiency of Shared Materials",
+        "chain": [
+          "C7",
+          "C12",
+          "C10"
+        ],
+        "conclusion_id": "C10",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Metaphorical Correction",
+        "chain": [
+          "C21",
+          "C23",
+          "C24",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "strong"
+      },
+      {
+        "name": "The Romantic Religious Engine",
+        "chain": [
+          "C27",
+          "C28",
+          "C29",
+          "C31",
+          "C25",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Evolutionary Case for Structure",
+        "chain": [
+          "C40",
+          "C39",
+          "C35",
+          "C38",
+          "C32",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "strong"
+      },
+      {
+        "name": "The Artificiality of Learning",
+        "chain": [
+          "C44",
+          "C60",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "strong"
+      },
+      {
+        "name": "Education as Social Ethics",
+        "chain": [
+          "C41",
+          "C42",
+          "C43",
+          "C47"
+        ],
+        "conclusion_id": "C47",
+        "strength": "moderate"
+      },
+      {
+        "name": "Critique of Educational Romanticism",
+        "chain": [
+          "C52",
+          "C58",
+          "C53",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "moderate"
+      },
+      {
+        "name": "Equity through Shared Knowledge",
+        "chain": [
+          "C49",
+          "C50",
+          "C54",
+          "C48"
+        ],
+        "conclusion_id": "C48",
+        "strength": "strong"
+      },
+      {
+        "name": "The Practical Failure of Educational Faith",
+        "chain": [
+          "C63",
+          "1.C87",
+          "3.C18",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "strong"
+      },
+      {
+        "name": "From Aesthetic Romanticism to Explicit Justice",
+        "chain": [
+          "C61",
+          "2.C87",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0045808,
+    "duration_s": 67.21663498878479
+  }
+}

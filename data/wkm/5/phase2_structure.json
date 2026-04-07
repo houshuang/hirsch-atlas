@@ -1,0 +1,604 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "The French case provides an empirical example of a school system's curriculum choices directly affecting the size of the achievement gap."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "Historical fluctuations in the American black-white gap demonstrate that the gap is not static and is subject to external institutional influence."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If some nations succeed where others fail, it proves that national-level school variables are decisive in narrowing gaps."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "The specific dependency of minority students on school quality contradicts the popular interpretation that family is the only major factor."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The high degree of dependency (20% vs 10%) suggests a cumulative 'catching up' effect for disadvantaged students in high-quality schools."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "The meta-conclusion about equity depends on the technical principle that word learning and literacy are context-driven rather than just skill-driven."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "Equity hinges on providing the 'domain' knowledge required for students to form situation models and achieve reading comprehension."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The stalling of desegregation's progress is the historical context required to identify the 'unaccounted-for' portion of the achievement gap."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "If social factors do not explain the gap, the author reasons by elimination that internal school factors must be the cause."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C14",
+        "relationship": "depends-on",
+        "explanation": "The mechanism for narrowing gaps through curriculum assumes that reading comprehension is primarily driven by vocabulary size."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "Because vocabulary is built slowly over years (accretion), the school's impact is tied to the breadth of the multi-year curriculum."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The conclusion about the elementary curriculum's importance relies on the premise that pre-high school grades are the primary site of vocabulary gain."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The specific mechanism of unequal gain (lower-vocabulary students learning more per lesson) justifies the claim that curriculum breadth narrows the gap."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "Parental preference for local schools provides the empirical basis for redefining the principle of 'choice'."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If 'true choice' is a good local school, then reformers should prioritize improving those schools over busing."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The correlation between high performance and narrow gaps in specific nations supports the idea that curriculum content is the key variable."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The shared characteristic of clear, known curriculum topics across successful nations points to content as the causal factor."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "If schools account for 40% of achievement variance, it establishes the potential for schools to significantly ameliorate disadvantage."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "instantiates",
+        "explanation": "Catholic schools serve as a real-world example of schools using coherent curriculum to reduce family-background impact."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that school quality affects disadvantaged students twice as much is derived from the observation that minority pupil achievement is more dependent on school choice."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C35",
+        "relationship": "depends-on",
+        "explanation": "The claim that improving a minority student's school yields higher gains than for a white student is the empirical basis for the 'Coleman Differential Effect'."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The mathematical reality of the differential effect (benefiting the poor more) leads to the theoretical conclusion that good schools inherently narrow the gap."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The effectiveness of domain immersion as a strategy is predicated on the fact that implicit word learning is the superior mechanism for vocabulary growth."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "If isolated word study is ineffective, it necessitates a shift toward domain-based immersion."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The practical application of domain immersion is impossible without a definite and coherent curriculum."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "If implicit learning accounts for 15 words a day, explicit study is mathematically inefficient by comparison."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "If dictionary use causes inaccurate connotation, then explicit study is qualitatively inferior to context-based learning."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that child-friendly individualism fails relies on the empirical claim that following interests creates knowledge gaps."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The inefficiency and inaccuracy of explicit word study provide the theoretical basis for why vocabulary drills fail to close gaps."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C54",
+        "relationship": "refines",
+        "explanation": "C54 moves from the general 'contribution' of philosophy to a specific 'causal connection' between individualism and the failure to narrow gaps."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C54",
+        "relationship": "supports",
+        "explanation": "The failure of drills to fill gaps (C55) provides empirical evidence for the causal failure of the individualistic system (C54)."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C59",
+        "relationship": "depends-on",
+        "explanation": "The superiority of domain immersion is predicated on the idea that prior knowledge is the essential condition for learning new concepts."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C64",
+        "relationship": "supports",
+        "explanation": "If knowledge is foundational to all skills, then a curriculum defined by knowledge is the only logical tool for closing skill-based gaps."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C64",
+        "relationship": "supports",
+        "explanation": "Equity is framed as a technical result of curriculum design, supporting the claim that a specific cumulative curriculum is the 'key'."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E20",
+        "claim_id": "C5",
+        "warrant_text": "If achievement gaps expand or contract in direct chronological alignment with curriculum changes, the curriculum is the most probable causal variable.",
+        "is_explicit": true,
+        "vulnerability": "Omission of other concurrent social changes in France (e.g., immigration patterns or economic shifts) during the 1987-2007 period."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E11",
+        "claim_id": "C74",
+        "warrant_text": "A higher percentage of variance in student achievement attributable to school factors in one group compared to another indicates a greater reliance on formal schooling for that group.",
+        "is_explicit": false,
+        "vulnerability": "The statistical correlation doesn't account for the quality of the 'non-school education' available to the different groups."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E19",
+        "claim_id": "C77",
+        "warrant_text": "Cognitive processes identified in individual psychological studies (like implicit word learning) are the foundational mechanisms that aggregate into large-scale social patterns like the achievement gap.",
+        "is_explicit": false,
+        "vulnerability": "Classroom environments are social and complex; laboratory findings on individual cognition may not scale linearly to macro-educational outcomes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C8",
+        "warrant_text": "If a robust statistical model controlling for known social variables leaves a large remainder of unexplained variance, that variance is likely attributable to unmodeled institutional variables.",
+        "is_explicit": false,
+        "vulnerability": "The 'unaccounted-for' variance could be due to unmeasured social or home variables rather than school-based ones."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E16",
+        "claim_id": "C14",
+        "warrant_text": "In a controlled learning environment with a fixed amount of new information, those with less prior knowledge of the specific terms have a higher 'ceiling' for new acquisition in that specific lesson.",
+        "is_explicit": true,
+        "vulnerability": "Students with higher initial vocabulary may use their existing knowledge to learn even more complex nuances or faster, potentially maintaining or even widening the gap despite the curriculum's breadth."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E10",
+        "claim_id": "C15",
+        "warrant_text": "Success in closing gaps within private or religious sectors (like Catholic schools) that use specific curricular models demonstrates that the curriculum, rather than student demographics, is the active ingredient.",
+        "is_explicit": false,
+        "vulnerability": "Catholic schools may benefit from 'selection bias' or different disciplinary environments that curriculum alone does not provide."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E21",
+        "claim_id": "C9",
+        "warrant_text": "Historical periods or specific sub-systems where high standards existed despite segregation suggest that academic rigor and content can override social disadvantages.",
+        "is_explicit": true,
+        "vulnerability": "Anecdotal evidence from a specific historical context (segregated South) may not generalize to modern integrated or urban school settings."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C31",
+        "claim_id": "C32",
+        "warrant_text": "Success in a specific sector (Catholic schools) using a specific method (coherent curriculum) can be generalized as a potential success for the entire public system if the method is replicated.",
+        "is_explicit": true,
+        "vulnerability": "Catholic schools may have unobserved variables like selective admission or higher parental engagement that public schools cannot replicate."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C33",
+        "claim_id": "C35",
+        "warrant_text": "Statistical sensitivity to school quality is a reliable proxy for measuring the potential impact of school reform on specific demographic groups.",
+        "is_explicit": false,
+        "vulnerability": "Higher sensitivity might also imply higher vulnerability to school-based failures, not just higher potential for gains."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C41",
+        "claim_id": "C40",
+        "warrant_text": "If a pedagogical method (domain immersion) triggers a natural cognitive process (implicit word learning), it is the most efficient method for mass education.",
+        "is_explicit": false,
+        "vulnerability": "Natural cognitive processes may require specific conditions (like high initial literacy) that the most disadvantaged students lack."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C47",
+        "claim_id": "C53",
+        "warrant_text": "To close a large gap, the educational method must match the scale and speed of natural acquisition; explicit methods are too slow to overcome the mathematical deficit.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that 'closing the gap' requires reaching the same word count as advantaged peers rather than focusing on a smaller set of high-leverage 'power words'."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C48",
+        "claim_id": "C50",
+        "warrant_text": "Contextual accuracy is the primary measure of word mastery; therefore, any method that strips context (like dictionaries) is counter-productive.",
+        "is_explicit": false,
+        "vulnerability": "A dictionary is a tool for initial exposure; it may be a necessary first step before contextual refinement can even begin."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C52",
+        "claim_id": "C51",
+        "warrant_text": "If individual interests are idiosyncratic and non-overlapping, they cannot reliably cover the communal knowledge base required for societal literacy.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that students will not eventually cover the same ground through different paths of interest."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C5",
+        "missing_step": "National curriculum is the primary or sole determinant of 'school quality' in the context of narrowing gaps.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C79",
+        "to_id": "C80",
+        "missing_step": "Technical psychological principles in the classroom are more impactful than structural social reforms (like housing or income support) in achieving equity.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C8",
+        "to_id": "C9",
+        "missing_step": "Evidence that school curriculum changed specifically during the period when progress on the achievement gap stalled.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C17",
+        "to_id": "C16",
+        "missing_step": "Establishing that 'neighborhood sentiment' and parent preference for local schools can overcome the deep-seated economic and social factors that currently define 'bad' neighborhoods.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C28",
+        "to_id": "C32",
+        "missing_step": "Proof that the 40% variance is primarily driven by curriculum coherence rather than teacher quality or school funding.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C37",
+        "to_id": "C27",
+        "missing_step": "Establishing that the widening reading gap is caused specifically by the adoption of 'new education' rather than external economic factors or the end of desegregation.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C46",
+        "to_id": "C40",
+        "missing_step": "Demonstrating that domain immersion is the *only* or *most* effective way to trigger implicit word learning compared to other content-rich approaches.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C57",
+        "to_id": "C58",
+        "missing_step": "Frustration with instruction is the primary cause of dropping out, as opposed to economic necessity or social environment.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C60",
+        "to_id": "C59",
+        "missing_step": "Whole-class delivery is more effective than small-group or individualized domain immersion for narrowing achievement gaps.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The stall in the black-white achievement gap after 1988 may be due to macro-economic shifts, such as the increase in income inequality and the decline of the manufacturing sector, rather than school curriculum changes.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C80",
+        "objection": "Relying on technical psychological principles in the classroom 'over-medicalizes' the problem of equity, ignoring that systemic racism and economic segregation are the primary drivers of educational disparity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C9",
+        "objection": "The 'inside-the-school' factors could be related to funding disparities, school safety, or teacher experience levels rather than the curriculum content itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C14",
+        "objection": "A broad curriculum might overwhelm lower-achieving students if they lack the foundational decoding skills or reading fluency required to access that content, potentially widening the gap.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C22",
+        "objection": "Focusing on neighborhood schools ignores the reality of residential segregation; without busing or choice, schools remain 'separate and unequal' regardless of the curriculum quality.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C31",
+        "objection": "The success of Catholic schools in the 1960s was often attributed to a self-selected population of parents who prioritized education and a disciplined environment that could exclude non-compliant students.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C27",
+        "objection": "The halt in educational equality progress aligns with the stagnation of real wages and the rise in income inequality in the US since the 1970s, suggesting socio-economic causes rather than curricular ones.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C46",
+        "objection": "While implicit learning is faster for typical learners, students with significant language delays or dyslexia often require explicit, systematic phonics and vocabulary instruction to make any progress.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C54",
+        "objection": "The failure to narrow the achievement gap may be due to widening socio-economic inequality and the 'digital divide' rather than the specific philosophical shift toward individualism in schools.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C59",
+        "objection": "Whole-class immersion assumes a level of baseline homogeneity that may not exist in modern classrooms; 'domain immersion' might leave behind students with specific processing disorders or those who are significantly behind the class mean.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C53",
+        "objection": "Strategy instruction (like summarizing or predicting) provides students with meta-cognitive tools that help them tackle unfamiliar domains even when they lack specific prior knowledge.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Institutional Power Chain",
+        "chain": [
+          "C67",
+          "C5",
+          "C6",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "strong"
+      },
+      {
+        "name": "The Psychological Equity Chain",
+        "chain": [
+          "C74",
+          "C77",
+          "C79",
+          "C80"
+        ],
+        "conclusion_id": "C80",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Unexplained Gap Logic",
+        "chain": [
+          "C7",
+          "C8",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Vocabulary Accretion Mechanism",
+        "chain": [
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "strong"
+      },
+      {
+        "name": "The Local School Reform Mandate",
+        "chain": [
+          "C17",
+          "C18",
+          "C21",
+          "C23",
+          "C19",
+          "C16",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "moderate"
+      },
+      {
+        "name": "International Curriculum Comparison",
+        "chain": [
+          "C25",
+          "C26",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Rebuttal to Social Determinism",
+        "chain": [
+          "C28",
+          "C29",
+          "C30",
+          "C31",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "The Coleman Differential Effect",
+        "chain": [
+          "C33",
+          "C34",
+          "C35",
+          "C36"
+        ],
+        "conclusion_id": "C35",
+        "strength": "strong"
+      },
+      {
+        "name": "The Implicit Vocabulary Strategy",
+        "chain": [
+          "C46",
+          "C44",
+          "C43",
+          "C40"
+        ],
+        "conclusion_id": "C40",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Critique of Individualism",
+        "chain": [
+          "C52",
+          "C57",
+          "C51",
+          "C54"
+        ],
+        "conclusion_id": "C54",
+        "strength": "strong"
+      },
+      {
+        "name": "The Vocabulary Acquisition Theory",
+        "chain": [
+          "C47",
+          "C48",
+          "C49",
+          "C50",
+          "C56",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "strong"
+      },
+      {
+        "name": "The Curricular Solution",
+        "chain": [
+          "C60",
+          "C62",
+          "C63",
+          "C59",
+          "C65",
+          "C64"
+        ],
+        "conclusion_id": "C64",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0047861,
+    "duration_s": 64.41997909545898
+  }
+}

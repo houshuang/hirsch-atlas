@@ -1,0 +1,107 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that 'textual complexity' was adopted in the Common Core not because it is valid, but as a bureaucratic placeholder because the authors felt the need to specify *something* in the absence of actual content.",
+        "source_passage": "The criterion is adopted because something had to be specified in the Common Core State Standards. Unfortunately, that kind of empty standard reinforces the mistake our schools made when the progressive tradition changed the verbal subject itself to 'language arts.'",
+        "importance": "significant",
+        "suggested_claim": "Textual complexity was adopted as a metric in the Common Core primarily as a placeholder to satisfy the need for specificity without committing to actual content.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "The 'Metaphor of Buttons': Shared knowledge provides a repertoire of cultural references ('buttons') that leaders can use to mobilize a population toward social change.",
+        "source_passage": "He knew which buttons to push, because our 'mere fact' education had supplied most Americans with those same buttons.",
+        "importance": "critical",
+        "suggested_claim": "Common factual education provides the necessary cultural and rhetorical 'buttons' that allow social leaders to effectively communicate and mobilize the public for movements like Civil Rights.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The economic and practical argument regarding classroom constraints: mixed levels of prior knowledge create a zero-sum choice between boring high-achievers and neglecting struggling students.",
+        "source_passage": "If some students in the class have no understanding of addition, that will slow down everyone else... Or the teacher could slow down the whole class while addition is reexplained, a practice that is boring to the better-informed students.",
+        "importance": "significant",
+        "suggested_claim": "The lack of shared background knowledge in a classroom creates an inescapable trade-off between instructional pace and student engagement, leading to systemic inefficiency.",
+        "suggested_claim_level": "pragmatic"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C1",
+        "problem": "The claim states reformers *are* public benefactors, but Hirsch's praise is conditional upon future actions.",
+        "source_passage": "The thought leaders, philanthropists, and governors who have created and supported the initiative are public benefactors to whom, if the standards get some concrete content, we will owe high gratitude.",
+        "suggested_fix": "Common Core reformers will only truly deserve the title of 'public benefactors' if they succeed in adding concrete, specific content to the standards."
+      },
+      {
+        "claim_id": "C20",
+        "problem": "The claim omits the specific 'administrative device' that Hirsch emphasizes as the cause of Singapore's success.",
+        "source_passage": "The coherence and specificity of the Singaporean elementary schools are guaranteed by a simple administrative device: 'You must teach this single textbook and its coherent and specific content.'",
+        "suggested_fix": "The coherence of Singapore's curriculum is guaranteed by the administrative mandate of a single, specific textbook series, rather than just the existence of a guide."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E15",
+        "claim_id": "C53",
+        "missing_warrant": "A nation-centered curriculum provides a broader, more universal perspective that can outweigh and counteract the influence of provincial or local prejudices (like the racism of 1930s Memphis)."
+      },
+      {
+        "evidence_id": "E7",
+        "claim_id": "C21",
+        "missing_warrant": "Hiring non-specialist freelance writers via Craigslist for low-fee, high-speed projects is a reliable indicator that a publisher prioritizes profit and volume over technical or pedagogical quality."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C62",
+        "counter_argument": "A majority-led decision on curriculum content ('The Tyranny of the Majority') could systematically exclude or marginalize the histories and values of minority groups, even if the process is public.",
+        "why_important": "Hirsch argues that a public democratic process mitigates 'thought control,' but he doesn't address the risk of cultural erasure of minorities by the majority."
+      },
+      {
+        "targets_claim": "C66",
+        "counter_argument": "Subject matter expertise is a necessary but insufficient condition for teaching; without pedagogical training in classroom management and cognitive development, an expert may fail to transmit knowledge effectively to young children.",
+        "why_important": "Hirsch explicitly devalues pedagogical technique in favor of content knowledge, which is a major point of contention in educational theory."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C21",
+          "C25"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe the American textbook industry prioritizing profit and speed over accuracy and quality; they are redundant."
+      },
+      {
+        "claim_ids": [
+          "C10",
+          "C73"
+        ],
+        "action": "merge",
+        "explanation": "These claims are verbatim identical regarding the symbolic coding of thinking in the neocortex."
+      }
+    ],
+    "level_corrections": [
+      {
+        "claim_id": "C34",
+        "current_level": "methodological",
+        "correct_level": "theoretical",
+        "explanation": "This is a claim about the nature of reading and cognitive science (whether difficulty is inherent to a text or a product of the reader-text interaction), making it theoretical rather than just a comment on research methods."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is highly detailed and captures the vast majority of Hirsch's specific claims and evidence. However, it misses the nuance of Hirsch's rhetorical metaphors (like the 'buttons' of social change) and some of the meta-commentary on why the Common Core adopted 'textual complexity.' It also contains several redundant claims that should be merged for better granularity."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0020277000000000003,
+    "input_tokens": 14429,
+    "output_tokens": 1462,
+    "duration_s": 22.48114800453186,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C4",
+        "to_id": "C5",
+        "relationship": "refines",
+        "explanation": "C5 defines the specific conditions (fidelity and stability) required for the 'ratchet effect' described in C4."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The claim that humans have a stronger ratchet depends on the human-specific traits of imitation and teaching mentioned in the definition of high-fidelity transmission."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If humans are evolved for high-fidelity teaching and imitation, schooling becomes the logical institutionalized form of that evolutionary proclivity."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The requirement for schools to induce mastery of shared knowledge (C17) depends on the premise that schooling is the primary vehicle for cultural transmission (C8)."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The role of background knowledge in a national communication network is the mechanism that links literacy to democratic competence and fairness."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "Because high literacy is essential for democracy (C19), the leading role of education must be passing on the culture that enables that literacy (C3)."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The normative claim that education must not be left to nature (C15) provides the theoretical basis for why 'Romantic' (naturalistic) theory fails in C13."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C25",
+        "relationship": "depends-on",
+        "explanation": "The success of Jeff Litt's students can only represent a triumph of the Norway Principle if that curriculum was the actual cause of their success."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C25",
+        "relationship": "supports",
+        "explanation": "The debate victory of disadvantaged students over wealthy ones serves as the empirical proof of the claim."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "The ability to persuade an 'adult tribe' in debate is used as an instance of how background knowledge and values are necessary for communicative expertise."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "Lab results showing that processing time depends on subject familiarity directly support the claim that formulas only apply when background knowledge is present."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "If readability formulas only work for those who already know the content, the premise that they measure the inherent difficulty of a text for a learner is scientifically incorrect."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C30",
+        "relationship": "supports",
+        "explanation": "The isolation of 'outsiders' due to missing context proves that literacy requires more than just knowing words (vocabulary)."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The empirical observation that structural traits become irrelevant without knowledge directly supports the theoretical claim that they have no impact on readability."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "Readability metrics can only be declared ineffective if one first accepts that their primary variables (text characteristics) are irrelevant without background knowledge."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "If current readability measures are invalid, the author argues they must be replaced by a system that accounts for the missing variable: background knowledge (a topic sequence)."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C46",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic recommendation for a shared sequence depends on the premise that it is the only way for teachers to accurately gauge student knowledge."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "The insufficiency of local dialects for modern nationhood provides the functional necessity for a national grapholect."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "The historical benefits of large nations (military/economic) justify the maintenance of the grapholect as a unifying tool for those nations."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C51",
+        "relationship": "depends-on",
+        "explanation": "The claim that language is rooted in shared intentionality depends on the mechanism of gauging meaning intentions from sounds."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "If language is rooted in shared intentionality, schools function as the formal mechanism (the ratchet) to stabilize and transmit that shared understanding."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "Innate drives toward conformity and teaching provide the scientific basis for rejecting individualistic, child-centered educational theories."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C71",
+        "relationship": "supports",
+        "explanation": "If a child cannot construct centuries of culture alone, education must function as a collective 'ratchet' to preserve that culture."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "The 'ratchet' of cultural education works because verbal comprehension relies on the shared pool of background knowledge the ratchet preserves."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "If comprehension depends on shared knowledge, then a decline in that shared knowledge explains the decline in reading scores."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "The replacement of shared communal readings with individual classroom libraries is the specific mechanism through which the all-purpose reading level approach is implemented."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "The all-purpose reading level approach is the pedagogical manifestation of the decline in collective shared knowledge."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C74",
+        "relationship": "supports",
+        "explanation": "The timing of Tennessee's implementation during a global crisis acts as a natural experiment to validate the shared-knowledge approach."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C80",
+        "relationship": "supports",
+        "explanation": "The observed 16-percentile gain in Core Knowledge students is projected onto national data to argue for a top-tier global ranking."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C86",
+        "relationship": "depends-on",
+        "explanation": "The necessity of a core curriculum for equality relies on the principle that shared knowledge is a prerequisite for any meaningful communication between citizens."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C86",
+        "relationship": "depends-on",
+        "explanation": "If literacy and equality do not occur naturally, then an artificial intervention like a core curriculum is required."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C81",
+        "relationship": "supports",
+        "explanation": "Providing a universal core curriculum is the mechanism the author identifies to eliminate the income-based achievement gap."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C82",
+        "relationship": "instantiates",
+        "explanation": "The Declaration of Independence is cited as historical proof that conservative linguistic forms can serve revolutionary democratic ends."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C89",
+        "relationship": "depends-on",
+        "explanation": "The concept of cultural evolution as a driver of human success is the theoretical foundation for the 'ratchet effect' metaphor."
+      },
+      {
+        "from_id": "C89",
+        "to_id": "C88",
+        "relationship": "supports",
+        "explanation": "The biological/evolutionary reality of the ratchet effect is used to justify why the Norway Principle (shared knowledge) is the only valid route to justice."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C102",
+        "relationship": "refines",
+        "explanation": "The limitation of the ratchet metaphor to 'successful' tribes explains why American education is currently failing (the ratchet is slipping)."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "Preface.C44",
+        "relationship": "supports",
+        "explanation": "By providing evidence that natural human development is not inherently benign, it justifies the restriction of Romanticism in educational policy."
+      },
+      {
+        "from_id": "C99",
+        "to_id": "Preface.C36",
+        "relationship": "supports",
+        "explanation": "If individual development is cultural accommodation (ontogeny) rather than biological unfolding, then disadvantaged children require structured common instruction to join that culture."
+      },
+      {
+        "from_id": "C100",
+        "to_id": "Preface.C25",
+        "relationship": "supports",
+        "explanation": "The universal talent of guessing meaning-intentions is the cognitive mechanism that constitutes the 'empathy' the author describes as the heart of literacy."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "Preface.C14",
+        "relationship": "supports",
+        "explanation": "Empirical evidence of human destruction of nature supports the Enlightenment view (correcting Romanticism) that civilization requires intentional structure rather than natural 'growth'."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E12",
+        "claim_id": "C1",
+        "warrant_text": "If individual reading speed and comprehension (processing) are dependent on background knowledge, then the collective ability of a group to communicate effectively depends on that same shared knowledge base.",
+        "is_explicit": false,
+        "vulnerability": "Group communication involves social dynamics and empathy that may not be purely reducible to individual cognitive processing speeds."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E15",
+        "claim_id": "C15",
+        "warrant_text": "Since human progress is distinguished from animal stasis by intentional teaching and conformity, any educational method that removes intentional instruction ('naturalism') reverts to a pre-human state of stasis.",
+        "is_explicit": true,
+        "vulnerability": "It assumes that 'nature' in humans is identical to 'nature' in apes, ignoring potential innate human drives for discovery or independent learning."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E18",
+        "claim_id": "C13",
+        "warrant_text": "A multi-decade correlation between the rise of a specific educational theory (constructivism) and a decline in national test scores suggests that the theory is the causal agent of the decline.",
+        "is_explicit": true,
+        "vulnerability": "The 'Post Hoc Ergo Propter Hoc' fallacy; other factors like socioeconomic shifts, screen time, or funding changes could be the actual causes."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "warrant_text": "The successful adoption of a curriculum policy by a stable, high-functioning democracy (Norway) serves as a valid proof-of-concept for the universal necessity of that curriculum structure.",
+        "is_explicit": false,
+        "vulnerability": "What works for a small, ethnically and linguistically homogenous population like Norway's in 1994 may not scale to a large, pluralistic nation like the United States."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C26",
+        "claim_id": "C25",
+        "warrant_text": "Competitive academic success in a standardized format (debate) is a valid and sufficient proxy for the overall efficacy of an educational theory.",
+        "is_explicit": false,
+        "vulnerability": "Debate success may measure specific rhetorical training or 'hothousing' rather than the broad, stable literacy required for democratic participation."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C27",
+        "claim_id": "C25",
+        "warrant_text": "In a comparison between two school models, the presence of a sequenced curriculum is the decisive variable for success, outweighing factors like teacher quality or school culture.",
+        "is_explicit": true,
+        "vulnerability": "The author ignores 'the teacher effect' or the specific leadership of Jeff Litt as confounding variables."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C39",
+        "claim_id": "C40",
+        "warrant_text": "Mental processing time in a laboratory setting is the gold standard for defining what makes a text 'readable.'",
+        "is_explicit": false,
+        "vulnerability": "Readability formulas (Lexiles) are designed for instructional placement, not for measuring real-time cognitive processing speed; they serve different purposes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C43",
+        "claim_id": "C41",
+        "warrant_text": "If speed and comprehension are primarily determined by familiarity with the subject rather than word length, then structural metrics are proxies for familiarity rather than independent measures of difficulty.",
+        "is_explicit": true,
+        "vulnerability": "Extreme structural complexity (e.g., Joyce's Ulysses) may impede comprehension even if the subject matter is known."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C49",
+        "claim_id": "C48",
+        "warrant_text": "A common language reduces transaction costs and barriers to entry in political and economic systems, making it a prerequisite for egalitarian participation.",
+        "is_explicit": false,
+        "vulnerability": "A dominant grapholect can also serve as a barrier that excludes those from different linguistic or dialectal backgrounds."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C59",
+        "claim_id": "C60",
+        "warrant_text": "Educational methods that contradict innate human psychological proclivities (like conformity and social learning) are doomed to fail or are scientifically invalid.",
+        "is_explicit": true,
+        "vulnerability": "The existence of an innate trait (conformity) does not mean education should reinforce it; education might be intended to overcome innate biases."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C61",
+        "claim_id": "C71",
+        "warrant_text": "Since individuals cannot independently reproduce the complexity of modern culture within a single lifetime, education's primary role must be the efficient transmission of existing cultural wealth.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that 're-inventing' (Piagetian constructivism) isn't a superior cognitive tool for deep understanding even if it is slower."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C74",
+        "claim_id": "C75",
+        "warrant_text": "If one state improves while others decline during a uniform external shock (COVID), the variable unique to that state (shared-knowledge curriculum) is the likely cause.",
+        "is_explicit": false,
+        "vulnerability": "Ignores confounding variables like Tennessee's specific school closure durations or other legislative changes."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C79",
+        "claim_id": "C80",
+        "warrant_text": "Gains observed in localized pilot programs or specific school models can be scaled linearly to the entire national population.",
+        "is_explicit": false,
+        "vulnerability": "Selection bias: Core Knowledge schools may have different student demographics or higher teacher buy-in than the national average."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C92",
+        "claim_id": "C81",
+        "warrant_text": "If limited interventions in early grades show measurable transfer, then a sustained, multi-year cumulative curriculum will produce total elimination of the achievement gap.",
+        "is_explicit": false,
+        "vulnerability": "Extrapolation error: small gains in comprehension do not linearly scale to the total elimination of deep-seated socioeconomic disparities."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C94",
+        "claim_id": "C89",
+        "warrant_text": "Human biological development (infant behavior) reflects the evolutionary mechanisms of the species as a whole; therefore, infant communication proves humans are hard-wired for 'ratcheting' knowledge.",
+        "is_explicit": true,
+        "vulnerability": "Biological reductionism: early social signaling in infants may not be the same mechanism as complex cultural accumulation in formal schools."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C90",
+        "claim_id": "C91",
+        "warrant_text": "Because humans have innate 'Core Knowledge' capabilities, education policy should align with this cognitive architecture by focusing on building general knowledge.",
+        "is_explicit": false,
+        "vulnerability": "The 'is-ought' gap: the existence of innate cognitive structures doesn't automatically dictate specific social policy or curriculum choices."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C98",
+        "claim_id": "Preface.C14",
+        "warrant_text": "If historical evidence shows that 'natural' human behavior leads to destructive outcomes, then the Romantic premise of a benign, self-regulating natural state is empirically false.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that ancient ecological destruction was a matter of survival/ignorance, not an indictment of the cognitive benefits of 'natural' learning processes."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C100",
+        "claim_id": "Preface.C26",
+        "warrant_text": "Since democracy relies on the successful interpretation of public discourse, a shared ability to 'guess' intentions based on a common background is the necessary substrate of democratic stability.",
+        "is_explicit": false,
+        "vulnerability": "The ability to guess intentions might be universal, but the author assumes it can only function effectively within a shared 'common' background, rather than across diverse backgrounds."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C8",
+        "missing_step": "Formalized schooling is the only effective modern mechanism for achieving the high-fidelity transmission required by the ratchet effect.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C19",
+        "missing_step": "A shared knowledge base effectively bridges socioeconomic and racial divides rather than merely mirroring the existing knowledge of the dominant class.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C11",
+        "to_id": "C15",
+        "missing_step": "The 'natural' state of a human child is functionally equivalent to the 'natural' state of a chimpanzee in terms of knowledge acquisition potential.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C26",
+        "to_id": "C25",
+        "missing_step": "Evidence that the wealthy rival schools actually implemented child-centered, leveled-reading pedagogy as their primary model.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C34",
+        "to_id": "C22",
+        "missing_step": "Establishing that state-run curriculum frameworks are the only or most effective way to provide the common background knowledge that 'readability' levels fail to provide.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C44",
+        "to_id": "C46",
+        "missing_step": "A state-mandated topic sequence is the only viable alternative to readability-based systems for managing background knowledge.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C51",
+        "to_id": "C58",
+        "missing_step": "K-12 schooling is the primary or most efficient vehicle for the 'cultural ratchet' compared to other social institutions like family or media.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "C63",
+        "missing_step": "Evidence that background knowledge has actually decreased across the entire American population over 70 years.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C63",
+        "to_id": "C67",
+        "missing_step": "A clear causal link between individual reading comprehension and the macro-level political stability of a diverse nation.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C74",
+        "to_id": "C75",
+        "missing_step": "Verification that Tennessee's 'shared knowledge' curriculum was actually fully implemented and consistently delivered across all districts during the pandemic.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C89",
+        "to_id": "C86",
+        "missing_step": "The fact that culture accumulates (the ratchet) implies that a central state authority should define exactly which knowledge constitutes that accumulation for all students.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C92",
+        "to_id": "C81",
+        "missing_step": "School-based knowledge acquisition is the sole or dominant factor in the achievement gap, such that family-based environmental factors can be entirely overridden by curriculum.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C99",
+        "to_id": "Preface.C33",
+        "missing_step": "The fact that development is cultural accommodation (ontogeny) necessitates that the culture must be 'shared' and 'cumulative' specifically through the Hirsch-defined core curriculum to prevent score declines.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C98",
+        "to_id": "Preface.C44",
+        "missing_step": "Human-driven animal extinction in Australia proves that Romantic metaphors for education (natural growth) are logically and pedagogically invalid for classroom settings.",
+        "step_type": "generalization",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C17",
+        "objection": "Defining education as the mastery of 'tribal knowledge' in a diverse democracy risks marginalizing minority cultures and turning the curriculum into a tool for cultural assimilation or hegemony by the dominant group.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "The 'slip' in the educational ratchet (declining scores) may be caused by increased poverty, lack of teacher autonomy, or standardized testing fatigue rather than the 'Romantic' theories themselves, which are rarely implemented in their pure form in public schools.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C16",
+        "objection": "In the information age, the 'substantive shared knowledge' approach is less critical than 'information literacy' and the ability to evaluate sources, as specific facts are now instantly accessible and subject to rapid change.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C34",
+        "objection": "Readability formulas like Lexiles are not intended to be 'theories of reading' but rather pragmatic tools for matching students with books they can decode independently to build confidence.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C25",
+        "objection": "The success of a single charter or specialized school (Litt's) may be due to 'selection bias' where the most motivated parents in the South Bronx enter the lottery, rather than the curriculum itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C30",
+        "objection": "Defining literacy as the 'shared knowledge of the wider society' risks marginalizing minority cultures and reinforcing the status quo of the dominant 'adult tribe.'",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "Even with high background knowledge, cognitive load increases with sentence complexity and rare vocabulary, meaning readability metrics still measure 'effort' if not 'possibility' of comprehension.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C48",
+        "objection": "The imposition of a national grapholect often functions as 'linguistic imperialism' that devalues regional identities and creates structural inequality for those whose home language differs from the standard.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C60",
+        "objection": "Child-centered theories are not intended to mirror innate conformity, but to develop individual autonomy and critical thinking specifically because children are naturally prone to uncritical conformity.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C63",
+        "objection": "The decline in national cohesion may be driven by economic inequality, the rise of digital filter bubbles, or changes in media consumption rather than the school curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C71",
+        "objection": "The 'ratchet effect' may stifle innovation and critical thinking by over-prioritizing conformity and the passive reception of existing knowledge.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C66",
+        "objection": "Reading scores might decline due to non-pedagogical factors like increased poverty, English Language Learner populations, or standardized testing fatigue.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C82",
+        "objection": "Language conservatism is often used as a gatekeeping mechanism that marginalizes non-standard dialects and reinforces existing power structures rather than facilitating revolution.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C86",
+        "objection": "A single core curriculum may fail to respond to the diverse cultural and linguistic needs of a pluralistic society, potentially alienating students whose backgrounds are not represented in the 'core'.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C81",
+        "objection": "The achievement gap is highly correlated with factors outside of school control (nutrition, housing stability, toxic stress), meaning curriculum change alone cannot 'entirely' eliminate it.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C99",
+        "objection": "The use of the term 'ontogeny' does not preclude the existence of innate developmental stages (like those identified by Piaget) that Romantic education seeks to respect to avoid cognitive frustration.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C100",
+        "objection": "While guessing meaning-intentions is universal, the breakdown in literacy could be due to power imbalances and systemic alienation rather than a lack of shared 'facts' or tribal knowledge.",
+        "objection_type": "alternative_explanation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Evolutionary Necessity for Curriculum",
+        "chain": [
+          "C4",
+          "C6",
+          "C8",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Survival Argument",
+        "chain": [
+          "C1",
+          "C2",
+          "C19",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Critique of Naturalism",
+        "chain": [
+          "C11",
+          "C18",
+          "C15",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Litt Success Logic",
+        "chain": [
+          "C27",
+          "C28",
+          "C26",
+          "C29",
+          "C25"
+        ],
+        "conclusion_id": "C25",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Literacy Redefinition",
+        "chain": [
+          "C21",
+          "C23",
+          "C29",
+          "C30",
+          "C31",
+          "C32"
+        ],
+        "conclusion_id": "C31",
+        "strength": "strong"
+      },
+      {
+        "name": "The Rejection of Readability",
+        "chain": [
+          "C35",
+          "C36",
+          "C39",
+          "C40",
+          "C34",
+          "C38"
+        ],
+        "conclusion_id": "C34",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Readability Fallacy Chain",
+        "chain": [
+          "C43",
+          "C41",
+          "C44",
+          "C47",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "strong"
+      },
+      {
+        "name": "The National Cohesion Chain",
+        "chain": [
+          "C50",
+          "C49",
+          "C48"
+        ],
+        "conclusion_id": "C48",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Biological Ratchet Chain",
+        "chain": [
+          "C54",
+          "C51",
+          "C56",
+          "C59",
+          "C58"
+        ],
+        "conclusion_id": "C58",
+        "strength": "strong"
+      },
+      {
+        "name": "The Critique of Constructivism Chain",
+        "chain": [
+          "C55",
+          "C59",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Evolutionary Ratchet Argument",
+        "chain": [
+          "C61",
+          "C70",
+          "C71",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "strong"
+      },
+      {
+        "name": "The Historical Decline Narrative",
+        "chain": [
+          "C65",
+          "C68",
+          "C64",
+          "C66",
+          "C63"
+        ],
+        "conclusion_id": "C63",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Tennessee Proof of Concept",
+        "chain": [
+          "C76",
+          "C74",
+          "C75",
+          "C79",
+          "C80"
+        ],
+        "conclusion_id": "C74",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Evolutionary Ratchet Argument",
+        "chain": [
+          "C93",
+          "C95",
+          "C89",
+          "C88"
+        ],
+        "conclusion_id": "C88",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Equality Argument",
+        "chain": [
+          "C84",
+          "C85",
+          "C82",
+          "C86",
+          "C81"
+        ],
+        "conclusion_id": "C81",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Critique of Romanticism",
+        "chain": [
+          "C102",
+          "C87",
+          "C101"
+        ],
+        "conclusion_id": "C87",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Biological Rejection of Romanticism",
+        "chain": [
+          "C98",
+          "C99",
+          "Preface.C14",
+          "Preface.C44"
+        ],
+        "conclusion_id": "Preface.C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Intentionality and Democracy Link",
+        "chain": [
+          "C100",
+          "Preface.C25",
+          "Preface.C26"
+        ],
+        "conclusion_id": "Preface.C26",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0056746,
+    "duration_s": 85.68979001045227
+  }
+}

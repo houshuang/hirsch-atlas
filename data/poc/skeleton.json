@@ -1,0 +1,201 @@
+{
+  "result": {
+    "book_thesis": "The quality of written prose is determined by objective linguistic and psychological principles—specifically the principle of 'relative readability'—rather than ideology or personal taste, as the functional requirements of 'context-free' written speech drive a universal historical tendency toward communicative efficiency.",
+    "core_frameworks": [
+      {
+        "id": "linguistics_of_literacy",
+        "name": "Linguistics of Literacy",
+        "description": "A study of written speech as a distinct functional system rather than a mere secondary representation of oral language.",
+        "components": [
+          {
+            "id": "functional_distinction",
+            "name": "Functional Distinction",
+            "description": "The requirement for written speech to be 'context-free' or self-contextualizing due to the absence of immediate situational clues."
+          },
+          {
+            "id": "grapholect_stability",
+            "name": "Grapholect Stability",
+            "description": "The concept that standard written languages (grapholects) are stable, normative systems distinct from evolving oral dialects."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "relative_readability",
+        "name": "Relative Readability",
+        "description": "A stylistic principle defining prose excellence as the communication of intended meaning with the least possible reader effort.",
+        "components": [
+          {
+            "id": "semantic_intention",
+            "name": "Semantic Intention",
+            "description": "The realization that 'easiness' must be measured relative to the specific meaning an author intends to convey."
+          },
+          {
+            "id": "communicative_efficiency",
+            "name": "Communicative Efficiency",
+            "description": "The historical and psychological tendency of language to evolve toward reduced cognitive processing costs."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "bloomfieldian_phoneticism",
+        "name": "Bloomfieldian Phoneticism",
+        "description": "The doctrine that writing is merely a secondary way of recording 'real' (oral) language.",
+        "components": [
+          {
+            "id": "phonetic_primacy",
+            "name": "Phonetic Primacy",
+            "description": "The assumption that sound is the primary medium of language and writing has no independent authority."
+          }
+        ],
+        "stance": "author_opposes"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter 1: The Normative Character of Written Speech",
+        "predicted_main_argument": "Written speech is a separate, potentially independent symbolic system that must supply its own context to be communicative.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "Linguistic theory",
+          "Functional analysis",
+          "Historical philology"
+        ],
+        "connects_to": [
+          "Chapter 2"
+        ]
+      },
+      {
+        "chapter": "Chapter 2: Progressive Tendencies in the History of Language and of Prose",
+        "predicted_main_argument": "Standard written languages (grapholects) are inherently conservative and normative, moving toward universal stability rather than dialectal change.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "Sociolinguistics",
+          "Linguistic history",
+          "Philological data"
+        ],
+        "connects_to": [
+          "Chapter 3"
+        ]
+      },
+      {
+        "chapter": "Chapter 3: Refining the Concept of Readability",
+        "predicted_main_argument": "The history of prose demonstrates a universal progressive tendency toward increased communicative efficiency across all genres.",
+        "role_in_book": "develops_theory",
+        "expected_evidence_types": [
+          "Historical prose analysis",
+          "Linguistic evolutionary theory"
+        ],
+        "connects_to": [
+          "Chapter 4"
+        ]
+      },
+      {
+        "chapter": "Chapter 4: The Psychological Bases of Readability",
+        "predicted_main_argument": "Readability is grounded in psychological universals, particularly the constraints of short-term and long-term memory.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "Psycholinguistic research",
+          "Cognitive psychology experiments",
+          "Herbert Spencer's theories"
+        ],
+        "connects_to": [
+          "Chapter 5"
+        ]
+      },
+      {
+        "chapter": "Chapter 5: Some Practical Implications",
+        "predicted_main_argument": "Current knowledge of psycholinguistic principles allows for specific, non-speculative improvements in composition pedagogy.",
+        "role_in_book": "proposes_solution",
+        "expected_evidence_types": [
+          "Pedagogical application",
+          "Curriculum theory"
+        ],
+        "connects_to": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "chapter": "Chapter 6: The Valid Assessment of Writing Ability",
+        "predicted_main_argument": "A valid and reliable system for rating prose quality must be based on the objective criterion of relative readability.",
+        "role_in_book": "synthesizes",
+        "expected_evidence_types": [
+          "Assessment theory",
+          "Statistical reliability models"
+        ],
+        "connects_to": [
+          "Introduction"
+        ]
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Literacy",
+        "definition": "The ability to write extended, communicative discourse, going beyond mere reading or letter formation.",
+        "source_passage": "In this book, I use the word to embrace also the ability to write extended, communicative discourse."
+      },
+      {
+        "term": "Grapholect",
+        "definition": "A standard written language that has become different in kind from oral dialects due to its stability and lack of grammatical change.",
+        "source_passage": "Some sociolinguists have therefore coined the term grapholect to indicate that standard written languages are different in kind from oral dialects."
+      },
+      {
+        "term": "Relative Readability",
+        "definition": "The principle that one prose style is superior to another if it conveys the same meaning with less reader effort, varying according to the semantic intention.",
+        "source_passage": "One prose style is better than another when it communicates the same meanings as the other does but requires less effort from the reader."
+      },
+      {
+        "term": "Self-contextualization",
+        "definition": "The requirement for written speech to provide its own internal context because it lacks the external, extra-verbal clues of oral speech.",
+        "source_passage": "The functional peculiarity of writing is its need to furnish its own context."
+      },
+      {
+        "term": "Elaborated Code",
+        "definition": "A form of speech that is not context-tied, where the burden of meaning inheres predominantly in the verbal channel.",
+        "source_passage": "The speech shows careful editing at both the grammatical and lexical levels; it is no longer context-tied."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Henry Bradley",
+        "relationship": "builds_on",
+        "contribution": "Established the primacy of writing as an independent symbolic system in literate societies."
+      },
+      {
+        "name": "Leonard Bloomfield",
+        "relationship": "opposes",
+        "contribution": "Argued that writing is merely a secondary representation of oral speech, a view the author seeks to correct."
+      },
+      {
+        "name": "Herbert Spencer",
+        "relationship": "builds_on",
+        "contribution": "Authored the first extensive discussion of the principle of economy of reader attention/readability."
+      },
+      {
+        "name": "Ferdinand de Saussure",
+        "relationship": "revises",
+        "contribution": "The author utilizes Saussure’s distinction between 'parole' (speech) and 'langue' (language system) to categorize written speech."
+      },
+      {
+        "name": "Basil Bernstein",
+        "relationship": "builds_on",
+        "contribution": "Provided the distinction between 'restricted' and 'elaborated' codes, which the author maps onto oral vs. written functions."
+      },
+      {
+        "name": "Karl Marx",
+        "relationship": "historical_predecessor",
+        "contribution": "The author adopts the logical structure of the Marxist historical argument regarding inevitable/desirable historical tendencies."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0024933000000000004,
+    "input_tokens": 16833,
+    "output_tokens": 2025,
+    "duration_s": 18.943175315856934,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

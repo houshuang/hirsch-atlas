@@ -1,0 +1,93 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that teaching shared content is the specific mechanism that restores 'vocational meaningfulness' to teachers. Their despair isn't just from workload, but from being deprived of their role as 'Guardians' or 'citizen makers' due to content incoherence.",
+        "source_passage": "The liberation of teachers to be citizen makers is to offer them the ultimate in honor and vocational meaningfulness within a democracy—to be the guardians in chief of the American future.",
+        "importance": "significant",
+        "suggested_claim": "The restoration of professional meaningfulness for teachers depends on their transition from being curriculum designers to being 'Guardians' who deliver a shared national content.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author provides a specific tactical argument for why universalism is more effective than interest-group politics: presenting oneself as a fellow 'American' seeking fairness carries more political weight than emphasizing ethnic or gender 'specialness'.",
+        "source_passage": "The most effective and productive way for an interest group to achieve fairness in America is not to come across as separate in terms of ethnicity, gender, specialness, or entitlement... It’s more effective politically to present oneself as an American who wants to be treated fairly by other Americans.",
+        "importance": "significant",
+        "suggested_claim": "Political advocacy based on shared national identity is more effective for achieving social justice than advocacy based on separate identity markers.",
+        "suggested_claim_level": "pragmatic"
+      },
+      {
+        "description": "The author argues that the choice of the English language for American democratic principles is a historical accident ('happens to be stated in') that does not undermine the universal validity of those principles.",
+        "source_passage": "Our universal democratic principles must be stated in some particular shared language. Our universals happen to be stated in ‘the language of Britain,’ to use Melville’s phrase.",
+        "importance": "minor",
+        "suggested_claim": "The use of the English language as a medium for American values is a pragmatic necessity that does not compromise the universal applicability of those values.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C42",
+        "problem": "The extraction suggests that hyphenated identities caused the racialization of 'American'. The text argues the opposite: that the term 'American' was already racialized to mean 'white,' which forced others to hyphenate.",
+        "source_passage": "Toni Morrison with her usual acuteness saw the racist implications in those hyphens. She said, ‘In this country American means white. Everybody else has to hyphenate.’",
+        "suggested_fix": "The term 'American' has been historically racialized to mean 'white,' an exclusion that forced non-white citizens into hyphenated identities."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E12",
+        "claim_id": "C35",
+        "missing_warrant": "Social alienation and self-harm are symptoms of a lack of belonging; therefore, reviving a 'tribal' national identity satisfies a fundamental human psychological need for community."
+      },
+      {
+        "evidence_id": "E13",
+        "claim_id": "C37",
+        "missing_warrant": "For a diverse group of people to function as a single unit (like a ship's crew), they must adopt a common 'operating system' or language regardless of their individual origins."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C47",
+        "counter_argument": "Modern cognitive science and evolutionary psychology (e.g., Steven Pinker) reject the 'blank slate' model, suggesting humans have innate cognitive structures that education cannot simply rewrite.",
+        "why_important": "It challenges the author's fundamental premise that culture can be inscribed onto children regardless of their 'nature'."
+      },
+      {
+        "targets_claim": "C40",
+        "counter_argument": "The 'American ethnicity' described by the author is not a neutral 'social creation' but is historically rooted in Anglo-Protestant values, making it an imposition on other cultural groups rather than a universal entry point.",
+        "why_important": "It directly addresses the 'cultural imperialism' concern the author tries to dismiss."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C22",
+          "C25"
+        ],
+        "action": "merge",
+        "explanation": "Both claims relate to the specific definition of patriotism provided by Theodore Roosevelt regarding the duty to oppose or critique the president/officials."
+      },
+      {
+        "claim_ids": [
+          "C40",
+          "C43"
+        ],
+        "action": "merge",
+        "explanation": "These are identical normative claims regarding the school's duty to teach a specific American culture/ethnicity."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 5,
+      "structure_completeness": 4,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is exceptionally thorough in capturing the breadth of claims (65). However, it occasionally misses the 'logic of necessity'—for instance, why teachers *need* shared content for their own mental health/vocational dignity. The most significant error is the causal flip in the Toni Morrison/Hyphenation argument."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0016535,
+    "input_tokens": 11395,
+    "output_tokens": 1285,
+    "duration_s": 24.62759494781494,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

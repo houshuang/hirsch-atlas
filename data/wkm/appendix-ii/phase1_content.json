@@ -1,0 +1,336 @@
+{
+  "result": {
+    "chapter_summary": "Appendix II provides a methodological overview of the 2008 French study (Note d’Information 08-38) which tracked a twenty-year decline in student performance between 1987 and 2007. Hirsch uses this data to argue that reading is more sensitive to school-based knowledge curricula than math because reading relies heavily on vocabulary and general knowledge acquired in the home, making school-provided knowledge the primary lever for equity.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "The target population for the 1987 French study consisted of fifth-grade pupils enrolled in the public sector.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 1.0,
+        "source_passage": "The target population in 1987 was that of fifth-grade pupils enrolled in France in the public sector.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C2",
+        "text": "The percentage of primary school students in the French private sector remained stable at approximately 14 percent between 1987 and 2007.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 1.0,
+        "source_passage": "It should be noted that the percentage of primary school students in the private sector remained stable over the twenty years (about 14 percent).",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C3",
+        "text": "In 2007, French students in the private sector achieved results equivalent to those in the public sector across literacy, numeracy, spelling, and grammar.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Moreover, in 2007, students in the private sector achieve results equivalent to those of the public sector, whether in literacy, numeracy, or in spelling and grammar.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C4",
+        "text": "Centralizing and processing student responses via a web server allows for more reliable corrections and quality measurement than teacher-led scoring.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "This system allowed for more reliable corrections to measure quality.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C5",
+        "text": "The overall decline in mathematics performance in France between 1987 and 2007 was more than twice as large as the decline in reading.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 1.0,
+        "source_passage": "The overall decline in math was more than twice the decline in reading: –.84 standard deviation in math, compared to –.37 standard deviation in reading.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C6",
+        "text": "The decline in educational equity, measured by the spread between demographic groups, was four times greater in reading than in math in France.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 1.0,
+        "source_passage": "The increase in spread between the top and bottom groups in math was .1 standard deviation, while the increase in spread in reading was four times as great: .4 standard deviation.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C7",
+        "text": "Poor schooling has a significantly greater negative impact on equity in reading than it does on equity in math.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Poor schooling has a greater negative effect on equity in reading than in math. This finding is important for schooling as an agency of equal opportunity.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C8",
+        "text": "Mathematics is primarily a school subject where instructional effectiveness tends to decline for all students uniformly.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "Math is primarily a school subject. If the effectiveness of math instruction declines for some, it tends to decline for all.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C9",
+        "text": "Reading performance is dependent upon general knowledge and vocabulary size, making it both a school and a home subject.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Reading is both a school and a home subject. It depends upon general knowledge and vocabulary size.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C10",
+        "text": "Direct word study and skills-based curricula cannot achieve a significant increase in a student's vocabulary size.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "But a significant increase in vocabulary size cannot be achieved through direct word study and a skills curriculum.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C11",
+        "text": "A knowledge-based curriculum is far more effective at promoting equity than a skills-based curriculum.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "The knowledge curriculum can contribute far more to equity than the skills curriculum can. France has now demonstrated this forcefully.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C12",
+        "text": "The adoption of whole-language methods led younger French teachers to reject the more effective phonics method for teaching decoding.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "Indoctrinated in the superiority of whole-language methods, younger teachers spurned the far more effective method of phonics in teaching decoding skill.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C13",
+        "text": "The rejection of systematic grammar and spelling exercises in favor of 'natural' approaches contributed to the decline in French student writing skills.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "They also spurned exercises in grammar and spelling in favor of more “natural” approaches.",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C14",
+        "text": "The percentage of ten-year-old French students making more than twenty-five writing errors doubled between 1987 and 2007.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 1.0,
+        "source_passage": "An analysis of the writing errors from ten-year-olds in the two periods showed that the percentage of students who made more than twenty-five errors doubled in the period, from 6 percent to 12 percent!",
+        "page_range": "219-221"
+      },
+      {
+        "id": "C15",
+        "text": "The 1987 school selection, though limited to five jurisdictions, was statistically representative of the parent population.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "In 1987, the selection of schools took place in just five \u0010jurisdictions, but the sample was found to be representative of the parent population.",
+        "page_range": "209-210"
+      },
+      {
+        "id": "C16",
+        "text": "Decimal multiplication and division were removed from the French primary curriculum between 1987 and 2007.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.98,
+        "source_passage": "multiplication and divisions of decimals were excluded as they are not in the present curriculum.",
+        "page_range": "210"
+      },
+      {
+        "id": "C17",
+        "text": "Valid longitudinal comparison of student performance requires the identical repetition of test instructions across different years.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Instructions for the test were repeated identically in each year.",
+        "page_range": "210"
+      },
+      {
+        "id": "C18",
+        "text": "To maintain assessment validity and prevent student fatigue, no more than one test sequence should be completed in a half-day session.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "It was required not to complete more than one sequence in a half day.",
+        "page_range": "210"
+      },
+      {
+        "id": "C19",
+        "text": "The variability in inter-rater agreement for reading items (dropping as low as 80% for some questions) has a negligible impact on final performance metrics.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.92,
+        "source_passage": "The rate was more variable in reading: it dropped to 80 percent for some items, mostly due to hesitation between total and partial success, but had little impact on the final measure of performance.",
+        "page_range": "211"
+      },
+      {
+        "id": "C20",
+        "text": "Schools must maximize their contribution to student knowledge and vocabulary in order to fulfill the social aim of equal opportunity.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.95,
+        "source_passage": "The school contribution to knowledge and vocabulary is thus key for the aim of equal opportunity, and needs to be maximized.",
+        "page_range": "211"
+      },
+      {
+        "id": "C21",
+        "text": "Between 1987 and 2007, France experienced a simultaneous decline in the effectiveness of instruction for both knowledge acquisition and decoding skills.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "A confounding factor in this reckoning is that the effectiveness of instruction in both knowledge and in decoding declined in France.",
+        "page_range": "211"
+      },
+      {
+        "id": "C22",
+        "text": "The increase in the performance spread between demographic groups was quantified as .1 standard deviation for math and .4 standard deviation for reading.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.99,
+        "source_passage": "The increase in spread between the top and bottom groups in math was .1 standard deviation, while the increase in spread in reading was four times as great: .4 standard deviation.",
+        "page_range": "211"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "description": "Note d’Information 08-38 from the French DEPP, comparing performance of CM2 (5th grade) students in 1987, 1997, and 2007.",
+        "evidence_type": "statistical_data",
+        "source_reference": "DEPP, Note d’Information 08-38 (Paris: DEPP, 2008)",
+        "supports_claim": "C5"
+      },
+      {
+        "id": "E2",
+        "description": "Comparison of standard deviation declines showing math declined -0.84 SD while reading declined -0.37 SD.",
+        "evidence_type": "statistical_data",
+        "source_reference": "DEPP, 2008",
+        "supports_claim": "C5"
+      },
+      {
+        "id": "E3",
+        "description": "Data showing the spread between demographic groups increased by 0.1 SD in math but 0.4 SD in reading.",
+        "evidence_type": "statistical_data",
+        "source_reference": "DEPP, 2008",
+        "supports_claim": "C6"
+      },
+      {
+        "id": "E4",
+        "description": "Analysis of writing errors in ten-year-olds showing an increase from 6% to 12% in the high-error group (>25 errors).",
+        "evidence_type": "statistical_data",
+        "source_reference": "DEPP, 2008",
+        "supports_claim": "C14"
+      },
+      {
+        "id": "E5",
+        "description": "Reliability testing during the 2007 French survey where one out of ten images was corrected by two markers, showing inter-rater agreement of 95% (math) to 80% (reading).",
+        "evidence_type": "empirical_study",
+        "source_reference": "DEPP, 2008",
+        "supports_claim": "C4"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "CON1",
+        "term": "Spread (Equity measure)",
+        "author_definition": "The statistical distance (measured in standard deviations) between the performance of the top-performing demographic groups and the bottom-performing demographic groups.",
+        "importance": "central"
+      },
+      {
+        "id": "CON2",
+        "term": "School Subject",
+        "author_definition": "A subject, like mathematics, whose content is primarily acquired within the formal schooling environment, making its outcomes more uniformly dependent on school quality.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON3",
+        "term": "Home Subject",
+        "author_definition": "A subject, like reading, that relies heavily on knowledge and vocabulary acquired in the domestic environment, making it more sensitive to socio-economic disparities unless the school compensates with a knowledge-rich curriculum.",
+        "importance": "central"
+      },
+      {
+        "id": "CON4",
+        "term": "Natural Approaches",
+        "author_definition": "Pedagogical methods (often associated with whole-language) that prioritize an 'unfolding' of skills over direct instruction in phonics, grammar, or spelling.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON5",
+        "term": "Sampling 'by cluster'",
+        "author_definition": "A sampling plan where schools are selected at random and all students within those schools participate in the evaluation.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON6",
+        "term": "Parent population",
+        "author_definition": "The total group of students (e.g., all fifth-graders in the public sector) from which a representative sample is drawn.",
+        "importance": "contextual"
+      },
+      {
+        "id": "CON7",
+        "term": "Decoding skill",
+        "author_definition": "The ability to translate written text into spoken language, specifically associated with phonics instruction in this context.",
+        "importance": "central"
+      },
+      {
+        "id": "CON8",
+        "term": "Knowledge curriculum",
+        "author_definition": "An educational approach focusing on the acquisition of general knowledge and vocabulary as a means to achieve academic equity.",
+        "importance": "central"
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE1",
+        "name": "France 1987–2007",
+        "description": "A twenty-year natural experiment in which the French education system shifted toward American-style pedagogical methods (whole language, naturalism). The result was a significant decline in overall student performance and a sharp increase in the achievement gap, particularly in reading.",
+        "key_passages": [
+          "The target population in 1987 was that of fifth-grade pupils enrolled in France in the public sector.",
+          "France has now demonstrated this forcefully.",
+          "Indoctrinated in the superiority of whole-language methods, younger teachers spurned the far more effective method of phonics in teaching decoding skill."
+        ],
+        "time_period": "1987-2007",
+        "role_in_argument": "natural_experiment",
+        "claims_supported": [
+          "C5",
+          "C6",
+          "C11",
+          "C12"
+        ]
+      }
+    ],
+    "thinkers": [],
+    "actors": [
+      {
+        "name": "DEPP (Direction de l'évaluation, de la prospective et de la performance)",
+        "role": "institution",
+        "context": "The French agency responsible for the evaluation of education policy and the production of the 2008 report."
+      },
+      {
+        "name": "Younger French Teachers",
+        "role": "historical_figure",
+        "context": "The cohort of teachers Hirsch claims was 'indoctrinated' in whole-language methods and consequently abandoned phonics and grammar."
+      }
+    ],
+    "objections_raised": [],
+    "cross_chapter_refs": []
+  },
+  "metadata": {
+    "total_cost_usd": 0.0023093000000000002,
+    "duration_s": 52.568729877471924,
+    "num_windows": 1,
+    "pre_dedup_claims": 14,
+    "post_dedup_claims": 14,
+    "sweep_claims": 8,
+    "sweep_concepts": 4
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C38",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The status of the French shift as a 'decisive experiment' relies on the premise that it controlled for variables like infrastructure and teacher quality."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that the decline was more rapid in France depends on the fact that the pedagogical change was implemented system-wide simultaneously."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The rapid statistical decline in verbal scores following the implementation of developmental ideas is used as the primary evidence that these ideas 'wrecked' the system."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "For the French experiment to be decisive for American education, one must assume French and American children share the same cognitive learning capacities."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "If the French experiment is the 'most decisive' and reliably documented, its results can be used to model and predict US outcomes."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The lack of representativeness in SAT data explains why the US decline appears slower/different compared to the universal French data."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The rapid decline in French verbal scores following a national shift in curriculum serves as the empirical basis for the theoretical claim that child-centered education harms social justice."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The fact that lower SES groups declined more than higher SES groups demonstrates that the educational shift disproportionately impacted the disadvantaged."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that schools should overcome 'accidents of birth' is the premise for the conclusion that schools must abandon the 'natural development' metaphor which fails to do so."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The fact that children start with unequal home-based knowledge necessitates the school's role in systematically providing common knowledge to enable equal participation."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The theoretical reversal of the French decline supports the claim that universalizing topics would lead to increased equality and scores."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C23",
+        "relationship": "instantiates",
+        "explanation": "The Colorado study provides a real-world example of the steep rise in scores predicted by reversing developmentalist practices."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "The American decline in reading scores during the era of child-centered education is used as evidence that developmentalism negatively impacts social justice."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If current practices are an 'act of war' against the disadvantaged, it follows that these groups should demand a coherent, content-based curriculum as a matter of justice."
+      },
+      {
+        "from_id": "1.C41",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that state-level commonality is necessary for fairness depends on the prior claim that educational equality cannot exist without a specific, common sequence of topics."
+      },
+      {
+        "from_id": "5.C57",
+        "to_id": "C34",
+        "relationship": "refines",
+        "explanation": "C34 formalizes the 'educational revolution' called for in 5.C57 into a specific requirement for state-level content commonality."
+      },
+      {
+        "from_id": "Preface.C12",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "The link between curriculum commonality and national unity requires the premise that high literacy levels (facilitated by shared knowledge) are what join people together."
+      },
+      {
+        "from_id": "2.C94",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "C34's claim of necessity for fairness assumes that the achievement gap is currently caused by the absence of such commonality (the 'faith in natural development')."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E10",
+        "claim_id": "C3",
+        "warrant_text": "A massive, centralized education system where infrastructure and personnel are identical acts as a natural laboratory, making any change in outcomes attributable to the change in curriculum.",
+        "is_explicit": true,
+        "vulnerability": "External societal changes (economic shifts, demographic changes, or technology) occurring simultaneously at a national level could also explain the outcomes."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C11",
+        "warrant_text": "If a measurable decline in performance aligns precisely with a specific policy change across an entire population, the policy change is the primary driver of the decline.",
+        "is_explicit": false,
+        "vulnerability": "The 'speed' of decline might be an artifact of how testing was administered or a 'floor effect' rather than the speed of pedagogical impact."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E2",
+        "claim_id": "C5",
+        "warrant_text": "The testimony of a national leader and intellectuals regarding cultural 'destruction' constitutes valid evidence of a causal link between academic theories and social fabric.",
+        "is_explicit": true,
+        "vulnerability": "Political leaders may blame 'foreign' ideas for domestic problems to avoid political accountability for internal failures."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E7",
+        "claim_id": "C6",
+        "warrant_text": "Large-scale statistical data covering an entire population is inherently more truthful and provides more 'decisive' proof than small-scale qualitative research.",
+        "is_explicit": true,
+        "vulnerability": "Statistical correlation across a population does not definitively prove the specific mechanism of 'wrecking' (e.g., student motivation vs. teacher training)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C15",
+        "claim_id": "C17",
+        "warrant_text": "If a policy change results in a widening gap between socioeconomic classes, that policy is antithetical to social justice.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the curriculum change was the sole or primary variable responsible for the widening gap, ignoring demographic or economic shifts."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C25",
+        "claim_id": "C23",
+        "warrant_text": "Localized successes in raising scores through content-rich instruction are scalable and replicable at a national or state level.",
+        "is_explicit": false,
+        "vulnerability": "The Colorado study may have involved unique variables (teacher quality, leadership, funding) that universalization alone cannot guarantee."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C19",
+        "claim_id": "C21",
+        "warrant_text": "The only way to compensate for home-based knowledge inequality is for the school to provide a common, systematic substitute in the classroom.",
+        "is_explicit": true,
+        "vulnerability": "Ignores the possibility that child-centered methods could be adapted to provide this knowledge more effectively than systematic whole-class instruction."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "French data showing decline after curriculum decentralization",
+        "claim_id": "C34",
+        "warrant_text": "Symmetrical causality: if the removal of content commonality caused a decline in scores and equality, then the restoration of commonality will cause a proportional rise.",
+        "is_explicit": true,
+        "vulnerability": "Assumes historical and social processes are perfectly reversible and that no other variables (demographics, teacher quality) changed during the decline period."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Grissmer's Colorado study showing a rise in verbal scores",
+        "claim_id": "C34",
+        "warrant_text": "Localized successes in content-rich environments are scalable and representative of what would happen at the national/state level.",
+        "is_explicit": false,
+        "vulnerability": "A single state study may have unique conditions or 'Hawthorne effects' that do not translate to mandatory statewide or nationwide implementations."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "A Nation at Risk ('act of war' quote)",
+        "claim_id": "C34",
+        "warrant_text": "Educational failure is not just a pedagogical issue but a matter of national security and civilizational survival.",
+        "is_explicit": true,
+        "vulnerability": "Uses hyperbolic rhetoric to justify centralized state control, which may overlook the benefits of local curriculum flexibility."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C11",
+        "to_id": "C41",
+        "missing_step": "Proof that educational systems exhibit 'symmetry' where reversing a damaging policy results in an equal and opposite benefit.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C4",
+        "to_id": "C3",
+        "missing_step": "Biological similarity between children (eyes, hands, organs) implies identical cultural and linguistic responses to specific curricular content.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C37",
+        "to_id": "C7",
+        "missing_step": "Demonstrating that the 'disputatiousness' of the French is a result of their education rather than a pre-existing cultural trait that persisted despite it.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C14",
+        "to_id": "C23",
+        "missing_step": "Evidence that educational trends are perfectly reversible, such that restoring content will produce a rise equal to the decline caused by its removal.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C16",
+        "to_id": "C27",
+        "missing_step": "Establishment that the American 'experiment' was functionally identical in pedagogical implementation to the French one, despite the lack of centralized American records.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "5.C57",
+        "to_id": "C34",
+        "missing_step": "Establishing that state-level mandates are the specific legal and practical mechanism capable of overcoming the ideological grip of developmentalism.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "Grissmer's Colorado study",
+        "to_id": "C34",
+        "missing_step": "Evidence that improved 'verbal scores' directly result in 'national unity' and 'social fellowship' as claimed in the broader thesis.",
+        "step_type": "generalization",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C6",
+        "objection": "The decline in French scores between 1987 and 2007 could be attributed to significant changes in the demographic composition of French schools (e.g., increased immigration or changing socio-economic factors) rather than pedagogical theory.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C3",
+        "objection": "A single national shift is not a 'controlled' experiment because there is no control group (a similar population that did not undergo the change) to compare against during the same time period.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C7",
+        "objection": "While a common curriculum may not lead to 'thought control' in the sense of absolute uniformity, it can still systematically exclude marginalized perspectives or 'ways of knowing,' thereby narrowing the scope of independent thought.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C17",
+        "objection": "The decline in French scores might be attributed to broader societal changes, such as increased immigration or changes in teacher training and prestige, rather than just child-centered curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C22",
+        "objection": "Whole-class instruction can leave behind students with specific learning disabilities or those who require more time, potentially worsening the gap for those with different cognitive needs.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C33",
+        "objection": "Cultural groups might view a state-mandated 'coherent' curriculum as a form of cultural hegemony that prioritizes dominant 'national' knowledge over diverse community-based knowledge.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C34",
+        "objection": "The French decline might be explained by demographic shifts, such as increased immigration and social inequality, rather than simply the 1989 curriculum change.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C34",
+        "objection": "Mandatory state-level commonality could undermine the pluralism and local democratic control that are also essential components of American national identity.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The French Experiment Validity Chain",
+        "chain": [
+          "C38",
+          "C13",
+          "C4",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "strong"
+      },
+      {
+        "name": "Causal Failure of Developmentalism Chain",
+        "chain": [
+          "C9",
+          "C12",
+          "C11",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "Transatlantic Consequences Chain",
+        "chain": [
+          "C6",
+          "C5",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The French Proof of Curricular Harm",
+        "chain": [
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "strong"
+      },
+      {
+        "name": "Equality through Systematic Content",
+        "chain": [
+          "C19",
+          "C18",
+          "C20",
+          "C21",
+          "C22",
+          "C23"
+        ],
+        "conclusion_id": "C23",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Call for Political Coherence",
+        "chain": [
+          "C29",
+          "C30",
+          "C31",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Reversal Argument",
+        "chain": [
+          "2.C94",
+          "5.C57",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "strong"
+      },
+      {
+        "name": "The Literacy-Unity Link",
+        "chain": [
+          "Preface.C12",
+          "1.C41",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0035831,
+    "duration_s": 41.442567110061646
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author argues that the 'skills-based' theory persists specifically because it serves as a tool for political and administrative evasion of the difficult task of defining specific content.",
+        "source_passage": "That mistaken theory has allowed the problem of grade-by-grade content to be evaded. It was that fundamental mistake about skills that has allowed teachers to be blamed for fundamental failures—the failures of guiding ideas, not of teachers.",
+        "importance": "critical",
+        "suggested_claim": "The 'skills delusion' is not just a theoretical error but a functional tool that allows policymakers to evade the political difficulty of defining a specific grade-by-grade curriculum.",
+        "suggested_claim_level": "meta"
+      },
+      {
+        "description": "Hirsch provides a specific psychological and professional explanation for the shift in teacher union focus from pedagogy to contractual protections.",
+        "source_passage": "When the classroom, which should be a daily reward, becomes a purgatory, one turns to contract stipulations.",
+        "importance": "significant",
+        "suggested_claim": "The loss of intrinsic professional rewards in the classroom, caused by punitive and incoherent reforms, forces teachers to prioritize extrinsic contractual protections.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author distinguishes between the needs of older students and younger students regarding technology, noting that while routines can be computerized, foundation-building cannot.",
+        "source_passage": "Computers seem to work best in helping older students learn specific routines... Young students rely on an empathetic personal connection that not even our most advanced computer-adaptive programs can deliver.",
+        "importance": "significant",
+        "suggested_claim": "The effectiveness of educational technology is age-dependent, as younger students have a unique requirement for human empathy to facilitate foundational learning.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C39",
+        "problem": "The claim implies Hirsch is making a general argument against teacher tenure, whereas he is specifically arguing for parity with university tenure standards.",
+        "source_passage": "But even in universities there is no tenure protection for 'failure to meet a specified norm of performance or productivity'; nor should there be for schoolteachers.",
+        "suggested_fix": "Schoolteacher tenure should be reformed to mirror university tenure, which protects freedom of opinion but does not shield teachers from accountability for failing to meet performance norms."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E7",
+        "claim_id": "C55",
+        "missing_warrant": "If a computer cannot master the semantic and contextual nuances required for language translation—a core component of verbal literacy—it is logically incapable of navigating the even more complex empathetic and pedagogical nuances of primary instruction."
+      },
+      {
+        "evidence_id": "E12",
+        "claim_id": "C30",
+        "missing_warrant": "Accountability measures are only ethically and technically valid if they isolate variables within the agent's (teacher's) direct control; since reading tests reflect out-of-school knowledge, they fail this requirement."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C14",
+        "counter_argument": "The 'Brilliant Subverter' argument: Highly skilled teachers in incoherent systems often ignore bad curriculum and curate their own high-quality content, suggesting that individual talent can overcome systemic incoherence.",
+        "why_important": "This challenges the author's dismissal of 'virtuoso performances' as the primary lever for student success."
+      },
+      {
+        "targets_claim": "C26",
+        "counter_argument": "If teacher quality is 'contextual,' then a high-quality teacher is precisely one who possesses the ability to adapt to any curriculum, whereas a 'bad' teacher is one who fails even with a good curriculum.",
+        "why_important": "It re-centers the definition of 'quality' back onto the individual's adaptive capacity rather than the system's design."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C40",
+          "C43"
+        ],
+        "action": "merge",
+        "explanation": "Both claims describe the same pragmatic advice for school principals regarding the prioritization of funding for teacher development and collaboration."
+      },
+      {
+        "claim_ids": [
+          "C1",
+          "C18"
+        ],
+        "action": "merge",
+        "explanation": "C18 is a restatement of the mechanism through which C1 (the non-innate nature of quality) is realized."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 4,
+      "summary": "The extraction is highly comprehensive but occasionally redundant in its pragmatic claims. It successfully captures the main conclusions regarding VAM and the contextual nature of teacher quality, but it misses the 'political' argument Hirsch makes about why the skills-delusion persists (evasion). The nuances of the author's comparison between K-12 and university tenure were slightly flattened."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0015082000000000001,
+    "input_tokens": 10138,
+    "output_tokens": 1236,
+    "duration_s": 20.04570508003235,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

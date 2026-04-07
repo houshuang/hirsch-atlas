@@ -1,0 +1,257 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C3",
+        "relationship": "depends-on",
+        "explanation": "The necessity for a 'ground up' rethinking is predicated on the claim that current educational difficulties stem from fundamentally incorrect scientific and practical ideas."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The early grades are identified as the 'most critical' because they serve as the indispensable foundation for citizenship and literacy mentioned in C5."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "Labeling the 'basic skills' focus as scientifically misguided relies on the assertion that the underlying 'how-to' conception of schooling is a persistent fallacy."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The role of elementary school in the public sphere is built on the premise that educational competence is the prerequisite for social community."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "The necessity of cultural assimilation is presented as a means to achieve the goal of creating competent and loyal citizens."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C17",
+        "relationship": "instantiates",
+        "explanation": "Albert Shanker's life is used as the concrete archetype for the Enlightenment goals that the author argues must be reinstated."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The call for the left and right to unite depends on the theoretical possibility that such polarization can actually be overcome."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C29",
+        "relationship": "depends-on",
+        "explanation": "The claim that a common knowledge base is the necessary precondition for individuality (C24) is logically predicated on the goal of creating a public sphere where success is determined by merit and virtue rather than social origin (C29)."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If the methodology of labeling is rejected (C21), then the specific mischaracterization of Hirsch as a political conservative (C22) can be corrected."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C26",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic necessity of involving outsiders in reform (C25) depends on the methodological claim that real change requires a fundamental shift in principles (C26), which insiders/experts are historically resistant to."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "Using history to expose ideological constraints (C27) is the primary method for identifying the outworn traditions that must be replaced by superior principles (C26)."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C6",
+        "warrant_text": "Economic adaptability in the modern era requires a broad base of prior knowledge rather than just abstract technical skills.",
+        "is_explicit": true,
+        "vulnerability": "Economic struggles may be driven more by structural labor market shifts and capital flight than by the educational deficits of the workforce."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C10",
+        "warrant_text": "Educational practices established in the 1930s represent a deviation from foundational American principles rather than a natural evolution of them.",
+        "is_explicit": false,
+        "vulnerability": "The 1930s shift could be viewed as a necessary modernization to address the complexities of an industrial society that the Founders could not have anticipated."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C14",
+        "warrant_text": "If a system successfully assimilated non-English speaking immigrants in the past into national leaders, that system's goal of assimilation is validated as effective and necessary.",
+        "is_explicit": false,
+        "vulnerability": "Using a single high-achiever (Shanker) as proof of a system's efficacy ignores potential systemic barriers that failed many others in the same demographic."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Economic data regarding free-trade agreements and job retraining difficulties",
+        "claim_id": "C24",
+        "warrant_text": "Economic adaptability and lifelong learning are enabled by a deep, broad foundation of content knowledge rather than the mastery of isolated procedural skills.",
+        "is_explicit": true,
+        "vulnerability": "Critics argue that 'learning how to learn' — a set of general meta-cognitive skills — is more important for job flexibility than a specific set of K-8 facts."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Performance of high-achieving international school systems",
+        "claim_id": "C28",
+        "warrant_text": "Educational efficacy is a technical and structural issue whose successful methodologies are cross-culturally transferable.",
+        "is_explicit": false,
+        "vulnerability": "The success of these systems may be rooted in non-transferable cultural factors, such as social homogeneity, high teacher status, or different parental expectations."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C6",
+        "missing_step": "Proof that the specific knowledge missing in American schools is the same knowledge required for job retraining in free-trade environments.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C15",
+        "to_id": "C17",
+        "missing_step": "The establishing link that the 'Enlightenment goals' are the only or most effective framework for producing competent citizens in a 21st-century democracy.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C11",
+        "to_id": "C12",
+        "missing_step": "The assumption that a common curriculum in school is sufficient to overcome the 'private identities' and external social factors that fragment the public sphere.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C24",
+        "to_id": "C29",
+        "missing_step": "A specific, common curriculum effectively bridges the 'cultural capital' gap between different socio-economic classes, ensuring talent is the only remaining differentiator.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C21",
+        "to_id": "C24",
+        "missing_step": "A common core curriculum can be established that is objectively 'civic' and 'neutral' rather than reflecting the political biases of a specific partisan group.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "In an era of information explosion and rapid technological change, specific content knowledge becomes obsolete quickly, making 'learning how to learn' (skills) more vital than 'what to learn' (facts).",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C14",
+        "objection": "A focus on 'cultural assimilation' and a 'common core' may marginalize the histories and voices of minority groups, reinforcing a dominant cultural hegemony rather than creating true equity.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C20",
+        "objection": "The divide between the left and right in education is based on fundamental disagreements about the purpose of school (social justice vs. tradition), which cannot be resolved by 'uniting' around a curriculum.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C24",
+        "objection": "A 'common core' of knowledge inherently reflects the cultural values of the dominant group, potentially marginalizing the very 'diversity' it claims to protect by designating other forms of knowledge as 'non-essential'.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C25",
+        "objection": "Excluding university professors and academic experts from the reform process risks creating a curriculum that is pedagogically unsound or disconnected from the latest findings in developmental psychology.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Epistemological Shift",
+        "chain": [
+          "C1",
+          "C8",
+          "C7",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "strong"
+      },
+      {
+        "name": "The Civic Foundation",
+        "chain": [
+          "C11",
+          "C13",
+          "C12",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Enlightenment Revival",
+        "chain": [
+          "C14",
+          "C15",
+          "C18",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Political Necessity",
+        "chain": [
+          "C1",
+          "C19",
+          "C20"
+        ],
+        "conclusion_id": "C20",
+        "strength": "weak"
+      },
+      {
+        "name": "The Precondition for Equity",
+        "chain": [
+          "C29",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "strong"
+      },
+      {
+        "name": "The Reform Strategy",
+        "chain": [
+          "C27",
+          "C26",
+          "C25",
+          "C28"
+        ],
+        "conclusion_id": "C28",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0015008,
+    "duration_s": 56.72142791748047
+  }
+}

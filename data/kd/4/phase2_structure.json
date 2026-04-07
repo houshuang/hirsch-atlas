@@ -1,0 +1,534 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If comprehension requires knowledge beyond syntax/vocabulary, it implies texts necessarily leave gaps for the reader to fill."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The ability to fill in unstated 'blanks' is the prerequisite for forming a coherent situation model."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C10",
+        "relationship": "supports",
+        "explanation": "If situation models cannot be formed without knowledge, then formal rules and strategies alone must be insufficient."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "The need for authors to estimate what can be taken for granted necessitates the structural construct of a 'general reader'."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "The concept of a general reader is only functional if there is an internalized body of shared community knowledge."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C15",
+        "relationship": "supports",
+        "explanation": "Proficiency across all language domains follows from the internalization of the shared knowledge required by the general reader."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The shared knowledge that constitutes the general reader's profile is identified as being national in scale."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "If authors of general-interest books do not assume expert knowledge, it follows that the required knowledge for literacy is broad rather than deep."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C38",
+        "relationship": "depends-on",
+        "explanation": "The fact that authors must estimate what to explain versus what to assume depends on the principle that communication requires shared background knowledge."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "The necessity of diverse domains (history, science, etc.) for general comprehension supports the conclusion that only those with broad knowledge can understand general publications."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic conclusion that schools must prioritize knowledge depends on the conclusion that broad knowledge is the gatekeeper to understanding general-interest texts."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C35",
+        "relationship": "instantiates",
+        "explanation": "The failure to distinguish between words and knowledge is the specific mechanism by which word-frequency approaches become misleading."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "If communication relies on shared background knowledge, then reading comprehension (a form of communication) will correlate with a student's possession of that specific knowledge."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The existence of a consensus on taken-for-granted knowledge makes it possible (and therefore a requirement) for schools to teach that specific 'enabling' knowledge."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "The normative recommendation to shift instructional time to knowledge assumes that this knowledge is indeed the primary driver of reading proficiency."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "The empirical success of schools using a core-knowledge model serves as evidence that mastery of a stable core of knowledge leads to reading proficiency."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "If current programs fail to provide required knowledge, it justifies a pragmatic shift in how the reading block time is allocated."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C58",
+        "relationship": "depends-on",
+        "explanation": "The claim that integrated content is optimal for background and vocabulary depends on the empirical finding that word learning is accelerated by familiar context."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "The normative goal of reinforcing curriculum across subjects provides the structural basis for the theoretical claim of 'optimal' integration."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "The theoretical claim that stories are the most effective vehicle for children justifies the recommendation that nonfictional truths be delivered through narrative."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C61",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that schools have a duty to provide national cultural knowledge rests on the Jeffersonian premise that a functioning democracy depends on the informed opinion of its citizens."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C61",
+        "relationship": "depends-on",
+        "explanation": "If reading skills were not knowledge-dependent, schools could fulfill their democratic duty by teaching abstract skills alone; the knowledge-dependency of reading necessitates the teaching of specific content."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "The symmetry of comprehension failure between Americans (cricket) and Brits (baseball) provides empirical evidence that reading skill is not a general ability but is tied to specific background knowledge."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C71",
+        "relationship": "depends-on",
+        "explanation": "The existence of 'restricted codes' (where meaning is highly condensed via context) is what necessitates the writer's need to estimate the audience's knowledge gap."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C70",
+        "relationship": "responds-to",
+        "explanation": "The author clarifies that while they criticize the 'romantic' focus on imagination in US schools, they are not inherently hostile to imagination itself."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "If a grammatically correct sentence using common words is unintelligible without specific cultural context (baseball), then meaning is extrinsic to the linguistic code itself.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue baseball terminology functions as technical jargon rather than representing general linguistic comprehension."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E3",
+        "claim_id": "C11",
+        "warrant_text": "The failure of high-powered computational logic to perform a task that humans do easily suggests that the missing component is world knowledge, not logical processing power.",
+        "is_explicit": true,
+        "vulnerability": "Early computer failures could be attributed to primitive algorithms or lack of processing speed rather than a lack of a 'knowledge base'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C3",
+        "warrant_text": "If a standard newspaper review assumes knowledge across disparate domains (astronomy, geography), it implies the existence of a standard target audience profile.",
+        "is_explicit": false,
+        "vulnerability": "A single publication like the New York Times may target an elite sub-culture rather than a 'general' national reader."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C25",
+        "claim_id": "C26",
+        "warrant_text": "A text cannot be understood if the reader lacks the domain-specific references (e.g., Nobel Prize, Paris) that the author uses to convey meaning without definition.",
+        "is_explicit": true,
+        "vulnerability": "A reader might use context clues to bypass a lack of specific knowledge, or the text might remain 'partially' understood without full domain knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C38",
+        "claim_id": "C39",
+        "warrant_text": "Reading is essentially 'listening to a writer'; therefore, the same cognitive rules governing successful oral communication apply to reading comprehension.",
+        "is_explicit": false,
+        "vulnerability": "Reading allows for re-reading and external look-ups, which might mitigate the need for immediate, taken-for-granted knowledge compared to oral speech."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C40",
+        "claim_id": "C28",
+        "warrant_text": "If the core body of assumed knowledge is stable over time, it constitutes a reliable and teachable curriculum that can improve achievement.",
+        "is_explicit": false,
+        "vulnerability": "Stability in the past does not guarantee stability in a rapidly changing digital age where public discourse may be fragmenting into niches."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C43",
+        "claim_id": "C41",
+        "warrant_text": "Success in practice (higher reading scores) using a specific knowledge-based curriculum demonstrates that the underlying principle (stable core knowledge) is a valid requirement for reading proficiency.",
+        "is_explicit": false,
+        "vulnerability": "Confounding variables in Core Knowledge schools (e.g., student demographics, teacher quality, or school culture) might be responsible for the scores rather than the content itself."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C45",
+        "claim_id": "C44",
+        "warrant_text": "Student engagement is a valid criterion for determining how instructional time should be allocated in a reading block.",
+        "is_explicit": true,
+        "vulnerability": "Engagement does not necessarily equate to learning; children might find trivial fiction equally engaging if taught differently."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C57",
+        "claim_id": "C58",
+        "warrant_text": "If a learning process is psychologically more efficient (accelerated word learning in context), it should dictate the design of the school curriculum.",
+        "is_explicit": false,
+        "vulnerability": "Logistical or departmental constraints in schools may make this 'optimal' integration less effective in practice than in theory."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C64",
+        "claim_id": "C62",
+        "warrant_text": "If a reader's ability to comprehend a text changes based solely on the subject matter while their 'reading level' remains constant, then comprehension is a function of subject-matter knowledge rather than a formal skill.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that the difficulty is purely linguistic (vocabulary) rather than conceptual (world knowledge)."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C66",
+        "claim_id": "C61",
+        "warrant_text": "A democratic society's survival depends on the ability of its citizens to participate in common discourse; therefore, the educational system must provide the specific knowledge required for that discourse.",
+        "is_explicit": true,
+        "vulnerability": "Assumes a consensus exists on what constitutes 'serious national discourse' and that this discourse is inherently beneficial for all demographic groups."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C63",
+        "claim_id": "C62",
+        "warrant_text": "If students find knowledge-rich content more engaging and show improved scores when using it, it suggests the pedagogical theory aligns with the psychological reality of how reading works.",
+        "is_explicit": false,
+        "vulnerability": "Increased interest could be a 'novelty effect' rather than proof of the theoretical nature of reading skills."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C15",
+        "to_id": "C19",
+        "missing_step": "The 'wider speech community' mentioned in C5 is necessarily co-extensive with the 'nation' rather than a local or global community.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C2",
+        "to_id": "C9",
+        "missing_step": "Human working memory limits are the specific mechanism that makes 'readily available' knowledge superior to external lookup tools.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C26",
+        "to_id": "C27",
+        "missing_step": "Newspapers and general-interest publications are the primary or essential vehicles for the 'opinion of the people' required for democracy.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C32",
+        "to_id": "C33",
+        "missing_step": "A national consensus on knowledge can be translated into a curriculum that does not unfairly privilege certain social or cultural groups.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C44",
+        "missing_step": "That a 'stable core' identified by experts is the same knowledge required for reading across all diverse sub-cultures and future text types.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C49",
+        "to_id": "C44",
+        "missing_step": "That shifting one hour specifically, rather than forty minutes or two hours, is the mathematically correct intervention to rectify the knowledge deficit.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C54",
+        "to_id": "C55",
+        "missing_step": "That because the history of fiction-centric language arts is arbitrary, it is therefore less beneficial than a science/history-centric approach.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "C61",
+        "missing_step": "A demonstration that a stable, non-arbitrary core of 'national knowledge' can be defined without excluding marginalized cultural perspectives.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C69",
+        "to_id": "C61",
+        "missing_step": "Proof that shifting the 90-minute reading block from 'formal skills' to 'world knowledge' will not result in a decline in basic decoding proficiency for at-risk students.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C10",
+        "objection": "Highly developed metacognitive strategies (contextual guessing, morphological analysis) allow proficient readers to navigate unfamiliar content even when background knowledge is low.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C19",
+        "objection": "In a digital and globalized era, the 'general reader' is increasingly international or specialized, making a strictly national knowledge base anachronistic.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C5",
+        "objection": "Defining a 'shared knowledge community' inherently privileges the dominant culture and marginalizes the background knowledge of minority groups.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C28",
+        "objection": "The lack of reading improvement may be due to the 'how' (pedagogy and student engagement) rather than the 'what' (content knowledge).",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C26",
+        "objection": "Modern digital citizens primarily consume niche or algorithmic content that does not require the 'general' knowledge once required by a broad-interest newspaper like the NYT.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C37",
+        "objection": "What is perceived as 'national consensus' may actually be the dominant cultural perspective of a specific class or demographic, marginalizing the background knowledge of minority groups.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "The 'stable core' of knowledge is not a neutral discovery but a value-laden selection that may reinforce existing social hierarchies by prioritizing traditional Western canon over multicultural or local knowledge.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C44",
+        "objection": "Reducing time for formal skills may harm students with specific learning disabilities (like dyslexia) who require intensive, prolonged practice in formal decoding or metacognitive strategies beyond the one hour allowed.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C53",
+        "objection": "The value of fiction is not primarily the 'nonfictional truths' it conveys, but its unique ability to foster empathy, moral imagination, and aesthetic appreciation—qualities that nonfictional narratives may not replicate as effectively.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C61",
+        "objection": "The definition of 'serious national discourse' is historically determined by dominant social classes; mandating this specific knowledge in schools may act as a form of cultural imperialism that devalues the 'restricted codes' and local knowledge of minority groups.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C62",
+        "objection": "While knowledge is necessary for comprehension, 'reading skill' also involves procedural metacognition (like self-monitoring for understanding) that remains useful across very different knowledge domains.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C67",
+        "objection": "Even if the sequence of history (Greece vs. Washington) is logically arbitrary, it is not pedagogically arbitrary; children may have developmental windows where certain types of narratives are more effective, regardless of chronological order.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Mechanism of Incompletion",
+        "chain": [
+          "C1",
+          "C4",
+          "C7",
+          "C10"
+        ],
+        "conclusion_id": "C10",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Contract of Literacy",
+        "chain": [
+          "C13",
+          "C3",
+          "C5",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "strong"
+      },
+      {
+        "name": "The National Knowledge Requirement",
+        "chain": [
+          "C15",
+          "C19",
+          "C20"
+        ],
+        "conclusion_id": "C19",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Communicative Necessity Chain",
+        "chain": [
+          "C38",
+          "C23",
+          "C21",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "The Educational Reform Chain",
+        "chain": [
+          "C31",
+          "C35",
+          "C29",
+          "C28",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Imperative Chain",
+        "chain": [
+          "C26",
+          "C27",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Functional Necessity of Core Knowledge",
+        "chain": [
+          "C42",
+          "C43",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "strong"
+      },
+      {
+        "name": "The Practical Reform of the Reading Block",
+        "chain": [
+          "C46",
+          "C47",
+          "C49",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Pedagogical Efficiency of Integration",
+        "chain": [
+          "C57",
+          "C56",
+          "C58"
+        ],
+        "conclusion_id": "C58",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Necessity Chain",
+        "chain": [
+          "C66",
+          "C62",
+          "C61"
+        ],
+        "conclusion_id": "C61",
+        "strength": "strong"
+      },
+      {
+        "name": "The Knowledge-Constitutes-Skill Chain",
+        "chain": [
+          "C64",
+          "C65",
+          "C71",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Communicative Competence Chain",
+        "chain": [
+          "C65",
+          "C71"
+        ],
+        "conclusion_id": "C71",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0044668,
+    "duration_s": 59.15548253059387
+  }
+}

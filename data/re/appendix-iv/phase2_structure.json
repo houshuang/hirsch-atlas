@@ -1,0 +1,586 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C5",
+        "relationship": "depends-on",
+        "explanation": "If language's goal is conveying identical mental objects, then identity of meaning (C5) necessitates the shared knowledge required to construct those objects."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "Because identity of meaning requires background knowledge, reading is categorized as an act of interpretation rather than a mechanical skill."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "If reading is interpretive and context-dependent, the idea that it is a general skill with measurable levels is logically false."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The invalidity of complexity formulas (C10) provides the basis for the normative claim that schools have adopted a mistaken approach."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C7",
+        "relationship": "refines",
+        "explanation": "C14 establishes SBK as the key to literacy, which then serves as the foundation for the broader claim that SBK is necessary for national unity (C7)."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "The failure of metrics to account for unstated knowledge supports the theoretical conclusion that reading isn't a general 'level-based' skill."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "If a text has no inherent difficulty before interpretation, then the concept of general reading 'levels' is a non-truth."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The historical connection between Dewey and Hegel illustrates how a single influential idea can guide institutional practice for decades."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C22",
+        "relationship": "depends-on",
+        "explanation": "The claim that progressive education has 'nation-threatening' effects relies on the empirical premise that it actually caused the 20th-century literacy decline."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "The correlation between reading scores and income, regardless of home background, supports the theory that reading tests measure a vital form of capital (shared knowledge)."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "If knowledge predicts future income, and knowledge acquisition is cumulative, then early intervention is logically necessary for equal opportunity."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "The fact that knowledge levels are largely set by the teens necessitates that schools act effectively during the earliest years."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "The specific timing of the introduction of child-chosen topics in the 1940s provides a causal mechanism for the subsequent decline."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "If history and 'nature' can take wrong turns, adults cannot abdicate their responsibility to direct the curriculum."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "If the concept of reading 'levels' is defective, an alternative definition of comprehensibility is required."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "The claim that shared knowledge defines comprehensibility relies on the observation that mass communication operates at a national level through shared assumptions."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C44",
+        "relationship": "instantiates",
+        "explanation": "The existence of different national 'grapholects' serves as evidence that reading is tied to specific shared knowledge rather than general levels."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C49",
+        "relationship": "depends-on",
+        "explanation": "The argument that readability formulas are flawed is based on the theoretical premise that meaning depends on unstated, shared knowledge."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "The implementation of child-chosen topics in the 1940s is identified as the specific historical shift that preceded the score declines."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C53",
+        "relationship": "refines",
+        "explanation": "C53 specifies the causal mechanism (individuality vs commonality) for the empirical trend noted in C50."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "Establishing that the 1940s theories were factually incorrect provides a logical basis for why their implementation would lead to a decline."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "The definition of comprehensibility via shared knowledge leads to the conclusion that reading itself is a knowledge-specific skill."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C60",
+        "relationship": "supports",
+        "explanation": "If formulas omit knowledge-dependent variables, it confirms that reading cannot be treated as a general skill with abstract levels."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "The decline in SAT scores is used as a proxy measurement for the broader debasement of intelligence and national comity."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "The claim that the Shanker Principle will raise PISA scores depends on the diagnosis that current low scores are caused by content incoherence."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "Evidence from a longitudinal study showing high scores for students in integrated curricula provides empirical support for the PISA prediction."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "The predicted rise in international rankings (C62) serves as a primary pragmatic justification for the normative call to enact the Shanker Principle (C66)."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C66",
+        "relationship": "supports",
+        "explanation": "Removing the political obstacle of 'indoctrination' through local material choice makes the statewide mandate more feasible."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C69",
+        "relationship": "depends-on",
+        "explanation": "America's ability to move away from child-centrism depends on the fundamental reform of the literacy publishing industry."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C9",
+        "warrant_text": "If high-level AI cannot reliably translate because it misses context and nuance, then communication must depend on an empathetic 'shared intentionality' that machines lack.",
+        "is_explicit": true,
+        "vulnerability": "AI might achieve 'reliability' through massive data correlation without ever possessing 'empathy' or 'intentionality' in the human sense."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E11",
+        "claim_id": "C8",
+        "warrant_text": "If a linguistically simple text is incomprehensible to an outsider because of cultural context, then reading is fundamentally an interpretive act of knowledge rather than a technical decoding skill.",
+        "is_explicit": true,
+        "vulnerability": "Technical decoding is still a prerequisite; interpretation is a secondary layer that doesn't negate the 'technical' nature of reading."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C18",
+        "warrant_text": "Empirical evidence showing that topic knowledge outweighs syntax or word length in comprehension tests suggests that readability is a function of the reader's mind, not the text's properties.",
+        "is_explicit": true,
+        "vulnerability": "At extreme ends of the spectrum (e.g., highly complex syntax), structural text characteristics may still hinder comprehension regardless of background knowledge."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E9",
+        "claim_id": "C5",
+        "warrant_text": "A national body's policy that tests measure shared knowledge implies that the successful transfer of meaning is legally and practically viewed as a knowledge-dependent event.",
+        "is_explicit": false,
+        "vulnerability": "Official policy might be based on pedagogical trends or political goals rather than an accurate model of cognitive processing."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C23",
+        "claim_id": "C21",
+        "warrant_text": "If a philosopher admitted that a previous thinker's 'wrong' idea left a permanent deposit in their mind, it demonstrates how intellectual errors persist across generations.",
+        "is_explicit": true,
+        "vulnerability": "A 'permanent deposit' might be a method of inquiry rather than a specific 'wrong' conclusion."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C28",
+        "claim_id": "C29",
+        "warrant_text": "If a test predicts real-world success across diverse demographics, it must be measuring a fundamental competency (like shared background knowledge) rather than just an abstract or superficial skill.",
+        "is_explicit": false,
+        "vulnerability": "Income prediction could be influenced by other latent variables in the test, such as IQ or conscientiousness, rather than just knowledge."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C37",
+        "claim_id": "C35",
+        "warrant_text": "Temporal precedence and a plausible mechanism (replacing common content with individual choice) are sufficient to establish causality in historical educational shifts.",
+        "is_explicit": false,
+        "vulnerability": "Post hoc ergo propter hoc; other societal shifts in the 1940s (e.g., post-war economic shifts, changes in family structure) might be the true drivers."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C33",
+        "claim_id": "C31",
+        "warrant_text": "If a window for efficient learning (the ratchet effect) closes or becomes significantly harder to push after a certain age, the moral weight of education shifts entirely to the preceding period.",
+        "is_explicit": true,
+        "vulnerability": "Neuroplasticity and adult education programs might mitigate the severity of the 'ratchet effect' more than the author allows."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C46",
+        "claim_id": "C44",
+        "warrant_text": "If a text (like the New Zealand rugby example) is incomprehensible to an expert reader from a different nation despite being in the same language, then 'reading level' is not a universal metric; background knowledge is the deciding factor.",
+        "is_explicit": true,
+        "vulnerability": "Technical jargon or localized slang might be categorized as vocabulary acquisition rather than a failure of general reading comprehension skill."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C50",
+        "claim_id": "C53",
+        "warrant_text": "A smooth, continuous statistical decline at the end of high school (12th grade) suggests a systemic causal change introduced exactly 12 years prior when those students entered the system.",
+        "is_explicit": true,
+        "vulnerability": "The 'smoothness' of a curve can be an artifact of large-scale data aggregation and may hide multiple confounding variables."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C51",
+        "claim_id": "C49",
+        "warrant_text": "If readability formulas ignore the cognitive work required to resolve ambiguity and implication, they are measuring surface features of text rather than the actual difficulty of comprehension.",
+        "is_explicit": false,
+        "vulnerability": "Surface features often correlate strongly with conceptual complexity, making them useful proxies even if they are not the underlying cause."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C68",
+        "claim_id": "C62",
+        "warrant_text": "Experimental results from specific longitudinal studies can be reliably extrapolated to national-scale performance if the underlying curricular principles are identical.",
+        "is_explicit": false,
+        "vulnerability": "Scaling a curriculum from a controlled study to a massive, decentralized national system often results in 'lethal mutation' where the program's effectiveness is lost."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C63",
+        "claim_id": "C66",
+        "warrant_text": "Separating the 'content sequence' (state level) from the 'instructional materials' (local level) sufficiently satisfies both the need for coherence and the requirement for local autonomy.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that 'topic choice' is itself a form of indoctrination, regardless of which specific books are used to teach those topics."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C61",
+        "claim_id": "C79",
+        "warrant_text": "If the metrics currently used by an industry (Lexiles) are technically flawed, the industry must be restructured to align with accurate scientific principles (shared knowledge).",
+        "is_explicit": false,
+        "vulnerability": "Market forces and established interests often prioritize established metrics over scientific accuracy if those metrics are profitable and standardized."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C7",
+        "missing_step": "Mutual understanding (identity of meaning) between individuals is the primary causal driver of social cohesion and national unity.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C6",
+        "missing_step": "The introduction of diverse content was the primary reason for the decline in shared knowledge, rather than other factors like changing media habits or teaching quality.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C11",
+        "to_id": "C14",
+        "missing_step": "A statewide curriculum framework (The Shanker Principle) is the most effective way to provide the specific shared background knowledge required for literacy.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C26",
+        "to_id": "C25",
+        "missing_step": "A child's 'natural development' in an unknown future world cannot, by definition, include the specific historical and cultural content required for literacy.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C29",
+        "to_id": "C30",
+        "missing_step": "The 'shared knowledge' measured by the AFQT is the same 'shared knowledge' required for high-income professional participation.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C50",
+        "to_id": "C53",
+        "missing_step": "Establishing that no other major societal changes in the 1940s (e.g., shifts in family structure or media consumption) could have caused the same longitudinal effect.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C44",
+        "to_id": "C45",
+        "missing_step": "Demonstrating that the 'shared knowledge' required for comprehension is specifically national rather than sub-cultural or global.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "C66",
+        "missing_step": "Establishing that state-level mandates are the most effective or constitutionally appropriate mechanism for implementing the Shanker Principle in a federalist system.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C68",
+        "to_id": "C62",
+        "missing_step": "A causal mechanism explaining how a shared-topic sequence in early grades (K-5) translates into higher scores for fifteen-year-olds on PISA tests.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C12",
+        "objection": "The 'diversity' of content may increase engagement and relevance for marginalized groups, potentially improving individual reading outcomes even if it reduces a single 'common' national knowledge base.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C13",
+        "objection": "Even if reading is interpretive, there are clearly general cognitive processes (like working memory capacity, syntactic processing, and decoding fluency) that act as 'general skills' across all domains of text.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C7",
+        "objection": "National unity in a pluralistic democracy is better served by a shared commitment to democratic processes and rights rather than a shared inventory of specific cultural facts.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C35",
+        "objection": "The verbal decline in the 1950s and 60s could be attributed to the rise of television and visual media, which reduced the time children spent engaged with complex print materials, independent of school curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C34",
+        "objection": "While the decline may have started before full integration, the expansion of the test-taking pool to include a broader socio-economic range of students during the mid-20th century could naturally lower average scores without implying a decline in the quality of instruction.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C36",
+        "objection": "In a pluralistic democracy, having 'adults' decide a specific curriculum content risks political indoctrination or the exclusion of minority perspectives, which 'natural' development ostensibly avoids.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C50",
+        "objection": "The SAT score decline in the 1960s is widely attributed to the democratization of the test-taking pool (the 'compositional effect'), as more students from diverse socio-economic backgrounds began taking the exam.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C60",
+        "objection": "Cognitive strategies like 'monitoring for understanding' or 're-reading' are general skills that help readers tackle unfamiliar knowledge-rich texts across different domains.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C49",
+        "objection": "Readability formulas were never intended to be exhaustive measures of meaning, but rather practical tools for ensuring students aren't overwhelmed by word length and syntactic density.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C62",
+        "objection": "PISA rankings are influenced by broader socio-economic factors, such as child poverty rates and social safety nets, which a curriculum change alone cannot overcome.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C67",
+        "objection": "Allowing local choice of materials risks re-introducing the very 'content incoherence' the Shanker Principle seeks to fix, as different materials may emphasize different aspects of the same topic.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C66",
+        "objection": "State-mandated topic sequences may lead to a 'narrowing of the curriculum' where teachers focus only on tested topics, excluding emerging subjects or local interests.",
+        "objection_type": "scope_limitation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Hermeneutic Chain",
+        "chain": [
+          "C1",
+          "C2",
+          "C5",
+          "C8",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Cohesion Chain",
+        "chain": [
+          "C5",
+          "C12",
+          "C6",
+          "C7",
+          "C14"
+        ],
+        "conclusion_id": "C14",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Critique of Readability Metrics",
+        "chain": [
+          "C16",
+          "C17",
+          "C10",
+          "C11",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "strong"
+      },
+      {
+        "name": "The Genealogical Error",
+        "chain": [
+          "C24",
+          "C23",
+          "C26",
+          "C21",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Economic Imperative",
+        "chain": [
+          "C28",
+          "C29",
+          "C30",
+          "C32",
+          "C33",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "strong"
+      },
+      {
+        "name": "Historical Rebuttal of the Decline",
+        "chain": [
+          "C37",
+          "C34",
+          "C35"
+        ],
+        "conclusion_id": "C35",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Knowledge-Specific Nature of Reading",
+        "chain": [
+          "C43",
+          "C46",
+          "C51",
+          "C44",
+          "C60"
+        ],
+        "conclusion_id": "C60",
+        "strength": "strong"
+      },
+      {
+        "name": "The Historical Failure of Child-Centrism",
+        "chain": [
+          "C42",
+          "C48",
+          "C54",
+          "C50",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Socio-Political Consequence of Curricular Incoherence",
+        "chain": [
+          "C44",
+          "C45",
+          "C56",
+          "C59",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Path to International Competitiveness",
+        "chain": [
+          "C64",
+          "C61",
+          "C68",
+          "C62"
+        ],
+        "conclusion_id": "C62",
+        "strength": "strong"
+      },
+      {
+        "name": "Political Feasibility of Curricular Reform",
+        "chain": [
+          "C63",
+          "C67",
+          "C66"
+        ],
+        "conclusion_id": "C66",
+        "strength": "moderate"
+      },
+      {
+        "name": "Industrial and National Capability",
+        "chain": [
+          "C79",
+          "C68",
+          "C69"
+        ],
+        "conclusion_id": "C69",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0064066,
+    "duration_s": 72.85625839233398
+  }
+}

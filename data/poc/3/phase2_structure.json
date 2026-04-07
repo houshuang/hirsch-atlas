@@ -1,0 +1,811 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If complex semantic intentions require complex prose for efficiency, then efficiency must be defined relative to the intention rather than absolute simplicity."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "Relative readability as a concept requires that efficiency be measured against the intended meaning (semantic intention) rather than a fixed standard of ease."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "responds-to",
+        "explanation": "The author defines efficiency as encompassing individualistic intentions to counter the criticism that clarity enforces conformity."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "Establishing that oral speech requires a balance of effort is a prerequisite for arguing that written prose follows a different, one-sided logic."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "The distinction between oral and written requirements leads to the conclusion that written appraisal is exclusively reader-focused."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "The fact that writers must work harder to ensure reader ease proves that the 'efficiency' being measured is that of the consumer, not the producer."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "Spencer's 1852 essay provides the historical and conceptual blueprint for reducing rhetorical maxims to a single principle."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that all maxims can be reduced to one principle depends on the normative claim that they should be deduced from a first principle rather than standing as isolated dogmas."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C20",
+        "relationship": "depends-on",
+        "explanation": "The identification of 'economizing attention' as the underlying law relies on the historical equivalence of Spencer's terms with modern 'readability'."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "The physical reality of cognitive energy subtraction provides the empirical basis for the 'law' of economizing attention."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C27",
+        "relationship": "depends-on",
+        "explanation": "Energy subtraction during processing is only a problem if the reader possesses a limited, finite channel-capacity for information."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "If readability must include 'rhetorical efficiency' (affecting the reader's sensibilities), then mere information-processing efficiency (least effort) is insufficient."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "The need for stylistic variety to maintain interest proves that minimizing effort cannot be the sole guiding principle."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "The insufficiency of the principle of least effort necessitates a model of composition based on compromise between competing requirements."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "By identifying Spencer's logical error in conflating efficiency and variety, Hirsch establishes that these are distinct, often conflicting principles requiring compromise."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C32",
+        "relationship": "supports",
+        "explanation": "If cognitive power is finite, spending it on structural processing necessarily leaves less available for vivid ideation."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "Spencer's justification for preferring Saxon words is the logical extension of the principle that shorter symbols save decipherment time."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "The early acquisition and organic connection of childhood words (mostly Saxon) explains why they require less energy than later-learned synonyms."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C38",
+        "relationship": "depends-on",
+        "explanation": "The methodological claim that we must analyze both dimensions depends on the premise that the invisible paradigmatic dimension is actually more important."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "Because attention is limited, an optimal sequence must minimize the duration of cognitive 'uncertainty' to preserve mental energy."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C41",
+        "relationship": "instantiates",
+        "explanation": "Narrative sequence is a specific application of the general principle of minimizing reader uncertainty."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C42",
+        "relationship": "instantiates",
+        "explanation": "Arranging sentences for immediate understanding is a strategy to prevent the cognitive backlog associated with uncertainty."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "Short-term memory capacity explains why different word-order conventions can be equally efficient."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "The high cost of simultaneous qualifications serves as evidence that the duration between linked members is the primary syntactic variable."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "If duration between linked members is the key factor, then 'force' is naturally maximized by keeping suspensions short and few."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The success of Milton's complex poetry due to brief suspensions provides an empirical case for the importance of fulfilling semantic expectations."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The psychological economy found in metrical anticipation is generalized into the principle of expectation-fulfillment for all readability."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C54",
+        "relationship": "supports",
+        "explanation": "The necessity of variety to prevent boredom implies that maximizing ease of reading (simplicity) is not the sole criterion for 'best' style."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C55",
+        "relationship": "depends-on",
+        "explanation": "If economy and fatigue are distinct and must be balanced, the 'least effort' principle must be relative to which of these the author intends to prioritize."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C58",
+        "relationship": "refines",
+        "explanation": "The principle of relative effort is formalized into the 'other things equal' rule, restricting the 'easiest is best' maxim to equivalent semantic goals."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C62",
+        "relationship": "supports",
+        "explanation": "The inability of formulas to discriminate between texts of varying quality but identical scores is a primary reason they fail the central issues of writing instruction."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "The specific empirical failure where a clarified revision is labeled as 'more difficult' proves that formulas cannot discriminate actual readability."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "Formulas fail to discriminate because they lack the theoretical capacity to process semantic contrasts."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C70",
+        "relationship": "supports",
+        "explanation": "If meaning is the essential factor in assessment, then readability must be measured against the specific intended meaning."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C71",
+        "relationship": "depends-on",
+        "explanation": "The definition of relative readability (less effort for the same meaning) logically requires that the 'same meaning' can actually exist in two different verbal forms."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C72",
+        "relationship": "supports",
+        "explanation": "If readability is an objective property of the text's relationship to meaning, it should hold true regardless of the reader's speed or expertise."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "Synonymy (text equivalence) is the necessary theoretical foundation that allows composition to be taught as a process of revision without altering content."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "Evidence that memory stores 'gist' rather than syntax suggests that meaning exists independently of specific linguistic forms, enabling synonymy."
+      },
+      {
+        "from_id": "C86",
+        "to_id": "C89",
+        "relationship": "supports",
+        "explanation": "The observed gap between clear thinking and readable writing suggests that readability is a product of psychological processing rather than formal logic."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C84",
+        "relationship": "supports",
+        "explanation": "Because multiple forms can express the same meaning (synonymy), the teacher's job is defined as helping the student choose the most efficient form."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C92",
+        "relationship": "supports",
+        "explanation": "If readability is psychologically distinct from logical validity, then teaching logical clarity is a separate task from teaching the principles of readable composition."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C94",
+        "relationship": "supports",
+        "explanation": "The existence of readable fallacies demonstrates that 'reading ease' or simple 'clarity' is an insufficient definition for the more complex norm of relative readability."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C94",
+        "relationship": "refines",
+        "explanation": "C94 specifies that the reason reading ease fails as a universal principle (C93) is that it oversimplifies the psycholinguistic reality of prose reception."
+      },
+      {
+        "from_id": "C94",
+        "to_id": "C95",
+        "relationship": "depends-on",
+        "explanation": "The need for a new term ('intrinsic effectiveness') depends on the established inadequacy and oversimplification of the existing term ('reading ease')."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C5",
+        "warrant_text": "If a text achieves its unique communicative goal with the least amount of cognitive friction possible for that specific goal, it is efficient, even if the absolute difficulty remains high.",
+        "is_explicit": true,
+        "vulnerability": "Relies on the ability to objectively define a 'semantic intention' independent of the prose used to express it."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C8",
+        "warrant_text": "Linguistic evolution in oral speech is a zero-sum game of energy expenditure between the speaker's articulatory ease and the listener's auditory processing.",
+        "is_explicit": false,
+        "vulnerability": "Overlooks social or ritualistic functions of speech where efficiency is not the primary driver of evolution."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E17",
+        "claim_id": "C7",
+        "warrant_text": "If mathematical formulas based on static text features (syllables, sentence length) predict comprehension, then the medium's efficiency is independent of real-time social feedback present in speech.",
+        "is_explicit": false,
+        "vulnerability": "Formulas only measure surface difficulty and may not capture the cognitive effort of deep semantic integration."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E27",
+        "claim_id": "C9",
+        "warrant_text": "The existence of texts that are intellectually clear but stylistically unreadable proves that logical clarity and communicative efficiency are distinct variables.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that 'readability' can be isolated from 'intellectual clarity' in the mind of the reader."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E8",
+        "claim_id": "C27",
+        "warrant_text": "If psychological experiments show that decoding effort reduces comprehension, then cognitive processing must be a zero-sum resource allocation.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive load might not always be subtractive; some 'desirable difficulties' can actually enhance deep processing and long-term retention."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E7",
+        "claim_id": "C30",
+        "warrant_text": "Psychological data regarding stylistic monotony can be generalized to the broader concept of cognitive effort in reading.",
+        "is_explicit": false,
+        "vulnerability": "Monotony might cause boredom or lack of interest, which is a motivational state rather than a purely cognitive processing limit."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E15",
+        "claim_id": "C11",
+        "warrant_text": "Aesthetic responses (like being 'fatigued' by ease) are valid indicators of a text's communicative efficiency, just like informational clarity.",
+        "is_explicit": true,
+        "vulnerability": "Aesthetic fatigue is highly subjective and varies between readers, unlike the more objective metrics of informational processing."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C37",
+        "claim_id": "C36",
+        "warrant_text": "Linguistic familiarity and automaticity, established during early cognitive development, reduce retrieval costs more significantly than the physical length of the stimulus.",
+        "is_explicit": true,
+        "vulnerability": "Technical or scientific terms may become more familiar and easier to process through high-frequency adult use than rare Saxon words learned in childhood."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C39",
+        "claim_id": "C38",
+        "warrant_text": "The total energy-cost of processing language is the sum of linear sequencing (syntagmatic) and semantic retrieval (paradigmatic); therefore, a single-track analysis is incomplete.",
+        "is_explicit": false,
+        "vulnerability": "Paradigmatic relations are highly subjective and vary between readers, potentially making them unreliable for objective readability metrics."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C41",
+        "claim_id": "C40",
+        "warrant_text": "If a reader must mentally reorder information to understand it, they are performing redundant cognitive labor that 'context-free' writing should ideally perform for them.",
+        "is_explicit": true,
+        "vulnerability": "Non-linear narratives can increase engagement and 'force' precisely through the resolution of uncertainty."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C49",
+        "claim_id": "C48",
+        "warrant_text": "Cognitive load increases exponentially when multiple qualifying elements must be held in short-term memory before the central idea is resolved.",
+        "is_explicit": true,
+        "vulnerability": "Some languages (like German) regularly use long-distance dependencies and multiple qualifications, suggesting human processing capacity may be more flexible than this principle implies."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C52",
+        "claim_id": "C53",
+        "warrant_text": "Cognitive efficiency is maximized when the processing mind can accurately predict and pre-adjust to incoming stimuli.",
+        "is_explicit": true,
+        "vulnerability": "The mind may find predictability boring, which contradicts the 'fatigue' principle mentioned elsewhere."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C56",
+        "claim_id": "C54",
+        "warrant_text": "Reader engagement is a component of communicative effectiveness, and engagement requires psychological stimulation that pure 'ease' may lack.",
+        "is_explicit": true,
+        "vulnerability": "Assumes 'fatigue' is caused by boredom rather than by the cognitive difficulty of processing variety."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C64",
+        "claim_id": "C62",
+        "warrant_text": "A measurement tool that produces a false-positive (ranking a worse text as better) is fundamentally flawed for pedagogical application.",
+        "is_explicit": false,
+        "vulnerability": "The formula might be intended only for broad classification (grade level) rather than fine-grained stylistic revision."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C75",
+        "claim_id": "C76",
+        "warrant_text": "If specific linguistic forms are discarded while comprehension persists, the information must be stored in a non-linguistic, semantic code.",
+        "is_explicit": true,
+        "vulnerability": "Connectionist models suggest form and meaning are more integrated than 'forgetfulness' implies; the 'gist' might still be shaped by the forgotten form."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C72",
+        "claim_id": "C71",
+        "warrant_text": "If a text's ease of use is consistent across different groups (fast/slow readers), the quality is a property of the text itself, not the reader's subjective state.",
+        "is_explicit": false,
+        "vulnerability": "A text could be objectively more readable in structure but subjective factors like interest or specific background knowledge might still override structural readability."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C88",
+        "claim_id": "C89",
+        "warrant_text": "If readers can easily process an illogical argument, readability must be determined by the ease of mental processing (psychology) rather than the consistency of the propositions (logic).",
+        "is_explicit": true,
+        "vulnerability": "The 'ease' of reading an illogical text might be an illusion of comprehension; true readability might require logical coherence to avoid later cognitive dissonance."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "TLS example of anti-feminist argument",
+        "claim_id": "C91",
+        "warrant_text": "Readability is a function of surface-level linguistic patterns (like repetition) that facilitate processing speed, regardless of the coherence of the underlying logical propositions.",
+        "is_explicit": true,
+        "vulnerability": "If 'understanding' is defined as accurately grasping a valid proposition, then a fallacy-ridden text is not 'easily understood' but rather 'easily misread' or 'superficially parsed.'"
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Logician excerpt revision",
+        "claim_id": "C92",
+        "warrant_text": "Pedagogical focus is a zero-sum game; time spent on the 'logic of thought' reduces time available for the 'logic of writing' (the psychological principles of the medium).",
+        "is_explicit": false,
+        "vulnerability": "Logical rigor may be a necessary prerequisite for semantic closure, which the author previously identified as a unit of readability."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C1",
+        "missing_step": "Aesthetic effects and expressive values must be categorized as a subset of 'semantic intentions'.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C10",
+        "to_id": "C9",
+        "missing_step": "The labor of the writer is excluded from the calculation of total 'system efficiency' because the text's value is realized only at the point of consumption.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C27",
+        "to_id": "C29",
+        "missing_step": "A second perusal of a text is cognitively equivalent to a failure of initial decipherment rather than an opportunity for deeper interpretation.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C14",
+        "to_id": "C17",
+        "missing_step": "Spencer's success in reducing several major maxims (like Saxon words vs. Latin) implies that all possible rhetorical maxims are similarly reducible.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C37",
+        "to_id": "C36",
+        "missing_step": "The assumption that Saxon words as a class retain 'childhood' levels of automaticity regardless of their specific frequency in modern adult registers.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C48",
+        "to_id": "C50",
+        "missing_step": "The unstated premise that 'syntactic force'—a qualitative stylistic effect—is directly equivalent to 'cognitive efficiency'.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C52",
+        "to_id": "C53",
+        "missing_step": "The cognitive benefits of rhythmic regularity in poetry apply equally to the syntactic patterns of prose.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C60",
+        "to_id": "C62",
+        "missing_step": "Predictive validity for 'difficulty' in children's reading is fundamentally different from 'readability' in adult composition.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C76",
+        "to_id": "C82",
+        "missing_step": "Establishing that 'memory for gist' is functionally identical to the 'exact same meaning' across different texts.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C81",
+        "to_id": "C84",
+        "missing_step": "An assumption that the 'most efficient' way to convey meaning is the only or primary value in a pedagogical setting.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C91",
+        "to_id": "C92",
+        "missing_step": "The primary objective of a composition course is the optimization of the linguistic medium rather than the cognitive content.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C94",
+        "to_id": "C95",
+        "missing_step": "Terminological confusion in academic discourse directly hinders the application of scientific principles in the classroom.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C9",
+        "objection": "If the writer's labor is too high, the communication system is inefficient in a macro sense because the 'cost' of production prevents the message from being created at all.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C4",
+        "objection": "Some aesthetic intentions (e.g., in poetry or high-modernist prose) explicitly seek to create 'difficulty' or 'impeded form' as a value; calling this 'efficient' renders the term efficiency meaningless.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C6",
+        "objection": "Relative readability formulas are purely predictive and statistical; they do not capture the 'efficiency' of how a reader actually constructs meaning from a text.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C27",
+        "objection": "The 'limited channel-capacity' model ignores the possibility of 'parallel processing' or the way skilled readers use top-down context to reduce the energy cost of deciphering symbols regardless of their complexity.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C29",
+        "objection": "In literary or philosophical prose, a second perusal is often the goal; the 'effort' required to decipher complex syntax can be a deliberate tool to slow the reader down and force deeper reflection (defamiliarization).",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C17",
+        "objection": "Rhetorical maxims often serve social, ethical, or political functions (e.g., establishing ethos or community belonging) that cannot be reduced to a cognitive principle of 'efficiency.'",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C36",
+        "objection": "Highly literate readers often process Latinate academic vocabulary with the same or greater speed than obscure Saxon roots, suggesting 'register familiarity' is more important than etymological origin.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C40",
+        "objection": "The 'shortest period of uncertainty' rule would prohibit most forms of suspense, irony, and complex philosophical argumentation, which require the reader to hold competing possibilities in mind.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C50",
+        "objection": "Short, low-suspension sentences may be 'efficient' but can lead to a 'choppy' style that fails to signal the relative importance or logical hierarchy of complex ideas.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C54",
+        "objection": "In technical or instructional writing, 'easiest' is always 'best' because the goal is exclusively information transfer, not aesthetic engagement or variety.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C63",
+        "objection": "The failure to discriminate between similar scores does not invalidate the formulas; it simply defines their margin of error, similar to any statistical tool.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C70",
+        "objection": "Gauging readability relative to 'intended meaning' introduces extreme subjectivity, as the 'intended meaning' is often only accessible through the text itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C82",
+        "objection": "The 'Heresy of Paraphrase': In high-quality prose, the form and the content are so inextricably linked that any change in wording, however slight, subtly alters the meaning or tone.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C72",
+        "objection": "A text optimized for a neophyte (using simpler, more frequent words) might be less readable for an expert because it lacks the precision and density provided by technical jargon.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C84",
+        "objection": "The composition teacher's role includes helping students discover what they think through writing, not just efficiently packaging pre-existing 'intentions'.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C92",
+        "objection": "Teaching logical clarity is the most effective way to improve readability, as 'muddy thought' is often the root cause of 'muddy writing,' and the two cannot be meaningfully decoupled in a classroom setting.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C94",
+        "objection": "The term 'relative readability' is itself prone to the same oversimplification as 'reading ease' unless the specific psychological constraints are quantified and standardized.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Relativity of Efficiency",
+        "chain": [
+          "C1",
+          "C3",
+          "C4",
+          "C5",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "The Asymmetry of Writing",
+        "chain": [
+          "C8",
+          "C7",
+          "C10",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Unification of Rhetoric",
+        "chain": [
+          "C14",
+          "C19",
+          "C17",
+          "C20"
+        ],
+        "conclusion_id": "C17",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Resource Constraint",
+        "chain": [
+          "C28",
+          "C27",
+          "C20",
+          "C21"
+        ],
+        "conclusion_id": "C27",
+        "strength": "strong"
+      },
+      {
+        "name": "The Dialectic of Compositional Balance",
+        "chain": [
+          "C11",
+          "C24",
+          "C23",
+          "C25",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Familiarity/Frequency Flow",
+        "chain": [
+          "C31",
+          "C32",
+          "C35",
+          "C37",
+          "C36"
+        ],
+        "conclusion_id": "C36",
+        "strength": "strong"
+      },
+      {
+        "name": "The Sequential Uncertainty Flow",
+        "chain": [
+          "C31",
+          "C40",
+          "C41",
+          "C42",
+          "C45"
+        ],
+        "conclusion_id": "C40",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Syntactic Suspension Flow",
+        "chain": [
+          "C44",
+          "C47",
+          "C49",
+          "C48",
+          "C50"
+        ],
+        "conclusion_id": "C50",
+        "strength": "strong"
+      },
+      {
+        "name": "The Expectation Principle",
+        "chain": [
+          "C51",
+          "C52",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "strong"
+      },
+      {
+        "name": "The Relativity of Least Effort",
+        "chain": [
+          "C56",
+          "C57",
+          "C54",
+          "C55",
+          "C58"
+        ],
+        "conclusion_id": "C58",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Semantic Critique of Formulas",
+        "chain": [
+          "C64",
+          "C66",
+          "C63",
+          "C62",
+          "C67",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "strong"
+      },
+      {
+        "name": "The Synonymy Foundation",
+        "chain": [
+          "C75",
+          "C76",
+          "C82",
+          "C73",
+          "C84"
+        ],
+        "conclusion_id": "C84",
+        "strength": "strong"
+      },
+      {
+        "name": "The Psychology of Readability",
+        "chain": [
+          "C86",
+          "C87",
+          "C88",
+          "C89"
+        ],
+        "conclusion_id": "C89",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Objectivity of Relative Readability",
+        "chain": [
+          "C71",
+          "C72"
+        ],
+        "conclusion_id": "C72",
+        "strength": "strong"
+      },
+      {
+        "name": "Psychological vs Logical Clarity",
+        "chain": [
+          "C91",
+          "C92"
+        ],
+        "conclusion_id": "C92",
+        "strength": "moderate"
+      },
+      {
+        "name": "Terminological Refinement of Readability",
+        "chain": [
+          "C93",
+          "C94",
+          "C95"
+        ],
+        "conclusion_id": "C95",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.007294500000000001,
+    "duration_s": 100.57738280296326
+  }
+}

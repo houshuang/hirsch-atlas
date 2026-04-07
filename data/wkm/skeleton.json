@@ -1,0 +1,171 @@
+{
+  "result": {
+    "book_thesis": "Educational progress and social equality in the United States are stalled by a devotion to child-centered, skill-based theories that neglect the communal necessity of a knowledge-rich curriculum. The book argues that only a shift toward communal, domain-specific knowledge can close the achievement gap and restore educational excellence.",
+    "core_frameworks": [
+      {
+        "id": "providential_individualism",
+        "name": "Providential Individualism (The Tyranny of Three Ideas)",
+        "description": "A dominant educational paradigm rooted in the belief that education should follow a child's natural development and unique interests rather than a shared social curriculum.",
+        "components": [
+          {
+            "id": "natural_development",
+            "name": "Natural Development",
+            "description": "The belief that early education should be a natural 'unfolding' of the child's inherent nature."
+          },
+          {
+            "id": "individualization",
+            "name": "Individualization",
+            "description": "The practice of tailoring curriculum to the unique learning styles and interests of each student."
+          },
+          {
+            "id": "skill_centrism",
+            "name": "Skill-Centrism",
+            "description": "The theory that education's goal is to develop general, content-independent skills like 'critical thinking.'"
+          }
+        ],
+        "stance": "author_opposes"
+      },
+      {
+        "id": "communal_knowledge_framework",
+        "name": "Communal/Knowledge-Based Schooling",
+        "description": "An alternative framework based on cognitive science and social justice that prioritizes the acquisition of shared, specific knowledge to enable public participation.",
+        "components": [
+          {
+            "id": "communal_focus",
+            "name": "Communal Proficiency",
+            "description": "Focusing early education on gaining proficiency in the language and conventions of the public sphere."
+          },
+          {
+            "id": "uniform_curriculum",
+            "name": "Local Uniformity",
+            "description": "The requirement that children in a given locality study the same core curriculum to ensure equity."
+          },
+          {
+            "id": "domain_specificity",
+            "name": "Domain Specificity",
+            "description": "The cognitive principle that thinking skills are intrinsically tied to specific subject-matter knowledge (expertise)."
+          }
+        ],
+        "stance": "author_advocates"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter 1: The Invalid Testing of Students",
+        "predicted_main_argument": "Current standardized tests are invalid because they attempt to measure general skills while actually reflecting a student's lack of specific background knowledge.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "psychometric analysis",
+          "cognitive theory"
+        ],
+        "connects_to": [
+          "Chapter 4",
+          "Chapter 8"
+        ]
+      },
+      {
+        "chapter": "Chapter 2: The Scapegoating of Teachers",
+        "predicted_main_argument": "Teachers are unfairly blamed for poor student outcomes that are actually the result of the faulty, individualized curricula they are required to use.",
+        "role_in_book": "establishes_problem",
+        "expected_evidence_types": [
+          "policy analysis",
+          "educational history"
+        ]
+      },
+      {
+        "chapter": "Chapter 3: Preschool and the Persistence of Fadeout",
+        "predicted_main_argument": "The temporary nature of preschool gains is caused by elementary schools failing to build upon a coherent knowledge base started in early years.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "longitudinal studies"
+        ]
+      },
+      {
+        "chapter": "Chapter 5: The Persistence of Achievement Gaps",
+        "predicted_main_argument": "The achievement gap is primarily a 'knowledge gap' and a 'language gap' that sociological or genetic explanations fail to account for.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "demographic data",
+          "sociolinguistic research"
+        ],
+        "connects_to": [
+          "Chapter 7"
+        ]
+      },
+      {
+        "chapter": "Chapter 7: The Educational Fall of France",
+        "predicted_main_argument": "France's 1989 shift from a communal national curriculum to an American-style individualized system led to a massive and documented decline in both achievement and equality.",
+        "role_in_book": "case_study",
+        "expected_evidence_types": [
+          "Ministry of Education longitudinal data",
+          "comparative historical analysis"
+        ],
+        "connects_to": [
+          "Chapter 6"
+        ]
+      },
+      {
+        "chapter": "Chapter 8: The Knowledge-Based School",
+        "predicted_main_argument": "A communal curriculum that imparts shared 'enabling knowledge' is the only viable path to achieving both excellence and social justice.",
+        "role_in_book": "proposes_solution",
+        "expected_evidence_types": [
+          "curriculum guides",
+          "cognitive science research"
+        ]
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Domain Specificity",
+        "definition": "The principle from cognitive science that thinking skills are tied to particular subject matter and cannot be applied independently of content knowledge.",
+        "source_passage": "Modern cognitive psychology holds that the skills that are to be imparted to a child by the school are intrinsically tied to particular content domains."
+      },
+      {
+        "term": "Communal Knowledge",
+        "definition": "The shared vocabulary, conventions, and taken-for-granted information that enables effective communication within a national public sphere.",
+        "source_passage": "I have recently begun to name that general principle 'communal knowledge.'... a de facto public commons that enables our national language to be deployed effectively."
+      },
+      {
+        "term": "Loi Jospin",
+        "definition": "The 1989 French education law that replaced a centralized national curriculum with localized, individualized, and skill-centered instruction.",
+        "source_passage": "In 1989, the bicentenary of the French Revolution, France passed a radical new education law—the loi Jospin—requiring all elementary schools to cease teaching the national curriculum and begin teaching locally determined curriculums."
+      },
+      {
+        "term": "Silver Age",
+        "definition": "The period in American education (1940s-1950s) characterized by higher test scores and narrower achievement gaps prior to the full implementation of progressive reforms.",
+        "source_passage": "So let’s call the higher-scoring era before the decline—the 1940s and 1950s—a 'silver age.'"
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "John Dewey",
+        "relationship": "opposes",
+        "contribution": "Proposed that 'critical thinking' and scientific attitudes could unify a fragmented, individualized curriculum, a view Hirsch argues is debunked by modern cognitive science."
+      },
+      {
+        "name": "Jules Ferry",
+        "relationship": "historical_predecessor",
+        "contribution": "Founder of modern French education who advocated for teaching 'knowledge which is common to all and indispensable to all.'"
+      },
+      {
+        "name": "Max Planck",
+        "relationship": "builds_on",
+        "contribution": "Provided the insight that scientific paradigms often change only when the older generation of scholars dies off and is replaced by the young."
+      },
+      {
+        "name": "G. H. Mead",
+        "relationship": "builds_on",
+        "contribution": "Argued that individuality can only express itself through the mastery of shared social conventions (membership in the tribe)."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0014524000000000002,
+    "input_tokens": 9208,
+    "output_tokens": 1329,
+    "duration_s": 17.963892936706543,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

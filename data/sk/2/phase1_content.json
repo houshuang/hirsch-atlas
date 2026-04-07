@@ -1,0 +1,475 @@
+{
+  "result": {
+    "chapter_summary": "Chapter 2 presents the Icahn Charter Schools in the South Bronx as a successful case study of Core Knowledge implementation, arguing that a sequenced, knowledge-rich curriculum can overcome severe socio-economic disadvantages. The author uses this 'South Bronx Miracle' to refute child-centered pedagogical theories and the 'general skills' model of reading comprehension.",
+    "claims": [
+      {
+        "id": "C1",
+        "text": "Jeffrey Litt performed an educational miracle in the South Bronx by implementing a Core Knowledge curriculum.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Jeff is an idealist who performed a miracle in the South Bronx, the poorest section of New York City.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C2",
+        "text": "Every single graduate of the Icahn Core Knowledge schools in the South Bronx has been admitted to a select high school over a twenty-three-year period.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 1.0,
+        "source_passage": "over twenty-three years, they have sent every single one of their graduates to select high schools.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C3",
+        "text": "The success of the Icahn schools is not due to extra funding, as their per-pupil spending is identical to other Bronx public charter schools.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "The operational per-pupil spending of the seven schools is the same as any other public charter school in the Bronx.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C4",
+        "text": "The 1% acceptance rate of the South Bronx Core Knowledge schools makes them more exclusive than Harvard University.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "I’m told that this lottery-governed acceptance rate of 1% makes these seven South Bronx Core Knowledge schools more exclusive than Harvard, which has an acceptance rate of 3.2%.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C5",
+        "text": "The primary cause of the Icahn schools' success is the carefully sequenced content of the Core Knowledge curriculum.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "Teachers and parents alike have concluded that the chief cause of the success is the carefully sequenced content of the Core Knowledge Curriculum.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C6",
+        "text": "There is no unique magic to Core Knowledge; any coherent curriculum based on similar well-researched principles would be equally effective.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "But that curriculum has no special magic. Any coherent curriculum based on the same well-researched principles would work as well.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C7",
+        "text": "For students, a sequenced knowledge-based curriculum is liberating and empowering rather than constraining.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "Why, then, do the pupils love it? For them, it’s not constraining but liberating and empowering. They are proud of what they know and what they can do.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C8",
+        "text": "American literacy decline began in the 1940s and 1950s coincident with the shift to child-centered classroom arrangements.",
+        "claim_level": "empirical",
+        "is_main_conclusion": true,
+        "confidence": 0.8,
+        "source_passage": "In sum, our literacy decline started along with our gradual rearrangement of classroom furniture as early as the 1940s and ‘50s.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C9",
+        "text": "Child-centered pedagogy is supported by a fallacious theory that reading comprehension is a general skill with different complexity levels.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "All this child-centeredness was encouraged by a fallacious theory about reading which conveniently held that reading comprehension is a general skill with different skill levels able to cope with more complex levels of “readability” and increasing levels of “complexity.”",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C10",
+        "text": "Rudolf Flesch popularized an incorrect and scientificially mistaken idea of readability that still dominates education.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "Rudolf Flesch popularized this incorrect (and still dominant) idea in popular books on readability. His scientific mistake is discussed fully in later pages of this book",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C11",
+        "text": "The use of individualized classroom libraries is based on scientific errors that have harmed American democracy.",
+        "claim_level": "normative",
+        "is_main_conclusion": false,
+        "confidence": 0.6,
+        "source_passage": "Those are the outward and visible signs of the scientific errors that have sponsored our decline in literacy and that have seriously harmed our democracy.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C12",
+        "text": "A shared-knowledge curriculum increases the future earning power of students.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "And it’s been shown that a shared-knowledge curriculum also produces more earning power.",
+        "page_range": "20-24"
+      },
+      {
+        "id": "C13",
+        "text": "Reading comprehension is not a general skill that can be developed independently of specific knowledge.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "reading comprehension is a general skill with different skill levels able to cope with more complex levels of “readability” and increasing levels of “complexity.” Rudolf Flesch popularized this incorrect (and still dominant) idea",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C14",
+        "text": "The theory of 'readability' is a scientific error used to justify individualized classroom practices like scattered desks and diverse classroom libraries.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "readability is an incorrect theory that is still being used to justify our scattering of desks and tables and our introduction of classroom libraries with “different strokes for different folks.”",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C15",
+        "text": "Individualized classroom practices based on readability theory have caused a decline in American literacy.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "Those are the outward and visible signs of the scientific errors that have sponsored our decline in literacy",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C16",
+        "text": "The decline in literacy caused by scientific errors in education has seriously harmed American democracy.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.6,
+        "source_passage": "Those are the outward and visible signs of the scientific errors that have sponsored our decline in literacy and that have seriously harmed our democracy.",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C17",
+        "text": "Teenage reading scores are a reliable predictor of adult income levels.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "A sociology professor – Philip Cohen of the University of Maryland—has shown that teenage reading scores predict adult incomes.",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C18",
+        "text": "Low literacy and a lack of shared communicability cause political and social disarray.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.7,
+        "source_passage": "the political and social inequality and disarray that has been caused by low literacy and lack of communicability and comprehension.",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C19",
+        "text": "An equal society cannot be achieved unless schools equalize reading scores between advantaged and disadvantaged pupils through better early literacy instruction.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "If our schools don’t do a better job of literacy instruction in early grades, and if they don’t equalize the reading scores of advantaged and disadvantaged pupils, we cannot become an equal society.",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C20",
+        "text": "High literacy has high practical utility in both the civilian economy and the military.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "The correlations found by Professor Cohen between adult income and teenage reading scores on the AFQT reflect the practical utility of high literacy in both the civilian economy and the military.",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C21",
+        "text": "The Armed Forces Qualification Test (AFQT) effectively measures literacy levels that correlate with occupational success.",
+        "claim_level": "methodological",
+        "is_main_conclusion": false,
+        "confidence": 0.8,
+        "source_passage": "I then directly experienced the Cohen correlation between one’s AFQT scores and one’s occupation and pay level.",
+        "page_range": "24-24"
+      },
+      {
+        "id": "C22",
+        "text": "The success of the South Bronx Core Knowledge schools has been largely ignored by the mainstream media, a phenomenon described as the 'silent press.'",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Through two decades of neighborhood gossip, results have become known—not through the silent press—but through word of mouth.",
+        "page_range": "13"
+      },
+      {
+        "id": "C23",
+        "text": "The Icahn Charter Schools experience virtually zero student attrition, meaning no children leave the school once enrolled.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "(There are no openings in other grades, since no child leaves!)",
+        "page_range": "13"
+      },
+      {
+        "id": "C24",
+        "text": "New York educational experts generally oppose the Core Knowledge model, characterizing it pejoratively as 'rote learning' and 'lockstep education.'",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "Core Knowledge isn’t liked by most educational experts in New York... It’s said to be “rote learning.” It’s said to be “lockstep education.”",
+        "page_range": "13"
+      },
+      {
+        "id": "C25",
+        "text": "The educational model established by Jeff Litt in the South Bronx should be implemented in other regions.",
+        "claim_level": "normative",
+        "is_main_conclusion": true,
+        "confidence": 0.9,
+        "source_passage": "Jeff’s courageous implementation of the Core Knowledge curriculum shows the kind of thing that can and should be done elsewhere.",
+        "page_range": "14"
+      },
+      {
+        "id": "C26",
+        "text": "Successful implementation of content-rich curricula requires weaning teachers away from the child-centered theories taught in education schools.",
+        "claim_level": "pragmatic",
+        "is_main_conclusion": false,
+        "confidence": 0.85,
+        "source_passage": "At first, he had to wean his teachers away from the dominant child-centered theories taught to them in their education schools.",
+        "page_range": "14"
+      },
+      {
+        "id": "C27",
+        "text": "Legal requirements to admit siblings of current students contribute significantly to the high exclusivity and low lottery acceptance rates of the Icahn schools.",
+        "claim_level": "empirical",
+        "is_main_conclusion": false,
+        "confidence": 0.95,
+        "source_passage": "That’s because, by law, siblings must be accepted. Since no child leaves, only kindergarten places are available.",
+        "page_range": "13"
+      },
+      {
+        "id": "C28",
+        "text": "Although the teachers and principals at the Icahn schools are talented and devoted, their individual ingenuity is not the root cause of the schools' success.",
+        "claim_level": "theoretical",
+        "is_main_conclusion": false,
+        "confidence": 0.9,
+        "source_passage": "The results aren’t flukes achieved by the ingenuity of especially talented principals and teachers who are indeed devoted and able people... Teachers and parents alike have concluded that the chief cause of the success is the carefully sequenced content",
+        "page_range": "13"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "E1",
+        "description": "Demographic and sociological data for the seven Icahn Charter Schools for 2019-2020 showing high poverty and minority enrollment.",
+        "evidence_type": "statistical_data",
+        "supports_claim": "C1"
+      },
+      {
+        "id": "E2",
+        "description": "The 23-year record of 100% of Icahn graduates being admitted to select high schools.",
+        "evidence_type": "historical_example",
+        "supports_claim": "C2"
+      },
+      {
+        "id": "E3",
+        "description": "Comparison of Icahn school application rates (25,000 for 250 spots) vs. Harvard acceptance rates.",
+        "evidence_type": "statistical_data",
+        "supports_claim": "C4"
+      },
+      {
+        "id": "E4",
+        "description": "Verbatim comparison of 1950s child-centered classroom book sets vs. Core Knowledge sequence.",
+        "evidence_type": "historical_example",
+        "supports_claim": "C8"
+      },
+      {
+        "id": "E5",
+        "description": "The citation of sociology professor Philip Cohen regarding the link between shared-knowledge curriculum and earning power.",
+        "evidence_type": "expert_testimony",
+        "supports_claim": "C12"
+      },
+      {
+        "id": "E6",
+        "description": "Sociological study showing a predictive relationship between teenage reading scores and adult income.",
+        "evidence_type": "statistical_data",
+        "source_reference": "Philip Cohen, University of Maryland",
+        "supports_claim": "C6"
+      },
+      {
+        "id": "E7",
+        "description": "The author's personal experience in the U.S. Navy during the Korean War, where high AFQT scores led to a promotion from janitorial work to operations.",
+        "evidence_type": "anecdote",
+        "source_reference": "Hirsch, Korean War experience",
+        "supports_claim": "C10"
+      }
+    ],
+    "concepts": [
+      {
+        "id": "CON1",
+        "term": "Readability",
+        "author_definition": "A fallacious theory that treats reading comprehension as a general skill corresponding to levels of text complexity, independent of specific background knowledge.",
+        "common_alternative": "A standard measure of text difficulty used to match students with appropriate level books.",
+        "source_passage": "a fallacious theory about reading which conveniently held that reading comprehension is a general skill with different skill levels able to cope with more complex levels of “readability”",
+        "importance": "central"
+      },
+      {
+        "id": "CON2",
+        "term": "Shared-Knowledge Curriculum",
+        "author_definition": "A common, sequenced curriculum taught to all students to ensure a baseline of communal knowledge.",
+        "importance": "central"
+      },
+      {
+        "id": "CON3",
+        "term": "Guide on the side",
+        "author_definition": "A child-centered pedagogical model where the teacher facilitates individual student exploration rather than delivering direct instruction of content.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON4",
+        "term": "Communicability",
+        "author_definition": "The ability of citizens to understand one another and participate in a shared public sphere, facilitated by common knowledge and high literacy.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON5",
+        "term": "Silent press",
+        "author_definition": "The lack of coverage or recognition from mainstream media regarding successful educational alternatives like Core Knowledge.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON6",
+        "term": "Lockstep education",
+        "author_definition": "A derogatory term used by critics to describe sequenced, content-rich curricula that follow a specific order for all students.",
+        "importance": "contextual"
+      },
+      {
+        "id": "CON7",
+        "term": "Education schools",
+        "author_definition": "The institutions responsible for teacher training, which the author suggests are the source of dominant, yet fallacious, child-centered theories.",
+        "importance": "supporting"
+      },
+      {
+        "id": "CON8",
+        "term": "AFQT",
+        "author_definition": "Armed Forces Qualification Test; a standardized test used by the military that the author uses as a proxy for reading comprehension and a predictor of income.",
+        "importance": "supporting"
+      }
+    ],
+    "cases": [
+      {
+        "id": "CASE1",
+        "name": "Icahn Charter Schools (South Bronx)",
+        "description": "A group of seven elementary charter schools in the poorest section of New York City founded by Jeff Litt. They utilize the Core Knowledge curriculum and have achieved exceptional results, including 100% placement in select high schools and high reading test scores despite serving a population with high poverty (up to 85%) and homelessness.",
+        "key_passages": [
+          "Jeff started an elementary charter school in the South Bronx with backing from the financier Carl Icahn.",
+          "His first school has evolved into seven Core Knowledge elementary schools in the South Bronx... they have sent every single one of their graduates to select high schools.",
+          "Currently, twenty-five thousand (25,000) children apply to the seven CK kindergartens each year."
+        ],
+        "role_in_argument": "positive_example",
+        "claims_supported": [
+          "C1",
+          "C2",
+          "C3",
+          "C5",
+          "C7"
+        ]
+      },
+      {
+        "id": "CASE2",
+        "name": "Hirsch's Navy Service",
+        "description": "During the Korean War, Hirsch was initially assigned to clean latrines. After scoring highly on the Armed Forces Qualification Test (AFQT) due to his literacy, he was reassigned to 'Operations' involving flight plans and airfield data updates, illustrating the direct link between literacy and vocational status.",
+        "key_passages": [
+          "I was assigned to clean the “head”—the naval version of the latrine. I was also ordered to take the Armed Forces Qualification Test... Being an avid reader and a child of literate parents, I aced the reading test. I then directly experienced the Cohen correlation... I was quickly removed from toilet-cleaning duty and sent to “Operations”"
+        ],
+        "time_period": "Korean War (early 1950s)",
+        "role_in_argument": "historical_precedent",
+        "claims_supported": [
+          "C9",
+          "C10"
+        ]
+      }
+    ],
+    "thinkers": [
+      {
+        "id": "TH1",
+        "name": "Jeffrey Litt",
+        "key_idea": "The courageous implementation of Core Knowledge in high-poverty urban environments.",
+        "author_stance": "agrees",
+        "engagement": "Hirsch dedicates the book to Litt and uses his schools as the primary empirical proof that his theories work in practice.",
+        "key_passages": [
+          "This book is dedicated to a brave school principal, Jeffrey Litt.",
+          "Jeff’s courageous implementation of the Core Knowledge curriculum shows the kind of thing that can and should be done elsewhere."
+        ]
+      },
+      {
+        "id": "TH2",
+        "name": "Rudolf Flesch",
+        "key_idea": "Popularized the theory of 'readability' as a measure of general reading skill levels.",
+        "author_stance": "disagrees",
+        "engagement": "Hirsch identifies Flesch as the source of a 'scientific mistake' that underpins the failed status quo of American literacy instruction.",
+        "key_passages": [
+          "Rudolf Flesch popularized this incorrect (and still dominant) idea in popular books on readability."
+        ]
+      },
+      {
+        "id": "TH3",
+        "name": "Philip Cohen",
+        "key_idea": "Shared-knowledge curriculum produces higher earning power.",
+        "author_stance": "agrees",
+        "engagement": "Hirsch cites Cohen to provide economic/sociological weight to the benefits of his proposed curriculum.",
+        "key_passages": [
+          "A sociology professor – Philip Cohen of the University of Maryland—"
+        ]
+      }
+    ],
+    "actors": [
+      {
+        "name": "Jeffrey Litt",
+        "role": "historical_figure",
+        "context": "Retired principal who founded the Icahn Charter Schools."
+      },
+      {
+        "name": "Carl Icahn",
+        "role": "institution",
+        "context": "Financier who provided buildings for the Icahn Charter Schools."
+      },
+      {
+        "name": "Core Knowledge Foundation",
+        "role": "institution",
+        "context": "Organization in Charlottesville that provides the curriculum sequence used by Litt."
+      },
+      {
+        "name": "Rudolf Flesch",
+        "role": "cited_critically",
+        "context": "Author of popular books on readability whose theories Hirsch blames for educational decline."
+      },
+      {
+        "name": "Philip Cohen",
+        "role": "cited_approvingly",
+        "context": "University of Maryland professor whose research links reading scores to income."
+      },
+      {
+        "name": "U.S. Navy",
+        "role": "institution",
+        "context": "The organization where Hirsch personally observed the correlation between AFQT scores and job assignment."
+      }
+    ],
+    "objections_raised": [
+      {
+        "id": "OBJ1",
+        "objection": "The Core Knowledge curriculum constitutes 'rote learning' or 'lockstep education.'",
+        "source": "educational experts in New York",
+        "response": "The pupils love it because it is liberating and empowering; they are proud of what they know and it results in high reading test scores.",
+        "targets_claim": "C7"
+      }
+    ],
+    "cross_chapter_refs": []
+  },
+  "metadata": {
+    "total_cost_usd": 0.0034828000000000003,
+    "duration_s": 51.64211916923523,
+    "num_windows": 2,
+    "pre_dedup_claims": 22,
+    "post_dedup_claims": 21,
+    "sweep_claims": 7,
+    "sweep_concepts": 4
+  }
+}

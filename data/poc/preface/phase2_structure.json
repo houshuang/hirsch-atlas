@@ -1,0 +1,129 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "If composition is a distinct practical responsibility separate from aesthetics, it must possess its own internal logic or 'ideology' rather than borrowing one from literature."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The existence of a complex, independent field of research suggests an inherent structure or ideology within the subject itself."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The claim that an internal ideology *should* guide teaching depends on the existence of such an ideology in the first place."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "If an ideology is inherent to the subject of composition itself, it implies a universal or 'common' foundation for the field."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C12",
+        "relationship": "supports",
+        "explanation": "Treating composition as a distinct practical responsibility across all levels of education establishes it as a shared project for all teachers."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C9",
+        "relationship": "supports",
+        "explanation": "The fact that composition revenue subsidizes other courses provides a moral and institutional ground for the claim that it deserves equal energy."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "Administrative budget allocations and institutional revenue flows are accurate reflections of the functional and economic priorities within a university.",
+        "is_explicit": true,
+        "vulnerability": "Accounting practices may be opaque; 'subsidies' might be offset by other departmental costs or endowments not visible to a department chair."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C3",
+        "warrant_text": "The subjective experience of a seasoned scholar transitioning between fields provides a valid comparative measure of the intellectual complexity of those fields.",
+        "is_explicit": false,
+        "vulnerability": "A late-career entry into a new field (C11) might make the new subject seem more 'complex' simply due to the steepness of the learning curve compared to a long-held specialty."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C6",
+        "missing_step": "The research complexity of a field necessarily corresponds to a cohesive 'ideology' rather than just a disparate collection of pedagogical techniques.",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C12",
+        "missing_step": "Practical responsibilities in different institutional contexts (e.g., primary school vs. university) are sufficiently similar to constitute a single 'common' enterprise.",
+        "step_type": "scope_expansion",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C6",
+        "objection": "The principles of literacy are not 'inherent' but are culturally and politically constructed to serve the interests of the dominant social class.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C8",
+        "objection": "Literacy goals are highly context-specific; the requirements of scientific writing, creative prose, and technical communication are too diverse to share a single 'privileged' common ground.",
+        "objection_type": "scope_limitation"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Autonomy of Composition",
+        "chain": [
+          "C1",
+          "C3",
+          "C6",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Institutional Reform Case",
+        "chain": [
+          "C2",
+          "C9",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Universalist Literacy Thesis",
+        "chain": [
+          "C6",
+          "C12",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0006238999999999999,
+    "duration_s": 11.250654935836792
+  }
+}

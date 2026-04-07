@@ -1,0 +1,678 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that assessment must align with society depends on the premise that society is the ultimate 'court of last resort' that commissions writing instruction."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "If assessment must align with societal judgment, then a theoretical principle like relative readability must be shown to be relevant to those practical societal judgments to be useful."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The empirical fact of low correlation among graders provides the evidence for why assessment is the primary 'snag' or obstacle in the field."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "Elevating the assessment problem to a philosophical/theoretical level justifies the claim that it is a fundamental obstacle rather than a mere clerical or administrative issue."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The fact that agreement requires artificial 'socializing' or 'forcing' rather than natural consensus proves that current assessment is unstable."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C10",
+        "relationship": "instantiates",
+        "explanation": "The five predominant criteria identified in studies provide the content for the 'clusters' of readers mentioned in the theoretical claim."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "If Diederich's results represent how literate society actually judges writing, then a valid assessment method must reflect those social criteria."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The existence of a reliable but invalid method (T-units) supports the claim that no method has successfully combined both."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The invalidity of the primary objective measure (T-units) prevents it from being a valid and reliable solution."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The current lack of holistic agreement explains why reliability is currently impossible to achieve universally."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "The need for societal agreement to achieve reliability necessitates a shift to an analytical approach that can standardize that agreement."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C21",
+        "relationship": "depends-on",
+        "explanation": "Because holistic agreement is currently non-existent, a holistic approach cannot provide reliability, leaving the analytical approach as the only alternative."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "Imposing a uniform weighting system is the mechanism by which the analytical approach achieves the reliability that holistic methods lack."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C16",
+        "relationship": "refines",
+        "explanation": "Clarifies that while T-units measure something (maturity), they do not measure the core criterion of writing quality (communication)."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C38",
+        "relationship": "depends-on",
+        "explanation": "The definition of extrinsic evaluation (judging ideas) is necessary to explain reader disagreement based on content."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C38",
+        "relationship": "depends-on",
+        "explanation": "The definition of intrinsic evaluation (judging fulfillment of intention) is necessary to explain reader disagreement based on technical skill."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C36",
+        "relationship": "supports",
+        "explanation": "If intrinsic evaluation is the only type that yields agreement, it follows that research—which requires agreement—must restrict itself to it."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "The claim that only intrinsic judgments yield agreement is a premise for the conclusion that intrinsic evaluation is the only viable path to widespread consensus."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "The 'embarrassment' of mixing principles makes a unified holistic score logically unstable and thus unsolvable."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C44",
+        "relationship": "supports",
+        "explanation": "Hume's failure to resolve the 'logical tangle' between extrinsic and intrinsic points of view provides historical evidence that holistic assessment is not susceptible to a theoretical solution."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C47",
+        "relationship": "supports",
+        "explanation": "Identifying intrinsic evaluation with technical skill allows it to be treated as an objective craft, warranting more confidence than subjective value judgments."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "If intrinsic evaluation is the only principle yielding agreement, then assessment should be structured to isolate it from extrinsic evaluation."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "C60",
+        "relationship": "depends-on",
+        "explanation": "The claim that we should assess writing ability rather than specific samples depends on the assumption that writing is a transferable skill that manifests across different contexts."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "Because ideas vary by topic while presentation remains relatively stable, presentation is a more reliable index of a student's underlying ability."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C65",
+        "relationship": "depends-on",
+        "explanation": "The definition of intrinsic success as 'less reader effort' relies on the universal standard of least effort in communication."
+      },
+      {
+        "from_id": "C55",
+        "to_id": "C49",
+        "relationship": "supports",
+        "explanation": "The fact that correctness is a separable dimension supports the broader categorization of assessment into distinct intrinsic and extrinsic parts."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C73",
+        "relationship": "depends-on",
+        "explanation": "Objective scoring of relative readability requires the ability to create a synonymous version of a text with higher efficiency to use as a baseline."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "The ability to measure audience uptake of tone and attitude provides a methodology for the 'laborious methods' mentioned for objective scoring."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "If assessors consistently agree on heterogeneous samples based on a measurable standard, their agreement is evidence of a normative standard rather than team bias."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C77",
+        "relationship": "supports",
+        "explanation": "The fact that assessors can be trained in a few days suggests that the skill of assessment is easily transferable and scalable."
+      },
+      {
+        "from_id": "C77",
+        "to_id": "C80",
+        "relationship": "depends-on",
+        "explanation": "Scalability to many individuals requires that the necessary assessment talents are already present in the general population of teachers."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "Duplicable research results provide the empirical foundation necessary for progress in composition research."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "Establishing a core of common purposes and principles among teachers is a prerequisite for making field-wide progress."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C84",
+        "relationship": "supports",
+        "explanation": "Common assessment principles enable the systematic research that eventually raises the competence of practitioners."
+      },
+      {
+        "from_id": "C83",
+        "to_id": "C81",
+        "relationship": "supports",
+        "explanation": "The fact that teachers already intuitively use these standards suggests that formalizing them would be a natural and effective move for the profession."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C84",
+        "relationship": "objects-to",
+        "explanation": "If teaching is an art that defies codification, then systematic research may be limited in its ability to raise teacher competence."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E5",
+        "claim_id": "C1",
+        "warrant_text": "In a field where 'quality' is the goal, if experts cannot agree on what quality looks like (low correlation), no empirical research on 'what works' can be validated.",
+        "is_explicit": true,
+        "vulnerability": "Sub-skills like grammar or sentence length might be measurable even if holistic 'quality' is not."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C4",
+        "warrant_text": "The validity of a professional standard in a practical craft is determined by its alignment with the functional expectations of the community that uses the craft's products.",
+        "is_explicit": false,
+        "vulnerability": "Society may have irrational or prejudiced standards that professional educators have a duty to reform rather than reflect."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E4",
+        "claim_id": "C8",
+        "warrant_text": "If a group of experts requires a 'socializing process' to reach consensus, then the consensus is a product of group dynamics rather than an objective recognition of inherent properties in the work.",
+        "is_explicit": true,
+        "vulnerability": "Conformity training might be seen as 'calibration' of expert sensors rather than 'forcing' false agreement."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E19",
+        "claim_id": "C11",
+        "warrant_text": "Statistical clustering of reader comments into distinct factors indicates that readers are operating from distinct, internally consistent cognitive frameworks.",
+        "is_explicit": false,
+        "vulnerability": "The clustering could be an artifact of the specific essay prompts or the way the comments were categorized by researchers rather than the readers' inherent criteria."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E21",
+        "claim_id": "C12",
+        "warrant_text": "If two different linguistic and cultural groups (English and Italian) produce identical reader clusters, the criteria are likely rooted in universal psycholinguistic principles rather than local conventions.",
+        "is_explicit": true,
+        "vulnerability": "Literate cultures in the West may share common educational histories that don't represent universal human psychology."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E22",
+        "claim_id": "C14",
+        "warrant_text": "Scientific research requires measurements to be stable across observers (reliability) and to accurately measure the intended construct (validity).",
+        "is_explicit": true,
+        "vulnerability": "Some scholars argue that writing is so context-dependent that traditional psychometric reliability is an inappropriate standard."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C40",
+        "claim_id": "C38",
+        "warrant_text": "Differences in reader behavior (focusing on ideas vs. phrasing) correlate directly to the philosophical distinction between extrinsic and intrinsic evaluation.",
+        "is_explicit": true,
+        "vulnerability": "Readers might prioritize ideas not because of 'Platonism' but because they lack the technical vocabulary to describe 'wording and phrasing' issues."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C31",
+        "claim_id": "C34",
+        "warrant_text": "If a problem has persisted for two millennia despite consistent analytical tools, the source of disagreement must be an inherent conflict between different types of judgment (extrinsic vs. intrinsic).",
+        "is_explicit": false,
+        "vulnerability": "Historical persistence of a problem does not preclude a future methodological or technological solution."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C51",
+        "claim_id": "C47",
+        "warrant_text": "Assessment metrics that are precisely identifiable and countable (like correctness) provide a more 'valid' basis for confidence than qualitative interpretations.",
+        "is_explicit": false,
+        "vulnerability": "Precision in counting (reliability) is not the same as measuring the true quality of a text (validity)."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "PREVIOUS CHAPTERS' MAIN CONCLUSIONS: Introduction.C66",
+        "claim_id": "C59",
+        "warrant_text": "A measurement system that cannot produce consensus in a pluralistic society is practically useless for large-scale social institutions like education.",
+        "is_explicit": false,
+        "vulnerability": "Agreement might be reached on 'thin' values while ignoring 'thick' aesthetic or intellectual values that are more important but harder to measure."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C62",
+        "claim_id": "C63",
+        "warrant_text": "In psychometrics, a valid index of a general trait should be stable across different instances of measurement; high variance suggests the influence of external noise rather than the trait itself.",
+        "is_explicit": true,
+        "vulnerability": "The variation in 'ideas' across topics might actually reflect a lack of 'invention' skill, which is itself a core part of writing ability, not just 'noise'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C64",
+        "claim_id": "C65",
+        "warrant_text": "Functional systems are judged by their efficiency: the ratio of output (achieved aim) to input (reader effort).",
+        "is_explicit": false,
+        "vulnerability": "Some writing aims (e.g., poetry or complex philosophy) may intentionally require high effort to achieve their effects, making 'least effort' an inappropriate metric."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C71",
+        "claim_id": "C73",
+        "warrant_text": "If meaning can be held constant while form is optimized by an expert, the difference in audience processing effort between the original and the expert version provides a mathematical measure of the original's relative readability.",
+        "is_explicit": true,
+        "vulnerability": "The 'heresy of paraphrase'—critics argue that changing the form always changes the meaning, making true synonymy impossible."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C76",
+        "claim_id": "C81",
+        "warrant_text": "If a complex assessment skill can be learned quickly by most practitioners, it can serve as a viable foundation for professional standards and unified practice.",
+        "is_explicit": false,
+        "vulnerability": "A few days of practice may produce 'coding reliability' without producing 'validity' if the trainees are simply learning to replicate the trainer's biases."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C83",
+        "claim_id": "C81",
+        "warrant_text": "The existence of an intuitive, widely shared practice suggests an underlying objective principle that, if formalized, would be readily accepted by the community.",
+        "is_explicit": true,
+        "vulnerability": "Intuitive consensus can be the result of shared cultural prejudice or pedagogical tradition rather than an objective psycholinguistic law."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C4",
+        "missing_step": "Societal preferences are sufficiently stable and coherent to provide a 'valid' benchmark for assessment.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C7",
+        "to_id": "C1",
+        "missing_step": "Disagreement in holistic grading cannot be bypassed by using objective linguistic markers (like T-units) to measure progress.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C22",
+        "missing_step": "What society currently values in writing is what society SHOULD value in writing for the purposes of education.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C19",
+        "to_id": "C21",
+        "missing_step": "A forced weighting system in an analytical method can effectively substitute for genuine societal agreement.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C34",
+        "to_id": "C36",
+        "missing_step": "Establishing that 'research agreement' must be based on 'social widespread agreement' rather than specialized expert consensus.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C34",
+        "to_id": "C47",
+        "missing_step": "The transition from 'agreement is possible' (reliability) to 'anyone should have confidence' (normative validity).",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C61",
+        "to_id": "C60",
+        "missing_step": "Proof that 'presentation' is the only component of writing skill that is transferable.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C59",
+        "to_id": "C49",
+        "missing_step": "Establishing that separating extrinsic and intrinsic evaluation does not distort the fundamental nature of the communicative act.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C73",
+        "to_id": "C81",
+        "missing_step": "The 'laborious methods' used to certify assessors must correlate perfectly with the intuitive, faster judgments teachers make in the classroom.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C82",
+        "to_id": "C84",
+        "missing_step": "Systematic research must be successfully disseminated and adopted by a conservative educational bureaucracy to actually raise competence.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "Teaching can still progress by focusing on uncontroversial fundamentals (grammar, logic, clarity) even if the final 'aesthetic' or 'holistic' grade remains subjective among different professions.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C4",
+        "objection": "Literate society's judgments are often based on 'flavor' or 'personality' (C6), which are idiosyncratic; a valid assessment method should specifically exclude these in favor of objective communicative efficiency.",
+        "objection_type": "internal_inconsistency"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C16",
+        "objection": "Even if T-unit length has no direct link to meaning, it may serve as a powerful proxy or 'latent variable' that correlates so highly with expert judgment that its invalidity in theory is irrelevant in practice.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C21",
+        "objection": "Analytical scoring may capture the 'pieces' of writing but miss the 'gestalt' or emergent properties that actually constitute quality, resulting in high reliability for a construct that is no longer 'writing.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C22",
+        "objection": "The goal of education is often to lead or reform societal standards rather than merely reflect the existing biases of the 'court of last resort.'",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C36",
+        "objection": "Restricting research to intrinsic evaluation creates a 'construct under-representation' where the most vital part of writing—the quality and truth of the ideas—is systematically ignored by the very researchers meant to improve it.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C47",
+        "objection": "If we only have confidence in intrinsic assessment, we risk validating and rewarding high-level technical skill in the service of deceitful, harmful, or socially destructive intentions.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C44",
+        "objection": "While a 'perfect' holistic solution may be theoretically impossible, 'sufficient' reliability can be achieved through 'conformed' reader groups (as seen in ETS), making it a pragmatic success despite its theoretical failure.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C59",
+        "objection": "The fact that we cannot reach 'widespread agreement' on the value of ideas does not mean we should stop assessing them; it means assessment should be open to debate and local context rather than reduced to technical metrics.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C63",
+        "objection": "A student's 'writing ability' is fundamentally their ability to generate and organize ideas for a specific audience; isolating 'presentation' treats writing as a decorative shell rather than a cognitive process.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C65",
+        "objection": "Readers may derive more value from a text that forces them to exert effort (active processing) than from a text that is 'effortless' but forgettable.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C81",
+        "objection": "Adopting a single 'intrinsic' standard of readability may marginalize legitimate stylistic variations or avant-garde prose that deliberately challenges reader ease for aesthetic or political reasons.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C84",
+        "objection": "The increase in 'competence' defined by readability scores may lead to a homogenization of student writing that lacks individual voice and intellectual risk-taking.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C71",
+        "objection": "Intentions are often discovered through the act of writing; therefore, an author's 'complex intentions' are not a fixed entity that can be extracted and poured into a more 'readable' vessel by an expert.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Social Mandate Chain",
+        "chain": [
+          "C5",
+          "C4",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "strong"
+      },
+      {
+        "name": "The Assessment Obstacle Chain",
+        "chain": [
+          "C7",
+          "C8",
+          "C2",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Reliability-Validity Dilemma",
+        "chain": [
+          "C14",
+          "C15",
+          "C16",
+          "C30",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "strong"
+      },
+      {
+        "name": "Social Consensus as Prerequisite",
+        "chain": [
+          "C26",
+          "C20",
+          "C19",
+          "C18"
+        ],
+        "conclusion_id": "C19",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Necessity of the Analytical Approach",
+        "chain": [
+          "C20",
+          "C19",
+          "C13",
+          "C22",
+          "C23",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Reliability Chain",
+        "chain": [
+          "C33",
+          "C35",
+          "C34",
+          "C36",
+          "C47"
+        ],
+        "conclusion_id": "C47",
+        "strength": "strong"
+      },
+      {
+        "name": "The Holistic Impasse Chain",
+        "chain": [
+          "C32",
+          "C37",
+          "C39",
+          "C41",
+          "C43",
+          "C44"
+        ],
+        "conclusion_id": "C44",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Conflict Analysis Chain",
+        "chain": [
+          "C31",
+          "C32",
+          "C33",
+          "C40",
+          "C38"
+        ],
+        "conclusion_id": "C38",
+        "strength": "strong"
+      },
+      {
+        "name": "The Reliability Chain",
+        "chain": [
+          "C62",
+          "C61",
+          "C60",
+          "C63"
+        ],
+        "conclusion_id": "C63",
+        "strength": "strong"
+      },
+      {
+        "name": "The Consensual Assessment Chain",
+        "chain": [
+          "C59",
+          "C52",
+          "C53",
+          "C49"
+        ],
+        "conclusion_id": "C49",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Efficiency Chain",
+        "chain": [
+          "C64",
+          "C65",
+          "C67"
+        ],
+        "conclusion_id": "C65",
+        "strength": "strong"
+      },
+      {
+        "name": "The Assessment Validation Chain",
+        "chain": [
+          "C71",
+          "C72",
+          "C73",
+          "C74",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "strong"
+      },
+      {
+        "name": "The Professional Standardization Chain",
+        "chain": [
+          "C76",
+          "C80",
+          "C83",
+          "C81"
+        ],
+        "conclusion_id": "C81",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Scientific Progress Chain",
+        "chain": [
+          "C73",
+          "C78",
+          "C82",
+          "C84"
+        ],
+        "conclusion_id": "C84",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.008233400000000002,
+    "duration_s": 87.60019540786743
+  }
+}

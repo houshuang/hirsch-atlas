@@ -1,0 +1,291 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The claim that skills are domain-specific is the scientific basis for concluding they are occasion-determined rather than general."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "If reading comprehension depends on domain-specific inferences, it follows that reading is a domain-specific rather than a general skill."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C15",
+        "relationship": "depends-on",
+        "explanation": "The necessity of domain knowledge for real-world probabilistic thinking supports the broader claim that critical thinking is domain-specific."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "The domain-specific nature of these skills is the reason why mainstream cognitive psychology rejects the concept of general versions of these skills."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "If tests for these 'skills' are actually measuring knowledge, it validates the psychological consensus that the 'skills' do not exist independently of knowledge."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C28",
+        "relationship": "supports",
+        "explanation": "If science rejects general skills, then continuing to promote them is logically an 'uncritical' failure of critical thinking."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C30",
+        "relationship": "refines",
+        "explanation": "C11 explains the motive (justifying individualism) for the pedagogical shift described in C30."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "Dewey's philosophical belief in natural progress provided the ideological foundation for his initiation of the 'critical thinking' pedagogical movement."
+      },
+      {
+        "from_id": "C1",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "If the foundational concept of child-centered education (general critical thinking) is a 'conceptual fiction,' then the alternative (shared knowledge) is logically more viable."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "The claim that specific knowledge induces accurate thinking supports the superiority of knowledge-centered education."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The failure of practical 'packets' serves as evidence that the 'general skill' concept is a fiction."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "Accurate thinking (C17) depends on the mechanism of empirical knowledge-based inference (C22)."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "The utility of local probabilities explains why empirical knowledge is superior to technical logic training for inferences."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C19",
+        "relationship": "supports",
+        "explanation": "The lack of research on content-free exercises undermines their claims of effectiveness."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C1",
+        "relationship": "refines",
+        "explanation": "Paralleling the error in critical thinking to the error in readability concepts establishes a pattern of failure in child-centered theory."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "warrant_text": "Practical decision-making (like sports strategy) serves as a valid proxy for intellectual decision-making; if one requires specific scouting knowledge, the other likely requires specific domain knowledge.",
+        "is_explicit": false,
+        "vulnerability": "The analogy may be weak; physical domain constraints in sports might not map perfectly onto abstract cognitive processes."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C8",
+        "warrant_text": "If an assessment intended to measure a specific trait (skill) is consistently confounded by another variable (knowledge), the trait being measured is functionally inseparable from that variable.",
+        "is_explicit": true,
+        "vulnerability": "Proponents of general skills might argue that knowledge is merely a 'threshold' requirement, not the skill itself."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E8",
+        "claim_id": "C32",
+        "warrant_text": "In a market-based education system, the commercial success of a product (workbooks) does not correlate with its scientific validity.",
+        "is_explicit": true,
+        "vulnerability": "Absence of evidence in the author's search does not definitively prove the total absence of evidence in the entire field of cognitive science."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E2",
+        "claim_id": "C14",
+        "warrant_text": "If a philosophical system (Dewey's) predicts natural progress in education, and standardized outcomes (SATs) show long-term stagnation or decline, the underlying philosophy is empirically falsified.",
+        "is_explicit": true,
+        "vulnerability": "External factors like changing demographics of test-takers could explain the SAT decline better than the failure of the philosophy."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C16",
+        "warrant_text": "Expert consensus in philosophy and cognitive science regarding the nature of cognition is a reliable guide for evaluating the effectiveness of classroom pedagogical tools.",
+        "is_explicit": false,
+        "vulnerability": "Theoretical domain-specificity in philosophy might not perfectly translate to the practical development of cognitive habits in developing children."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C17",
+        "warrant_text": "The subjective failure of a pedagogical tool (packets) by an experienced teacher is indicative of an inherent flaw in the theory behind the tool rather than a failure of implementation.",
+        "is_explicit": true,
+        "vulnerability": "Anecdotal evidence from one or two teachers may reflect specific classroom dynamics or poor materials rather than a universal law of learning."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C1",
+        "warrant_text": "If a skill cannot be demonstrated to exist independently of content in scientific literature, any educational model based on that skill is fundamentally misguided.",
+        "is_explicit": false,
+        "vulnerability": "Proving a negative (the non-existence of a general skill) is notoriously difficult; lack of evidence for 'general' transfer does not prove it is a 'fiction' used for political ends."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C15",
+        "missing_step": "Cognitive tasks (reading) function identically to motor-sensory tasks (basketball/tennis) regarding skill transfer.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C3",
+        "to_id": "C31",
+        "missing_step": "The absence of proof for a skill's existence creates a professional moral obligation for teachers to stop teaching it, even if it is part of mandated curriculum.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C16",
+        "to_id": "C18",
+        "missing_step": "Even if isolated packets fail, students must still be taught *how* to engage with content-rich questions to trigger the 'natural' emergence of thinking.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C22",
+        "to_id": "C26",
+        "missing_step": "The fact that thinking is domain-specific does not necessitate that the knowledge must be 'shared' across a whole nation; it only requires that the child has *some* knowledge.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C15",
+        "objection": "While content knowledge is necessary, there exist meta-cognitive strategies (e.g., self-monitoring, summarizing, questioning) that are generalizable across domains and improve performance in all of them.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C3",
+        "objection": "The 'mainstream' consensus in cognitive psychology is more nuanced; many researchers accept a 'hierarchical' model where general intelligence (g) and specific skills coexist and interact.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C8",
+        "objection": "Critical thinking tests are designed to use 'familiar' content to isolate the thinking process; the fact that knowledge is involved doesn't mean the 'thinking' component isn't being measured.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C16",
+        "objection": "The failure of 'packets' might be due to the 'decontextualized' nature of the tasks rather than the non-existence of general thinking strategies; metacognitive strategies (like self-monitoring) can be taught and show transfer.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C23",
+        "objection": "While local probabilities are useful, formal logic provides a necessary framework for identifying fallacies that domain knowledge alone cannot catch (e.g., confirmation bias).",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C26",
+        "objection": "Child-centered education may prioritize student agency and the 'intrinsic motivation' to learn, which could be more beneficial for long-term intellectual development than the 'efficient' acquisition of shared content.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Domain Specificity Chain",
+        "chain": [
+          "C2",
+          "C5",
+          "C7",
+          "C10",
+          "C15"
+        ],
+        "conclusion_id": "C15",
+        "strength": "strong"
+      },
+      {
+        "name": "The Scientific Rejection Chain",
+        "chain": [
+          "C32",
+          "E8",
+          "E5",
+          "C8",
+          "C3"
+        ],
+        "conclusion_id": "C3",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Ideological Critique Chain",
+        "chain": [
+          "C29",
+          "C13",
+          "C11",
+          "C30",
+          "C14"
+        ],
+        "conclusion_id": "C14",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Knowledge-Dependency Chain",
+        "chain": [
+          "C23",
+          "C22",
+          "C17",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "strong"
+      },
+      {
+        "name": "The Procedural Failure Chain",
+        "chain": [
+          "C21",
+          "C24",
+          "C16",
+          "C1",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.002387,
+    "duration_s": 29.196574926376343
+  }
+}

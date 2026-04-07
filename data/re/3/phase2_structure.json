@@ -1,0 +1,382 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C16",
+        "relationship": "instantiates",
+        "explanation": "The specific observations of the French-American decline serve as the primary case for the meta-claim that this is history's most decisive experiment."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The claim that child-centrism caused the decline relies on the empirical fact that scores actually plunged following the reform."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "To blame child-centrism, one must establish that child-centrism was actually implemented via law (loi Jospin)."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The theoretical benefit of group-centered education (smarter/more literate) is predicated on the mechanism of shared background knowledge enabling class engagement."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The specific French data showing the rich-poor gap widening provides the empirical proof for the general claim that child-centrism is unfair."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The failure of child-centrism to provide social justice is a normative driver for adopting the shared-knowledge approach."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "If child-centrism caused the decline, the inverse (shared knowledge) is presented as the necessary solution."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "Empirical data showing that child-centeredness harms non-college-bound students more than others provides the basis for calling the theory anti-egalitarian."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C29",
+        "relationship": "supports",
+        "explanation": "The specific outcomes of the Loi Jospin (lower scores, wider gaps) are the empirical evidence for the claim that the law led to socially determined scores."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C24",
+        "relationship": "depends-on",
+        "explanation": "The claim that helping 'special needs' harms the poor assumes that such schooling is already disproportionately harmful to those from disadvantaged circumstances."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C33",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic necessity of schools imparting shared knowledge rests on the theoretical claim that literacy decline is caused by a lack of such knowledge."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "If whole-class instruction is more effective than individual methods, it supports the requirement for schools to impart shared knowledge to the whole group simultaneously."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C42",
+        "relationship": "supports",
+        "explanation": "The mirroring of US and French declines provides the comparative data needed to theorize the 'Norway shared-knowledge principle' as the common explanatory factor."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "The need for schools to provide shared knowledge is predicated on the fact that children from high-income families already receive this 'literate culture' at home, creating an initial inequality."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C45",
+        "relationship": "supports",
+        "explanation": "The observation that child-centered education isolates children supports the move toward a group-oriented, direct-instruction model."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C45",
+        "relationship": "supports",
+        "explanation": "The political reversal of the loi Jospin by subsequent French administrations serves as empirical evidence that the Romantic 'natural development' model failed in practice."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C40",
+        "relationship": "refines",
+        "explanation": "The author uses the representative nature of French data to argue that the failures seen in France are more indicative of a universal educational law than the selective SAT data in the US."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E6",
+        "claim_id": "C4",
+        "warrant_text": "If a nationwide pedagogical shift is followed by a nationwide score decline in a controlled time frame, the pedagogical shift is the most probable cause (Ceteris Paribus logic).",
+        "is_explicit": false,
+        "vulnerability": "Fails to account for concurrent demographic, economic, or technological changes that could also impact scores over 20 years."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E8",
+        "claim_id": "C14",
+        "warrant_text": "Socioeconomic gaps in test scores are a valid proxy for measuring 'social justice' or 'fairness' in an educational system.",
+        "is_explicit": true,
+        "vulnerability": "Assumes standardized tests capture the full scope of social equity or child development."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "warrant_text": "International rankings like PISA are accurate and comparable measures of a nation's educational health across different decades.",
+        "is_explicit": false,
+        "vulnerability": "Changes in test design, participation rates, or cultural bias in testing can skew long-term comparisons."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C28",
+        "claim_id": "C29",
+        "warrant_text": "In a natural experiment where a single major policy (Loi Jospin) is changed nationally at once, subsequent national declines in outcomes can be attributed to that policy change.",
+        "is_explicit": true,
+        "vulnerability": "Other systemic factors like changing demographics, teacher quality, or economic conditions might have shifted concurrently with the law."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C21",
+        "claim_id": "C22",
+        "warrant_text": "An educational system that yields results dependent on a child's family background rather than school instruction is, by definition, anti-egalitarian.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that egalitarianism refers to the 'freedom' of the child to develop, not the equality of the testing outcome."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C38",
+        "claim_id": "C42",
+        "warrant_text": "If two different nations with different cultures adopt the same educational methods and see the same magnitude of decline, the cause must be the methods themselves rather than cultural specifics.",
+        "is_explicit": true,
+        "vulnerability": "The 'mirroring' might be superficial; the SAT (US) and the 5th-grade sondages (France) are different metrics measuring different age groups."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C40",
+        "claim_id": "C45",
+        "warrant_text": "If a massive, nationwide change in curriculum is followed by a sharp decline in results across all demographics, the curriculum change is the primary causal agent.",
+        "is_explicit": true,
+        "vulnerability": "The 'natural experiment' may have confounding variables, such as changes in teacher training, social media influence, or demographic shifts in the student population over twenty years."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C39",
+        "claim_id": "C45",
+        "warrant_text": "The purpose of public schooling in a democracy is to compensate for the unequal distribution of cultural capital provided by different home environments.",
+        "is_explicit": false,
+        "vulnerability": "This assumes a compensatory view of education; critics might argue schools should instead focus on individual potential regardless of 'shared' cultural baseline."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C1",
+        "missing_step": "The author assumes that there are no alternative pedagogical models besides 'Romantic child-centrism' and 'Common Knowledge' that could address the decline.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C20",
+        "to_id": "C16",
+        "missing_step": "Establishing that the American and French declines are functionally identical despite the US decline being decentralized and the French decline being nationalized.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C21",
+        "to_id": "C22",
+        "missing_step": "The author assumes that the 'negative effect' measured by test scores is the primary metric for determining the 'egalitarian' nature of a social theory.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C29",
+        "to_id": "C38",
+        "missing_step": "Establishing that the American decline and the French decline were triggered by functionally identical implementations of 'child-centeredness' despite different cultural starting points.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C21",
+        "to_id": "C37",
+        "missing_step": "The assumption that reversing the curriculum theory would naturally lead back to previous levels of performance without addressing current teacher training or cultural changes.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C43",
+        "to_id": "C45",
+        "missing_step": "Establishing that 'direct instruction' is the only or best alternative to 'social isolation' caused by child-centeredness.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C40",
+        "to_id": "C45",
+        "missing_step": "Evidence that the legislative amendments by Sarkozy and Macron actually improved scores or social cohesion compared to the loi Jospin era.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The French score decline might be attributed to significant changes in student demographics and immigration patterns between 1987 and 2007 rather than pedagogical shifts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C16",
+        "objection": "The US and France are too culturally and structurally different for a comparison of 5th-grade French scores and 12th-grade US SAT scores to constitute a 'controlled' scientific experiment.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C14",
+        "objection": "The gap between rich and poor may have widened because wealthy parents increasingly utilized private tutoring to bypass the national curriculum, not because child-centrism itself failed.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C29",
+        "objection": "The French decline in the late 20th century coincides with a significant change in the student population's demographic and linguistic diversity, which might explain lower literacy scores better than a change in curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C34",
+        "objection": "Whole-class instruction may be 'effective' at raising average scores but can neglect the specific cognitive needs of students at both the high and low ends of the spectrum who require differentiation.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C22",
+        "objection": "Child-centeredness is intended to empower the individual against state-mandated conformity; its 'anti-egalitarian' outcomes might be a failure of implementation rather than an inherent property of the theory.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C45",
+        "objection": "The French decline might be attributed to the dilution of a rigorous traditional system by increased access (massification) rather than the specific 'child-centered' nature of the curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C43",
+        "objection": "Individualized learning, when implemented correctly, allows for deeper personalization and engagement that 'direct instruction' of a rigid shared knowledge base may suppress.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Causal Argument from Natural Experiment",
+        "chain": [
+          "C7",
+          "C3",
+          "C20",
+          "C4",
+          "C16"
+        ],
+        "conclusion_id": "C16",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Argument",
+        "chain": [
+          "C14",
+          "C15",
+          "C17",
+          "C18",
+          "C9",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Efficiency Argument",
+        "chain": [
+          "C12",
+          "C10",
+          "C11",
+          "C8"
+        ],
+        "conclusion_id": "C8",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Two-Nation Natural Experiment",
+        "chain": [
+          "C38",
+          "C41",
+          "C28",
+          "C29",
+          "C42"
+        ],
+        "conclusion_id": "C29",
+        "strength": "strong"
+      },
+      {
+        "name": "The Injustice of Child-Centrism",
+        "chain": [
+          "C21",
+          "C23",
+          "C24",
+          "C27",
+          "C22"
+        ],
+        "conclusion_id": "C22",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Shared Knowledge Solution",
+        "chain": [
+          "C30",
+          "C31",
+          "C32",
+          "C34",
+          "C35",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Equity through Shared Knowledge Chain",
+        "chain": [
+          "C39",
+          "C43",
+          "C40",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "strong"
+      },
+      {
+        "name": "Data Representative Reliability Chain",
+        "chain": [
+          "C44",
+          "C40",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0031686000000000006,
+    "duration_s": 43.04406809806824
+  }
+}

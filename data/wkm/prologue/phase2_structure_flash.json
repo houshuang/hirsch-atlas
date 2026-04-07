@@ -1,0 +1,157 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C7",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The author uses the historical decline in U.S. scores (attributed to specific ideas) as primary evidence that faulty ideas are the cause of current frustrations."
+      },
+      {
+        "from_id": "C6",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The French 'natural experiment' serves as a contemporary cross-national confirmation that the same faulty ideas lead to the same educational declines."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "For the conclusion that educational ideas are 'faulty' to hold, the author relies on cognitive science showing that the 'skills-based' premise of those ideas is scientifically incorrect."
+      },
+      {
+        "from_id": "C2",
+        "to_id": "C3",
+        "relationship": "supports",
+        "explanation": "If the achievement gap is fundamentally a lack of knowledge parity, then providing that knowledge becomes a matter of civil justice."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If skills cannot be taught independently of content, schools must move away from individualistic 'learning to learn' (child-centered) toward a shared content base (community-centered)."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C6",
+        "relationship": "instantiates",
+        "explanation": "The 1989 law is the specific event that allows for the empirical conclusion regarding the decline in French achievement."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E2",
+        "claim_id": "C6",
+        "warrant_text": "In a social system where variables like teacher quality, budget, and preschool infrastructure remain constant, a sudden change in curriculum that correlates with a steep decline in scores can be identified as the causal agent.",
+        "is_explicit": true,
+        "vulnerability": "Assumes no unmeasured external variables (e.g., social media usage, cultural shifts) influenced the decline simultaneously with the loi Jospin."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C12",
+        "warrant_text": "If high-level adult expertise requires vast domain-specific knowledge, then the elementary education required to build toward that expertise must focus on knowledge acquisition rather than abstract skill practice.",
+        "is_explicit": false,
+        "vulnerability": "Adult expertise might involve different cognitive architectures than child development; children might still benefit from general heuristic training even if experts don't use it."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C7",
+        "warrant_text": "A significant drop in national standardized test scores (SATs) over a specific timeframe is a valid proxy for the failure of the dominant educational philosophy of that era.",
+        "is_explicit": false,
+        "vulnerability": "The demographic pool of test-takers expanded significantly between 1960 and 1980, which usually lowers average scores regardless of instructional quality."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C6",
+        "to_id": "C1",
+        "missing_step": "The failure of a centralized national curriculum being replaced by local ones in France is directly applicable to the US, which has always lacked a centralized curriculum.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C12",
+        "to_id": "C4",
+        "missing_step": "A communal, knowledge-rich curriculum is the only effective way to deliver domain-specific knowledge.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C7",
+        "to_id": "C1",
+        "missing_step": "Alternative factors for the 1960-1980 decline—such as changing family structures or the impact of television—were less significant than educational 'ideas.'",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "In a pluralistic society, a 'community-centered' curriculum requires a consensus on whose knowledge is taught, which risks the marginalization of minority cultures or the imposition of a state-sanctioned ideology.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C6",
+        "objection": "The French decline might be attributed to the 'projet' system's failure in implementation (poor teacher training on the new law) rather than a failure of the child-centered theory itself.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C12",
+        "objection": "While cognitive skills are domain-specific, meta-cognitive skills (self-regulation, planning, and critical questioning) are generalizable and are the primary benefits of 'skills-based' education.",
+        "objection_type": "empirical_challenge"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The French Natural Experiment Chain",
+        "chain": [
+          "C5",
+          "C6",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Science to Social Justice Chain",
+        "chain": [
+          "C12",
+          "C2",
+          "C3",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Historical Decline Chain",
+        "chain": [
+          "E4",
+          "E3",
+          "C7",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0010569000000000002,
+    "input_tokens": 4237,
+    "output_tokens": 1583,
+    "duration_s": 15.889711856842041,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

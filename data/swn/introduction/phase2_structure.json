@@ -1,0 +1,150 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C7",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that opposition to skills is 'misguided' relies on the premise that disparaging these skills actively harms learning."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The success of practice-intensive programs provides the empirical basis for calling opposition to them 'misguided'."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The characterization of the tradition as anti-intellectual requires the existence of a dominant 'thoughtworld' that resists content standards."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The poor results of progressive programs are used as evidence that their underlying anti-intellectual principles are flawed."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C9",
+        "relationship": "depends-on",
+        "explanation": "The claim that grade-by-grade standards are necessary relies on the established effectiveness of a rich core curriculum."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C10",
+        "relationship": "depends-on",
+        "explanation": "The validation of 'strong positive effects' depends on the methodological rigor and specific criteria for empirical validation."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C10",
+        "relationship": "depends-on",
+        "explanation": "To claim a curriculum has positive effects, one must believe that research models accurately predict program effectiveness."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E4",
+        "claim_id": "C10",
+        "warrant_text": "If a highly regarded external research organization (AIR) identifies a program as promising based on controlled studies, that program is objectively effective.",
+        "is_explicit": false,
+        "vulnerability": "External evaluators may use narrow metrics of 'achievement' (like standardized tests) that don't capture the full scope of education."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E2",
+        "claim_id": "C9",
+        "warrant_text": "Political and administrative adoption of tough standards in a major state indicates the validity and necessity of those standards for educational success.",
+        "is_explicit": false,
+        "vulnerability": "A political victory for a curriculum doesn't prove its pedagogical superiority; it only proves the success of the advocacy group."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E3",
+        "claim_id": "C10",
+        "warrant_text": "The rapid voluntary adoption of a curriculum by hundreds of schools serves as a proxy for its real-world effectiveness and utility.",
+        "is_explicit": true,
+        "vulnerability": "Market adoption can be driven by trends, funding incentives, or word-of-mouth rather than verified student outcomes."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C13",
+        "to_id": "C6",
+        "missing_step": "Demonstrating that the opposition to skills is the primary cause of low achievement, rather than poor teacher training or socio-economic factors.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C10",
+        "to_id": "C9",
+        "missing_step": "Establishing that 'grade-by-grade' specificity is the only way to deliver a 'rich core curriculum' effectively.",
+        "step_type": "generalization",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C8",
+        "objection": "The progressive tradition does not disparage facts but rather views them as ephemeral; it prioritizes the cognitive tools needed to acquire and evaluate facts in a changing world.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C10",
+        "objection": "The positive effects noted in Core Knowledge evaluations (E5) may be due to self-selection bias, where schools already possessing high 'intellectual capital' are the ones most likely to adopt the program.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C6",
+        "objection": "Opposition to procedural 'drill' is often a response to the displacement of conceptual understanding, which is necessary for the flexible application of those very skills.",
+        "objection_type": "internal_inconsistency"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Evidence-Based Validation Chain",
+        "chain": [
+          "C18",
+          "C17",
+          "C13",
+          "C10"
+        ],
+        "conclusion_id": "C10",
+        "strength": "strong"
+      },
+      {
+        "name": "The Institutional Critique Chain",
+        "chain": [
+          "C14",
+          "C3",
+          "C8",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Content-Standard Implementation Chain",
+        "chain": [
+          "E2",
+          "C16",
+          "C9"
+        ],
+        "conclusion_id": "C9",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0007203000000000001,
+    "duration_s": 15.371048212051392
+  }
+}

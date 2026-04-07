@@ -1,0 +1,134 @@
+{
+  "result": {
+    "book_thesis": "American educational and political decline can only be reversed by replacing the failed 'child-centered' pedagogical status quo with a 'knowledge-centered' schooling model based on the reality principle of cognitive science and a shared K-8 curriculum.",
+    "core_frameworks": [
+      {
+        "id": "knowledge_centered_schooling",
+        "name": "Knowledge-Centered Schooling (Core Knowledge)",
+        "description": "A curricular approach based on teaching a sequenced core of the same subject matter to all students to ensure literacy and equality.",
+        "components": [
+          {
+            "id": "shared_curriculum",
+            "name": "Shared Curriculum",
+            "description": "The use of the same books and subject matter across a grade level to enable common understanding."
+          },
+          {
+            "id": "reality_principle",
+            "name": "The Reality Principle",
+            "description": "The alignment of educational practice with the empirical findings of cognitive science regarding how humans actually learn."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "child_centered_pedagogy",
+        "name": "Child-Centered Pedagogy",
+        "description": "An individualizing approach to teaching that prioritizes student-led learning and general skills over specific subject matter knowledge.",
+        "components": [
+          {
+            "id": "individualizing_pedagogy",
+            "name": "Individualizing Pedagogy",
+            "description": "Tailoring subject matter to individual students rather than providing a common knowledge base."
+          },
+          {
+            "id": "skills_focus",
+            "name": "General Skills Focus",
+            "description": "The belief that critical thinking and reading are general skills that can be taught independently of specific content."
+          }
+        ],
+        "stance": "author_opposes"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter 1: The Slate and the Seedling, The Mirror and the Lamp",
+        "predicted_main_argument": "Educational outcomes are dictated by the underlying metaphors we use to understand the mind and learning.",
+        "role_in_book": "establishes_problem"
+      },
+      {
+        "chapter": "Chapter 2: The South Bronx Miracle",
+        "predicted_main_argument": "Empirical success in disadvantaged areas proves that knowledge-centered schooling can erase achievement gaps.",
+        "role_in_book": "case_study"
+      },
+      {
+        "chapter": "Chapter 3: Shared Knowledge is Key to Our Unity and Literacy",
+        "predicted_main_argument": "National literacy and social cohesion depend on a shared body of background knowledge among citizens.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter 4: Democracy Requires a Stable Written Language",
+        "predicted_main_argument": "The maintenance of a democratic state is predicated on a stable, shared communicative standard.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter 9: Wisdom from Two Teachers and Four States",
+        "predicted_main_argument": "First-hand testimony from veteran teachers confirms that a core curriculum is superior to the 'child-centered' status quo.",
+        "role_in_book": "case_study"
+      },
+      {
+        "chapter": "Chapter 10: 'Robust' Longitudinal Data on Shared-Knowledge Schooling",
+        "predicted_main_argument": "Long-term statistical evidence supports the superiority of the Core Knowledge model over traditional public school models.",
+        "role_in_book": "provides_evidence"
+      },
+      {
+        "chapter": "Chapter 11: Updating Our Ideas I: Critical Thinking Is Not a General Skill",
+        "predicted_main_argument": "Cognitive science reveals that critical thinking is domain-specific and dependent on substantive knowledge.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter 12: Updating Our Ideas II: Reading is Not a General Skill",
+        "predicted_main_argument": "Reading comprehension is not a transferable technical skill but a function of the reader's background knowledge of the topic.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter 14: Time Marches On: Fostering Our National Renewal",
+        "predicted_main_argument": "Systemic curricular reform at the state level is necessary to ensure national competence and social comity.",
+        "role_in_book": "proposes_solution"
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Shared Knowledge",
+        "definition": "A common body of information known by a group of people that enables efficient communication and further learning."
+      },
+      {
+        "term": "Core Knowledge",
+        "definition": "The specific system and sequenced curriculum developed to provide all children with a foundational knowledge base."
+      },
+      {
+        "term": "Child-centered",
+        "definition": "A pedagogical philosophy dominating American education since the 1940s that emphasizes individual interests and developmental 'naturalness' over directed content instruction."
+      },
+      {
+        "term": "National Comity",
+        "definition": "The state of social harmony and mutual civility within a nation, which the author argues is fostered by shared educational foundations."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Cognitive Science",
+        "relationship": "builds_on",
+        "contribution": "Provides the 'reality principle' and empirical proof that knowledge is the prerequisite for skills like reading and thinking."
+      },
+      {
+        "name": "Progressive Education Establishment",
+        "relationship": "opposes",
+        "contribution": "Created the 'child-centered' theories that the author argues have caused a decline in SAT scores and increased inequality since 1940."
+      },
+      {
+        "name": "Early Twentieth Century Educators",
+        "relationship": "historical_predecessor",
+        "contribution": "Represent a period when educational theories were 'sounder' and produced higher reading scores across demographics."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0007891,
+    "input_tokens": 2095,
+    "output_tokens": 1449,
+    "duration_s": 13.15276312828064,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

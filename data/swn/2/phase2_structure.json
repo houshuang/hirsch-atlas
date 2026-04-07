@@ -1,0 +1,1406 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C6",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that a shared body of knowledge is fundamental for democracy rests on the more basic sociological premise that any community requires shared aims and knowledge to exist."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C1",
+        "relationship": "supports",
+        "explanation": "The necessity of an educated populace to prevent government corruption serves as a primary justification for a shared democratic curriculum."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "depends-on",
+        "explanation": "The need for shared frames of reference to prevent inequality depends on the observation that lacking this background leads to exclusion from public discourse."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The role of common knowledge as a national communication network is the mechanism by which shared frames of reference prevent competence-based inequality."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C10",
+        "relationship": "instantiates",
+        "explanation": "The Soviet experience of being forced to educate peasants for economic reasons serves as a historical case study for the modern economic imperative of shared knowledge."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "The requirement for stronger schooling in the modern era is the logical result of shared knowledge becoming an economic imperative."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C17",
+        "relationship": "depends-on",
+        "explanation": "The theory that knowledge begets knowledge is a direct application of the Matthew Effect paradox to cognitive development."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C17",
+        "relationship": "supports",
+        "explanation": "The widening gap between children with and without early vocabulary provides empirical evidence for the 'knowledge begets knowledge' principle."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "If the prevailing educational theory nullifies the progress of civil rights, then the resulting inequity in intellectual capital constitutes a primary source of injustice."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "The failure of schools to advance depressed groups creates the inequity that Hirsch identifies as a fundamental injustice."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C28",
+        "relationship": "depends-on",
+        "explanation": "The claim that schooling fails depressed groups assumes that the home environment is currently the decisive factor in academic outcomes."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "Sixty years of practical failure provides empirical support for the theoretical claim that content-independent skills are a myth."
+      },
+      {
+        "from_id": "C33",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "The mechanism of accommodation (new to old) makes intellectual capital the primary tool for adapting to new information."
+      },
+      {
+        "from_id": "C37",
+        "to_id": "C32",
+        "relationship": "depends-on",
+        "explanation": "A classroom's effectiveness requires shared knowledge because the group cannot move forward without a common baseline for the next step."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C22",
+        "relationship": "supports",
+        "explanation": "The fact that the enabling function of knowledge is essential at every stage implies that intervention in early stages can remedy deficits before they become permanent."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C42",
+        "relationship": "depends-on",
+        "explanation": "The proposal to extend the 'ready-to-learn' principle to all grades is based on the proven necessity of such preparation in the first grade."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "Generalizing readiness to all grades is the mechanism by which democratic education guarantees preparation for every student."
+      },
+      {
+        "from_id": "C45",
+        "to_id": "C50",
+        "relationship": "supports",
+        "explanation": "If effective learning requires common reference points, then a lack of those points logically slows down the class progress."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C52",
+        "relationship": "depends-on",
+        "explanation": "The 'snowball' and 'momentum' effects (C52) are the direct result of schools forcing students to rely on home-gained background knowledge (C51)."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C53",
+        "relationship": "supports",
+        "explanation": "The divergent paths of advantaged and disadvantaged students (the snowball vs. lack of momentum) create both the excellence gap and the fairness gap."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "If children have a natural instinct to learn, then boredom cannot be innate; it must be the result of that instinct being thwarted."
+      },
+      {
+        "from_id": "C58",
+        "to_id": "C54",
+        "relationship": "supports",
+        "explanation": "Thwarted curiosity leads to boredom, which the author identifies as the primary driver for misbehavior at both ends of the academic spectrum."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "The existence of curricular chaos is the empirical reality that proves the 'coherent plan' is a myth."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "The inability of school leaders to identify grade-level content serves as primary evidence that no coherent plan exists at the school level."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "If the official documents (guides) do not specify content, the belief in a coherent plan lacks its necessary foundation."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "By disqualifying textbooks as a proxy for curriculum, the author removes a common counter-argument to the 'myth' claim."
+      },
+      {
+        "from_id": "C67",
+        "to_id": "C68",
+        "relationship": "depends-on",
+        "explanation": "The claim that multi-year goals prevent accountability assumes that the school year is the only valid unit for monitoring progress."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "Intentional vagueness in district guides provides the mechanism by which accountability is avoided."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C68",
+        "relationship": "supports",
+        "explanation": "If teachers following the same guide teach different things, there is no shared standard against which to monitor them."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The 'spiraling' method is a component of the 'strand' approach; its repetitive nature contributes to the overall inefficiency of the strand system."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "If the conceptual schemes underlying strands are arbitrary, the resulting curriculum is likely to have gaps and repetitions."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C82",
+        "relationship": "depends-on",
+        "explanation": "The inconsistent conceptual schemes from national organizations demonstrate the arbitrary nature and fundamental weakness of current curricular frameworks."
+      },
+      {
+        "from_id": "C84",
+        "to_id": "C83",
+        "relationship": "depends-on",
+        "explanation": "If the relationship between broad schemes and classroom content is tenuous, those schemes cannot compel a coherent sequence of instruction."
+      },
+      {
+        "from_id": "C85",
+        "to_id": "C83",
+        "relationship": "supports",
+        "explanation": "Practical failure to guide teachers demonstrates that abstract objectives do not provide a functional sequence."
+      },
+      {
+        "from_id": "C87",
+        "to_id": "C86",
+        "relationship": "instantiates",
+        "explanation": "The uneven specificity in geography serves as a concrete example of how lack of content specificity creates gaps (omitting domestic features)."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C90",
+        "relationship": "supports",
+        "explanation": "The 'spiraling' repetition of requirements without new content is direct evidence of the unhelpful vagueness in language arts."
+      },
+      {
+        "from_id": "C93",
+        "to_id": "C90",
+        "relationship": "depends-on",
+        "explanation": "The neglect of specific literature (books and stories) is the mechanism through which language arts curricula become vague and process-focused."
+      },
+      {
+        "from_id": "C97",
+        "to_id": "C98",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that undefined rules are unfair to disadvantaged students supports the conclusion that the organization of the curriculum is the primary driver of inequality."
+      },
+      {
+        "from_id": "C98",
+        "to_id": "C99",
+        "relationship": "depends-on",
+        "explanation": "Establishing that curricular organization is the cause of inequality is a prerequisite for labeling the failure to teach prerequisite knowledge as an avoidable injustice."
+      },
+      {
+        "from_id": "C100",
+        "to_id": "C99",
+        "relationship": "responds-to",
+        "explanation": "The pragmatic directive for schools to prioritize prerequisite knowledge is the solution to the injustice identified in the conclusion."
+      },
+      {
+        "from_id": "C103",
+        "to_id": "C104",
+        "relationship": "depends-on",
+        "explanation": "The high overall national mobility rate is a necessary condition for low-income mobility to reach the levels that cause disproportionate suffering."
+      },
+      {
+        "from_id": "C105",
+        "to_id": "C104",
+        "relationship": "supports",
+        "explanation": "Economic reasons for frequent moves explain why low-income families specifically suffer from curricular incoherence."
+      },
+      {
+        "from_id": "C107",
+        "to_id": "C108",
+        "relationship": "supports",
+        "explanation": "Evidence of 50% churn in inner-city schools directly challenges the idea of a stable local school population."
+      },
+      {
+        "from_id": "C115",
+        "to_id": "C114",
+        "relationship": "depends-on",
+        "explanation": "The claim that failure is not inevitable relies on the existence of other countries where mobility does not result in the same level of academic failure."
+      },
+      {
+        "from_id": "C114",
+        "to_id": "C116",
+        "relationship": "supports",
+        "explanation": "If mobility failures are caused by system structure rather than fate, then changing that structure to common learning goals is the logical remedy."
+      },
+      {
+        "from_id": "C112",
+        "to_id": "C117",
+        "relationship": "instantiates",
+        "explanation": "The 'whiplash effect' of changing curricula is a specific instance of the fragmentation faced by migrating students."
+      },
+      {
+        "from_id": "C119",
+        "to_id": "C120",
+        "relationship": "supports",
+        "explanation": "The theoretical need for common meanings in a democracy provides the normative basis for declaring curricular uniformity a matter of justice."
+      },
+      {
+        "from_id": "C121",
+        "to_id": "C122",
+        "relationship": "supports",
+        "explanation": "If core subjects should not be controversial for sequencing, the primary barrier to commonality (local autonomy) loses its moral force."
+      },
+      {
+        "from_id": "C126",
+        "to_id": "C123",
+        "relationship": "instantiates",
+        "explanation": "The specific Gallup poll data regarding national standards serves as the empirical basis for the claim about public consensus."
+      },
+      {
+        "from_id": "C131",
+        "to_id": "C127",
+        "relationship": "depends-on",
+        "explanation": "The necessity of common intellectual capital is argued as a solution to the abnormally high failure rates seen in the U.S. system."
+      },
+      {
+        "from_id": "C128",
+        "to_id": "C125",
+        "relationship": "refines",
+        "explanation": "Claim 128 specifies the 'not sufficient' part of Claim 125 by identifying cultural support as an additional requirement."
+      },
+      {
+        "from_id": "C137",
+        "to_id": "C135",
+        "relationship": "supports",
+        "explanation": "Refuting the 'apples-vs-oranges' objection is necessary to establish the methodological validity of longitudinal international comparisons."
+      },
+      {
+        "from_id": "C132",
+        "to_id": "C134",
+        "relationship": "supports",
+        "explanation": "The data showing absolute decline (132) provides the instance of system-wide quality loss described in 134."
+      },
+      {
+        "from_id": "C141",
+        "to_id": "C142",
+        "relationship": "depends-on",
+        "explanation": "The requirement for large-scale success as a prerequisite for general application is based on the methodological claim that large-scale research is more reliable than small-scale."
+      },
+      {
+        "from_id": "C143",
+        "to_id": "C142",
+        "relationship": "supports",
+        "explanation": "The tendency of small-scale programs to succeed regardless of quality (Hawthorne effect) necessitates the large-scale testing required in C142."
+      },
+      {
+        "from_id": "C144",
+        "to_id": "C142",
+        "relationship": "instantiates",
+        "explanation": "The drug analogy illustrates the principle that long-term, large-scale usage is the only way to securely evaluate a system."
+      },
+      {
+        "from_id": "C145",
+        "to_id": "C159",
+        "relationship": "supports",
+        "explanation": "The divergence in rank between core and noncore nations provides the empirical basis for the claim that no noncore system achieved fairness."
+      },
+      {
+        "from_id": "C147",
+        "to_id": "C159",
+        "relationship": "supports",
+        "explanation": "The attribution of British and Dutch failure to a lack of core curriculum supports the broader conclusion that noncore systems fail to achieve fairness."
+      },
+      {
+        "from_id": "C154",
+        "to_id": "C155",
+        "relationship": "supports",
+        "explanation": "The observation that the learning gap in France decreases by grade level supports the theory that core curricula reduce dependence on the home environment."
+      },
+      {
+        "from_id": "C156",
+        "to_id": "C157",
+        "relationship": "supports",
+        "explanation": "If school decline hurts the disadvantaged most, then ensuring school quality becomes a matter of civil rights/equality."
+      },
+      {
+        "from_id": "C155",
+        "to_id": "C158",
+        "relationship": "depends-on",
+        "explanation": "Inducing grade readiness (C158) is the mechanism by which core curricula reduce dependence on the 'undependable' home curriculum (C155)."
+      },
+      {
+        "from_id": "C162",
+        "to_id": "C161",
+        "relationship": "supports",
+        "explanation": "The empirical observation that only nations with core curricula achieve fairness supports the methodological claim that achievement levels can index fairness."
+      },
+      {
+        "from_id": "C164",
+        "to_id": "C165",
+        "relationship": "depends-on",
+        "explanation": "The claim that instruction can compensate for gaps assumes and responds to the limitation that schools cannot entirely equalize the home environment."
+      },
+      {
+        "from_id": "C167",
+        "to_id": "C166",
+        "relationship": "supports",
+        "explanation": "If poor schools disproportionately harm disadvantaged students, the lack of an equitable distribution of capital (found in poor schools) explains the widening gap."
+      },
+      {
+        "from_id": "C168",
+        "to_id": "C166",
+        "relationship": "instantiates",
+        "explanation": "The widening gap by grade four is the empirical manifestation of the inequitable distribution of intellectual capital."
+      },
+      {
+        "from_id": "C170",
+        "to_id": "C171",
+        "relationship": "depends-on",
+        "explanation": "The failure of Head Start is attributed to its design priorities which favored social services over academic learning."
+      },
+      {
+        "from_id": "C174",
+        "to_id": "C171",
+        "relationship": "supports",
+        "explanation": "The fragmented nature of the general public school system explains why early gains cannot be sustained."
+      },
+      {
+        "from_id": "C177",
+        "to_id": "C165",
+        "relationship": "supports",
+        "explanation": "France's success with immigrant and low-income children serves as evidence that classroom instruction can overcome home-based disadvantages."
+      },
+      {
+        "from_id": "C178",
+        "to_id": "C180",
+        "relationship": "supports",
+        "explanation": "The success of defined academic goals in stable systems suggests they are even more necessary in high-mobility contexts."
+      },
+      {
+        "from_id": "C181",
+        "to_id": "C182",
+        "relationship": "supports",
+        "explanation": "If children have universal cognitive needs, then providing different children with different levels of 'intellectual capital' based on home background is a violation of those universal needs."
+      },
+      {
+        "from_id": "C184",
+        "to_id": "C182",
+        "relationship": "depends-on",
+        "explanation": "The claim that home-determined learning is an injustice relies on the premise that schools actually have the power to fix the deficit; if it were an unchangeable fate, it would be a tragedy but not an 'avoidable injustice.'"
+      },
+      {
+        "from_id": "C189",
+        "to_id": "C187",
+        "relationship": "instantiates",
+        "explanation": "The 'tool metaphor' (pliers and wrenches) is the specific conceptual error that makes the empirically false theory of content-independent skills so attractive to educators."
+      },
+      {
+        "from_id": "C187",
+        "to_id": "C185",
+        "relationship": "supports",
+        "explanation": "By debunking the 'tool metaphor' of content-independent skills, the author clears the path for the necessity of specific content in every grade."
+      },
+      {
+        "from_id": "C193",
+        "to_id": "C185",
+        "relationship": "supports",
+        "explanation": "If multi-year goals are structurally ineffective because the 'year' is the unit of accountability, then excellence requires definite content assigned to 'each year' specifically."
+      },
+      {
+        "from_id": "C185",
+        "to_id": "C190",
+        "relationship": "supports",
+        "explanation": "If excellence and fairness depend on a specific, uniform core content, then local control—which produces the 'myth' of curriculum and content gaps—must be subordinated to those principles."
+      },
+      {
+        "from_id": "C191",
+        "to_id": "C190",
+        "relationship": "supports",
+        "explanation": "The observation that local politics prevents the selection of domestic content (while allowing foreign content) serves as evidence that local control is a barrier to a coherent curriculum."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "If the founders of modern democracy identified a specific type of education (historical facts) as the essential safeguard of liberty, then that education is a fundamental requirement for the system's survival.",
+        "is_explicit": false,
+        "vulnerability": "Relies on an 'appeal to authority' (Jefferson) and assumes his 18th-century political context applies identically to modern mass democracy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C17",
+        "warrant_text": "Sociological 'cultural capital' and cognitive 'intellectual capital' are functionally equivalent; both follow an accumulative logic where initial assets determine the rate of future acquisition.",
+        "is_explicit": true,
+        "vulnerability": "Bourdieu’s 'cultural capital' is often interpreted as a tool for social signaling/exclusion rather than a cognitive mechanism for learning efficiency."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E2",
+        "claim_id": "C7",
+        "warrant_text": "A modern, successful, and egalitarian state's legislative consensus (Norway) reflects a universal truth about the relationship between shared knowledge and social equality.",
+        "is_explicit": false,
+        "vulnerability": "Norway's success may be due to its high level of ethnic and linguistic homogeneity rather than its core curriculum."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E3",
+        "claim_id": "C11",
+        "warrant_text": "Literacy is the primary variable that determines the resilience of a political revolution against autocratic reversion.",
+        "is_explicit": true,
+        "vulnerability": "Ignores other factors like institutional design, economic stability, or external geopolitical pressure."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C35",
+        "claim_id": "C31",
+        "warrant_text": "If experts learn faster specifically because they possess more background knowledge, then knowledge itself functions as the primary mechanism of adaptation.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that experts learn faster due to superior innate cognitive processing power rather than just the volume of stored knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C30",
+        "claim_id": "C26",
+        "warrant_text": "A high correlation between school quality and IQ (Bagley) vs. home dominance (Coleman) suggests that curriculum philosophy—not just demographics—is the primary variable for student success.",
+        "is_explicit": false,
+        "vulnerability": "Correlation in the 1920s might be influenced by factors the author ignores, such as different societal expectations for literacy or the lack of modern distractions."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C39",
+        "claim_id": "C32",
+        "warrant_text": "If individual knowledge gaps cause a breakdown in classroom progress for both the laggard and the group, then shared knowledge is the necessary condition for group instruction.",
+        "is_explicit": true,
+        "vulnerability": "Pedagogies of differentiation or individualized learning paths could theoretically address gaps without requiring total class uniformity."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C48",
+        "claim_id": "C53",
+        "warrant_text": "If a gap in academic performance widens over time in systems lacking commonality, the lack of commonality is the most likely driver of that divergence.",
+        "is_explicit": false,
+        "vulnerability": "Correlational data between US and Asian systems might be influenced by cultural differences in study time or parental pressure rather than just curricular commonality."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C59",
+        "claim_id": "C56",
+        "warrant_text": "Increased voluntary participation in academic-adjacent activities (library use) serves as a valid proxy for internal motivation and an eagerness to learn.",
+        "is_explicit": true,
+        "vulnerability": "Library use could increase due to teacher requirements within the new curriculum rather than a spontaneous liberation of natural curiosity."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C41",
+        "claim_id": "C44",
+        "warrant_text": "The state's obligation to provide an education implies an obligation to provide the specific prerequisites necessary for that education to be accessible.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue schools cannot fully compensate for deep-seated socio-economic disparities through curriculum alone."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C63",
+        "claim_id": "C61",
+        "warrant_text": "A plan cannot be said to exist within an organization if the executives responsible for its implementation cannot describe its core requirements.",
+        "is_explicit": false,
+        "vulnerability": "Principals may manage administrative and disciplinary systems while deferring curricular coherence to professional teacher teams or departments."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C65",
+        "claim_id": "C61",
+        "warrant_text": "A curriculum only exists if there is high fidelity and uniformity in what is actually delivered to students across different classrooms.",
+        "is_explicit": true,
+        "vulnerability": "Omission of topics might be a necessary pedagogical adjustment for specific student needs rather than a failure of curricular coherence."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C69",
+        "claim_id": "C68",
+        "warrant_text": "Accountability requires specific, measurable content milestones; without specificity, there is no benchmark for failure or success.",
+        "is_explicit": true,
+        "vulnerability": "Accountability can be measured through general skill proficiencies (e.g., Lexile levels) rather than specific factual knowledge."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C81",
+        "claim_id": "C82",
+        "warrant_text": "If leading scientific organizations cannot agree on a single conceptual framework, then such frameworks are arbitrary social constructs rather than reflections of a necessary logical or scientific order.",
+        "is_explicit": true,
+        "vulnerability": "Different organizations may focus on different pedagogical goals or sub-disciplines, making 'consistency' an inappropriate metric for quality."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C85",
+        "claim_id": "C83",
+        "warrant_text": "A curricular directive that is broad enough to include everything effectively directs nothing, as it provides no criteria for selection or exclusion.",
+        "is_explicit": false,
+        "vulnerability": "Experienced teachers may benefit from professional autonomy and find broad objectives a useful starting point for creative lesson planning."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C91",
+        "claim_id": "C86",
+        "warrant_text": "Instructional 'spiraling' without specified content leads to repetition because teachers have no way to know what specific examples were already mastered in previous grades.",
+        "is_explicit": true,
+        "vulnerability": "Spiraling is intended to achieve mastery of complex skills (like 'main idea') which require multiple exposures across different developmental stages."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C87",
+        "claim_id": "C96",
+        "warrant_text": "A pattern of being specific about distant topics (foreign geography) while being vague about local ones (domestic geography) indicates that specificity itself isn't the problem, but rather the political fallout of local choices.",
+        "is_explicit": true,
+        "vulnerability": "The omission of domestic geography might be based on an assumption that children learn local context through environmental immersion rather than formal schooling."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C107",
+        "claim_id": "C104",
+        "warrant_text": "If a specific social group constitutes the majority of students in schools with 50% or higher turnover, they are the group primarily affected by the lack of curricular continuity in those schools.",
+        "is_explicit": false,
+        "vulnerability": "Assumes that high turnover at the school level translates directly into high turnover for every individual student's academic history."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C115",
+        "claim_id": "C114",
+        "warrant_text": "Cross-national differences in outcomes for similar challenges (mobility) indicate that the domestic outcome is a product of policy/system design rather than a universal law of nature.",
+        "is_explicit": true,
+        "vulnerability": "Ignores other confounding variables such as social safety nets, narrower wealth gaps, or higher teacher status in those comparison countries."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C113",
+        "claim_id": "C111",
+        "warrant_text": "If an individual factor (mobility) is as strong a predictor of failure as socio-economic status, its cumulative effect across 20% of the population will significantly depress national achievement totals.",
+        "is_explicit": false,
+        "vulnerability": "Correlation between mobility and achievement might be driven by a third factor (e.g., family instability) rather than curricular mismatch."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C136",
+        "claim_id": "C127",
+        "warrant_text": "A decline in international rankings relative to nations with centralized curricula suggests that the lack of such a curriculum is the distinguishing factor in educational quality.",
+        "is_explicit": false,
+        "vulnerability": "The decline could be attributed to socioeconomic factors, changes in teacher training, or cultural shifts rather than curriculum structure."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C130",
+        "claim_id": "C127",
+        "warrant_text": "If a specific educational outcome (minimal competence for all) is achieved in a system with a core curriculum but not in one without it, the core curriculum is a causal factor.",
+        "is_explicit": true,
+        "vulnerability": "Japan's success may be due to cultural homogeneity and high parental involvement rather than curricular standardization."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C123",
+        "claim_id": "C122",
+        "warrant_text": "In a democracy, the sustained will of the majority regarding educational structure should override the theoretical preferences of a specialized expert class.",
+        "is_explicit": true,
+        "vulnerability": "The 'tyranny of the majority' could lead to the adoption of popular but pedagogically unsound practices."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C145",
+        "claim_id": "C159",
+        "warrant_text": "If multiple diverse nations with core curricula outperform multiple diverse nations without them over a decade, the curriculum type is the decisive variable.",
+        "is_explicit": false,
+        "vulnerability": "Co-occurring variables such as national culture, teacher status, or economic shifts in those specific decades could explain the divergence."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C154",
+        "claim_id": "C155",
+        "warrant_text": "A shrinking achievement gap within a school system implies that the school's input is successfully overriding the disparate inputs students receive at home.",
+        "is_explicit": true,
+        "vulnerability": "The gap might shrink because of a 'ceiling effect' where advantaged students' growth slows down, rather than disadvantaged students catching up."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C151",
+        "claim_id": "C150",
+        "warrant_text": "If a system without a national core succeeds by maintaining local coherence, then the essential benefit of a core curriculum is coherence rather than national scale per se.",
+        "is_explicit": true,
+        "vulnerability": "Swiss cantons might succeed due to factors unrelated to mobility, such as extreme wealth or vocational tracking."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C177",
+        "claim_id": "C165",
+        "warrant_text": "Success in one national context (France) proves that the limitation (home gaps) is not an immutable law of nature but a variable affected by school policy.",
+        "is_explicit": true,
+        "vulnerability": "France's social safety net and centralized governance may differ so significantly from the U.S. that curricular change alone cannot replicate the result."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C170",
+        "claim_id": "C171",
+        "warrant_text": "Academic success is a cumulative process requiring specific content; if the initial input (Head Start) and the follow-up (public school) both lack that specific content, gains must logically dissipate.",
+        "is_explicit": false,
+        "vulnerability": "Fade-out might be caused by persistent poverty or lack of community resources rather than curricular incoherence."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C174",
+        "claim_id": "C180",
+        "warrant_text": "In a society where people move frequently (nomadic), a standardized curriculum is the only way to ensure that 'prior knowledge' remains a constant variable for students changing schools.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'core curriculum' is the primary factor in grade-readiness, ignoring regional differences in student needs."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "1.C27",
+        "claim_id": "C182",
+        "warrant_text": "If a massive disparity in wages can be explained by school-provided attainment rather than innate traits, then the school's failure to provide equal intellectual capital is the primary engine of social class persistence.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that the 'educational attainment' measured is purely a product of school curriculum rather than external factors like social networking or non-cognitive skills."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C192",
+        "claim_id": "C185",
+        "warrant_text": "If learning is a biological instinct that only fails when 'thwarted' by boredom or lack of enabling knowledge, then the provision of core content is the mechanical key to unlocking natural human drive.",
+        "is_explicit": false,
+        "vulnerability": "The jump from a biological 'language instinct' to a specific requirement for a 'grade-by-grade curriculum' is a leap; curiosity can be satisfied by diverse contents, not just a single core."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C191",
+        "claim_id": "C190",
+        "warrant_text": "If local control systematically avoids controversial but essential domestic knowledge while safely teaching non-essential foreign knowledge, it proves that local governance is structurally incapable of producing a rigorous national education.",
+        "is_explicit": true,
+        "vulnerability": "Local educators might avoid specifics not because of politics, but because they believe 'process skills' are more transferrable than 'facts about Akron.'"
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C1",
+        "to_id": "C2",
+        "missing_step": "A common curriculum must be centrally defined and standardized across a nation to actually be 'shared' in the way required for democratic equality.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C10",
+        "to_id": "C12",
+        "missing_step": "The 'intellectual capital' required for modern economic survival consists primarily of the specific humanities and historical facts identified in the democratic argument.",
+        "step_type": "definition_shift",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C24",
+        "to_id": "C26",
+        "missing_step": "The failure of 'tool theory' in the classroom is the primary reason for the stagnation of social mobility, rather than broader socioeconomic factors like poverty or segregation.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C30",
+        "to_id": "C22",
+        "missing_step": "Early 20th-century traditional schooling successes can be replicated in a modern, technologically advanced and culturally diverse society.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C42",
+        "missing_step": "The learning process in all subsequent grades is as cumulatively dependent on specific prior knowledge as it is in the first grade.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C54",
+        "to_id": "C55",
+        "missing_step": "Individual psychological factors or external social influences are secondary to the school's intellectual structure in determining student behavior.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C64",
+        "to_id": "C68",
+        "missing_step": "Establishing that teacher professional autonomy is inherently incompatible with curricular accountability.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C77",
+        "to_id": "C75",
+        "missing_step": "Evidence that 'strands' and 'spiraling' actually fail to cover the necessary material over the long term, rather than just being experienced as repetitive by students.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C89",
+        "to_id": "C95",
+        "missing_step": "Teachers lack the time or professional consensus to independently distill essential knowledge from over-detailed textbooks.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C98",
+        "to_id": "C99",
+        "missing_step": "The inequality identified is primarily academic and cognitive rather than social or economic, making the curriculum the only relevant lever for justice.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C111",
+        "to_id": "C116",
+        "missing_step": "A common curriculum can effectively be implemented in a way that overcomes the non-academic disruptions of moving (social/emotional stress).",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C115",
+        "to_id": "C116",
+        "missing_step": "A national curriculum would function with the same efficacy in the decentralized, heterogeneous political structure of the US as it does in the comparison countries.",
+        "step_type": "scope_expansion",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C131",
+        "to_id": "C127",
+        "missing_step": "Proof that a core curriculum specifically addresses the causes of low-level math performance in the U.S. beyond just student mobility.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C132",
+        "to_id": "C127",
+        "missing_step": "Establishing that the 1966-1980 decline was caused by a move away from 'common intellectual capital' rather than other historical/social factors of that era.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C145",
+        "to_id": "C147",
+        "missing_step": "Establishing that the UK and Netherlands did not have other significant systemic changes (like funding cuts or demographic shifts) during the IEA study period.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C158",
+        "to_id": "C157",
+        "missing_step": "A normative premise that the state has a moral obligation to provide the specific intellectual capital required for 'readiness' rather than just general access to schooling.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C177",
+        "to_id": "C165",
+        "missing_step": "The cultural and linguistic homogeneity of France (relative to the US) does not account for the closing of the achievement gap more than the curriculum does.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C166",
+        "to_id": "C173",
+        "missing_step": "Increasing academic rigor in Head Start will not lead to higher dropout rates or burnout if the underlying issue is lack of cognitive preparation.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C181",
+        "to_id": "C182",
+        "missing_step": "A normative bridge establishing that biological/educational similarity creates a moral obligation for political sameness in curriculum.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C191",
+        "to_id": "C190",
+        "missing_step": "Proof that centralized or national curriculum makers would be less susceptible to the same 'political conflict' that causes local makers to avoid controversial domestic topics.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C193",
+        "to_id": "C185",
+        "missing_step": "Evidence that the 'single school year' is the only viable unit of accountability, rather than longer developmental 'stages' used in other systems.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "The rise of totalitarianism in highly literate, knowledge-rich societies (e.g., 1930s Germany) suggests that a shared body of factual knowledge is an insufficient safeguard for democracy compared to institutional checks and balances or civic values.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C17",
+        "objection": "The widening gap in achievement (Matthew Effect) may be a product of specific pedagogical failures or social class biases in school testing rather than an inherent property of how knowledge is acquired.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C26",
+        "objection": "The 'nullification' of civil rights progress was caused by systemic underfunding of minority schools and the persistence of residential segregation, not by the specific pedagogical theory of 'all-purpose tools.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C32",
+        "objection": "A shared curriculum might impose a culturally biased 'intellectual currency' that marginalizes the home-based knowledge of minority groups, creating a different form of injustice.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C24",
+        "objection": "Metacognitive strategies (like self-monitoring and planning) are indeed 'all-purpose tools' that can be taught and applied across different subjects, even if factual knowledge is also necessary.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C47",
+        "objection": "Cultural and social diversity may require different pedagogical approaches or content to be relevant to students, and ignoring this in favor of 'academic background' risks marginalizing minority students.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C53",
+        "objection": "The 'funnel shape' of the achievement gap could be explained by the cumulative effect of socio-economic stress and lack of resources at home, rather than curricular incoherence in the classroom.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C61",
+        "objection": "The 'myth' of local curriculum overlooks the 'hidden curriculum' or informal professional alignment where teachers in the same grade level collaborate to ensure consistency without needing a thick state guide.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C68",
+        "objection": "Vague goals are not a failure of accountability but a deliberate choice to allow teachers to differentiate instruction for diverse student populations with varying prior knowledge.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C75",
+        "objection": "The 'strand' approach is designed to build conceptual depth over time; what Hirsch calls 'repetition' is actually 'scaffolding' intended to move students from novice to expert understanding.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C82",
+        "objection": "The 'fundamental weakness' identified is actually a strength of the American system: it allows for local democratic control and prevents a federalized, 'one-size-fits-all' intellectual monoculture.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C98",
+        "objection": "The claim ignores the 'word gap' and early childhood environmental factors (nutrition, stress, lead exposure) that create achievement gaps before a child ever interacts with a school curriculum.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C90",
+        "objection": "Standardizing literary content (specific books) risks excluding the diverse cultural heritages of students, whereas 'process-based' literacy skills are universal and culturally neutral.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C104",
+        "objection": "The academic failure of mobile students is primarily caused by the underlying trauma and instability of poverty that necessitates the move, not the change in curriculum content.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C116",
+        "objection": "Uniform curricula across all districts would prevent schools from tailoring education to the specific linguistic or cultural needs of local migrant populations.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C109",
+        "objection": "Mobility is not ignored due to 'taboos' but because schools have no power over economic housing policy, making it a problem that educators feel they cannot solve.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C122",
+        "objection": "Local autonomy is not just a 'principle' but a protection against federal overreach and ideological indoctrination that could occur if a single curriculum is mandated for the entire nation.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C127",
+        "objection": "If mobility is the primary driver of educational failure, it could be solved through better student record-keeping and diagnostic testing upon entry to a new school rather than imposing a rigid national curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C133",
+        "objection": "Even if the demographics of test-takers didn't change, the cultural value placed on the specific skills measured by the SAT may have declined, affecting motivation rather than the educational system's inherent quality.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C142",
+        "objection": "Small-scale research allows for 'randomized controlled trials' that isolate pedagogical variables more effectively than large-scale international comparisons, which are inherently 'messy' and correlational.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C155",
+        "objection": "Even with a core curriculum, advantaged parents will use their resources to provide 'supplemental capital' (tutoring, enrichment), ensuring that the gap remains or shifts to higher-order skills the school doesn't cover.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C159",
+        "objection": "The IEA report may reflect the specific socio-political stability of the core-curriculum nations (like Japan or Germany) rather than the curriculum itself; causality might flow from social stability to curriculum coherence, not vice-versa.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C166",
+        "objection": "The 'unbridgeable gap' by fourth grade may be the result of systemic underfunding of schools in low-income areas and racial segregation rather than just the content of the curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C171",
+        "objection": "Head Start's primary value is social and health-related; criticizing it for 'academic fade-out' ignores its successful delivery of pediatric care and nutrition which are prerequisites for any learning.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C185",
+        "objection": "The 'learning gap' between US and Asian students may be more attributable to cultural values regarding effort (the 'effort vs. ability' mindset), longer school years, or better teacher training rather than just the grade-by-grade specificity of the curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C190",
+        "objection": "Local control is not just a 'democratic virtue' but a protection against the 'whiplash' of national political shifts; a national curriculum could be captured by a single 'romantic-progressive' or 'reactionary' ideology, causing harm across the entire system simultaneously.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C182",
+        "objection": "Hirsch's use of 1925 Army Alpha test data (Bagley) to counter 1966 Coleman Report data is methodologically flawed because 1920s IQ tests were heavily biased toward school-taught knowledge by design, creating a circular proof.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Democratic Safeguard Chain",
+        "chain": [
+          "C6",
+          "C1",
+          "C4",
+          "C3"
+        ],
+        "conclusion_id": "C1",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice/Equality Chain",
+        "chain": [
+          "C8",
+          "C9",
+          "C7",
+          "C2"
+        ],
+        "conclusion_id": "C7",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Economic Imperative Chain",
+        "chain": [
+          "C13",
+          "C10",
+          "C15",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Accumulation Chain",
+        "chain": [
+          "C20",
+          "C19",
+          "C18",
+          "C17"
+        ],
+        "conclusion_id": "C17",
+        "strength": "strong"
+      },
+      {
+        "name": "The Social Justice Chain",
+        "chain": [
+          "C27",
+          "C28",
+          "C26",
+          "C21"
+        ],
+        "conclusion_id": "C21",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Science Chain",
+        "chain": [
+          "C33",
+          "C34",
+          "C35",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "strong"
+      },
+      {
+        "name": "The Classroom Efficiency Chain",
+        "chain": [
+          "C37",
+          "C38",
+          "C39",
+          "C32"
+        ],
+        "conclusion_id": "C32",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Logic of Grade-Level Readiness",
+        "chain": [
+          "C41",
+          "C42",
+          "C43",
+          "C44"
+        ],
+        "conclusion_id": "C43",
+        "strength": "strong"
+      },
+      {
+        "name": "The Structural Cause of the Achievement Gap",
+        "chain": [
+          "C45",
+          "C46",
+          "C50",
+          "C51",
+          "C52",
+          "C53"
+        ],
+        "conclusion_id": "C53",
+        "strength": "strong"
+      },
+      {
+        "name": "The Curricular Root of Student Disengagement",
+        "chain": [
+          "C57",
+          "C58",
+          "C54",
+          "C55",
+          "C56"
+        ],
+        "conclusion_id": "C56",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Curricular Incoherence Argument",
+        "chain": [
+          "C63",
+          "C64",
+          "C65",
+          "C61"
+        ],
+        "conclusion_id": "C61",
+        "strength": "strong"
+      },
+      {
+        "name": "The Accountability Breakdown Argument",
+        "chain": [
+          "C67",
+          "C69",
+          "C70",
+          "C68"
+        ],
+        "conclusion_id": "C68",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Structural Failure of Progressive Design",
+        "chain": [
+          "C79",
+          "C80",
+          "C74",
+          "C75"
+        ],
+        "conclusion_id": "C75",
+        "strength": "moderate"
+      },
+      {
+        "name": "Structural Failure of Conceptual Schemes",
+        "chain": [
+          "C81",
+          "C84",
+          "C85",
+          "C83",
+          "C82"
+        ],
+        "conclusion_id": "C82",
+        "strength": "strong"
+      },
+      {
+        "name": "Mechanics of Curricular Incoherence",
+        "chain": [
+          "C91",
+          "C94",
+          "C87",
+          "C86"
+        ],
+        "conclusion_id": "C86",
+        "strength": "moderate"
+      },
+      {
+        "name": "Curriculum as Social Justice",
+        "chain": [
+          "C94",
+          "C97",
+          "C98",
+          "C99"
+        ],
+        "conclusion_id": "C99",
+        "strength": "strong"
+      },
+      {
+        "name": "The Inequity of Mobility",
+        "chain": [
+          "C103",
+          "C105",
+          "C107",
+          "C104"
+        ],
+        "conclusion_id": "C104",
+        "strength": "strong"
+      },
+      {
+        "name": "The Case for Systemic Reform",
+        "chain": [
+          "C111",
+          "C112",
+          "C115",
+          "C114"
+        ],
+        "conclusion_id": "C114",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Civil Rights Solution",
+        "chain": [
+          "C114",
+          "C115",
+          "C116",
+          "C120"
+        ],
+        "conclusion_id": "C116",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Mobility-Fairness Chain",
+        "chain": [
+          "C131",
+          "C121",
+          "C127",
+          "C122"
+        ],
+        "conclusion_id": "C122",
+        "strength": "strong"
+      },
+      {
+        "name": "The Comparative Quality Chain",
+        "chain": [
+          "C135",
+          "C136",
+          "C138",
+          "C134",
+          "C125"
+        ],
+        "conclusion_id": "C125",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Public Mandate Chain",
+        "chain": [
+          "C126",
+          "C123",
+          "C124",
+          "C122"
+        ],
+        "conclusion_id": "C122",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Reliability of Scale",
+        "chain": [
+          "C141",
+          "C143",
+          "C144",
+          "C142"
+        ],
+        "conclusion_id": "C142",
+        "strength": "strong"
+      },
+      {
+        "name": "Curricular Determinism of Equity",
+        "chain": [
+          "C145",
+          "C148",
+          "C149",
+          "C159",
+          "C146"
+        ],
+        "conclusion_id": "C146",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Civil Rights Mechanism",
+        "chain": [
+          "C154",
+          "C155",
+          "C158",
+          "C156",
+          "C157"
+        ],
+        "conclusion_id": "C157",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Compensatory Power of Schools",
+        "chain": [
+          "C164",
+          "C177",
+          "C176",
+          "C165"
+        ],
+        "conclusion_id": "C165",
+        "strength": "strong"
+      },
+      {
+        "name": "The Mechanism of Achievement Gaps",
+        "chain": [
+          "C167",
+          "C168",
+          "C174",
+          "C166"
+        ],
+        "conclusion_id": "C166",
+        "strength": "moderate"
+      },
+      {
+        "name": "Head Start Failure and Reform",
+        "chain": [
+          "C170",
+          "C169",
+          "C175",
+          "C171"
+        ],
+        "conclusion_id": "C171",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Fairness Argument",
+        "chain": [
+          "C181",
+          "C184",
+          "C182",
+          "C190"
+        ],
+        "conclusion_id": "C190",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Dependency Chain",
+        "chain": [
+          "C189",
+          "C187",
+          "C185"
+        ],
+        "conclusion_id": "C185",
+        "strength": "strong"
+      },
+      {
+        "name": "The Mobility/Accountability Chain",
+        "chain": [
+          "C193",
+          "C191",
+          "C190"
+        ],
+        "conclusion_id": "C190",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.011377900000000002,
+    "duration_s": 162.64670658111572
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that the SAT decline is a consequence of the school revolution requires the existence of that revolution (the shift to child-centeredness)."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The assertion that schools moved from Enlightenment to Romanticism depends on the theoretical definition of those terms as 'Mirror' and 'Lamp'."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The 'Seedling' metaphor of Romanticism provides the conceptual framework for the 'Romantic approach' to education."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "The normative recommendation to return to the 'blank slate' is logically predicated on the idea that literacy is a cultural, not natural, achievement."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "The 'blank slate' is justified as a model because the 'mirror' (Enlightenment) approach is deemed necessary for high verbal scores."
+      },
+      {
+        "from_id": "C14",
+        "to_id": "C18",
+        "relationship": "depends-on",
+        "explanation": "To claim Romanticism replaced Enlightenment ideas, one must first define Romantic education as being based on internal natural growth rather than external instruction."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C18",
+        "relationship": "supports",
+        "explanation": "The widespread use of botanical metaphors by educators after the 1940s is used as evidence that Romanticism had become the dominant pedagogical framework."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "If writing systems are human-made cultural artifacts, it follows that they cannot be acquired through biological maturation alone."
+      },
+      {
+        "from_id": "C22",
+        "to_id": "C20",
+        "relationship": "supports",
+        "explanation": "The lack of innate cultural knowledge necessitates external instruction for a child to acquire it."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C23",
+        "relationship": "depends-on",
+        "explanation": "The scientific accuracy of the blank slate metaphor regarding culture depends on the fact that literacy and lore are not biological/natural developments."
+      },
+      {
+        "from_id": "C23",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The author argues that because the blank slate is the correct model for learning culture, adopting it will effectively allow schools to build the shared knowledge necessary for national unity."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C1",
+        "warrant_text": "If a major pedagogical shift (1940s) immediately precedes a long-term decline in outcomes (SATs), and no other variable is deemed as significant, the pedagogical shift is the causal agent.",
+        "is_explicit": false,
+        "vulnerability": "Post hoc ergo propter hoc fallacy; it ignores massive demographic shifts in the test-taking population over those decades."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E6",
+        "claim_id": "C30",
+        "warrant_text": "Because writing systems are diverse, arbitrary, and non-biological inventions, they cannot be acquired through natural maturation or instinct.",
+        "is_explicit": true,
+        "vulnerability": "A critic might argue that while the 'code' is cultural, the capacity for symbolic pattern recognition is an innate biological 'nature' that can be nurtured."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E2",
+        "claim_id": "C2",
+        "warrant_text": "Physical space and furniture layout are direct expressions of underlying educational philosophy and power dynamics.",
+        "is_explicit": true,
+        "vulnerability": "Changes in furniture might be driven by ergonomic trends or fire codes rather than a deep philosophical shift to Romanticism."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E3",
+        "claim_id": "C5",
+        "warrant_text": "Theoretical shifts in high-culture domains (like literary criticism) reflect and influence the broader intellectual climate of an era, including education.",
+        "is_explicit": false,
+        "vulnerability": "Intellectual trends in university English departments (The Lamp) may not accurately describe the practical motivations of elementary school administrators."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C16",
+        "claim_id": "C18",
+        "warrant_text": "Changes in the metaphors and physical organization of a classroom (furniture, botanical language) are reliable indicators of a shift in the underlying philosophical framework of the practitioners.",
+        "is_explicit": true,
+        "vulnerability": "Changes in classroom aesthetics or jargon may be superficial trends that do not reflect a deep change in actual instructional methods or philosophical commitment."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C21",
+        "claim_id": "C20",
+        "warrant_text": "Human artifacts, unlike biological traits, cannot be 'unfolded' from within and must be transmitted through social interaction and deliberate teaching.",
+        "is_explicit": false,
+        "vulnerability": "Some cultural artifacts (like spoken language or basic tool use) are acquired through immersion and imitation without formal 'instruction,' challenging the sharp divide between 'natural' and 'artifactual' learning."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C5",
+        "to_id": "C4",
+        "missing_step": "Proof that elementary school teachers and curriculum designers in the 1940s actually read or were influenced by the Romantic literary theory described by Abrams.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C26",
+        "missing_step": "Establishing that lower verbal SAT scores are a primary driver of 'national disunity' and 'debased politics' rather than vice versa.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C30",
+        "to_id": "C31",
+        "missing_step": "Demonstrating that the 'Blank Slate' is the only viable model for cultural instruction, rather than a middle ground that acknowledges both innate cognitive structures and cultural content.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C23",
+        "to_id": "C24",
+        "missing_step": "A shared curriculum based on the blank slate model will necessarily include content that promotes 'unity' and 'patriotism' rather than content that is divisive or purely technical.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C20",
+        "to_id": "C23",
+        "missing_step": "The fact that cultural knowledge is not innate means the mind has no pre-existing structures or biases that influence how that knowledge is received and organized.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C1",
+        "objection": "The decline in SAT scores is better explained by the 'democratization' of the test, as a much larger and more diverse pool of students (not just the elite) began taking the SAT after WWII.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C31",
+        "objection": "Modern cognitive science has largely debunked the 'Blank Slate' (Tabula Rasa) in favor of 'Innate Modules' or 'Universal Grammar,' making a return to the Lockeian metaphor scientifically inaccurate.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C9",
+        "objection": "Whole-class instruction can be the 'least fair' method for students who learn at different paces, potentially leaving struggling students behind and boring advanced ones.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C18",
+        "objection": "The decline in SAT scores and shift in classroom layout could be attributed to socioeconomic changes, the baby boom, or increased secondary school enrollment rather than a philosophical shift to Romanticism.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C23",
+        "objection": "Modern cognitive science largely rejects the 'blank slate' (tabula rasa) model in favor of 'modular' theories of the mind which possess innate predispositions for categorizing information, even if specific cultural facts are not inborn.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C24",
+        "objection": "Forced national unity through a 'mirror' curriculum could suppress minority perspectives and create resentment rather than true patriotism, potentially undermining national unity.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Historical Decline Narrative",
+        "chain": [
+          "C4",
+          "C2",
+          "C1"
+        ],
+        "conclusion_id": "C1",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Literacy via Culture Argument",
+        "chain": [
+          "C29",
+          "E6",
+          "C30"
+        ],
+        "conclusion_id": "C30",
+        "strength": "strong"
+      },
+      {
+        "name": "The Philosophical Pivot",
+        "chain": [
+          "C5",
+          "C12",
+          "C13",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Shift to Romanticism",
+        "chain": [
+          "C14",
+          "C16",
+          "C17",
+          "C18"
+        ],
+        "conclusion_id": "C18",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Necessity of Instruction",
+        "chain": [
+          "C21",
+          "C22",
+          "C20",
+          "C23"
+        ],
+        "conclusion_id": "C23",
+        "strength": "strong"
+      },
+      {
+        "name": "Social Impact of Pedagogical Models",
+        "chain": [
+          "C23",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "weak"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0016627,
+    "duration_s": 28.18638801574707
+  }
+}

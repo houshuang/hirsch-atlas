@@ -1,0 +1,550 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C3",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "The normative claim that education should prioritize society over the individual is grounded in the empirical claim that cooperative groups have an evolutionary advantage over individuals."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "If the nation-state is the primary source of morality and social unity, then the goal of education must be to sustain that unit."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C6",
+        "relationship": "supports",
+        "explanation": "The stability of the nation-state (C5) provides the framework within which shared print languages and cultures function to create psychological bonds (C6)."
+      },
+      {
+        "from_id": "C20",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The biological capacity of the brain to form powerful societies is the mechanism that allows shared school cultures to create membership bonds."
+      },
+      {
+        "from_id": "C17",
+        "to_id": "C11",
+        "relationship": "supports",
+        "explanation": "The universal nature of American ideals supports the idea that the nation is a social creation based on ideology rather than inherited traits like blood."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C14",
+        "relationship": "depends-on",
+        "explanation": "If the US is uniquely defined by shared adherence to an ideology (C11), then abandoning the patriotism that celebrates that ideology is an ethical failure (C14)."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "If the nation is the primary modern source of morality, then rejecting the nation's unifying principles (patriotism) constitutes a moral regression."
+      },
+      {
+        "from_id": "C16",
+        "to_id": "C14",
+        "relationship": "supports",
+        "explanation": "The lack of other unifying mechanisms (like a national religion) makes the preservation of national patriotism a moral necessity."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C23",
+        "relationship": "supports",
+        "explanation": "By establishing that patriotism does not exclude respect for other nations, the author removes a logical barrier to claiming patriotism leads to global citizenship."
+      },
+      {
+        "from_id": "C29",
+        "to_id": "C23",
+        "relationship": "depends-on",
+        "explanation": "Patriotism serves as a conduit for global citizenship because it translates abstract 'mankind' sentiments into emotional, concrete actions."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C24",
+        "relationship": "depends-on",
+        "explanation": "The pragmatic necessity of schools teaching patriotism depends on the theoretical claim that societies require moral obligation for health."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "If schools must define social morality in the absence of a national religion, then they are the primary agents for imparting patriotic obligation."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C34",
+        "relationship": "depends-on",
+        "explanation": "National allegiance requires the transmission of 'tribal' language and customs, which is the primary mechanism of schooling."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C34",
+        "relationship": "supports",
+        "explanation": "The necessity of schools as the 'welding' agent depends on the idea that emotional commitment must be formed in early childhood."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C39",
+        "relationship": "instantiates",
+        "explanation": "The evolutionary mechanism of 'nationalizing' humans into groups provides the biological/theoretical basis for defining 'American' as a functional ethnicity."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "If 'American' is an ethnicity, then the elementary school's duty is not just teaching skills but full-scale ethnic enculturation."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C41",
+        "relationship": "supports",
+        "explanation": "If hyphenated identities racialize the term 'American' to mean 'white,' then removing them is necessary to make the public sphere truly inclusive."
+      },
+      {
+        "from_id": "C46",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "The claim that 'American' is an ethnicity depends on the theoretical distinction between race (biological) and culture (learned)."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C43",
+        "relationship": "depends-on",
+        "explanation": "The obligation of schools to 'write' culture onto students assumes the human brain is a receptive blank slate capable of being rewritten."
+      },
+      {
+        "from_id": "C41",
+        "to_id": "C43",
+        "relationship": "supports",
+        "explanation": "If the public sphere must be unhyphenated, schools are the logical institution to provide the shared culture that replaces those hyphens."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C48",
+        "relationship": "supports",
+        "explanation": "If teachers are the 'makers' of a child's nature, they are naturally the agents responsible for inscribing national culture."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "Equality of opportunity (The American Dream) requires effective communication, which in turn requires shared knowledge."
+      },
+      {
+        "from_id": "C61",
+        "to_id": "7.C57",
+        "relationship": "supports",
+        "explanation": "By defining the 'benefit of bigness' as safety and prosperity, it provides a functional justification for why the modern nation-state remains the necessary limit of social organization."
+      },
+      {
+        "from_id": "C63",
+        "to_id": "1.C1",
+        "relationship": "supports",
+        "explanation": "Establishing that a unified nation requires both competence and community provides the necessary conditions for the survival of the United States."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "1.C6",
+        "relationship": "instantiates",
+        "explanation": "This specifies the technological and cultural mechanisms (print and national languages) that allow the 'speech community' mentioned in previous claims to function across large distances."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C63",
+        "relationship": "refines",
+        "explanation": "By offering 'kindness' as a translation for 'fraternité', the author provides a specific, ungendered conceptual framework for the 'sense of community' required in C63."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "2.C12",
+        "relationship": "responds-to",
+        "explanation": "C62 calls for action against the very phenomenon described in 2.C12 (teachers becoming the determiners of curriculum due to vague standards)."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "1.C121",
+        "relationship": "supports",
+        "explanation": "Reviving the nation-sustaining enterprise of teaching requires relieving teachers of the burden of individual curriculum design so they can focus on 'citizen making'."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E11",
+        "claim_id": "C3",
+        "warrant_text": "Principles of evolutionary biology and group selection are applicable to the evaluation of modern social institutions and educational goals.",
+        "is_explicit": false,
+        "vulnerability": "Biological evolution operates over much longer timescales than social history, and 'survival' is not the same as 'ethical flourishing.'"
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E5",
+        "claim_id": "C11",
+        "warrant_text": "A nation's identity must be derived either from inherited traits or from intentional social constructs; if it lacks the former, it must rely on the latter.",
+        "is_explicit": true,
+        "vulnerability": "It ignores the role of geography, economic interest, or historical inertia in holding a nation together without a shared 'social creation' ideology."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E1",
+        "claim_id": "C9",
+        "warrant_text": "The stability of a democratic republic depends on its laws being elevated to a status of unquestionable, sacred authority similar to religious tenets.",
+        "is_explicit": true,
+        "vulnerability": "A 'civil religion' with absolute authority could be used to suppress legitimate dissent or justify state-sponsored injustices in the name of 'reverence.'"
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E13",
+        "claim_id": "C14",
+        "warrant_text": "Literary archetypes of cooperation (like the crew in Moby Dick) serve as valid models for how diverse populations must function within a modern nation.",
+        "is_explicit": false,
+        "vulnerability": "Artistic metaphors of unity do not account for the structural power imbalances or historical grievances that make national unity difficult in practice."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Ravitch's historical argument about the US being a 'social creation'",
+        "claim_id": "C24",
+        "warrant_text": "A nation that is not held together by ancient ties of blood or religion requires a deliberate, shared intellectual and emotional project to maintain its existence.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that shared 'ideology' is sufficient to bind a people without the traditional markers of nationhood (long history, shared territory)."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Roosevelt's quote comparing love for family to love for neighbors",
+        "claim_id": "C23",
+        "warrant_text": "Human empathy and social duty are developed in concentric circles; the capacity for universal concern is built upon the practice of local and national concern.",
+        "is_explicit": false,
+        "vulnerability": "Psychological evidence suggests group loyalty often creates 'out-group' hostility rather than 'neighborly' expansion."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "Harari's Sapiens argument on evolutionary devices",
+        "claim_id": "C34",
+        "warrant_text": "If large-scale cooperation is an evolutionary advantage, the cultural mechanisms (schools) that create that cooperation are functionally necessary for group survival.",
+        "is_explicit": false,
+        "vulnerability": "Evolutionary mechanisms for group survival often operate on small, kinship-based scales, not necessarily multi-million person nations."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C42",
+        "claim_id": "C45",
+        "warrant_text": "Terms that are racialized create exclusion; redefining them as cultural/ethnic categories allows for universal participation.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that 'American' as an ethnicity still centers Anglo-Protestant norms, effectively remaining 'white' despite the name change."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C58",
+        "claim_id": "C57",
+        "warrant_text": "If the founding principles were intended to be universal across races, then providing the cultural tools to access those principles is a requirement for justice.",
+        "is_explicit": false,
+        "vulnerability": "The historical intent of Northern thinkers may not reflect the systemic reality of how those principles were applied or withheld."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C51",
+        "claim_id": "C55",
+        "warrant_text": "Professional dissatisfaction and 'despair' are caused by lack of clarity and excessive individual burden; a shared content sequence provides the necessary structure to restore professional dignity.",
+        "is_explicit": true,
+        "vulnerability": "Teachers might find a rigid, 'exact' content sequence to be a further reduction of their professional autonomy rather than a solution to despair."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "7",
+        "claim_id": "C62",
+        "warrant_text": "If a professional group experiences significant despair due to systemic task-overload (individual curriculum design), they have a collective responsibility to advocate for a structural change that restores professional coherence.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that curriculum design is the primary cause of teacher despair, rather than stagnant wages, high-stakes testing, or student behavioral issues."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "6",
+        "claim_id": "C63",
+        "warrant_text": "Social groups function most effectively when members operate as part of a collective identity ('Americans') rather than a collection of competing interest groups.",
+        "is_explicit": true,
+        "vulnerability": "Ignores potential benefits of 'agonistic' democracy where the friction between different interest groups leads to progress and protection of minority rights."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C3",
+        "to_id": "C4",
+        "missing_step": "The fact that group cooperation is an evolutionary advantage implies that the primary purpose of a modern educational institution *should* be to perpetuate that group.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C6",
+        "to_id": "C12",
+        "missing_step": "National print languages and shared cultures cannot be maintained through organic social interaction or media alone and require the formal intervention of public schools.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C11",
+        "to_id": "C14",
+        "missing_step": "Patriotism is the only or best way to maintain adherence to the 'democratic ideology' that defines the American social creation.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C37",
+        "to_id": "C39",
+        "missing_step": "A shared language and democratic principles are sufficient conditions to constitute a distinct 'ethnicity.'",
+        "step_type": "definition_shift",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C24",
+        "to_id": "C40",
+        "missing_step": "The government (via public schools) has the moral authority to define and prioritize a specific 'American ethnicity' over the diverse cultural/ethnic identities of parents.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C41",
+        "to_id": "C43",
+        "missing_step": "A demonstration that teaching a 'shared culture' does not involve the suppression of the very minority cultures the author claims should 'bloom' in private.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C45",
+        "to_id": "C41",
+        "missing_step": "Evidence that unhyphenated national identity actually leads to better communication outcomes compared to multi-ethnic pluralism.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C47",
+        "to_id": "C50",
+        "missing_step": "Biological/psychological evidence that cultural 'writing' during elementary school is permanent or overrides earlier familial/community socialization.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "8.C27",
+        "missing_step": "Establishing that state-mandated content sequences would actually reduce teacher workload rather than adding a new layer of administrative compliance and bureaucracy.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C63",
+        "to_id": "C61",
+        "missing_step": "A bridge explaining why 'community' specifically—rather than just 'efficient management'—is a requirement for the safety and prosperity of a large group.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C4",
+        "objection": "The primary goal of education in a liberal democracy should be the cultivation of individual autonomy and critical thinking, which allows citizens to critique and improve society, rather than merely ensuring its durability.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "The claim that the US is purely an 'ideological creation' ignores centuries of legal and social structures (such as the 1790 Naturalization Act) that explicitly favored specific 'blood and religion' categories (white Christians).",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C14",
+        "objection": "The shift away from national patriotism toward 'cosmopolitanism' or global citizenship is a moral advance because it recognizes human rights and environmental needs that transcend national borders.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C39",
+        "objection": "Defining 'American' as an 'ethnicity' (ethnos) rather than a 'civic identity' (demos) risks exclusionary nationalism and alienates those who identify with hyphenated identities or dual heritages.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C23",
+        "objection": "Historical evidence suggests that heightened national patriotism frequently leads to international conflict and zero-sum competition rather than becoming a 'citizen of the world.'",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C40",
+        "objection": "In a pluralistic society, schools should aim for 'neutrality' or 'multicultural awareness' rather than active enculturation into a singular national ethnicity which might suppress minority perspectives.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C41",
+        "objection": "Forcing a 'colorblind' unhyphenated identity in the public sphere ignores the reality of systemic racism, which continues to affect citizens regardless of how they identify.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C43",
+        "objection": "Defining a 'specific' American culture is a value-laden political act; in a pluralistic society, no single group or state has the neutral authority to decide what that culture consists of.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C47",
+        "objection": "The 'blank slate' model of the brain is outdated; modern neuroscience suggests complex interactions between genetic predispositions and environment, meaning nature cannot be simply 'remade' by teachers.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C62",
+        "objection": "Individual curriculum design is often viewed by teachers as a core part of their professional autonomy and pedagogical 'artistry'; removing it might decrease job satisfaction for many educators who value creative control.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C63",
+        "objection": "A modern nation can be unified through 'procedural' or 'constitutional' patriotism—allegiance to laws and democratic processes—without requiring a shared 'ethnos' or cultural commonality.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Evolutionary and Social Utility of Education",
+        "chain": [
+          "C3",
+          "C5",
+          "C20",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "moderate"
+      },
+      {
+        "name": "Language and Culture as National Glue",
+        "chain": [
+          "C18",
+          "C19",
+          "C6",
+          "C13",
+          "C12"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "The Ethical Imperative of American Patriotism",
+        "chain": [
+          "C11",
+          "C17",
+          "C15",
+          "C16",
+          "C14"
+        ],
+        "conclusion_id": "C14",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Concentric Circles of Citizenship",
+        "chain": [
+          "C29",
+          "C26",
+          "C23"
+        ],
+        "conclusion_id": "C23",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Evolutionary Necessity of Patriotic Schooling",
+        "chain": [
+          "C30",
+          "C33",
+          "C31",
+          "C34"
+        ],
+        "conclusion_id": "C34",
+        "strength": "strong"
+      },
+      {
+        "name": "Americanism as a Learned Ethnos",
+        "chain": [
+          "C37",
+          "C39",
+          "C24",
+          "C40"
+        ],
+        "conclusion_id": "C40",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Unhyphenated Identity Path",
+        "chain": [
+          "C42",
+          "C46",
+          "C45",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Educational Guardianship Path",
+        "chain": [
+          "C47",
+          "C50",
+          "C48",
+          "C43",
+          "C52"
+        ],
+        "conclusion_id": "C43",
+        "strength": "strong"
+      },
+      {
+        "name": "The Foundation of Democracy Path",
+        "chain": [
+          "C44",
+          "C56",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "strong"
+      },
+      {
+        "name": "The Teacher as Guardian",
+        "chain": [
+          "2.C12",
+          "C62",
+          "1.C121",
+          "8.C41"
+        ],
+        "conclusion_id": "8.C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Technology of Nationhood",
+        "chain": [
+          "C64",
+          "C61",
+          "C63",
+          "1.C1"
+        ],
+        "conclusion_id": "1.C1",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0056992,
+    "duration_s": 73.07841777801514
+  }
+}

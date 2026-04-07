@@ -1,0 +1,92 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author distinguishes between the 'direct' and 'indirect' power of shared background knowledge. Direct power is the student's own ability to make inferences (near transfer), whereas indirect power is the ability of the teacher to communicate complex ideas via shared reference points (far transfer).",
+        "source_passage": "George A. Miller’s discussion of that key subject is worth quoting in full since it explains the indirect educational power of shared background knowledge as well as its direct power.",
+        "importance": "significant",
+        "suggested_claim": "The educational efficacy of shared knowledge is bifurcated into direct cognitive benefits for the student and indirect communicative benefits for the teacher.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the specific need for a teacher to communicate with an entire group simultaneously is what necessitates thematic commonality, regardless of individual learning mechanics.",
+        "source_passage": "But teachers are greatly helped in communicating with the class when the whole class shares a lot of the same knowledge... This pedagogical consideration alone argues for thematic commonality in the subject matter of early schooling!",
+        "importance": "critical",
+        "suggested_claim": "The requirement for efficient group instruction (pedagogical communication) necessitates a standardized, common curriculum to ensure metaphors and analogies are universally understood within a classroom.",
+        "suggested_claim_level": "pragmatic"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C17",
+        "problem": "The use of the word 'exclusively' overstates Herbart's and the author's claim, which is presented as a general principle or 'general claim' rather than an absolute exclusion of other learning types.",
+        "source_passage": "If I understand Herbart correctly, his general claim was that new things are learned by being related to things already known",
+        "suggested_fix": "New information is primarily learned by being related to things the learner already knows (the principle of apperception)."
+      },
+      {
+        "claim_id": "C20",
+        "problem": "The claim turns a metaphor into a definition. The author says the 'force' of shared knowledge is brought down to the atomic level, not that the knowledge itself is the atomic level.",
+        "source_passage": "This is the force of shared background knowledge brought down to the atomic level – and is the more powerful for that.",
+        "suggested_fix": "The mechanism of relating new information to shared background knowledge represents the fundamental, 'atomic' unit of educational progress."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E3",
+        "claim_id": "C13",
+        "missing_warrant": "Classroom instruction is a collective rather than purely individual activity; therefore, the tools of instruction (like metaphor) must rely on knowledge that is shared by the collective to be effective."
+      },
+      {
+        "evidence_id": "E1",
+        "claim_id": "C3",
+        "missing_warrant": "Sequential topic study creates a cumulative 'schema' that reduces the cognitive load required to process new, related information."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C13",
+        "counter_argument": "The 'commonality' requirement may enforce a cultural hegemony that excludes the diverse background knowledge of students from non-dominant cultural backgrounds, making the teacher's 'shared' metaphors incomprehensible to them.",
+        "why_important": "This is the standard critique of Hirsch's Core Knowledge approach and addresses the potential for 'shared knowledge' to be exclusionary rather than enabling."
+      },
+      {
+        "targets_claim": "C10",
+        "counter_argument": "If 'far transfer' always requires a teacher, it may not be 'transfer' in the cognitive sense (the independent application of knowledge) but rather simply a new instance of direct instruction.",
+        "why_important": "It challenges the definition of 'transfer' which the author calls the 'gold prize' of learning."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C6",
+          "C8"
+        ],
+        "action": "merge",
+        "explanation": "C6 (thematic instruction helps transfer) and C8 (shared knowledge is an instrument of transfer) are functionally the same argument within the context of the Kim study results."
+      },
+      {
+        "claim_ids": [
+          "C11",
+          "C25"
+        ],
+        "action": "merge",
+        "explanation": "C25 is simply the specific explanation of why C11 is true; they describe the same pragmatic benefit for teachers."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 2,
+      "summary": "The extraction is highly detailed but misses the author's crucial distinction between the 'direct' power of knowledge for the student and the 'indirect' power for the teacher's communication. It also tends to convert the author's rhetorical metaphors into literal definitions. The structural dependencies are well-mapped, but the normative leap from 'shared knowledge is useful' to 'national curriculum is necessary' needs more critical interrogation in the counter-arguments."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0009787,
+    "input_tokens": 4755,
+    "output_tokens": 1258,
+    "duration_s": 14.331481218338013,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

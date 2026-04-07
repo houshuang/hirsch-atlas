@@ -1,0 +1,658 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C2",
+        "to_id": "C1",
+        "relationship": "depends-on",
+        "explanation": "The claim that liberalism requires linguistic conservatism rests on the premise that equality and unity are functionally impossible without linguistic commonality."
+      },
+      {
+        "from_id": "C3",
+        "to_id": "C1",
+        "relationship": "opposes",
+        "explanation": "Romantic individualism is presented as the antithesis of the universalist commonality required for political liberalism."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "If people are to rule, they need a common currency of mastery; this is predicated on the idea that political equality depends on linguistic equality."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C6",
+        "relationship": "depends-on",
+        "explanation": "The dependence of linguistic equality on shared knowledge is derived from the definition of language mastery as including unstated background knowledge."
+      },
+      {
+        "from_id": "C9",
+        "to_id": "C8",
+        "relationship": "supports",
+        "explanation": "The general principle that communication requires shared knowledge supports the specific definition of literacy as encompassing implicit background information."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C13",
+        "relationship": "supports",
+        "explanation": "Evidence that early test scores predict future income provides an empirical basis for the claim that the grapholect is the primary route to economic equality."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C13",
+        "relationship": "depends-on",
+        "explanation": "The necessity of the grapholect for fairness assumes that a lack of background knowledge constitutes an insurmountable barrier to opportunity."
+      },
+      {
+        "from_id": "C19",
+        "to_id": "C14",
+        "relationship": "refines",
+        "explanation": "The author clarifies that including diverse content ('tokenism') is a strategy to achieve the welcoming environment needed to teach the standard grapholect."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C24",
+        "relationship": "supports",
+        "explanation": "The economic correlation of the 'grapholect' provides a pragmatic justification for why shared background knowledge must be normalized across citizens."
+      },
+      {
+        "from_id": "C27",
+        "to_id": "C26",
+        "relationship": "instantiates",
+        "explanation": "The success of Lyles-Crouch serves as the empirical proof that regular public schools (not just charters) can succeed with this model."
+      },
+      {
+        "from_id": "C31",
+        "to_id": "C29",
+        "relationship": "depends-on",
+        "explanation": "The claim that constructivism is damaging depends on the theoretical premise that the 'general skills' it purports to teach do not actually exist."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "If reading comprehension is culture-specific (content-dependent), it follows that it cannot be a 'general' or universal cognitive skill."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C37",
+        "relationship": "refines",
+        "explanation": "Connects the theoretical errors of education to the political utility they provide for state officials avoiding controversy."
+      },
+      {
+        "from_id": "C36",
+        "to_id": "C35",
+        "relationship": "supports",
+        "explanation": "The negative effect of classroom isolation caused by vague guidelines necessitates a definite curriculum framework."
+      },
+      {
+        "from_id": "C38",
+        "to_id": "C40",
+        "relationship": "depends-on",
+        "explanation": "The theoretical superiority of the shared-knowledge model relies on the foundational premise that national cohesion itself depends on shared knowledge."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "If skills are domain-specific (C47), then reading comprehension cannot be a domain-independent general skill (C44)."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C45",
+        "relationship": "depends-on",
+        "explanation": "The dependence of the national grapholect on shared knowledge (C43) provides the theoretical basis for literacy being culture-specific (C45)."
+      },
+      {
+        "from_id": "C48",
+        "to_id": "C51",
+        "relationship": "instantiates",
+        "explanation": "C51 elevates the empirical observation of curriculum patterns (C48) into a universal principle for all modern literate nations."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "Because systematic shared knowledge is the universal key to success (C51), it follows that the state, as the provider of education, has a duty to define it (C57)."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C57",
+        "relationship": "responds-to",
+        "explanation": "The call for states to define content (C57) is a direct response to the failure of current vague, skill-based standards (C50)."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C52",
+        "relationship": "supports",
+        "explanation": "If shared knowledge is a democratic right for all (C60), then rejecting it is an economic injustice (C52)."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "If expert writing relies on specific assumed background knowledge, then tests of that writing necessarily measure whether the reader possesses that specific knowledge."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C62",
+        "relationship": "depends-on",
+        "explanation": "Scientific consensus on 'shared intentionality' as a prerequisite for speech understanding supports the claim that reading comprehension is not an abstract skill but a knowledge-dependent act."
+      },
+      {
+        "from_id": "C62",
+        "to_id": "C63",
+        "relationship": "depends-on",
+        "explanation": "If reading tests are actually knowledge tests, it follows logically that testing children on knowledge they were never taught in the curriculum is a measure of their home background rather than school effectiveness."
+      },
+      {
+        "from_id": "C64",
+        "to_id": "C61",
+        "relationship": "depends-on",
+        "explanation": "Because mastery of the grapholect is essential for democratic participation, the state (which is constitutionally responsible for education) must ensure the curriculum facilitates this mastery through specific sequences."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C74",
+        "relationship": "supports",
+        "explanation": "The building of confidence through linguistic competence provides the psychological foundation for moving from self-concern to national empathy."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C71",
+        "relationship": "depends-on",
+        "explanation": "The author's claim that child-centeredness hurts cohesion rests on the premise that it fails to build the academic competence and empathy necessary for true patriotism."
+      },
+      {
+        "from_id": "C78",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "The ability to recognize what a writer is 'taking for granted' allows a citizen to see through manipulative rhetoric that relies on unstated or false premises."
+      },
+      {
+        "from_id": "2.C88",
+        "to_id": "C81",
+        "relationship": "depends-on",
+        "explanation": "Statewide assessment systems (C81) are logically dependent on the first element of the Shanker Principle: the establishment of specific grade-by-grade topic sequences (2.C88)."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "5.C60",
+        "relationship": "supports",
+        "explanation": "Implementing statewide assessment systems ensures that schools fulfill their duty to provide all pupils with the interpretive knowledge required for citizenship."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C81",
+        "relationship": "supports",
+        "explanation": "The reality of student mobility necessitates the statewide consistency that standardized curriculum-based assessments are designed to enforce."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "1.C19",
+        "relationship": "supports",
+        "explanation": "Statewide assessments are the mechanism for ensuring the universal high literacy necessary for a functioning democracy."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C2",
+        "warrant_text": "Historical precedents of successful nation-building via linguistic standardization (like Napoleon's) serve as valid models for modern democratic social cohesion.",
+        "is_explicit": true,
+        "vulnerability": "Nationalistic linguistic standards used by emperors for top-down control may not translate to the organic requirements of a modern pluralistic democracy."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E3",
+        "claim_id": "C11",
+        "warrant_text": "Strong statistical correlations between adolescent verbal aptitude and adult income imply that the specific linguistic content of the test is the causal driver of economic success.",
+        "is_explicit": false,
+        "vulnerability": "Correlation is not causation; scores may be a proxy for other variables like inherited wealth, social networking, or institutional access."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E5",
+        "claim_id": "C6",
+        "warrant_text": "High consumer demand (charter school lotteries) for a specific educational model proves that the model's underlying cognitive theory is the correct path to social equality.",
+        "is_explicit": false,
+        "vulnerability": "Parental desperation in under-served areas may drive demand for any perceived 'better' option, regardless of whether the specific theory of 'shared knowledge' is the mechanism of success."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E20",
+        "claim_id": "C9",
+        "warrant_text": "Scientific findings regarding human cooperation and 'shared intentionality' at a biological level scale up to justify specific national curricular mandates.",
+        "is_explicit": true,
+        "vulnerability": "The biological capacity for shared intention does not necessarily dictate that a specific, centralized national curriculum is the only way to achieve it."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C21",
+        "claim_id": "C24",
+        "warrant_text": "Economic success and social participation in a modern nation require standardized tools; just as language must be standardized, the knowledge required to use that language must also be standardized.",
+        "is_explicit": true,
+        "vulnerability": "Assumes that economic success is the primary metric for educational 'normalization' and that standardized knowledge is the only path to it."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C27",
+        "claim_id": "C26",
+        "warrant_text": "If a single standard public school can overcome bureaucratic vagueness to achieve high scores using a specific curriculum, the curriculum—not the school's legal status—is the causal factor.",
+        "is_explicit": false,
+        "vulnerability": "The success might be due to exceptional leadership (a 'brave principal') rather than the curriculum itself (the 'hero principal' variable)."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C30",
+        "claim_id": "C29",
+        "warrant_text": "Educational practices that lack the consensus of mainstream science and fail to produce egalitarian results are by definition 'damaging.'",
+        "is_explicit": true,
+        "vulnerability": "Mainstream scientific consensus in education is often slow-moving or subject to paradigm shifts; 'damaging' is a value judgment based on a specific set of test-score outcomes."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C47",
+        "claim_id": "C44",
+        "warrant_text": "If a complex cognitive task requires specific domain knowledge to execute, it cannot be categorized as an all-purpose, content-neutral skill.",
+        "is_explicit": true,
+        "vulnerability": "Cognitive tasks may involve a hybrid of domain-specific knowledge and general executive functions (like working memory management) that the author dismisses."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C53",
+        "claim_id": "C51",
+        "warrant_text": "Pedagogical success in geographically and culturally disparate nations (Norway, Nigeria) indicates a universal cognitive law rather than a local cultural preference.",
+        "is_explicit": false,
+        "vulnerability": "Success in different nations might stem from different variables, such as teacher quality or social stability, rather than the 'shared knowledge' principle itself."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C55",
+        "claim_id": "C54",
+        "warrant_text": "Success of minority students within a specific curricular framework (Core Knowledge) proves the framework's effectiveness for that demographic group.",
+        "is_explicit": true,
+        "vulnerability": "Selection bias: families who choose Core Knowledge schools may be more engaged, which could account for the achievement gap closure."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C77",
+        "claim_id": "C62",
+        "warrant_text": "If cognitive science shows that 'general skills' do not exist, then any test that appears to measure a general skill (like reading) must actually be measuring the underlying domain-specific knowledge applied during the task.",
+        "is_explicit": true,
+        "vulnerability": "Psychometricians argue that 'g' (general intelligence) or verbal fluid intelligence can be measured across diverse texts regardless of specific domain knowledge."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C75",
+        "claim_id": "C61",
+        "warrant_text": "The existence of a common standard language in all successful modern nations implies that such a standard is a functional necessity for a state's survival and success.",
+        "is_explicit": false,
+        "vulnerability": "Correlation is not causation; nations may have common languages for historical reasons (colonialism, trade) rather than centralized educational mandates."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C80",
+        "claim_id": "C71",
+        "warrant_text": "If human communication requires 'shared intentionality,' then educational methods that prioritize individualistic 'unfolding' over shared content directly undermine the biological and social basis for community cohesion.",
+        "is_explicit": true,
+        "vulnerability": "Shared intentionality may be an innate human capacity that develops through any social interaction, not just through a specific academic curriculum."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "Daniel Willingham/Michael Tomasello quotes: 'A reading test is a knowledge test in disguise.'",
+        "claim_id": "C81",
+        "warrant_text": "If reading tests primarily measure background knowledge rather than abstract skills, then tests must be aligned with a specific, taught curriculum to be valid and fair measures of school effectiveness.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that standardized tests can never fully capture the breadth of a child's knowledge or that 'knowledge' is too broad to be accurately sampled by a single state exam."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "Constitutional obligation of states to educate.",
+        "claim_id": "C81",
+        "warrant_text": "The legal responsibility for education resides with the state, and therefore the state is the appropriate level of government to standardize both what is taught and how it is assessed.",
+        "is_explicit": true,
+        "vulnerability": "This conflicts with the American tradition of local control, where local school boards often claim the primary right to determine curriculum and assessment."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C11",
+        "to_id": "C13",
+        "missing_step": "Establishing that the AFQT primarily measures 'shared background knowledge' rather than abstract reasoning or cognitive speed.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C4",
+        "to_id": "C13",
+        "missing_step": "Evidence that mastering the 'grapholect' actually overrides systemic racial or class-based discrimination in the labor market.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C27",
+        "to_id": "C26",
+        "missing_step": "The success of one school under a specific 'brave principal' can be replicated across thousands of average schools with average leadership.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C31",
+        "to_id": "C35",
+        "missing_step": "A state-mandated 'definite curriculum' is the only way to ensure the domain-specific knowledge required for reading is delivered.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C40",
+        "to_id": "C24",
+        "missing_step": "The state has a legitimate moral and political right to 'normalize' the background knowledge (content) of its citizens' minds.",
+        "step_type": "normative_premise",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C51",
+        "to_id": "C57",
+        "missing_step": "Establishing that state-level centralized control is more effective or democratic than local or teacher-led content selection.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C44",
+        "to_id": "C45",
+        "missing_step": "Demonstrating that 'domain-specific' knowledge must be 'national-culture-specific' rather than just technical or subject-specific.",
+        "step_type": "definition_shift",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C62",
+        "to_id": "C61",
+        "missing_step": "Establishing that state-level centralized control is more effective or more democratically legitimate than district-level or school-level curricular control.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C73",
+        "to_id": "C71",
+        "missing_step": "The assumption that a more literate and less 'manipulated' citizenry will necessarily converge on a more cohesive 'patriotism' rather than becoming more effectively divided by sophisticated ideological differences.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C81",
+        "to_id": "Preface.C9",
+        "missing_step": "The author assumes that passing a statewide knowledge-based assessment will successfully instill the ethical and emotional dispositions of a 'patriot' as opposed to just factual recall.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C81",
+        "to_id": "1.C19",
+        "missing_step": "The author assumes that statewide assessment systems will effectively resist the 'narrowing of the curriculum' often observed in high-stakes testing environments.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C13",
+        "objection": "The 'national grapholect' is not a neutral tool but the language of the dominant power group; requiring its mastery for 'fairness' is actually a form of cultural assimilation that penalizes minority groups for their heritage.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C11",
+        "objection": "The predictive power of the AFQT may reflect the test's bias toward those who have already received high-quality schooling, rather than proving that shared knowledge itself creates economic value.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C19",
+        "objection": "If the inclusion of diverse cultures is merely 'tokenism' to make students feel 'welcome' while the core knowledge remains unchanged, it fails to address the Eurocentric biases inherent in the 'shared knowledge' being taught.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C31",
+        "objection": "While expertise is domain-specific, students can be taught 'transferable meta-cognitive strategies' (like self-monitoring and predicting) that improve comprehension across various types of texts even without deep domain knowledge.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C24",
+        "objection": "Normalizing 'shared knowledge' inevitably prioritizes the cultural capital of the dominant group, thereby marginalizing minority cultures even if 'token' materials are included.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C35",
+        "objection": "The political 'vagueness' identified in C37 is a necessary safety valve in a pluralistic democracy to prevent culture wars; a 'definite curriculum' would lead to endless ideological conflict over which facts are 'essential.'",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C57",
+        "objection": "In a pluralistic democracy, state-defined 'shared knowledge' will inevitably reflect the biases of the dominant political group, leading to the marginalization of minority perspectives.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C44",
+        "objection": "Even if comprehension is domain-specific, students still benefit from learning 'meta-cognitive' strategies (like questioning or summarizing) that help them navigate unfamiliar content.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C41",
+        "objection": "National unity is often more robustly built on shared democratic processes and legal rights rather than a shared catalog of cultural facts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C61",
+        "objection": "Individual states mandating specific 'topic sequences' creates a single point of failure and allows the party in power to engage in political indoctrination through the selection of 'official' facts.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C63",
+        "objection": "Testing only on the assigned curriculum measures rote memorization and 'teaching to the test,' failing to assess a student's ability to apply reading strategies to novel, unseen information—a vital skill for lifelong learning.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C79",
+        "objection": "Even if the principle of shared knowledge is universal (not 'lily white'), the specific content chosen for a national curriculum in the US has historically centered Eurocentric perspectives, effectively marginalizing minority students despite the 'Norway Principle.'",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C81",
+        "objection": "Statewide assessments based on a specific 'tribal' background knowledge risk marginalizing the diverse home cultures of students in a multi-ethnic nation, effectively enforcing a monolithic cultural standard.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C81",
+        "objection": "High-stakes statewide testing creates incentives for schools to prioritize test preparation over genuine intellectual inquiry, potentially undermining the 'common school' ideal of deep, shared understanding.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "Democratic Necessity of Shared Language",
+        "chain": [
+          "C3",
+          "C2",
+          "C1",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "strong"
+      },
+      {
+        "name": "Economic Realism and Grapholect Mastery",
+        "chain": [
+          "C11",
+          "C12",
+          "C15",
+          "C13"
+        ],
+        "conclusion_id": "C13",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Cognitive Basis of Linguistic Equality",
+        "chain": [
+          "C9",
+          "C8",
+          "C6"
+        ],
+        "conclusion_id": "C6",
+        "strength": "strong"
+      },
+      {
+        "name": "The Technical Failure of Romantic Pedagogy",
+        "chain": [
+          "C30",
+          "C32",
+          "C31",
+          "C33",
+          "C29"
+        ],
+        "conclusion_id": "C29",
+        "strength": "strong"
+      },
+      {
+        "name": "The Political and Structural Case for Curriculum",
+        "chain": [
+          "C37",
+          "C34",
+          "C36",
+          "C39",
+          "C35"
+        ],
+        "conclusion_id": "C35",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Egalitarian Necessity of Shared Knowledge",
+        "chain": [
+          "C21",
+          "C40",
+          "C38",
+          "C24"
+        ],
+        "conclusion_id": "C24",
+        "strength": "strong"
+      },
+      {
+        "name": "The Cognitive Reality of Literacy",
+        "chain": [
+          "C47",
+          "C44",
+          "C46",
+          "C45"
+        ],
+        "conclusion_id": "C45",
+        "strength": "strong"
+      },
+      {
+        "name": "Universal Principles of Curricular Equity",
+        "chain": [
+          "C48",
+          "C51",
+          "C54",
+          "C52"
+        ],
+        "conclusion_id": "C51",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Political Mandate for Shared Knowledge",
+        "chain": [
+          "C50",
+          "C41",
+          "C60",
+          "C56",
+          "C57"
+        ],
+        "conclusion_id": "C57",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Epistemological Critique of Testing",
+        "chain": [
+          "C77",
+          "C80",
+          "C78",
+          "C62",
+          "C63"
+        ],
+        "conclusion_id": "C63",
+        "strength": "strong"
+      },
+      {
+        "name": "The Constitutional Mandate for Curriculum",
+        "chain": [
+          "C75",
+          "C64",
+          "C61"
+        ],
+        "conclusion_id": "C61",
+        "strength": "moderate"
+      },
+      {
+        "name": "Social Cohesion through Academic Competence",
+        "chain": [
+          "C70",
+          "C74",
+          "C72",
+          "C71"
+        ],
+        "conclusion_id": "C71",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Fairness and Accountability Chain",
+        "chain": [
+          "1.C31",
+          "2.C52",
+          "2.C88",
+          "C81"
+        ],
+        "conclusion_id": "C81",
+        "strength": "strong"
+      },
+      {
+        "name": "The Democratic Stability Chain",
+        "chain": [
+          "C81",
+          "1.C48",
+          "5.C60",
+          "Preface.C26"
+        ],
+        "conclusion_id": "Preface.C26",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.006110300000000001,
+    "duration_s": 74.92845726013184
+  }
+}

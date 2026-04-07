@@ -1,0 +1,702 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C4",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The specific evidence that French fadeout was caused by curricular changes provides the empirical basis for the general theory that all fadeout is a curricular failure."
+      },
+      {
+        "from_id": "C91",
+        "to_id": "C4",
+        "relationship": "depends-on",
+        "explanation": "To argue that the curriculum was the cause of decline, the author must establish that teacher quality and status remained constant."
+      },
+      {
+        "from_id": "C7",
+        "to_id": "C86",
+        "relationship": "supports",
+        "explanation": "If the cause of preschool failure is actually the elementary curriculum, then policy regarding preschool funding must account for this external factor."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "The existence of a latency period in word acquisition explains why gains 'seem' to fade when the curriculum fails to activate that latent knowledge."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C7",
+        "relationship": "supports",
+        "explanation": "If tests fail to capture true verbal progress, the 'fadeout' may be partly an artifact of measurement that a better curriculum would have revealed."
+      },
+      {
+        "from_id": "C12",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "The claim that the elementary curriculum is the primary cause of fadeout rests on the logic that preschool gains require primary school consolidation to persist."
+      },
+      {
+        "from_id": "C24",
+        "to_id": "C11",
+        "relationship": "depends-on",
+        "explanation": "C11 identifies the curriculum as the cause; C24 identifies the specific theoretical error within that curriculum causing the failure."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C16",
+        "relationship": "depends-on",
+        "explanation": "If the elementary curriculum is the cause of fadeout, then changing that curriculum to a communal-knowledge model is the logical remedy to forestall it."
+      },
+      {
+        "from_id": "C15",
+        "to_id": "C16",
+        "relationship": "depends-on",
+        "explanation": "The efficacy of a communal-knowledge school depends on the premise that K-5 content substance is the decider of long-term academic readiness."
+      },
+      {
+        "from_id": "C25",
+        "to_id": "C23",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that scripted programs are fragmented from a knowledge-building standpoint relies on the claim that they view content only as a vehicle for skills."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C23",
+        "relationship": "depends-on",
+        "explanation": "The similarity between natural-development and intensive-skills outcomes in later grades supports the conclusion that they share a common structural flaw."
+      },
+      {
+        "from_id": "C13",
+        "to_id": "C14",
+        "relationship": "depends-on",
+        "explanation": "The potency of latent knowledge in later years assumes that such knowledge is actually being formed invisibly in earlier grades."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C31",
+        "relationship": "depends-on",
+        "explanation": "If contextualized verbal experiences are the most efficient way to learn vocabulary, then the curriculum most capable of providing that context (a coherent, subject-matter-based one) is logically the most effective."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C39",
+        "relationship": "supports",
+        "explanation": "The description of the 'tot sociology' curriculum provides the target for the claim that no scientific research justifies such an approach."
+      },
+      {
+        "from_id": "C39",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "The lack of scientific justification for the 'expanding environments' model supports the inference that its adoption is driven by ideology rather than evidence."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C41",
+        "relationship": "depends-on",
+        "explanation": "The failure to consolidate gains is attributed to the ideological preference for 'natural' methods over effective knowledge-building methods."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "The claim that the curriculum is the 'critical factor' in France's success relies on the empirical evidence that the French system actually produces long-term academic benefits."
+      },
+      {
+        "from_id": "C43",
+        "to_id": "C44",
+        "relationship": "depends-on",
+        "explanation": "To argue that the curriculum is the cause of success, one must first establish that a specific, knowledge-based curriculum is actually in place."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C45",
+        "relationship": "refines",
+        "explanation": "C45 generalizes the specific causal finding from the French context (C44) into a broader principle regarding student life chances."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C93",
+        "relationship": "supports",
+        "explanation": "The documented success of the French system makes the refusal to learn from it a professional and ethical failure for educators."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C55",
+        "relationship": "depends-on",
+        "explanation": "The claim that the primary objective of preschool is knowledge/vocabulary (C55) depends on the empirical premise that the existing gap is small enough to be manageable (C59)."
+      },
+      {
+        "from_id": "C60",
+        "to_id": "C55",
+        "relationship": "supports",
+        "explanation": "If the cause of the gap is volume and variety of exposure (C60), then the corrective objective should logically be to provide that exposure (C55)."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C57",
+        "relationship": "depends-on",
+        "explanation": "The argument for domain immersion (C57) is predicated on the failure of simple word exposition (C51)."
+      },
+      {
+        "from_id": "C52",
+        "to_id": "C57",
+        "relationship": "supports",
+        "explanation": "The need for specific sequences of classification and re-utilization (C52) justifies the move to a domain immersion strategy (C57)."
+      },
+      {
+        "from_id": "C57",
+        "to_id": "C65",
+        "relationship": "depends-on",
+        "explanation": "Implicit word learning as a catch-up mechanism (C65) is the theoretical outcome of the domain immersion strategy (C57)."
+      },
+      {
+        "from_id": "C66",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "French data showing academic preschool is developmentally appropriate (C66) supports the benefit of starting even earlier at age two (C67)."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C67",
+        "relationship": "supports",
+        "explanation": "The long-term catch-up by age ten (C68) provides the empirical justification for the early equity benefits claimed in C67."
+      },
+      {
+        "from_id": "C69",
+        "to_id": "C82",
+        "relationship": "supports",
+        "explanation": "The success of the 1980s French model provides the empirical basis for claiming it is a global model for excellence and equity."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C82",
+        "relationship": "instantiates",
+        "explanation": "C71 establishes France as the specific case study for the broader claim about successful school policy."
+      },
+      {
+        "from_id": "C72",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "To argue that naturalistic principles cause fadeout, the author must first establish that these principles were actually introduced during the period when fadeout began."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "This isolates the variable: if preschool quality remained high while outcomes declined, the cause must lie in the primary school changes."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C70",
+        "relationship": "supports",
+        "explanation": "The dilution of primary content provides the specific mechanism for why the preschool gains were lost."
+      },
+      {
+        "from_id": "C75",
+        "to_id": "C79",
+        "relationship": "depends-on",
+        "explanation": "The failure of the mixed model (communal preschool + naturalistic primary) necessitates the 'only' in the conclusion for a consistent knowledge-based path."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "Explains why the gap reopens: without school-based knowledge, home environment (socioeconomic status) dictates word learning."
+      },
+      {
+        "from_id": "C80",
+        "to_id": "C81",
+        "relationship": "supports",
+        "explanation": "The incremental nature of vocabulary acquisition necessitates a coherent, sustained curriculum to be effective."
+      },
+      {
+        "from_id": "C81",
+        "to_id": "C79",
+        "relationship": "supports",
+        "explanation": "If disadvantaged students require meaningful, sustained context for vocabulary, only a continuous knowledge-based curriculum can provide it."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E23",
+        "claim_id": "C4",
+        "warrant_text": "In a natural experiment where the independent variable (elementary curriculum) changes while the preschool system remains constant, observed changes in outcomes are attributable to the independent variable.",
+        "is_explicit": true,
+        "vulnerability": "Assumes no other unobserved variables—such as demographic shifts in the student population or changes in social services—occurred simultaneously with the Loi Jospin."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E22",
+        "claim_id": "C3",
+        "warrant_text": "If a specific educational intervention (early start at age 2) yields permanent gains in one system, then 'fadeout' is not an inherent biological or psychological trait of disadvantaged children.",
+        "is_explicit": false,
+        "vulnerability": "Cross-national comparisons may ignore unique cultural or systemic factors that make French results non-transferable to the US context."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E6",
+        "claim_id": "C10",
+        "warrant_text": "Statistical models showing latent growth prove that internal cognitive progress can exist even when it is not immediately observable in performance scores.",
+        "is_explicit": false,
+        "vulnerability": "Latent variables are statistical constructs; critics might argue they don't represent 'real' knowledge if that knowledge cannot be used or measured."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E21",
+        "claim_id": "C11",
+        "warrant_text": "In a historical natural experiment where the preschool system remains constant but the primary system changes (as in France), the primary system is the causal variable for changes in student outcomes.",
+        "is_explicit": true,
+        "vulnerability": "The author ignores other concurrent social or demographic changes in France between 1987 and 2012 that might impact student achievement."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E8",
+        "claim_id": "C21",
+        "warrant_text": "If students can decode text but cannot understand it, the missing component must be the background knowledge required for comprehension rather than the mechanics of reading.",
+        "is_explicit": false,
+        "vulnerability": "Comprehension failure could be attributed to a lack of advanced strategy instruction rather than a lack of domain knowledge."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E9",
+        "claim_id": "C22",
+        "warrant_text": "Failure of a program to show results when scaled to 'real-world' evaluations suggests a fundamental theoretical flaw rather than an implementation error.",
+        "is_explicit": false,
+        "vulnerability": "Scaling up often dilutes program fidelity; the failure could be organizational rather than theoretical."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "E25",
+        "claim_id": "C13",
+        "warrant_text": "Scientific findings on the incremental nature of word acquisition imply that testing discrete word knowledge at one point in time fails to capture the cumulative process of learning.",
+        "is_explicit": true,
+        "vulnerability": "It assumes 'latent knowledge' is significant enough to eventually manifest as testable proficiency, which is not guaranteed."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C42",
+        "claim_id": "C44",
+        "warrant_text": "If two educational systems differ primarily in their curricular approach, and one significantly outperforms the other in long-term equity, the curriculum is the most probable causal variable.",
+        "is_explicit": false,
+        "vulnerability": "Ignores other systemic differences between France and the US, such as teacher training, social safety nets, or cultural attitudes toward authority."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C30",
+        "claim_id": "C31",
+        "warrant_text": "Classroom instruction is the only environment where complex, subject-matter context can be systematically and universally delivered to all children regardless of home background.",
+        "is_explicit": true,
+        "vulnerability": "Alternative sources like digital media or community experiences could potentially provide contextualized verbal experiences outside of a formal 'communal curriculum'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C35",
+        "claim_id": "C39",
+        "warrant_text": "If a curriculum deviates significantly from the complex realities children see (like space flight or war) to focus on 'neighborhood helpers' without empirical backing, it is educationally vacuous.",
+        "is_explicit": false,
+        "vulnerability": "Proponents might argue the warrant is 'developmental appropriateness' rather than scientific research, which the author dismisses as ideology."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C59",
+        "claim_id": "C55",
+        "warrant_text": "If a developmental gap is quantitatively small in its early stages, it is more susceptible to closure through targeted instructional intervention.",
+        "is_explicit": true,
+        "vulnerability": "The complexity of word learning might be more important than the quantity; a gap of hundreds of 'high-leverage' words might be harder to bridge than the author suggests."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C51",
+        "claim_id": "C57",
+        "warrant_text": "Since language is a complex system of associations rather than a list of definitions, effective learning requires deep context (immersion) rather than surface-level exposure.",
+        "is_explicit": false,
+        "vulnerability": "Some children may acquire vocabulary effectively through incidental reading and conversation without formal 'domain immersion'."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C66",
+        "claim_id": "C67",
+        "warrant_text": "Instructional success in one cultural/national context (France) suggests a universal cognitive principle that can be applied to other contexts (USA).",
+        "is_explicit": false,
+        "vulnerability": "Cultural differences in parenting, teacher preparation, or social safety nets in France might be the true drivers of the 'age two' success rather than the curriculum itself."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C73",
+        "claim_id": "C70",
+        "warrant_text": "In a system where the early input (preschool) remains constant but the later output (equity) declines following a change in the middle variable (primary school), the changed variable is the cause of the decline.",
+        "is_explicit": false,
+        "vulnerability": "This assumes no external confounding variables (e.g., changes in student demographics or teacher training) occurred simultaneously with the primary school reforms."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C80",
+        "claim_id": "C79",
+        "warrant_text": "If a cognitive process (vocabulary acquisition) is cumulative and slow, the educational delivery system must be equally cumulative and consistent to be successful.",
+        "is_explicit": true,
+        "vulnerability": "Critics might argue that while vocabulary is incremental, other cognitive 'skills' or 'habits of mind' can be taught quickly or independently of specific content."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C7",
+        "missing_step": "The quality and consistency of American preschools must be comparable to French preschools for the 'curriculum-only' explanation to hold in the US.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C7",
+        "to_id": "C86",
+        "missing_step": "Fixing the elementary curriculum is a more cost-effective or feasible policy lever than increasing preschool intensity or duration.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C11",
+        "to_id": "C16",
+        "missing_step": "A communal-knowledge-based curriculum is the only or most effective type of curriculum to replace the current failing one.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C13",
+        "to_id": "C11",
+        "missing_step": "The 'latent knowledge' missed by tests in early grades is specifically domain-specific knowledge rather than general cognitive development or linguistic exposure.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      },
+      {
+        "id": "MS3",
+        "from_id": "C20",
+        "to_id": "C11",
+        "missing_step": "Perceptions of 'developmental appropriateness' are the primary reason alternative curricula were not adopted, rather than resource constraints or teacher training.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C30",
+        "to_id": "C31",
+        "missing_step": "A communal, subject-centered curriculum is the unique or best way to provide 'systematically contextualized' experiences.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C42",
+        "to_id": "C44",
+        "missing_step": "Non-curricular factors in France (e.g., teacher status, national healthcare, income equality) are not the primary drivers of the reduced failure rate.",
+        "step_type": "empirical_assumption",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C59",
+        "to_id": "C55",
+        "missing_step": "Establishing that closing the vocabulary gap is sufficient to overcome other socio-economic barriers to equal opportunity.",
+        "step_type": "normative_premise",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C67",
+        "to_id": "C68",
+        "missing_step": "A bridge explaining why a catch-up triggered at age two is sustained rather than 'fading out' as students encounter higher-order cognitive tasks in later grades.",
+        "step_type": "causal_mechanism",
+        "severity": "critical"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C82",
+        "to_id": "C79",
+        "missing_step": "The success of a centralized French curriculum is directly replicable in the highly decentralized United States educational system.",
+        "step_type": "scope_expansion",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C70",
+        "to_id": "C77",
+        "missing_step": "Middle-school fadeout in America is caused by the same specific curricular mechanisms as primary-school fadeout in post-1989 France.",
+        "step_type": "generalization",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C7",
+        "objection": "The 'fadeout' effect may be due to the 'ceiling effect' of early interventions, where disadvantaged children catch up to basic skills but cannot overcome the compounding effects of low-SES home environments as academic demands increase in complexity.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C86",
+        "objection": "Even if academic gains fade, preschool provides critical social-emotional benefits and childcare stability for working families that justify public expenditure regardless of test score outcomes.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C4",
+        "objection": "The decline in French scores after 1990 could be attributed to increased immigration and changes in student demographics rather than the Jospin Law's curricular changes.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C11",
+        "objection": "Fadeout is primarily caused by the 'summer slide' and the deepening influence of socio-economic disadvantages outside of school as children age, which schools cannot fully mitigate regardless of curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C23",
+        "objection": "Intensive-skills programs like Direct Instruction provide the necessary 'tools' for reading; the failure past grade 3 is not due to the program's 'fragmented' knowledge but due to the subsequent school environment failing to provide any structured content at all.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C16",
+        "objection": "A national or communal curriculum may fail to account for the diverse cultural backgrounds of students, potentially alienating disadvantaged students rather than helping them catch up.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C44",
+        "objection": "The success of the French école maternelle may be due to the high status and rigorous training of its teachers, who have the same civil service status as primary teachers, rather than the curriculum itself.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C31",
+        "objection": "A highly coherent, communal curriculum might stifle teacher autonomy and the ability to respond to the specific, immediate needs of a diverse student population.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C39",
+        "objection": "The 'expanding environments' model is based on Piagetian developmental stages which, while contested, constitute a theoretical framework that many educators view as 'scientific' research.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C55",
+        "objection": "The primary objective of preschool should be socio-emotional development and the 'soft skills' of self-regulation, which are better predictors of long-term success than early vocabulary.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C57",
+        "objection": "Domain immersion might lead to a rigid curriculum that stifles the natural curiosity and varied interests of children, potentially reducing engagement.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C67",
+        "objection": "Early schooling (age two) may increase childhood stress or disrupt parent-child bonding, leading to negative outcomes that offset the academic benefits.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C70",
+        "objection": "Preschool fadeout might be a biological or developmental ceiling effect where early gains naturally level off as children age, regardless of the primary school curriculum.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C82",
+        "objection": "The 1980s French success may have been driven by broader social welfare policies and lower income inequality at the time, rather than the specific 'knowledge-based' nature of the curriculum.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C78",
+        "objection": "The concept of 'latent vocabulary' is difficult to measure reliably, and its existence does not necessarily mean current standardized tests are invalid for assessing contemporary achievement levels.",
+        "objection_type": "methodological_concern"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Curricular Cause of Fadeout",
+        "chain": [
+          "C1",
+          "C3",
+          "C91",
+          "E23",
+          "C4",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "strong"
+      },
+      {
+        "name": "The Measurement Error Defense",
+        "chain": [
+          "C8",
+          "C10",
+          "E6",
+          "C85",
+          "C7"
+        ],
+        "conclusion_id": "C7",
+        "strength": "moderate"
+      },
+      {
+        "name": "Policy Implications of Fadeout",
+        "chain": [
+          "C4",
+          "C7",
+          "C86"
+        ],
+        "conclusion_id": "C86",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Diagnosis of Fadeout",
+        "chain": [
+          "C12",
+          "C24",
+          "C28",
+          "C11"
+        ],
+        "conclusion_id": "C11",
+        "strength": "strong"
+      },
+      {
+        "name": "The Invisible Foundation",
+        "chain": [
+          "C13",
+          "C14",
+          "C15",
+          "C16"
+        ],
+        "conclusion_id": "C16",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Skills-Vehicle Critique",
+        "chain": [
+          "C18",
+          "C21",
+          "C25",
+          "C23"
+        ],
+        "conclusion_id": "C23",
+        "strength": "strong"
+      },
+      {
+        "name": "The Vocabulary Efficiency Chain",
+        "chain": [
+          "C30",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "strong"
+      },
+      {
+        "name": "The Critique of American 'Tot Sociology'",
+        "chain": [
+          "C35",
+          "C36",
+          "C38",
+          "C39",
+          "C40",
+          "C41"
+        ],
+        "conclusion_id": "C41",
+        "strength": "moderate"
+      },
+      {
+        "name": "The French Curricular Success Chain",
+        "chain": [
+          "C42",
+          "C43",
+          "C44",
+          "C45",
+          "C93"
+        ],
+        "conclusion_id": "C93",
+        "strength": "strong"
+      },
+      {
+        "name": "The Gap Closure Chain",
+        "chain": [
+          "C59",
+          "C60",
+          "C56",
+          "C55"
+        ],
+        "conclusion_id": "C55",
+        "strength": "strong"
+      },
+      {
+        "name": "The Domain Immersion Mechanism",
+        "chain": [
+          "C51",
+          "C52",
+          "C61",
+          "C62",
+          "C57",
+          "C65"
+        ],
+        "conclusion_id": "C65",
+        "strength": "strong"
+      },
+      {
+        "name": "The Early Intervention Equity Path",
+        "chain": [
+          "C66",
+          "C68",
+          "C67"
+        ],
+        "conclusion_id": "C67",
+        "strength": "moderate"
+      },
+      {
+        "name": "The French Natural Experiment",
+        "chain": [
+          "C71",
+          "C72",
+          "C73",
+          "C74",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "strong"
+      },
+      {
+        "name": "The Vocabulary Persistence Chain",
+        "chain": [
+          "C80",
+          "C81",
+          "C76",
+          "C75",
+          "C79"
+        ],
+        "conclusion_id": "C79",
+        "strength": "moderate"
+      },
+      {
+        "name": "Global Best Practice Validation",
+        "chain": [
+          "C69",
+          "C71",
+          "C82"
+        ],
+        "conclusion_id": "C82",
+        "strength": "strong"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.005064400000000001,
+    "duration_s": 77.12010550498962
+  }
+}

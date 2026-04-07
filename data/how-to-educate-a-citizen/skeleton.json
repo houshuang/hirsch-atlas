@@ -1,0 +1,167 @@
+{
+  "result": {
+    "book_thesis": "The survival of the United States as a unified, high-achieving, and fair society depends on a common-core elementary education that restores 'commonality' of shared knowledge, reversing the fragmenting effects of child-centered 'educational romanticism.'",
+    "core_frameworks": [
+      {
+        "id": "common_school_tradition",
+        "name": "The Common School Tradition",
+        "description": "An egalitarian educational philosophy that views universal schooling as the primary instrument for national cohesion and democratic equality.",
+        "components": [
+          {
+            "id": "shared_background_knowledge",
+            "name": "Shared Background Knowledge",
+            "description": "The unspoken information and cultural context required for citizens to communicate effectively."
+          },
+          {
+            "id": "manners_mores",
+            "name": "Manners (Mores)",
+            "description": "The 18th-century concept of a shared system of laws, values, ethics, and language that forms a national character."
+          }
+        ],
+        "stance": "author_advocates"
+      },
+      {
+        "id": "educational_romanticism",
+        "name": "Educational Romanticism",
+        "description": "A progressive theory originating in the 19th century that views education as a natural development following a child's innate interests rather than a communal curriculum.",
+        "components": [
+          {
+            "id": "child_centered_learning",
+            "name": "Child-Centered Learning",
+            "description": "The pedagogical practice of tailoring content to individual children's interests rather than a shared sequence of topics."
+          },
+          {
+            "id": "natural_development_fallacy",
+            "name": "Natural Development Fallacy",
+            "description": "The incorrect assumption that children possess an inborn developmental blueprint that culture should not interfere with."
+          }
+        ],
+        "stance": "author_opposes"
+      },
+      {
+        "id": "speech_community_theory",
+        "name": "Speech Community Framework",
+        "description": "A sociolinguistic model defining a nation as a group sharing language norms and silent background knowledge necessary for communication.",
+        "components": [
+          {
+            "id": "unspoken_implications",
+            "name": "Unspoken Implications",
+            "description": "The necessary background information (e.g., social customs, historical references) that makes brief speech precise."
+          },
+          {
+            "id": "neocortical_blank_slate",
+            "name": "Neocortical Blank Slate",
+            "description": "The scientific finding that ethnicity and identity are written by culture onto the brain rather than being innate."
+          }
+        ],
+        "stance": "author_advocates"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "Chapter 1: When Our Schools Abandoned Commonality",
+        "predicted_main_argument": "The abandonment of shared knowledge in favor of progressive techniques has eroded national unity and created a 'knowledge gap' that threatens the republic.",
+        "role_in_book": "establishes_problem"
+      },
+      {
+        "chapter": "Chapter 2: The Child-Centered Classroom",
+        "predicted_main_argument": "The pedagogical shift toward individualism in the classroom is based on a flawed romantic theory that neglects the social necessity of shared knowledge.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "Chapter 3: 'Nobody Leaves'",
+        "predicted_main_argument": "A case study or policy analysis of schools that maintain high standards and commonality to ensure no student is left behind.",
+        "role_in_book": "case_study"
+      },
+      {
+        "chapter": "Chapter 4: The Problem Starts at Our Teacher-Training Institutes",
+        "predicted_main_argument": "Graduate schools of education are the primary source of the 'romantic' indoctrination that has undermined effective teaching.",
+        "role_in_book": "establishes_problem"
+      },
+      {
+        "chapter": "Chapter 5: Culture, Not Nature, Knows Best",
+        "predicted_main_argument": "Scientific evidence from brain research and linguistics proves that identity and language are cultural constructs, not biological imperatives.",
+        "role_in_book": "provides_evidence"
+      },
+      {
+        "chapter": "Chapter 6: The Lessons of Educational Failure and Success",
+        "predicted_main_argument": "Comparative analysis shows that nations with standardized curricula consistently outperform the United States in literacy and cohesion.",
+        "role_in_book": "provides_evidence"
+      },
+      {
+        "chapter": "Chapter 7: Commonality in a Multiethnic Nation",
+        "predicted_main_argument": "Shared knowledge does not erase diversity but provides the essential 'intellectual currency' that allows a multiethnic society to function.",
+        "role_in_book": "addresses_objections"
+      },
+      {
+        "chapter": "Chapter 8: How to Improve the 'Common Core'",
+        "predicted_main_argument": "A specific proposal to reform current standards by making them content-specific and sequence-driven.",
+        "role_in_book": "proposes_solution"
+      },
+      {
+        "chapter": "Chapter 9: Patriotism",
+        "predicted_main_argument": "National pride and social trust are the ultimate results of a successful, common-knowledge education system.",
+        "role_in_book": "synthesizes"
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Speech Community",
+        "definition": "A group of people who share a set of language norms and background knowledge that allow for effective interaction and shared interests."
+      },
+      {
+        "term": "Manners",
+        "definition": "The whole range of customs, values, ethical rules, and patriotic sentiments that translate to the Latin 'mores.'"
+      },
+      {
+        "term": "Educational Romanticism",
+        "definition": "The intellectual successor to the Enlightenment that views human progress as a natural, God-infused process best achieved by deferring to the 'nature' of the child."
+      },
+      {
+        "term": "Blank Slates",
+        "definition": "The scientific determination that the neocortical area where identity and ethnicity reside is written on by adults, schools, and culture rather than being innate."
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Noah Webster",
+        "relationship": "builds_on",
+        "contribution": "Pioneered the idea of using schoolbooks (like the Speller) to create a 'manufactured' American culture and shared print language."
+      },
+      {
+        "name": "Horace Mann",
+        "relationship": "historical_predecessor",
+        "contribution": "Founder of the common school movement intended to be the instrument of national cohesion for 'all ranks of society.'"
+      },
+      {
+        "name": "John Dewey",
+        "relationship": "opposes",
+        "contribution": "Promoted the progressive, child-centered 'authentic' learning model that Hirsch blames for the decline in shared knowledge."
+      },
+      {
+        "name": "Karl W. Deutsch",
+        "relationship": "builds_on",
+        "contribution": "Theorized that the essence of unified nationhood is 'social communication' based on shared background knowledge."
+      },
+      {
+        "name": "Arthur M. Schlesinger Jr.",
+        "relationship": "builds_on",
+        "contribution": "Warned against the 'fragmentation, re-segregation, and tribalization of American life' resulting from separatist education."
+      },
+      {
+        "name": "William Wordsworth",
+        "relationship": "opposes",
+        "contribution": "Provided the Romantic poetic foundation for viewing the child as an 'instinctive demigod' whose nature should not be imposed upon."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0015127,
+    "input_tokens": 9271,
+    "output_tokens": 1464,
+    "duration_s": 15.449244976043701,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

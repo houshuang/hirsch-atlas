@@ -1,0 +1,136 @@
+{
+  "result": {
+    "book_thesis": "American education is undermined by a 'romantic-progressive' ideology that disparages factual knowledge and procedural practice; true democratic equality and academic achievement can only be restored through a content-rich, grade-by-grade curriculum known as 'Intellectual Capital.'",
+    "core_frameworks": [
+      {
+        "id": "progressive_thoughtworld",
+        "name": "The Progressive Thoughtworld",
+        "description": "An insulated ideological consensus within the educational community that prioritizes natural development over structured learning and disparages 'mere information.'",
+        "components": [
+          {
+            "id": "anti_intellectualism",
+            "name": "Anti-Intellectualism",
+            "description": "The disparagement of specific factual content as 'mere information' unnecessary for cognitive development."
+          },
+          {
+            "id": "drill_and_kill_stigma",
+            "name": "The 'Drill and Kill' Stigma",
+            "description": "The categorical rejection of repetitive practice for mastering procedural skills such as math algorithms and alphabetic decoding."
+          }
+        ],
+        "stance": "author_opposes"
+      },
+      {
+        "id": "core_knowledge_framework",
+        "name": "Core Knowledge / Intellectual Capital",
+        "description": "A system of education based on the accumulation of shared, specific content that enables communication and further learning.",
+        "components": [
+          {
+            "id": "grade_by_grade_standards",
+            "name": "Grade-by-Grade Content Standards",
+            "description": "Concrete proposals to define what specific knowledge students should acquire at each year of schooling."
+          },
+          {
+            "id": "procedural_mastery",
+            "name": "Procedural Skill Mastery",
+            "description": "The intentional practice and mastery of foundational skills (decoding, math) as a prerequisite for higher-order thinking."
+          }
+        ],
+        "stance": "author_advocates"
+      }
+    ],
+    "chapter_previews": [
+      {
+        "chapter": "1. Introduction: Failed Theories, Famished Minds",
+        "predicted_main_argument": "The failure of American schools is rooted in the adoption of flawed educational theories that deprive children of necessary intellectual content.",
+        "role_in_book": "establishes_problem"
+      },
+      {
+        "chapter": "2. Intellectual Capital: A Civil Right",
+        "predicted_main_argument": "Access to a shared body of knowledge is a fundamental civil right and the only mechanism for achieving true social and economic equity.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "3. An Impregnable Fortress",
+        "predicted_main_argument": "The educational establishment has created institutional barriers that prevent reform and protect failed progressive ideologies from external criticism.",
+        "role_in_book": "establishes_problem"
+      },
+      {
+        "chapter": "4. Critique of a Thoughtworld",
+        "predicted_main_argument": "The prevailing educational philosophy is an insulated 'thoughtworld' that operates independently of empirical evidence or common sense.",
+        "role_in_book": "develops_theory"
+      },
+      {
+        "chapter": "5. Reality’s Revenge: Education and Mainstream Research",
+        "predicted_main_argument": "Findings from cognitive science and disinterested mainstream research consistently contradict progressive methods and support content-based instruction.",
+        "role_in_book": "provides_evidence",
+        "expected_evidence_types": [
+          "Cognitive science studies",
+          "Independent controlled evaluations",
+          "Empirical achievement data"
+        ],
+        "connects_to": [
+          "Core Knowledge movement"
+        ]
+      },
+      {
+        "chapter": "6. Test Evasion",
+        "predicted_main_argument": "Progressive educators use theoretical arguments to avoid objective accountability and standardized measures of student learning.",
+        "role_in_book": "addresses_objections"
+      },
+      {
+        "chapter": "7. Summary and Conclusion",
+        "predicted_main_argument": "A synthesis of why the nation must transition from ideological to evidence-based educational practices to fulfill its democratic promise.",
+        "role_in_book": "synthesizes"
+      }
+    ],
+    "key_terms": [
+      {
+        "term": "Thoughtworld",
+        "definition": "The self-reinforcing, insulated consensus of the educational community that resists external research and prioritizes progressive ideology over student outcomes.",
+        "source_passage": "They regarded my marshaling of evidence as a scholarly confirmation of what they themselves had figured out about the progressive 'thoughtworld' of American education."
+      },
+      {
+        "term": "Drill and Kill",
+        "definition": "A pejorative term used by progressive educators to disparage the necessary practice of procedural skills like phonics or math algorithms.",
+        "source_passage": "My quarrel is with misguided opposition to the frequent practicing of procedural skills... this necessary training being disparaged as 'drill and kill.'"
+      },
+      {
+        "term": "Intellectual Capital",
+        "definition": "The accumulated knowledge that enables a person to communicate effectively and learn new information efficiently.",
+        "source_passage": "Intellectual Capital: A Civil Right"
+      }
+    ],
+    "intellectual_genealogy": [
+      {
+        "name": "Matthew Arnold",
+        "relationship": "historical_predecessor",
+        "contribution": "Provides the philosophical framework for the 'power of the moment' necessary for an idea to be heard."
+      },
+      {
+        "name": "Romantic-Progressive Tradition",
+        "relationship": "opposes",
+        "contribution": "The primary ideological antagonist that Hirsch argues has dominated and damaged American schooling."
+      },
+      {
+        "name": "Core Knowledge Movement",
+        "relationship": "builds_on",
+        "contribution": "The practical application of the book's theories, showing demonstrably improved student achievement through a content-rich curriculum."
+      },
+      {
+        "name": "Mathematically Correct",
+        "relationship": "builds_on",
+        "contribution": "A grassroots group of scientists and parents who used evidence-based approaches to challenge progressive math standards in California."
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0007012,
+    "input_tokens": 1240,
+    "output_tokens": 1443,
+    "duration_s": 14.02932596206665,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

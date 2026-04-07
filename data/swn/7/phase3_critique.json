@@ -1,0 +1,99 @@
+{
+  "result": {
+    "missed_arguments": [
+      {
+        "description": "The author makes a specific systemic argument that the 'wall of separation' used in the First Amendment to handle religious sectarianism should serve as a model for handling modern ethnic sectarianism in schools.",
+        "source_passage": "Had the idea of ethnic strife been as present in the minds of the Founding Fathers as the idea of religious strife, our founding laws might have included a clause forbidding the establishment of a narrow ethnic culture. ... Customs divisive and dangerous to the internal peace of the nation, chiefly sectarian religions, were to be relegated to the private sphere, enabling all to meet in the public sphere as fellow citizens and equals.",
+        "importance": "critical",
+        "suggested_claim": "The preservation of a cosmopolitan public culture requires that ethnic sectarianism, like religious sectarianism before it, be relegated to the private sphere through the creation of a 'neutral' school-based culture.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author draws a critical distinction between 'formal skills' (which fail) and 'general skills' (which are actually the result of knowledge), resolving a paradox in educational outcomes.",
+        "source_passage": "To explain this paradox, one must grasp the difference between a formal skill and a general skill. ... A general skill, by contrast, is based only partly on habituation to the formal, repeated aspects of the skill... it is also based on wide-ranging general knowledge.",
+        "importance": "significant",
+        "suggested_claim": "The 'paradox' of American education is that an emphasis on formal skills produces students deficient in them, while an emphasis on knowledge produces the very general skills (critical thinking, learning to learn) that educators seek.",
+        "suggested_claim_level": "theoretical"
+      },
+      {
+        "description": "The author argues that the 'naturalistic' failure is rooted in a false teleology—the belief that a 'benign nature' will guide a child's learning toward relevant goals without explicit adult focus.",
+        "source_passage": "The remembered understandings that young children bring away from such unfocused instruction are not controlled by a benign, invisible, right-tending nature. What children remember remains uncontrolled, contingent, and largely irrelevant to definite and responsible learning goals.",
+        "importance": "significant",
+        "suggested_claim": "The rejection of traditional schooling rests on the false metaphysical premise that a child's natural curiosity will inherently lead them to master necessary cultural knowledge without explicit pedagogical direction.",
+        "suggested_claim_level": "theoretical"
+      }
+    ],
+    "distorted_claims": [
+      {
+        "claim_id": "C9",
+        "problem": "The claim states 'knowing how to learn' does not exist. Hirsch actually argues it does exist, but not as an 'abstract skill'; it exists as the application of broad background knowledge.",
+        "source_passage": "We must not accept the claim that knowing how to learn (which is an abstract skill that does not even exist) is more important than having a broad foundation of factual knowledge that really does enable further learning.",
+        "suggested_fix": "'Knowing how to learn' does not exist as an abstract, content-independent skill; it is functionally the application of a broad knowledge base to new information."
+      },
+      {
+        "claim_id": "C159",
+        "problem": "The claim omits the specific list of 'consensus values' which Hirsch argues are inherently supported by a core curriculum.",
+        "source_passage": "Schools need to have a coherent, cumulative core curriculum which instills consensus values such as civic duty, honesty, diligence, perseverance, respect, kindness, and independent-mindedness.",
+        "suggested_fix": "A cumulative core curriculum is the primary vehicle for instilling a specific set of consensus values, including civic duty, honesty, diligence, perseverance, respect, kindness, and independent-mindedness."
+      }
+    ],
+    "missing_warrants": [
+      {
+        "evidence_id": "E38",
+        "claim_id": "C136",
+        "missing_warrant": "The educational effectiveness of a cumulative, knowledge-building curriculum is nullified if a child moves between schools with different curricula, meaning that high mobility makes commonality a prerequisite for individual academic success."
+      },
+      {
+        "evidence_id": "E12",
+        "claim_id": "C51",
+        "missing_warrant": "California's failure serves as a 'stress test': when a naturalistic approach is applied to a large, diverse population, the lack of explicit instruction disproportionately harms those who do not receive 'artificial' knowledge support at home."
+      }
+    ],
+    "missing_counter_arguments": [
+      {
+        "targets_claim": "C106",
+        "counter_argument": "Grade-by-grade specificity may lead to 'curriculum narrowing,' where teachers ignore important but non-tested topics and creative opportunities to ensure students hit the prescribed 'readiness plateau' for the next year.",
+        "why_important": "This is the most common critique from practitioners regarding the 'accountability' and 'standards' model the author proposes."
+      },
+      {
+        "targets_claim": "C171",
+        "counter_argument": "The 'Matthew Effect' and economic inequality are driven more by structural socio-economic factors (poverty, healthcare, housing stability) than by the cognitive advantages of background knowledge.",
+        "why_important": "It challenges the author's primary claim that educational reform is the most effective lever for social justice."
+      }
+    ],
+    "granularity_issues": [
+      {
+        "claim_ids": [
+          "C28",
+          "C29"
+        ],
+        "action": "merge",
+        "explanation": "C29 is merely a specific instance/example used to illustrate the general principle in C28; they do not represent distinct logical steps."
+      },
+      {
+        "claim_ids": [
+          "C155",
+          "C156"
+        ],
+        "action": "merge",
+        "explanation": "Both claims state that local curriculum control is non-existent/mythical; C156 is just a restatement of C155 for emphasis."
+      }
+    ],
+    "overall_assessment": {
+      "content_completeness": 4,
+      "structure_completeness": 5,
+      "warrant_coverage": 3,
+      "counter_argument_coverage": 3,
+      "summary": "The extraction is exceptionally detailed but occasionally misses the 'connective tissue' of Hirsch's argument—specifically his reliance on the 'Wall of Separation' political metaphor and his nuanced redefinition of general skills as knowledge-dependent. It captures the 'what' but sometimes misses the 'why' in his systemic logic."
+    }
+  },
+  "metadata": {
+    "total_cost_usd": 0.0039684,
+    "input_tokens": 33564,
+    "output_tokens": 1530,
+    "duration_s": 19.11945915222168,
+    "model": "gemini3-flash",
+    "model_id": "gemini-3-flash-preview",
+    "provider": "gemini"
+  }
+}

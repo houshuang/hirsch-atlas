@@ -1,0 +1,683 @@
+{
+  "result": {
+    "dependencies": [
+      {
+        "from_id": "C1",
+        "to_id": "C4",
+        "relationship": "supports",
+        "explanation": "If all comprehension depends on specific topic familiarity, then the concept of a general, topic-independent 'reading level' is logically invalidated."
+      },
+      {
+        "from_id": "C4",
+        "to_id": "C8",
+        "relationship": "depends-on",
+        "explanation": "The argument that child-chosen topics are incorrect relies on the prior conclusion that the 'reading levels' used to justify those choices are scientifically baseless."
+      },
+      {
+        "from_id": "C8",
+        "to_id": "C81",
+        "relationship": "supports",
+        "explanation": "Once the scientific basis for child-centered topic selection is refuted, the physical and material infrastructure (furniture and books) supporting that model must be replaced."
+      },
+      {
+        "from_id": "C5",
+        "to_id": "C1",
+        "relationship": "instantiates",
+        "explanation": "The theoretical claim that language use depends on world knowledge provides the specific mechanism for why verbal comprehension depends on unstated knowledge."
+      },
+      {
+        "from_id": "C82",
+        "to_id": "C81",
+        "relationship": "depends-on",
+        "explanation": "To argue for the replacement of furniture, the author must first establish that the current arrangement is a direct consequence of the failed philosophy being critiqued."
+      },
+      {
+        "from_id": "C10",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "If no universal vocabulary exists, then readability must depend on the specific overlap between a reader's unique vocabulary/knowledge and the text."
+      },
+      {
+        "from_id": "C11",
+        "to_id": "C12",
+        "relationship": "depends-on",
+        "explanation": "Genre-specific conventions are a form of contextual information that must overlap for comprehension to occur."
+      },
+      {
+        "from_id": "C18",
+        "to_id": "C21",
+        "relationship": "supports",
+        "explanation": "If formulas incorrectly conflate level and difficulty, it follows that no valid direct link has been established."
+      },
+      {
+        "from_id": "C21",
+        "to_id": "C26",
+        "relationship": "supports",
+        "explanation": "If a direct link between ability and readability is impossible, then assigned grade levels based on that link are necessarily inadequate."
+      },
+      {
+        "from_id": "C26",
+        "to_id": "C27",
+        "relationship": "supports",
+        "explanation": "The inadequacy of current grade-level metrics necessitates a new theoretical approach focused on knowledge gaps."
+      },
+      {
+        "from_id": "C28",
+        "to_id": "C27",
+        "relationship": "supports",
+        "explanation": "Showing that syntax alone does not determine difficulty reinforces the need for a theory based on knowledge/contextual gaps."
+      },
+      {
+        "from_id": "C30",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "If specific text properties pose obstacles, then a formula that fails to account for those specific properties cannot establish a clear progression of difficulty."
+      },
+      {
+        "from_id": "C32",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "The fact that simple sentences can be harder than complex ones directly contradicts the 'easy-to-difficult' progression assumed by standard formulas."
+      },
+      {
+        "from_id": "C40",
+        "to_id": "C31",
+        "relationship": "supports",
+        "explanation": "If the primary metric used by formulas (sentence length) is not a factor in readability, the formulas' results are invalid."
+      },
+      {
+        "from_id": "C34",
+        "to_id": "C33",
+        "relationship": "instantiates",
+        "explanation": "Self-embedded structures serve as the 'limiting case' or extreme example of the linking difficulties described in C33."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C33",
+        "relationship": "supports",
+        "explanation": "The difficulty of processing object-relative clauses is a specific instance of the general challenge of linking syntactic segments."
+      },
+      {
+        "from_id": "C35",
+        "to_id": "C37",
+        "relationship": "supports",
+        "explanation": "Object-relative clauses are cited as evidence that intervening material between a pronoun and its verb increases processing difficulty."
+      },
+      {
+        "from_id": "C42",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "Since the challenge of intervening material is independent of total sentence length, sentence length cannot be the determining factor of readability."
+      },
+      {
+        "from_id": "C44",
+        "to_id": "C40",
+        "relationship": "supports",
+        "explanation": "The fact that extremely short sentences (self-embedded) can be incomprehensible proves that length is not the driver of difficulty."
+      },
+      {
+        "from_id": "C47",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "If context can fix syntactic difficulties, then syntax alone cannot be used to create an objective scale of difficulty."
+      },
+      {
+        "from_id": "C49",
+        "to_id": "C46",
+        "relationship": "supports",
+        "explanation": "Organizational context facilitates linking, meaning text difficulty changes based on the surrounding structure, not just internal sentence mechanics."
+      },
+      {
+        "from_id": "C50",
+        "to_id": "C51",
+        "relationship": "supports",
+        "explanation": "If textual features are better recalled when integral to organization, it suggests readers are using organizational models (genres/scripts) to process the text."
+      },
+      {
+        "from_id": "C53",
+        "to_id": "C51",
+        "relationship": "instantiates",
+        "explanation": "The failure to understand Swift's 'A Modest Proposal' serves as a specific instance of readers needing genre-specific implicit knowledge to build a conceptual model."
+      },
+      {
+        "from_id": "C51",
+        "to_id": "C56",
+        "relationship": "depends-on",
+        "explanation": "The claim that readability is an interplay depends on the premise that readers bring implicit organizational knowledge to the text."
+      },
+      {
+        "from_id": "C54",
+        "to_id": "C56",
+        "relationship": "depends-on",
+        "explanation": "Background context's contribution to sense-making is a necessary component of the 'interplay' model of readability."
+      },
+      {
+        "from_id": "C56",
+        "to_id": "C58",
+        "relationship": "supports",
+        "explanation": "If readability is an interplay between text and knowledge, then the unmeasured knowledge component becomes the fundamental (key) variable."
+      },
+      {
+        "from_id": "C59",
+        "to_id": "C61",
+        "relationship": "supports",
+        "explanation": "The bidirectional relationship between knowledge and reading provides the empirical justification for integrating content and ELA instruction."
+      },
+      {
+        "from_id": "C65",
+        "to_id": "C63",
+        "relationship": "supports",
+        "explanation": "If reading levels are not fixed or settled but vary by topic, then the concept of 'readability' as a stable metric is invalid and should be abandoned."
+      },
+      {
+        "from_id": "C68",
+        "to_id": "C67",
+        "relationship": "depends-on",
+        "explanation": "Raising scores through shared topics depends on the principle that shared knowledge is the essential mechanism for communication."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C70",
+        "relationship": "depends-on",
+        "explanation": "The conclusion that 'reading levels' are invalid relies on the empirical observation that reading performance fluctuates based on topic knowledge."
+      },
+      {
+        "from_id": "C71",
+        "to_id": "C72",
+        "relationship": "supports",
+        "explanation": "If performance varies by topic, then mastering a set of 'level-appropriate' texts on random topics cannot produce a general, transferable reading skill."
+      },
+      {
+        "from_id": "C74",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "Historical data regarding higher reading scores in teacher-led systems is used to justify the pragmatic claim that whole-class instruction is more effective than individual choice."
+      },
+      {
+        "from_id": "C70",
+        "to_id": "C73",
+        "relationship": "supports",
+        "explanation": "If reading is topic-dependent (C70), then a teacher-led focus on a specific topic for the whole class (C73) is more efficient than individual students reading about disparate topics."
+      },
+      {
+        "from_id": "C76",
+        "to_id": "C78",
+        "relationship": "depends-on",
+        "explanation": "The critique of individualism in instruction as 'mistaken' rests on the theoretical premise that communication requires shared, mutual conventions rather than individualistic development."
+      },
+      {
+        "from_id": "C79",
+        "to_id": "C78",
+        "relationship": "supports",
+        "explanation": "The assertion that mutuality is the only natural approach in language directly opposes the 'natural development' ideology of student-centered instruction."
+      },
+      {
+        "from_id": "C73",
+        "to_id": "C75",
+        "relationship": "supports",
+        "explanation": "The general effectiveness of whole-class instruction is applied to the specific urgent context of recovering from Covid-related learning loss."
+      }
+    ],
+    "warrants": [
+      {
+        "id": "W1",
+        "evidence_id": "E1",
+        "claim_id": "C5",
+        "warrant_text": "Expert consensus in cognitive science regarding the social and contextual nature of language development is an authoritative guide for educational practice.",
+        "is_explicit": true,
+        "vulnerability": "Critics may argue that 'social use' of language in communication is a different cognitive process than the internal processing of written text."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E23",
+        "claim_id": "C4",
+        "warrant_text": "If a measurement tool (readability formulas) fails to account for the primary variable of task performance (prior knowledge), the tool and its underlying concept are invalid.",
+        "is_explicit": false,
+        "vulnerability": "Readability formulas may still be useful as proxies for lexical and syntactic complexity, even if they ignore domain knowledge."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E19",
+        "claim_id": "C8",
+        "warrant_text": "A strong statistical correlation and temporal link between knowledge and reading ability implies that instruction should prioritize the variable that drives the growth (knowledge).",
+        "is_explicit": false,
+        "vulnerability": "Correlation does not equal causation; a third variable, such as general intelligence or socio-economic status, could drive both knowledge acquisition and reading ability."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "E7",
+        "claim_id": "C12",
+        "warrant_text": "If a text is unreadable to highly educated readers solely due to a lack of topic-specific knowledge (football), then topic familiarity, not general education level, is the decisive factor in readability.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that 'effectively unreadable' is an exaggeration; an educated reader can still parse the syntax even if they miss the nuances."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "E4",
+        "claim_id": "C11",
+        "warrant_text": "Comprehension requires identifying the author's intent; if intent is signaled by genre (irony) rather than literal words, then genre knowledge is a prerequisite for understanding.",
+        "is_explicit": true,
+        "vulnerability": "Assumes there are no internal textual cues that could reveal irony to a reader unfamiliar with the genre."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "E13",
+        "claim_id": "C28",
+        "warrant_text": "If processing difficulty occurs across different languages when related segments are separated, the primary obstacle is cognitive load/memory rather than the inherent 'simplicity' of the sentence structure.",
+        "is_explicit": false,
+        "vulnerability": "Hindi and Russian structural issues may not map perfectly to English syntactic 'simplicity' as defined by US readability formulas."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C32",
+        "claim_id": "C31",
+        "warrant_text": "A valid readability formula must be monotonic; if it predicts a text is easier but the text is actually harder, the underlying theory of the formula is flawed.",
+        "is_explicit": false,
+        "vulnerability": "The formulas might be intended as statistical averages for general populations rather than absolute predictions for every specific sentence pairing."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C36",
+        "claim_id": "C33",
+        "warrant_text": "If a processing difficulty occurs across diverse and unrelated language families (morphological vs. word-order), the cause must be a universal cognitive constraint like memory-linking rather than language-specific rules.",
+        "is_explicit": true,
+        "vulnerability": "Cross-linguistic prevalence might be due to common communicative needs rather than a specific cognitive 'linking' constraint."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C44",
+        "claim_id": "C40",
+        "warrant_text": "An exception to a rule (a very short but very difficult sentence) disproves the rule if the rule claims that length is the primary determinant of difficulty.",
+        "is_explicit": true,
+        "vulnerability": "Self-embedded structures are rare 'edge cases' in natural language; sentence length might still be an excellent proxy for difficulty in 99% of normal writing."
+      },
+      {
+        "id": "W4",
+        "evidence_id": "C47",
+        "claim_id": "C46",
+        "warrant_text": "If a variable external to the text (context) can alter the difficulty of the text's internal structure (syntax), then any measure that ignores that external variable is inherently unreliable.",
+        "is_explicit": false,
+        "vulnerability": "One could create a 'baseline' scale for syntax while acknowledging that context may shift a specific reader's experience up or down that scale."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C53",
+        "claim_id": "C51",
+        "warrant_text": "If a reader's failure to comprehend a text is caused by a lack of genre awareness (satire), then genre knowledge must be a necessary component of the internal conceptual models readers use.",
+        "is_explicit": false,
+        "vulnerability": "A critic might argue that Swift's satire is a unique case of intentional deception, not representative of general reading processes."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C59",
+        "claim_id": "C61",
+        "warrant_text": "If two cognitive domains (knowledge and reading) mutually enhance each other, the most effective educational strategy is to teach them in tandem rather than in isolation.",
+        "is_explicit": true,
+        "vulnerability": "Simultaneous instruction could potentially overwhelm students with lower cognitive loads or distract from foundational decoding skills."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C69",
+        "claim_id": "C65",
+        "warrant_text": "If a variable (reading performance) fluctuates significantly when one factor (topic familiarity) changes while the subject (the student) remains the same, that variable cannot be a fixed trait of the subject.",
+        "is_explicit": true,
+        "vulnerability": "It ignores the possibility of a 'floor' or 'ceiling' of general skill that limits the range of that fluctuation."
+      },
+      {
+        "id": "W1",
+        "evidence_id": "C71",
+        "claim_id": "C70",
+        "warrant_text": "A metric (like 'reading level') is invalid if its results are highly sensitive to an external variable (topic knowledge) that the metric fails to account for.",
+        "is_explicit": false,
+        "vulnerability": "Critics might argue that reading levels provide a useful 'baseline' for word frequency and syntactic complexity even if topic knowledge introduces variance."
+      },
+      {
+        "id": "W2",
+        "evidence_id": "C74",
+        "claim_id": "C73",
+        "warrant_text": "If historical pedagogical shifts correlate consistently with changes in national literacy scores, the pedagogical method is the most likely cause of those changes.",
+        "is_explicit": true,
+        "vulnerability": "Correlation does not equal causation; other factors like teacher training, economic shifts, or social changes could explain the historical reading scores."
+      },
+      {
+        "id": "W3",
+        "evidence_id": "C76",
+        "claim_id": "C78",
+        "warrant_text": "Educational methods must align with the fundamental functional requirements of the subject being taught (in this case, the communal nature of language).",
+        "is_explicit": true,
+        "vulnerability": "One can acknowledge the communal nature of language while still believing that individual choice and interest-led discovery are the best ways to motivate a child to learn that language."
+      }
+    ],
+    "missing_steps": [
+      {
+        "id": "MS1",
+        "from_id": "C4",
+        "to_id": "C81",
+        "missing_step": "The physical layout of furniture (e.g., small groups or pods) is the primary obstacle to the whole-class instruction required for shared knowledge building.",
+        "step_type": "causal_mechanism",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C1",
+        "to_id": "C2",
+        "missing_step": "Individualized background knowledge (every child knowing different things) is insufficient for national literacy and social cohesion.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C12",
+        "to_id": "C27",
+        "missing_step": "A robust theory must be able to quantify or systematically categorize 'non-textual information' to be practically applicable.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C18",
+        "to_id": "C21",
+        "missing_step": "The failure of *current* readability formulas implies that *all* such formulas are fundamentally incapable of establishing a link between ability and text difficulty.",
+        "step_type": "generalization",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C40",
+        "to_id": "C31",
+        "missing_step": "While sentence length may not be the *cause* of difficulty, the author assumes it is not a valid *correlate* or proxy for difficulty, which requires further empirical proof.",
+        "step_type": "empirical_assumption",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C33",
+        "to_id": "C46",
+        "missing_step": "Establishing that 'linking' is the primary syntactic challenge is necessary before concluding that a single scale is impossible due to contextual 'linking' aids.",
+        "step_type": "causal_mechanism",
+        "severity": "minor"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C59",
+        "to_id": "C61",
+        "missing_step": "The empirical fact of a bidirectional relationship implies that school structures must prioritize efficiency and mutual reinforcement over disciplinary silos.",
+        "step_type": "normative_premise",
+        "severity": "minor"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C65",
+        "to_id": "C67",
+        "missing_step": "The topics chosen for familiarity must be those shared by the broader 'speech community' rather than niche or individual interests to yield social and academic benefits.",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS1",
+        "from_id": "C76",
+        "to_id": "C73",
+        "missing_step": "The necessity of shared conventions (spelling/grammar) entails a necessity for shared classroom content (specific topics).",
+        "step_type": "generalization",
+        "severity": "significant"
+      },
+      {
+        "id": "MS2",
+        "from_id": "C71",
+        "to_id": "C72",
+        "missing_step": "No significant 'general' skill acquisition occurs during the process of mastering domain-specific texts.",
+        "step_type": "empirical_assumption",
+        "severity": "minor"
+      }
+    ],
+    "counter_arguments": [
+      {
+        "id": "CA1",
+        "targets_claim": "C81",
+        "objection": "Furniture arrangements are often 'pedagogically neutral' and flexible; a teacher can conduct whole-class instruction in a room with clustered desks just as easily as in rows.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C4",
+        "objection": "While reading levels are not absolute, they provide a necessary scaffold for beginning readers to ensure they are not overwhelmed by decoding demands before they can even access their topic knowledge.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C8",
+        "objection": "Child-chosen topics significantly increase student motivation and engagement, which are better predictors of long-term literacy outcomes than the specific content of the text.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C12",
+        "objection": "Foundational decoding skills and general linguistic fluency (syntax/morphology) are prerequisites that exist independently of specific background knowledge.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C26",
+        "objection": "While imperfect, grade levels provide a necessary heuristic for librarians and teachers who cannot feasibly assess the specific knowledge overlap for every student and every book.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C21",
+        "objection": "There is a strong statistical correlation between general intelligence (g) and the speed at which a reader can acquire the background knowledge needed to make a text readable.",
+        "objection_type": "empirical_challenge"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C40",
+        "objection": "Standard readability formulas like Flesch-Kincaid use sentence length not because length itself causes difficulty, but because length strongly correlates with the presence of multiple clauses and complex ideas in naturalistic writing.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C46",
+        "objection": "Even if context mitigates difficulty, there is still a hierarchy of 'intrinsic' syntactic complexity that exists independently of the reader's knowledge, which can and should be measured for educational purposes.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C31",
+        "objection": "Readability formulas are intended for large-scale corpus analysis where individual sentence anomalies (like self-embedding) wash out in the statistical average, making them useful despite these theoretical flaws.",
+        "objection_type": "scope_limitation"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C63",
+        "objection": "Standardized readability levels, while theoretically flawed, serve as a necessary administrative heuristic for managing large-scale library acquisitions and state-level curricula where individual topic familiarity cannot be pre-assessed.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C67",
+        "objection": "Focusing on the 'broader speech community' risks reinforcing cultural hegemony and marginalizing the background knowledge of minority groups or non-dominant cultures.",
+        "objection_type": "value_disagreement"
+      },
+      {
+        "id": "CA1",
+        "targets_claim": "C73",
+        "objection": "Individualized 'bins of books' are intended to foster a love of reading and intrinsic motivation, which are long-term predictors of literacy success that whole-class instruction might stifle.",
+        "objection_type": "alternative_explanation"
+      },
+      {
+        "id": "CA2",
+        "targets_claim": "C70",
+        "objection": "Even if reading levels are topic-dependent, they remain statistically valid tools for ensuring texts are 'at-level' regarding vocabulary rarity and sentence structure for the average reader.",
+        "objection_type": "methodological_concern"
+      },
+      {
+        "id": "CA3",
+        "targets_claim": "C78",
+        "objection": "Characterizing student-centered instruction as 'semi-religious' ignores the secular pedagogical research on child development and the importance of differentiated instruction for students with varying needs.",
+        "objection_type": "value_disagreement"
+      }
+    ],
+    "argument_chains": [
+      {
+        "name": "The Scientific Deconstruction of Readability",
+        "chain": [
+          "C1",
+          "C5",
+          "C4"
+        ],
+        "conclusion_id": "C4",
+        "strength": "strong"
+      },
+      {
+        "name": "The Material Consequences of Theory",
+        "chain": [
+          "C4",
+          "C8",
+          "C82",
+          "C81"
+        ],
+        "conclusion_id": "C81",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Knowledge Overlap Chain",
+        "chain": [
+          "C10",
+          "C11",
+          "C13",
+          "C12"
+        ],
+        "conclusion_id": "C12",
+        "strength": "strong"
+      },
+      {
+        "name": "The Refutation of Readability Formulas",
+        "chain": [
+          "C18",
+          "C19",
+          "C22",
+          "C26"
+        ],
+        "conclusion_id": "C26",
+        "strength": "moderate"
+      },
+      {
+        "name": "The New Theory Imperative",
+        "chain": [
+          "C21",
+          "C23",
+          "C25",
+          "C26",
+          "C27"
+        ],
+        "conclusion_id": "C27",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Failure of Length-Based Metrics",
+        "chain": [
+          "C32",
+          "C44",
+          "C42",
+          "C40",
+          "C45",
+          "C31"
+        ],
+        "conclusion_id": "C31",
+        "strength": "strong"
+      },
+      {
+        "name": "Cognitive Mechanism of Readability",
+        "chain": [
+          "C34",
+          "C35",
+          "C36",
+          "C38",
+          "C37",
+          "C33"
+        ],
+        "conclusion_id": "C33",
+        "strength": "strong"
+      },
+      {
+        "name": "The Contextual Defeat of Syntactic Scaling",
+        "chain": [
+          "C39",
+          "C41",
+          "C47",
+          "C49",
+          "C46"
+        ],
+        "conclusion_id": "C46",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Refutation of Formal Readability",
+        "chain": [
+          "C51",
+          "C54",
+          "C56",
+          "C58",
+          "C63"
+        ],
+        "conclusion_id": "C63",
+        "strength": "strong"
+      },
+      {
+        "name": "The Curricular Integration Argument",
+        "chain": [
+          "C59",
+          "C60",
+          "C61"
+        ],
+        "conclusion_id": "C61",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Social Communicability Argument",
+        "chain": [
+          "C68",
+          "C65",
+          "C67"
+        ],
+        "conclusion_id": "C67",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Technical Refutation of Readability",
+        "chain": [
+          "C71",
+          "C72",
+          "C70"
+        ],
+        "conclusion_id": "C70",
+        "strength": "strong"
+      },
+      {
+        "name": "The Practical Superiority of Teacher-Led Instruction",
+        "chain": [
+          "C70",
+          "C74",
+          "C73",
+          "C75"
+        ],
+        "conclusion_id": "C73",
+        "strength": "moderate"
+      },
+      {
+        "name": "The Linguistic Basis for Communal Pedagogy",
+        "chain": [
+          "C76",
+          "C79",
+          "C80",
+          "C78"
+        ],
+        "conclusion_id": "C78",
+        "strength": "moderate"
+      }
+    ]
+  },
+  "metadata": {
+    "total_cost_usd": 0.0064146,
+    "duration_s": 76.47015070915222
+  }
+}
