@@ -322,7 +322,7 @@ async def generate(
 
         if _cost_log:
             try:
-                _cost_log.log(project="otak", model=f"{model_info['provider']}/{model_info['id']}",
+                _cost_log.log(project="hirsch-atlas", model=f"{model_info['provider']}/{model_info['id']}",
                               prompt_tokens=raw["input_tokens"], completion_tokens=raw["output_tokens"],
                               cost_usd=cost)
             except Exception:
@@ -363,7 +363,7 @@ async def generate(
                          fallback_model, raw["duration_s"], cost)
                 if _cost_log:
                     try:
-                        _cost_log.log(project="otak", model=f"{fb_info['provider']}/{fb_info['id']}",
+                        _cost_log.log(project="hirsch-atlas", model=f"{fb_info['provider']}/{fb_info['id']}",
                                       prompt_tokens=raw["input_tokens"], completion_tokens=raw["output_tokens"],
                                       cost_usd=cost)
                     except Exception:
